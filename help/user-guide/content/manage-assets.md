@@ -3,7 +3,7 @@ title: 管理資產和體驗
 description: 簡化並增強對品牌核准資產的管理，以便在您的數位行銷歷程中使用和重複使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -28,9 +28,11 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 
 右側相簿上方的&#x200B;**[!UICONTROL 位置]**&#x200B;清單可讓您從已連線的Adobe Experience Manager (AEM) [!DNL Assets Content Hub]存放庫中進行選取。 當您選取AEM存放庫時，相簿會顯示該存放庫中的資產詳細目錄，好讓您利用這些存放庫中已核准的資產作為內容建立的輸入專案。 篩選器選項會變更，以反映[!DNL AEM Assets Content Hub]中設定的類別。
 
+如需將[!DNL AEM Assets Content Hub]存放庫新增到GenStudio for Performance Marketing的指引，請參閱[連線AEM存放庫](connect-aem-repo.md)。
+
 AEM存放庫為唯讀，這表示您無法將草稿、新資產或中繼資料儲存至AEM存放庫。 資產、體驗和範本的所有草稿和最終更新都會使用新的[系統中繼資料](asset-details.md#system-metadata)儲存到`GenStudio assets`存放庫。
 
-如需將[!DNL AEM Assets Content Hub]存放庫新增到GenStudio for Performance Marketing的指引，請參閱[連線AEM存放庫](connect-aem-repo.md)。
+{{note-aem-assets}}
 
 ## Assets管理
 
