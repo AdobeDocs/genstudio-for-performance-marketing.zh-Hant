@@ -3,9 +3,9 @@ title: 績效行銷的Adobe GenStudio中的品牌驗證
 description: 瞭解內建品牌驗證系統如何在GenStudio中運作，以利有效行銷。
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: f9bfd6d7429f1f24947c398ec73b4b350a7e828f
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -65,19 +65,22 @@ _品牌驗證_&#x200B;面板會顯示下列專案的資訊：
 
 **若要改善產生的內容變體的品牌一致性**：
 
-1. 按一下&#x200B;**[!UICONTROL [!DNL Brand]指南核取]**&#x200B;圖示以取得個別變體。
+1. 按一下&#x200B;**[!UICONTROL [!DNL Brand]指南核取]**&#x200B;圖示以取得個別變體。 [!DNL Brand]指南檢查會顯示變體的品牌一致性百分比數量。
 
    檢視有多少品牌指引符合品牌驗證或需要更多注意的摘要。
 
 1. 若要取得需要改進的區段和准則的詳細資訊，請按一下&#x200B;**[!UICONTROL 檢閱]** _或_&#x200B;按一下頂端功能表列中的&#x200B;_品牌驗證_&#x200B;圖示以開啟&#x200B;_品牌驗證_&#x200B;面板。
 
-   檢視需要您注意的所有區段和品牌指引。<!-- The section highlighted in the panel corresponds to the section highlighted in the generated variant in the Canvas. -->
+   檢視需要您注意的所有區段和品牌指引。
 
    >[!NOTE]
    >
    > _品牌驗證面板_&#x200B;中註記的&#x200B;_品牌聲音_&#x200B;指引適用於整個變體，而非個別區段。 系統會強調顯示整個內容變體，以利提出改善建議。
 
-1. 手動修訂變體區段，以與您的品牌最強整合。
+1. 使用&#x200B;**[!UICONTROL 下一個]**&#x200B;和&#x200B;**[!UICONTROL 上一個]**&#x200B;按鈕，逐一檢視每個需要注意的指引。
+
+1. 使用各指引所述理由，通知變體區段的任何修訂版本，以達成與品牌最強的對應。
+
 
 1. 進行必要的修訂後，按一下&#x200B;**[!UICONTROL 再次檢查]**&#x200B;以重新檢查並驗證您的變更，確保變更更符合您的品牌識別。
 
