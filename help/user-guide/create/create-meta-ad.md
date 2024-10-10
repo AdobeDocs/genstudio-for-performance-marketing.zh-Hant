@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,11 @@ ht-degree: 0%
 **若要修訂產生的變體**：
 
 * **若要[編輯中繼廣告草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名的草稿_&#x200B;標題，然後輸入新標題。
-* **若要[手動編輯中繼廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請連按兩下任何廣告區段（例如主旨列、標題或內文）並視需要編輯。
+* **若要[手動編輯中繼廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按兩下任何廣告區段(例如主旨列、
+頁首或內文)，並視需要編輯。
 * **若要變更或選取行動號召**，請按一下行動號召按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_[!UICONTROL 連結]_&#x200B;中，輸入行動號召文字的URL。
-* **若要[變更廣告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小與外觀比例，請按一下&#x200B;_[!UICONTROL 調整大小]_&#x200B;按鈕（在畫布左邊有按鈕圖示的方塊），然後選取要套用至所有變體的新大小與外觀比例。 變數會複製並調整大小。
-<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠游標停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。 按一下「**[!UICONTROL 套用]**」。
+* **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
+* **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠游標停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。
 * **若要[刪除中繼廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下廣告標題（例如「Meta 4」）並按一下&#x200B;**[!UICONTROL 刪除變體]**。
 
 ## 提交產生回饋

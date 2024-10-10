@@ -3,7 +3,7 @@ title: 效能行銷的GenStudio概觀 [!DNL Create]
 description: 使用Adobe GenStudio中的創作AI快速產生高效能且符合品牌規範的內容，以進行效能行銷 [!DNL Create]。
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 7c1ea8d2738da39521f3ec26d69982ef64b2576e
+source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 1%
@@ -141,7 +141,3 @@ GenStudio for Performance Marketing會針對品牌身分識別的各個層面進
 適用於效能行銷的GenStudio可讓[完整控制個別變體](/help/user-guide/create/manage-variants.md)的區段。
 
 您可以修訂單一變體的區段、重新產生個別區段的內容，並使用建議的編輯來改善訊息、調整資產大小等等，所有這些都在畫布中。
-
-<!-- ### Anatomy of an email experience
-
-## Prerequisites for using Create -->
