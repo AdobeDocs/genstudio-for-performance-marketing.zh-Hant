@@ -3,9 +3,9 @@ title: 建立無障礙範本
 description: 在Adobe GenStudio for Performance Marketing中建立範本，這些範本可觸及更多對象並提供最佳體驗。
 feature: Templates, Content
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: fee67ba0d9781cf16ac909eddf385bd3d60ac97b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,11 @@ Adobe致力於為所有受眾提供最佳體驗。 如需進一步閱讀，請�
 
 ![創意拼貼、書籍、拿著巨鉛筆的男人、電腦](../../assets/card-create-assets.png){width="400"}
 
-## 對比率
+## 字型
 
-提供文字和背景之間的適當對比。 使用下列最小對比率：
+使用容易閱讀的字型。 例如，Sans Serif字型具有整潔的區塊式外觀，這有助於提高可讀性。
+
+提供文字和背景之間的適當對比。 避免使用在深色背景產生深色文字，而在淺色背景產生淺色文字的字型顏色。 考量最佳比率的對比准則：
 
 - 文字和影像：對比率至少為4.5:1
 - 大型文字的大型文字和影像：至少3:1的對比率
