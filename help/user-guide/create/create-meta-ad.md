@@ -4,12 +4,11 @@ description: 瞭解如何為Facebook或Instagram建立品牌內中繼廣告體�
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -43,13 +42,12 @@ ht-degree: 0%
 
    如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio以進行效能行銷](/help/user-guide/guidelines/add-guidelines.md)。
 
-1. 按一下&#x200B;**[!UICONTROL 選取內容]**&#x200B;以新增要在體驗&#x200B;*中使用的內容，並按一下*&#x200B;以影響內容產生。
-   * 若要選取已發佈至[!DNL Content]的資產（影像），請按一下&#x200B;**[!UICONTROL 從內容選取]**，然後按一下以選取想要的影像。 使用篩選器進一步縮小搜尋結果的範圍。
+1. 新增內容以用於體驗&#x200B;*和*，以影響內容產生：
+   * 按一下&#x200B;**[!UICONTROL 從「內容」選取]**，從[!DNL Content]存放庫選取資產（影像）、篩選並選取一或多個影像。
 
-     如果您想要使用已存在於連線的AEM Content Hub存放庫中的資產，請從「_位置_」下拉式選單中選取適用的位置，然後按一下以選取想要的影像。
+     若要使用已連線[!DNL AEM Assets Content Hub]存放庫中的資產，請從&#x200B;_位置_&#x200B;下拉式選單中選擇存放庫。 篩選並選取一或多個影像。
 
-   * 按一下&#x200B;**[!UICONTROL 上傳]**&#x200B;瀏覽您的檔案，並選擇要使用的資產。 除了瀏覽裝置之外，您也可以從Microsoft OneDrive或Dropbox匯入。 按一下以選取所需的影像。
-   * 將資產拖放至&#x200B;_Content_&#x200B;區段。
+   * 或者，將資產拖放至&#x200B;**[!UICONTROL 從內容選取]**&#x200B;區段，以上傳一或多個新資產。
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
 
 新增完引數後，您可以再次按一下&#x200B;_引數_&#x200B;圖示來收合提示區域。
@@ -88,7 +86,7 @@ ht-degree: 0%
 * **若要變更或選取行動號召**，請按一下行動號召按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_[!UICONTROL 連結]_&#x200B;中，輸入行動號召文字的URL。
 * **若要[變更廣告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小與外觀比例，請按一下&#x200B;_[!UICONTROL 調整大小]_&#x200B;按鈕（在畫布左邊有按鈕圖示的方塊），然後選取要套用至所有變體的新大小與外觀比例。 變數會複製並調整大小。
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠游標停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。
+* **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠游標停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。 按一下「**[!UICONTROL 套用]**」。
 * **若要[刪除中繼廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下廣告標題（例如「Meta 4」）並按一下&#x200B;**[!UICONTROL 刪除變體]**。
 
 ## 提交產生回饋
@@ -126,7 +124,7 @@ ht-degree: 0%
 
 若要讓產生的中繼廣告可供目前和未來使用，請將它發佈至[!UICONTROL Content]，並匯出以用於您的行銷活動。
 
-1. **若要發佈您新的中繼廣告體驗**，請按一下頂端工具列中的&#x200B;**[!UICONTROL Publish]**。
+1. **若要發佈新的中繼廣告體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL Publish]**。
 1. **若要匯出您新的中繼廣告體驗**，請按一下頂端工具列中的&#x200B;**[!UICONTROL 匯出]**。
    1. 選取格式(僅限CSV和影像或HTML)，然後按一下「匯出」****。
 

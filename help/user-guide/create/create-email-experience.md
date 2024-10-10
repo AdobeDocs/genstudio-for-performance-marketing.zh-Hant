@@ -4,12 +4,11 @@ description: 瞭解如何在Adobe GenStudio中建立效能行銷的電子郵件�
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -43,13 +42,12 @@ ht-degree: 0%
 
    如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio以進行效能行銷](/help/user-guide/guidelines/add-guidelines.md)。
 
-1. 按一下&#x200B;**[!UICONTROL 選取內容]**&#x200B;以新增要在體驗&#x200B;*中使用的內容，並按一下*&#x200B;以影響內容產生。
-   * 若要從您的[!DNL Content]存放庫選取資產（影像），請按一下&#x200B;**[!UICONTROL 從內容選取]**。 篩選並選取一或多個影像。
+1. 新增內容以用於體驗&#x200B;*和*，以影響內容產生：
+   * 按一下&#x200B;**[!UICONTROL 從「內容」選取]**，從[!DNL Content]存放庫選取資產（影像）、篩選並選取一或多個影像。
 
      若要使用已連線[!DNL AEM Assets Content Hub]存放庫中的資產，請從&#x200B;_位置_&#x200B;下拉式選單中選擇存放庫。 篩選並選取一或多個影像。
 
-   * 若要上傳一或多個新資產，請按一下[上傳] ****，瀏覽您的檔案，然後選擇要使用的資產。 瀏覽裝置時，您可以從Microsoft OneDrive或Dropbox匯入。 按一下以選取所需的影像。
-   * 將資產拖放至&#x200B;_Content_&#x200B;區段。
+   * 或者，將資產拖放至&#x200B;**[!UICONTROL 從內容選取]**&#x200B;區段，以上傳一或多個新資產。
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
 
 >[!NOTE]
@@ -124,7 +122,7 @@ ht-degree: 0%
 
 若要讓產生的電子郵件可供目前和未來使用，請將它發佈至[!UICONTROL Content]，並匯出以用於您的行銷活動。
 
-1. **若要發佈您的新電子郵件體驗**，請按一下頂端工具列中的&#x200B;**[!UICONTROL Publish]**。
+1. **若要發佈您的新電子郵件體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL Publish]**。
 1. **若要匯出您的新電子郵件體驗**，請按一下頂端工具列中的[匯出]。****
    1. 選取格式(僅限CSV和影像或HTML)，然後按一下「匯出」****。
 

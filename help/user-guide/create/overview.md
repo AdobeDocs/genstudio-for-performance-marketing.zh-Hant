@@ -3,9 +3,9 @@ title: 效能行銷的GenStudio概觀 [!DNL Create]
 description: 使用Adobe GenStudio中的創作AI快速產生高效能且符合品牌規範的內容，以進行效能行銷 [!DNL Create]。
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 7c1ea8d2738da39521f3ec26d69982ef64b2576e
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
@@ -18,46 +18,78 @@ ht-degree: 1%
 
 * [電子郵件](email-experiences.md)
 * [中繼廣告](meta-experiences.md)
-<!-- * Social media images and ads
-* Display ads -->
+* [顯示廣告](display-ad-experiences.md)
 
 除了[指南](/help/user-guide/guidelines/overview.md)—[!DNL Brands]、[!DNL Products]和[!DNL Personas]—[內容](/help/user-guide/content/overview.md)、[稽核和核准](/help/user-guide/approvals/overview.md)和[深入分析](/help/user-guide/insights/overview.md)、[!DNL Create]的強大功能以外，還有助於建立具影響力的品牌一致行銷內容。
 
 ## [!DNL Create] 使用案例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="建立新內容" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>建立電子郵件體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <!-- <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/content/overview.md">
+
       <img alt="Re-use existing content" src="../../assets/icons/icon-addContent.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/content/overview.md">
+
          <strong>Re-use existing content</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../create/generate-variants.md">
+
       <img alt="Generate variants of approved content" src="../../assets/icons/icon-template.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="../create/generate-variants.md">
+
          <strong>Generate variants of approved content</strong>
+
          </a>
+
       </div>
+
    </td> -->
+
 </tr>
+
 </table>
 
 GenStudio績效行銷可讓行銷人員&#x200B;**建立新的行銷內容**。 在此使用案例中，使用已定義的[指南](/help/user-guide/guidelines/overview.md)和靈感影像來通知建立符合品牌標準的內容。
