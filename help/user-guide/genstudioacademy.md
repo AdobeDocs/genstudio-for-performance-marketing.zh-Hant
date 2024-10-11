@@ -4,9 +4,9 @@ description: 透過Adobe GenStudio Academy增強您的內容供應鏈技能
 recommendations: disable, exclude
 index: false
 hidefromtoc: true
-source-git-commit: 91ad365ba7096a770d57f2de5d5c65e24ec32e4e
+source-git-commit: ef6bf8c691748844a25957de284c4f8e7dbc5e25
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -70,69 +70,61 @@ ht-degree: 0%
 
 <table>
 
- <tr style= "border: 0;colspan: 3;">
+    <tr style="border: 0;">
 
-  <td colspan="3"> <strong style= "font-size: 2em;">即將推出</strong></td>
+        <td colspan="3">
 
- </tr> 
+            <strong style="font-size: 2em;">即將推出</strong>
 
- <tr style= "border: 0;colspan: 3;"> 
+        </td>
 
-   <td align="Center">
+    </tr>
 
-      <img src="../assets/tips-and-tricks.png">
+    <tr style="border: 0;">
 
-      <div>
+        <td align="center">
 
-      <strong>提示與秘訣</strong>
+            <img src="../assets/tips-and-tricks.png" alt="提示與秘訣">
 
-      </div>
+            <div>
 
-      <p>
+                <strong>提示與秘訣</strong>
 
-      以最有效率的方式使用GenStudio for Performance Marketing的秘訣與技巧。
+            </div>
 
-      </p>
+            <p>以最有效率的方式使用GenStudio for Performance Marketing的秘訣與技巧。</p>
 
-   </td>
+        </td>
 
-   <td align="Center">
+        <td align="center">
 
-      <img src="../assets/social-learning.png">
+            <img src="../assets/social-learning.png" alt="社交學習">
 
-      <div>
+            <div>
 
-      <strong>社交學習</strong>
+                <strong>社交學習</strong>
 
-      </div>
+            </div>
 
-      <p>
+            <p>向同儕學習，並在整個組織內輕鬆分享知識。</p>
 
-      向同儕學習，並在整個組織內輕鬆分享知識。
+        </td>
 
-      </p>
+        <td align="center">
 
-   </td>
+            <img src="../assets/expert-courses.png" alt="專家課程">
 
-   <td align="Center">
+            <div>
 
-      <img src="../assets/expert-courses.png">
+                <strong>專家課程</strong>
 
-      <div>
+            </div>
 
-      <strong>專家課程</strong>
+            <p>解鎖行銷專家級AI技能的高級課程。</p>
 
-      </div>
+        </td>
 
-      <p>
-
-      解鎖行銷專家級AI技能的高級課程。
-
-      </p>
-
-   </td>
-
- </tr>
+    </tr>
 
 </table>
 
@@ -142,13 +134,33 @@ ht-degree: 0%
 
     <tr></tr>
 
- <tr style= "border: 0;">
+    <tr style="border: 0;">
 
- <td><img src="../assets/put-your-learnings-into-practice.png"></td>
+        <td>
 
-  <td> <strong style= "font-size: 2em">將您的學習付諸實踐。</strong><p>探索GenStudio for Performance Marketing這項創作AI優先的應用程式，讓行銷團隊建立自己的廣告和電子郵件，以推動具影響力的個人化行銷活動。<p><a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">我想深入瞭解</span></a></td>
+            <img src="../assets/put-your-learnings-into-practice.png" alt="將您的學習付諸實踐">
 
- </tr>
+        </td>
+
+        <td>
+
+            <strong style="font-size: 3em">將您的學習付諸實踐。</strong>
+
+            <p>探索GenStudio for Performance Marketing，這是創作AI優先的應用程式，可讓行銷團隊建立自己的廣告和電子郵件，以推動具影響力的個人化行銷活動。</p>
+
+            <p>
+
+                <a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM">
+
+                    <span class="spectrum-Button-label has-no-wrap">帶我去那裡</span>
+
+                </a>
+
+            </p>
+
+        </td>
+
+    </tr>
 
     <tr></tr>
 
