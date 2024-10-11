@@ -3,7 +3,7 @@ title: 核准內容
 description: 瞭解如何核准內容。
 feature: Approval
 exl-id: f6458d8f-dff3-448e-9f08-6d192f8a91d9
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%

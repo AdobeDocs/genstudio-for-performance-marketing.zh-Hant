@@ -3,7 +3,7 @@ title: 效能行銷的GenStudio概觀 [!DNL Create]
 description: 使用Adobe GenStudio中的創作AI快速產生高效能且符合品牌規範的內容，以進行效能行銷 [!DNL Create]。
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 1%
@@ -25,42 +25,75 @@ ht-degree: 1%
 ## [!DNL Create] 使用案例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="建立新內容" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>建立電子郵件體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <!-- <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/content/overview.md">
+
       <img alt="Re-use existing content" src="../../assets/icons/icon-addContent.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/content/overview.md">
+
          <strong>Re-use existing content</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../create/generate-variants.md">
+
       <img alt="Generate variants of approved content" src="../../assets/icons/icon-template.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="../create/generate-variants.md">
+
          <strong>Generate variants of approved content</strong>
+
          </a>
+
       </div>
+
    </td> -->
+
 </tr>
+
 </table>
 
 GenStudio績效行銷可讓行銷人員&#x200B;**建立新的行銷內容**。 在此使用案例中，使用已定義的[指南](/help/user-guide/guidelines/overview.md)和靈感影像來通知建立符合品牌標準的內容。
-<!-- * **Re-use existing content** - In this use case, upload an existing email, ad, or image to GenStudio for Performance Marketing and use the power of Adobe generative AI technology to revise and improve existing content. 
+<!-- * **Re-use existing content** - In this use case, upload an existing email, ad, or image to GenStudio for Performance Marketing and use the power of Adobe generative AI technology to revise and improve existing content.
 * **Generate variants of approved content** - In this use case, [generate variations of content that is approved by stakeholders](generate-variants.md) and published to [!DNL Content]. -->
 
 ## [!DNL Create]功能
@@ -75,7 +108,7 @@ GenStudio績效行銷可讓行銷人員&#x200B;**建立新的行銷內容**。 �
 
 ### 引數
 
-在提示區域中，您可以新增&#x200B;_引數_ (例如[!DNL Brands]、[!DNL Products]和[!DNL Personas] （准則）)和[!DNL Content] （資產），以塑造產生的體驗。
+在提示抽屜中，您可以新增&#x200B;_引數_ (例如[!DNL Brands]、[!DNL Products]和[!DNL Personas] （准則）)和[!DNL Content] （資產），以塑造產生的體驗。
 
 這些新增的引數將[准則](/help/user-guide/guidelines/overview.md)和資產插入產生程式，確保內容已自訂以符合品牌的完整身分。 我們建議您在您的GenStudio中新增績效行銷准則，並在內容產生程式中使用這些准則，因為這些准則可大幅增強建立適當的品牌上內容。
 
@@ -85,7 +118,7 @@ GenStudio績效行銷可讓行銷人員&#x200B;**建立新的行銷內容**。 �
 
 [製作有效提示](/help/user-guide/effective-prompts.md)是[!DNL Create]中產生程式的重要部分。
 
-若要建立AI產生的內容，請在提示區域中輸入描述您要產生的內容或體驗的[描述性提示](/help/user-guide/effective-prompts.md)，以及[指南](/help/user-guide/guidelines/overview.md)和&#x200B;[_引數_](#parameters)，然後按一下&#x200B;**[!UICONTROL 產生]**。
+若要建立AI產生的內容，請在提示抽屜中輸入[描述性提示](/help/user-guide/effective-prompts.md)，說明您要產生的內容或體驗，以及[指南](/help/user-guide/guidelines/overview.md)和&#x200B;[_引數_](#parameters)，然後按一下&#x200B;**[!UICONTROL 產生]**。
 
 ### 品牌驗證
 

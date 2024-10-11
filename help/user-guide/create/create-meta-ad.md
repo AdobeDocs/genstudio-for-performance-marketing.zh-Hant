@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 0%
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 ## 新增引數
 
-在提示區域新增[指南](/help/user-guide/guidelines/overview.md)和資產（位於&#x200B;_引數_&#x200B;中）可增強內容產生程式，是準備產生中繼廣告的重要步驟。
+在提示抽屜中新增[指南](/help/user-guide/guidelines/overview.md)和&#x200B;_引數_&#x200B;中的資產，可強化內容產生程式，是準備產生中繼廣告的重要步驟。
 
 **若要新增引數和資產**：
 
-1. 按一下&#x200B;_引數_&#x200B;圖示以展開提示區域。
+1. 按一下&#x200B;_引數_&#x200B;圖示以展開提示抽屜。
 1. 在&#x200B;_引數_&#x200B;區段中，選取指導方針 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知內容建立。
 
    如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio以進行效能行銷](/help/user-guide/guidelines/add-guidelines.md)。
@@ -50,7 +50,7 @@ ht-degree: 0%
    * 或者，將資產拖放至&#x200B;**[!UICONTROL 從內容選取]**&#x200B;區段，以上傳一或多個新資產。
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
 
-新增完引數後，您可以再次按一下&#x200B;_引數_&#x200B;圖示來收合提示區域。
+新增完引數後，您可以再次按一下&#x200B;_引數_&#x200B;圖示來收合提示抽屜。
 
 ## 輸入提示
 

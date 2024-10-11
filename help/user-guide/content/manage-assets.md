@@ -3,7 +3,7 @@ title: 管理資產和體驗
 description: 簡化並增強對品牌核准資產的管理，以便在您的數位行銷歷程中使用和重複使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+source-git-commit: 600d4a37be22bd057074b4dd3773b75f0273a567
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -36,7 +36,7 @@ AEM存放庫為唯讀，這表示您無法將草稿、新資產或中繼資料�
 
 ## Assets管理
 
-在[!UICONTROL Content]中，效能行銷人員可輕鬆儲存、擷取及管理其數位資產。 藉由運用`GenStudio assets`存放庫和AEM存放庫，使用者可確保他們的資產有良好的組織且可供各種行銷活動存取。 此多存放庫方法可讓您靈活控制各環境中的資產使用情況，確保行銷工作中僅使用已核准和最新的資產。
+在[!UICONTROL Content]中，效能行銷可以輕鬆儲存、擷取及管理其數位資產。 藉由運用`GenStudio assets`存放庫和AEM存放庫，使用者可確保他們的資產有良好的組織且可供各種行銷活動存取。 此多存放庫方法可讓您靈活控制各環境中的資產使用情況，確保行銷工作中僅使用已核准和最新的資產。
 
 ### 新增資產
 
@@ -66,7 +66,7 @@ AEM存放庫為唯讀，這表示您無法將草稿、新資產或中繼資料�
 
 1. 若要檢視您上傳的新資產，請按一下畫布底部的&#x200B;_可用新資產_&#x200B;通知中的&#x200B;**[!UICONTROL 重新整理]**。
 
-<!-- 
+<!--
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 

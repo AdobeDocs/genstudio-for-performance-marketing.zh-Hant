@@ -4,7 +4,7 @@ description: 瞭解如何建立Adobe GenStudio for Performance Marketing的自�
 level: Intermediate
 feature: Templates, Content
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%

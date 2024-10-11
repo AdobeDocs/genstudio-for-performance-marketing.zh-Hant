@@ -1,11 +1,11 @@
 ---
 title: 建立顯示廣告體驗
-description: 瞭解如何在Adobe [!DNL GenStudio] 中為效能行銷人員建立顯示廣告體驗。
+description: 瞭解如何在Adobe [!DNL GenStudio] 中建立效能行銷的顯示廣告體驗。
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 9fc0ad86b99ca61a73b46fd8febfcf66b2975d75
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -33,14 +33,14 @@ ht-degree: 0%
 
 ## 新增引數
 
-在提示區域新增[指南](/help/user-guide/guidelines/overview.md)和&#x200B;_引數_&#x200B;中的資產，會增加內容產生程式的費用，是產生顯示廣告體驗的必要準備步驟。
+在提示抽屜中新增[指南](/help/user-guide/guidelines/overview.md)和&#x200B;_引數_&#x200B;中的資產，會增加內容產生程式的費用，是產生顯示廣告體驗的必要準備步驟。
 
 **若要新增引數和資產**：
 
-1. 按一下&#x200B;_引數_&#x200B;圖示以展開提示區域。
+1. 按一下&#x200B;_引數_&#x200B;圖示以展開提示抽屜。
 1. 在&#x200B;_引數_&#x200B;區段中，選取指導方針 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知內容建立。
 
-   如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio效能行銷人員適用的](/help/user-guide/guidelines/add-guidelines.md)。
+   如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio以進行效能行銷](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. 若要新增要在體驗&#x200B;*和*&#x200B;中使用的內容，以影響內容產生：
    * 按一下&#x200B;**[!UICONTROL 從「內容」選取]**，從[!DNL Content]存放庫選取資產（影像）、篩選並選取一或多個影像。
@@ -50,7 +50,7 @@ ht-degree: 0%
    * 或者，將資產拖放至&#x200B;**[!UICONTROL 從內容選取]**&#x200B;區段，以上傳一或多個新資產。
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
 
-當您完成新增引數時，請再次按一下&#x200B;_引數_&#x200B;圖示來摺疊提示區域。
+當您完成新增引數時，請再次按一下&#x200B;_引數_&#x200B;圖示來收合提示抽屜。
 
 ## 輸入提示
 

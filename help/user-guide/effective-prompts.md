@@ -3,7 +3,7 @@ title: 撰寫有效的提示
 description: 瞭解如何為Adobe GenStudio for Performance Marketing撰寫有效的提示。
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -39,13 +39,13 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 ## 提示條件
 
-在GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)中，您可以在提示區域使用&#x200B;**[!UICONTROL 提示條件]** （[_引數_](/help/user-guide/create/overview.md#parameters)&#x200B;和提示），透過選取來新增詳細資料，以改善AI解譯。
+在GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)中，您可以在提示抽屜中使用&#x200B;**[!UICONTROL 提示條件]** （[_引數_](/help/user-guide/create/overview.md#parameters)&#x200B;和提示），透過選取來新增詳細資料，以改善AI解譯。
 
 對於[電子郵件](/help/user-guide/create/email-experiences.md)，提示條件可能包括在&#x200B;_引數_&#x200B;中新增[指南](/help/user-guide/guidelines/overview.md)、上傳要在電子郵件變體中使用的資產，以及描述性提示。 對於[中繼廣告](/help/user-guide/create/create-meta-ad.md)，提示條件可能包括&#x200B;_引數_&#x200B;中的品牌指引、選取或上傳現有資產、影像或資產（例如外觀比例）的相關設定以及提示。 實際效能始於[設定准則](/help/user-guide/guidelines/add-guidelines.md)。
 
 >[!NOTE]
 >
->如果在提示區域的&#x200B;_引數_&#x200B;中新增准則，您就不需要在提示中包含參考這些准則。 GenStudio for Performance Marketing在內容產生中會運用這些[!DNL Brands]、[!DNL Products]和[!DNL Personas]。
+>如果在提示抽屜的&#x200B;_引數_&#x200B;中新增准則，您就不需要在提示中包含這些准則的參照。 GenStudio for Performance Marketing在內容產生中會運用這些[!DNL Brands]、[!DNL Products]和[!DNL Personas]。
 
 ### 准則
 
