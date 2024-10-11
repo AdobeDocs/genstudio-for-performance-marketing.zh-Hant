@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing概念
 description: 瞭解Adobe GenStudio for Performance Marketing概念和術語。
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 4d2a7b72132e7bdba314c9f7c83eed327c579c46
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -34,44 +34,85 @@ GenStudio for Performance Marketing運用創作AI的強大功能，加速內容�
 對於以更快的速度在多個管道提供高品質體驗的需求很高。 GenStudio for Performance Marketing將內容供應鏈簡化為行銷人員妥善組織的工作流程。 GenStudio for Performance Marketing在生命週期的每個階段都運用Adobe技術。
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-       <img alt="行事曆" src="../assets/csc-workflow-planning.png" width="100">
-    </td>
+
     <td>
+
+       <p><strong>工作流程與規劃</strong></p>
+
+    </td>
+
+    <td>
+
         <p>集思廣益、定義指引，並圍繞內容建立策略以吸引受眾。</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="筆刷和畫布" src="../assets/csc-creation-production.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>建立與生產</strong></p>
+
+    </td>
+
+    <td>
+
         <p>根據計畫產生內容。 即時共同作業、接收意見回饋、進行編輯並核准內容。</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="影像等" src="../assets/csc-content-mgmt.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>內容管理</strong></p>
+
+    </td>
+
+    <td>
+
         <p>在集中式存放庫中儲存、共用和尋找創意資產。 根據效能重新使用和振興內容。</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="紙飛機" src="../assets/csc-delivery-activation.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>傳遞與啟用</strong></p>
+
+    </td>
+
+    <td>
+
         <p>啟用內容並跨多個行銷管道發佈。</P>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="圖表" src="../assets/csc-reporting-insights.png" width="100">
-    </td>
+
     <td>
-        <p>收集資料並取得資產效能最佳化的深入分析。</p>
+
+        <p><strong>報告與深入分析</strong></p>
+
     </td>
+
+    <td>
+
+        <p>收集資料並取得資產效能最佳化的深入分析。</p>
+
+    </td>
+
 </tr>
+
 </table>
