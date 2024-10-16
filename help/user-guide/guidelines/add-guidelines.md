@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 9ff0e14af49d8759c8384c67e61832d205fa6e90
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 0%
@@ -185,7 +185,7 @@ GenStudio for Performance Marketing使用Adobe的創作AI技術，從您上傳�
 
 1. 選取&#x200B;**[!UICONTROL 新增角色]**&#x200B;按鈕，然後選擇&#x200B;**上傳PDF**。
 1. 按一下「**[!UICONTROL 繼續]**」。
-1. 在「新增角色」快顯視窗中，將角色檔案附加或拖曳到其中(_A)。
+1. 在&#x200B;_新增您的角色_&#x200B;快顯視窗中，附加或拖曳您的角色檔案。
 
    您最多可以附加五個PDF檔案，總共最多500 MG。
 

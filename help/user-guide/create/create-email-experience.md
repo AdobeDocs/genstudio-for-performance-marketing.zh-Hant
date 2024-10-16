@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的電子郵件範本有多個區段，請在&#x200B;_多區段電子郵件_&#x200B;中為每個電子郵件區段選取[!DNL Products]和內容（視覺資產）。 多節電子郵件支援每個節一個視覺資產。
+>如果您的電子郵件範本有多個區段，請在&#x200B;_多區段電子郵件_&#x200B;中為每個電子郵件區段選取[!DNL Products]和內容（視覺資產）。 多節電子郵件支援每個節一個視覺資產。 您只能從[!DNL Content]將視覺資產新增至多節電子郵件，而不能從本機來源拖放或上傳資產。
 
 當您完成新增引數時，可以再次按一下&#x200B;_引數_&#x200B;圖示來收合提示抽屜。
 
