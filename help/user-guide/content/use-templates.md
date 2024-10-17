@@ -3,9 +3,9 @@ title: 使用範本
 description: 瞭解如何在Adobe GenStudio for Performance Marketing中有效使用範本來簡化您的創意流程。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 3a361134a0b56a2973399e38e62f4ab345a3dbc8
+source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
    需要範本名稱和管道型別。 其他需求可能包括：
 
    - **Meta**：需要外觀比例
-   <!-- - **Display ads**: requires Dimensions -->
+   - **顯示廣告**：需要Dimension
 
 1. 新增儘可能多的詳細資訊，以改善搜尋和篩選中的範本識別。
 

@@ -4,9 +4,9 @@ description: 瞭解如何針對Adobe GenStudio for Performance Marketing個人�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
+source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -47,10 +47,7 @@ GenStudio for Performance Marketing會自動填入下列範本中的特定欄位
 
 - **電子郵件範本**&#x200B;不需要您識別`subject`欄位
 - **中繼廣告範本**&#x200B;不需要您識別`headline`、`body`和`CTA`欄位
-
-<!--
-- **Display Ads template** does not require you to identify the `CTA` field
--->
+- **顯示廣告範本**&#x200B;不需要您識別`CTA`欄位
 
 >[!WARNING]
 >
