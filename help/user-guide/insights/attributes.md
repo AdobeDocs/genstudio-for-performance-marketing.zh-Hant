@@ -2,9 +2,9 @@
 title: 屬性總覽
 description: 瞭解如何評估Adobe GenStudio for Performance Marketing中特定屬性的效能。
 feature: Insights, Assets
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Select any of the following to open a detailed list of feature categories:
 
 ### 量度詳細資料
 
-下表提供[!UICONTROL 屬性]檢視中關鍵數位行銷量度的定義與深入分析。 每個量度都包含與資產相關的簡短定義、量度的計算方式，以及有助於瞭解其對廣告促銷活動之重要性和影響的一或多個深入分析。
+下表提供[!UICONTROL 屬性]表格檢視中關鍵數位行銷量度的定義與深入分析。 每個量度都包含與資產相關的簡短定義、量度的計算方式，以及有助於瞭解其對廣告促銷活動之重要性和影響的一或多個深入分析。
 
 | 量度 | 定義 | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
@@ -120,5 +120,6 @@ Select any of the following to open a detailed list of feature categories:
 | **[!UICONTROL 點按]** | 使用者與此屬性之影像或視訊互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
 | **[!UICONTROL CTR ]**<br>_點進率_ | 導致點按具有此屬性的影像或影片的曝光百分比(%)。<br>**計算**： `clicks`除以`impressions` | 高點進率表示內容與訊息和設計的對象高度相關且充滿動力，並有效鎖定對象的興趣。 |
 | **[!UICONTROL CPM ]**<br>_每千成本_ | 具有此屬性的影像或視訊每有一千次廣告印象的成本($)。<br>**計算**：總金額`spent`除以範圍，然後乘以1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
+| **[!UICONTROL CPA ]**<br>_每個動作的成本_ | 完成特定客戶動作（例如購買或訂閱）所花費的平均成本($)。<br>**計算**：總金額`spent`除以已完成的客戶動作數目 | 協助識別可產生寶貴客戶動作的屬性。 |
 | **[!UICONTROL CPC ]**<br>_每次點按成本_ | 與此屬性相關的每次影像或影片點選的平均成本($)。<br>**計算**：總金額`spent`除以`clicks` | 平均成本降低可能表示廣告支出符合成本效益，尤其是與轉換率增加相比。 |
 | **[!UICONTROL 支出]** | 與指定期間內的屬性相關的預算花費金額($)。 | 在短時間內發生高支出量可能表示快速使用，這可能導致資源提早耗盡。 根據關鍵績效指標追蹤支出金額，協助監控整體投資報酬率。 |
