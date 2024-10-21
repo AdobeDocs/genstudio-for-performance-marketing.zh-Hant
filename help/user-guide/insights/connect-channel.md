@@ -4,16 +4,16 @@ description: 連線管道帳戶，以監控您的Adobe GenStudio for Performance
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 7b3ecc1964df3d5a3fdc5c32b1e5c80f29133560
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # 連線頻道和帳戶
 
-第一次開啟[!DNL Insights]時，您可能會看到橫幅，引導您將Adobe GenStudio for Performance Marketing與您的頻道帳戶連線。
+第一次開啟[!DNL Insights]時，您可能會看到橫幅，引導您將Adobe GenStudio for Performance Marketing與管道帳戶連線。
 
 此連線可讓GenStudio for Performance Marketing接收您作用中行銷活動、資產和體驗的統計資料。 最初，GenStudio for Performance Marketing會擷取最近6個月的資料，讓您擁有工具來分析最新資料並採取行動。
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **資料擷取與保留原則**
 
-GenStudio for Performance Marketing會保留13個月的管道資料。 這包括為期6個月的初始回顧期間，以確保完整的歷史資料分析和報告。
+GenStudio for Performance Marketing會保留13個月的管道資料。 此保留原則包含在初始連線期間擷取的6個月資料，以確保完整的歷史資料分析和報告。
 
 >[!ENDSHADEBOX]
 
@@ -33,6 +33,7 @@ GenStudio for Performance Marketing會保留13個月的管道資料。 這包括
 
 - facebook/中繼廣告帳戶
 - 存取具有`View performance`許可權層級的中繼廣告帳戶，以存取報表和檢視廣告
+- 移除瀏覽器中的任何快顯封鎖程式
 
 >[!ENDSHADEBOX]
 
@@ -40,21 +41,16 @@ GenStudio for Performance Marketing會保留13個月的管道資料。 這包括
 
 1. 在&#x200B;_[!DNL Insights]_中，按一下&#x200B;**[!UICONTROL 連線管道帳戶]**。
 
-   >[!INFO]
-   >
-   >系統可能會引導您登入Facebook。 facebook是目前唯一可用的選項。
+   系統可能會引導您登入Facebook。 facebook是目前唯一可用的選項。
 
 1. 登入您的Facebook帳戶。
+
+   您可能必須移除快顯視窗封鎖程式，然後使用&#x200B;**[!UICONTROL 重新整理]**&#x200B;再試一次。
 
 1. 在&#x200B;_[!UICONTROL 重新連線]_&#x200B;快顯視窗(Meta toAdobe符號)中，驗證帳戶資訊，然後按一下&#x200B;**[!UICONTROL 重新連線]**。
 
    重新連線以重新檢視GenStudio for Performance Marketing。
 
 1. 在&#x200B;_[!UICONTROL 連線中繼廣告帳戶]_&#x200B;檢視中，選取一或多個廣告帳戶並按一下&#x200B;**[!UICONTROL 連線帳戶]**。
-<!--
->[!INFO]
->
->You may receive an error if you previously enrolled the channel account with GenStudio for Performance Marketing.
 
-The new user experience shows a banner to connect an account. There is not option to connect yet after you have one connection.
--->
+   `Account successfully connected`橫幅會出現在[!DNL Insights]頁面底部。 您的資料可能需要幾分鐘才能使用。
