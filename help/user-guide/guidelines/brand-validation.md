@@ -3,9 +3,9 @@ title: 績效行銷的Adobe GenStudio中的品牌驗證
 description: 瞭解內建品牌驗證系統如何在GenStudio中運作，以利有效行銷。
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ ht-degree: 0%
 * 複製不同管道平台的准則
 * AI產生的內容中與性別、種族、種族、殘疾狀況和年齡相關的倫理考量
 
-## 品牌准則檢查
+## [!DNL Brand]指南檢查
 
-可透過「畫布」中每個變體旁的&#x200B;_品牌指引檢查_&#x200B;圖示，存取每個已產生內容變體的品牌驗證資訊摘要。
+可透過&#x200B;_[!DNL Brand]指南check_&#x200B;圖示存取每個產生的內容變體的品牌驗證資訊摘要，該圖示位於畫布中的每個變體旁。
 
-_品牌准則檢查_&#x200B;會顯示您的[品牌](brands.md)的相容性百分比。 百分比的計算方式為通過驗證的[准則](overview.md)數目與測試的准則數目。
+_[!DNL Brand]准則檢查_&#x200B;顯示符合您[品牌](brands.md)的百分比。 百分比的計算方式為通過驗證的[准則](overview.md)數目與測試的准則數目。
+
+![[!DNL Brand]准則檢查](/help/assets/brand-guidelines-check.png){width="450" zoomable="yes"}
 
 按一下圖示，以檢視有多少指引符合您的品牌，以及有多少指引需要檢閱。
 
@@ -33,6 +35,8 @@ _品牌准則檢查_&#x200B;會顯示您的[品牌](brands.md)的相容性百分
 ## 品牌驗證面板
 
 從上方功能表列&#x200B;_或_&#x200B;按一下&#x200B;_品牌准則檢查_&#x200B;變體圖示時，_品牌驗證_&#x200B;面板會在畫布右側開啟。 此面板提供詳細的品牌驗證資訊，並闡明每個變體區段的改善機會。
+
+![[!DNL Brand]驗證面板](/help/assets/brand-validation-panel.png){width="650" zoomable="yes"}
 
 _品牌驗證_&#x200B;面板會顯示下列專案的資訊：
 

@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,10 @@ GenStudio for Performance Marketing使用Adobe的創作AI技術，從您上傳�
    您可以填入各種選用的指南和影像，以建立您的品牌。
 
 1. 在&#x200B;_關於_&#x200B;區段中新增品牌的相關資訊。
-1. 輸入&#x200B;[_品牌語音准則_](brands.md#brand-voice-guidelines)。
+1. 輸入[_[!DNL Brand]語音准則&#x200B;_](brands.md#brand-voice-guidelines)。
+
+   ![新增[!DNL Brand]語音准則](/help/assets/brand-voice-add.png){width="650" zoomable="yes"}
+
 1. 為每個適用的管道輸入&#x200B;[_管道准則_](brands.md#channel-guidelines)。
 1. 輸入&#x200B;[_影像指導方針_](brands.md#image-guidelines)。 展開「影像指導方針」區段中的每個類別，檢視所有指導方針。
 
@@ -101,7 +104,9 @@ GenStudio for Performance Marketing使用Adobe的創作AI技術，從您上傳�
 
 在左側導覽區域中，按一下&#x200B;**[!DNL Products]**。 在&#x200B;_[!DNL Products]_面板中，選取&#x200B;**新增產品**。
 
-您可以在GenStudio for Performance Marketing中新增[!DNL Products]，在建立內容時指定個別產品的焦點區域。<!-- Add Rename, display, reposition functionality -->
+![新增[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
+
+您可以在GenStudio for Performance Marketing中新增[!DNL Products]，在建立內容時指定個別產品的焦點區域。
 
 請參閱[[!DNL Products]](products.md)。
 
@@ -212,7 +217,10 @@ GenStudio for Performance Marketing使用Adobe的創作AI技術，從您上傳�
 
    您可以填入各種選用的指南和影像，以建置您的角色。
 
-1. 在&#x200B;_描述_&#x200B;區段中新增品牌的相關資訊。
+1. 在&#x200B;_描述_&#x200B;區段中新增有關您[!DNL Persona]的資訊。
+
+   ![新增[!DNL Persona]](/help/assets/personas-add.png){width="650" zoomable="yes"}
+
 1. 按一下「**[!UICONTROL 新角色名稱]**」並輸入[!DNL Persona]的名稱。
 1. 按一下&#x200B;_描述_&#x200B;並輸入此[!DNL Persona]的描述。
 1. 按一下&#x200B;_訊息偏好設定_&#x200B;並輸入[!DNL Persona]的訊息詳細資料。

@@ -3,9 +3,9 @@ title: GenStudio效能行銷 [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] 是一系列完整的品牌資產，包括行銷文案、影像、體驗等，可協助您建立與品牌一致的內容。
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ GenStudio for Performance Marketing會使用您品牌的豐富品牌資訊，並
 ## [!DNL Brands]指南
 
 指引為GenStudio效能行銷提供您品牌特定方法、語調、視覺感受等的清晰描述。
+
+![品牌方針](/help/assets/brands.png){width="600" zoomable="yes"}
 
 下列指引各節詳細說明每個指引類別、範例指引和潛在結果。 指引範例是塑造結果輸出的輸入範例（以下結果範例），使用這些範例來通知您自己的品牌指引。
 

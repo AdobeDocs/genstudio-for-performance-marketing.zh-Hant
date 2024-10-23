@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: bd24c4e25df1210dd6ff2b7f17f999963133294a
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ ht-degree: 0%
 1. 按一下&#x200B;_引數_&#x200B;圖示以展開提示抽屜。
 1. 在&#x200B;_引數_&#x200B;區段中，選取指導方針 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知內容建立。
 
+   ![選擇角色](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio以進行效能行銷](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. 新增內容以用於體驗&#x200B;*和*，以影響內容產生：
    * 按一下&#x200B;**[!UICONTROL 從「內容」選取]**，從[!DNL Content]存放庫選取資產（影像）、篩選並選取一或多個影像。
+
+     ![選擇視覺內容](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
      若要使用已連線[!DNL AEM Assets Content Hub]存放庫中的資產，請從&#x200B;_位置_&#x200B;下拉式選單中選擇存放庫。 篩選並選取一或多個影像。
 
@@ -102,6 +106,8 @@ ht-degree: 0%
 1. 按一下[**[!UICONTROL [!DNL Brand]指南核取]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)圖示以取得變體，並檢視該變體在針對您的品牌進行核取時的表現摘要。
 1. 若要取得需要改進的區段和准則的詳細資訊，請按一下&#x200B;**[!UICONTROL 檢閱]** _或_&#x200B;按一下頂端功能表列中的品牌驗證圖示，以開啟&#x200B;[_品牌驗證面板_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)。
 
+   ![品牌驗證面板](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+
 1. 切換每個廣告，瞭解如何改善產生的內容，使其更加與品牌保持一致。
 1. [手動修訂廣告](#revise-generated-meta-ads)，確保您的廣告與品牌緊密一致。
 
@@ -114,6 +120,9 @@ ht-degree: 0%
 **若要取得稽核與核准**：
 
 1. [啟動核准要求](/help/user-guide/approvals/request-review.md)以徵求[草擬中繼廣告體驗的核准](/help/user-guide/approvals/approve-content.md)。
+
+   ![傳送草稿以供檢閱和核准](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
+
 1. [在稽核程式期間移除或新增稽核者](/help/user-guide/approvals/review-and-edit.md#manage-approvals)。
 1. [存取內容以供檢閱](/help/user-guide/approvals/review-and-edit.md#access-content-for-review)並檢視修訂要求。
 1. 編輯每次稽核評論的草稿，並[發佈您的中繼廣告體驗](#publish-and-export-experience)。

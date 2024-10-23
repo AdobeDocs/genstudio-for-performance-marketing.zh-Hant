@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ ht-degree: 0%
 1. 按一下&#x200B;_引數_&#x200B;圖示以展開提示抽屜。
 1. 在&#x200B;_引數_&#x200B;區段中，選取指導方針 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知內容建立。
 
+   ![選擇角色](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio以進行效能行銷](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. 新增內容以用於體驗&#x200B;*和*，以影響內容產生：
    * 按一下&#x200B;**[!UICONTROL 從「內容」選取]**，從[!DNL Content]存放庫選取資產（影像）、篩選並選取一或多個影像。
+
+     ![選擇視覺內容](/help/assets/content-select-email.png){width="500" zoomable="yes"}
 
      若要使用已連線[!DNL AEM Assets Content Hub]存放庫中的資產，請從&#x200B;_位置_&#x200B;下拉式選單中選擇存放庫。 篩選並選取一或多個影像。
 
@@ -51,8 +55,8 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
 
 >[!NOTE]
->
 >如果您的電子郵件範本有多個區段，請在&#x200B;_多區段電子郵件_&#x200B;中為每個電子郵件區段選取[!DNL Products]和內容（視覺資產）。 多節電子郵件支援每個節一個視覺資產。 您只能從[!DNL Content]將視覺資產新增至多節電子郵件，而不能從本機來源拖放或上傳資產。
+>![為每個電子郵件區段](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}新增內容和引數
 
 當您完成新增引數時，可以再次按一下&#x200B;_引數_&#x200B;圖示來收合提示抽屜。
 
@@ -98,9 +102,15 @@ ht-degree: 0%
 **若要驗證品牌一致性**：
 
 1. 按一下[**[!UICONTROL [!DNL Brand]指南核取]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)圖示以取得變體，並檢視該變體在針對您的品牌進行核取時的表現摘要。
+
+   ![品牌准則檢查](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+
 1. 若要取得需要改進的區段和准則的詳細資訊，請按一下&#x200B;**[!UICONTROL 檢閱]** _或_&#x200B;按一下頂端功能表列中的品牌驗證圖示，以開啟&#x200B;[_品牌驗證面板_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)。
 
 1. 切換每封電子郵件，瞭解如何改善產生的內容，使其更加與品牌保持一致。
+
+   ![品牌驗證面板](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
+
 1. [手動修訂電子郵件](#revise-generated-emails)，以確保您的電子郵件與品牌緊密一致。
 
 請參閱[品牌驗證](/help/user-guide/guidelines/brand-validation.md)。

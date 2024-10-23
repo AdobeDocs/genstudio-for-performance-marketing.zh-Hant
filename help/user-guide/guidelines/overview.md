@@ -3,7 +3,7 @@ title: ' [!DNL Brands]、 [!DNL Products]和 [!DNL Personas]的總覽'
 description: 將 [!DNL Brands], [!DNL Products], and [!DNL Personas] 新增至GenStudio以進行效能行銷，以建立包含品牌代表性各個層面的完整品牌描述檔。
 feature: Guidelines, Brands Service, Personas Service, Products Service
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

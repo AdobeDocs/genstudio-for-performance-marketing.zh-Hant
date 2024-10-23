@@ -2,9 +2,9 @@
 title: 管理變體
 description: 根據您的數位行銷需求，自訂及增強產生的變體和資產。
 feature: Content, Assets, Experiences
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 5e92233248c555a3b0a59bd4dbb0935e4c8cfb1f
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,16 @@ GenStudio for Performance Marketing具有內建功能，可使用&#x200B;_[!UICO
 
 例如，您可以重新產生一個中繼廣告變體的標題區段，以使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項 — _[!UICONTROL 重新片語]_、_[!UICONTROL Shortter]_&#x200B;或&#x200B;_[!UICONTROL Lengthen]_ — 並輸入新提示來檢視它在特定背景資產中的外觀。
 
+![重新產生區段](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
+
 **若要重新產生個別變體區段**：
 
 1. 產生一組變體後，按一下變體中的任何可編輯文字。
-1. （_選擇性_）輸入新的提示以變更重新產生內容的焦點。
 1. 選取&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項 — _[!UICONTROL 重新片語]_、_[!UICONTROL 縮短]_&#x200B;或&#x200B;_[!UICONTROL 加長]_。
-1. 按一下&#x200B;**[!UICONTROL 產生]**。
-1. 如果要重新產生結果，請按一下&#x200B;_結果_&#x200B;旁的重新產生圖示。
+   * 選擇可用的選項，然後按一下&#x200B;**[!UICONTROL 取代]**。
+1. （_選擇性_）選取_[!UICONTROL 使用提示產生]並輸入新的提示以變更重新產生內容的焦點。
+   * 按一下&#x200B;**[!UICONTROL 產生]**。
+1. 如果要重新產生結果以檢視更多選項，請按一下&#x200B;_結果_&#x200B;旁的重新產生圖示。
 1. 從顯示的&#x200B;_結果_&#x200B;中，選取所要的選項，然後按一下&#x200B;**[!UICONTROL 取代]**。
 
    變體會以修訂後的文字更新。
@@ -151,6 +154,8 @@ GenStudio for Performance Marketing具有內建功能，可使用&#x200B;_[!UICO
 ## 產生意見回饋
 
 對於產生的品牌一致資產品質，可提交意見回饋，以改進內容產生流程。 指出結果是否具有高品質或低品質，有助於提升GenStudio for Performance Marketing的整體內容品質和使用者安全。
+
+![提交內容產生的意見反應](/help/assets/generation-feedback.png){width="500" zoomable="yes"}
 
 產生回饋意見適用於個別變體，不適用於收集的變體集。
 
