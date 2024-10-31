@@ -2,10 +2,10 @@
 title: Adobe GenStudio for Performance Marketing發行說明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增強功能。
 recommendations: noDisplay
-source-git-commit: c3e6e5f4213074b4093591ac06e8341c9d46c212
+source-git-commit: ea897aaf6069aa70ef73baf961f56e485eeb383e
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 5%
+source-wordcount: '369'
+ht-degree: 4%
 
 ---
 
@@ -13,7 +13,25 @@ ht-degree: 5%
 
 此版本資訊詳細說明GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2024.10.14全面發佈 {#latest}
+## 2024.10.31  {#latest}
+
+### 新功能
+
+* **[!DNL Content]**&#x200B;搜尋篩選器現在支援依顏色標籤搜尋。 <!-- GS-5501 -->
+
+* **[!DNL Create]**&#x200B;畫布現在會顯示電子郵件片段的字元計數。<!-- GS-5819 -->
+
+### 修正
+
+* 已新增遺失的熒幕閱讀器標籤至行動裝置和案頭`view`元素。<!-- GS-5624 4729 -->
+
+* **[!DNL Create]**&#x200B;畫布電子郵件主旨行和標題前文字區域的高度現在為動態的。<!-- GS-6258 -->
+
+* 電子郵件框線的配置問題已解決。<!-- GS-6631 -->
+
+* 鍵盤焦點現在在&#x200B;**[!DNL Content]** **[!UICONTROL 刪除]**&#x200B;按鈕上按預期運作。 之前，鍵盤無法連線或操作此按鈕。  <!-- GS-4065 -->
+
+## 2024.10.14全面發佈
 
 此發行版本介紹Adobe GenStudio for Performance Marketing，這是一個創作AI型應用程式，可加速行銷活動的規劃、開發和分析。 GenStudio for Performance Marketing可讓行銷團隊針對廣告、電子郵件和行銷活動建立品牌內多頻道內容，同時提供即時深入分析以最佳化內容效能。
 
