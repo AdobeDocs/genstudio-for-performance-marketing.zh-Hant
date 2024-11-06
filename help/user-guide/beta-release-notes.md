@@ -1,12 +1,13 @@
 ---
 title: Adobe GenStudio for Performance Marketing Beta發行說明
-description: 瞭解Adobe GenStudio for Performance Marketing的最新功能和增強功能。
+description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增強功能。
 hidefromtoc: true
+hide: true
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: 9b5e8b37ba988c3dd4a1e5a828487997375474ac
+source-git-commit: ad532813338a7506483c2ab5892a61d7dc4785d4
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
