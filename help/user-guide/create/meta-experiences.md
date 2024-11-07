@@ -4,9 +4,9 @@ description: 瞭解Adobe GenStudio for Performance Marketing中的所有中繼�
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 透過Adobe GenStudio for Performance Marketing，您可以使用創作AI來簡化[建立高影響力的中繼體驗](/help/user-guide/create/create-meta-ad.md)。
 
 [!DNL Create]可讓內容建立者使用[指南](/help/user-guide/guidelines/overview.md)、影像資產，以及[精心設計的提示](/help/user-guide/effective-prompts.md)，快速[建立中繼廣告體驗](/help/user-guide/create/create-meta-ad.md)。
+
+產生中繼體驗時，四個變數會建立並顯示在畫布中。
 
 電子郵件體驗的可編輯區段包括：
 

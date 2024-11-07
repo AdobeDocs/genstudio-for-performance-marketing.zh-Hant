@@ -5,7 +5,7 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
+source-git-commit: 5cd6abba1f56c9a2875c7e7dc5b94a353fc5e78e
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 1. 按一下&#x200B;_引數_&#x200B;圖示以展開提示抽屜。
 1. 在&#x200B;_引數_&#x200B;區段中，選取指導方針 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知內容建立。
 
-   如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio以進行效能行銷](/help/user-guide/guidelines/add-guidelines.md)。
+   如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. 若要新增要在體驗&#x200B;*和*&#x200B;中使用的內容，以影響內容產生：
    * 按一下&#x200B;**[!UICONTROL 從「內容」選取]**，從[!DNL Content]存放庫選取資產（影像）、篩選並選取一或多個影像。
@@ -65,7 +65,7 @@ ht-degree: 0%
 1. 在&#x200B;_「描述您要產生的體驗」_&#x200B;提示方塊中輸入提示。
 1. 按一下&#x200B;**[!UICONTROL 產生]**。
 
-依預設，會產生一個變數（由您新增的提示、指引和內容所推動）並顯示在畫布中。
+依照預設，會產生四個變數（由您新增的提示、指引和內容所驅動），並顯示在畫布中。
 
 ## 修訂產生的顯示廣告
 
