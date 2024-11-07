@@ -1,24 +1,24 @@
 ---
-title: 將准則新增至效能行銷的Adobe GenStudio
-description: 瞭解如何在效能行銷的Adobe GenStudio中新增准則 — [!DNL Brands]、 [!DNL Products]和 [!DNL Personas]。
+title: 將准則新增至Adobe GenStudio for Performance Marketing
+description: 瞭解如何在Adobe GenStudio for Performance Marketing中新增准則 — [!DNL Brands]、 [!DNL Products]和 [!DNL Personas]。
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
+source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
 
 # 新增准則
 
-[[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md)和[[!DNL Personas]](/help/user-guide/guidelines/personas.md)是GenStudio中用於效能行銷的使用者定義准則，可確保任何AI產生的內容都經過自訂，以符合品牌識別，從而實現內容的有效個人化。
+[[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md)和[[!DNL Personas]](/help/user-guide/guidelines/personas.md)是GenStudio for Performance Marketing中的使用者定義方針，可確保任何AI產生的內容都會經過自訂，以符合品牌識別，從而實現內容的有效個人化。
 
 請參閱[指南概述](/help/user-guide/guidelines/overview.md)。
 
-在GenStudio中新增效能行銷的准則，是建立流程中的重要步驟。 指南會告知內容建立流程，以及使用者定義的提示和Adobe創作AI技術，以製作具影響力的資產。
+將准則新增至GenStudio for Performance Marketing是建立流程中的重要步驟。 指南會告知內容建立流程，以及使用者定義的提示和Adobe創作AI技術，以製作具影響力的資產。
 
 ## 新增[!DNL Brands]
 
@@ -72,31 +72,46 @@ GenStudio for Performance Marketing使用Adobe的創作AI技術，從您上傳�
 
 若要檢視您建立的[!DNL Brands]，請按一下&#x200B;_品牌_&#x200B;面板頂端附近的向後箭頭，以導覽回&#x200B;_[!DNL Brands]_首頁。
 
-您不必[發佈](#publish-brand)您的品牌，即可存取資訊。 任何手動新增的資訊在新增後即可立即使用。 若要讓貴組織中的其他人在GenStudio中使用品牌資訊以進行效能行銷，您必須發佈該品牌資訊。
+您不必[發佈](#publish-brand)您的品牌，即可存取資訊。 任何手動新增的資訊在新增後即可立即使用。 若要讓貴組織中的其他人在GenStudio for Performance Marketing中使用品牌資訊，您必須將其發佈。
 
 ### Publish品牌
 
 發佈您的品牌之前，請按一下&#x200B;_品牌語音指南_、_頻道指南_、_影像指南_&#x200B;及&#x200B;_標誌_&#x200B;區段，檢閱所有填入的資訊。 視需要對品牌指導方針進行變更。
 
-**若要發佈品牌**：
+**若要發佈品牌准則草稿**：
 
+1. 在左側導覽區域中，按一下&#x200B;**[!UICONTROL [!DNL Brands]]**。
+
+   目前已發佈的所有品牌皆會看到&#x200B;_已發佈_&#x200B;徽章。
+
+1. 按一下以開啟未發佈的品牌。 如果品牌未發佈，則會顯示&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕。
+1. 在&#x200B;_Publish品牌_&#x200B;快顯視窗中，確認誰擁有檢視及使用已發佈品牌的存取權。
 1. 選取「**[!UICONTROL 發佈]**」。
+1. 在出現的&#x200B;_Publish品牌_&#x200B;快顯視窗中，選取&#x200B;**[!UICONTROL Publish]**。
 
-   在&#x200B;_Publish品牌_&#x200B;快顯視窗中，確認誰擁有已發佈品牌的存取權（以檢視及使用）。
+   快顯視窗會確認品牌已發佈 — 「新品牌現已就緒」。
 
-1. 點擊&#x200B;**[!UICONTROL 發佈]**。
+1. 按一下&#x200B;**[!UICONTROL 完成]**&#x200B;結束快顯視窗。
 
-發佈品牌時，會出現橫幅，確認您的品牌已準備好使用： &quot;*品牌已發佈且可使用*&quot;。
+品牌顯示綠色圓點和「已發佈」，並出現&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕。
+
+**若要取消發佈已發佈的品牌**，請按一下以開啟該品牌，然後按一下&#x200B;**[!UICONTROL Publish]**。
 
 已發佈的品牌現在可在&#x200B;_[!DNL Create]_或_[!DNL Content]_&#x200B;中使用。
 
 ### 管理[!DNL Brands]
 
-在&#x200B;_[!DNL Brands]_首頁中，您可以按一下&#x200B;**開啟已建立的品牌**以編輯或檢閱它，或從[!DNL Brands]動作功能表的清單中&#x200B;**重新命名**或&#x200B;**刪除品牌**：
+在&#x200B;_[!DNL Brands]_首頁中，您可以按一下以開啟已建立的品牌，以進行管理或發佈。
 
-* 按一下品牌圖磚以開啟品牌。
-* 從[!DNL Brands]動作功能表選取「**[!UICONTROL 重新命名]**」以重新命名現有角色。
-* 從[!DNL Brands]動作功能表選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以刪除品牌。
+**若要檢視或修改品牌**：
+
+1. 在左側導覽區域中，按一下&#x200B;**[!UICONTROL [!DNL Brands]]**。
+1. 若要檢視品牌的總覽資訊，請按一下以開啟已定義的品牌。
+1. 若要檢視個別詳細資料或修改品牌准則，請按一下頂端的[**[!UICONTROL 品牌語音准則]**](#brand-voice-guidelines)、[**[!UICONTROL 頻道准則]**](#channel-guidelines)、**[!UICONTROL 影像准則]**&#x200B;或&#x200B;**[!UICONTROL 標誌]**。
+1. 若要重新命名現有品牌，請從[!DNL Brands]動作功能表選取&#x200B;**[!UICONTROL 重新命名]**。
+1. 若要刪除品牌，請從[!DNL Brands]動作功能表選取&#x200B;**[!UICONTROL 刪除]**。
+
+您可以將品牌指引檔案(最多三個PDF或DOC檔案)上傳至GenStudio for Performance Marketing以自動建立品牌。
 
 ## 新增[!DNL Products]
 
@@ -176,7 +191,7 @@ GenStudio for Performance Marketing使用Adobe的創作AI技術，從您上傳�
 
 在左側導覽區域中，按一下&#x200B;**[!DNL Personas]**。 在&#x200B;_[!DNL Personas]_面板中，選取&#x200B;**新增角色**。
 
-您可以在GenStudio for Performance Marketing中新增[!DNL Persona]，協助將您建立的內容目標定位到您理想的對象。
+您可以在GenStudio for Performance Marketing中新增[!DNL Persona]，協助將您建立的內容鎖定為您理想的對象。
 
 請參閱[[!DNL Personas]](personas.md)。
 
