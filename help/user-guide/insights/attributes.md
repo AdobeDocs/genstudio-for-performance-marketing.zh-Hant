@@ -1,10 +1,11 @@
 ---
 title: 屬性總覽
 description: 瞭解如何評估Adobe GenStudio for Performance Marketing中特定屬性的效能。
-feature: Insights, Assets
-source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
+feature: Insights, Attributes
+exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
+source-git-commit: d6ea1a34a8679ae958fb184e40ad0673abbab0a4
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -31,82 +32,15 @@ GenStudio for Performance Marketing會偵測某些功能，並將適當的屬性
 
 ## 類別
 
-GenStudio for Performance Marketing可辨識影像、影片和文字的特定功能，並將功能標籤套用至資產。 _類別_&#x200B;是共用特定特徵的一組功能。 _影像方向_&#x200B;的範例值為`landscape`。
+GenStudio for Performance Marketing可辨識影像、影片和文字的特定功能，並將功能標籤套用至資產。 _類別_&#x200B;是共用特定特徵的一組功能。 例如，_影像方向_&#x200B;類別有`landscape`、`portrait`或`square`值。
 
-偵測到並自動套用的屬性無法編輯。
+您無法編輯偵測到並自動套用的標籤。
 
-<!--
-Select any of the following to open a detailed list of feature categories:
+如需影像、視訊和文字功能的詳細清單，請參閱[屬性類別](/help/user-guide/insights/attribute-category.md)。
 
-+++**Image features**
-
-| Category               | Values                              |
-| ---------------------- | ----------------------------------- |
-| Background Colors      | 14 colors |
-| Camera Position        | - `low angle`, `high angle`, `dutch angle`<br>- `overhead view`, `eye level`,`bird's eye view` |
-| Camera Proximity       | `close up`, `mid shot`, `long shot` |
-| Camera Setting         | - `fast shutter speed`, `long exposure`, `double exposure`<br>- `normal mode`, `flash`, `macro`, `wide-angle`<br>- `black and white`, `surreal`<br>- `bokeh blur`, `motion blur`, `tilt-shift blur` |
-| Foreground Colors      | 14 colors |
-| Image Type             | `photograph`, `sketch`, `painting`, `digital cartoon`, `infographics`, `graphic design`, `collage`, `screenshot` |
-| Lighting Condition     | golden hour, blue hour, midday, overcast, night, high-key, low-key, daylight, incandescent, fluorescent, colorful, studio |
-| Objects                | The items, entities, and elements that are visible, such as `lighthouse`, `orchid`, or `tunnel`. |
-| Orientation            | Examples: `landscape`, `portrait`, `square` |
-| Overall Tone           | `warm`, `cool`, `neutral` |
-| People Categories      | Examples: `person`, `social group`, `people`, `kid` |
-| Photography Styles     | `aerial photography`, `aerial photography`, `architectural photography`, `astrophotography`, `black and white photography`, `business photography`, `cityscape photography`, `commercial photography`, `composite photography`, `creative photography`, `editorial photography`, `event photography`, `family photography`, `fashion photography`, `fine art photography`, `food photography`, `holiday photography`, `indoor photography`, `landscape photography`, `lifestyle photography`, `macro photography`, `minimalist photography`, `night photography`, `outdoor photography`, `pet photography`, `portrait photography`, `product photography`, `real estate photography`, `seascape photography`, `sports photography`, `still-life photography`, `street photography`, `travel photography`, `underwater photography`, `wildlife photography` |
-| Scenes                 | Examples: `city`, `island`, `living room` |
-| Tags                   | Examples: `gaming`, `law`, `yoga` |
-| Visual Attention Spread| The level of viewer attention spread across an image: `high`, `low` |
-| Visual Content Density | The amount of information or detail in an image: `high`, `low` |
-
-+++
-
-+++**Video features**
-
-| Category               | Values                              |
-| ---------------------- | ----------------------------------- |
-| Audio Genre  | |
-| Audio Genre Category  | |
-| Audio Mood  | |
-| Audio Types| |
-| Objects  | |
-| Orientation  | |
-| People Categories  | |
-| Scenes  | |
-| Styles  | |
-| Tags   | |
-| Video Category  | |
-| Video Type  | |
-
-+++
-
-+++**Text features**
-
-| Category               | Values                              |
-| ---------------------- | ----------------------------------- |
-| Emojis Count  | |
-| HashTags Count  | |
-| Keywords  | |
-| Marketing Emotions  | |
-| Narratives  |  |
-| Persuasion Strategies  |  |
-| Readability  | |
-| Sentences Count  | |
-| Stop Words Ratio  | |
-| Text Quotes Count  | |
-| Tones  | |
-| Words Count  | |
-| Words Count Per Sentence  | |
-
-+++
-
--->
-
-## 屬性量度
+## 屬性效能
 
 見解量度可協助您評估哪些屬效能激發更多客戶參與。
-
-### 量度詳細資料
 
 下表提供[!UICONTROL 屬性]表格檢視中關鍵數位行銷量度的定義與深入分析。 每個量度都包含與資產相關的簡短定義、量度的計算方式，以及有助於瞭解其對廣告促銷活動之重要性和影響的一或多個深入分析。
 
@@ -119,7 +53,7 @@ Select any of the following to open a detailed list of feature categories:
 | **[!UICONTROL 曝光次數]** | 每次將具有此屬性的影像或影片載入管道時的計數，無論互動或檢視為何。 | 高曝光數可表示廣泛的顯示度，但如需真正的效能深入分析，請考慮其他參與量度。 |
 | **[!UICONTROL 點按]** | 使用者與此屬性之影像或視訊互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
 | **[!UICONTROL CTR ]**<br>_點進率_ | 導致點按具有此屬性的影像或影片的曝光百分比(%)。<br>**計算**： `clicks`除以`impressions` | 高點進率表示內容與訊息和設計的對象高度相關且充滿動力，並有效鎖定對象的興趣。 |
-| **[!UICONTROL CPM ]**<br>_每千成本_ | 具有此屬性的影像或視訊每有一千次廣告印象的成本($)。<br>**計算**：總金額`spent`除以範圍，然後乘以1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
-| **[!UICONTROL CPA ]**<br>_每個動作的成本_ | 完成特定客戶動作（例如購買或訂閱）所花費的平均成本($)。<br>**計算**：總金額`spent`除以已完成的客戶動作數目 | 協助識別可產生寶貴客戶動作的屬性。 |
-| **[!UICONTROL CPC ]**<br>_每次點按成本_ | 與此屬性相關的每次影像或影片點選的平均成本($)。<br>**計算**：總金額`spent`除以`clicks` | 平均成本降低可能表示廣告支出符合成本效益，尤其是與轉換率增加相比。 |
-| **[!UICONTROL 支出]** | 與指定期間內的屬性相關的預算花費金額($)。 | 在短時間內發生高支出量可能表示快速使用，這可能導致資源提早耗盡。 根據關鍵績效指標追蹤支出金額，協助監控整體投資報酬率。 |
+| **[!UICONTROL CPM ]**<br>_每千成本_ | 具有此屬性的影像或視訊的每1,000次廣告印象成本。<br>**計算**：總金額`spent`除以範圍，然後乘以1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
+| **[!UICONTROL CPA ]**<br>_每個動作的成本_ | 完成特定客戶動作（例如購買或訂閱）所花費的平均成本。<br>**計算**：總金額`spent`除以已完成的客戶動作數目 | 協助識別可產生寶貴客戶動作的屬性。 |
+| **[!UICONTROL CPC ]**<br>_每次點按成本_ | 具有此屬性的影像或影片每次點按的相關平均成本。<br>**計算**：總金額`spent`除以`clicks` | 平均成本降低可能表示廣告支出符合成本效益，尤其是與轉換率增加相比。 |
+| **[!UICONTROL 支出]** | 與指定期間內的屬性相關的預算支出金額。 | 在短時間內發生高支出量可能表示快速使用，這可能導致資源提早耗盡。 根據關鍵績效指標追蹤支出金額，協助監控整體投資報酬率。 |

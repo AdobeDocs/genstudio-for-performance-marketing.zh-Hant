@@ -4,9 +4,9 @@ description: 連線管道帳戶，以監控您的Adobe GenStudio for Performance
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 7b3ecc1964df3d5a3fdc5c32b1e5c80f29133560
+source-git-commit: 310a6ea3b64e223222e0664750547be1812b8ef6
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing會保留13個月的管道資料。 此保留
 
 **若要在GenStudio for Performance Marketing中連線中繼廣告帳戶**：
 
-1. 在&#x200B;_[!DNL Insights]_中，按一下&#x200B;**[!UICONTROL 連線管道帳戶]**。
+1. 在&#x200B;_[!DNL Insights]_中，按一下橫幅中的&#x200B;**[!UICONTROL 連線管道帳戶]**，或按一下右上角的&#x200B;**[!UICONTROL 新增帳戶]**按鈕（加號的人形）。
 
    系統可能會引導您登入Facebook。 facebook是目前唯一可用的選項。
 
