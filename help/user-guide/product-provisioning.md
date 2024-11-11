@@ -3,16 +3,17 @@ title: 布建Adobe GenStudio for Performance Marketing
 description: 瞭解布建GenStudio for Performance Marketing產品。
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 3e9a2a4f42ba79389691705c571bf6bbd0b990c5
+exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
+source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
 
 # 布建Adobe GenStudio for Performance Marketing
 
-產品布建是貴組織的GenStudio for Performance Marketing執行個體的一次性設定。 Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)中執行這些初始布建工作。 從Admin Console，Adobe系統管理員可以存取GenStudio產品設定檔，並將可用的產品授權指派給使用者。
+Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)中執行初始布建工作。 從Admin Console，Adobe系統管理員可以存取GenStudio產品設定檔，並將可用的產品授權指派給使用者。
 
 >[!NOTE]
 >
