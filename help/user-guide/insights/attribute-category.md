@@ -3,9 +3,11 @@ title: 屬性類別
 description: 瞭解GenStudio for Performance Marketing中使用的屬性類別。
 feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
-source-git-commit: 3b5fc55595f766db0327b6aefb0e29c3896e00c0
+last-substanial-update: 2024-11-11T00:00:00Z
+exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
+source-git-commit: 13b5e63afffc5a88d6d8c98fddac6d2d85f6e862
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -14,7 +16,7 @@ ht-degree: 1%
 
 屬性類別是一種分類群組，可組織具有共同特性的相關屬性。 這些類別可提供更豐富的情境並便利其應用與使用，有助於簡化特定屬性的探索、識別和理解。
 
-GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研究影像、影片和文字，並根據信賴度等級套用[!UICONTROL 資產屬性]。 _信賴度_&#x200B;指AI指派給預測或分類的機率。 在機器學習的語境中，這是一種分數，用於衡量AI對分類是否「有信心」。 可信度分數越高，確定性就越強。 例如，在分析影像時，AI可能會識別數個功能，並為每個功能指派一個分數，以表示此功能是否正確的信心。 資產的屬性清單並非詳盡無遺。 包含一組豐富功能的Assets可能僅限於信賴臨界值，例如已識別的三個最主要功能。
+GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來學習影像、影片和文字，並根據正確機率套用[!UICONTROL 資產屬性]。 資產的屬性清單並非詳盡無遺。 包含一組豐富功能的Assets可能限於AI所識別的三個最主要功能。
 
 ## 影像功能
 
