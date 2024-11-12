@@ -4,9 +4,9 @@ description: 瞭解布建GenStudio for Performance Marketing產品。
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterpri
 >[!NOTE]
 >
 >只有Adobe系統管理員可以實作需要Adobe Admin Console存取權的啟用工作。
+
+>[!IMPORTANT]
+>
+>請勿新增、編輯或刪除現有的產品設定檔。 變更預設產品設定檔可能會嚴重干擾您的GenStudio for Performance Marketing部署。
 
 ## 步驟1：存取Adobe Admin Console中的產品設定檔
 
