@@ -2,9 +2,10 @@
 title: Adobe GenStudio for Performance Marketing發行說明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增強功能。
 recommendations: noDisplay
-source-git-commit: b502e0a558cbc26c70d813938734a2f6f230dc8e
+exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
+source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '817'
 ht-degree: 2%
 
 ---
@@ -13,9 +14,35 @@ ht-degree: 2%
 
 此版本資訊詳細說明GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2024.11.07 {#latest}
+## 2024.11.14 {#latest}
 
-### 修正
+### 新功能
+
+新增對多媒體範本的支援，讓客戶能夠重複使用已透過其自有受管內容頻道發佈的資產。<!-- GS-6107 -->
+
+### 修正和增強功能
+
+* 在用來產生初始內容的瀏覽器以外的瀏覽器中調整大小時，草稿現在會如預期般載入。<!-- GS-7204 -->
+
+* 所有字元現在以匯出的HTML正確表示。<!-- GS-7246 -->
+
+* 在某些語言中，[!DNL Content] _體驗_ **[!UICONTROL 匯出]**&#x200B;快顯視窗上的按鈕不再被截斷。<!-- GS-6873 -->
+
+* 以大小為50x50的範本所建立的顯示廣告，現在會以預期的影像大小匯出。 以前，匯出的PNG檔案會以預期尺寸的兩倍匯出。<!-- GS-7192 -->
+
+* 現在已解決調整顯示廣告大小時發生的範本錯誤。<!-- GS-7322 -->
+
+### 本地化
+
+此版本包含整個UI本地化的改良功能，包括：
+
+* [!DNL Content] _上傳資產_&#x200B;快顯視窗的所有字串現在都已正確本地化。<!-- GS-6872 6770 -->
+* [!DNL Content] _Assets_&#x200B;檢視&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位中的所有工具提示都已當地語系化。<!-- GS-6879 -->
+* 取代[!DNL Create]畫布上電子郵件變體中的現有影像時，_從內容選取_&#x200B;檢視現已當地語系化。<!-- GS-6906 -->
+
+## 2024.11.07
+
+### 修正和增強功能
 
 * 當使用者按一下&#x200B;**[!UICONTROL 上傳新影像]**，然後在上傳完成前取消作業時，_儲存進行中_&#x200B;旋轉圖示不再顯示。<!-- GS-6780 -->
 
@@ -31,7 +58,7 @@ ht-degree: 2%
 
 * 使用者現在可以單獨透過鍵盤控制所有中繼廣告範本互動元素。<!-- GS-4066 -->
 
-* 新增從範本影像欄位擷取影像尺寸以顯示廣告範本。 智慧型裁切請求現在會針對影像的實際維度傳送，而非針對整個範本。 <!-- GS-6926 -->
+* 新增從範本影像欄位提取影像尺寸至顯示廣告範本的功能。 智慧型裁切請求現在會針對影像的實際維度傳送，而非針對整個範本。 <!-- GS-6926 -->
 
 * 已本地化產生的電子郵件和中繼廣告中的`Zoom to fit to screen`字串。<!-- GS-5063 -->
 
@@ -65,7 +92,7 @@ ht-degree: 2%
 
 * **[!DNL Create]**&#x200B;畫布現在會顯示電子郵件片段的字元計數。<!-- GS-5819 -->
 
-### 修正
+### 修正和增強功能
 
 * 已新增遺失的熒幕閱讀器標籤至行動裝置和案頭`view`元素。<!-- GS-5624 4729 -->
 
@@ -101,4 +128,4 @@ GenStudio for Performance Marketing與其他Adobe Experience Cloud產品整合�
 
 * [Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
 
-* [Adobe GenStudio Academy](genstudioacademy.md)，Adobe的線上學習平台，用於在創作過程中使用創作AI技術。 [註冊GenStudio學院](http://adobe.ly/genstudioacademyregistration)。
+* [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)，Adobe的線上學習平台，用於在創作過程中使用創作AI技術。
