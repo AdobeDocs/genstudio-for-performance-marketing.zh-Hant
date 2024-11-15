@@ -3,9 +3,9 @@ title: 資產詳細資訊
 description: Adobe GenStudio for Performance Marketing會使用豐富的中繼資料儲存已核准的內容，以供搜尋和效能追蹤。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: edd27a6151cb81213ee27813beb4ecee835a1229
+source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,19 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 ## 在Express中編輯
 
 您可以使用Adobe Express直接在GenStudio for Performance Marketing中編輯影像資產(JPG或PNG)。 _[!UICONTROL Powered by Adobe Express]_&#x200B;畫布提供便利的功能，讓您在不離開GenStudio應用程式的情況下增強影像。 您可以輕鬆移除背景、套用產生式填色、調整效果和裁切影像。
+
+>[!BEGINSHADEBOX]
+
+使用[!DNL Edit in Adobe Express]功能增強影像的條件：
+
+- 支援的MIME型別包括`image/png`和`image/jpeg`
+- 最小影像尺寸為50x50畫素
+- 最大影像尺寸為8000x8000畫素
+- 大小上限為40MB （40,000,000位元組）
+
+>[!ENDSHADEBOX]
+
+**若要使用Express**&#x200B;編輯資產：
 
 1. 在&#x200B;_[!DNL Content]_中，選取影像資產。 按一下資產可開啟資產聚焦檢視。
 
@@ -91,7 +104,7 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md)已新增至GenStudio for Performance Marketing以供使用 |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md)已新增至GenStudio for Performance Marketing以供使用 |
 | 頻道 | 資產使用的GenStudio for Performance Marketing內容型別，例如電子郵件和中繼廣告 |
-| 時間範圍 | 其使用之資產的時間範圍，例如季度、季別、年度等。 範例： `Winter 2023` |
+| 時間範圍 | 使用資產的時間範圍，例如季、季、年等。 範例： `Winter 2023` |
 | 地區 | 使用資產的區域。 範例： `North America`， `APAC`， `Italy` |
 | 語言 | 使用資產的語言。 範例： `Spanish` |
 | 關鍵字 | 用於進一步識別資產特徵和用途的關鍵字 |
