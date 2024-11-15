@@ -3,7 +3,7 @@ title: 撰寫有效的提示
 description: 了解如何為 Adobe GenStudio for Performance Marketing 編寫有效提示。
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 2%
@@ -107,3 +107,5 @@ Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they ca
 - 定期檢閱和調整指引。
 - 反複和調整。
 - 透過實驗瞭解。
+
+{{in-academy}}

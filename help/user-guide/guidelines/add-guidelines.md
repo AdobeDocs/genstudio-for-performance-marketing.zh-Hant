@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 0%
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 將准則新增至GenStudio for Performance Marketing是建立流程中的重要步驟。 指南會告知內容建立流程，以及使用者定義的提示和Adobe創作AI技術，以製作具影響力的資產。
 
+{{in-academy}}
+
 ## 新增[!DNL Brands]
 
 若要新增品牌，[請上傳品牌指南](#upload-a-brand)或[藉由選取指引並輸入品牌詳細資料來手動建立品牌](#manually-add-brand)。 [Publish品牌](#publish-brand)至[!DNL Content]，以供日後產生內容使用。
@@ -27,6 +29,7 @@ ht-degree: 0%
 在左側導覽區域中，按一下&#x200B;**[!DNL Brands]**。 在&#x200B;_[!DNL Brands]_面板中，選取&#x200B;**新增品牌**。
 
 >[!TIP]
+>
 >每個品牌都獨立運作，沒有階層式關係。 若要在父品牌下建立子品牌，請在建立過程中包含父品牌的資訊。
 
 ### 上傳品牌

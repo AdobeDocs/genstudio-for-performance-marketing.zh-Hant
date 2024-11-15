@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing概念
 description: 瞭解Adobe GenStudio for Performance Marketing概念和術語。
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -25,9 +25,9 @@ GenStudio for Performance Marketing是獨立企業產品，其中包含Adobe的�
 
 GenStudio for Performance Marketing運用創作AI的強大功能，加速內容建立流程，並確保產生高品質的內容。 創意資產的反複生命週期會產生日益準確且符合品牌標準的內容，以便與目標受眾產生共鳴。
 
-首先，透過強大的品牌准則功能，有效地培訓GenStudio for Performance Marketing有關您組織的品牌、客戶角色和產品說明的知識。
+首先，透過強大的品牌准則功能，有效地培訓GenStudio for Performance Marketing有關您組織的品牌、客戶角色和產品說明的知識。 請參閱[指引概述](../user-guide/guidelines/overview.md)，瞭解如何準備並上傳這些指引。
 
-請參閱[指引概述](../user-guide/guidelines/overview.md)，瞭解如何準備並上傳這些指引。
+{{in-academy}}
 
 ## 資料控管
 
