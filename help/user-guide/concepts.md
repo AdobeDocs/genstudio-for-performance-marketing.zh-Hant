@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing概念
 description: 瞭解Adobe GenStudio for Performance Marketing概念和術語。
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: e8a210a22856683f7d61c5309c451689e445c8fe
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -16,26 +16,33 @@ GenStudio for Performance Marketing是獨立企業產品，其中包含Adobe的�
 
 透過GenStudio for Performance Marketing，您可以：
 
-* 使用自然語言提示建立品牌內內容
+* 針對您最優先的數位頻道，使用自然語言提示來建立品牌內內容，例如付費媒體、電子郵件和顯示廣告
+
 * 與利害關係人共同作業，檢閱及核准產生的內容
 * 儲存產生和核准的內容，以存取未來的行銷活動
-* 使用行銷活動和內容屬性的深入分析來評估內容績效
+* 透過分析資產績效和識別績效最佳內容的關鍵屬性來評估內容有效性
 
 ## Generative AI技術
 
 GenStudio for Performance Marketing運用創作AI的強大功能，加速內容建立流程，並確保產生高品質的內容。 創意資產的反複生命週期會產生日益準確且符合品牌標準的內容，以便與目標受眾產生共鳴。
 
-首先，透過強大的品牌准則功能，有效地培訓GenStudio for Performance Marketing有關您組織的品牌、客戶角色和產品說明的知識。 請參閱[指引概述](../user-guide/guidelines/overview.md)，瞭解如何準備並上傳這些指引。
+透過強大的品牌指南功能，從擷取您組織的品牌、客戶角色和產品說明開始。 請參閱[指引概述](../user-guide/guidelines/overview.md)，瞭解如何準備並上傳這些指引。
 
 {{in-academy}}
 
+## 大型語言模型
+
+GenStudio for Performance Marketing運用Adobe的創作AI平台，該平台提供基礎AI和機器學習(ML)服務。 此平台可簡化大型語言模型(LLM)的使用，為Adobe的GenAI功能提供強大動力，以打造引人入勝的體驗。
+
+GenStudio for Performance Marketing透過Azure OpenAI使用GPT系列的協力廠商LLM。<!-- Claude, and Gemini models. -->
+
 ## 資料控管
 
-使用AI產生內容時，必須確保輸出安全且包容所有使用者。 這需要評估內容中潛在的有害偏見、仇恨言論、冒犯性材料或褻瀆行為。 從多個角度進行徹底的測試、全面的道德審查，以及執行有效的緩解計畫，對於防止有害內容出現在產出中非常重要。
+使用AI產生內容時，必須確保輸出安全且包容所有使用者。 這需要評估內容中潛在的有害偏見、仇恨言論、冒犯性材料或褻瀆行為。 Adobe從多個角度徹底測試內容產生技術，執行全面的道德審查，並實施有效的緩解計畫，以防止有害內容出現在輸出中。
 
-此方法可強化社會責任、將聲譽風險降至最低，並確保遵守Adobe的信任與安全及道德政策。
+此方法可加強社會責任、將聲譽風險降至最低，並確保遵守[Adobe的信任與安全及道德政策](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf)。
 
-GenStudio for Performance Marketing納入了緩解計畫，以防止根據資料治理標準和政策使用已識別的有害或偏見內容。 偵測到這類內容時，系統會使用「無法產生」訊息封鎖資產產生作業。
+GenStudio for Performance Marketing納入了緩解計畫，以防止根據每個Adobe的資料治理標準和政策使用已識別的有害或偏見內容。 偵測到這類內容時，系統會使用「無法產生」訊息封鎖資產產生作業。
 
 出現此訊息時，您可以編輯提示，並再試一次&#x200B;_或_&#x200B;標示提示內容以供GenStudio for Performance Marketing檢閱。 系統會收集標示為要複查之內容的提示資料，以供內部複查之用。
 
