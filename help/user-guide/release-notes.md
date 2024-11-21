@@ -2,10 +2,11 @@
 title: Adobe GenStudio for Performance Marketing發行說明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增強功能。
 recommendations: noDisplay
+last-substanial-update: 2024-11-14T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
+source-git-commit: 720b23061d7e56a9b1e712d7787158c6a1bb771c
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 2%
 
 * 在某些語言中，[!DNL Content] _體驗_ **[!UICONTROL 匯出]**&#x200B;快顯視窗上的按鈕不再被截斷。<!-- GS-6873 -->
 
-* 以大小為50x50的範本所建立的顯示廣告，現在會以預期的影像大小匯出。 以前，匯出的PNG檔案會以預期尺寸的兩倍匯出。<!-- GS-7192 -->
+* 以大小為50x50的範本所建立的顯示廣告，現在會以預期的影像大小匯出。 以前，PNG檔案的匯出尺寸是預期尺寸的兩倍。<!-- GS-7192 -->
 
 * 現在已解決調整顯示廣告大小時發生的範本錯誤。<!-- GS-7322 -->
 
@@ -36,11 +37,13 @@ ht-degree: 2%
 
 此版本包含整個UI本地化的改良功能，包括：
 
-* [!DNL Content] _上傳資產_&#x200B;快顯視窗的所有字串現在都已正確本地化。<!-- GS-6872 6770 -->
+* [!DNL Content] _上傳資產_&#x200B;快顯視窗中的所有字串現在都已正確本地化。<!-- GS-6872 6770 -->
 * [!DNL Content] _Assets_&#x200B;檢視&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位中的所有工具提示都已當地語系化。<!-- GS-6879 -->
 * 取代[!DNL Create]畫布上電子郵件變體中的現有影像時，_從內容選取_&#x200B;檢視現已當地語系化。<!-- GS-6906 -->
 
-## 2024.11.07
+## 舊版發行說明
+
++++2024.11.07版注意事項
 
 ### 修正和增強功能
 
@@ -84,7 +87,9 @@ ht-degree: 2%
 
 * 重新產生中繼廣告影像後，重新調整影像大小不會再產生錯誤。 先前，在重新產生之前調整影像大小會將頻道中繼資料從`meta`變更為`facebook`。<!-- GS-7042 -->
 
-## 2024.10.31
++++
+
++++2024.10.31版注意事項
 
 ### 新功能
 
@@ -122,10 +127,4 @@ ht-degree: 2%
 
 GenStudio for Performance Marketing與其他Adobe Experience Cloud產品整合，包括Adobe Express和AdobeAEM Assets。
 
-### 其他資訊
-
-請參閱下列實用資源：
-
-* [Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
-
-* [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)，Adobe的線上學習平台，用於在創作過程中使用創作AI技術。
++++
