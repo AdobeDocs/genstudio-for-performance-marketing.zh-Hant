@@ -3,9 +3,10 @@ title: 指派 [!DNL Brand] 許可權
 description: 瞭解如何為GenStudio for Performance Marketing [!DNL Brand] 建立者和編輯者指派權益。
 level: Intermediate
 feature: Brands Service, Generative AI
-source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
+exl-id: fc33ecd3-4403-4045-87af-012a0377226c
+source-git-commit: baa225419ba5e851f28d41f829971027655e103e
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 1%
 
 ## 步驟2：將GenStudio系統管理員設定檔指派給使用者群組
 
-建立新的使用者群組並新增使用者後，您可以將&#x200B;**Adobe GenStudio系統管理員**&#x200B;設定檔指派給此群組。 與指派的設定檔相關聯的權利會給予此群組GenStudio中的所有使用者[!DNL Brands]許可權（建立、更新和刪除品牌）。
+建立新的使用者群組並新增使用者後，您可以將&#x200B;**Adobe GenStudio系統管理員**&#x200B;設定檔指派給此群組。 與指派的設定檔相關聯的權益為此群組中的所有使用者GenStudio [!DNL Brands]許可權（建立、更新和刪除品牌）。
 
 **若要將設定檔指派給使用者群組**：
 
@@ -54,7 +55,25 @@ ht-degree: 1%
 
 請參閱&#x200B;_企業和團隊管理指南_&#x200B;中的[將產品設定檔指派給使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)。
 
-## 步驟3：建立[!DNL Brands]專案
+## 步驟3：將使用者新增至使用者群組
+
+若要指派建立、編輯和發佈[!DNL Brands]的使用者許可權，請將他們新增至新建立的使用者群組。
+
+>[!NOTE]
+>
+>您必須先將至少一個使用者新增至此使用者群組，才能將群組新增至專案。
+
+**若要將使用者新增至使用者群組**：
+
+1. 從&#x200B;_Admin Console_，瀏覽至&#x200B;**[!UICONTROL 使用者]** > **[!UICONTROL 使用者群組]**。
+
+1. 選取您先前建立的使用者群組名稱。 _新增使用者到此使用者群組_&#x200B;快顯視窗開啟。
+
+1. 透過使用者名稱或電子郵件地址新增新的或現有的使用者。 當您輸入現有使用者的名稱或電子郵件地址時，此欄位會自動填入屬於此IMS組織的已知使用者的相符名稱。 瞭解如何在&#x200B;_企業和團隊管理指南_&#x200B;的[管理使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)中管理使用者群組。
+
+使用者新增至群組時，會獲得Adobe GenStudio系統管理員的[!DNL Brand]建立、編輯和發佈許可權。 使用者也會收到編輯Adobe GenStudio for Performance Marketing [!DNL Brands]專案的自動電子郵件邀請。
+
+## 步驟4：建立[!DNL Brands]專案
 
 _專案_&#x200B;提供儲存位置，讓選取的使用者可以儲存資產，在此案例中為[!DNL Brands]個資產。
 
@@ -72,7 +91,7 @@ _專案_&#x200B;提供儲存位置，讓選取的使用者可以儲存資產，�
 
 請參閱&#x200B;_企業和團隊管理指南_&#x200B;中的[管理專案](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html)。
 
-## 步驟4：邀請使用者群組加入專案
+## 步驟5：邀請使用者群組加入專案
 
 您現在已準備好將您剛才建立的使用者群組新增至`Adobe GenStudio [!DNL Brands]`專案。
 
@@ -83,17 +102,3 @@ _專案_&#x200B;提供儲存位置，讓選取的使用者可以儲存資產，�
 1. 選擇&#x200B;**可以編輯**&#x200B;許可權選項。
 
 1. 按一下&#x200B;**[!UICONTROL 邀請]**。
-
-## 步驟5：將使用者新增至使用者群組
-
-若要指派建立、編輯和發佈[!DNL Brands]的使用者許可權，請將他們新增至新建立的使用者群組。
-
-**若要將使用者新增至使用者群組**：
-
-1. 從&#x200B;_Admin Console_，瀏覽至&#x200B;**[!UICONTROL 使用者]** > **[!UICONTROL 使用者群組]**。
-
-1. 選取您先前建立的使用者群組名稱。 _新增使用者到此使用者群組_&#x200B;快顯視窗開啟。
-
-1. 透過使用者名稱或電子郵件地址新增新的或現有的使用者。 瞭解如何在&#x200B;_企業和團隊管理指南_&#x200B;的[管理使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)中管理使用者群組。
-
-使用者新增至群組時，會獲得Adobe GenStudio系統管理員的[!DNL Brand]建立、編輯和發佈許可權。 使用者也會收到編輯Adobe GenStudio for Performance Marketing [!DNL Brands]專案的自動電子郵件邀請。
