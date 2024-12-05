@@ -4,7 +4,7 @@ description: 了解如何開始使用 GenStudio for Performance Marketing 來產
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -61,7 +61,7 @@ GenStudio系統管理員可以手動輸入或上傳您組織的特定品牌需�
 
 ### 步驟3：上傳範本
 
-範本可加速內容建立。 範本包含已核准的功能，例如頁首和頁尾，針對特定管道進行最佳化。 系統管理員通常會上傳和管理其組織的範本。 內容編輯器使用範本，在組織品牌的既定範圍內快速啟動內容建立流程。
+範本可加速內容建立。 範本包含已核准的功能，例如頁首和頁尾，針對特定管道進行最佳化。 系統管理員通常會上傳和管理其組織的範本。 內容編輯人員可使用範本，在組織品牌的既定界限內，快速啟動內容建立程式。
 
 請參閱[使用範本](./content/use-templates.md)。
 

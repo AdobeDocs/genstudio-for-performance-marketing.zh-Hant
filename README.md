@@ -1,8 +1,8 @@
 ---
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 36%
+source-wordcount: '311'
+ht-degree: 35%
 
 ---
 # GenStudio for Performance Marketing檔案
@@ -38,7 +38,7 @@ ht-degree: 36%
 此存放庫中的所有文章皆使用GitHub風格的Markdown。 如果您不熟悉 Markdown，請參閱：
 
 - [Markdown 基本介紹](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [列印版 Markdown 速查表](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
+- [可列印的Markdown速查表](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
 
 ## 標籤
 

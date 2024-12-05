@@ -3,9 +3,9 @@ title: 屬性類別
 description: 瞭解GenStudio for Performance Marketing中使用的屬性類別。
 feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
-last-substanial-update: 2024-11-11T00:00:00Z
+last-substantial-update: 2024-11-11T00:00:00Z
 exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
-source-git-commit: 13b5e63afffc5a88d6d8c98fddac6d2d85f6e862
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 1%

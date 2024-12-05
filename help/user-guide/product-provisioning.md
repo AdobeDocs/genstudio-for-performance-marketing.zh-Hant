@@ -4,7 +4,7 @@ description: 瞭解布建GenStudio for Performance Marketing產品。
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -65,4 +65,4 @@ Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterpri
 
 * [管理多位使用者/大量CSV上傳](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)
 
-一旦您將使用者帶入組織的GenStudio for Performance Marketing，Genstudio系統管理員就可以[設定組織的品牌和媒體准則](get-started.md)。
+一旦您將使用者帶入組織的GenStudio for Performance Marketing，GenStudio系統管理員就可以[設定您組織的品牌和媒體准則](get-started.md)。
