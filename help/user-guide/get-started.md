@@ -4,7 +4,7 @@ description: 了解如何開始使用 GenStudio for Performance Marketing 來產
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: fd49abb491477b0a8ed5b1f646219458efc49365
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -49,7 +49,7 @@ GenStudio for Performance Marketing會使用有關您的品牌和市場的資訊
 
 GenStudio系統管理員可以手動輸入或上傳您組織的特定品牌需求，以準備產品的基本產生AI架構。 雖然設定組織的品牌指引是一次性動作，但您可以根據組織的波動、成長和不斷變化的市場環境來修訂和增強這些指引。
 
-## 步驟2：為GenStudio [!DNL Brands]設定Adobe Admin Console專案
+### 步驟2：為GenStudio [!DNL Brands]設定Adobe Admin Console專案
 
 系統管理員必須先完成其他設定工作，共同作業人員才能編輯或建立[!DNL Brands]。 Adobe系統管理員會在Adobe Admin Console中執行下列工作：
 
