@@ -3,9 +3,9 @@ title: 管理資產和體驗
 description: 簡化並增強對品牌核准資產的管理，以便在您的數位行銷歷程中使用和重複使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 3a32c26ff746989798842afa5798ffa397a19ef8
+source-git-commit: 802ee1b5c403394b66567bbe4bffbda8124f3624
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 
 下列顯示對[!UICONTROL Assets]相簿中字詞`dog`的搜尋：
 
-![Assets檢視（含搜尋dog](../../assets/content-assets.png)）
+![Assets檢視（含搜尋dog](/help/assets/content-assets.png)）
 
 ### 搜尋內容
 
@@ -120,7 +120,7 @@ In the future, need guidance on template upload errors. For now, the UI just say
 
 1. 在&#x200B;_[!DNL Content]_中，選取影像資產。 按一下資產可開啟資產聚焦檢視。
 
-1. 在資產檢視中，按一下右上角的&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示（垃圾桶）。
+1. 在資產檢視中，按一下右上角的&#x200B;**[!UICONTROL 刪除]** （垃圾桶）。
 
 1. 在&#x200B;_刪除資產_&#x200B;快顯視窗中，驗證資產並按一下&#x200B;**[!UICONTROL 刪除]**。
 
@@ -155,7 +155,7 @@ In the future, need guidance on template upload errors. For now, the UI just say
 
    - 選取&#x200B;**[!UICONTROL 與原始資產相同的詳細資料]**，以將資產詳細資料結轉到新影像。
 
-   - 展開&#x200B;**[!UICONTROL 更多詳細資料]**&#x200B;區段以更新行銷活動、准則和其他中繼資料。
+   - 展開&#x200B;**[!UICONTROL 更多詳細資料]**&#x200B;區段以更新准則和其他中繼資料。
 
    >[!TIP]
    >

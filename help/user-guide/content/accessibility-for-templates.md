@@ -3,9 +3,9 @@ title: 建立無障礙範本
 description: 在Adobe GenStudio for Performance Marketing中建立範本，這些範本可觸及更多對象並提供最佳體驗。
 feature: Templates, Content
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: fee67ba0d9781cf16ac909eddf385bd3d60ac97b
+source-git-commit: cc1d750a8a520c793b1b605747c091f8a5f5e1a2
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobe致力於為所有受眾提供最佳體驗。 如需進一步閱讀，請�
 <img alt="Collage of ideas, books, man holding giant pencil, computer" src="card-create-assets.png">
 ```
 
-![創意拼貼、書籍、拿著巨鉛筆的男人、電腦](../../assets/card-create-assets.png){width="400"}
+![創意拼貼、書籍、拿著巨鉛筆的男人、電腦](/help/assets/card-create-assets.png){width="400"}
 
 ## 字型
 

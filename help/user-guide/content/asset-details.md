@@ -3,9 +3,9 @@ title: 資產詳細資訊
 description: Adobe GenStudio for Performance Marketing會使用豐富的中繼資料儲存已核准的內容，以供搜尋和效能追蹤。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,7 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 1. 在資產檢視中，檢閱右側的&#x200B;_[!UICONTROL 詳細資料]_&#x200B;區段。
 
-   >[!TIP]
-   >
-   >如果看不到&#x200B;_[!UICONTROL 詳細資料]_&#x200B;區段，請按一下&#x200B;**[!UICONTROL 資訊]** (i)圖示。
+1. 如果看不到&#x200B;_[!UICONTROL 詳細資料]_&#x200B;區段，請按一下&#x200B;**[!UICONTROL 資訊]** (i)圖示。
 
 資產詳細資料包含在建立或上傳程式期間套用的中繼資料。 資產中繼資料型別包含[系統中繼資料](#system-metadata)和[使用者定義的中繼資料](#user-defined-metadata)。
 
@@ -38,9 +36,7 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 ## 系統中繼資料
 
-上傳資產時，會自動收集部分資產中繼資料。 您無法編輯預設的系統中繼資料。
-
-為資產儲存和擷取的預設中繼資料包括檔案名稱、維度、來源等。
+上傳資產時，會自動收集部分資產中繼資料，例如檔案型別、大小、維度、來源等。 除了檔案名稱之外，您無法編輯預設的系統中繼資料。
 
 ### 產生的標籤
 

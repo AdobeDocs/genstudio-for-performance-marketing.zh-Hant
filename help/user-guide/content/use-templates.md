@@ -3,9 +3,9 @@ title: 使用範本
 description: 瞭解如何在Adobe GenStudio for Performance Marketing中有效使用範本來簡化您的創意流程。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
+source-git-commit: bfe1ae2c734b19e474ab1614fa72afea7d35a73e
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 ## 範本元素
 
-範本是使用HTML和內嵌CSS定義的一組指示，可用於產生電子郵件或中繼廣告體驗。
+範本是以HTML和內嵌CSS定義的一組指示，可用來產生電子郵件、社交廣告或顯示廣告體驗。 範本元素提供內容建立的結構。
 
-以下是範本中使用的元素清單，以及有關其特性的部分詳細資訊。
+以下是範本中使用的元素清單，以及有關其特性的部分詳細資訊：
 
 - **Preheader**
 
@@ -73,19 +73,13 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 >
 >檢視GenStudio for Performance Marketing支援的每種管道型別範本的[可辨識欄位名稱](customize-template.md#recognized-field-names)。
 
-## 設定頻道准則
-
-在GenStudio for Performance Marketing中使用範本之前，最佳實務是為每個品牌設定[管道指引](../guidelines/brands.md#channel-guidelines)。 管道指引直接影響使用範本時產生的內容型別。 例如，您可以在電子郵件內文中設定字元限制。
-
-![主體規格](/help/assets/channel-email-body.png)
-
 ## 自訂範本
 
 您[透過插入產生AI用來插入內容的內容預留位置或欄位，自訂範本](customize-template.md)以用於GenStudio for Performance Marketing。 GenStudio for Performance Marketing可辨識特定欄位，例如「`body`」欄位，並遵守為所選品牌設定的管道准則。
 
 >[!TIP]
 >
->遵循建置範本的[協助工具准則](accessibility-for-templates.md)，以便您可以觸及更多對象並提供最佳體驗。
+>遵循[協助工具准則](accessibility-for-templates.md)和[最佳實務](/help/user-guide/content/best-practices-for-templates.md)，以便您可以觸及更多對象並提供最佳體驗。
 
 ## 上傳範本
 
@@ -103,7 +97,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
    電子郵件範本的範例預覽：
 
-   ![偵測到預覽欄位](../../assets/template-detected-fields.png){width="650"}
+   ![偵測到預覽欄位](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
@@ -128,7 +122,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
 
-   ![內容範本清單](../../assets/content-templates.png){width="650" zoomable="yes"}
+   ![內容範本清單](/help/assets/content-templates.png){width="650" zoomable="yes"}
 
 1. 選取完整檢視和詳細資訊清單的範本。
 

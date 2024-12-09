@@ -3,10 +3,10 @@ title: 撰寫有效的提示
 description: 了解如何為 Adobe GenStudio for Performance Marketing 編寫有效提示。
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: 79430c3279529c4871141489e409240852e1f4fc
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,9 +57,9 @@ GenStudio for Performance Marketing指南可協助創作AI個人化您的資產�
 
 ### 結構化提示
 
-對於多節電子郵件，您可以建構提示以提供特定節的指示，以產生[電子郵件](/help/user-guide/create/email-experiences.md)中每個節的不同內容。 結構化提示應直接參照電子郵件範本](/help/user-guide/content/email-template.md#multi-section-emails)中的[節名稱，以便將產生的內容插入對應的內容預留位置。
+對於多節電子郵件，您可以構造提示以提供節特定的指示，以便為電子郵件中的每個節產生不同的內容。 結構化提示應直接參照電子郵件範本](/help/user-guide/content/customize-template.md#sections-or-groups)中的[節名稱，以便將產生的內容插入對應的內容預留位置。
 
-例如，您可以指示GenStudio for Performance Marketing產生在電子郵件第一區段中推廣新產品的內容，並產生在第二電子郵件區段中詳細說明產品成本節省效益的內容。
+例如，您可以指示GenStudio for Performance Marketing針對第一節中宣傳新產品的電子郵件產生內容，並在第二節中詳細說明節省成本的好處。
 
 結構化提示應：
 
@@ -72,7 +72,7 @@ GenStudio for Performance Marketing指南可協助創作AI個人化您的資產�
   例如，如果您的範本使用`moduleA`或`Group-3`作為區段名稱，則您可以在提示中參照這些區段名稱。
 
 - 遵循建議的規則/結構。 如果提示結構不符合提供的格式，提示會套用到&#x200B;*所有*&#x200B;電子郵件區段，並且仍然會方便內容產生。
-- 使用區段名稱作為電子郵件範本](/help/user-guide/content/email-template.md#code-an-email-template)中定義的[。 提示參考必須符合電子郵件範本中編碼的區段名稱。
+- 使用區段名稱，如您的電子郵件範本中所定義。 提示參考必須符合電子郵件範本中編碼的區段名稱。
 - 不區分大小寫。 例如，您可以在電子郵件範本和結構化提示中使用`Pod`或`pod`。
 - 先參考一般使用者提示，然後參考區段特定指示。
 - 使用冒號、連字型大小、逗號或其他分隔(`,:;#$!~|@=-%&*^_`)作為區段名稱參考和指示詞之間的分隔。 例如，您可以使用下列作為特定區段提示指令： `Pod1; Describe how to easily edit text and swap images.`
@@ -91,7 +91,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-請參閱[準備電子郵件範本](/help/user-guide/content/email-template.md#code-an-email-template)。
+檢視[使用範本的最佳實務](/help/user-guide/content/best-practices-for-templates.md)。
 
 ## 再試一次
 
