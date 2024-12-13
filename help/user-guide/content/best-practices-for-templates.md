@@ -2,10 +2,11 @@
 title: 範本的最佳實務
 description: 搭配Adobe GenStudio for Performance Marketing使用範本時，請遵循最佳實務作法。
 feature: Templates, Content
-last-substantial-update: 2024-12-09T00:00:00Z
-source-git-commit: 7ba2ecfbdd6853934be5210685bf447848715d28
+last-substantial-update: 2024-12-13T00:00:00Z
+exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
+source-git-commit: df613ffa66b76e0810500f22d2a7b1c7cf7860af
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -145,6 +146,8 @@ ht-degree: 0%
    - 336 x 280
    - 320 x 50
    - 970 x 250&#x200B;
+- 自訂： （畫素）
+   - 50 x 50至2000 x 2000
 
 **可辨識的欄位名稱**：
 

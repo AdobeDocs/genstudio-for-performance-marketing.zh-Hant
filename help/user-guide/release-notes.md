@@ -2,12 +2,12 @@
 title: Adobe GenStudio for Performance Marketing發行說明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增強功能。
 recommendations: noDisplay
-last-substantial-update: 2024-11-14T00:00:00Z
+last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 00359960b6cf314203382d74faa23bae3e753875
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 2%
+source-wordcount: '1268'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +15,83 @@ ht-degree: 2%
 
 此版本資訊詳細說明GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2024.11.14 {#latest}
+## 2024.12.12 {#latest}
+
+### 新功能
+
+編輯器現在可以執行以下中繼資料相關工作：
+
+* 編輯資產、體驗和範本中繼資料。 檢視[資產詳細資料](/help/user-guide/content/asset-details.md#user-defined-metadata)。<!-- GS-4905 6935-->
+
+* 在使用資產的任何體驗的&#x200B;_詳細資料_&#x200B;檢視中，檢視資產產生的標籤。 檢視[資產詳細資料](/help/user-guide/content/asset-details.md#generated-tags)中的&#x200B;_產生的標籤_。<!-- GS-3705 -->
+
+編輯器現在可以為產生的變體的這些方面指定自訂值：
+
+* 顯示廣告範本中網頁橫幅的寬度和高度。 這些值現在會儲存為範本中繼資料。<!-- GS-6735 -->
+
+* 影像上傳期間顯示廣告體驗中的影像Dimension。<!-- GS-7166 -->
+
+* 請參閱[範本最佳實務](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)中的通道特定准則。
+
+匯出選項現在包括：
+
+* 將顯示廣告和中繼廣告匯出為HTML、JPEG或PNG。 請參閱[建立顯示廣告體驗](/help/user-guide/create/create-display-ad.md)和[建立中繼廣告體驗](/help/user-guide/create/create-meta-ad.md)。<!-- GS-7093 6655 5152-->
+
+其他新功能可讓編輯器：
+
+* 使用[!DNL Content]範本&#x200B;_資產詳細資料_&#x200B;檢視上的&#x200B;**[!UICONTROL 重新整理]**&#x200B;按鈕，重新整理選取的範本。<!-- GS-7102 -->
+
+* 重新產生顯示廣告和電子郵件變體的區段。 請參閱[建立顯示廣告體驗](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads)和[建立電子郵件體驗](/help/user-guide/create/create-email-experience.md#revise-generated-emails)。<!-- GS-5080 5078-->
+
+* 複製現有品牌。 檢視[管理品牌](/help/user-guide/guidelines/brands.md#manage-brands)。<!-- BRANDS-548 -->
+
+### 修正和增強功能
+
+* 顯示廣告標題現在已如預期儲存至[!DNL Content]。<!-- GS-7239 -->
+
+* 當編輯器在抽屜下拉式選單之外按一下時，提示抽屜不再關閉。<!-- GS-7275 -->
+
+* 發生縮圖URL服務錯誤時，[!DNL Create] [!DNL Persona]/[!DNL Product]下拉式功能表現在會如預期載入。<!-- GS-7277 -->
+
+* 包含覆蓋片段元素的顯示廣告現在可以編輯。<!-- GS-7186 -->
+
+* 未針對體驗產生品牌分數時，畫布&#x200B;**[!UICONTROL 品牌]**&#x200B;按鈕現在會停用。<!-- GS-6429 -->
+
+* 「畫布」現在會以一致的順序顯示調整大小的體驗。<!-- GS-7123 -->
+
+* 編輯顯示廣告時，手動裁切現在會使用影像尺寸，而非範本尺寸。 先前，當影像小於顯示廣告範本中指定的尺寸時，邊界方塊會使用範本尺寸，而非影像尺寸。<!-- GS-7315 -->
+
+* 編輯人員現在可以在建立顯示廣告時選取最多四個影像。<!-- GS-7189 -->
+
+* 現在當在不同瀏覽器上調整大小時，顯示廣告和中繼廣告草稿會如預期般載入。<!-- GS-7204 -->
+
+* 未使用的範本欄位不再顯示在產生的內容中。 <!-- GS-5670 -->
+
+* 編輯器現在可以按一下連結，以如預期在產生的變體中進行編輯。<!-- GS-7423 -->
+
+* [!DNL Create]現在正確遵循共同作業人員許可權。<!-- GS-7614 -->
+
+* 現在已選取並轉譯所有調整大小選項後，畫布&#x200B;**[!UICONTROL 調整大小]**&#x200B;按鈕已停用。<!-- GS-5940 -->
+
+* 具有僅供檢視存取權的檢閱者現在可以在檢閱期間放大和縮小變體。<!-- GS-7371 -->
+
+* 已將鍵盤焦點新增至[!DNL Create] _最近工作_&#x200B;檢視上僅可操作的按鈕。<!-- GS-4060 -->
+
+* 現在僅在儲存作業期間顯示電子郵件片段儲存作業期間顯示的&#x200B;**正在儲存**&#x200B;訊息。 以前，畫布會無限期地顯示此訊息。<!-- GS-6964 -->
+
+* 現在，當草稿無法載入[!DNL Create] _最近工作_&#x200B;區域時，編輯人員會如預期看到錯誤訊息。 <!-- GS-8081 -->
+
+* Canvas現在會以正確順序顯示調整大小的中繼廣告和顯示廣告。 <!-- GS-7375 -->
+
+* 編輯人員現在可以按一下進入電子郵件和顯示廣告的欄位。<!-- GS-6297 -->
+
+* 電子郵件和中繼廣告的編輯片段功能現在會如預期透過按一下觸發。<!-- GS-8081 -->
+
+* 改善[!DNL Create] **[!UICONTROL 上一步]**&#x200B;按鈕的效能。<!-- GS-6767 -->
+
+## 舊版發行說明
+
++++2024.11.14版注意事項
 
 ### 新功能
 
@@ -41,7 +117,7 @@ ht-degree: 2%
 * [!DNL Content] _Assets_&#x200B;檢視&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位中的所有工具提示都已當地語系化。<!-- GS-6879 -->
 * 取代[!DNL Create]畫布上電子郵件變體中的現有影像時，_從內容選取_&#x200B;檢視現已當地語系化。<!-- GS-6906 -->
 
-## 舊版發行說明
++++
 
 +++2024.11.07版注意事項
 
@@ -51,7 +127,7 @@ ht-degree: 2%
 
 * 體驗標題現在會在體驗重新產生期間正確建立。<!-- GS-7006 -->
 
-* 已解決草稿載入期間卷軸閃爍的問題。<!-- GS-5587 -->
+* 草稿載入期間卷軸閃爍的問題已解決。<!-- GS-5587 -->
 
 * [!DNL Content] _新增您核准的範本_&#x200B;快顯視窗中的`View documentation`連結現在可如預期運作。<!-- GS-6881 -->
 
@@ -105,9 +181,11 @@ ht-degree: 2%
 
 * 電子郵件框線的配置問題已解決。<!-- GS-6631 -->
 
-* 鍵盤焦點現在在&#x200B;**[!DNL Content]** **[!UICONTROL 刪除]**&#x200B;按鈕上按預期運作。 之前，鍵盤無法連線或操作此按鈕。  <!-- GS-4065 -->
+* 鍵盤焦點現在在&#x200B;**[!DNL Content]** **[!UICONTROL 刪除]**&#x200B;按鈕上按預期運作。 之前，使用者無法透過鍵盤存取此按鈕。  <!-- GS-4065 -->
 
-## 2024.10.14全面發佈
++++
+
++++2024.10.14年全面發行說明
 
 此發行版本介紹Adobe GenStudio for Performance Marketing，這是一個創作AI型應用程式，可加速行銷活動的規劃、開發和分析。 GenStudio for Performance Marketing可讓行銷團隊針對廣告、電子郵件和行銷活動建立品牌內多頻道內容，同時提供即時深入分析以最佳化內容效能。
 
@@ -115,7 +193,7 @@ ht-degree: 2%
 
 主要產品功能包括：
 
-**[!DNL Create]**&#x200B;推出了Canvas，提供結構化的提示體驗，讓內容編輯人員快速產生內容和變體。 系統管理員會根據組織品牌指導方針來訓練產品。 [!DNL Create]可確保所有AI產生的內容都符合您的品牌准則（品牌、客戶角色和產品說明），並簡化產生高影響力、品牌一致的行銷內容。
+**[!DNL Create]**&#x200B;推出了Canvas，提供結構化的提示體驗，讓內容編輯人員快速產生內容和變體。 系統管理員會根據組織品牌指導方針來訓練產品。 [!DNL Create]會確保所有AI產生的內容都與您的品牌准則（品牌、客戶角色和產品說明）一致，並簡化產生高影響力、品牌一致的行銷內容。
 
 **[!DNL Content]**&#x200B;個儲存已監管、符合品牌規範的核准資產和體驗。 GenStudio for Performance Marketing使用者可輕鬆尋找、編輯、重新調整用途和共用已核准資產，減少為每個行銷活動從頭開始重新建立內容的需求。
 

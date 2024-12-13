@@ -1,14 +1,14 @@
 ---
 title: 建立中繼廣告體驗
-description: 瞭解如何為Facebook或Instagram建立品牌內中繼廣告體驗，並提供效能行銷的Adobe GenStudio。
+description: 瞭解如何使用Adobe GenStudio for Performance Marketing為Facebook或Instagram建立品牌內中繼廣告體驗。
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: bd24c4e25df1210dd6ff2b7f17f999963133294a
+source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 此教學課程示範如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)產生品牌化[中繼廣告體驗](/help/user-guide/create/meta-experiences.md) （左側導覽區域中的繪圖筆刷圖示）。
 
-開始產生中繼廣告體驗之前，請務必[將指導方針](/help/user-guide/guidelines/add-guidelines.md)納入GenStudio以進行效能行銷，並熟悉[建立提示](/help/user-guide/effective-prompts.md)的基本知識。
+開始產生中繼廣告體驗之前，請務必[在GenStudio for Performance Marketing中納入指引](/help/user-guide/guidelines/add-guidelines.md)，並熟悉[建立提示](/help/user-guide/effective-prompts.md)的基本知識。
 
 ## 選擇範本
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    ![選擇角色](/help/assets/persona-select.png){width="600" zoomable="yes"}
 
-   如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio以進行效能行銷](/help/user-guide/guidelines/add-guidelines.md)。
+   如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)。
 
 1. 新增內容以用於體驗&#x200B;*和*，以影響內容產生：
    * 按一下&#x200B;**[!UICONTROL 從「內容」選取]**，從[!DNL Content]存放庫選取資產（影像）、篩選並選取一或多個影像。
@@ -86,9 +86,9 @@ ht-degree: 0%
 **若要修訂產生的變體**：
 
 * **若要[編輯中繼廣告草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名的草稿_&#x200B;標題，然後輸入新標題。
-* **若要[手動編輯中繼廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按兩下任何廣告區段(例如主旨列、
+* **若要[手動編輯中繼廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何廣告區段(例如主旨列、
 頁首或內文)，並視需要編輯。
-* **若要變更或選取行動號召**，請按一下行動號召按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_[!UICONTROL 連結]_&#x200B;中，輸入行動號召文字的URL。
+* **若要變更或選取行動號召**，請按一下顯示行動號召的按鈕，然後從可用的按鈕文字選項中選取。<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠游標停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。
 * **若要[刪除中繼廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下廣告標題（例如「Meta 4」）並按一下&#x200B;**[!UICONTROL 刪除變體]**。
@@ -135,12 +135,12 @@ ht-degree: 0%
 
 1. **若要發佈新的中繼廣告體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL Publish]**。
 1. **若要匯出您新的中繼廣告體驗**，請按一下頂端工具列中的&#x200B;**[!UICONTROL 匯出]**。
-   1. 選取格式(僅限CSV和影像或HTML)，然後按一下「匯出」****。
+   1. 選取格式 — HTML和影像或CSV和影像(JPG或PNG) — 按一下「匯出」****。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。
 
 ## 連線中繼資料
 
-您可以將GenStudio的效能行銷連線到中繼以接收進階分析和[內容效能的深入分析](/help/user-guide/insights/overview.md)。
+您可以將GenStudio for Performance Marketing連線至中繼以接收進階分析和[內容效能的深入分析](/help/user-guide/insights/overview.md)。
 
 如需詳細資訊，請參閱[連線通道帳戶](/help/user-guide/insights/connect-channel.md)。

@@ -3,10 +3,10 @@ title: 管理資產和體驗
 description: 簡化並增強對品牌核准資產的管理，以便在您的數位行銷歷程中使用和重複使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 802ee1b5c403394b66567bbe4bffbda8124f3624
+source-git-commit: 5785c807f0a674c95cada0aa3976dd7fb3d7f16e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1271'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,6 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 
 ![存放庫的位置清單](../../assets/content-location-selection.png){width="350"}
 
-
 當您選取AEM存放庫時，相簿會顯示該存放庫中的資產詳細目錄，好讓您利用這些存放庫中已核准的資產作為內容建立的輸入專案。 篩選器選項會變更，以反映[!DNL AEM Assets Content Hub]中設定的類別。
 
 如需將[!DNL AEM Assets Content Hub]存放庫新增到GenStudio for Performance Marketing的指引，請參閱[連線AEM存放庫](connect-aem-repo.md)。
@@ -70,7 +69,20 @@ AEM存放庫是唯讀的，這表示您可以存取內容，但無法將草稿�
 
 ## Assets管理
 
-在[!UICONTROL Content]中，效能行銷可以輕鬆儲存、擷取及管理其數位資產。 藉由運用`GenStudio assets`存放庫和AEM存放庫，使用者可確保他們的資產有良好的組織且可供各種行銷活動存取。 此多存放庫方法可讓您靈活控制各環境中的資產使用情況，確保行銷工作中僅使用已核准和最新的資產。
+在[!UICONTROL Content]中，您可以輕鬆儲存、擷取及管理您的數位資產。 善用`GenStudio assets`存放庫和AEM存放庫，可確保您的資產有良好的組織且可供各種行銷活動存取。 此多存放庫方法可讓您靈活控制各環境中的資產使用情況，確保行銷工作中僅使用已核准和最新的資產。
+
+下表列出資產、體驗和範本可用的管理任務：
+
+| 任務 | 資產 | 體驗 | 範本 |
+| --------------------------------------------------------- | :----: | :---------: | :-------: |
+| [檢視詳細資料](/help/user-guide/content/asset-details.md) | ✓ (A) | ✓ | ✓ |
+| [建立體驗](/help/user-guide/create/overview.md) |        |             | ✓ |
+| [在Adobe Express中編輯](#edit-in-express) | ✓ |             |           |
+| [匯出以啟動](#export-for-activation) |        | ✓ |           |
+| [下載](#download-assets) | ✓ |             | ✓ |
+| [刪除](#delete-assets) | ✓ | ✓ | ✓ |
+
+<!-- | [Refresh]                                                 |        |             |     ✓     | -->
 
 ### 新增資產
 
@@ -100,10 +112,6 @@ AEM存放庫是唯讀的，這表示您可以存取內容，但無法將草稿�
 
 1. 若要檢視您上傳的新資產，請按一下畫布底部的&#x200B;_可用新資產_&#x200B;通知中的&#x200B;**[!UICONTROL 重新整理]**。
 
-<!--
-In the future, need guidance on template upload errors. For now, the UI just says error.
--->
-
 ### 下載資產
 
 **若要下載資產**：
@@ -123,6 +131,23 @@ In the future, need guidance on template upload errors. For now, the UI just say
 1. 在資產檢視中，按一下右上角的&#x200B;**[!UICONTROL 刪除]** （垃圾桶）。
 
 1. 在&#x200B;_刪除資產_&#x200B;快顯視窗中，驗證資產並按一下&#x200B;**[!UICONTROL 刪除]**。
+
+## 匯出以啟動
+
+您可以匯出核准的體驗，以與目標頻道相容的格式加以啟用。
+
+**匯出體驗**：
+
+1. 在&#x200B;_[!DNL Content]_中，選取體驗。 按一下體驗會開啟詳細資料檢視，或按一下捷徑功能表(`...`)。
+
+1. 按一下&#x200B;**[!UICONTROL 匯出以啟動]** （箭號指向的方塊）。
+
+1. 在&#x200B;_匯出以啟動_&#x200B;快顯視窗中，選取其中一個可用的格式：
+
+   - 電子郵件： `HTML`，`CSV`
+   - 中繼和顯示廣告： `HTML`、`JPEG`、`PNG`
+
+請參閱[啟用](/help/user-guide/activation/overview.md)。
 
 ## 在Express中編輯
 

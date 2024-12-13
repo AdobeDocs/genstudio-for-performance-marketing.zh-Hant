@@ -3,9 +3,9 @@ title: 資產詳細資訊
 description: Adobe GenStudio for Performance Marketing會使用豐富的中繼資料儲存已核准的內容，以供搜尋和效能追蹤。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
+source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -54,25 +54,53 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 當您[上傳資產](/help/user-guide/content/manage-assets.md#add-assets)時，您可以將GenStudio for Performance Marketing中存在的一組選用資產詳細資料定義為中繼資料。 包含更多詳細資訊可改善搜尋和篩選中的資產識別功能。
 
+**若要編輯使用者定義的中繼資料**：
+
+1. 在&#x200B;_[!DNL Content]_中，選取資產、體驗或範本。
+
+1. 在資產檢視中，檢閱右側的&#x200B;_[!UICONTROL 詳細資料]_&#x200B;區段。
+
+1. 按一下&#x200B;**[!UICONTROL 編輯詳細資料]** （鉛筆）以編輯資產中繼資料。
+
+   您提供的詳細資料越多，就越能體驗GenStudio for Performance Marketing的強大功能。 從清單中選取一或多個詳細資訊，或輸入適用的新詳細資訊，例如關鍵字。 您新增的每個詳細資訊都會顯示在清單下方。 按一下&#x200B;**`x`**&#x200B;以移除詳細資料。
+
 ### 中繼資料詳細資料
 
-下表詳細說明您建立資產時可以定義的中繼資料（資產詳細資訊）。
+下表詳細說明您在建立資產時可以定義的中繼資料（資產詳細資訊）。
 
 | 欄位 | 說明 |
-| ------------- | ----------- |
-| 行銷活動（專案名稱） | 隨資產擷取並儲存的預設中繼資料 |
+| -------------- | ----------- |
+| 標題 | 資產名稱；預設標題可能是原始檔案名稱 |
+| [!DNL Campaigns] | [[!DNL Campaigns]](/help/user-guide/campaigns/overview.md)包含具有一致訊息的促銷內容，目的是達成業務目標<br>按一下促銷活動連結會帶您前往促銷活動的概觀頁面 |
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md)已新增至GenStudio for Performance Marketing並發佈以供使用 |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md)已新增至GenStudio for Performance Marketing以供使用 |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md)已新增至GenStudio for Performance Marketing以供使用 |
-| 頻道 | 資產使用的GenStudio for Performance Marketing內容型別，例如電子郵件和中繼廣告 |
+| 頻道 | 用於發佈特定內容型別（例如電子郵件和顯示廣告）的平台 |
 | [!UICONTROL 時間範圍] | 使用資產的時間範圍，例如季、季、年等。 範例： `Winter 2023` |
 | 地區 | 使用資產的區域。 範例： `North America`， `APAC`， `Italy` |
 | 語言 | 使用資產的語言。 範例： `Spanish` |
-| 關鍵字 | 用於進一步識別資產特性及用途的使用者定義關鍵字 |
+| 關鍵字 | 使用者定義的關鍵字可用來進一步識別資產的特性和用途 |
 
-<!-- ## History
+>[!TIP]
+>
+>按一下&#x200B;**[!UICONTROL 編輯詳細資料]** （鉛筆）以編輯資產中繼資料。 例如，您可以變更資產名稱，或新增或移除關鍵字。
 
-Expand the _[!UICONTROL History]_ section to view a timeline of approvals and activity.
+## 產生式內容
 
-list other activity, show screenshot?
--->
+[!UICONTROL 產生式內容]區段顯示用來產生體驗的資訊，例如[!DNL Create]處理序期間使用的`Prompt`。 此深入分析可協助您建立更成功的變體。
+
+資訊可能包括：
+
+- `Brand`、`Product`和`Persona`引數
+- 電子郵件體驗的`Subject line`和`Pre Header`
+- 中繼廣告的`Headline`和`Body`
+
+## 歷史記錄
+
+展開體驗中的&#x200B;_[!UICONTROL 歷程記錄]_&#x200B;區段以檢視核准和活動的時間表。 例如，已核准的體驗會顯示核准日期、時間和核准者：
+
+```
+Approved
+
+December 10, 2024 at 6:00 PM by Username
+```

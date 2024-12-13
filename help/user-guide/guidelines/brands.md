@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] 是完整的品牌資產集合（行銷文案、影像、體驗等），可協助您建立品牌一致的內容。
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: 435c792d1991c2e34c500d072f23f1ed1ccdbcc9
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ GenStudio for Performance Marketing會使用您品牌的豐富品牌資訊、與
 
 將品牌准則新增至GenStudio for Performance Marketing後，您可以[管理](/help/user-guide/guidelines/add-guidelines.md#manage-brands)和[發佈](/help/user-guide/guidelines/add-guidelines.md#publish-brand)它們。 發佈功能可讓您的團隊在資產產生中使用這些資產。
 
-[!DNL Brands]可以處於&#x200B;_草稿_&#x200B;或&#x200B;_已發佈_&#x200B;狀態。 新的[!DNL brands]開始為&#x200B;_草稿_。
+[!DNL Brands]可以處於&#x200B;_已取消發佈_&#x200B;或&#x200B;_已發佈_&#x200B;狀態。 新的[!DNL brands]開始為&#x200B;_已取消發佈_。
 
-您必須發佈[!DNL brand]，才能讓您的團隊產生資產。
+您必須[發佈品牌](/help/user-guide/guidelines/add-guidelines.md#publish-brand)，才能讓您的團隊產生資產。
 
-可編輯已發佈的[!DNL brands]，變更立即可用。 只有已發行的[!DNL brands]才能用來建立及驗證內容。
+您可以編輯、複製或取消發佈已發佈的品牌（可立即進行變更）。 只有已發行的[!DNL brands]才能用來建立及驗證內容。 請參閱[管理品牌](/help/user-guide/guidelines/add-guidelines.md#manage-brands)。
 
 已刪除的[!DNL brands]已封存30天，並可在該期間內復原。
 

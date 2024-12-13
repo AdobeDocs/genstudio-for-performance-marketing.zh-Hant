@@ -2,13 +2,13 @@
 title: 管理變體
 description: 根據您的數位行銷需求，自訂及增強產生的變體和資產。
 feature: Content, Assets, Experiences
-source-git-commit: 5e92233248c555a3b0a59bd4dbb0935e4c8cfb1f
+exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
-
 
 # 管理變體
 
@@ -40,23 +40,36 @@ Adobe GenStudio for Performance Marketing [!DNL Create]可讓您自訂及增強�
 
 ## 重新產生區段
 
-GenStudio for Performance Marketing具有內建功能，可使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;和新提示重新產生產生產生之變體的單一區段。
+GenStudio for Performance Marketing有內建功能，可重新產生產生產生變體的區段。 您可以重述、縮短或加長文字，或新增提示以產生新內容。
 
-例如，您可以重新產生一個中繼廣告變體的標題區段，以使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項 — _[!UICONTROL 重新片語]_、_[!UICONTROL Shortter]_&#x200B;或&#x200B;_[!UICONTROL Lengthen]_ — 並輸入新提示來檢視它在特定背景資產中的外觀。
+例如，您可以重新產生一個中繼廣告變體的標題區段，以檢視它在特定背景資產下的外觀。 您可以&#x200B;_[!UICONTROL 重新片語]_、_[!UICONTROL 縮短]_、_[!UICONTROL 加長]_&#x200B;區段內容，或&#x200B;_[!UICONTROL 產生新文字]_&#x200B;以新增提示。
 
 ![重新產生區段](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
 **若要重新產生個別變體區段**：
 
 1. 產生一組變體後，按一下變體中的任何可編輯文字。
-1. 選取&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項 — _[!UICONTROL 重新片語]_、_[!UICONTROL 縮短]_&#x200B;或&#x200B;_[!UICONTROL 加長]_。
-   * 選擇可用的選項，然後按一下&#x200B;**[!UICONTROL 取代]**。
-1. （_選擇性_）選取_[!UICONTROL 使用提示產生]並輸入新的提示以變更重新產生內容的焦點。
-   * 按一下&#x200B;**[!UICONTROL 產生]**。
-1. 如果要重新產生結果以檢視更多選項，請按一下&#x200B;_結果_&#x200B;旁的重新產生圖示。
-1. 從顯示的&#x200B;_結果_&#x200B;中，選取所要的選項，然後按一下&#x200B;**[!UICONTROL 取代]**。
+1. 若要變更現有文字，請選取&#x200B;_[!UICONTROL 重新片語]_、_[!UICONTROL 縮短文字]_&#x200B;或&#x200B;_[!UICONTROL 加長文字]_。
+1. 若要產生新的措辭選項，請選取&#x200B;_[!UICONTROL 產生新文字]_&#x200B;並輸入新提示。
+   1. 按一下&#x200B;**[!UICONTROL 產生]**。
+1. 當您重新產生截面的文字時，請按一下重新產生圖示以檢視更多文字選項。
+1. 從顯示的結果中，選取所需的選項，然後按一下&#x200B;**[!UICONTROL 取代]**。
 
    變體會以修訂後的文字更新。
+
+## 修訂號召性用語
+
+產生一組變體後，您可以修訂行動號召(CTA)文字和連結。
+
+**若要修訂變體中的CTA**：
+
+1. 產生一組變體後，按一下顯示CTA文字的按鈕。
+1. 若要變更CTA按鈕文字，請從&#x200B;_行動號召_&#x200B;清單中的可用選項中選取。
+1. 若要變更CTA中的連結，請按一下[連結]。****
+   1. 在&#x200B;_編輯連結_&#x200B;區段中輸入或貼上新連結或修訂現有連結，然後按一下&#x200B;**[!UICONTROL 套用]**。 您可以按一下&#x200B;**[!UICONTROL 移除連結]**，在進入新連結之前先移除現有的連結。
+
+
+新增或修訂連結會套用至變體集中的所有CTA。
 
 ## 裁切資產
 

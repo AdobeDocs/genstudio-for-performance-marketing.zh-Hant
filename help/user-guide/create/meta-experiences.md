@@ -4,13 +4,13 @@ description: 瞭解Adobe GenStudio for Performance Marketing中的所有中繼�
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
+exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # 中繼體驗
 
@@ -54,3 +54,9 @@ Content creators and marketers can produce brand-consistent Meta ad experiences 
 1. 標題
 1. 影像上文字
 1. 進行品牌驗證程式，且&#x200B;[_品牌指引檢查_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)&#x200B;會針對每個變體填入。
+
+## 字元數
+
+產生一組Meta變體後，您可以看到每個區段顯示的字元數。 將游標停留在產生的區段上或按一下該區段，例如主旨行或內文，然後檢視該區段的區段名稱和字元計數。
+
+![字元計數](/help/assets/character-count.png){width="500" zoomable="yes"}
