@@ -1,11 +1,11 @@
 ---
 title: 檢閱和編輯內容
-description: 瞭解如何反複檢閱和編輯內容。
+description: 瞭解如何使用Adobe GenStudio for Performance Marketing反複檢閱和編輯內容。
 feature: Approval
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe GenStudio for Performance Marketing的創作AI功能可加快內容建立�
 
 ## 存取內容以供檢閱
 
-如果您收到電子郵件要求您檢閱並核准資產或體驗，則可以核准內容。 此電子郵件包含您被要求檢閱之草稿的連結。 此URL只有在草稿正在稽核時有效。
+如果您收到電子郵件要求您檢閱並核准資產或體驗，則可以核准內容。 此電子郵件包含要求您檢閱之草稿的連結。 此URL只有在草稿正在稽核時有效。
 
 **檢閱內容**：
 
@@ -40,7 +40,7 @@ Adobe GenStudio for Performance Marketing的創作AI功能可加快內容建立�
 
 ## 請求變更
 
-您可以從內容&#x200B;_核准_&#x200B;面板中列出建議的變更或提出有關草稿的問題。 **需要工作**&#x200B;草稿狀態會通知內容建立者已要求變更。
+您可以列出建議的變更，或從[!DNL Content] _核准_&#x200B;面板詢問有關草稿的問題。 **需要工作**&#x200B;草稿狀態會通知內容建立者已要求變更。
 
 此程式會檢閱、建議編輯內容建立者，然後修訂內容並選擇性地透過`@mention`個註解請求其他輸入，此程式具有高度反複性。 正是這個部分的週期讓您看到GenStudio for Performance Marketing的省時功能。
 

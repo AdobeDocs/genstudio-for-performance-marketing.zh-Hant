@@ -1,10 +1,10 @@
 ---
 title: 要求檢閱和核准
-description: 要求檢閱。
+description: 使用Adobe GenStudio for Performance Marketing請求對所產生的內容進行稽核。
 exl-id: 4d5cb23c-457f-47b6-a265-a283afbc54d4
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
