@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing概念
 description: 瞭解Adobe GenStudio for Performance Marketing概念和術語。
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: e8a210a22856683f7d61c5309c451689e445c8fe
+source-git-commit: bfe961a06f62e55f3207088f6f390204b12e7142
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,48 @@ GenStudio for Performance Marketing運用創作AI的強大功能，加速內容�
 GenStudio for Performance Marketing運用Adobe的創作AI平台，該平台提供基礎AI和機器學習(ML)服務。 此平台可簡化大型語言模型(LLM)的使用，為Adobe的GenAI功能提供強大動力，以打造引人入勝的體驗。
 
 GenStudio for Performance Marketing透過Azure OpenAI使用GPT系列的協力廠商LLM。<!-- Claude, and Gemini models. -->
+
+## [!DNL Generative Actions]
+
+_[!DNL Generative Actions]_(如[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所定義)是量化GenStudio for Performance Marketing內產生式AI功能之使用的單位。
+
+<!-- Add example about usage mode?
+Where users check how many generative actions they have left
+How they re-up their genactions
+If genactions roll over month to month or not -->
+
+### 費率
+
+您會收到[GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所述的[!DNL Generative Actions]預設配額。
+
+>[!NOTE]
+>
+>使用率可能有所不同。 計畫可能會有變動。 如需更新的費率資訊，請參閱[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)。
+
+下列函式以指定的速率使用[!DNL Generative Actions]。
+
+| 函數 | 產生式動作率 |
+| -----------------------  | ------------------ |
+| 建立電子郵件 | 每代5個 |
+| 建立付費媒體廣告 | 每代5個 |
+| 建立顯示廣告 | 每代5個 |
+| 重新產生截面 | 每代1個 |
+
+<!-- | Generate on-brand images | 1 per prompt  |
+| Translation              | 1 per prompt  |
+| Video: ADLS              | 1 per prompt  |
+| Video: TTS + Avatar      | 1 per prompt  | -->
+
+[!DNL Generative Actions] _未在下列情況下使用_：
+
+* 在產生變體期間使用[品牌驗證](/help/user-guide/guidelines/brand-validation.md)
+* 正在從[上傳的准則](/help/user-guide/guidelines/add-guidelines.md)擷取資訊
+* 手動[重新檢查變體](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment)
+* 數位資產會自動使用屬性([[!DNL Insights]](/help/user-guide/insights/overview.md))標籤
+
+>[!TIP]
+>
+>如果您超過[!DNL Generative Actions]的權益，您可以直接向帳戶代表購買更多產品。
 
 ## 資料控管
 
