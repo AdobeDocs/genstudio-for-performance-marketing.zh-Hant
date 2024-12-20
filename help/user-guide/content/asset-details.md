@@ -3,9 +3,9 @@ title: 資產詳細資訊
 description: Adobe GenStudio for Performance Marketing會使用豐富的中繼資料儲存已核准的內容，以供搜尋和效能追蹤。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -56,11 +56,11 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 **若要編輯使用者定義的中繼資料**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取資產、體驗或範本。
+1. 在&#x200B;_[!DNL Content]_中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，檢閱右側的&#x200B;_[!UICONTROL 詳細資料]_&#x200B;區段。
 
-1. 按一下&#x200B;**[!UICONTROL 編輯詳細資料]** （鉛筆）以編輯資產中繼資料。
+1. 按一下&#x200B;**[!UICONTROL 編輯詳細資料]** （鉛筆）以編輯資產、體驗或範本中繼資料。
 
    您提供的詳細資料越多，就越能體驗GenStudio for Performance Marketing的強大功能。 從清單中選取一或多個詳細資訊，或輸入適用的新詳細資訊，例如關鍵字。 您新增的每個詳細資訊都會顯示在清單下方。 按一下&#x200B;**`x`**&#x200B;以移除詳細資料。
 
@@ -91,8 +91,8 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 資訊可能包括：
 
-- `Brand`、`Product`和`Persona`引數
-- 電子郵件體驗的`Subject line`和`Pre Header`
+- 在[!DNL Create]處理序期間選取了`Brand`、`Product`和`Persona`引數
+- 電子郵件體驗的`Subject line`和`Preheader`
 - 中繼廣告的`Headline`和`Body`
 
 ## 歷史記錄

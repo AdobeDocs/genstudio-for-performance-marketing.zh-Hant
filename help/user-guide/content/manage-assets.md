@@ -3,9 +3,9 @@ title: 管理資產和體驗
 description: 簡化並增強對品牌核准資產的管理，以便在您的數位行銷歷程中使用和重複使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 5785c807f0a674c95cada0aa3976dd7fb3d7f16e
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1302'
 ht-degree: 1%
 
 ---
@@ -14,10 +14,9 @@ ht-degree: 1%
 
 Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核准資產的管理，以便在您的數位行銷歷程中使用和重複使用。
 
-## 內容庫
+## [!DNL Content]相簿
 
 相簿會根據選取的檢視，顯示已核准資產、體驗或範本的詳細目錄。 表格左上方的篩選（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選]**&#x200B;功能表，您可以從許多類別中選取，以篩選相簿中顯示的內容。 在&#x200B;_[!UICONTROL Assets]_&#x200B;檢視中，按一下搜尋（放大鏡）圖示以使用關鍵字尋找資產。
-
 
 下列顯示對[!UICONTROL Assets]相簿中字詞`dog`的搜尋：
 
@@ -27,9 +26,10 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 
 篩選和搜尋介面快速且回應迅速，並提供高生產力的搜尋優先體驗。 每個[!DNL Content]檢視都會提供篩選選項，以縮小搜尋範圍，找出理想的資產、體驗或範本。 針對資產和體驗，您可以選取行銷活動和特定准則，例如為特定產品製作的內容。
 
-有以[關鍵字](asset-details.md#user-defined-metadata)和[屬性類別](/help/user-guide/insights/attribute-category.md)為基礎的篩選器，可縮小搜尋結果的範圍。 例如，您可能會想要尋找特定檔案型別或主題的資產，以協助您為行銷活動建立新的體驗。
+有以[關鍵字](asset-details.md#user-defined-metadata)和[屬性類別](/help/user-guide/insights/attribute-category.md)為基礎的篩選器，可縮小搜尋結果的範圍。 例如，您可能會想要尋找特定檔案型別或主題的資產，以協助您為行銷活動建立新的體驗。 或者，您可以根據使用者名稱或團隊成員名稱來篩選內容：
 
-搜尋&#x200B;_體驗_&#x200B;時，您可以使用&#x200B;**[!UICONTROL 由]**&#x200B;建立篩選器來限制清單，以僅顯示您或特定人員建立的體驗。
+- **[!UICONTROL 由]**&#x200B;上傳的篩選器限制&#x200B;_[!UICONTROL Assets]_&#x200B;清單僅顯示您或特定人員上傳的資產。
+- **[!UICONTROL 由]**&#x200B;建立的篩選器限制&#x200B;_[!UICONTROL 體驗]_&#x200B;清單僅顯示您或特定人員建立的體驗。
 
 **若要搜尋要重複使用的內容**：
 
@@ -79,10 +79,9 @@ AEM存放庫是唯讀的，這表示您可以存取內容，但無法將草稿�
 | [建立體驗](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [在Adobe Express中編輯](#edit-in-express) | ✓ |             |           |
 | [匯出以啟動](#export-for-activation) |        | ✓ |           |
+| [重新整理](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [下載](#download-assets) | ✓ |             | ✓ |
 | [刪除](#delete-assets) | ✓ | ✓ | ✓ |
-
-<!-- | [Refresh]                                                 |        |             |     ✓     | -->
 
 ### 新增資產
 
@@ -116,7 +115,7 @@ AEM存放庫是唯讀的，這表示您可以存取內容，但無法將草稿�
 
 **若要下載資產**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取影像資產。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_中，選取資產或範本。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，按一下右上角的&#x200B;**[!UICONTROL 下載]**&#x200B;圖示（向下箭頭）。
 
@@ -126,7 +125,7 @@ AEM存放庫是唯讀的，這表示您可以存取內容，但無法將草稿�
 
 **若要刪除資產**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取影像資產。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，按一下右上角的&#x200B;**[!UICONTROL 刪除]** （垃圾桶）。
 

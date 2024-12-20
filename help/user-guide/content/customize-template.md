@@ -4,9 +4,9 @@ description: 瞭解如何針對Adobe GenStudio for Performance Marketing個人�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: f95848546abc2decbb5ac52491307977820ce503
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,10 @@ GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯�
 1. **使用CORS標頭**：主機伺服器必須傳送回應，且生產環境的`Access-Control-Allow-Origin`標頭設為`https://experience.adobe.com`值。 此方法可讓GenStudio for Performance Marketing存取並包含資源。
 
 1. **使用資料URL**：使用資料URL將外部資源直接內嵌到範本中。 此方法會繞過CORS限制，並確保資源在產生縮圖期間可供使用。
+
+>[!TIP]
+>
+>使用[重新整理](/help/user-guide/content/use-templates.md#refresh-template)以最新的靜態內容更新範本預覽。
 
 ## 範本範例
 

@@ -3,9 +3,9 @@ title: 使用範本
 description: 瞭解如何在Adobe GenStudio for Performance Marketing中有效使用範本來簡化您的創意流程。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: bfe1ae2c734b19e474ab1614fa72afea7d35a73e
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,16 @@ ht-degree: 0%
 # 使用範本
 
 GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#x200B;快速產生一致的品牌上行銷內容。 範本提供起點，包含預先設定的版面和設計元素，可大幅減少產生新內容所需的時間和精力。
+
+雖然GenStudio for Performance Marketing不支援直接在應用程式中建立範本，但您可以使用熱門設計工具(例如Adobe InDesign、Illustrator或Express)輕鬆設計和準備範本。 設計完成後，您可以加以調整以用於GenStudio for Performance Marketing。 請依照下列步驟開始使用範本：
+
+1. **設計您的範本**：使用您偏好的設計工具，以元素](#template-elements)建立[範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
+
+2. **為您的範本編碼**：將您的設計轉換為HTML和內嵌CSS，以確保它在各種裝置間保持乾淨和回應。 請考慮[協助工具准則](accessibility-for-templates.md)，以協助達到您預期的最大受眾。
+
+3. **準備GenStudio for Performance Marketing**：使用Handlebars範本語言調整您的HTML範本。 插入預留位置以指示GenStudio for Performance Marketing應在何處動態產生內容。 瞭解如何[自訂GenStudio for Performance Marketing的範本](customize-template.md)。
+
+依照這些步驟，您可以建立專業且有效的範本，這些範本即可在GenStudio for Performance Marketing中使用，讓您快速有效率地製作品牌內內容。
 
 ## 範本元素
 
@@ -81,9 +91,15 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 >
 >遵循[協助工具准則](accessibility-for-templates.md)和[最佳實務](/help/user-guide/content/best-practices-for-templates.md)，以便您可以觸及更多對象並提供最佳體驗。
 
-## 上傳範本
+## 管理範本
 
-準備GenStudio for Performance Marketing的範本時，請使用[自訂範本](customize-template.md)作為指南。 請參閱範本的[協助工具准則](accessibility-for-templates.md)，以取得為所有對象提供更佳體驗的指引。
+[!DNL Templates]相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。 您可以依管道型別（例如電子郵件、顯示廣告和中繼廣告）篩選範本。
+
+![內容範本清單](/help/assets/content-templates.png){width="650" zoomable="yes"}
+
+### 新增範本
+
+在上傳範本之前，請依照[自訂範本](customize-template.md)指南，確保範本已完全準備就緒並可以在GenStudio for Performance Marketing中使用。
 
 **若要新增範本**：
 
@@ -114,7 +130,19 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
-## 使用範本建立
+### 重新整理範本
+
+範本可能包含靜態檔案，例如圖示或標誌。 使用重新整理以更新這些資產最新版本的範本預覽。
+
+**若要重新整理範本**：
+
+1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
+
+1. 按一下範本以取得完整檢視和詳細資訊清單。
+
+1. 按一下右上角的&#x200B;**[!UICONTROL 重新整理]** （圓圈箭頭）以重新整理範本中使用的所有資產。
+
+### 使用範本建立體驗
 
 在GenStudio for Performance Marketing中尋找並使用現有範本，以建立更多體驗。
 
@@ -122,9 +150,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
 
-   ![內容範本清單](/help/assets/content-templates.png){width="650" zoomable="yes"}
-
-1. 選取完整檢視和詳細資訊清單的範本。
+1. 按一下範本以取得完整檢視和詳細資訊清單。
 
 1. 從右上角按一下&#x200B;**[!UICONTROL 建立體驗]** （繪圖筆刷）以使用範本。
 
