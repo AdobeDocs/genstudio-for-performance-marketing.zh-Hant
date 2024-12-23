@@ -3,10 +3,10 @@ title: 管理資產和體驗
 description: 簡化並增強對品牌核准資產的管理，以便在您的數位行銷歷程中使用和重複使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,6 +66,8 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 AEM存放庫是唯讀的，這表示您可以存取內容，但無法將草稿、新資產或中繼資料儲存到AEM存放庫。 資產、體驗和範本的所有草稿和最終更新都會使用新的[系統中繼資料](asset-details.md#system-metadata)儲存到`GenStudio assets`存放庫。
 
 {{note-aem-assets}}
+
+AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這些資產可能無法在[!DNL Create]工作流程中使用。 您可能需要更新或更換過期的資產，才能維持專案的連續性。 請洽詢您的[!DNL AEM Assets Content Hub]管理員，以取得這些資產的協助。
 
 ## Assets管理
 
