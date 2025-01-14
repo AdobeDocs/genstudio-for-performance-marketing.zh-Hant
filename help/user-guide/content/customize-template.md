@@ -4,9 +4,9 @@ description: 瞭解如何針對Adobe GenStudio for Performance Marketing個人�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ _區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位�
 
 每個區段只能使用每個欄位型別中的一個。 在上述範例中，`pod1`區段只能使用一個`pod1_headline`欄位。 因為此規則，區段無法巢狀化。
 
-電子郵件範本最多可包含三個區段。 例如，下列清單有三個標題和正文區段：
+每種範本型別（例如電子郵件或中繼廣告）在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
+
+例如，電子郵件範本最多可包含三個區段；因此，您可以有三個標題和正文區段：
 
 - `pre-header`
 - `pod1_headline`
