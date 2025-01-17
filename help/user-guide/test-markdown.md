@@ -3,7 +3,8 @@ title: Markdown測試頁面
 description: 本文會隱藏，以供測試不同的Markdown轉換。
 hide: true
 hidefromtoc: true
-source-git-commit: 3b186165022be9ac98c7698cf1511e36332962d8
+recommendations: noDisplay, noCatalog
+source-git-commit: cac3ee686121c3b5eca6f91ab6cfe2c0e97def4a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -33,4 +34,4 @@ ht-degree: 0%
 
 您現在可以在管理變體時產生新的行動號召(CTA)片語。 使用新的&#x200B;_重新片語_&#x200B;和&#x200B;_新增連結_&#x200B;選項來產生新片語並編輯CTA連結。 您的範本必須正確設定，這些新的CTA功能才能運作。 遵循&#x200B;_自訂範本_&#x200B;中的准則： [呼叫動作](/help/user-guide/content/customize-template.md#calls-to-action)。 如需變體中CTA的管理准則，請參閱[修訂動作要求](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
 
-![CTA重新片語動作](/help/assets/animation/rephrase-cta.gif "CTA重新片語"){width="250" align="center"}
+![CTA重新片語動作](/help/assets/animation/rephrase-cta.gif "CTA重新片語"){width="250" align="center" zoomable="yes"}
