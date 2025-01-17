@@ -4,9 +4,9 @@ description: 搭配Adobe GenStudio for Performance Marketing使用範本時，�
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: df613ffa66b76e0810500f22d2a7b1c7cf7860af
+source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,7 @@ ht-degree: 0%
 - 正方形1:1 （1080 x 1080畫素）
 - 垂直4:5 （1080 x 1350畫素）
 - 內文9:16 （1080 x 1920畫素）
+- 自訂影像大小： （50 x 50畫素最小影像寬度）
 
 **可辨識的欄位名稱**：
 
@@ -121,6 +122,8 @@ ht-degree: 0%
 請參閱[內容預留位置](customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
 
 >[!TAB 顯示廣告]
+
+[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
 
 自訂顯示廣告範本以搭配GenStudio for Performance Marketing使用時，請遵循下列設計最佳實務：
 

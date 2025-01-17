@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 選擇範本
 
-若要開始產生新的中繼廣告體驗，請使用可用的範本為您的內容提供框架。
+若要開始產生新的中繼廣告體驗，請使用可用的範本為您的內容提供框架。 請參閱[範本最佳實務](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以取得支援的中繼廣告外觀比例的相關資訊。
 
 **若要選擇中繼廣告範本**：
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 輸入提示
 
-選取准則後，使用自然語言製作提示，以開始為您新的中繼廣告體驗產生內容。 詳細提示產生比模糊或不描述性提示更高的品質輸出。
+選取准則後，使用自然語言製作提示，以開始為您新的中繼廣告體驗產生內容。 詳細提示產生比模糊或模稜兩可的提示更高的品質輸出。
 
 請參閱[撰寫有效提示](/help/user-guide/effective-prompts.md)，深入瞭解撰寫提示的相關資訊。
 
@@ -88,7 +88,8 @@ ht-degree: 0%
 * **若要[編輯中繼廣告草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名的草稿_&#x200B;標題，然後輸入新標題。
 * **若要[手動編輯中繼廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何廣告區段(例如主旨列、
 頁首或內文)，並視需要編輯。
-* **若要變更或選取行動號召**，請按一下顯示行動號召的按鈕，然後從可用的按鈕文字選項中選取。<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
+* **若要變更或選取行動號召**，請按一下行動號召按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入行動號召文字的URL。
+<!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠游標停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。
 * **若要[刪除中繼廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下廣告標題（例如「Meta 4」）並按一下&#x200B;**[!UICONTROL 刪除變體]**。

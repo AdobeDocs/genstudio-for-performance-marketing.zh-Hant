@@ -2,11 +2,11 @@
 title: Adobe GenStudio for Performance Marketing發行說明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增強功能。
 recommendations: noDisplay
-last-substantial-update: 2024-12-13T00:00:00Z
+last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 00359960b6cf314203382d74faa23bae3e753875
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1644'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,49 @@ ht-degree: 1%
 
 此版本資訊詳細說明GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2024.12.12 {#latest}
+## 2025.1.16 {#latest}
+
+### 與Adobe Workfront Proof整合
+
+[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
+
+GenStudio for Performance Marketing與Adobe Workfront校訂整合Beta計畫將於本月啟動。 Workfront Proof透過核准範本、多階段工作流程和註解來加快內容建立和啟動生命週期。 擁有Workfront Proof許可權的GenStudio for Performance Marketing使用者可以使用GenStudio for Performance Marketing中的校訂進階功能，檢閱和評論GenStudio產生的內容。
+
+Beta計畫可協助您打造產品開發，並決定一般可用性整備程度。 如需GenStudio for Performance Marketing/Workfront Proof整合Beta計畫的相關資訊，請連絡Etienne Bosch (etienneb@adobe.com) 。
+
+### 產生新的呼叫動作
+
+您現在可以在管理變體時產生新的行動號召(CTA)片語。 使用新的&#x200B;_重新片語_&#x200B;和&#x200B;_新增連結_&#x200B;選項來產生新片語並編輯CTA連結。 您的範本必須正確設定，這些新的CTA功能才能運作。 遵循&#x200B;_自訂範本_&#x200B;中的准則： [呼叫動作](/help/user-guide/content/customize-template.md#calls-to-action)。 如需變體中CTA的管理准則，請參閱[修訂動作要求](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
+
+### 修正和增強功能
+
+* 字元計數現在會顯示在顯示廣告的所有產生和手動欄位中。 檢視[中繼體驗](/help/user-guide/create/meta-experiences.md#character-counts)中的&#x200B;_字元計數_。<!-- GS-7732 -->
+
+* _共同作業人員_&#x200B;現在可以檢視資產，但不能建立、編輯或刪除這些資產。 先前，共同作業者權益在[!DNL Create]中未如預期般強制執行。<!-- GS-7614 -->
+
+* 內容編輯人員現在可以編輯資產、體驗和範本中繼資料。<!-- GS-4905 -->
+
+* 現在支援中繼廣告範本中的自訂影像大小。<!-- GS-7512 -->
+
+* 現在會在範本產生期間預先載入角色、品牌和產品選項。<!-- GS-8069 -->
+
+* 電子郵件號召性用語連結不再是必要欄位。<!-- GS-8103 -->
+
+* [!DNL Brand]選取器下拉式功能表現在對範本而言可如預期般運作。 以前，某些範本的選擇器無法成功載入。<!-- GS-8908 -->
+
+* 編輯人員現在最多可以為單一面板電子郵件和中繼廣告選取四個影像。<!-- GS-2631 -->
+
+* 在編輯體驗的中繼資料後，已核准體驗的`Created by`欄位的年值現在會如預期般一致。<!-- GS-8344 -->
+
+* 內容編輯人員現在可以從[!DNL Create]成功選取範本。 之前，當編輯器選取範本時，應用程式會擲回主控台錯誤。 <!-- GS-8798 -->
+
+* 中繼廣告的調整大小和重新產生作業問題已解決。<!-- GS-8900 -->
+
+* **[!UICONTROL 上一頁]**&#x200B;按鈕現在會如預期將使用者傳回上一頁或[!DNL Create]登陸頁面。<!-- GS-8622 -->
+
+## 舊版發行說明
+
++++2024.12.12版注意事項
 
 ### 新功能
 
@@ -89,7 +131,7 @@ ht-degree: 1%
 
 * 改善[!DNL Create] **[!UICONTROL 上一步]**&#x200B;按鈕的效能。<!-- GS-6767 -->
 
-## 舊版發行說明
++++
 
 +++2024.11.14版注意事項
 

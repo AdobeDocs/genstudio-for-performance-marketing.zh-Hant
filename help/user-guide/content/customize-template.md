@@ -4,9 +4,9 @@ description: 瞭解如何針對Adobe GenStudio for Performance Marketing個人�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
+source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 您可以透過插入內容預留位置或產生AI用來插入內容的欄位，自訂要在GenStudio for Performance Marketing中使用的範本。
 
-以下幾節將說明如何使用&#x200B;_Handlebars_&#x200B;範本語言來調整您的GenStudio for Performance MarketingHTML範本。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱[什麼是 [!DNL Handlebars]？_Handlebars語言指南_&#x200B;中的](https://handlebarsjs.com/guide/#what-is-handlebars)以瞭解如何準備您的範本。
+以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_範本化語言來調整GenStudio for Performance Marketing的HTML範本。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
 
 
 您的範本準備就緒後，您可以[將其上傳到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，並開始根據您的自訂範本產生個人化電子郵件。
@@ -123,6 +123,32 @@ _區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位�
 GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯性比`pod2_body`更密切。
 
 請參閱[結構化提示](/help/user-guide/effective-prompts.md#structured-prompts)，瞭解如何製作電子郵件中每個區段產生不同內容的提示。
+
+### 呼叫動作
+
+行動號召(CTA)包括片語和連結。 若要讓CTA _[!UICONTROL 重述]_&#x200B;和&#x200B;_[!UICONTROL 新增連結]_&#x200B;功能在變體產生過程中正常運作，您必須在範本中包含連結和片語的預留位置。
+
+使用下列指引設定CTA預留位置：
+
+- CTA重新片語可供使用，且連結可供編輯
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >{{cta}}</a>
+  ```
+
+- CTA重新短語可使用，但連結&#x200B;**無法**&#x200B;編輯，因為範本中提供實際連結
+
+  ```html
+  <a align="center" href="https://link">{{cta}}</a>
+  ```
+
+- CTA連結可編輯，但重新片語是&#x200B;**無法使用**，因為範本中提供片語
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >Register now</a>
+  ```
+
+GenStudio for Performance Marketing也可以提供各種行動號召短語。 請參閱[修訂動作呼叫](/help/user-guide/create/manage-variants.md#revise-call-to-action)。
 
 ## 範本預覽
 

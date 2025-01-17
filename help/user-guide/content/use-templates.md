@@ -3,9 +3,9 @@ title: 使用範本
 description: 瞭解如何在Adobe GenStudio for Performance Marketing中有效使用範本來簡化您的創意流程。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,9 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
    - 可包含文字、影像和其他媒體
    - 用於電子郵件和中繼廣告範本
 
-- **CTA （呼叫動作）**
+- **號召性用語**
 
+   - 呼叫動作按鈕使用片語和連結
    - 鼓勵收件者採取特定動作，例如按一下連結或進行購買
    - 用於電子郵件和中繼廣告範本
 

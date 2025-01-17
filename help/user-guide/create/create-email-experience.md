@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 763c907598d92779483938295a99d640ee3f4d20
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 輸入提示
 
-選取准則後，請使用自然語言製作提示，以開始為您的新電子郵件體驗產生內容。 詳細提示產生比模糊或不描述性提示更高的品質輸出。
+選取准則後，請使用自然語言製作提示，以開始為您的新電子郵件體驗產生內容。 詳細提示產生比模糊或模稜兩可的提示更高的品質輸出。
 
 請參閱[撰寫有效提示](/help/user-guide/effective-prompts.md)，深入瞭解撰寫提示的相關資訊。
 
@@ -83,6 +83,7 @@ ht-degree: 0%
 
 * **若要[編輯電子郵件草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名草稿_&#x200B;標題，然後輸入新標題。
 * **若要[手動編輯電子郵件](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何可編輯的文字欄位（例如主旨列、標題或內文）並視需要編輯
+* **若要[變更或選取呼叫動作](/help/user-guide/create/manage-variants.md#revise-call-to-action)**，請按一下呼叫動作按鈕，然後選取&#x200B;_[!UICONTROL 重新片語]_&#x200B;或&#x200B;_[!UICONTROL 新增連結]_。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容選取/交換]**&#x200B;或&#x200B;**[!UICONTROL 上傳新影像]**，以在個別變體中新增或交換影像。
 * **若要[刪除電子郵件](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下以選取電子郵件標題（例如「電子郵件1/4」），然後按一下&#x200B;**[!UICONTROL 刪除變體]**。

@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 [!DNL Create]可讓內容建立者使用[指南](/help/user-guide/guidelines/overview.md)、影像資產，以及[精心設計的提示](/help/user-guide/effective-prompts.md)，快速[建立中繼廣告體驗](/help/user-guide/create/create-meta-ad.md)。
 
 產生中繼體驗時，四個變數會建立並顯示在畫布中。
+
+GenStudio for Performance Marketing同時支援[標準和自訂大小的中繼廣告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 
 電子郵件體驗的可編輯區段包括：
 

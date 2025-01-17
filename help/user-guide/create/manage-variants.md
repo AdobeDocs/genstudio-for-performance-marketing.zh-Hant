@@ -3,9 +3,9 @@ title: 管理變體
 description: 根據您的數位行銷需求，自訂及增強產生的變體和資產。
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing [!DNL Create]可讓您自訂及增強產生的變體 — [電子郵件](/help/user-guide/create/email-experiences.md)、[中繼廣告](/help/user-guide/create/meta-experiences.md)等等 — 以用於數位行銷方案。
 
-當[建立體驗](/help/user-guide/create/overview.md)時，您可以個別或批次修改產生之變體的內容和資產。 在個別微觀層級管理變體的功能可讓您明確管理產生的每個內容片段。
+當[建立體驗](/help/user-guide/create/overview.md)時，您可以個別或批次修改產生之變體的內容和資產。 在個別微觀層級管理變體的功能可讓您管理每個產生的內容。
 
 ## 變更草稿名稱
 
@@ -32,7 +32,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]可讓您自訂及增強�
 
 您可以編輯產生之變體中的文字欄位。 透過實驗不同的短語和措辭，為您的對象調整文字。 例如，您可以手動修訂變體中的文字，以預覽所選影像的標題外觀。
 
-**若要手動編輯產生的變體中的文字**：
+**若要在產生的變化中手動編輯文字**：
 
 1. 產生一組變體後，在變體中的可編輯文字上連按兩下。
 1. 輸入新文字。
@@ -52,22 +52,38 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 1. 若要變更現有文字，請選取&#x200B;_[!UICONTROL 重新片語]_、_[!UICONTROL 縮短文字]_&#x200B;或&#x200B;_[!UICONTROL 加長文字]_。
 1. 若要產生新的措辭選項，請選取&#x200B;_[!UICONTROL 產生新文字]_&#x200B;並輸入新提示。
    1. 按一下&#x200B;**[!UICONTROL 產生]**。
-1. 當您重新產生截面的文字時，請按一下重新產生圖示以檢視更多文字選項。
+1. 當您重新產生截面的文字時，請按一下重新產生圖示（圓形箭頭）來檢視更多文字選項。
 1. 從顯示的結果中，選取所需的選項，然後按一下&#x200B;**[!UICONTROL 取代]**。
 
    變體會以修訂後的文字更新。
 
-## 修訂號召性用語
+## 修訂行動號召
 
 產生一組變體後，您可以修訂行動號召(CTA)文字和連結。
 
+>[!NOTE]
+>
+>如果標籤文字是產生的範本欄位（未在範本中硬式編碼），您可以使用&#x200B;_[!UICONTROL 重新寫字]_&#x200B;選項來編輯CTA標籤文字。 如果連結存在且可以編輯（範本中未以硬式編碼顯示），您可以使用&#x200B;_[!UICONTROL 編輯連結]_&#x200B;選項來編輯CTA連結。
+
 **若要修訂變體中的CTA**：
 
-1. 產生一組變體後，按一下顯示CTA文字的按鈕。
-1. 若要變更CTA按鈕文字，請從&#x200B;_行動號召_&#x200B;清單中的可用選項中選取。
-1. 若要變更CTA中的連結，請按一下[連結]。****
-   1. 在&#x200B;_編輯連結_&#x200B;區段中輸入或貼上新連結或修訂現有連結，然後按一下&#x200B;**[!UICONTROL 套用]**。 您可以按一下&#x200B;**[!UICONTROL 移除連結]**，在進入新連結之前先移除現有的連結。
+1. 按一下其中一個變體中的CTA按鈕。
 
+   按鈕已選取、顯示字元計數並顯示兩個選項： _[!UICONTROL 重新片語]_&#x200B;和&#x200B;_[!UICONTROL 新增連結]_。
+
+1. 按一下「**[!UICONTROL 重述]**」。
+
+   1. 從重新產生的片語清單中選擇，或按一下[重新整理結果] ]**以取得更多選項。**[!UICONTROL 
+
+   1. 按一下&#x200B;**[!UICONTROL 取代]**。
+
+      CTA文字重新整理，並出現&#x200B;_「按鈕標籤已取代」_&#x200B;訊息，確認變更。
+
+1. 按一下&#x200B;**[!UICONTROL 新增連結]**。
+
+   1. 在URL中輸入或貼上，然後按一下&#x200B;**[!UICONTROL 套用]**。
+
+      若要修訂CTA中的現有連結，請編輯現有URL或貼入新URL，然後按一下[套用]。****
 
 新增或修訂連結會套用至變體集中的所有CTA。
 
