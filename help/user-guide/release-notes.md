@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 ### 產生新的呼叫動作
 
 您現在可以在管理變體時產生新的行動號召(CTA)片語。 使用新的&#x200B;_重新片語_&#x200B;和&#x200B;_新增連結_&#x200B;選項來產生新片語並編輯CTA連結。 您的範本必須正確設定，這些新的CTA功能才能運作。 遵循&#x200B;_自訂範本_&#x200B;中的准則： [呼叫動作](/help/user-guide/content/customize-template.md#calls-to-action)。 如需變體中CTA的管理准則，請參閱[修訂動作要求](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
+
+下列預覽顯示CTA字元計數、新選項，以及重新片語並取代的範例：
+
+![CTA重新片語動作](/help/assets/animation/rephrase-cta.gif "CTA重新片語"){width="250" zoomable="yes"}
 
 ### 修正和增強功能
 
