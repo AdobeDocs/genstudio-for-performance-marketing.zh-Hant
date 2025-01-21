@@ -3,9 +3,9 @@ title: 使用範本
 description: 瞭解如何在Adobe GenStudio for Performance Marketing中有效使用範本來簡化您的創意流程。
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 ### 重新整理範本
 
-範本可能包含靜態檔案，例如圖示或標誌。 使用重新整理以更新這些資產最新版本的範本預覽。
+範本可能包含靜態檔案，例如圖示或標誌。 建立範本預覽後未儲存[靜態內容](/help/user-guide/content/customize-template.md#static-content)。 GenStudio for Performance Marketing會繼續參考範本中提供的來源連結。 使用重新整理以更新這些資產最新版本的範本預覽。
 
 **若要重新整理範本**：
 
@@ -155,4 +155,4 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 1. 從右上角按一下&#x200B;**[!UICONTROL 建立體驗]** （繪圖筆刷）以使用範本。
 
-1. 繼續[建立](/help/user-guide/create/overview.md)體驗。
+1. 繼續[建立](/help/user-guide/create/overview.md#create-use-cases)體驗。
