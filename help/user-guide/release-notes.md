@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
+source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1676'
 ht-degree: 1%
 
 ---
@@ -141,7 +141,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 ### 新功能
 
-新增對多媒體範本的支援，讓客戶能夠重複使用已透過其自有受管內容頻道發佈的資產。<!-- GS-6107 -->
+新增顯示外部網域上託管之靜態內容的支援。 GenStudio for Performance Marketing會驗證範本中定義的內容來源，並嵌入副本以產生範本預覽。 檢視[靜態內容](/help/user-guide/content/customize-template.md#static-content)。<!-- GS-6107 -->
 
 ### 修正和增強功能
 
