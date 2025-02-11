@@ -5,9 +5,9 @@ feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
 last-substantial-update: 2024-11-11T00:00:00Z
 exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 976358742e598b55b1f0c4ca4664d2bcd8f1e9b9
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '609'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 屬性類別是一種分類群組，可組織具有共同特性的相關屬性。 這些類別可提供更豐富的情境並便利其應用與使用，有助於簡化特定屬性的探索、識別和理解。
 
-GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來學習影像、影片和文字，並根據正確機率套用[!UICONTROL 資產屬性]。 資產的屬性清單並非詳盡無遺。 包含一組豐富功能的Assets可能限於AI所識別的三個最主要功能。
+GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研究影像、影片和文字，並根據正確機率套用[!UICONTROL 資產屬性]。 資產的屬性清單並非詳盡無遺。 包含一組豐富功能的Assets可能限於AI所識別的三個最主要功能。
 
 ## 影像功能
 
@@ -29,7 +29,8 @@ GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來學�
 | 攝影機角度 | 相機相對於主體的位置和角度。 |                                                                                                                                                                                |
 | 主題距離 | 相機與影像主體之間的距離。 | `close up`, `mid shot`, `long shot` |
 | 相機設定 | 用來產生影像的相機控制項的設定。 |                                                                                                                                                                                |
-| 色彩和色調 | 評估影像元素中使用的顏色。 識別下列影像圖層中40種預先決定色彩的一至三種色彩： <br>**[!UICONTROL 前景色彩&#x200B;]**— 影像前方圖層的元素<br>**[!UICONTROL 背景色彩]** — 影像後方圖層的元素<p>**[!UICONTROL 色溫]**&#x200B;描述影像中顏色的一般暖色或冷色。<br>色調或溫度值： `warm`、`cool`、`neutral` | ![色彩和冷色調](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
+| 色彩和色調 | 評估影像元素中使用的顏色。 識別下列影像圖層中40種預先決定色彩的一至三種色彩： <br>**[!UICONTROL 前景色彩&#x200B;]**— 影像前方圖層的元素<br>**[!UICONTROL 背景色彩]** — 影像後方圖層的元素 | 色彩值： `Red`、`Dark_Red`、`Green`、`Bright_Green`、`Dark_Green`、`Light_Green`、`Mud_Green`、`Blue`、`Dark_Blue`、`Light_Blue`、`Royal_Blue`、`Black`、`White`、`Off_White`、`Gray`、`Dark_Gray`、`Silver`、`Cream`、`Magenta`、`Cyan`、`Yellow`、`Mustard`、`Khaki`、`Brown`、`Dark_Brown`、`Violet`、`Pink`、`Dark_Pink`、`Maroon` `Tan`、`Purple`、`Lavender`、`Turquoise`、`Plum`、`Gold`、`Emerald`、`Orange`、`Beige`、`Lilac`、`Olive` |
+| 色溫 | 說明影像中顏色的一般溫暖或冷度。 | 色調或溫度值： `warm`、`cool`、`neutral`<br>![色彩和冷色調](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
 | 影像樣式 | 影像的視覺化處理。 |                                                                                                                                                                                |
 | 照明條件 | 影像中的光線型別。 |                                                                                                                                                                                |
 | 物件 | 識別構成影像的一或多個專案、圖元和元素。 | ![向日葵，平面，花物件](../../assets/category/image-objects.png){width="200" zoomable="yes"} |
