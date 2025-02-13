@@ -2,11 +2,11 @@
 title: Adobe GenStudio for Performance Marketing發行說明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增強功能。
 recommendations: noDisplay
-last-substantial-update: 2025-01-16T00:00:00Z
+last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
+source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1746'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,19 @@ ht-degree: 1%
 
 此版本資訊詳細說明GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2025.1.16 {#latest}
+## 2025.2.13 {#latest}
+
+### [!DNL Create]的登陸頁面改善
+
+GenStudio for Performance Marketing中的[!DNL Create]登陸頁面包含可增強使用者體驗的UI改良。 _最近工作_&#x200B;區段已調整並使用清單檢視設定為預設檢視。 邊框間距和其他視覺效果改善可簡化[!DNL Create]畫布的外觀和風格。
+
+### 前瞻分析匯出至CSV
+
+您現在可以從任何[!DNL Insights]檢視將可檢視表格下載到CSV檔案中。 此功能可讓您從各種[!DNL Insights]檢視輕鬆匯出和分析資料，方便資料分析和報告選項。
+
+## 舊版發行說明
+
++++2025.1.16版本注意事項
 
 ### 與Adobe Workfront Proof整合
 
@@ -28,10 +40,6 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 ### 產生新的呼叫動作
 
 您現在可以在管理變體時產生新的行動號召(CTA)片語。 使用新的&#x200B;_重新片語_&#x200B;和&#x200B;_新增連結_&#x200B;選項來產生新片語並編輯CTA連結。 您的範本必須正確設定，這些新的CTA功能才能運作。 遵循&#x200B;_自訂範本_&#x200B;中的准則： [呼叫動作](/help/user-guide/content/customize-template.md#calls-to-action)。 如需變體中CTA的管理准則，請參閱[修訂動作要求](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
-
-下列預覽顯示CTA字元計數、新選項，以及重新片語並取代的範例：
-
-![CTA重新片語動作](/help/assets/animation/rephrase-cta.gif "CTA重新片語"){width="250" zoomable="yes"}
 
 ### 修正和增強功能
 
@@ -59,7 +67,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * **[!UICONTROL 上一頁]**&#x200B;按鈕現在會如預期將使用者傳回上一頁或[!DNL Create]登陸頁面。<!-- GS-8622 -->
 
-## 舊版發行說明
++++
 
 +++2024.12.12版注意事項
 
@@ -75,7 +83,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 顯示廣告範本中網頁橫幅的寬度和高度。 這些值現在會儲存為範本中繼資料。<!-- GS-6735 -->
 
-* 影像上傳期間顯示廣告體驗中的影像Dimension。<!-- GS-7166 -->
+* 影像上傳期間顯示廣告體驗中的影像尺寸。<!-- GS-7166 -->
 
 * 請參閱[範本最佳實務](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)中的通道特定准則。
 
@@ -147,7 +155,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 在用來產生初始內容的瀏覽器以外的瀏覽器中調整大小時，草稿現在會如預期般載入。<!-- GS-7204 -->
 
-* 所有字元現在以匯出的HTML正確表示。<!-- GS-7246 -->
+* 所有字元現在在匯出的HTML中正確顯示。<!-- GS-7246 -->
 
 * 在某些語言中，[!DNL Content] _體驗_ **[!UICONTROL 匯出]**&#x200B;快顯視窗上的按鈕不再被截斷。<!-- GS-6873 -->
 
@@ -199,7 +207,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 未產生品牌分數時，畫布&#x200B;**[!UICONTROL 品牌]**&#x200B;按鈕現在會停用。<!-- GS-6429 -->
 
-* 啟用`ReadOnly`畫佈設定時，「畫布」動作列上的Facebook/Instagram切換現在會依預期更新體驗呈現。<!-- GS-7039 -->
+* 啟用`ReadOnly`畫佈設定時，「畫布」動作列上的Facebook/Instagram切換功能現在會依預期更新體驗呈現。<!-- GS-7039 -->
 
 #### 影像重新產生
 
@@ -249,6 +257,6 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 **[!DNL Insights]**&#x200B;提供內容績效的即時評估，協助行銷人員最佳化其策略並做出資料導向式決策。
 
-GenStudio for Performance Marketing與其他Adobe Experience Cloud產品整合，包括Adobe Express和AdobeAEM Assets。
+GenStudio for Performance Marketing已與其他Adobe Experience Cloud產品整合，包括Adobe Express和Adobe AEM Assets。
 
 +++

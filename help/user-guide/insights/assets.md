@@ -3,9 +3,9 @@ title: Assets概觀
 description: 瞭解如何在Adobe GenStudio for Performance Marketing中評估資產效能。
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,20 @@ ht-degree: 0%
 
 [!DNL Insights] _[!UICONTROL Assets]_&#x200B;檢視會顯示所選管道帳戶在體驗和廣告行銷活動中使用的資產清單。
 
-_[!UICONTROL Assets]_&#x200B;相簿是顯示資產預覽拼貼和量度（例如點進率）的預設檢視。 按一下相簿右上方的設定(cog)圖示，切換下列三個可檢視量度之一：
+{{connect-insights}}
+
+_[!UICONTROL Assets]_&#x200B;表格是使用[!UICONTROL 資產ID]來組織。 您可以使用檢視清單（表格）圖示和相簿檢視（格點）圖示，在檢視之間切換。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。 表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。
+
+![Assets篩選器和資料表](/help/assets/insights-assets-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
+
+_[!UICONTROL Assets]_&#x200B;收藏館檢視會顯示資產預覽拼貼和量度，例如點進率。 按一下相簿右上方的設定(cog)圖示，開啟&#x200B;**[!UICONTROL 卡片設定]**&#x200B;並切換三個可檢視量度之一：
 
 - CPA （每個動作的成本）
 - CTR （點進率）
 - CPC （每次點按成本）
 - 支出
-
-_[!UICONTROL Assets]_&#x200B;表格是使用[!UICONTROL 資產ID]來組織。 表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。
-
-![Assets篩選器和資料表](/help/assets/insights-assets-filter.png){zoomable="yes"}
-
-您可以使用檢視清單（表格）圖示和相簿檢視（格點）圖示，在檢視之間切換。
 
 ## 資產詳細資訊
 

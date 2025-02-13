@@ -3,9 +3,9 @@ title: ' [!DNL Insights]的概觀'
 description: 瞭解如何根據即時內容績效量度最佳化體驗。
 feature: Attributes, Insights, Experiences, Assets, Channels
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: a06b226ffc6bfc0bd371a2f5045d5a422a2983bd
+source-git-commit: f2850d3f535cc06dd8da4e744c081dda299e27f4
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ Adobe GenStudio for Performance Marketing [!DNL Insights]提供內容效能的�
 - **最佳化表現不佳的內容**：尋找表現不佳的內容，並使用整合的產生式AI立即建立變數，在不從頭開始的情況下提升其成效。
 - **振興高效能的內容**：取得成功的內容並加以調整，以重新整理對象的體驗，或調整主圖內容以用於新的行銷活動，可能會延長其生命週期和效能。
 
->[!TIP]
->
->如需讓GenStudio for Performance Marketing接收您目前行銷活動、資產和體驗之資料的步驟，請參閱[Connect管道帳戶](connect-channel.md)。
+{{connect-insights}}
 
 ## 儀表板
 

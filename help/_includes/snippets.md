@@ -1,11 +1,17 @@
 ---
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: f2850d3f535cc06dd8da4e744c081dda299e27f4
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 # GenStudio for Performance Marketing代碼片段
+
+## 連結深入分析 {#connect-insights}
+
+>[!TIP]
+>
+>GenStudio for Performance Marketing需要您連線至管道帳戶才能開始接收資料。 請參閱[連線通道帳戶](/help/user-guide/insights/connect-channel.md)。
 
 ## 注意AEM Assets {#note-aem-assets}
 
@@ -17,4 +23,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->透過[Adobe GenStudio學院](https://learningmanager.adobe.com/genstudioacademy)豐富您在此主題上的技能。
+>透過[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)豐富您在此主題上的技能。

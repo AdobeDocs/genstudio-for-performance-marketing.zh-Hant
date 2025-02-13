@@ -3,7 +3,7 @@ title: 體驗總覽
 description: 如需Adobe GenStudio for Performance Marketing中的體驗和廣告刊登績效，請參閱客戶參與度、預算和支出的概觀。
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: c027d5fa15b05feb95c976805d06d8fe3204c5d1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -14,9 +14,13 @@ ht-degree: 0%
 
 [!DNL Insights] _[!UICONTROL 體驗]_&#x200B;檢視會顯示已連線頻道廣告帳戶的體驗清單。 對於Facebook，體驗是中繼廣告名稱。
 
+{{connect-insights}}
+
 _[!UICONTROL 體驗]_&#x200B;表格是使用[!UICONTROL 廣告名稱]來組織。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。 表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此處從[!UICONTROL 帳戶]和[!UICONTROL 促銷活動]清單中選取，以篩選表格中的廣告名稱。
 
 ![體驗篩選器和資料表](/help/assets/insights-experiences-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 ## 體驗詳細資料
 
@@ -38,7 +42,7 @@ _體驗_&#x200B;是一種促銷資產，包含視覺和互動式內容，旨在�
 
 GenStudio for Performance Marketing支援廣告格式，例如資產摘要、連結廣告以及單一影像或影片。 以下是依平台的廣告格式清單：
 
-| instagram | facebook/Meta | Messenger | 對象網路 |
+| Instagram | Facebook/Meta | Messenger | 對象網路 |
 | ------------ | ---------------- | ------------ | ---------------- |
 | 探索<br>探索首頁<br>探索格線首頁<br>摘要<br>卷軸<br>設定檔摘要<br>搜尋<br>商店<br>本文 | 商務探索<br>摘要<br>串流影片<br>市集<br>卷軸<br>卷軸覆蓋<br>右欄<br>搜尋結果<br>故事<br>影片摘要<br>Facebook卷軸上的廣告 | 收件匣<br>本文 | 原生、橫幅和插入式連結<br>獎勵視訊 |
 
