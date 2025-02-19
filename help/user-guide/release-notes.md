@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
+source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1729'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ GenStudio for Performance Marketing中的[!DNL Create]登陸頁面包含可增�
 
 GenStudio for Performance Marketing與Adobe Workfront校訂整合Beta計畫將於本月啟動。 Workfront Proof透過核准範本、多階段工作流程和註解來加快內容建立和啟動生命週期。 擁有Workfront Proof許可權的GenStudio for Performance Marketing使用者可以使用GenStudio for Performance Marketing中的校訂進階功能，檢閱和評論GenStudio產生的內容。
 
-Beta計畫可協助您打造產品開發，並決定一般可用性整備程度。 如需GenStudio for Performance Marketing/Workfront Proof整合Beta計畫的相關資訊，請連絡Etienne Bosch (etienneb@adobe.com) 。
+Beta計畫可協助您打造產品開發，並決定一般可用性整備程度。
 
 ### 產生新的呼叫動作
 
