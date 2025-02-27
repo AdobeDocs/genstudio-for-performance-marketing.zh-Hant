@@ -3,7 +3,7 @@ title: 資產詳細資訊
 description: Adobe GenStudio for Performance Marketing會使用豐富的中繼資料儲存已核准的內容，以供搜尋和效能追蹤。
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 當您在[!DNL Content]中儲存已核准的資產時，GenStudio for Performance Marketing會使用Adobe的AI和機器學習功能來研究該資產，並根據資產功能套用標籤。 例如，貓的圖片可能會產生屬性標籤，例如`pet photography`或`cat`，以及識別圖片中主要顏色的顏色標籤。 您無法編輯偵測到並自動套用的標籤。
 
-如需影像、視訊和文字功能的詳細清單，請參閱[!DNL Insights] [屬性類別](/help/user-guide/insights/attribute-category.md)。
+如需影像、視訊和文字功能的詳細清單，請參閱[!DNL Insights] [屬性類別](/help/user-guide/insights/attributes.md#categories)。
 
 ### 產生的內容中繼資料
 

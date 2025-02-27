@@ -3,9 +3,9 @@ title: 管道概觀
 description: 檢視Adobe GenStudio for Performance Marketing中行銷活動的客戶參與、績效、預算和支出概觀。
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ _[!UICONTROL 管道]_&#x200B;表格是使用管道型廣告行銷活動來組織
 
 ## 管道績效
 
-根據您的績效目標，分析量度可以協助您評估是否實現了您的目標。
+根據您的績效目標，[!DNL Insights]量度可協助您評估您是否達成目標。
 
 例如，如果感知是您的目標，那麼增加`impressions`的比率可能表示您正在擴大您的觸及範圍。 若要瞭解這是否能達成您的目標，您可以檢視指出您的內容正在參與的量度，例如`clicks`或`video plays`。 您的對象與內容互動的效率如何？
 

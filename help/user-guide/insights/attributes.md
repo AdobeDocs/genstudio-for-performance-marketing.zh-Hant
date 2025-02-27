@@ -3,9 +3,9 @@ title: 屬性總覽
 description: 瞭解如何評估Adobe GenStudio for Performance Marketing中特定屬性的效能。
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 _[!UICONTROL 屬性]_&#x200B;表格是使用[!UICONTROL 屬性]名稱來組織。 您可以使用&#x200B;**[!UICONTROL 影像]**&#x200B;按鈕和&#x200B;**[!UICONTROL 影片]**&#x200B;按鈕，在清單型別之間切換。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。
 
-表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可從中選取[!UICONTROL 帳戶]和[!UICONTROL 屬性類別]，以篩選表格中的屬性。 下列範例顯示`Lighting Condition`類別中的屬性清單。
+表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可從中選取[!UICONTROL 帳戶]和[!UICONTROL 屬性類別]，以篩選表格中的屬性。 下列範例顯示`Lighting Condition`類別中的屬性清單。 按一下&#x200B;**重設**&#x200B;以清除所有篩選器選取專案。
 
 ![屬性篩選器和資料表](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
@@ -36,11 +36,17 @@ GenStudio for Performance Marketing會偵測某些功能，並將適當的屬性
 
 ## 類別
 
-GenStudio for Performance Marketing可辨識影像、影片和文字的特定功能，並將功能標籤套用至資產。 _類別_&#x200B;是共用特定特徵的一組功能。 例如，_影像方向_&#x200B;類別有`landscape`、`portrait`或`square`值。
+屬性類別是一種分類群組，可組織具有共同特性的相關屬性。 這些類別可提供更豐富的情境並便利其應用與使用，有助於簡化特定屬性的探索、識別和理解。
 
-您無法編輯偵測到並自動套用的標籤。
+GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研究[影像](image-features.md)、[影片](video-features.md)和文字，並根據正確機率套用[!UICONTROL 資產屬性]。
 
-如需影像、視訊和文字功能的詳細清單，請參閱[屬性類別](/help/user-guide/insights/attribute-category.md)。
+資產的已偵測屬性清單並非詳盡無遺。 包含一組豐富功能的Assets可能限於AI所識別的三個最主要功能。 例如，下圖包含數個偵測到的影像屬性，包括多個物件、前景和背景顏色。
+
+![影像資產屬性](/help/assets/category/asset-attributes.png "圖坎影像包含多個偵測到的屬性"){width="300" zoomable="yes"}
+
+>[!INFO]
+>
+>您無法編輯偵測到並自動套用的標籤。
 
 ## 屬性效能
 
@@ -60,4 +66,4 @@ GenStudio for Performance Marketing可辨識影像、影片和文字的特定功
 | **[!UICONTROL CPM ]**<br>_每千成本_ | 具有此屬性的影像或視訊的每1,000次廣告印象成本。<br>**計算**：總金額`spent`除以範圍，然後乘以1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
 | **[!UICONTROL CPA ]**<br>_每個動作的成本_ | 完成特定客戶動作（例如購買或訂閱）所花費的平均成本。<br>**計算**：總金額`spent`除以已完成的客戶動作數目 | 協助識別可產生寶貴客戶動作的屬性。 |
 | **[!UICONTROL CPC ]**<br>_每次點按成本_ | 具有此屬性的影像或影片每次點按的相關平均成本。<br>**計算**：總金額`spent`除以`clicks` | 平均成本降低可能表示廣告支出符合成本效益，尤其是與轉換率增加相比。 |
-| **[!UICONTROL 支出]** | 與指定期間內的屬性相關的預算支出金額。 | 在短時間內發生高支出量可能表示快速使用，這可能導致資源提早耗盡。 根據關鍵績效指標追蹤支出金額，協助監控整體投資報酬率。 |
+| **[!UICONTROL 支出]** | 與指定期間內的屬性相關的預算支出金額。 | 在短時間內發生高支出量可能表示快速使用，這可能導致資源提早耗盡。 根據關鍵績效指標追蹤所花費的金額，以協助監控整體投資報酬率。 |
