@@ -3,16 +3,16 @@ title: GenStudio for Performance Marketing [!DNL Create]的概觀
 description: 在Adobe GenStudio for Performance Marketing [!DNL Create]中使用generative AI快速產生高效能且符合品牌規範的內容。
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: ef4e6f48fe9aeffdd575dd83d49368cd438d62f2
+source-git-commit: 11d86ddddd1289c0bd198f21fe75a84b1459253e
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 1%
+source-wordcount: '618'
+ht-degree: 0%
 
 ---
 
 # GenStudio for Performance Marketing [!DNL Create]
 
-GenStudio for Performance Marketing [!DNL Create]利用AdobeGenAI的強大功能，讓行銷人員和分散的團隊能夠建立高效能、符合品牌的體驗。
+GenStudio for Performance Marketing [!DNL Create]運用Adobe GenAI的強大功能，讓行銷人員和分散的團隊能夠建立高效能、符合品牌的體驗。
 
 ![建立儀表板](/help/assets/create.png){width="600" zoomable="yes"}
 
@@ -24,41 +24,76 @@ GenStudio for Performance Marketing [!DNL Create]利用AdobeGenAI的強大功能
 
 除了[指南](/help/user-guide/guidelines/overview.md)—[!DNL Brands]、[!DNL Products]和[!DNL Personas]—[內容](/help/user-guide/content/overview.md)、[稽核和核准](/help/user-guide/approvals/overview.md)和[深入分析](/help/user-guide/insights/overview.md)、[!DNL Create]的強大功能以外，還有助於建立具影響力的品牌一致行銷內容。
 
+編輯人員和系統管理員擁有[!DNL Create]的完整存取權。 如需詳細的角色存取資訊，請參閱[使用者角色和許可權](/help/user-guide/user-roles.md)。
+
 ## [!DNL Create] 使用案例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="建立新內容" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>建立電子郵件體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="建立中繼廣告體驗" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>建立中繼廣告體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="建立顯示廣告體驗" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>建立顯示廣告體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing可讓行銷人員&#x200B;**建立新的行銷內容**。 在此使用案例中，使用已定義的[指南](/help/user-guide/guidelines/overview.md)和靈感影像來通知建立符合品牌標準的內容。
@@ -79,7 +114,7 @@ GenStudio for Performance Marketing可讓行銷人員&#x200B;**建立新的行�
 
 這些新增的引數將[准則](/help/user-guide/guidelines/overview.md)和資產插入產生程式，確保內容已自訂以符合品牌的完整身分。 建議您在GenStudio for Performance Marketing中新增指引，並在內容產生程式期間使用，因為這些指引可大幅增強建立合適品牌內內容的效能。
 
-已上傳或新增的影像資產內容（位於&#x200B;_中）引數_&#x200B;用於產生的變體中，並通知為變體產生的複製內容（文字）。 您可以上傳資產，或選取已存在於[!DNL Content]或任何連線的AEM Content Hub存放庫中的資產。
+已上傳或新增的影像資產內容（位於&#x200B;_中）引數_&#x200B;用於產生的變體中，並通知為變體產生的複製內容（文字）。 您可以上傳資產，或選取已存在於[!DNL Content]或任何已連線的AEM Content Hub存放庫中的資產。
 
 ### 提示
 

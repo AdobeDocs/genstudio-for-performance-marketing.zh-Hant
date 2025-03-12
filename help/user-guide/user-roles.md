@@ -4,9 +4,9 @@ description: 瞭解GenStudio for Performance Marketing使用者角色和許可�
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: de1c54ceb4402d98fd3ae9bd129b26d6b4919681
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1133'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 這些使用者角色標題看起來可能類似，但它們可識別在不同環境中提供許可權的唯一角色。
 
-**Adobe系統管理員**&#x200B;在Adobe Admin Console中擁有超級使用者許可權，並執行所有使用者管理工作，例如新增或刪除使用者。 此系統管理員角色未提供GenStudio for Performance Marketing應用程式中的許可權，這說明了為何Adobe系統管理員不需要GenStudio的授權。 Adobe系統管理員通常會使用Admin Console在GenStudio部署中新增和刪除使用者帳戶，並從個別使用者或使用者群組中指派或移除權益或許可權。
+**Adobe系統管理員**&#x200B;在Adobe Admin Console中擁有超級使用者許可權，可執行所有使用者管理工作，例如新增或刪除使用者。 此系統管理員角色未提供GenStudio for Performance Marketing應用程式中的許可權，因此可說明Adobe系統管理員不需要GenStudio授權的原因。 Adobe系統管理員通常會使用Admin Console在GenStudio部署中新增和刪除使用者帳戶，並從個別使用者或使用者群組指派或移除權益或許可權。
 
 **GenStudio系統管理員**&#x200B;是GenStudio for Performance Marketing中的超級使用者，但沒有在Adobe Admin Console中執行工作的許可權。 此系統管理員角色需要GenStudio產品授權，而且對應至[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中的超級使用者。 GenStudio系統管理員擁有GenStudio for Performance Marketing功能的完整權利，包括[!DNL Brands]、[!DNL Persona]以及[!DNL Product]建立、刪除、更新和發佈。 [Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)說明GenStudio使用者角色與產品授權的關係。
 
@@ -73,7 +73,9 @@ GenStudio系統管理員可授予編輯者編輯及刪除[!DNL Brand]的許可�
 
 ### GenStudio共同作業人員
 
-_共同作業人員_&#x200B;可以在GenStudio for Performance Marketing中檢視資產，但無法建立、編輯或刪除這些資產。 共同作業人員包括對內容的稽核和核准流程成功至關重要的利害關係人，但他們不需要建立或直接編輯內容。 法律專家與創意人員經理是潛在共同作業人員的範例。 GenStudio for Performance Marketing共同作業人員可能擁有在其他Creative Cloud產品中建立和檢視資產的許可權。
+_共同作業人員_&#x200B;可以在GenStudio for Performance Marketing中檢視資產，但無法建立、編輯或刪除這些資產。 例如，共同作業人員嘗試存取[[!DNL Create]](/help/user-guide/create/overview.md)時，看到「*您沒有此內容*」的存取權。
+
+共同作業人員包括對內容的稽核和核准流程成功至關重要的利害關係人，但他們不需要建立或直接編輯內容。 法律專家與創意人員經理是潛在共同作業人員的範例。 GenStudio for Performance Marketing共同作業人員可能擁有在其他Creative Cloud產品中建立和檢視資產的許可權。
 
 下表顯示預設的Collaborator許可權：
 
