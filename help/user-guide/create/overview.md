@@ -112,3 +112,4 @@ GenStudio for Performance Marketing會針對品牌身分識別的各個層面進
 GenStudio for Performance Marketing允許[完整控制個別變體](/help/user-guide/create/manage-variants.md)的區段。
 
 您可以修訂單一變體的區段、重新產生個別區段的內容，並使用建議的編輯來改善訊息、調整資產大小等等，所有這些都在畫布中。
+
