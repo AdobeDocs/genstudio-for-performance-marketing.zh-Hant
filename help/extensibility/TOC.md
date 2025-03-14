@@ -1,13 +1,13 @@
 ---
 user-guide-title: Adobe GenStudio for Performance Marketing擴充性指南
 breadcrumb-title: 擴充性指南
-user-guide-description: 探索GenStudio for Performance Marketing的功能，並使用GenStudio UI SDK建立可擴充的應用程式。
+user-guide-description: 探索Adobe GenStudio for Performance Marketing擴充功能框架的功能。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: Developer
-source-git-commit: 2886d806013d044475fc2e81a502a07ba3c7d19c
+source-git-commit: bcf969f599279ba28354837b3949316a1bf7df27
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '52'
 ht-degree: 1%
 
 ---
