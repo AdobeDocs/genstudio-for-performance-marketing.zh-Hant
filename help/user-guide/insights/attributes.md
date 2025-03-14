@@ -3,9 +3,9 @@ title: 屬性總覽
 description: 瞭解如何評估Adobe GenStudio for Performance Marketing中特定屬性的效能。
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 _[!UICONTROL 屬性]_&#x200B;表格是使用[!UICONTROL 屬性]名稱來組織。 您可以使用&#x200B;**[!UICONTROL 影像]**&#x200B;按鈕和&#x200B;**[!UICONTROL 影片]**&#x200B;按鈕，在清單型別之間切換。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。
 
-表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可從中選取[!UICONTROL 帳戶]和[!UICONTROL 屬性類別]，以篩選表格中的屬性。 下列範例顯示`Lighting Condition`類別中的屬性清單。 按一下&#x200B;**重設**&#x200B;以清除所有篩選器選取專案。
+表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。 選取&#x200B;**[!UICONTROL 清除表格上方的全部]**&#x200B;以移除所有篩選器。
 
 ![屬性篩選器和資料表](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
@@ -26,23 +26,23 @@ _[!UICONTROL 屬性]_&#x200B;表格是使用[!UICONTROL 屬性]名稱來組織�
 
 ## 屬性詳細資料
 
-屬性可協助透過資產的內在細節來識別資產，例如顏色、構成、視覺元素和其他屬性。
+屬性可透過其固有的詳細資訊（例如顏色、構成、視覺元素和其他屬性），協助識別[媒體](media.md#media-details)。
 
-在屬性詳細資料檢視中，您可以檢視哪些體驗使用選取的屬性。 詳細資料包括總屬性效能以及與每個體驗相關的效能測量結果劃分。
+在屬性詳細資料檢視中，您可以檢視哪些廣告使用選取的屬性。 詳細資訊包括屬性總績效以及與每個廣告相關的績效量度劃分。
 
 ![屬性績效量度](/help/assets/insights-attribute-details.png){zoomable="yes"}
 
-GenStudio for Performance Marketing會偵測某些功能，並將適當的屬性套用至資產或體驗作為標籤。 請參閱[類別](#categories)，檢視這些標籤的範例。 若要檢視與體驗相關聯的所有屬性，請按一下表格右側上方的設定(cog)圖示，以選取&#x200B;**[!UICONTROL 屬性]**&#x200B;欄。
+GenStudio for Performance Marketing會偵測某些功能，並將適當的屬性套用至媒體內容或廣告，做為標籤。 如需這些標籤的範例，請參閱[類別](#categories)。 若要檢視與廣告相關聯的所有屬性，請按一下表格右側上方的設定(cog)圖示，以選取&#x200B;**[!UICONTROL 屬性]**&#x200B;欄。
 
 ## 類別
 
-屬性類別是一種分類群組，可組織具有共同特性的相關屬性。 這些類別可提供更豐富的情境並便利其應用與使用，有助於簡化特定屬性的探索、識別和理解。
+屬性&#x200B;_category_&#x200B;是組織共用相同特性的相關屬性的分類群組。 這些類別可提供更豐富的情境並便利其應用與使用，有助於簡化特定屬性的探索、識別和理解。
 
-GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研究[影像](image-features.md)、[影片](video-features.md)和文字，並根據正確機率套用[!UICONTROL 資產屬性]。
+GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研究[影像](image-features.md)、[影片](video-features.md)和文字，並根據正確機率套用[!UICONTROL 媒體屬性]。
 
-資產的已偵測屬性清單並非詳盡無遺。 包含一組豐富功能的Assets可能限於AI所識別的三個最主要功能。 例如，下圖包含數個偵測到的影像屬性，包括多個物件、前景和背景顏色。
+偵測到的媒體內容屬性清單並非詳盡無遺。 包含一組豐富功能的媒體，可能限於AI所識別的三個最主要功能。 例如，下圖包含數個偵測到的影像屬性，包括多個物件、前景和背景顏色。
 
-![影像資產屬性](/help/assets/category/asset-attributes.png "圖坎影像包含多個偵測到的屬性"){width="300" zoomable="yes"}
+![影像屬性](/help/assets/category/asset-attributes.png "Toucan影像包含多個偵測到的屬性"){width="300" zoomable="yes"}
 
 >[!INFO]
 >
@@ -52,7 +52,7 @@ GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研�
 
 見解量度可協助您評估哪些屬效能激發更多客戶參與。
 
-下表提供[!UICONTROL 屬性]表格檢視中關鍵數位行銷量度的定義與深入分析。 每個量度都包含與資產相關的簡短定義、量度的計算方式，以及有助於瞭解其對廣告促銷活動之重要性和影響的一或多個深入分析。
+下表提供[!UICONTROL 屬性]表格檢視中關鍵數位行銷量度的定義與深入分析。 每個量度都包含與屬性相關的簡短定義、量度的計算方式，以及有助於瞭解其對廣告促銷活動之重要性和影響的一或多個深入分析。
 
 | 量度 | 定義 | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |

@@ -4,9 +4,9 @@ description: 搭配Adobe GenStudio for Performance Marketing使用範本時，�
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
+source-git-commit: cdba0ef2cc359a6ed0fd25ce946bcf89f9b712f9
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 - `headline`
 - `body`
 - `cta`
-- `image` （從內容中選取）
+- `image` (從JPEG、PNG或GIF內容中選取)
 - `brand_logo`
 
 請參閱[內容預留位置](customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
@@ -86,7 +86,7 @@ ht-degree: 0%
 - 請&#x200B;**不**&#x200B;使用相對字型大小
 - 請&#x200B;**不**&#x200B;定義檢視區
 - 請&#x200B;**不**&#x200B;使用JavaScript
-- 請&#x200B;**不**&#x200B;覆寫CSS中的HTML專案
+- 請&#x200B;**不**&#x200B;覆寫CSS中的HTML元素
 - 對背景影像使用下列設定：
 
   新增`object-fit: cover`值至`background-image` CSS類別：
@@ -115,17 +115,15 @@ ht-degree: 0%
 
 對於中繼廣告，`headline`、`body`和`CTA`欄位會自動產生。 在下列欄位中使用內容預留位置：
 
-- `image` （從內容中選取）
-- `on-image-text`
+- `image` (從JPEG、PNG或GIF內容中選取)
+- `on_image_text`
 - `brand_logo`
 
 請參閱[內容預留位置](customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
 
->[!TAB 顯示廣告]
+>[!TAB 橫幅和顯示廣告]
 
-[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
-
-自訂顯示廣告範本以搭配GenStudio for Performance Marketing使用時，請遵循下列設計最佳實務：
+自訂橫幅和顯示廣告範本以搭配GenStudio for Performance Marketing使用時，請遵循下列設計最佳實務：
 
 - 使用Adobe或Google字型
 - 準備以超薄尺寸顯示的優異資產
@@ -159,7 +157,55 @@ ht-degree: 0%
 - `headline`
 - `body`
 - `cta`
-- `image` （從內容中選取）
+- `image` (從JPEG、PNG或GIF內容中選取)
+
+請參閱[內容預留位置](customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
+
+>[!TAB LinkedIn廣告]
+
+[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
+
+自訂LinkedIn廣告範本以搭配GenStudio for Performance Marketing使用時，請遵循下列設計最佳實務：
+
+**限制**：
+
+- 使用[區段](customize-template.md#sections-or-groups)：
+   - 只能使用一個區段，以產生一組範本元素。
+- 影像大小上限為5 MB
+- 標題最多70個字元
+- 介紹文字上限150個字元
+
+**支援的外觀比例**：
+
+- 正方形1:1
+   - 桌上型電腦或行動裝置
+   - 最小：360 x 360畫素
+   - 最大：4320 x 4320畫素
+- 水準1.91:1
+   - 案頭
+   - 最小：640 x 360畫素
+   - 最大：7680 x 4320畫素
+- 垂直1:1.91
+   - 行動
+   - 最小：360 x 640畫素
+   - 最大：2430 x 4320畫素
+- 垂直2.3
+   - 行動
+   - 最小：360 x 640畫素
+   - 最大：2430 x 4320畫素
+- Verticle 4.5 （建議）
+   - 行動
+   - 最小：360 x 640畫素
+   - 最大：2430 x 4320畫素
+
+**可辨識的欄位名稱**：
+
+對於LinkedIn廣告，`headline`和`CTA`欄位會自動產生。 在下列欄位中使用內容預留位置：
+
+- `image` (從JPEG、PNG或GIF內容中選取)
+- `introductory_text`
+- `on_image_text`
+- `brand_logo`
 
 請參閱[內容預留位置](customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
 

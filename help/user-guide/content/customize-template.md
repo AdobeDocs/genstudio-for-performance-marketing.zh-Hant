@@ -4,9 +4,9 @@ description: 瞭解如何針對Adobe GenStudio for Performance Marketing個人�
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
+source-git-commit: eb7f19ebc0854db3a33599b56c857875ee67982b
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1442'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,7 @@ ht-degree: 0%
 
 您可以透過插入內容預留位置或產生AI用來插入內容的欄位，自訂要在GenStudio for Performance Marketing中使用的範本。
 
-以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_範本化語言來調整GenStudio for Performance Marketing的HTML範本。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
-
+以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
 
 您的範本準備就緒後，您可以[將其上傳到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，並開始根據您的自訂範本產生個人化電子郵件。
 
@@ -26,103 +25,48 @@ ht-degree: 0%
 
 ## 內容預留位置
 
-GenStudio for Performance Marketing可辨識範本中的某些[元素](use-templates.md#template-elements)，但前提是您使用可辨識的欄位名稱來識別它們。
+GenStudio for Performance Marketing可辨識範本中的某些[元素](use-templates.md#template-elements)，但前提是您使用[可辨識的欄位名稱](#recognized-field-names)來識別它們。
 
-在範本的head或body中，您可以使用[!DNL Handlebars]語法作為內容預留位置，其中您要求GenStudio for Performance Marketing將實際內容填入範本。 GenStudio for Performance Marketing會根據[可辨識的&#x200B;_欄位_&#x200B;名稱](#recognized-field-names)來辨識及解譯內容預留位置。
+在HTML範本的head或body中，您可以使用[!DNL Handlebars]語法來插入內容預留位置，以要求GenStudio for Performance Marketing將實際內容填入範本。 GenStudio for Performance Marketing會根據[可辨識的&#x200B;_欄位_&#x200B;名稱](#recognized-field-names)來辨識及解譯內容預留位置。
 
-例如，您可以使用`{{ headline }}`搭配[!DNL Handlebars]語法來指示電子郵件標題的放置位置：
+例如，您可以使用`{{ headline }}`搭配[!DNL Handlebars]語法來指示電子郵件標題的放置位置。 GenStudio可辨識此欄位，根據您的指引和提示條件產生相關標題，並將標題插入此位置：
 
 ```handlebars
-<div>{{headline}}</div>
+<div>{{ headline }}</div>
 ```
 
 ### 可辨識的欄位名稱
 
-下表列出GenStudio for Performance Marketing識別的欄位名稱，以填入範本。 在需要GenStudio for Performance Marketing產生內容的範本中，使用[!DNL Handlebars]語法新增這些欄位名稱。
+下表列出GenStudio for Performance Marketing將預留位置新增至範本時識別的欄位名稱。 使用[!DNL Handlebars]語法新增這些欄位名稱至您的範本，其中您需要GenStudio for Performance Marketing產生特定型別的內容。
 
 | 欄位 | 角色 | 頻道範本 |
-| ------------------ | ---------------------- | -------------------------------- |
-| `{{pre_header}}` | 前置標題 | 電子郵件 |
-| `{{headline}}` | 標題 | 電子郵件<br>中繼廣告<br>顯示廣告 |
-| `{{body}}` | 內文 | 電子郵件<br>中繼廣告<br>顯示廣告 |
-| `{{cta}}` | 行動號召 | 電子郵件<br>中繼廣告<br>顯示廣告 |
-| `{{on_image_text}}` | 在影像文字上 | 中繼廣告 |
-| `{{image}}` | 影像 — 從內容中選取 | 電子郵件<br>中繼廣告<br>顯示廣告 |
-| `{{brand_logo}}` | 選取品牌的標誌<br>如需建議使用方式，請參閱[品牌標誌欄位名稱](#brand-logo-field-name)。 | 電子郵件<br>中繼廣告 |
+| ----------------------- | ------------------------- | ------------------------------------------------ |
+| `{{pre_header}}` | 預覽文字 | 電子郵件 |
+| `{{headline}}` | 標題 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
+| `{{introductory_text}}` | 簡介文字 | LinkedIn廣告 |
+| `{{body}}` | 內文 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告 |
+| `{{cta}}` | 行動號召 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
+| `{{image}}` | 影像 — 從[!DNL Content]中選取 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
+| `{{on_image_text}}` | 在影像文字上 | 中繼廣告<br>LinkedIn廣告 |
+| `{{link}}` | 影像上的呼叫動作<br>請參閱影像](#link-on-image)上的[連結。 | 電子郵件 |
+| `{{brand_logo}}` | 選取品牌的標誌<br>請參閱[品牌標誌欄位名稱](#brand-logo-field-name)。 | 電子郵件<br>中繼廣告<br>LinkedIn廣告 |
 
 GenStudio for Performance Marketing會自動填入下列範本中的特定欄位：
 
 - **電子郵件範本**&#x200B;不需要您識別`subject`欄位
 - **中繼廣告範本**&#x200B;不需要您識別`headline`、`body`和`CTA`欄位
-- **顯示廣告範本**&#x200B;不需要您識別`CTA`欄位
+- **橫幅和顯示廣告範本**&#x200B;不需要您識別`CTA`欄位
+- **LinkedIn廣告範本**&#x200B;不需要您識別`headline`、`introductory_text`和`CTA`欄位
 
 >[!WARNING]
 >
->針對Instagram廣告，產生的標題不會出現在最終體驗中。
+>如果是Instagram廣告，產生的標題不會出現在最終體驗中。
 
 上傳範本到GenStudio for Performance Marketing時有20個欄位的限制。 由於`subject`欄位會在電子郵件中自動產生，因此會計為一個欄位。 這表示電子郵件範本中允許19個欄位。
 
 >[!TIP]
 >
 >您可以使用GenStudio for Performance Marketing中的[範本預覽](#template-preview)來驗證範本。
-
-#### 品牌標誌欄位名稱
-
-此時，您無法選取範本上傳的品牌標誌。 下列範例示範兩種有條件地呈現品牌標誌的方法。 每種方法都會驗證來源、提供預設或替代影像（若沒有品牌標誌可用）並套用樣式：
-
-**範例1**：直接在HTML`img src`屬性中使用[!DNL Handlebars]內建Helpers條件：
-
-```html
-<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
-```
-
-**範例2**：使用[!DNL Handlebars]內建條件陳述式來包裝HTML`img`標籤：
-
-```handlebars
-{{#if brand_logo}}
-    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-    {{else}}
-    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-{{/if}}
-```
-
-#### 手動欄位名稱
-
-所有其他欄位名稱會視為手動填入的欄位。
-
-若要建立可編輯的區段，請在區段名稱兩側加上雙括弧：
-
-```handlebars
-{{customVariable}}
-```
-
-### 區段或群組
-
-_區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位需要高度一致性。 建立此關係可協助AI產生符合區段中創意元素的內容。
-
-在欄位名稱中使用您選擇的前置詞來指示欄位是區段或群組的一部分。 在底線(`_`)之後使用欄位名稱（`headline`、`body`、`image`或`cta`）。 例如，下列標題和內文屬於`pod1`區段：
-
-- `pod1_headline`
-- `pod1_body`
-
-每個區段只能使用每個欄位型別中的一個。 在上述範例中，`pod1`區段只能使用一個`pod1_headline`欄位。 因為此規則，區段無法巢狀化。
-
-每種範本型別（例如電子郵件或中繼廣告）在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
-
-例如，電子郵件範本最多可包含三個區段；因此，您可以有三個標題和正文區段：
-
-- `pre-header`
-- `pod1_headline`
-- `pod1_body`
-- `pod2_headline`
-- `pod2_body`
-- `pod3_headline`
-- `pod3_body`
-- `cta`
-
-GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯性比`pod2_body`更密切。
-
-請參閱[結構化提示](/help/user-guide/effective-prompts.md#structured-prompts)，瞭解如何製作電子郵件中每個區段產生不同內容的提示。
 
 ### 呼叫動作
 
@@ -150,13 +94,94 @@ GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯�
 
 GenStudio for Performance Marketing也可以提供各種行動號召短語。 請參閱[修訂動作呼叫](/help/user-guide/create/manage-variants.md#revise-call-to-action)。
 
+### 影像上的連結
+
+您可以自訂電子郵件範本，讓創意人員新增連結至影像。 與CTA連結類似，使用下列指引將`link`預留位置套用至影像標籤：
+
+```html
+<a href="{{link}}"><img src="image-source.jpg" alt="description"></a>
+```
+
+在此範例中：
+
+- `{{link}}`是實際URL的預留位置。
+- `src="image-source.jpg"`應該取代為實際的影像來源URL。
+- `alt="description"`提供影像的替代文字，這有助於協助工具和SEO。
+
+### 品牌標誌欄位名稱
+
+此時，您無法選取範本上傳的品牌標誌。 下列範例示範兩種有條件地呈現品牌標誌的方法。 每種方法都會驗證來源、提供預設或替代影像（若沒有品牌標誌可用）並套用樣式：
+
+**範例1**：直接在HTML `img src`屬性中使用[!DNL Handlebars]內建Helpers條件：
+
+```html
+<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
+```
+
+**範例2**：使用[!DNL Handlebars]內建條件陳述式來包裝HTML `img`標籤：
+
+```html
+{{#if brand_logo}}
+    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+    {{else}}
+    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+{{/if}}
+```
+
+### 手動欄位名稱
+
+所有其他欄位名稱會視為手動填入的欄位。 例如，您可能想要為頁尾內容保留區段。
+
+若要建立可編輯的區段，請在區段名稱兩側加上雙括弧：
+
+```html
+<tbody>
+    <tr>
+        <td>
+            <p><span class="s1">{{ footerLegal }}</span></p>
+        </td>
+    </tr>
+</tbody>
+```
+
+## 區段或群組
+
+_區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位需要高度一致性。 建立此關係可協助AI產生符合區段中創意元素的內容。
+
+在欄位名稱中使用您選擇的前置詞來指示欄位是區段或群組的一部分。 在底線(`_`)之後使用欄位名稱（`headline`、`body`、`image`或`cta`）。 例如，下列標題和內文屬於`pod1`區段：
+
+- `pod1_headline`
+- `pod1_body`
+
+每個區段只能使用每個欄位型別中的一個。 在上述範例中，`pod1`區段只能使用一個`pod1_headline`欄位。 因為此規則，區段無法巢狀化。
+
+每種範本型別（例如電子郵件或中繼廣告）在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
+
+例如，電子郵件範本最多可包含三個區段；因此，您可以有三個標題和正文區段：
+
+- `pre_header`
+- `pod1_headline`
+- `pod1_body`
+- `pod2_headline`
+- `pod2_body`
+- `pod3_headline`
+- `pod3_body`
+- `cta`
+
+GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯性比`pod2_body`更密切。
+
+請參閱[結構化提示](/help/user-guide/effective-prompts.md#structured-prompts)，瞭解如何製作提示，為多節電子郵件中的每個節產生不同的內容。
+
+
 ## 範本預覽
 
 當您[上傳範本](use-templates.md#upload-a-template)時，GenStudio for Performance Marketing會掃描HTML檔案以找出可辨識的欄位。 使用預覽檢閱您的[範本元素](use-templates.md#template-elements)，並確認您以[可辨識的欄位名稱](#recognized-field-names)正確識別它們。
 
 電子郵件範本的範例預覽：
 
-![偵測到預覽欄位](/help/assets/template-detected-fields.png){width="650"}
+![偵測到預覽欄位](/help/assets/template-detected-fields.png "檢查偵測到的欄位"){zoomable="yes"}
+
+請參閱[範本程式碼編輯器](/help/user-guide/content/code-editor.md)。
 
 ### 控制項預覽
 
@@ -172,7 +197,7 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 
 另一個範例可能是為了防止在GenStudio for Performance Marketing中預覽範本時使用追蹤程式碼。 下列範例說明如何在匯出的範本中將追蹤引數新增至連結，同時保持預覽連結整齊：
 
-```handlebars
+```html
 <a class="button" {{#if _genStudio.browser }}
    href="{{ link }}"{{/if}}{{#if _genStudio.export }}
    href="{{ link }}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
@@ -193,9 +218,9 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 
 +++範例：電子郵件範本包含一個區段
 
-以下是包含一節之電子郵件的HTML範本基本範例。 標題包含用於樣式的簡單、內嵌CSS。 內文包含`pre-header`、`headline`和`image` [預留位置](#content-placeholders)，供GenStudio for Performance Marketing在電子郵件產生程式期間用來插入內容。
+以下是包含一節之電子郵件的HTML範本基本範例。 標題包含用於樣式的簡單、內嵌CSS。 內文包含`pre_header`、`headline`和`image` [預留位置](#content-placeholders)，供GenStudio for Performance Marketing在電子郵件產生程式期間用來插入內容。
 
-```handlebars {line-numbers="true" highlight="13"}
+```html {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
 <html>
 <head>
@@ -211,10 +236,11 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 <body>{{ pre_header }}
     <div class="container">
         <h1>{{ headline }}</h1>
-        <p><img alt="{{ headline }}"
+        <p><a href="{{ link }}">
+           <img alt="{{ headline }}"
                 src="{{ image }}"
                 width="600" height="600"
-                border="0"/></p>
+                border="0"/></a></p>
         <p>{{ body }}</p>
     </div>
 </body>
@@ -227,7 +253,7 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 
 以下是上述範例中的相同HTML範本，但包含另外兩個區段。 標題包含用於設定群組樣式的內嵌CSS。 本文使用兩個群組，其中的[內容預留位置](#content-placeholders)使用前置詞。
 
-```handlebars {line-numbers="true" highlight="33"}
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -255,20 +281,18 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 <body>{{ pre_header }}
     <div class="container">
         <h1>{{ headline }}</h1>
-        <p><img alt="{{ headline }}"
-                src="{{ image }}"
-                width="600" height="600"
-                border="0"/></p>
         <p>{{ body }}</p>
-    <!-- Pod1 -->
+        <!-- Pod1 -->
         <div class="pod">
-            <h2>{{ pod1_header }}</h2>
+            <h2>{{ pod1_headline }}</h2>
+            <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
             <p>{{ pod1_body }}</p>
         </div>
         <!-- End of Pod1 -->
-    <!-- Pod2 -->
+        <!-- Pod2 -->
         <div class="pod">
-            <h2>{{ pod2_header }}</h2>
+            <h2>{{ pod2_headline }}</h2>
+            <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
             <p>{{ pod2_body }}</p>
         </div>
         <!-- End of Pod2 -->
@@ -283,7 +307,7 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 
 以下是中繼廣告範本的基本範例。 標題包含用於樣式的內嵌CSS。 本文使用前置詞的[內容預留位置](#content-placeholders)。
 
-```handlebars {line-numbers="true" highlight="33"}
+```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
 <html>
 <head>
@@ -324,9 +348,9 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 <body>
 <div class="ad-container">
     <img src="{{ image }}" alt="Ad Image" class="ad-image">
-    <div class="ad-headline">"{{ headline }}"</div>
-    <div class="ad-body">"{{ body }}"</div>
-    <a href="(https://example.com)" class="ad-cta">"{{ CTA }}"</a>
+    <div class="ad-headline">{{ headline }}</div>
+    <div class="ad-body">{{ body }}</div>
+    <a href="{{ link }}" class="ad-cta">{{ CTA }}</a>
 </div>
 </body>
 </html>

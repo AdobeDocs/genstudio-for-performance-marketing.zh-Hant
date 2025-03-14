@@ -3,9 +3,9 @@ title: 管理資產和體驗
 description: 簡化並增強對品牌核准資產的管理，以便在您的數位行銷歷程中使用和重複使用。
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+source-git-commit: 624629700d8bf7d9e4c0e6d8b4373f40b14d4e05
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1361'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 
 相簿會根據選取的檢視，顯示已核准資產、體驗或範本的詳細目錄。 表格左上方的篩選（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選]**&#x200B;功能表，您可以從許多類別中選取，以篩選相簿中顯示的內容。 在&#x200B;_[!UICONTROL Assets]_&#x200B;檢視中，按一下搜尋（放大鏡）圖示以使用關鍵字尋找資產。
 
-下列顯示對[!UICONTROL Assets]相簿中字詞`dog`的搜尋：
+下列顯示對[!UICONTROL Assets]相簿中字詞`space`的搜尋：
 
-![Assets檢視（含搜尋dog](/help/assets/content-assets.png)）
+![搜尋空間的Assets檢視](/help/assets/content-assets-filter.png "搜尋具有空間屬性的資產")
 
 ### 搜尋內容
 
@@ -57,7 +57,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 
 右側&#x200B;_[!UICONTROL Assets]_&#x200B;相簿上方的&#x200B;**[!UICONTROL 位置]**&#x200B;清單可讓您從已連線的Adobe Experience Manager (AEM) [!DNL Assets Content Hub]存放庫中進行選取。
 
-![存放庫的位置清單](../../assets/content-location-selection.png){width="350"}
+![存放庫的位置清單](/help/assets/content-location-selection.png "選取內容存放庫"){width="350"}
 
 選取AEM存放庫時，相簿會顯示該存放庫中的資產詳細目錄，好讓您可以善用這些存放庫中已核准的資產，作為內容建立的輸入專案。 篩選器選項會變更，以反映[!DNL AEM Assets Content Hub]中設定的類別。
 
@@ -89,7 +89,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 將資產新增至[!DNL Content]時，預設會儲存在`GenStudio assets`存放庫中。 _[!UICONTROL 新增資產]_&#x200B;按鈕僅在&#x200B;_[!UICONTROL 位置]_&#x200B;是`GenStudio assets`存放庫時可用。
 
-![位置欄位](../../assets/content-location.png){width="350"}
+![位置欄位](/help/assets/content-location.png "位置欄位"){width="350"}
 
 **若要新增一或多個資產**：
 
@@ -146,7 +146,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 1. 在&#x200B;_匯出以啟動_&#x200B;快顯視窗中，選取其中一個可用的格式：
 
    - 電子郵件： `HTML`，`CSV`
-   - 中繼和顯示廣告： `HTML`、`JPEG`、`PNG`
+   - 中繼廣告、橫幅廣告和顯示廣告： `HTML`、`JPEG`、`PNG`
 
 請參閱[啟用](/help/user-guide/activation/overview.md)。
 

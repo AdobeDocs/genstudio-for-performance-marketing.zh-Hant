@@ -5,7 +5,8 @@ feature: Insights, Attributes, Generative AI
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+exl-id: 7b81b0ae-0c62-468f-965c-fd8070644fb3
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 文字功能包括某些文字元素的計數，例如文字、句子、表情符號，以及使用[!DNL Insights]進行分析時所使用的語意、情緒和語調的分類。 文字也可能收到可讀性分數。
 
-GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來學習文字，並根據關聯的文字音調和行銷敘述套用[!UICONTROL 資產屬性]。 程式會驗證輸入文字，確保文字包含英數字元、移除多餘的空格和無法列印的字元，並將文字截斷至允許的1500個字詞上限。 在套用偵測到的屬性標籤之前，AI會預測普遍的色調。
+GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來學習文字，並根據關聯的文字音調和行銷敘述套用[!UICONTROL 媒體屬性]。 程式會驗證輸入文字，確保文字包含英數字元、移除多餘的空格和無法列印的字元，並將文字截斷至允許的1500個字詞上限。 在套用偵測到的屬性標籤之前，AI會預測普遍的色調。
 
 ## 語調
 
@@ -52,7 +53,7 @@ AI會進一步偵測到更細微的色調。 使用先前範例中的相同緊�
 
 ## 敘述
 
-敘述屬性可協助您識別傳達可與目標受眾產生共鳴的值、目的或身分的資產。
+敘述屬性可協助您識別傳達可與目標受眾產生共鳴的值、目的或身分的媒體。
 
 | 敘述 | 說明 | 範例 |
 | ----------------- | ----------- | ------- |

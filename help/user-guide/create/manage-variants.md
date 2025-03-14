@@ -3,9 +3,9 @@ title: 管理變體
 description: 根據您的數位行銷需求，自訂及增強產生的變體和資產。
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 504f556825c5645172c2315877cb6c06f015cf0e
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -139,18 +139,31 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 **若要在變體**&#x200B;中新增或交換影像：
 
+1. 產生一組變體後，按一下影像資產(或影像資產區域（如果影像目前不存在）。
+1. 按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
+1. 使用GenStudio資產[!DNL Content]檢視中的篩選和搜尋功能，進一步縮小搜尋結果的範圍。
+
+   您也可以從[**[!UICONTROL 位置&#x200B;]**功能表](/help/user-guide/content/manage-assets.md#location)中選取已連線的Adobe Experience Manager (AEM) Assets Content Hub存放庫，使用該存放庫中的可用影像。
+
+1. 按一下以選取影像，然後按一下&#x200B;**[!UICONTROL 使用]**。
+
+   影像已新增或交換到適用的變體中。
+
+## 新增影像連結
+
+與新增或交換產生之變體中的影像類似，您可以新增影像連結。 您用來產生變體&#x200B;_的範本必須_&#x200B;包含連結](/help/user-guide/content/customize-template.md#content-placeholders)的[內容預留位置，才能啟用此功能。
+
+**若要在變體**&#x200B;中新增影像連結：
+
 1. 產生一組變體後，請按一下影像資產。
 
    如果變體目前沒有置入的影像資產，請按一下影像資產區域。
 
-1. 若要選取已發佈至[!DNL Content]的影像資產：
-   1. 按一下&#x200B;**[!UICONTROL 從內容選取]**。 使用篩選器進一步縮小搜尋結果的範圍。
-   1. 按一下&#x200B;**[!UICONTROL 使用]**
-1. 若要上傳影像資產：
-   1. 按一下&#x200B;**[!UICONTROL 上傳新影像]**&#x200B;以瀏覽您的檔案並選擇要使用的資產。 瀏覽裝置時，您可以從Microsoft OneDrive或Dropbox匯入。
-   1. 按一下&#x200B;**[!UICONTROL 新增Assets]**。
+1. 按一下連結圖示。
+1. 按一下&#x200B;**[!UICONTROL 移除連結]**&#x200B;以移除現有的預設連結。
+1. 在文字欄位中新增連結，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-   影像會新增或交換至適用的變體。
+   定義的連結會套用至變體集中的所有影像。
 
 ## 裝置的預覽
 
@@ -176,9 +189,9 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 ## 根據變體的品牌驗證
 
-使用&#x200B;_[!UICONTROL 品牌准則檢查]_&#x200B;與&#x200B;_[!UICONTROL 品牌驗證面板]_&#x200B;來維持一致的品牌識別與變體一致。
+使用&#x200B;_內容檢查_&#x200B;面板來維持一致的品牌識別、[ADA協助工具標準、平台准則](/help/user-guide/guidelines/overview.md#content-checks)，以及對齊變體。
 
-請參閱[品牌驗證](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment)。
+請參閱[品牌驗證](/help/user-guide/guidelines/brand-validation.md)。
 
 ## 產生意見回饋
 

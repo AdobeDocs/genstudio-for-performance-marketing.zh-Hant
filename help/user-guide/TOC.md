@@ -4,10 +4,10 @@ breadcrumb-title: 使用手冊
 user-guide-description: 探索 Adobe GenStudio for Performance Marketing 的功能。了解如何快速建立符合品牌形象的資產、產生變化版本並最佳化體驗。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
+source-git-commit: 86eeac0231ffc465365709eb42250383868a4462
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 22%
+source-wordcount: '189'
+ht-degree: 19%
 
 ---
 
@@ -34,11 +34,15 @@ ht-degree: 22%
    + [[!DNL Create] 總覽](create/overview.md)
    + [電子郵件體驗](create/email-experiences.md)
    + [中繼體驗](create/meta-experiences.md)
+   + [LinkedIn體驗](create/linkedin-experiences.md)
    + [顯示廣告體驗](create/display-ad-experiences.md)
+   + [橫幅體驗](create/banner-experiences.md)
    + [管理變體](create/manage-variants.md)
    + [建立電子郵件體驗](create/create-email-experience.md)
    + [建立中繼廣告體驗](create/create-meta-ad.md)
+   + [建立LinkedIn體驗](create/create-linkedin.md)
    + [建立顯示廣告體驗](create/create-display-ad.md)
+   + [建立橫幅體驗](create/create-banner-experience.md)
 + 檢閱與核准{#approve}
    + [檢閱與核准總覽](approvals/overview.md)
    + [要求內容檢閱與核准](approvals/request-review.md)
@@ -53,6 +57,7 @@ ht-degree: 22%
    + 範本{#templates}
       + [使用範本](content/use-templates.md)
       + [自訂範本](content/customize-template.md)
+      + [範本程式碼編輯器](content/code-editor.md)
       + [建立可存取的範本](content/accessibility-for-templates.md)
       + [範本的最佳實務](content/best-practices-for-templates.md)
 + 行銷活動{#campaigns}
@@ -63,8 +68,8 @@ ht-degree: 22%
    + [深入解析概觀](insights/overview.md)
    + [連線管道帳戶](insights/connect-channel.md)
    + [管道](insights/channels.md)
-   + [體驗](insights/experiences.md)
-   + [Assets](insights/assets.md)
+   + [廣告和廣告刊登](insights/ads.md)
+   + [媒體](insights/media.md)
    + [屬性](insights/attributes.md)
    + 屬性類別{#categories}
       + [影像功能](insights/image-features.md)

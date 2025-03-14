@@ -1,14 +1,14 @@
 ---
 title: 建立中繼廣告體驗
-description: 瞭解如何使用Adobe GenStudio for Performance Marketing為Facebook或Instagram建立品牌內中繼廣告體驗。
+description: 瞭解如何使用Adobe GenStudio for Performance Marketing建立Facebook或Instagram的品牌內中繼廣告體驗。
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 ## 新增引數
 
 在提示抽屜中新增[指南](/help/user-guide/guidelines/overview.md)和&#x200B;_引數_&#x200B;中的資產，可強化內容產生程式，是準備產生中繼廣告的重要步驟。
+
+如果您使用具有預先定義指引（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的範本，這些指引適用於您的變體。 如有需要，您可以加以變更。
 
 **若要新增引數和資產**：
 
@@ -75,11 +77,11 @@ ht-degree: 0%
 
 產生中繼廣告時，您可以在Facebook或Instagram廣告之間選擇。
 
-切換右側功能表列(Facebook和Instagram圖示)中的中繼廣告頻道選項(在&#x200B;**Facebook**&#x200B;和&#x200B;**Instagram**&#x200B;之間)，以檢視和管理每個頻道的變體。
+切換右側功能表列（Facebook和Instagram圖示）中的中繼廣告頻道選項（在&#x200B;**Facebook**&#x200B;和&#x200B;**Instagram**&#x200B;之間），以檢視和管理每個頻道的變體。
 
-[修訂中繼廣告](#revise-generated-meta-ads)時，您可以變更Facebook和Instagram廣告的外觀比例。
+[修訂中繼廣告](#revise-generated-variants)時，您可以變更Facebook和Instagram廣告的外觀比例。
 
-## 修訂產生的中繼廣告
+## 修訂產生的變體
 
 在選取要傳送以進行核准或發佈到[!DNL Content]的內容之前，您可以編輯中繼廣告或從產生的廣告集中刪除變體。
 
@@ -90,33 +92,33 @@ ht-degree: 0%
 頁首或內文)，並視需要編輯。
 * **若要變更或選取行動號召**，請按一下行動號召按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入行動號召文字的URL。
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
+* **若要[新增連結至變體中的影像](/help/user-guide/create/manage-variants.md#add-image-link)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下連結圖示。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
+* **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
 * **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠游標停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。
-* **若要[刪除中繼廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下廣告標題（例如「Meta 4」）並按一下&#x200B;**[!UICONTROL 刪除變體]**。
+* **若要[刪除中繼廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下變體的選項功能表，然後按一下&#x200B;**[!UICONTROL 刪除變體]**。
 
 ## 提交產生回饋
 
 若要[提交關於產生輸出品質的意見反應](/help/user-guide/create/manage-variants.md#generation-feedback)，請按一下選項圖示（三個點）並選取&#x200B;**[!UICONTROL 輸出良好]**&#x200B;或&#x200B;**[!UICONTROL 輸出不良]**。
 
-## 驗證品牌一致性
+## 驗證內容檢查對齊方式
 
-若要最佳化產生的廣告，並確保嚴格遵守品牌識別，請利用&#x200B;[_品牌准則檢查_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) （提供變體的品牌一致性摘要）和&#x200B;[_品牌驗證_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)的功能，顯示完整的品牌驗證詳細資訊並闡明改善區域。
+若要最佳化產生的變體，並確保嚴格遵守品牌識別、平台指引及協助工具標準，請利用&#x200B;[_內容檢查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)的強大功能。 此面板會顯示完整的內容檢查詳細資訊，並闡明改善領域。
 
-**若要驗證品牌一致性**：
+**若要對變體**&#x200B;執行內容檢查：
 
-1. 按一下[**[!UICONTROL [!DNL Brand]指南核取]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)圖示以取得變體，並檢視該變體在針對您的品牌進行核取時的表現摘要。
-1. 若要取得需要改進的區段和准則的詳細資訊，請按一下&#x200B;**[!UICONTROL 檢閱]** _或_&#x200B;按一下頂端功能表列中的品牌驗證圖示，以開啟&#x200B;[_品牌驗證面板_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)。
+1. 按一下右側動作列中的&#x200B;_內容檢查_&#x200B;面板圖示以開啟&#x200B;[_內容檢查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)。 檢視&#x200B;*需要稽核*&#x200B;和&#x200B;*通過*&#x200B;檢查的摘要，以檢視哪些區段和准則需要改進。
 
-   ![品牌驗證面板](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+   ![_內容檢查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. 切換每個廣告，瞭解如何改善產生的內容，使其更加與品牌保持一致。
-1. [手動修訂廣告](#revise-generated-meta-ads)，確保您的廣告與品牌緊密一致。
+1. [手動修訂變體](#revise-generated-variants)以確保您的變體與執行的內容檢查緊密對齊。
 
 請參閱[品牌驗證](/help/user-guide/guidelines/brand-validation.md)。
 
 ## 取得檢閱和核准
 
-使用「核准」面板（可從畫布的頂端功能表列存取）來取得稽核、追蹤稽核評論，以及取得利害關係人的核准。
+使用核准面板（可在畫布的右側動作列上以圖示方式存取），以取得稽核、追蹤稽核評論及取得利害關係人的核准。
 
 **若要取得稽核與核准**：
 
@@ -130,13 +132,13 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[檢閱與核准](/help/user-guide/approvals/overview.md)。
 
-## Publish和匯出體驗
+## 發佈和匯出體驗
 
 若要讓產生的中繼廣告可供目前和未來使用，請將它發佈至[!UICONTROL Content]，並匯出以用於您的行銷活動。
 
-1. **若要發佈新的中繼廣告體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL Publish]**。
+1. **若要發佈新的中繼廣告體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
 1. **若要匯出您新的中繼廣告體驗**，請按一下頂端工具列中的&#x200B;**[!UICONTROL 匯出]**。
-   1. 選取格式 — HTML和影像或CSV和影像(JPG或PNG) — 按一下「匯出」****。
+   1. 選取格式 — HTML和影像或CSV和影像(JPG或PNG) — 按一下「匯出&#x200B;**[!UICONTROL 」]**。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。
 

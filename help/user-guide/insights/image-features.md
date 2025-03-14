@@ -2,7 +2,8 @@
 title: 影像功能
 description: 瞭解GenStudio for Performance Marketing中使用的屬性類別的影像功能。
 feature: Insights, Attributes, Generative AI
-source-git-commit: c15140ed3fe3d07e9112e9ad4781cb8fcf65045d
+exl-id: b7e3d202-4085-48a4-a6ba-c950dfd52233
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -37,7 +38,7 @@ ht-degree: 0%
 
 1. _屬性詳細資料_&#x200B;頁面列出具有此屬性的所有影像。
 
-下表列出GenStudio for Performance Marketing AI識別的影像功能類別。 資產的已偵測屬性清單並非詳盡無遺。 包含一組豐富功能的Assets可能限於AI所識別的三個最主要功能。
+下表列出GenStudio for Performance Marketing AI識別的影像功能類別。 偵測到的媒體內容屬性清單並非詳盡無遺。 包含一組豐富功能的媒體，可能限於AI所識別的三個最主要功能。
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 

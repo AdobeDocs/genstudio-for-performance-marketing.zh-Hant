@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,9 @@ Content creators and marketers can produce brand-consistent email experiences in
 1. 前置標題
 1. 標題、電子郵件內文（適用於單一區段電子郵件）和行動號召
 1. 後續章節的電子郵件內文（適用於多節電子郵件）
-1. 進行品牌驗證程式，且&#x200B;[_品牌指引檢查_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)&#x200B;會針對每個變體填入。
+1. 品牌驗證
+
+   品牌驗證與內容檢查程式會進行，且每個變體會填入&#x200B;[_內容檢查_&#x200B;摘要](/help/user-guide/guidelines/brand-validation.md#content-check-summary)。
 
 ## 字元數
 

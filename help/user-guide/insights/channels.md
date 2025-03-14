@@ -3,9 +3,9 @@ title: 管道概觀
 description: 檢視Adobe GenStudio for Performance Marketing中行銷活動的客戶參與、績效、預算和支出概觀。
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 {{connect-insights}}
 
-_[!UICONTROL 管道]_&#x200B;表格是使用管道型廣告行銷活動來組織。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。 表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可從中選取[!UICONTROL 帳戶]、[!UICONTROL 狀態]和[!UICONTROL 目標]清單，以篩選表格中的行銷活動。
+_[!UICONTROL 管道]_&#x200B;表格是使用管道型廣告行銷活動來組織。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。 表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。 選取&#x200B;**[!UICONTROL 清除表格上方的全部]**&#x200B;以移除所有篩選器。
 
 ![管道篩選器和資料表](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
 {{$include /help/_includes/download-insights.md}}
 
-當您選取行銷活動時，[[!UICONTROL 體驗]標籤](experiences.md)會開啟與該行銷活動相關聯的廣告名稱清單，讓您識別哪些體驗促成了其整體成功。
+選取行銷活動時，[[!UICONTROL 廣告]標籤](ads.md)會開啟至與該行銷活動相關聯的廣告名稱清單，讓您識別哪些廣告促成了其整體成功。
 
 ## 目標
 

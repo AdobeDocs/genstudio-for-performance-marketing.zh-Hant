@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Content creators and marketers can produce brand-consistent Meta ad experiences 
 
 ## 中繼廣告管道
 
-建立中繼廣告體驗時，您可以為Facebook和Instagram頻道產生變體。 在Facebook和Instagram廣告之間來回切換，以預覽每個頻道的變體。
+建立中繼廣告體驗時，您可以為Facebook和Instagram頻道產生變體。 在Facebook和Instagram廣告之間來回切換以預覽每個頻道的變體。
 
 請參閱[選擇中繼廣告頻道](/help/user-guide/create/create-meta-ad.md#choose-meta-ads-channel)。
 
@@ -55,7 +55,9 @@ Content creators and marketers can produce brand-consistent Meta ad experiences 
 1. 呼叫動作和相關聯的URL
 1. 標題
 1. 影像上文字
-1. 進行品牌驗證程式，且&#x200B;[_品牌指引檢查_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)&#x200B;會針對每個變體填入。
+1. 品牌驗證
+
+   品牌驗證與內容檢查程式會進行，且每個變體會填入&#x200B;[_內容檢查_&#x200B;摘要](/help/user-guide/guidelines/brand-validation.md#content-check-summary)。
 
 ## 字元數
 

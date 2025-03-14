@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 
 在提示抽屜中新增[指南](/help/user-guide/guidelines/overview.md)和&#x200B;_引數_&#x200B;中的資產，會增加內容產生程式的費用，是產生電子郵件體驗的必要準備步驟。
 
+如果您使用具有預先定義指引（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的範本，這些指引適用於您的變體。 如有需要，您可以加以變更。
+
 **若要新增引數和資產**：
 
 1. 按一下&#x200B;_引數_&#x200B;圖示以展開提示抽屜。
@@ -54,9 +56,9 @@ ht-degree: 0%
    * 或者，將資產拖放至&#x200B;**[!UICONTROL 從內容選取]**&#x200B;區段，以上傳一或多個新資產。
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
 
->[!NOTE]
->如果您的電子郵件範本有多個區段，請在&#x200B;_多區段電子郵件_&#x200B;中為每個電子郵件區段選取[!DNL Products]和內容（視覺資產）。 多節電子郵件支援每個節一個視覺資產。 您只能從[!DNL Content]將視覺資產新增至多節電子郵件，而不能從本機來源拖放或上傳資產。
->![為每個電子郵件區段](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}新增內容和引數
+   >[!NOTE]
+   >如果您的電子郵件範本有多個區段，請在&#x200B;_多區段電子郵件_&#x200B;中為每個電子郵件區段選取[!DNL Products]和內容（視覺資產）。 多節電子郵件支援每個節一個視覺資產。 您只能從[!DNL Content]將視覺資產新增至多節電子郵件，而不能從本機來源拖放或上傳資產。
+   >![為每個電子郵件區段新增內容和引數](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 當您完成新增引數時，可以再次按一下&#x200B;_引數_&#x200B;圖示來收合提示抽屜。
 
@@ -75,7 +77,7 @@ ht-degree: 0%
 
 產生的內容會以漸進方式載入 — 當電子郵件體驗的每個區段產生時，都會顯示在畫布中。 請參閱[電子郵件體驗](/help/user-guide/create/meta-experiences.md#progressive-loading)，瞭解如何在畫布中載入這些變更。
 
-## 修訂產生的電子郵件
+## 修訂產生的變體
 
 在選取要傳送以進行核准或發佈至[!DNL Content]的內容之前，您可以編輯電子郵件區段或刪除產生之電子郵件集中的變體。
 
@@ -85,7 +87,8 @@ ht-degree: 0%
 * **若要[手動編輯電子郵件](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何可編輯的文字欄位（例如主旨列、標題或內文）並視需要編輯
 * **若要[變更或選取呼叫動作](/help/user-guide/create/manage-variants.md#revise-call-to-action)**，請按一下呼叫動作按鈕，然後選取&#x200B;_[!UICONTROL 重新片語]_&#x200B;或&#x200B;_[!UICONTROL 新增連結]_。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
-* **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容選取/交換]**&#x200B;或&#x200B;**[!UICONTROL 上傳新影像]**，以在個別變體中新增或交換影像。
+* **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
+* **若要[新增連結至變體中的影像](/help/user-guide/create/manage-variants.md#add-image-link)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下連結圖示。
 * **若要[刪除電子郵件](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下以選取電子郵件標題（例如「電子郵件1/4」），然後按一下&#x200B;**[!UICONTROL 刪除變體]**。
 
 ## 提交產生回饋
@@ -96,29 +99,23 @@ ht-degree: 0%
 
 修訂和準備電子郵件體驗時，您可以[在案頭和行動檢視的預覽之間切換](/help/user-guide/create/manage-variants.md#preview-for-device)，以確保草稿變體的一致性和視覺吸引力。
 
-## 驗證品牌一致性
+## 驗證內容檢查對齊方式
 
-若要最佳化產生的電子郵件，並確保嚴格遵守品牌識別，請利用&#x200B;[_品牌准則檢查_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) （提供變體的品牌一致性摘要）和&#x200B;[_品牌驗證_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)的功能，顯示完整的品牌驗證詳細資訊並闡明改善領域。
+若要最佳化產生的變體，並確保嚴格遵守品牌識別、平台指引及協助工具標準，請利用&#x200B;[_內容檢查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)的強大功能。 此面板會顯示完整的內容檢查詳細資訊，並闡明改善領域。
 
-**若要驗證品牌一致性**：
+**若要對變體**&#x200B;執行內容檢查：
 
-1. 按一下[**[!UICONTROL [!DNL Brand]指南核取]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)圖示以取得變體，並檢視該變體在針對您的品牌進行核取時的表現摘要。
+1. 按一下右側動作列中的&#x200B;_內容檢查_&#x200B;面板圖示以開啟&#x200B;[_內容檢查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)。 檢視&#x200B;*需要稽核*&#x200B;和&#x200B;*通過*&#x200B;檢查的摘要，以檢視哪些區段和准則需要改進。
 
-   ![品牌准則檢查](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+   ![_內容檢查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. 若要取得需要改進的區段和准則的詳細資訊，請按一下&#x200B;**[!UICONTROL 檢閱]** _或_&#x200B;按一下頂端功能表列中的品牌驗證圖示，以開啟&#x200B;[_品牌驗證面板_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)。
-
-1. 切換每封電子郵件，瞭解如何改善產生的內容，使其更加與品牌保持一致。
-
-   ![品牌驗證面板](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
-
-1. [手動修訂電子郵件](#revise-generated-emails)，以確保您的電子郵件與品牌緊密一致。
+1. [手動修訂變體](#revise-generated-variants)以確保您的變體與執行的內容檢查緊密對齊。
 
 請參閱[品牌驗證](/help/user-guide/guidelines/brand-validation.md)。
 
 ## 取得檢閱和核准
 
-使用「核准」面板（可從畫布的頂端功能表列存取）來取得稽核、追蹤稽核評論，以及取得利害關係人的核准。
+使用核准面板（可在畫布的右側動作列上以圖示方式存取），以取得稽核、追蹤稽核評論及取得利害關係人的核准。
 
 **若要取得稽核與核准**：
 
@@ -129,11 +126,11 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[檢閱與核准](/help/user-guide/approvals/overview.md)。
 
-## Publish和匯出體驗
+## 發佈和匯出體驗
 
 若要讓產生的電子郵件可供目前和未來使用，請將它發佈至[!UICONTROL Content]，並匯出以用於您的行銷活動。
 
-1. **若要發佈您的新電子郵件體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL Publish]**。
+1. **若要發佈您的新電子郵件體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
 1. **若要匯出您的新電子郵件體驗**，請按一下頂端工具列中的[匯出]。****
    1. 選取格式(僅限CSV和影像或HTML)，然後按一下「匯出」****。
 
