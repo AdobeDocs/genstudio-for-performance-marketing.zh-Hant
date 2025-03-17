@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing發行說明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增強功能。
 recommendations: noDisplay
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 41fb13b1067851194871a1101f2630de7ca1c008
+source-git-commit: 86974fec02bd50fa36ef16bd4d1881794972fc79
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2112'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 1%
 此版本資訊詳細說明GenStudio for Performance Marketing應用程式的最新更新。
 
 ## 2025.03.13 {#latest}
+
+### 啟用中繼廣告
+
+行銷人員現在可以[從GenStudio for Performance Marketing發佈廣告體驗](/help/user-guide/activation/overview.md)到Meta Ads Manager。 [!DNL Activate]支援部署前的詳細中繼廣告預覽。 透過[!DNL Activate]發佈的中繼廣告一旦上線，就會自動提取到[!DNL Insights]中，讓使用者可以追蹤及報告廣告效益。
 
 ### 建立LinkedIn體驗
 
