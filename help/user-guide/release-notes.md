@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing發行說明
 description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和增強功能。
 recommendations: noDisplay
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 86974fec02bd50fa36ef16bd4d1881794972fc79
+source-git-commit: 8a8815d49ce4a950fcfc2f425ca58ae7fbd42c73
 workflow-type: tm+mt
-source-wordcount: '2112'
+source-wordcount: '2109'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ### 合規性
 
-作為品牌驗證程式的一部分，[內容檢查](/help/user-guide/guidelines/brand-validation.md)已引入[法規遵循標準](/help/user-guide/guidelines/overview.md)。 這些檢查會根據[!DNL Brand]、[!DNL Product]和[!DNL Persona]指南、平台指南（例如中繼指南）、道德考量和ADA標準，檢閱體驗中的每個變體。 此程式提供需修訂以符合規範之指引和標準的完整摘要。
+作為品牌驗證程式的一部分，[內容檢查](/help/user-guide/guidelines/brand-validation.md)已引入[法規遵循標準](/help/user-guide/guidelines/overview.md)。 這些檢查會根據[!DNL Brand]指南、平台指南（例如Meta）和ADA標準來檢閱體驗中的每個變體。 此程式提供需修訂以符合規範之指引和標準的完整摘要。
 
 ### 擴充性
 
