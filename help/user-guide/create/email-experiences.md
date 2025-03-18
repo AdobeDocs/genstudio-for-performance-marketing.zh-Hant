@@ -1,11 +1,11 @@
 ---
 title: 電子郵件體驗
 description: 瞭解Adobe GenStudio for Performance Marketing中的電子郵件體驗。
-feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
+feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
+source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%

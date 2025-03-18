@@ -1,12 +1,13 @@
 ---
 title: 建立橫幅體驗
 description: 瞭解如何在Adobe [!DNL GenStudio] 中建立橫幅體驗，以進行效能行銷。
-feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
+feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
+exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
+source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%

@@ -1,11 +1,12 @@
 ---
 title: LinkedIn體驗
 description: 瞭解Adobe GenStudio for Performance Marketing中的LinkedIn體驗。
-feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
+feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"
 role: User
 level: Beginner
-source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
+exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
+source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%

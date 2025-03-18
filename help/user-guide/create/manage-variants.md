@@ -1,9 +1,9 @@
 ---
 title: 管理變體
 description: 根據您的數位行銷需求，自訂及增強產生的變體和資產。
-feature: Content, Assets, Experiences
+feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 504f556825c5645172c2315877cb6c06f015cf0e
+source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
