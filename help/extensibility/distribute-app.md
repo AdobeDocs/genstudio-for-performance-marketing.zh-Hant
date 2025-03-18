@@ -1,16 +1,21 @@
 ---
 title: 發佈您的應用程式
 description: 為GenStudio for Performance Marketing發佈您的應用程式或附加元件。
-source-git-commit: 6830e345577ca44ef8dee8de6195314a899f4e57
+exl-id: 4935356b-08df-402c-b1a2-b89627afc188
+source-git-commit: 8884f3438a0010119f578ca9a3b7158e2e01cfa3
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # 發佈您的應用程式
 
-發佈應用程式後，您組織中的成員即可使用該應用程式。
+散發您的附加元件可讓您的組織使用，也可供其他組織使用。
+
+私人發佈會將您的附加元件的部署限制在您為其開發附加元件的IMS組織所識別的組織。 公開發佈可讓附加元件在Adobe Exchange上作為應用程式使用。 您的發佈工作流程取決於您的附加元件是打算用於公開還是私人發佈。
+
+本主題討論私人散佈。 _App Builder_&#x200B;開發人員檔案中的[公開發佈](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)說明如何讓您的應用程式可供任何Adobe組織使用。
 
 >[!BEGINSHADEBOX]
 
@@ -26,7 +31,9 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-**若要發佈您的應用程式**：
+**若要私下發佈您的應用程式**：
+
+私人發佈可讓您的應用程式僅供組織成員使用。
 
 1. 從[Adobe Developer Console](https://developer.adobe.com/console/)中，選取部署應用程式的組織、專案和工作區。
 
