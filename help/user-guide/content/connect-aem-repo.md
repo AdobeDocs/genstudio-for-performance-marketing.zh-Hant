@@ -2,11 +2,11 @@
 title: 連線至 [!DNL AEM Assets Content Hub] 存放庫
 description: 瞭解如何將Adobe GenStudio for Performance Marketing連線至Adobe Experience Manager (AEM) [!DNL Content Hub] 存放庫並利用現有的已核准內容。
 level: Experienced
-feature: Assets, Content
+feature: Content Management
 exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
-source-git-commit: abe1de42b81bff63d473a67632d27f96db7c1c7d
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 **必要條件**：
 
-下列步驟需要對Admin Console和AEM Assetsas a Cloud Service的管理存取權。
+下列步驟需要有Admin Console和AEM Assets as a Cloud Service的管理存取權。
 
 >[!ENDSHADEBOX]
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 請依照&#x200B;**部署Content Hub**&#x200B;自助服務程式，為您在Cloud Manager中的現有AEM Assets啟用[!DNL Content Hub]。 請參閱&#x200B;_AEM as a Cloud Service_&#x200B;檔案中的[部署 [!DNL Content Hub]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub)。
 
-啟用[!DNL AEM Assets Content Hub]後，您在Admin Console的[!DNL AEM Assets as a Cloud Service]內有一個尾碼為`contenthub`的新執行個體。
+啟用[!DNL AEM Assets Content Hub]後，您在Admin Console上的[!DNL AEM Assets as a Cloud Service]內有一個尾碼為`contenthub`的新執行個體。
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 核准在[!DNL AEM Assets Content Hub]中使用的資產，以便在GenStudio for Performance Marketing中使用。
 
-請參閱&#x200B;_AEM as a Cloud Service_&#x200B;檔案中的[核准Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)中的資產。
+請參閱&#x200B;_Experience Manager_&#x200B;檔案中的[核准AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)中的資產。
 
 ## 步驟4：設定資產可見度
 

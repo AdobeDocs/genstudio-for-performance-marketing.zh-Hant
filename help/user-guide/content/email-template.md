@@ -2,12 +2,13 @@
 title: 為Adobe GenStudio for Performance Marketing準備電子郵件範本
 description: 瞭解如何建立Adobe GenStudio for Performance Marketing的自訂電子郵件範本。
 level: Intermediate
+feature: Media Templates
 hidefromtoc: true
-feature: Templates, Content
+recommendations: noCatalog
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 ## 為電子郵件範本編碼
 
-設計範本後，會使用HTML和內嵌CSS對其進行編碼。 程式碼應該對各種裝置而言是乾淨和回應式的。
+設計範本後，會使用HTML和內嵌CSS進行編碼。 程式碼應該對各種裝置而言是乾淨和回應式的。
 
 請參閱[範本範例](/help/user-guide/content/customize-template.md#template-examples)。
 
@@ -57,7 +58,7 @@ ht-degree: 0%
 若要定義產生的內容區域，請執行下列動作：
 
 * 識別GenStudio for Performance Marketing應自動產生的範本文字元素，例如標題或CTA。
-* 使用Handlebars語法在HTML範本中插入預留位置，以調整範本。
+* 使用Handlebars語法在您的HTML範本中插入預留位置，以調整範本。
 
 請參閱[內容預留位置](/help/user-guide/content/customize-template.md#content-placeholders)。
 

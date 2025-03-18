@@ -2,12 +2,13 @@
 title: 為Adobe GenStudio for Performance Marketing準備中繼廣告範本
 description: 瞭解如何建立Adobe GenStudio for Performance Marketing的自訂中繼廣告範本。
 level: Intermediate
+feature: Media Templates
 hidefromtoc: true
-feature: Templates, Content
+recommendations: noCatalog
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ GenStudio for Performance Marketing支援中繼廣告的這些外觀比例：
 
 ## 測試中繼廣告範本
 
-使用Meta的Creative Hub測試您的範本，以檢視廣告在不同位置（例如資訊源或內文）的外觀。
+使用Meta的Creative中心測試您的範本，以檢視廣告在不同位置（例如資訊源或內文）的外觀。
 
 使用您的電子郵件傳遞或校訂平台來測試您的電子郵件，並確認其是否正確在不同電子郵件使用者端和裝置間呈現。
 
@@ -53,7 +54,7 @@ GenStudio for Performance Marketing支援中繼廣告的這些外觀比例：
 若要定義產生的內容區域，請執行下列動作：
 
 * 識別GenStudio for Performance Marketing應自動產生的範本文字元素，例如標題或CTA。
-* 使用Handlebars語法在HTML範本中插入預留位置，以調整範本。
+* 使用Handlebars語法在您的HTML範本中插入預留位置，以調整範本。
 
 請參閱[內容預留位置](/help/user-guide/content/customize-template.md#content-placeholders)。
 

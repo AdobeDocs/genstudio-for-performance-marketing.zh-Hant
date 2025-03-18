@@ -1,12 +1,12 @@
 ---
 title: 資產詳細資訊
 description: Adobe GenStudio for Performance Marketing會使用豐富的中繼資料儲存已核准的內容，以供搜尋和效能追蹤。
-feature: Attributes, Assets
+feature: Generative AI, Content Attributes, Content Management
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: f401f93e7dd08db4837b8709e28acec5571052f7
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -76,9 +76,9 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md)已新增至GenStudio for Performance Marketing以供使用 |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md)已新增至GenStudio for Performance Marketing以供使用 |
 | 頻道 | 用於發佈特定內容型別（例如電子郵件、橫幅和顯示廣告）的平台 |
-| [!UICONTROL 時間範圍] | 使用資產的時間範圍，例如季、季、年等。 範例： `Winter 2023` |
+| [!UICONTROL 時間範圍] | 使用資產的時間範圍，例如季、季、年等。 範例：`Winter 2023` |
 | 地區 | 使用資產的區域。 範例： `North America`， `APAC`， `Italy` |
-| 語言 | 使用資產的語言。 範例： `Spanish` |
+| 語言 | 使用資產的語言。 範例：`Spanish` |
 | 關鍵字 | 使用者定義的關鍵字可用來進一步識別資產的特性和用途 |
 
 >[!TIP]

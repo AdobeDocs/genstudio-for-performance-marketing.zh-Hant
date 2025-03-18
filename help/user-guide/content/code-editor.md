@@ -2,8 +2,9 @@
 title: 範本程式碼編輯器
 description: 瞭解如何在GenStudio for Performance Marketing中使用範本程式碼編輯器。
 level: Intermediate
-feature: Templates, Content
-source-git-commit: 96ed2b3e1a1d854b35bdddb5aa694fdfec727e1a
+feature: Media Templates, Content Generation
+exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
