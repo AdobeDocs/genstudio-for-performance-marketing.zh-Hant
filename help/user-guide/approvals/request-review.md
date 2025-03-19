@@ -2,9 +2,9 @@
 title: 要求檢閱和核准
 description: 使用Adobe GenStudio for Performance Marketing請求對所產生的內容進行稽核。
 exl-id: 4d5cb23c-457f-47b6-a265-a283afbc54d4
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: 1e66e13df8f1d7ddb6b6a11af6f751ba3a9b8a04
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 **若要要求檢閱**：
 
 1. 按一下畫布頂端功能表列上的&#x200B;**[!UICONTROL 傳送給核准者]**&#x200B;按鈕。 _傳送以供核准_&#x200B;快顯視窗會開啟，並識別您要求檢閱的草稿。 如果您產生多個變體，則會傳送整個畫布以供檢閱。
+
+1. 確認草稿標題具有描述性、資訊性，且核准者聚焦於稽核目標。 選取&#x200B;_標題_&#x200B;欄位，視需要變更草稿標題。 在此處變更標題也會變更基礎的草稿體驗標題。
 
 1. 選取您想要向其請求稽核的核准者。 當您開始輸入時，**[!UICONTROL 核准者]**&#x200B;欄位會從具有GenStudio for Performance Marketing檢視和核准許可權的使用者清單中自動完成核准者使用者名稱。 在您輸入至少一個核准者名稱后，**[!UICONTROL 傳送]**&#x200B;按鈕就會啟動。
 
