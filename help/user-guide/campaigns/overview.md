@@ -1,9 +1,9 @@
 ---
 title: Adobe GenStudio for Performance Marketing行銷活動
 description: 瞭解集中式行銷活動規劃和行銷活動摘要建立。
-feature: Campaigns, Campaign Brief, Content
+feature: Campaign Planning, Campaign Brief, Workflow
 exl-id: bbf66552-5a42-48d4-9bcd-944cf643e513
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 445b5c2fce07ee8bc67e96f95e670fecda356b22
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%

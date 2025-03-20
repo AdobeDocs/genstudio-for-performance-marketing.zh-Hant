@@ -1,9 +1,9 @@
 ---
 title: Activate概述
 description: 瞭解如何使用Adobe Experience Cloud和協力廠商應用程式啟用內容。
-feature: Assets, Experiences
+feature: Ad Activation, Workflow
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: c3b8419deccd24cd565627fcb3f7d6376860e84a
+source-git-commit: 445b5c2fce07ee8bc67e96f95e670fecda356b22
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
