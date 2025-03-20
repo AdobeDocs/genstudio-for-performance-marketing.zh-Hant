@@ -2,9 +2,9 @@
 title: 布建Adobe GenStudio for Performance Marketing
 description: 瞭解布建GenStudio for Performance Marketing產品。
 level: Beginner
-feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
+feature: Generative AI
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 布建Adobe GenStudio for Performance Marketing
 
-Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)中執行初始布建工作。 從Admin Console，Adobe系統管理員可以存取GenStudio產品設定檔，並將可用的產品授權指派給使用者。
+Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)中執行初始布建工作。 Adobe系統管理員可以從Admin Console存取GenStudio產品設定檔，並將可用的產品授權指派給使用者。
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterpri
 
 ## 步驟1：存取Adobe Admin Console中的產品設定檔
 
-在Admin Console中，產品設定檔會定義GenStudio for Performance Marketing中品牌和促銷活動建立及管理專屬的規則和使用者設定檔。
+在Admin Console中，產品設定檔會定義GenStudio for Performance Marketing中品牌和促銷活動建立及管理所專屬的規則和使用者設定檔。
 
 **存取GenStudio產品設定檔**
 
@@ -35,7 +35,7 @@ Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterpri
 
    登入成功後，您會看到Adobe Admin Console的&#x200B;_概觀_&#x200B;標籤。
 
-1. 導覽至&#x200B;_產品_&#x200B;標籤。 此索引標籤會顯示貴組織已購買的所有Adobe產品。
+1. 導覽至&#x200B;_產品_&#x200B;標籤。 此標籤會顯示貴組織已購買的所有Adobe產品。
 
 1. 從產品清單中選取&#x200B;**[!UICONTROL GenStudio]**。 主控台會顯示GenStudio產品設定檔，此設定檔會顯示貴組織已購買產品授權的相關重要資訊。 它還提供管理這些授權的選項。
 
@@ -43,7 +43,7 @@ Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterpri
 
 ## 步驟2：布建使用者
 
-在Admin Console中布建使用者是指派產品授權給使用者的程式。 這些使用者必須屬於產品設定檔中指定的IMS組織。 您可以按照布建使用者至其他Adobe產品的相同方式，將使用者布建至您的GenStudio for Performance Marketing組織。 您可以手動新增使用者或大量匯入使用者。
+在Admin Console中布建使用者是指派產品授權給使用者的程式。 這些使用者必須屬於產品設定檔中指定的IMS組織。 您可以按照布建使用者至其他GenStudio for Performance Marketing產品的相同方式，將使用者布建至您的Adobe組織。 您可以手動新增使用者或大量匯入使用者。
 
 >[!TIP]
 >

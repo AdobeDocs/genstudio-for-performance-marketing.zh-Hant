@@ -1,9 +1,9 @@
 ---
 title: 屬性總覽
 description: 瞭解如何評估Adobe GenStudio for Performance Marketing中特定屬性的效能。
-feature: Insights, Attributes
+feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%

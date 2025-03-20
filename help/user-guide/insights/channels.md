@@ -1,9 +1,9 @@
 ---
 title: 管道概觀
 description: 檢視Adobe GenStudio for Performance Marketing中行銷活動的客戶參與、績效、預算和支出概觀。
-feature: Insights, Channels, Campaigns
+feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
+source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%

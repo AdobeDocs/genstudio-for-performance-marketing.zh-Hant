@@ -2,11 +2,11 @@
 title: 連線管道帳戶
 description: 連線管道帳戶，以監控您的Adobe GenStudio for Performance Marketing行銷活動和媒體效能。
 level: Intermediate
-feature: Insights, Channels
+feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2ba00288ca55fdb1686f051fc28c8e816a645f2d
+source-git-commit: 91b684d27f3205806e5e92ea14db45cee84b806b
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,13 @@ GenStudio for Performance Marketing會保留13個月的管道資料。 此保留
 
 >[!ENDSHADEBOX]
 
-**若要在GenStudio for Performance Marketing中連線中繼廣告帳戶**：
+**若要連線中繼廣告帳戶**：
 
-1. 在&#x200B;_[!DNL Insights]_中，按一下橫幅中的&#x200B;**[!UICONTROL 連線管道帳戶]**，或按一下右上角的&#x200B;**[!UICONTROL 新增帳戶]**按鈕（加號的人形）。
+1. 在_[!DNL Insights]中，如果這是您第一次連線帳戶，請按一下橫幅中的&#x200B;**[!UICONTROL 連線頻道帳戶]**。
 
-   系統可能會引導您登入Facebook。 Facebook是目前唯一可用的選項。
+   或者，選取左下方的省略符號(...)，然後按一下&#x200B;**[!UICONTROL 設定]**。
+
+1. 在&#x200B;_Data Connectors_&#x200B;區段中，按一下&#x200B;_中繼廣告_&#x200B;卡片上的&#x200B;**[!UICONTROL 連線]**。
 
 1. 登入您的Facebook帳戶。
 
