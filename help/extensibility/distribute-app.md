@@ -1,8 +1,9 @@
 ---
 title: 發佈您的應用程式
 description: 為GenStudio for Performance Marketing發佈您的應用程式或附加元件。
+feature: Extensibility
 exl-id: 4935356b-08df-402c-b1a2-b89627afc188
-source-git-commit: 8884f3438a0010119f578ca9a3b7158e2e01cfa3
+source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
