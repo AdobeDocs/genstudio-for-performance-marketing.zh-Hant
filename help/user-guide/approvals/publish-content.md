@@ -1,16 +1,16 @@
 ---
-title: Publish核准的內容
+title: 發佈核准的內容
 description: 瞭解如何使用Adobe GenStudio for Performance Marketing發佈核准的內容。
-feature: Approval, Content
+feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Publish核准的內容
+# 發佈核准的內容
 
 建立品牌一致核准內容的最後一個階段是使用適當的中繼資料將其儲存到[!DNL Content]。 您（內容編輯器或建立者）可以透過發佈或儲存至[!DNL Content]來完成核准的資產。
 
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 **若要發佈核准的內容**：
 
-1. 直接存取核准的草稿，或從&#x200B;_準備發佈的已核准變體_&#x200B;快顯視窗存取。 此快顯視窗包含&#x200B;**[!UICONTROL 關閉]**&#x200B;按鈕以延遲已核准資產的發佈，以及&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕以開始發佈程式。
+1. 直接存取核准的草稿，或從&#x200B;_準備發佈的已核准變體_&#x200B;快顯視窗存取。 此快顯視窗包含&#x200B;**[!UICONTROL 關閉]**&#x200B;按鈕以延遲已核准資產的發佈，以及&#x200B;**[!UICONTROL 發佈]**&#x200B;按鈕以啟動發佈程式。
 
-1. 按一下&#x200B;**[!UICONTROL Publish]**&#x200B;以將資產或體驗儲存至[!DNL Content]。 GenStudio for Performance Marketing會顯示您核准內容的&#x200B;_確認詳細資料_&#x200B;視窗，該視窗會顯示核准資產的縮圖。
+1. 按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;以將資產或體驗儲存到[!DNL Content]。 GenStudio for Performance Marketing會顯示您核准內容的&#x200B;_確認詳細資料_&#x200B;視窗，該視窗會顯示核准資產的縮圖。
 
 1. 新增由GenStudio for Performance Marketing提示的內容相關資訊。 此資訊會儲存為中繼資料，這會新增值至[!DNL Content]篩選和搜尋作業。 您可以在發佈程式的這個階段，將資產新增至GenStudio for Performance Marketing行銷活動。
 

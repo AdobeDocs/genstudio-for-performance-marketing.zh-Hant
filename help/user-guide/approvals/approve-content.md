@@ -1,9 +1,9 @@
 ---
 title: 核准內容
 description: 瞭解如何使用Adobe GenStudio for Performance Marketing核准產生的內容。
-feature: Approval
+feature: Content Review, Content Management
 exl-id: f6458d8f-dff3-448e-9f08-6d192f8a91d9
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -24,4 +24,4 @@ ht-degree: 0%
 
 1. 選取&#x200B;**[!UICONTROL 已核准]**。
 
-您的核准者工作已完成。 Adobe GenStudio for Performance Marketing會提醒草稿建立者您的核准。 如需儲存至[!DNL Content]或&#x200B;_發佈_&#x200B;的程式的概述，請參閱[Publish內容](./publish-content.md)。
+您的核准者工作已完成。 Adobe GenStudio for Performance Marketing會提醒草稿建立者您的核准。 請參閱[發佈內容](./publish-content.md)，以取得儲存至[!DNL Content]或&#x200B;_發佈_&#x200B;的程式概述。

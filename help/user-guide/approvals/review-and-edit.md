@@ -1,9 +1,9 @@
 ---
 title: 檢閱和編輯內容
 description: 瞭解如何使用Adobe GenStudio for Performance Marketing反複檢閱和編輯內容。
-feature: Approval
+feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%

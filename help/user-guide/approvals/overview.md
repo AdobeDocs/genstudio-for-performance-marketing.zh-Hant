@@ -1,9 +1,10 @@
 ---
 title: Adobe GenStudio for Performance Marketing審查與核准
 description: 瞭解GenStudio for Performance Marketing檢閱和核准程式。
-feature: Approval
+level: Beginner
+feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: d6f9673c7b6c8bc1aa051c2133759876a59217eb
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -53,7 +54,7 @@ _草稿_&#x200B;是未經過檢閱和核准程式的資產或體驗的初步版�
 
 GenStudio for Performance Marketing產品內通知會即時更新核准者和內容編輯器，以變更資產狀態和`@mention`個註解。 通知可支援在多個稽核、編輯和核准週期中快速反複執行。
 
-內容編輯者和核准者可以註冊，在Slack中接收這些通知。 請參閱[在Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)中訂閱服務。
+內容編輯者和核准者可以註冊，在Slack中接收這些通知。 請參閱[在Experience Cloud中訂閱服務](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack)。
 
 核准參與者採取的動作會觸發自動產品內通知和電子郵件通知。 當您開始核准流程時，指定的核准者會收到電子郵件和產品內通知。 每當核准者新增`@mention`個註解或做出決定時，您就會與產品內通知和電子郵件通知一起進入回圈。 通知包括內容草稿的連結。
 
