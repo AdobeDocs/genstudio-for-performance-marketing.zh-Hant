@@ -1,11 +1,13 @@
 ---
 title: 範本的最佳實務
 description: 搭配Adobe GenStudio for Performance Marketing使用範本時，請遵循最佳實務作法。
+level: Intermediate
+role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -41,7 +43,13 @@ ht-degree: 0%
 
 ## 遵循特定頻道的範本准則
 
-建立可容納每個管道的版面和視覺需求的範本。 使用每種範本型別時，請考量下列提示和限制，以確保最佳效能和相容性：
+建立範本時，請確保它們符合預期通道的特定需求。 建立可容納每個管道的版面和視覺需求的範本。 有些一般准則適用於任何範本，例如：
+
+- 使用簡潔且回應式的HTML和內嵌CSS
+- 使用Adobe或Google字型
+- 請&#x200B;**不**&#x200B;使用JavaScript
+
+使用每種範本型別時，請考量下列提示和限制，以確保最佳效能和相容性：
 
 >[!BEGINTABS]
 
@@ -86,17 +94,8 @@ ht-degree: 0%
 - 請&#x200B;**不**&#x200B;定義檢視區
 - 請&#x200B;**不**&#x200B;使用JavaScript
 - 請&#x200B;**不**&#x200B;覆寫CSS中的HTML元素
-- 對背景影像使用下列設定：
-
-  新增`object-fit: cover`值至`background-image` CSS類別：
-
-  ```css
-  .background-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  ```
+- 使用`<img>`標籤而非`background-image`
+- 使用遮罩來改善背景影像的文字可讀性
 
 **限制**：
 
@@ -151,11 +150,10 @@ ht-degree: 0%
 
 **可辨識的欄位名稱**：
 
-在下列欄位中使用內容預留位置：
+對於橫幅和顯示廣告，會自動產生`CTA`欄位。 在下列欄位中使用內容預留位置：
 
 - `headline`
 - `body`
-- `cta`
 - `image` (從JPEG、PNG或GIF內容中選取)
 
 請參閱[內容預留位置](customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
@@ -192,17 +190,16 @@ ht-degree: 0%
    - 行動
    - 最小：360 x 640畫素
    - 最大：2430 x 4320畫素
-- Verticle 4.5 （建議）
+- 垂直4.5 （建議）
    - 行動
    - 最小：360 x 640畫素
    - 最大：2430 x 4320畫素
 
 **可辨識的欄位名稱**：
 
-對於LinkedIn廣告，`headline`和`CTA`欄位會自動產生。 在下列欄位中使用內容預留位置：
+對於LinkedIn廣告，`headline`、`introductory_text`和`CTA`欄位會自動產生。 在下列欄位中使用內容預留位置：
 
 - `image` (從JPEG、PNG或GIF內容中選取)
-- `introductory_text`
 - `on_image_text`
 - `brand_logo`
 
