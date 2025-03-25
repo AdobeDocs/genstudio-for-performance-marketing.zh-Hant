@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing中的品牌驗證
 description: 瞭解內建品牌驗證系統如何在GenStudio for Performance Marketing中運作。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 29685c96353703705f3f742e88f3934644bc4282
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -41,7 +41,7 @@ _內容檢查_&#x200B;摘要顯示：
 
 從右側的動作列&#x200B;_或_&#x200B;按一下變體的&#x200B;[_內容檢查_&#x200B;摘要圖示](#content-check-summary)中的&#x200B;_內容檢查_&#x200B;面板，就會在畫布的右側開啟。 此面板提供詳細的品牌驗證。 平台指引和無障礙標準資訊說明了每個變體區段的改進機會。
 
-![內容檢查面板](/help/assets/content-check-panel.png){height="250" zoomable="yes"}
+![內容檢查面板](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
 _內容檢查_&#x200B;面板會顯示變體每個區段的驗證和[相容性資訊](/help/user-guide/guidelines/overview.md#compliance)：
 
