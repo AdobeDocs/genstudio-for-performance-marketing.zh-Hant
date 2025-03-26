@@ -1,9 +1,10 @@
 ---
 title: 廣告和廣告刊登概觀
 description: 在Adobe GenStudio for Performance Marketing中檢視廣告和廣告刊登績效的客戶參與度、預算和支出的概觀。
+level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%

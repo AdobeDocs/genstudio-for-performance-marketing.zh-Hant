@@ -2,8 +2,9 @@
 title: Adobe GenStudio for Performance Marketing概念
 description: 瞭解Adobe GenStudio for Performance Marketing概念和術語。
 feature: Workflow, Generative AI
+role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: bfe961a06f62e55f3207088f6f390204b12e7142
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # 概念
 
-GenStudio for Performance Marketing是獨立企業產品，其中包含Adobe的內容供應鏈，以簡化行銷活動。 大規模建立個人化、品牌核准的內容、監控成效，以及快速適應不斷變化的市場，這些都是極具挑戰性的工作。 GenStudio for Performance Marketing將Creative Cloud和Experience Cloud整合到一個應用程式中，該應用程式利用創作AI作為企業行銷團隊的效能倍增器。
+GenStudio for Performance Marketing是獨立企業產品，其內含Adobe的內容供應鏈，可簡化行銷活動。 大規模建立個人化、品牌核准的內容、監控成效，以及快速適應不斷變化的市場，這些都是極具挑戰性的工作。 GenStudio for Performance Marketing將Creative Cloud和Experience Cloud整合在一個應用程式中，該應用程式利用創作AI作為企業行銷團隊的效能倍增器。
 
 透過GenStudio for Performance Marketing，您可以：
 
@@ -32,7 +33,7 @@ GenStudio for Performance Marketing運用創作AI的強大功能，加速內容�
 
 ## 大型語言模型
 
-GenStudio for Performance Marketing運用Adobe的創作AI平台，該平台提供基礎AI和機器學習(ML)服務。 此平台可簡化大型語言模型(LLM)的使用，為Adobe的GenAI功能提供強大動力，以打造引人入勝的體驗。
+GenStudio for Performance Marketing運用Adobe的創作AI平台，該平台提供基礎AI和機器學習(ML)服務。 此平台可簡化大型語言模型(LLM)的使用，讓Adobe的GenAI功能能夠建立吸引人的體驗。
 
 GenStudio for Performance Marketing透過Azure OpenAI使用GPT系列的協力廠商LLM。<!-- Claude, and Gemini models. -->
 
@@ -80,11 +81,11 @@ If genactions roll over month to month or not -->
 
 ## 資料控管
 
-使用AI產生內容時，必須確保輸出安全且包容所有使用者。 這需要評估內容中潛在的有害偏見、仇恨言論、冒犯性材料或褻瀆行為。 Adobe從多個角度徹底測試內容產生技術，執行全面的道德審查，並實施有效的緩解計畫，以防止有害內容出現在輸出中。
+使用AI產生內容時，必須確保輸出安全且包容所有使用者。 這需要評估內容中潛在的有害偏見、仇恨言論、冒犯性材料或褻瀆行為。 Adobe從多個角度徹底測試內容產生技術、執行全面的道德審查，並實施有效的緩解計畫，以防止有害內容出現在輸出中。
 
-此方法可加強社會責任、將聲譽風險降至最低，並確保遵守[Adobe的信任與安全及道德政策](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf)。
+此方法可強化社會責任、降低聲譽風險，並確保遵守[Adobe的信任與安全及道德政策](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf)。
 
-GenStudio for Performance Marketing納入了緩解計畫，以防止根據每個Adobe的資料治理標準和政策使用已識別的有害或偏見內容。 偵測到這類內容時，系統會使用「無法產生」訊息封鎖資產產生作業。
+GenStudio for Performance Marketing納入緩解計畫，以防止根據Adobe資料治理標準和政策使用已識別的有害或偏見內容。 偵測到這類內容時，系統會使用「無法產生」訊息封鎖資產產生作業。
 
 出現此訊息時，您可以編輯提示，並再試一次&#x200B;_或_&#x200B;標示提示內容以供GenStudio for Performance Marketing檢閱。 系統會收集標示為要複查之內容的提示資料，以供內部複查之用。
 

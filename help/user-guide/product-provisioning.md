@@ -3,8 +3,9 @@ title: 布建Adobe GenStudio for Performance Marketing
 description: 瞭解布建GenStudio for Performance Marketing產品。
 level: Beginner
 feature: Generative AI
+role: Admin
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -63,6 +64,6 @@ Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterpri
 
 * [個別管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users)
 
-* [管理多位使用者/大量CSV上傳](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)
+* [管理多位使用者/大量CSV上傳](https://helpx.adobe.com/tw//enterprise/using/bulk-upload-users.html)
 
 一旦您將使用者帶入組織的GenStudio for Performance Marketing，GenStudio系統管理員就可以[設定您組織的品牌和媒體准則](get-started.md)。

@@ -1,9 +1,10 @@
 ---
 title: 視訊功能
 description: 瞭解GenStudio for Performance Marketing中所使用屬性類別的影片功能。
+level: Intermediate
 feature: Reporting and Insights, Video Attributes, Generative AI
 exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
-source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%

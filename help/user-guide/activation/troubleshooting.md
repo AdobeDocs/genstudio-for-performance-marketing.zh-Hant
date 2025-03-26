@@ -1,9 +1,10 @@
 ---
 title: 最佳化您的啟用
 description: 瞭解如何最佳化協力廠商付費廣告頻道的啟用。
+level: Intermediate
 feature: Ad Activation, Workflow
 exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
-source-git-commit: 445b5c2fce07ee8bc67e96f95e670fecda356b22
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
