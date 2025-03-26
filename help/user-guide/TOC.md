@@ -4,7 +4,8 @@ breadcrumb-title: 使用手冊
 user-guide-description: 探索 Adobe GenStudio for Performance Marketing 的功能。了解如何快速建立符合品牌形象的資產、產生變化版本並最佳化體驗。
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 26bc7f196af8b86c9bbc41e9fb8e6657645a065c
+role: User
+source-git-commit: f3fe4228b089ec71d0568b5e39830f2c1d7ae4d8
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 18%
