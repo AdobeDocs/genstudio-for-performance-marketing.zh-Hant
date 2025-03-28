@@ -4,7 +4,7 @@ description: 瞭解如何評估Adobe GenStudio for Performance Marketing中特�
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 4afdde6fd08a9f33ff599f5f85b9c1b9d79870ec
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing會偵測某些功能，並將適當的屬性
 
 屬性&#x200B;_category_&#x200B;是組織共用相同特性的相關屬性的分類群組。 這些類別可提供更豐富的情境並便利其應用與使用，有助於簡化特定屬性的探索、識別和理解。
 
-GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研究[影像](image-features.md)、[影片](video-features.md)和文字，並根據正確機率套用[!UICONTROL 媒體屬性]。
+GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研究[影像](image-features.md)、[影片](video-features.md)和[文字](text-features.md)，並根據正確機率套用[!UICONTROL 媒體屬性]。
 
 偵測到的媒體內容屬性清單並非詳盡無遺。 包含一組豐富功能的媒體，可能限於AI所識別的三個最主要功能。 例如，下圖包含數個偵測到的影像屬性，包括多個物件、前景和背景顏色。
 

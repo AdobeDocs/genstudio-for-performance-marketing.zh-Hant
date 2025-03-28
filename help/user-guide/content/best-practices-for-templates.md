@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
+source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -80,7 +80,6 @@ ht-degree: 0%
 - `body`
 - `cta`
 - `image` (從JPEG、PNG或GIF內容中選取)
-- `brand_logo`
 
 請參閱[內容預留位置](customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
 
@@ -115,7 +114,6 @@ ht-degree: 0%
 
 - `image` (從JPEG、PNG或GIF內容中選取)
 - `on_image_text`
-- `brand_logo`
 
 請參閱[內容預留位置](customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
 
@@ -201,7 +199,6 @@ ht-degree: 0%
 
 - `image` (從JPEG、PNG或GIF內容中選取)
 - `on_image_text`
-- `brand_logo`
 
 請參閱[內容預留位置](customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
 

@@ -1,13 +1,13 @@
 ---
 title: 自訂範本
-description: 瞭解如何針對Adobe GenStudio for Performance Marketing個人化和最佳化您的範本。
+description: 瞭解如何使用Adobe GenStudio for Performance Marketing generative AI辨識的內容預留位置來自訂HTML範本。
 level: Intermediate
 role: Developer
-feature: Media Templates, Content Generation
+feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0a1f13db9a976bac026f49e908b6b8c124bc5df7
+source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,14 @@ GenStudio for Performance Marketing可辨識範本中的某些[元素](use-templ
 | `{{headline}}` | 標題 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
 | `{{introductory_text}}` | 簡介文字 | LinkedIn廣告 |
 | `{{body}}` | 內文 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告 |
-| `{{cta}}` | 行動號召 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
+| `{{cta}}` | 呼叫動作<br>請參閱[呼叫動作](#calls-to-action) | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
 | `{{image}}` | 影像 — 從[!DNL Content]中選取 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
-| `{{on_image_text}}` | 在影像文字上 | 中繼廣告<br>LinkedIn廣告 |
+| `{{on_image_text}}` | 在影像文字上<br>請參閱[在影像文字上](#on-image-text)。 | 中繼廣告<br>LinkedIn廣告 |
 | `{{link}}` | 影像上的呼叫動作<br>請參閱影像](#link-on-image)上的[連結。 | 電子郵件 |
-| `{{brand_logo}}` | 選取品牌的標誌<br>請參閱[品牌標誌欄位名稱](#brand-logo-field-name)。 | 電子郵件<br>中繼廣告<br>LinkedIn廣告 |
 
-GenStudio for Performance Marketing會自動填入下列範本中的特定欄位：
+<!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
+
+GenStudio for Performance Marketing會在下列範本中自動產生特定欄位：
 
 - **電子郵件範本**&#x200B;不需要您識別`subject`欄位
 - **中繼廣告範本**&#x200B;不需要您識別`headline`、`body`和`CTA`欄位
@@ -109,17 +110,19 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 - `src="image-source.jpg"`應該取代為實際的影像來源URL。
 - `alt="description"`提供影像的替代文字，這有助於協助工具和SEO。
 
-### 品牌標誌欄位名稱
+<!-- this field does not work in Create canvas 2025/03
 
-此時，您無法選取範本上傳的品牌標誌。 下列範例示範兩種有條件地呈現品牌標誌的方法。 每種方法都會驗證來源、提供預設或替代影像（若沒有品牌標誌可用）並套用樣式：
+### Brand logo field name
 
-**範例1**：直接在HTML `img src`屬性中使用[!DNL Handlebars]內建Helpers條件：
+At this time, you cannot select the brand logo for the template upload. The following examples demonstrate two methods that conditionally render the brand logo. Each method verifies the source, provides a default or alternative image in case the brand logo is not available, and applies a style:
+
+**Example 1**: Using [!DNL Handlebars] Built-in Helpers condition directly in the HTML `img src` attribute:
 
 ```html
 <img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
 ```
 
-**範例2**：使用[!DNL Handlebars]內建條件陳述式來包裝HTML `img`標籤：
+**Example 2**: Using [!DNL Handlebars] Built-in condition statement to wrap the HTML `img` tag:
 
 ```html
 {{#if brand_logo}}
@@ -128,6 +131,8 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
     <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
 {{/if}}
 ```
+
+-->
 
 ### 手動欄位名稱
 
@@ -139,10 +144,18 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 <tbody>
     <tr>
         <td>
-            <p><span class="s1">{{ footerLegal }}</span></p>
+            <p><span class="footer-text">{{ footerLegal }}</span></p>
         </td>
     </tr>
 </tbody>
+```
+
+## 在影像文字上
+
+`{{ on_image_text }}`預留位置是用來指定直接放置在體驗影像上且具影響力之短訊息的文字覆蓋。
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
 ```
 
 ## 區段或群組
@@ -179,7 +192,6 @@ _區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位�
 GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯性比`pod2_body`更密切。
 
 請參閱[結構化提示](/help/user-guide/effective-prompts.md#structured-prompts)，瞭解如何製作提示，為多節電子郵件中的每個節產生不同的內容。
-
 
 ## 範本預覽
 

@@ -4,8 +4,9 @@ description: 瞭解如何將Adobe GenStudio for Performance Marketing連線至Ad
 level: Experienced
 role: Admin, Data Engineer
 feature: Content Management
+recommendations: noDisplay
 exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 85948ccd9b6d198a2064d95639f96a045ea61743
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
