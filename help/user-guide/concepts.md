@@ -1,10 +1,10 @@
 ---
 title: Adobe GenStudio for Performance Marketing概念
 description: 瞭解Adobe GenStudio for Performance Marketing概念和術語。
-feature: Workflow, Generative AI
+feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%

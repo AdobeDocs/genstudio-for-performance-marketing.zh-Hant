@@ -1,9 +1,9 @@
 ---
 title: 啟用工作流程
 description: 瞭解廣告體驗的啟用工作流程。
-feature: Ad Activation, Workflow
+feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-source-git-commit: 445b5c2fce07ee8bc67e96f95e670fecda356b22
+source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%

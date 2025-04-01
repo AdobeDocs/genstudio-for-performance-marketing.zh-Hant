@@ -2,9 +2,9 @@
 title: 指派 [!DNL Brand] 許可權
 description: 瞭解如何為GenStudio for Performance Marketing [!DNL Brand] 建立者和編輯者指派權益。
 level: Intermediate
-feature: Brands Service, Generative AI
+feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 1. 選擇性地新增群組及其用途的說明。
 
-1. 按一下「**[!UICONTROL 儲存]**」。Admin Console會開啟&#x200B;_新群組_&#x200B;快顯視窗，其中包含新建立的群組名稱。
+1. 按一下「**[!UICONTROL 儲存]**」。Admin Console會開啟&#x200B;_新群組_&#x200B;快顯視窗，其中包含新建立群組的名稱。
 
 請參閱&#x200B;_企業和團隊管理指南_&#x200B;中的[管理使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)。
 
@@ -79,7 +79,7 @@ _專案_&#x200B;提供儲存位置，讓選取的使用者可以儲存資產，�
 
 **若要從&#x200B;_儲存體_標籤**&#x200B;建立[!DNL Brands]專案：
 
-1. 導覽至Admin Console中的&#x200B;_儲存體_&#x200B;索引標籤。
+1. 導覽至Admin Console中的&#x200B;_儲存空間_&#x200B;索引標籤。
 
 1. 按一下側面導覽中的&#x200B;**[!UICONTROL 專案]**。 _專案_&#x200B;索引標籤開啟。
 
