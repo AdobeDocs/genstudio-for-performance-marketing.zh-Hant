@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能�
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 7784f8a722d808159df9522ff7fce5fbddcc34ce
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing可讓您利用產生式AI來增強[成功建立橫幅體驗](/help/user-guide/create/create-banner-experience.md)。
 
-[!DNL Create]可讓現代行銷人員運用[指導方針](/help/user-guide/guidelines/overview.md)、影像資產和[精心製作](/help/user-guide/effective-prompts.md)，以[製作有凝聚力的橫幅體驗](/help/user-guide/create/create-banner-experience.md)。
+[!DNL Create]可讓現代行銷人員運用[指南](/help/user-guide/guidelines/overview.md)、影像資產和[精心打造的提示](/help/user-guide/effective-prompts.md)，以[製作有凝聚力的橫幅體驗](/help/user-guide/create/create-banner-experience.md)。
 
 產生橫幅體驗時，會建立四個變數並顯示在畫布中。
 
