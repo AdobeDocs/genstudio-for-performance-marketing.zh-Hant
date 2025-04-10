@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
+source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -77,6 +77,7 @@ ht-degree: 0%
 
 - `pre_header`
 - `headline`
+- `sub_headline`
 - `body`
 - `cta`
 - `image` (從JPEG、PNG或GIF內容中選取)
@@ -151,6 +152,7 @@ ht-degree: 0%
 對於橫幅和顯示廣告，會自動產生`CTA`欄位。 在下列欄位中使用內容預留位置：
 
 - `headline`
+- `sub_headline`
 - `body`
 - `image` (從JPEG、PNG或GIF內容中選取)
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 **若要選擇中繼廣告範本**：
 
 1. 在&#x200B;_[!DNL Create]_中，按一下_「您今天要建立什麼？」中的&#x200B;**[!UICONTROL 中繼廣告]**_節。
-1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的中繼廣告範本。
+1. 使用[搜尋和&#x200B;_篩選_&#x200B;選項](/help/user-guide/content/use-templates.md#search-templates)來尋找特定範本。
 1. 按一下以選取範本，然後按一下&#x200B;**[!UICONTROL 使用]**。
 
    此動作會開啟畫布，這是內容建立的中心樞紐。
@@ -85,12 +85,14 @@ ht-degree: 0%
 
 在選取要傳送以進行核准或發佈到[!DNL Content]的內容之前，您可以編輯中繼廣告或從產生的廣告集中刪除變體。
 
+若要反白要修訂的各個圖層，請按一下可編輯的欄位或影像，然後按一下&#x200B;_[!UICONTROL 檢檢視層]_。
+
 **若要修訂產生的變體**：
 
 * **若要[編輯中繼廣告草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名的草稿_&#x200B;標題，然後輸入新標題。
 * **若要[手動編輯中繼廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何廣告區段(例如主旨列、
 頁首或內文)，並視需要編輯。
-* **若要變更或選取行動號召**，請按一下行動號召按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入行動號召文字的URL。
+* **若要變更或選取呼叫動作**，請按一下call-to-action按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入call-to-action文字的URL。
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **若要[新增連結至變體中的影像](/help/user-guide/create/manage-variants.md#add-image-link)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下連結圖示。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
@@ -144,6 +146,6 @@ ht-degree: 0%
 
 ## 連線中繼資料
 
-您可以將GenStudio for Performance Marketing連線至中繼以接收進階分析和[內容效能的深入分析](/help/user-guide/insights/overview.md)。
+您可以將GenStudio for Performance Marketing連線至中繼以接收進階分析和內容效能的深入分析。
 
-如需詳細資訊，請參閱[連線通道帳戶](/help/user-guide/insights/connect-channel.md)。
+檢視[中繼廣告連線](/help/user-guide/connectors/connect-channel.md#meta-ads-connect)。

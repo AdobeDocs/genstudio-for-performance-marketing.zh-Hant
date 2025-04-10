@@ -3,9 +3,9 @@ title: 管理資產和體驗
 description: 簡化並增強對品牌核准資產的管理，以便在您的數位行銷歷程中使用和重複使用。
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: f79fb713b5387fd305ecf4a1102b301aa547babb
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1409'
 ht-degree: 1%
 
 ---
@@ -26,10 +26,13 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 
 篩選和搜尋介面快速且回應迅速，並提供高生產力的搜尋優先體驗。 每個[!DNL Content]檢視都會提供篩選選項，以縮小搜尋範圍，找出理想的資產、體驗或範本。 針對資產和體驗，您可以選取行銷活動和特定准則，例如為特定產品製作的內容。
 
-有以[關鍵字](asset-details.md#user-defined-metadata)和[屬性類別](/help/user-guide/insights/attributes.md#categories)為基礎的篩選器，可縮小搜尋結果的範圍。 例如，您可能會想要尋找特定檔案型別或主題的資產，以協助您為行銷活動建立新的體驗。 或者，您可以根據使用者名稱或團隊成員名稱來篩選內容：
+有以[准則](/help/user-guide/guidelines/overview.md)、[關鍵字](asset-details.md#user-defined-metadata)和[屬性類別](/help/user-guide/insights/attributes.md#categories)為基礎的篩選器，可縮小搜尋結果的範圍。 例如，您可能會想要尋找特定檔案型別或主題的資產，以協助您為行銷活動建立新的體驗。 或者，您可以根據使用者名稱或團隊成員名稱來篩選內容：
 
-- **[!UICONTROL 由]**&#x200B;上傳的篩選器限制&#x200B;_[!UICONTROL Assets]_&#x200B;清單僅顯示您或特定人員上傳的資產。
-- **[!UICONTROL 由]**&#x200B;建立的篩選器限制&#x200B;_[!UICONTROL 體驗]_&#x200B;清單僅顯示您或特定人員建立的體驗。
+- **[!UICONTROL 上傳者]**：將&#x200B;_[!UICONTROL Assets]_&#x200B;清單限製為只顯示您或特定人員上傳的資產。
+- **[!UICONTROL 建立者]**：限制&#x200B;_[!UICONTROL 體驗]_&#x200B;清單，以僅顯示您或特定人員建立的體驗。
+- **[!UICONTROL 範本]**：限制&#x200B;_[!UICONTROL 體驗]_&#x200B;清單僅顯示使用所選範本建立的體驗。
+
+如果看不到某些篩選選項，則表示存放庫中沒有符合對應中繼資料條件的範本。 請確定範本已正確加上中繼資料標籤，如此才能透過這些篩選器探索範本。
 
 **若要搜尋要重複使用的內容**：
 

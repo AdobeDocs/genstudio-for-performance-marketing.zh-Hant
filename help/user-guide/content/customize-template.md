@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
+source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ GenStudio for Performance Marketing可辨識範本中的某些[元素](use-templ
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | 預覽文字 | 電子郵件 |
 | `{{headline}}` | 標題 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
+| `{{sub_headline}}` | 副標題 | 電子郵件<br>橫幅和顯示廣告 |
 | `{{introductory_text}}` | 簡介文字 | LinkedIn廣告 |
 | `{{body}}` | 內文 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告 |
 | `{{cta}}` | 呼叫動作<br>請參閱[呼叫動作](#calls-to-action) | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
@@ -101,14 +102,14 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 您可以自訂電子郵件範本，讓創意人員新增連結至影像。 與CTA連結類似，使用下列指引將`link`預留位置套用至影像標籤：
 
 ```html
-<a href="{{link}}"><img src="image-source.jpg" alt="description"></a>
+<a href="{{link}}"><img src="image-source.jpg" alt="{{imageDescription}}"></a>
 ```
 
 在此範例中：
 
 - `{{link}}`是實際URL的預留位置。
 - `src="image-source.jpg"`應該取代為實際的影像來源URL。
-- `alt="description"`提供影像的替代文字，這有助於協助工具和SEO。
+- `{{imageDescription}}`是使用者定義的欄位名稱，提供影像替代文字的預留位置，對於協助工具和SEO很有用。
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -136,7 +137,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 ### 手動欄位名稱
 
-所有其他欄位名稱會視為手動填入的欄位。 例如，您可能想要為頁尾內容保留區段。
+所有其他欄位名稱由使用者定義，並視為手動填入的欄位。 例如，您可能想要為頁尾內容保留區段。
 
 若要建立可編輯的區段，請在區段名稱兩側加上雙括弧：
 

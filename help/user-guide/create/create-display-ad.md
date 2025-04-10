@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 **若要選擇顯示廣告範本**：
 
 1. 在&#x200B;_[!DNL Create]_中，按一下_「您今天要建立什麼？」中的&#x200B;**[!UICONTROL 顯示廣告]**_節。
-1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的顯示廣告範本。
+1. 使用[搜尋和&#x200B;_篩選_&#x200B;選項](/help/user-guide/content/use-templates.md#search-templates)來尋找特定範本。
 1. 在&#x200B;_選取範本_&#x200B;檢視中，按一下顯示廣告範本。
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
 
@@ -73,6 +73,8 @@ ht-degree: 0%
 ## 修訂產生的變體
 
 在選取要傳送給核准或發佈至[!DNL Content]的內容之前，您可以編輯顯示廣告區段和文字欄位，或刪除產生的變體。
+
+若要反白要修訂的各個圖層，請按一下可編輯的欄位或影像，然後按一下&#x200B;_[!UICONTROL 檢檢視層]_。
 
 **若要修訂產生的變體**：
 

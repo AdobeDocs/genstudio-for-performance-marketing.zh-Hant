@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2198'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 1%
 
 此版本資訊詳細說明GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2025.03.13 {#latest}
+## 2025.04.10 {#latest}
+
+### 修正和增強功能
+
+* 新的範本篩選選項！ 現在您可以在[!DNL Create]和&#x200B;_[!UICONTROL 內容]_ > _[!UICONTROL 範本]_&#x200B;中精簡您的&#x200B;_[!UICONTROL 選取範本]_&#x200B;清單。 請參閱[搜尋範本](/help/user-guide/content/use-templates.md#search-templates)。 請確定範本已正確加上中繼資料標籤，如此才能透過這些篩選器探索範本。
+* 啟用功能，可[檢視及選取體驗的個別圖層](/help/user-guide/create/manage-variants.md#view-layers) （可編輯的文字欄位或可編輯的影像），以反白它們以進行修訂，例如重新產生內容或裁切影像。
+* 已新增[新範本欄位](/help/user-guide/content/use-templates.md#template-elements) `sub-headline`，以便在體驗中取得其他文字，以吸引受眾注意並突顯行銷訊息。
+
+## 舊版發行說明
+
++++2025.03.13註釋
 
 ### 啟用中繼廣告
 
@@ -60,7 +70,7 @@ ht-degree: 1%
 * 改善使用者體驗和建立首頁](/help/user-guide/create/overview.md)上頻道類別[的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
 * 已改善[!DNL Insights]表格和相簿檢視中的篩選。
 
-## 舊版發行說明
++++
 
 +++2025.02.13註釋
 
@@ -86,7 +96,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 ### 產生新的呼叫動作
 
-您現在可以在管理變體時產生新的行動號召(CTA)片語。 使用新的&#x200B;_重新片語_&#x200B;和&#x200B;_新增連結_&#x200B;選項來產生新片語並編輯CTA連結。 您的範本必須正確設定，這些新的CTA功能才能運作。 遵循&#x200B;_自訂範本_&#x200B;中的准則： [呼叫動作](/help/user-guide/content/customize-template.md#calls-to-action)。 如需變體中CTA的管理准則，請參閱[修訂動作要求](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
+您現在可以在管理變體時產生新的call-to-action (CTA)片語。 使用新的&#x200B;_重新片語_&#x200B;和&#x200B;_新增連結_&#x200B;選項來產生新片語並編輯CTA連結。 您的範本必須正確設定，這些新的CTA功能才能運作。 遵循&#x200B;_自訂範本_&#x200B;中的准則： [呼叫動作](/help/user-guide/content/customize-template.md#calls-to-action)。 如需變體中CTA的管理准則，請參閱[修訂動作要求](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
 
 ### 修正和增強功能
 
@@ -244,7 +254,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 當使用者按一下離開時，[!DNL Create]提示抽屜現在會如預期關閉。<!-- GS-5254 -->
 
-* 中繼廣告匯出現在會如預期包含所選的行動號召標籤。<!-- GS-6504 -->
+* 中繼廣告匯出現在會如預期包含所選的call-to-action標籤。<!-- GS-6504 -->
 
 * 品牌分數現在會更新並如預期保留再生體驗。<!-- GS-6535 -->
 

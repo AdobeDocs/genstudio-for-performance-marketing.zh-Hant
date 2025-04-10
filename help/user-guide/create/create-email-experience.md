@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 **若要選擇電子郵件範本**：
 
 1. 在&#x200B;_[!DNL Create]_中，按一下_「您今天要建立什麼？」中的&#x200B;**[!UICONTROL 電子郵件]**_節。
-1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的電子郵件範本。
+1. 使用[搜尋和&#x200B;_篩選_&#x200B;選項](/help/user-guide/content/use-templates.md#search-templates)來尋找特定範本。
 1. 按一下以選取電子郵件範本，然後按一下[使用]。****
 
    內容建立的中心「畫布」隨即顯示。
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 * **若要[編輯電子郵件草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名草稿_&#x200B;標題，然後輸入新標題。
 * **若要[手動編輯電子郵件](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何可編輯的文字欄位（例如主旨列、標題或內文）並視需要編輯
-* **若要[變更或選取呼叫動作](/help/user-guide/create/manage-variants.md#revise-call-to-action)**，請按一下呼叫動作按鈕，然後選取&#x200B;_[!UICONTROL 重新片語]_&#x200B;或&#x200B;_[!UICONTROL 新增連結]_。
+* **若要[變更或選取呼叫動作](/help/user-guide/create/manage-variants.md#revise-call-to-action)**，請按一下call-to-action按鈕並選取&#x200B;_[!UICONTROL 重新片語]_&#x200B;或&#x200B;_[!UICONTROL 新增連結]_。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
 * **若要[新增連結至變體中的影像](/help/user-guide/create/manage-variants.md#add-image-link)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下連結圖示。

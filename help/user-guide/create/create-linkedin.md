@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 **若要選擇LinkedIn範本**：
 
 1. 在&#x200B;_[!DNL Create]_中，按一下_「您今天要建立什麼？」中的&#x200B;**[!UICONTROL LinkedIn]**_節。
-1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定範本。
+1. 使用[搜尋和&#x200B;_篩選_&#x200B;選項](/help/user-guide/content/use-templates.md#search-templates)來尋找特定範本。
 1. 按一下以選取範本，然後按一下[使用]。****
 
    此動作會開啟畫布，這是內容建立的中心樞紐。
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 * **若要[編輯LinkedIn廣告草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名的草稿_&#x200B;標題，然後輸入新標題。
 * **若要[手動編輯LinkedIn廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何廣告區段（例如主旨列、標題或內文）並視需要編輯。
-* **若要變更或選取行動號召**，請按一下行動號召按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入行動號召文字的URL。
+* **若要變更或選取呼叫動作**，請按一下call-to-action按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入call-to-action文字的URL。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或在_[!UICONTROL 產生新文字_區段]中輸入新提示，然後按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠游標停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。
 * **若要[刪除LinkedIn廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下變體的選項功能表，然後按一下&#x200B;**[!UICONTROL 刪除變體]**。
