@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 1f62546f4fc2381bcc4d8fd3acadd1d6470ed9e8
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 | **Preheader** | 電子郵件 | 電子郵件中的次要主旨列（通常介於40到50個字元之間），可強化主要主旨列。 在開啟電子郵件之前，它會在收件匣中主旨旁邊顯示。 |
 | **標頭** | 電子郵件 | 收件者在開啟電子郵件時看到的電子郵件頂端區段會設定語調，並提供所包含內容的內容。 |
 | **標題** | 中繼廣告、橫幅和顯示廣告、LinkedIn | 收件者看到的第一個內容應該足以吸引吸引讀者興趣。 |
+| **副標題** | 電子郵件、橫幅和顯示廣告 | 支援標題的次要文字元素。 它通常簡明扼要，設計上可配合主要標題，讓讀者更關注內容。 |
 | **簡介文字** | LinkedIn | 主要訊息會傳達核心訊息，類似於內文。 最多可使用150個字元，包括空格、最多四個表情符號和標點符號。 |
 | **內文** | 電子郵件、中繼廣告、橫幅和顯示廣告 | 廣告的主要文字傳達核心訊息。 它應該吸引人、提供資訊和具有說服力，以鼓勵對象採取所需的行動。 |
 | **號召性用語** | 電子郵件、中繼廣告、橫幅和顯示廣告、LinkedIn | 行動號召按鈕使用片語和連結來鼓勵收件者採取特定動作，例如按一下連結或進行購買。 |
@@ -58,13 +59,26 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 ## 管理範本
 
-_[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。 您可以依管道型別（例如電子郵件、顯示廣告、中繼廣告和LinkedIn廣告）篩選範本。
+_[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
+
+### 搜尋範本
+
+每個[!DNL Content]檢視都會提供篩選選項，以縮小搜尋範圍，找出理想的資產、體驗或範本。 有以[准則](/help/user-guide/guidelines/overview.md)、[關鍵字](asset-details.md#user-defined-metadata)和[屬性類別](/help/user-guide/insights/attributes.md#categories)為基礎的篩選器，可縮小搜尋結果的範圍。
+
+例如，您可能想要尋找您建立的特定色版型別或外觀比例的範本：
+
+- **[!UICONTROL 建立者]**：限制&#x200B;_[!UICONTROL 範本]_&#x200B;清單，以僅顯示您或特定人員建立的範本。
+- **[!UICONTROL 外觀比例]**：限制&#x200B;_[!UICONTROL 範本]_&#x200B;清單以顯示針對特定外觀比例設計的範本。
+
+以下顯示依管道型別篩選，例如電子郵件、顯示廣告、中繼廣告和LinkedIn廣告。
 
 ![內容範本清單](/help/assets/content-templates-filter.png "搜尋LinkedIn範本"){width="650" zoomable="yes"}
 
+為擁有或付費媒體選取範本時，範本搜尋功能可在[!UICONTROL 建立]期間使用。 如果看不到某些篩選選項，則表示存放庫中沒有符合對應中繼資料條件的範本。 請確定範本已正確加上中繼資料標籤，如此才能透過這些篩選器探索範本。
+
 ### 新增範本
 
-在上傳範本之前，請依照[自訂範本](customize-template.md)指南，確保範本已完全準備就緒並可以在GenStudio for Performance Marketing中使用。
+在上傳範本之前，請依照[自訂範本](customize-template.md)中的指引，確保範本已完全準備就緒，並可在GenStudio for Performance Marketing中使用。
 
 **若要新增範本**：
 
@@ -86,7 +100,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
 1. 當您對範本預覽感到滿意時，請按一下&#x200B;**[!UICONTROL [下一步]]**。
 
-1. 在&#x200B;_[!UICONTROL 提供範本詳細資料及上傳]_&#x200B;窗格中，命名您的範本並選取&#x200B;**[!UICONTROL 管道]**&#x200B;型別。
+1. 在&#x200B;_[!UICONTROL 提供範本詳細資料並上傳]_&#x200B;中，命名您的範本並選取&#x200B;**[!UICONTROL 頻道]**&#x200B;型別。
 
    需要範本名稱和管道型別。 其他需求可能包括：
 
