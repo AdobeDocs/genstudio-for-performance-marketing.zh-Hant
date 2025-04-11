@@ -1,5 +1,5 @@
 ---
-source-git-commit: f2850d3f535cc06dd8da4e744c081dda299e27f4
+source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->GenStudio for Performance Marketing需要您連線至管道帳戶才能開始接收資料。 請參閱[連線通道帳戶](/help/user-guide/insights/connect-channel.md)。
+>GenStudio for Performance Marketing需要您連線至管道帳戶才能開始接收資料。 請參閱[連線通道帳戶](/help/user-guide/connectors/connect-channel.md)。
 
 ## 注意AEM Assets {#note-aem-assets}
 

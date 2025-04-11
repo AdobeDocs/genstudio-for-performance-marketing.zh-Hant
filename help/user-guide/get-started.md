@@ -1,65 +1,65 @@
 ---
-title: 開始使用Adobe GenStudio for Performance Marketing
+title: 開始使用 Adobe Systems GenStudio 進行效果行銷
 description: 了解如何開始使用 GenStudio for Performance Marketing 來產生符合品牌形象的新行銷內容。
 level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: ac166245f5358c3bd050227b3ba9c53caa0e3622
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 2%
 
 ---
 
-# 開始使用Adobe GenStudio for Performance Marketing
+# 開始使用 Adobe Systems GenStudio 進行效果行銷
 
-Adobe GenStudio for Performance Marketing提供全方位的工具套件，用於簡化內容建立、管理和分析。 它透過創作AI功能注入內容建立生命週期，轉變行銷內容的建立、檢閱、共用及分析方式。
+Adobe Systems GenStudio for Performance Marketing 提供了一套全面的工具，旨在簡化內容的創建、管理和分析。 它為內容創建生命週期注入了生成式 AI 功能，這些功能改變了行銷內容的創建、查看、共享和分析方式。
 
-## 開始建立、共用和檢閱內容
+## 開始建立、共享及檢閱內容
 
-如果您剛開始使用創作AI型工具，或只是想知道的GenStudio for Performance Marketing的核心原則，請參閱[概念](concepts.md)和[撰寫有效提示](effective-prompts.md)。 您可以檢視Adobe線上學習平台[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)，瞭解如何在創意過程中使用創作AI技術。
+如果您不熟悉基於 AI 的生成式工具，或者只是對 GenStudio for Performance Marketing 的核心原則感到好奇，請參閱 [概念](concepts.md) 和 [編寫有效的提示](effective-prompts.md)。 您可以查看 [Adobe Systems GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)，這是Adobe Systems關於在創意內容過程中使用生成式AI技術的線上學習平台。
 
-## 訓練GenStudio for Performance Marketing
+## 培訓 GenStudio 以進行績效行銷
 
-GenStudio for Performance Marketing會使用有關您的品牌和市場的資訊，來增強建立符合品牌規範的內容。 訓練資料包括範例、客戶[角色](/help/user-guide/guidelines/personas.md)和[產品](/help/user-guide/guidelines/products.md)的說明，以及[品牌准則](/help/user-guide/guidelines/overview.md)。
+GenStudio for Performance Marketing 使用有關您的品牌和市場的信息來增強符合品牌內容的創建。 培訓材料包括示例、客戶角色和產品的](/help/user-guide/guidelines/products.md)描述以及[品牌指南](/help/user-guide/guidelines/overview.md)。[](/help/user-guide/guidelines/personas.md) [
 
-系統管理員可透過輸入或上傳組織特定資訊來設定Adobe GenStudio for Performance Marketing。 這項準備工作可確保內容編輯與共同作業人員能夠有效地使用產生式AI功能，來建立和檢閱行銷活動資產。 一旦Adobe系統管理員布建您組織的產品執行個體並指派GenStudio系統管理員許可權後，GenStudio系統管理員就可以使用指引來準備產品的基本產生AI架構。
+系統經理通過輸入或上傳組織特定資訊來設置Adobe Systems GenStudio for Performance Marketing。 這種準備工作可確保內容编辑和協作者能够有效地使用生成式 AI 功能來創建和查看行銷活動資產。 一旦Adobe Systems系統管理員預配了組織的產品執行個體並分配了 GenStudio 系統管理員許可權，GenStudio 系統管理器就可以使用指南準備產品的底層生成 AI 框架。
 
-### 步驟1：新增指引
+### 步驟 1：添加指南
 
-設定組織品牌識別的主要建置組塊，是內容編輯與共同作業人員工作的必要先決條件。 [指南](./guidelines/overview.md)擷取品牌特性，例如圖志、語調和調色盤。 您可以上傳[[!DNL Brands] 指南](./guidelines/brands.md)檔案或手動輸入品牌資訊。 [[!DNL Personas] 准則](./guidelines/personas.md)和[[!DNL Products] 准則](./guidelines/products.md)也很重要。 GenStudio for Performance Marketing的基本產生AI功能會使用這些准則來建立護欄，以引導內容產生。
+設置組織品牌識別的關鍵構建基塊是內容編輯和協作者工作的基本先決條件。 [指南](./guidelines/overview.md) 捕獲品牌特徵，例如徽標、語氣和調色板。 您可以文件上傳 [[!DNL Brands] 準則](./guidelines/brands.md) ，也可以手動輸入品牌信息。 [[!DNL Personas] 指導方針](./guidelines/personas.md) 和 [[!DNL Products] 指導方針](./guidelines/products.md) 也很重要。 GenStudio for Performance Marketing的基礎生成AI功能使用這些指南來建立指南內容一代的護欄。
 
-#### 準備您的指引檔案
+#### 準備指南檔
 
-全面且重點明確的[[!DNL Brands]](./guidelines/brands.md)、[[!DNL Products]](./guidelines/products.md)和[[!DNL Personas]](./guidelines/personas.md)指引定義您組織行銷活動的核心層面。 GenStudio for Performance Marketing會從這些指引中擷取資訊，以開始建立您的品牌。 您可以上傳指導性檔案，或在您將資訊手動輸入到GenStudio for Performance Marketing時進行查閱。 請參閱[新增准則](./guidelines/overview.md)，以取得上傳或輸入此資訊的指引。
+全面而專注[[!DNL Brands]](./guidelines/brands.md)的 和指南[[!DNL Personas]](./guidelines/personas.md)[[!DNL Products]](./guidelines/products.md)定義了組織行銷活動的核心方面。GenStudio for Performance Marketing 從這些指南中提取資訊，以開始構建您的品牌。 您可以上傳指南文件或在將信息手動輸入GenStudio for Performance Marketing時查閱它們。 有關上傳或輸入此資訊的指南，請參閱 [添加指南](./guidelines/overview.md) 。
 
-#### 修訂指導方針
+#### 修訂準則
 
-GenStudio系統管理員可以手動輸入或上傳您組織的特定品牌需求，以準備產品的基本產生AI架構。 雖然設定組織的品牌指引是一次性動作，但您可以根據組織的波動、成長和不斷變化的市場環境來修訂和增強這些指引。
+GenStudio 系統管理員可以通過手動輸入或上傳組織的特定品牌要求來準備產品的底層生成 AI 框架。 儘管設置組織的品牌準則一次性作，但您可以根據組織的波動性、增長和不斷變化的市場環境來修訂和增強這些準則。
 
-### 步驟2：為GenStudio [!DNL Brands]設定Adobe Admin Console專案
+### 第 2 步：為 GenStudio 設置一個Adobe Admin Console專案 [!DNL Brands]
 
-系統管理員必須先完成其他設定工作，共同作業人員才能編輯或建立[!DNL Brands]。 Adobe系統管理員會在Adobe Admin Console中執行下列工作：
+系統管理員必須先完成其他設置任務，協作者才能編輯或創建 [!DNL Brands]。 Adobe Systems系統管理員執行下列工作時，Adobe Admin Console：
 
-* 建立包含所有需要編輯及建立[!DNL Brands]許可權的使用者的新使用者群組。
+* 建立包含需要編輯和創建 [!DNL Brands] 權利的所有使用者的新消費者群組。
 
-* 在Adobe Admin Console中建立新專案。
+* 建立Adobe Admin Console中的新專案。
 
-請參閱[指派品牌許可權](configure-brand-permissions.md)。
+請參閱 [分配品牌許可權](configure-brand-permissions.md)。
 
-### 步驟3：上傳範本
+### 步驟 3： 上傳範本
 
-範本可加速內容建立。 範本包含已核准的功能，例如頁首和頁尾，針對特定管道進行最佳化。 系統管理員通常會上傳和管理其組織的範本。 內容編輯人員可使用範本，在組織品牌的既定界限內，快速啟動內容建立程式。
+模板可加速內容建立速度。 範本包含已批准的功能，例如頁眉和頁腳，並針對特定管道進行了優化。 系統管理員通常會為其組織上傳和管理範本。 内容编辑者使用模板在組織品牌的既定邊界內開始內容創建過程。
 
-請參閱[使用範本](./content/use-templates.md)。
+請參閱 [使用範本](./content/use-templates.md)。
 
-### 步驟4：上傳已核准的資產
+### 步驟 4： 上傳核准的資產
 
-[!DNL Content]中已核准的資產可供所有GenStudio for Performance Marketing編輯使用。 您可將資產填入[!DNL Content]，以供內容編輯人員用於建立新體驗或資產。
+經批准的資產 [!DNL Content] 可供所有 GenStudio for Performance Marketing 编辑使用。 您可以填 [!DNL Content] 入資產供內容编辑者用來建立新體驗或新資產。
 
-請參閱[上傳已核准的資產](./content/manage-assets.md)。
+請参閱 [上傳已批准資產](./content/manage-assets.md)。
 
-### 步驟5：連線至中繼(Facebook)帳戶
+### 第 5 步：連接到元 （Facebook） 帳戶
 
-設定GenStudio for Performance Marketing與貴組織社交帳戶之間的連線，以接收來自作用中行銷活動、資產和體驗的資料。 [[!DNL Insights]](./insights/overview.md)提供工具來分析管道衍生的資料。 請參閱[連線至中繼(Facebook)帳戶](./insights/connect-channel.md#meta-ads-connect)。
+在 GenStudio for Performance Marketing 和您組織的社交帳戶之間配置連接，以接收來自活動行銷活動、資產和體驗的數據。 [!DNL Insights] 提供用於分析通道衍生數據的工具。 請参閱 [連接到元 （Facebook） 帳戶](/help/user-guide/connectors/connect-channel.md#meta-ads-connect)。
