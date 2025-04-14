@@ -1,6 +1,6 @@
 ---
 title: 連線付費媒體
-description: 連線管道帳戶，以使用Adobe GenStudio for Performance Marketing啟用和監控您的廣告和媒體。
+description: Connect a channel account to activate and monitor your ads and media with Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# 連線付費媒體帳戶
+# Connect paid media accounts
 
-_[!DNL Data connectors]_可讓GenStudio for Performance Marketing與您的付費媒體網路帳戶緊密整合。 透過連線到協力廠商管道帳戶，您可以交換關鍵資料，例如[[!DNL Insights]](/help/user-guide/insights/overview.md)中的行銷活動績效量度，並且可以透過[[!DNL Activate]](/help/user-guide/activation/overview.md)傳遞新的廣告位置。 此整合可讓GenStudio for Performance Marketing管理您的媒體和廣告，同時從您的作用中行銷活動接收有價值的深入分析，包括曝光數、點按數和轉換。
+_[!DNL Data connectors]_enable seamless integration between GenStudio for Performance Marketing and your paid media network accounts. By connecting to third-party channel accounts, you can exchange critical data, such as campaign performance metrics in [[!DNL Insights]](/help/user-guide/insights/overview.md), and you can deliver fresh ad placements with [[!DNL Activate]](/help/user-guide/activation/overview.md). This integration allows GenStudio for Performance Marketing to manage your media and ads while receiving valuable insights, including impressions, clicks, and conversions, from your active campaigns.
 
 **若要連線到付費媒體帳戶**：
 
@@ -30,9 +30,9 @@ _[!DNL Data connectors]_可讓GenStudio for Performance Marketing與您的付費
 
 ## 付費媒體連線
 
-GenStudio for Performance Marketing支援各種聯結器型別，以便與您偏好的行銷平台整合。 每種聯結器型別都有特定的先決條件和設定步驟，才能完成成功的連線。
+GenStudio for Performance Marketing supports various connector types to integrate with your preferred marketing platforms. Each connector type has specific prerequisites and set-up steps to complete for a successful connection.
 
-### 中繼廣告連線
+### Meta ads connect
 
 >[!BEGINSHADEBOX]
 
@@ -54,10 +54,10 @@ GenStudio for Performance Marketing支援各種聯結器型別，以便與您偏
 
 1. 遵循Facebook驗證指示。
 
-1. 在&#x200B;_[!UICONTROL 商務用Facebook登入]_&#x200B;快顯功能表(Meta至Adobe符號)中，逐步執行下列選取專案。
+1. In the _[!UICONTROL Facebook Login for Business]_ pop-up (Meta to Adobe symbol), step through the following selections.
 
-   - 驗證帳戶資訊，然後按一下&#x200B;**[!UICONTROL 繼續作為]**
-   - 授與選取頁面的存取權並按一下&#x200B;**[!UICONTROL 繼續]**
+   - Verify the account information and click **[!UICONTROL Continue as]**
+   - Grant access to select Pages and click **[!UICONTROL Continue]**
    - 授與選取企業的存取權，然後按一下[繼續] ****
    - 選擇加入一或多個Instagram帳戶，然後按一下&#x200B;**[!UICONTROL 繼續]**
    - 檢閱選取專案並按一下&#x200B;**[!UICONTROL 儲存]**
@@ -68,7 +68,7 @@ _[!UICONTROL 中繼廣告帳戶]_&#x200B;檢視會列出`Account name`、`Added 
 
 ## 資料擷取
 
-最初，GenStudio for Performance Marketing會匯入最近六個月的歷史資料。 此做法可確保您立即存取相關的深入分析，以分析趨勢、評估績效及做出明智的決策。 擷取程式可能需要一到五天，視您帳戶中的資料量而定。
+最初，GenStudio for Performance Marketing會匯入最近六個月的歷史資料。 此做法可確保您立即存取相關的深入分析，以分析趨勢、評估績效及做出明智的決策。 The ingestion process may take one to five days depending on the volume of data in your account.
 
 >[!BEGINSHADEBOX]
 
