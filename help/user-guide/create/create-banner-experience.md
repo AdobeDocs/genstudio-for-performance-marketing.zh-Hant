@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 0%
 
 **若要選擇橫幅範本**：
 
-1. 在&#x200B;_[!DNL Create]_中，按一下「_」中的&#x200B;**[!UICONTROL 橫幅]**「您今天要建立什麼？」_節。
-1. 使用[搜尋和&#x200B;_篩選_&#x200B;選項](/help/user-guide/content/use-templates.md#search-templates)來尋找特定範本。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 橫幅]**。
+1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的橫幅範本。
 1. 在&#x200B;_選取範本_&#x200B;檢視中，按一下橫幅範本。
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
 
