@@ -1,20 +1,20 @@
 ---
 title: 連線付費媒體
-description: Connect a channel account to activate and monitor your ads and media with Adobe GenStudio for Performance Marketing.
+description: 連線管道帳戶，以使用Adobe GenStudio for Performance Marketing啟用和監控您的廣告和媒體。
 level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2844914d25d9bc3a2be7f47d0cd7f26f7c921555
+source-git-commit: af354448ef609db3c51026ee0e9991ac5cedeba5
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# Connect paid media accounts
+# 連線付費媒體帳戶
 
-_[!DNL Data connectors]_enable seamless integration between GenStudio for Performance Marketing and your paid media network accounts. By connecting to third-party channel accounts, you can exchange critical data, such as campaign performance metrics in [[!DNL Insights]](/help/user-guide/insights/overview.md), and you can deliver fresh ad placements with [[!DNL Activate]](/help/user-guide/activation/overview.md). This integration allows GenStudio for Performance Marketing to manage your media and ads while receiving valuable insights, including impressions, clicks, and conversions, from your active campaigns.
+_[!DNL Data connectors]_可讓GenStudio for Performance Marketing與您的付費媒體網路帳戶緊密整合。 透過連線到協力廠商管道帳戶，您可以交換關鍵資料，例如[[!DNL Insights]](/help/user-guide/insights/overview.md)中的行銷活動績效量度，並且可以透過[[!DNL Activate]](/help/user-guide/activation/overview.md)傳遞新的廣告位置。 此整合可讓GenStudio for Performance Marketing管理您的媒體和廣告，同時從您的作用中行銷活動接收有價值的深入分析，包括曝光數、點按數和轉換。
 
 **若要連線到付費媒體帳戶**：
 
@@ -30,9 +30,34 @@ _[!DNL Data connectors]_enable seamless integration between GenStudio for Perfor
 
 ## 付費媒體連線
 
-GenStudio for Performance Marketing supports various connector types to integrate with your preferred marketing platforms. Each connector type has specific prerequisites and set-up steps to complete for a successful connection.
+GenStudio for Performance Marketing支援各種聯結器型別，以便與您偏好的行銷平台整合。 每種聯結器型別都有特定的先決條件和設定步驟，才能完成成功的連線。
 
-### Meta ads connect
+### Google Campaign Manager 360連線
+
+>[!BEGINSHADEBOX]
+
+**必要條件**：
+
+- Google Campaign Manager 360帳戶
+- 移除瀏覽器中的任何快顯封鎖程式
+
+>[!ENDSHADEBOX]
+
+**若要連線Google Campaign Manager 360帳戶**：
+
+1. 在&#x200B;_Data Connectors_&#x200B;區段中，按一下&#x200B;_Google Campaign Manager 360_&#x200B;卡片上的&#x200B;**[!UICONTROL 連線]**。
+
+1. 登入您的Google Campaign Manager 360帳戶。
+
+   您可能必須移除快顯視窗封鎖程式，然後使用&#x200B;**[!UICONTROL 重新整理]**&#x200B;再試一次。
+
+1. 閱讀條款與條件，然後按一下&#x200B;**[!UICONTROL 允許]**&#x200B;以授與存取權。
+
+1. 在&#x200B;_[!UICONTROL Google行銷活動管理員360]_&#x200B;檢視中，選取一或多個廣告商並按一下&#x200B;**[!UICONTROL 選取]**。
+
+_[!UICONTROL Google行銷活動管理員360帳戶]_&#x200B;檢視會列出`Account name`、`Added by`、`Date added`和`Status`。 使用&#x200B;**[!UICONTROL 新增帳戶]**&#x200B;將更多帳戶新增至清單。
+
+### 中繼廣告連線
 
 >[!BEGINSHADEBOX]
 
@@ -54,10 +79,10 @@ GenStudio for Performance Marketing supports various connector types to integrat
 
 1. 遵循Facebook驗證指示。
 
-1. In the _[!UICONTROL Facebook Login for Business]_ pop-up (Meta to Adobe symbol), step through the following selections.
+1. 在&#x200B;_[!UICONTROL 商務用Facebook登入]_&#x200B;快顯功能表(Meta至Adobe符號)中，逐步執行下列選取專案。
 
-   - Verify the account information and click **[!UICONTROL Continue as]**
-   - Grant access to select Pages and click **[!UICONTROL Continue]**
+   - 驗證帳戶資訊，然後按一下&#x200B;**[!UICONTROL 繼續作為]**
+   - 授與選取頁面的存取權並按一下&#x200B;**[!UICONTROL 繼續]**
    - 授與選取企業的存取權，然後按一下[繼續] ****
    - 選擇加入一或多個Instagram帳戶，然後按一下&#x200B;**[!UICONTROL 繼續]**
    - 檢閱選取專案並按一下&#x200B;**[!UICONTROL 儲存]**
@@ -68,7 +93,7 @@ _[!UICONTROL 中繼廣告帳戶]_&#x200B;檢視會列出`Account name`、`Added 
 
 ## 資料擷取
 
-最初，GenStudio for Performance Marketing會匯入最近六個月的歷史資料。 此做法可確保您立即存取相關的深入分析，以分析趨勢、評估績效及做出明智的決策。 The ingestion process may take one to five days depending on the volume of data in your account.
+最初，GenStudio for Performance Marketing會匯入最近六個月的歷史資料。 此做法可確保您立即存取相關的深入分析，以分析趨勢、評估績效及做出明智的決策。 擷取程式可能需要一到五天，視您帳戶中的資料量而定。
 
 >[!BEGINSHADEBOX]
 
