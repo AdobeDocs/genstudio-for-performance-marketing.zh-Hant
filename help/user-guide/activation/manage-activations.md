@@ -1,9 +1,9 @@
 ---
 title: 管理啟用
-description: 瞭解如何使用Adobe Genstudio for Performance Marketing管理已啟用的體驗。
+description: 瞭解如何使用Adobe GenStudio for Performance Marketing管理啟用的體驗。
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: f6e0d0138f30527a1fdf7bef6fc4c30884316e0e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 _[!DNL Activate]_提供每個廣告頻道啟用狀態的集中檢視，包括「已發佈」（成功）、「失敗」（失敗）和「發佈」（擱置）啟用。_&#x200B;啟用的體驗&#x200B;_檢視會顯示一個已連線頻道廣告帳戶的所有啟用。
 
-啟用的體驗會依廣告頻道組織。 從&#x200B;_[!DNL Activate]_，按一下頻道圖磚上的&#x200B;**[!UICONTROL 檢視]**。 所選管道的_&#x200B;已啟動體驗&#x200B;_檢視隨即開啟。 體驗會依體驗名稱列出，並依啟用日期排序。 如果您的組織尚未為該頻道啟動體驗，則產品圖磚不包含&#x200B;**[!UICONTROL 檢視]**按鈕。
+_[!DNL Activate]_會依廣告頻道組織已啟用的體驗。 按一下頻道圖磚上的&#x200B;**[!UICONTROL 檢視]**。 所選管道的_&#x200B;已啟動體驗&#x200B;_檢視隨即開啟。 此檢視會依名稱列出體驗，並按啟用日期排序。 如果您的組織尚未為該頻道啟動體驗，則產品圖磚不包含&#x200B;**[!UICONTROL 檢視]**按鈕。
 
 ## 啟用的體驗檢視
 
-啟用會依體驗名稱以遞減時間順序列出（最新的清單在前）。
+此檢視會依體驗名稱依遞減時間順序列出啟用專案（最新專案列在前）。
 
 下表列出定義每個體驗的屬性。
 
