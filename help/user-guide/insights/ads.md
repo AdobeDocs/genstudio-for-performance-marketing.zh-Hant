@@ -4,9 +4,9 @@ description: 在Adobe GenStudio for Performance Marketing中檢視廣告和廣�
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2d396b183084996c45616d29387e068a5d502c53
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -33,24 +33,23 @@ _[!UICONTROL 廣告]_&#x200B;表格是使用[!UICONTROL 廣告名稱]來組織�
 
 廣告預覽下方是與廣告相關聯的[!UICONTROL 文字屬性]清單。 當資產和廣告獲得核准並儲存在[!DNL Content]中時，GenStudio for Performance Marketing會根據其固有功能產生標籤。 如需有關系統中繼資料的詳細資訊，請參閱[媒體詳細資料](/help/user-guide/content/asset-details.md#system-metadata)。
 
+### 廣告格式
+
+GenStudio for Performance Marketing中的[!DNL Insights]目前支援下列可用的廣告格式。
+
+| 支援 | 不支援 |
+|-----------|-------------|
+| 資產摘要規格（位置最佳化）<br>單一影像或視訊<br>連結 | 輪播<br>共同作業<br>目錄<br>即時體驗<br>資產摘要規格（位置最佳化除外）<br>通話（影像/視訊）<br>應用程式（影像/視訊）<br>傳訊<br>銷售機會（影像/視訊）<br>投影片（視訊）<br>系列（影像/視訊英雄資產）<br>購買（影像/視訊）<br>來自頁面貼文的像片或視訊/ Instagram貼文/媒體<br>品牌內容<br>彈性<br>Advantage+目錄 |
+
 ### 廣告刊登
 
 當您建立包含中繼廣告的行銷活動時，您可能已根據行銷活動[目標](channels.md#objectives)選擇執行廣告的位置。 廣告投放位置可擴大廣告的受眾範圍。
 
-GenStudio for Performance Marketing支援廣告格式，例如資產摘要、連結廣告以及單一影像或影片。 以下是依平台的廣告格式清單：
+以下是支援的廣告投放位置清單：
 
-| Instagram | Facebook/Meta | Messenger | 對象網路 |
-| ------------ | ---------------- | ------------ | ---------------- |
-| 探索<br>探索首頁<br>探索格線首頁<br>摘要<br>卷軸<br>設定檔摘要<br>搜尋<br>商店<br>本文 | 商務探索<br>摘要<br>串流影片<br>市集<br>卷軸<br>卷軸覆蓋<br>右欄<br>搜尋結果<br>故事<br>影片摘要<br>Facebook卷軸上的廣告 | 收件匣<br>本文 | 原生、橫幅和插入式連結<br>獎勵視訊 |
-
-#### 不支援的版位
-
-GenStudio for Performance Marketing不支援下列廣告刊登：
-
-- 合作
-- 目錄/Advantage+目錄
-- 執行個體體驗
-- 傳送
+| 對象網路 | [Facebook/Meta](https://www.facebook.com/business/help/407108559393196?id=369787570424415) | Instagram | Messenger |
+|--------------------|--------------------|-------------------------|---------------------|
+| 獎勵的影片 | 摘要<br>視訊摘要<br>故事<br>市集<br>右欄<br>卷軸<br>卷軸覆蓋<br>串流視訊<br>搜尋<br>商務迪斯科摘要<br>個人資料摘要 | 內文<br>摘要<br>瀏覽<br>卷軸<br>瀏覽格線首頁<br>個人資料摘要<br>搜尋<br>資料流 | 內文<br>收件匣 |
 
 ## 廣告效益
 
@@ -64,8 +63,8 @@ GenStudio for Performance Marketing不支援下列廣告刊登：
 | **[!UICONTROL 行銷活動]** | 行銷活動是設計用來達成特定目標的一組廣告。 | 當您依行銷活動篩選廣告表格時，行銷活動所有廣告的摘要量度可能會與[!UICONTROL 管道]檢視中的行銷活動摘要列不同。 如果管道來源（例如中繼）和GenStudio使用的摘要計算略有不同，則會出現這種差異。 |
 | **[!UICONTROL 位置]** | 廣告[位置](#ad-placements) （廣告在行銷活動中出現的位置）的計數。 | 位置會增加受眾觸及率。<p>顯示零版位和零媒體的廣告可能表示[不支援的廣告型別](#unsupported-placements)。</p> |
 | **[!UICONTROL 媒體]** | 廣告或廣告中使用的資產數量。 | 「廣告」表格中的計數可能與「廣告詳細資料」檢視中的計數不同。 如果管道來源（例如中繼）和GenStudio使用的摘要計算略有不同，則會出現這種差異。 |
-| **[!UICONTROL 曝光次數]** | 每次廣告刊登或廣告載入管道中的計數，無論互動或檢視。 | 高曝光數可表示廣泛的可見度，但如需真正的效能深入分析，請將其與其他參與量度關聯起來。 |
-| **[!UICONTROL 點按]** | 使用者在廣告投放中與可點按元素（例如連結或號召性用語按鈕）互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
+| **[!UICONTROL 曝光次數]** | 每次廣告刊登或廣告載入管道中的計數，無論互動或檢視。 | 高曝光數可表示廣泛的可見度，但若想瞭解insight的真正效能，可將其與其他參與量度相關連。 |
+| **[!UICONTROL 點按]** | 使用者在廣告投放中與可點按元素(例如連結或call-to-action按鈕)互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
 | **[!UICONTROL CTR ]**<br>_點進率_ | 在行銷活動中導致廣告點按的曝光百分比(%)。<br>**計算**： `clicks`除以`impressions` | 高點進率表示內容與訊息和設計的對象高度相關且充滿動力，並有效鎖定對象的興趣。 |
 | **[!UICONTROL CPM ]**<br>_每千成本_ | 每隔1,000次廣告印象的成本。<br>**計算**：總金額`spent`除以範圍，然後乘以1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
 | **[!UICONTROL CPA ]**<br>_每個動作的成本_ | 完成特定客戶動作（例如購買或訂閱）所花費的平均成本。<br>**計算**：總金額`spent`除以已完成的客戶動作數目 | 用於監控可產生寶貴客戶動作的廣告支出。 |
