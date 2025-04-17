@@ -4,10 +4,10 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
+source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 1%
+source-wordcount: '2252'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 1%
 * 新的範本篩選選項！ 現在您可以在[!DNL Create]和&#x200B;_[!UICONTROL 內容]_ > _[!UICONTROL 範本]_&#x200B;中精簡您的&#x200B;_[!UICONTROL 選取範本]_&#x200B;清單。 請參閱[搜尋範本](/help/user-guide/content/use-templates.md#search-templates)。 請確定範本已正確加上中繼資料標籤，如此才能透過這些篩選器探索範本。
 * 啟用功能，可[檢視及選取體驗的個別圖層](/help/user-guide/create/manage-variants.md#view-layers) （可編輯的文字欄位或可編輯的影像），以反白它們以進行修訂，例如重新產生內容或裁切影像。
 * 已新增[新範本欄位](/help/user-guide/content/use-templates.md#template-elements) `sub-headline`，以便在體驗中取得其他文字，以吸引受眾注意並突顯行銷訊息。
+* 新增支援[將廣告體驗](/help/user-guide/activation/overview.md)從GenStudio for Performance Marketing發佈至Google Campaign Manager 360。 「啟動」在發佈至「Google管理員360廣告商」之前，可支援詳細的「Campaign管理員360廣告預覽。 透過「啟動」發佈的廣告一經上線，就會自動提取至「深入分析」中，讓使用者可以追蹤及報告廣告效益。
 
 ## 舊版發行說明
 
