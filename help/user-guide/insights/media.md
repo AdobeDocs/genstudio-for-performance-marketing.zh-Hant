@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe GenStudio for Performance Marketing中評估�
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ _[!UICONTROL 媒體]_&#x200B;收藏集檢視會顯示媒體預覽拼貼和量度
 
 ![媒體詳細資料](/help/assets/insights-media-details.png){zoomable="yes"}
 
+### 媒體屬性
+
+{{$include /help/_includes/generated-attributes.md}}
+
 ## 媒體效能
 
 分析量度可協助您評估哪些媒體對行銷活動成功有貢獻，以及哪些媒體屬性最有效。
@@ -45,7 +49,7 @@ _[!UICONTROL 媒體]_&#x200B;收藏集檢視會顯示媒體預覽拼貼和量度
 | 量度 | 定義 | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL 媒體識別碼]** | 和影像、影片、文字或其他創意內容相關聯的名稱。 | 按一下任何關鍵量度的欄標題來排序表格。 |
-| **[!UICONTROL 曝光次數]** | 每次媒體載入管道時的計數，無論互動或檢視為何。 | 高曝光數可表示廣泛的可見度，但如需真正的效能深入分析，請將其與其他參與量度關聯起來。 |
+| **[!UICONTROL 曝光次數]** | 每次媒體載入管道時的計數，無論互動或檢視為何。 | 高曝光數可表示廣泛的可見度，但若想瞭解insight的真正效能，可將其與其他參與量度相關連。 |
 | **[!UICONTROL 點按]** | 使用者與媒體上可點按元素（例如連結）互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
 | **[!UICONTROL CTR ]**<br>_點進率_ | 在廣告中導致媒體點按的曝光百分比(%)。<br>**計算**： `clicks`除以`impressions` | 高點進率表示媒體與對象高度相關且互動。 這表示傳訊和設計有效地擷取了對象的興趣，並促使他們採取行動。 此外，高CTR表示媒體目標鎖定良好，並與目標對象產生共鳴，進而提升整體行銷活動績效。 |
 | **[!UICONTROL CPM ]**<br>_每千成本_ | 每一千次媒體曝光的成本。<br>**計算**：總金額`spent`除以曝光次數，然後乘以1000 | CPM值低可能表示媒體效能符合成本效益，尤其是當搭配高點進率時。 |
@@ -53,4 +57,4 @@ _[!UICONTROL 媒體]_&#x200B;收藏集檢視會顯示媒體預覽拼貼和量度
 | **[!UICONTROL CPC ]**<br>_每次點按成本_ | 媒體上每次點按的相關平均成本。<br>**計算**：總金額`spent`除以`clicks` | 平均成本降低可能表示廣告支出符合成本效益，尤其是與轉換率增加相比。 |
 | **[!UICONTROL 支出]** | 在指定時間內從預算花費的與個別媒體相關的金額。 | 在短時間內發生高支出量可能表示快速使用，這可能導致資源提早耗盡。 根據關鍵績效指標追蹤所花費的金額，以協助監控整體投資報酬率。 |
 | **[!UICONTROL 用於這些廣告]** | 使用此媒體的廣告數量。 | |
-| **[!UICONTROL 屬性]** | 偵測到並套用至此媒體的屬性清單。 | |
+| **屬性** | 此媒體中存在的固有功能清單。 | 可協助識別最能引起觀眾共鳴的創意元素。 |

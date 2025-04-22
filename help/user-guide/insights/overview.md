@@ -1,64 +1,64 @@
 ---
-title: 概述 [!DNL Insights]
-description: 了解如何根據實時內容效果指標優化廣告。
+title: Insights概述
+description: 瞭解如何根據即時內容績效量度來最佳化廣告。
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: c1c595f3be42b86d0e0aebd42c9c50c9d9aa4cdc
+source-git-commit: 42a211956854126798024a97fc0befc3626160b7
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
 
-# Adobe GenStudio for Performance Marketing [!DNL Insights]
+# Adobe GenStudio for Performance Marketing Insights
 
-Adobe Systems GenStudio for Performance Marketing [!DNL Insights] 提供對內容績效的高級分析和見解，説明您做出數據驅動的決策。
+Adobe GenStudio for Performance Marketing [!DNL Insights]提供內容效能的進階分析和深入分析，可協助您做出資料導向式決策。
 
-在儀錶板中 [!DNL Insights] ，您可以：
+從[!DNL Insights]儀表板，您可以：
 
-- **確定最有效的內容**：確定哪些內容對不同受眾效果最佳，並根據趨勢分析偏好定制未來的內容或廣告系列。
-- **優化低績效內容**：找到表現不佳的內容，並使用集成的生成 AI 立即創建變體，無需從頭開始即可提高其有效性。
-- **重振高績效內容**：採用成功的內容並對其進行調整以刷新對象廣告，或調整英雄內容以用於新廣告系列，從而可能延長其生命週期和效果。
+- **識別最有效的內容**：精確定位哪些內容最適合不同的對象，並量身打造未來的內容或行銷活動，以符合趨勢偏好設定。
+- **最佳化表現不佳的內容**：尋找表現不佳的內容，並使用整合的產生式AI立即建立變數，在不從頭開始的情況下提升其成效。
+- **振興高績效內容**：取得成功內容並調整內容以重新整理對象的廣告，或調整主圖內容以用於新的行銷活動，可能會延長其生命週期和績效。
 
-## 數據連接器
+## 資料聯結器
 
-第一次打開 [!DNL Insights]時，您可能會看到一個橫幅，指南您Adobe Systems使用通道帳戶連接GenStudio for Performance Marketing。
+第一次開啟[!DNL Insights]時，您可能會看到橫幅，引導您將Adobe GenStudio for Performance Marketing與管道帳戶連線。
 
-此連接使效果行銷的 GenStudio 能夠從您的活動行銷活動、媒體和廣告中接收統計數據。 最初，GenStudio for Performance Marketing 會攝取過去 6 個月的數據，以便您擁有分析最新數據並採取行動的工具。
+此連線可讓GenStudio for Performance Marketing接收來自作用中行銷活動、媒體和廣告的統計資料。 最初，GenStudio for Performance Marketing會擷取最近6個月的資料，讓您擁有工具來分析最新資料並採取行動。
 
 {{connect-insights}}
 
-## 擋泥板
+## 儀表板
 
-控制面板為每個 [!DNL Insights] 內容類型提供了一個可配置的表格： [!UICONTROL 渠道]、 [!UICONTROL 廣告]、 [!UICONTROL 媒體]和 [!UICONTROL 屬性]。
+[!DNL Insights]儀表板具有每個內容型別的可設定資料表： [!UICONTROL 管道]、[!UICONTROL 廣告]、[!UICONTROL 媒體]和[!UICONTROL 屬性]。
 
-![[!DNL Insights] 擋泥板](/help/assets/insights-dashboard.png)
+![[!DNL Insights]儀表板](/help/assets/insights-dashboard.png)
 
-每個視圖都會显示一個對應的表格，您可以通過關鍵字、篩選和日期範圍來搜尋該表格。 您可以按下表格右側上方的設定 （cog） 圖示以切換可查看的欄型態。 摘要&#x200B;__&#x200B;行可能顯示一欄的總計或平均值。
+每個檢視都會顯示對應的表格，您可以依關鍵字、篩選和日期範圍進行搜尋。 您可以按一下表格右側上方的設定(cog)圖示，以切換可檢視欄型別。 _[!UICONTROL 摘要]_&#x200B;列可能會顯示欄的總計或平均值。
 
-[!UICONTROL 廣告]、 [!UICONTROL 媒體]和 [!UICONTROL 屬性] 包括圖庫視圖，可讓您使用帶有圖像或視頻縮略圖的卡片掃描和排序資產。 有一個選項可在每個卡片上顯示三個關鍵量度之一： `Click-through rate`、 `Cost per click`和 `Spend`。
+[!UICONTROL 廣告]、[!UICONTROL 媒體]和[!UICONTROL 屬性]包含相簿檢視，可讓您使用具有影像或視訊縮圖的卡片來掃描和排序資產。 每個卡片都可選擇顯示三個關鍵量度之一： `Click-through rate`、`Cost per click`和`Spend`。
 
-### 管道
+### 頻道
 
-[[!DNL Insights] _[!UICONTROL “渠道&#x200B;]_”視圖](channels.md)是預設視圖，显示一清單活動行銷活動詳細信息，例如目標、預算、啟動日期和活動。請務必 [連接通道帳戶](/help/user-guide/connectors/connect-channel.md) ，以便GenStudio for Performance Marketing開始接收您的統計數據。
+[[!DNL Insights] _[!UICONTROL 管道&#x200B;]_檢視](channels.md)是預設檢視，並顯示作用中行銷活動詳細資訊的清單，例如目標、預算、啟動日期和活動。 請務必[連線管道帳戶](/help/user-guide/connectors/connect-channel.md)，讓GenStudio for Performance Marketing開始接收您的統計資料。
 
 ### 廣告
 
-廣告[[!DNL Insights] __視圖](ads.md)着重于評估廣告的有效性。[!UICONTROL 「廣告]視圖」可讓您根據廣告在指定日期範圍内所廣告刊登，分析該的量度。通過_[!UICONTROL &#x200B;點擊廣告名稱&#x200B;]_，您可以視圖廣告效益指標、按廣告刊登效果和屬性。
+[[!DNL Insights] _[!UICONTROL 廣告&#x200B;]_檢視](ads.md)著重於評估廣告的成效。 [!UICONTROL 廣告]檢視可讓您根據廣告在指定日期範圍內的刊登位置，分析廣告的量度。 按一下_[!UICONTROL &#x200B;廣告名稱&#x200B;]_即可檢視廣告效能量度、依廣告位置排列的效能量度和屬性。
 
 ### 媒體
 
-媒体[[!DNL Insights] __視圖](media.md)旨在幫助您分析創意內容內容的效能。您可以識別有助於改進所選量度媒體屬性，例如點擊次數或展示次數。
+[[!DNL Insights] _[!UICONTROL 媒體&#x200B;]_檢視](media.md)可協助您分析創意內容的效能。 您可以識別有助於改善所選量度的媒體屬性，例如點按數或曝光數。
 
-點擊媒體內容，可進一步了解其在不同廣告和廣告版位中的表現：
+按一下媒體內容，可針對不同廣告和廣告投放位置提供其績效的進一步相關情境：
 
-![媒體詳細數據](/help/assets/insights-media-details.png){width="600" zoomable="yes"}
+![媒體詳細資料](/help/assets/insights-media-details.png){width="600" zoomable="yes"}
 
-在媒體詳細信息視圖中，左側显示資產的縮略圖和屬性清單。 有三個反白標示的量度： `Click-through rate`、 `Cost per click`和 `Spend`。 性能突出顯示顯示所選時段（預設值） `Last 30 days`上實際值（實線）與平均值（虛線）的比較情況。
+在媒體詳細資料檢視中，左側會顯示資產的縮圖和屬性清單。 有三個醒目提示的量度： `Click-through rate`、`Cost per click`和`Spend`。 效能反白顯示實際值（實線）與所選時段內的平均值（虛線）相較之下的結果（預設為`Last 30 days`）。
 
 ### 屬性
 
-媒體 _屬性_ 有助於通過固有細節（如顏色、色調、構圖（如主題、字體、視覺元素）和其他關鍵元件）識別創意內容內容。 屬性通常是測量和分析最少的內容資訊集。
+媒體&#x200B;_屬性_&#x200B;可透過固有細節(例如色彩、色調、組合（例如主旨、字型、視覺元素）和其他關鍵元件)協助識別創意內容。 屬性通常是一組經過最少測量和分析的內容資訊。
 
-屬性[[!DNL Insights] __視圖](attributes.md)可以説明您調查和確定哪些屬性在特定受眾、渠道、地區中表現更好，並可以説明您突出顯示季節性趨勢。借助這些見解，您可以使用高性能屬性來創建變體、目標特定對象或嘗試不同的行銷活動策略。
+[[!DNL Insights] _[!UICONTROL 屬性&#x200B;]_檢視](attributes.md)可協助您調查並識別哪些屬性對特定對象、管道、地區表現較佳，並可協助您強調季節性趨勢。 透過這些深入分析，您可以使用效能屬性來建立變體、鎖定特定對象，或實驗不同的行銷活動策略。

@@ -4,7 +4,7 @@ description: 瞭解GenStudio for Performance Marketing中所使用屬性類別�
 level: Intermediate
 feature: Reporting and Insights, Video Attributes, Generative AI
 exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: c742fb33a04b36da35036a4554a475141fce8b01
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -44,9 +44,9 @@ GenStudio for Performance Marketing中的音訊偵測涉及分析視訊的音訊
 | 類別 | 說明 | 範例 |
 | ------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
 | 音訊心情 | 決定音軌的整體情緒音調或氣氛，例如`calm`、`upbeat`或`tense`。 | `Energetic`、`Happy`、`Emotional Ambient/atmospheric`、`Relaxing`、`Dramatic`、`Expressive/characterful`、`Intense`、`Slow`、`Neutral` |
-| 音訊型別 | 標籤視訊有一或多個呈現的音訊型別，例如`music`或`speech`。 | `Music`，`Speech`，`Silence`，`Special effects`，`Ambience` |
+| 音訊型別 | 標籤視訊有一或多個音訊內容型別，例如`music`或`speech`。 | `Music`，`Speech`，`Silence`，`Special effects`，`Ambience` |
 | 類別 | 將視訊分類為一或多個廣泛的內容類別。 | `Entertainment`、`Sports`、`Music`、`Gaming`、`Howto tutorials`、`Fashion and style`、`Film and animation`、`Science and technology`、`Autos and vehicles`、`Pets and animals`、`People and blogs`、`News and politics`、`Social causes and activism`、`Travel and events`、`Education`、`Sales and offers` |
-| 音樂類別 | 當影片中有音樂出現時，音樂型別的廣泛分類。 這有助於識別音樂的一般型別，例如`contemporary`或`traditional`樣式。 | `Contemporary/pop music`，`Traditional/folk-based music`，`Instrumental/orchestral music`，`Rock music`，`Acoustic/unplugged music`，`Specialised/occasional music`，`Experimental/unique music` |
+| 音樂類別 | 當影片中有音樂出現時，音樂型別的廣泛分類。 型別有助於識別音樂的一般型別，例如`contemporary`或`traditional`樣式。 | `Contemporary/pop music`，`Traditional/folk-based music`，`Instrumental/orchestral music`，`Rock music`，`Acoustic/unplugged music`，`Specialised/occasional music`，`Experimental/unique music` |
 | 音樂型別 | 視訊中存在音樂時音樂風格的特定分類，可提供更詳細的音樂識別，例如`electronic`或`jazz`。 | `electronic`、`hip-hop`、`dance`、`novelty`、`rock`、`world`、`reggae`、`pop`、`film`、`jazz`、`background`、`latin` |
 | 物件 | 識別視訊中顯示的一或多個專案、實體和元素。 | 值太多，但某些範例包括： `backpack`、`book`、`hawk`、`glasses`、`fish`、`pencil`、`mountain bike`、`soap` |
 | 方向 | 視訊相對於其寬度和高度的對齊方式。 偵測它是否比高（橫向）寬、比寬（縱向）高，或寬度和高度相等（正方形）。 | `landscape`, `portrait`, `square` |

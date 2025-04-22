@@ -4,9 +4,9 @@ description: 瞭解如何評估Adobe GenStudio for Performance Marketing中特�
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 4afdde6fd08a9f33ff599f5f85b9c1b9d79870ec
+source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ _[!UICONTROL 屬性]_&#x200B;表格是使用[!UICONTROL 屬性]名稱來組織�
 
 ## 屬性詳細資料
 
-屬性可透過其固有的詳細資訊（例如顏色、構成、視覺元素和其他屬性），協助識別[媒體](media.md#media-details)。
+屬性可協助識別[廣告](ads.md#ad-details)和[媒體](media.md#media-details)，透過其固有的細節，例如顏色、構成、視覺元素和其他屬性。
 
 在屬性詳細資料檢視中，您可以檢視哪些廣告使用選取的屬性。 詳細資訊包括屬性總績效以及與每個廣告相關的績效量度劃分。
 
@@ -39,9 +39,9 @@ GenStudio for Performance Marketing會偵測某些功能，並將適當的屬性
 
 屬性&#x200B;_category_&#x200B;是組織共用相同特性的相關屬性的分類群組。 這些類別可提供更豐富的情境並便利其應用與使用，有助於簡化特定屬性的探索、識別和理解。
 
-GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研究[影像](image-features.md)、[影片](video-features.md)和[文字](text-features.md)，並根據正確機率套用[!UICONTROL 媒體屬性]。
+GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研究[影像](image-features.md)、[影片](video-features.md)和[文字](text-features.md)，並根據正確機率將屬性套用至廣告和媒體。
 
-偵測到的媒體內容屬性清單並非詳盡無遺。 包含一組豐富功能的媒體，可能限於AI所識別的三個最主要功能。 例如，下圖包含數個偵測到的影像屬性，包括多個物件、前景和背景顏色。
+偵測到的廣告和媒體內容屬性清單並非詳盡無遺。 包含豐富功能集的內容可能會限於AI所識別的三個最主要功能。 例如，下圖包含數個偵測到的影像屬性，包括多個物件、前景和背景顏色：
 
 ![影像屬性](/help/assets/category/asset-attributes.png "Toucan影像包含多個偵測到的屬性"){width="300" zoomable="yes"}
 
@@ -61,7 +61,7 @@ GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研�
 | **[!UICONTROL 類別]** | 代表屬性固有品質的[類別](#categories)。 |  |
 | **[!UICONTROL #影像]** | 具有此屬性的影像數。 | 「屬性」表格中的計數可能與「屬性詳細資訊」檢視中的計數不同。 如果管道來源（例如中繼）和GenStudio使用的摘要計算略有不同，則會出現這種差異。 |
 | **[!UICONTROL #影片]** | 具有此屬性的視訊數量。 | 「屬性」表格中的計數可能與「屬性詳細資訊」檢視中的計數不同。 如果管道來源（例如中繼）和GenStudio使用的摘要計算略有不同，則會出現這種差異。 |
-| **[!UICONTROL 曝光次數]** | 每次將具有此屬性的影像或影片載入管道時的計數，無論互動或檢視為何。 | 高曝光數可表示廣泛的可見度，但如需真正的效能深入分析，請將其與其他參與量度關聯起來。 |
+| **[!UICONTROL 曝光次數]** | 每次將具有此屬性的影像或影片載入管道時的計數，無論互動或檢視為何。 | 高曝光數可表示廣泛的可見度，但若想瞭解insight的真正效能，可將其與其他參與量度相關連。 |
 | **[!UICONTROL 點按]** | 使用者與此屬性之影像或視訊互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
 | **[!UICONTROL CTR ]**<br>_點進率_ | 導致點按具有此屬性的影像或影片的曝光百分比(%)。<br>**計算**： `clicks`除以`impressions` | 高點進率表示內容與訊息和設計的對象高度相關且充滿動力，並有效鎖定對象的興趣。 |
 | **[!UICONTROL CPM ]**<br>_每千成本_ | 具有此屬性的影像或視訊的每1,000次廣告印象成本。<br>**計算**：總金額`spent`除以範圍，然後乘以1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
