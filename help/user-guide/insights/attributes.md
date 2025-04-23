@@ -4,7 +4,7 @@ description: 瞭解如何評估Adobe GenStudio for Performance Marketing中特�
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 0%
@@ -22,6 +22,8 @@ _[!UICONTROL 屬性]_&#x200B;表格是使用[!UICONTROL 屬性]名稱來組織�
 表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。 選取&#x200B;**[!UICONTROL 清除表格上方的全部]**&#x200B;以移除所有篩選器。
 
 ![屬性篩選器和資料表](/help/assets/insights-attributes-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

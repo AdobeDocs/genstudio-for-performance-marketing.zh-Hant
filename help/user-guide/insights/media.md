@@ -4,7 +4,7 @@ description: 瞭解如何在Adobe GenStudio for Performance Marketing中評估�
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 0%
@@ -20,6 +20,8 @@ ht-degree: 0%
 _[!UICONTROL 媒體]_&#x200B;表格是使用&#x200B;**[!UICONTROL 媒體識別碼]**&#x200B;來組織。 您可以使用檢視清單（表格）圖示和相簿檢視（格點）圖示，在檢視之間切換。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。 表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。 選取&#x200B;**[!UICONTROL 清除表格上方的全部]**&#x200B;以移除所有篩選器。
 
 ![媒體篩選器和資料表](/help/assets/insights-media-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

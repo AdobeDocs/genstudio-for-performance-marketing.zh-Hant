@@ -1,26 +1,32 @@
 ---
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: 9362ed03a54d5cbd661a2f278096b3a1fd692e36
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
-# GenStudio for Performance Marketing snippets
+# GenStudio for Performance Marketing代碼片段
 
-## Connect insights {#connect-insights}
+## 連結深入分析 {#connect-insights}
 
 >[!TIP]
 >
->GenStudio for Performance Marketing requires you to connect to a channel account to begin receiving data. See [Connect channel account](/help/user-guide/connectors/connect-channel.md).
+>GenStudio for Performance Marketing需要您連線至管道帳戶才能開始接收資料。 請參閱[連線通道帳戶](/help/user-guide/connectors/connect-channel.md)。
 
-## Note AEM Assets {#note-aem-assets}
+## 注意AEM Assets {#note-aem-assets}
 
 >[!INFO]
 >
->If you encounter issues viewing or working with assets from an [!DNL AEM Assets Content Hub] repository, consult your system administrator and ensure that you have access to the correct organization or product profile. See [Connect to an [!DNL AEM Assets Content Hub] repository](/help/user-guide/content/connect-aem-repo.md).
+>如果您在檢視或使用[!DNL AEM Assets Content Hub]存放庫中的資產時遇到問題，請洽詢您的系統管理員，並確保您有權存取正確的組織或產品設定檔。 請參閱[連線至 [!DNL AEM Assets Content Hub] 存放庫](/help/user-guide/content/connect-aem-repo.md)。
 
-## Tip on Academy content {#in-academy}
+## Academy內容提示 {#in-academy}
 
 >[!TIP]
 >
->Enrich your skills on this topic with [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).
+>透過[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)豐富您在此主題上的技能。
+
+## 空白表格的秘訣 {#empty-table}
+
+>[!TIP]
+>
+>看到`No results found`訊息嗎？ 修改選取專案、清除所有篩選器或擴大日期範圍來調整篩選器。

@@ -4,7 +4,7 @@ description: 在Adobe GenStudio for Performance Marketing中檢視廣告和廣�
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: b4e0892af62be754f7b596537125458fc28930f3
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 0%
@@ -20,6 +20,8 @@ ht-degree: 0%
 _[!UICONTROL 廣告]_&#x200B;表格是使用[!UICONTROL 廣告名稱]來組織。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。 表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。 選取&#x200B;**[!UICONTROL 清除表格上方的全部]**&#x200B;以移除所有篩選器。
 
 ![廣告篩選和資料表](/help/assets/insights-ads-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

@@ -4,7 +4,7 @@ description: 檢視Adobe GenStudio for Performance Marketing中行銷活動的�
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -20,6 +20,8 @@ ht-degree: 0%
 _[!UICONTROL 管道]_&#x200B;表格是使用管道型廣告行銷活動來組織。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。 表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。 選取&#x200B;**[!UICONTROL 清除表格上方的全部]**&#x200B;以移除所有篩選器。
 
 ![管道篩選器和資料表](/help/assets/insights-channels-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 
@@ -48,8 +50,8 @@ _[!UICONTROL 管道]_&#x200B;表格是使用管道型廣告行銷活動來組織
 | ----------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL 中繼行銷活動名稱]** | 已連線管道帳戶的促銷活動名稱清單。 行銷活動狀態可以是`Active`、`Paused`、`Deleted`或`Archived`。 依狀態和目標篩選行銷活動。 | 按一下任何關鍵量度的欄標題來排序表格。 |
 | **[!UICONTROL 啟動]** | 行銷活動發行或發佈至市場的日期。 | 高曝光數可能表示廣告正在觸及預期的對象。 |
-| **[!UICONTROL 曝光次數]** | 在管道內每次載入內容時的計數，不考慮互動或檢視。 | 高曝光數可表示廣泛的顯示度，但如需真正的效能深入分析，請將其與其他參與量度一併考慮。 |
-| **[!UICONTROL 點按]** | 使用者與廣告行銷活動中的可點按元素（例如連結或號召性用語按鈕）互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
+| **[!UICONTROL 曝光次數]** | 在管道內每次載入內容時的計數，不考慮互動或檢視。 | 高曝光數可表示廣泛的顯示度，但若想瞭解insight的真正效能，可將其與其他參與量度一併考慮。 |
+| **[!UICONTROL 點按]** | 使用者與廣告行銷活動中的可點按元素(例如連結或call-to-action按鈕)互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
 | **[!UICONTROL CTR ]**<br>_點進率_ | 在管道內導致行銷活動點按的曝光百分比(%)。<br>**計算**： （`clicks`除以`impressions`） x 100 = % | 高點進率表示內容與訊息和設計的對象高度相關且充滿動力，並有效鎖定對象的興趣。 |
 | **[!UICONTROL CPM ]**<br>_每千成本_ | 廣告行銷活動的每一千次廣告印象成本。 <br>**計算**： （總金額`spent`除以`impressions`） x 1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
 | **[!UICONTROL CPC ]**<br>_每次點按成本_ | 與廣告行銷活動中每次點按相關聯的平均成本。<br>**計算**：總金額`spent`除以`clicks` = $ | 平均成本降低可能表示廣告支出符合成本效益，尤其是與轉換率增加相比。 |
