@@ -4,9 +4,9 @@ description: 瞭解如何評估Adobe GenStudio for Performance Marketing中特�
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: c619f092d0f64ca6d847f058e343578d0b22a3d6
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,20 @@ ht-degree: 0%
 
 _[!UICONTROL 屬性]_&#x200B;表格是使用[!UICONTROL 屬性]名稱來組織。 您可以使用&#x200B;**[!UICONTROL 影像]**&#x200B;按鈕和&#x200B;**[!UICONTROL 影片]**&#x200B;按鈕，在清單型別之間切換。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。
 
-表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。 選取&#x200B;**[!UICONTROL 清除表格上方的全部]**&#x200B;以移除所有篩選器。
-
 ![屬性篩選器和資料表](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
 {{empty-table}}
+
+## 篩選器屬性
+
+表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。 請參閱[篩選媒體](/help/user-guide/insights/media.md#filter-media)，瞭解促銷活動和廣告的關鍵字篩選器。
+
+
+>[!NOTE]
+>
+>套用的篩選器會在[!DNL Insights]中的所有檢視中持續存在。 選取廣告表格或相簿上方的&#x200B;**[!UICONTROL 全部清除]**&#x200B;以移除所有選取的篩選器。
+
+### 下載表格結果
 
 {{$include /help/_includes/download-insights.md}}
 

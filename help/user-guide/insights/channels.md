@@ -4,9 +4,9 @@ description: 檢視Adobe GenStudio for Performance Marketing中行銷活動的�
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: 997bd2ce2243bbfe59567c5dd3b389408446f5e7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,21 @@ ht-degree: 0%
 
 {{connect-insights}}
 
-_[!UICONTROL 管道]_&#x200B;表格是使用管道型廣告行銷活動來組織。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。 表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。 選取&#x200B;**[!UICONTROL 清除表格上方的全部]**&#x200B;以移除所有篩選器。
+_[!UICONTROL 管道]_&#x200B;表格是使用管道型廣告行銷活動來組織。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。
 
 ![管道篩選器和資料表](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
+選取行銷活動時，[[!UICONTROL 廣告]標籤](ads.md)會開啟至與該行銷活動相關聯的廣告名稱清單，讓您識別哪些廣告促成了其整體成功。
+
 {{empty-table}}
 
-{{$include /help/_includes/download-insights.md}}
+## 篩選管道
 
-選取行銷活動時，[[!UICONTROL 廣告]標籤](ads.md)會開啟至與該行銷活動相關聯的廣告名稱清單，讓您識別哪些廣告促成了其整體成功。
+表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。 套用的篩選器會在[!DNL Insights]中的所有檢視中持續存在。 選取廣告表格或相簿上方的&#x200B;**[!UICONTROL 全部清除]**&#x200B;以移除所有選取的篩選器。
+
+### 下載表格結果
+
+{{$include /help/_includes/download-insights.md}}
 
 ## 目標
 
@@ -57,4 +63,4 @@ _[!UICONTROL 管道]_&#x200B;表格是使用管道型廣告行銷活動來組織
 | **[!UICONTROL CPC ]**<br>_每次點按成本_ | 與廣告行銷活動中每次點按相關聯的平均成本。<br>**計算**：總金額`spent`除以`clicks` = $ | 平均成本降低可能表示廣告支出符合成本效益，尤其是與轉換率增加相比。 |
 | **[!UICONTROL 影片播放]** | 影片在廣告行銷活動中開始播放的次數（不含重播）。 當使用者按一下「播放」或視訊自動播放時，視訊就會開始播放。 | 大量影片播放可能表示影片正在吸引注意力，也可能表示縮圖、標題或位置正在檢視器中有效地繪圖。 |
 | **[!UICONTROL 預算]** | 為實現行銷活動目標而配置給廣告行銷活動的資金總計。 | 高預算意味著有更多的資源，以擴大觸及面並產生更大的潛在影響。 |
-| **[!UICONTROL 支出]** | 在指定期間內跨不同平台放置廣告的預算花費金額。 | 在短時間內發生高支出量可能表示快速使用，這可能導致資源提早耗盡。 根據關鍵績效指標追蹤支出金額，協助監控整體投資報酬率。 |
+| **[!UICONTROL 支出]** | 在指定期間內跨不同平台放置廣告的預算花費金額。 | 在短時間內發生高支出量可能表示快速使用，這可能導致資源提早耗盡。 根據關鍵績效指標追蹤所花費的金額，以協助監控整體投資報酬率。 |
