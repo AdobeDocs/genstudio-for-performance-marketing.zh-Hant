@@ -1,7 +1,8 @@
 ---
 title: 開始使用
 description: 開始建置擴充GenStudio for Performance Marketing的附加元件或App Builder應用程式。
-source-git-commit: 6830e345577ca44ef8dee8de6195314a899f4e57
+exl-id: 755f1a40-add5-43e3-bf54-eaec36ef1e9a
+source-git-commit: 89b7f477310326755a6b34cb97d5ad5664e98dec
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%

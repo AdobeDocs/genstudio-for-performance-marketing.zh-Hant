@@ -3,7 +3,7 @@ title: 建立App Builder應用程式以擴充GenStudio for Performance Marketing
 description: 開始建立應用程式或附加元件。
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
-source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
+source-git-commit: 89b7f477310326755a6b34cb97d5ad5664e98dec
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%

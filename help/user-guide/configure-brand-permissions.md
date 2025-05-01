@@ -4,7 +4,7 @@ description: 瞭解如何為GenStudio for Performance Marketing [!DNL Brand] 建
 level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 89b7f477310326755a6b34cb97d5ad5664e98dec
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
