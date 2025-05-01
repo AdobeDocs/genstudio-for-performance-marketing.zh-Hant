@@ -5,9 +5,9 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: af354448ef609db3c51026ee0e9991ac5cedeba5
+source-git-commit: cf4be61925761c9630cb8ea5c995d017b3938a31
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -59,12 +59,32 @@ _[!UICONTROL Google行銷活動管理員360帳戶]_&#x200B;檢視會列出`Accou
 
 ### 中繼廣告連線
 
+當您將&#x200B;_Meta Business_&#x200B;設定檔連線至GenStudio for Performance Marketing時，可確保順暢存取您企業頁面、Meta Ads帳戶和其他中繼資產的廣告資料。
+
 >[!BEGINSHADEBOX]
 
 **必要條件**：
 
-- Facebook/中繼廣告帳戶
-- 存取具有`View performance`許可權層級的中繼廣告帳戶，以存取報表和檢視廣告
+- 可存取所有中繼服務（例如中繼廣告帳戶和Facebook商業設定檔）的Facebook/中繼登入
+- 存取具有`View performance`許可權層級的中繼廣告帳戶，以存取報表和檢視廣告，包括下列專案
+   - 與[!DNL Insights]一起使用所需的許可權：
+
+      - `pages_show_list`
+      - `ads_read`
+      - `ads_management`
+      - `pages_read_engagement`
+
+   - 與[!DNL Activate]一起使用所需的許可權：
+
+      - `ads_management`
+      - `ads_read`
+      - `business_management`
+      - `instagram_basic`
+      - `instagram_content_publish`
+      - `pages_manage_ads`
+      - `pages_manage_posts`
+      - `pages_show_list`
+
 - 移除瀏覽器中的任何快顯封鎖程式
 
 >[!ENDSHADEBOX]
@@ -77,19 +97,26 @@ _[!UICONTROL Google行銷活動管理員360帳戶]_&#x200B;檢視會列出`Accou
 
    您可能必須移除快顯視窗封鎖程式，然後使用&#x200B;**[!UICONTROL 重新整理]**&#x200B;再試一次。
 
-1. 遵循Facebook驗證指示。
+1. 遵循Facebook驗證指示，驗證帳戶資訊，然後按一下&#x200B;**[!UICONTROL 繼續為……]**
 
-1. 在&#x200B;_[!UICONTROL 商務用Facebook登入]_&#x200B;快顯功能表(Meta至Adobe符號)中，逐步執行下列選取專案。
+1. 在&#x200B;_[!UICONTROL 商務用Facebook登入]_ (Meta至Adobe符號)中，逐步執行下列選取專案以授予GenStudio for Performance Marketing存取權：
 
-   - 驗證帳戶資訊，然後按一下&#x200B;**[!UICONTROL 繼續作為]**
-   - 授與選取頁面的存取權並按一下&#x200B;**[!UICONTROL 繼續]**
-   - 授與選取企業的存取權，然後按一下[繼續] ****
-   - 選擇加入一或多個Instagram帳戶，然後按一下&#x200B;**[!UICONTROL 繼續]**
+   - 選取一或多個中繼企業設定檔，然後按一下&#x200B;**[!UICONTROL 繼續]**
+   - 選取一或多個中繼頁面，然後按一下&#x200B;**[!UICONTROL 繼續]**
+   - 選取一或多個Instagram帳戶，然後按一下&#x200B;**[!UICONTROL 繼續]**
    - 檢閱選取專案並按一下&#x200B;**[!UICONTROL 儲存]**
 
-1. 在&#x200B;_[!UICONTROL 中繼廣告]_&#x200B;檢視中，選取一或多個帳戶並按一下&#x200B;**[!UICONTROL 選取]**。
+1. 收到帳戶已連線的驗證後，請按一下&#x200B;**[!UICONTROL 取得]**。
 
-_[!UICONTROL 中繼廣告帳戶]_&#x200B;檢視會列出`Account name`、`Added by`、`Date added`和`Status`。 使用&#x200B;**[!UICONTROL 新增帳戶]**&#x200B;將更多帳戶新增至清單。
+   此步驟可確保GenStudio for Performance Marketing取得所有廣告、中繼資料和量度的存取權，以發揮最佳效能。
+
+1. 在&#x200B;_[!UICONTROL 中繼廣告]_&#x200B;中，選取一或多個要包含在[!DNL Insights]中的帳戶，然後按一下&#x200B;**[!UICONTROL 選取]**。
+
+1. 收到&#x200B;_平台已連線_&#x200B;的確認之後，請按一下&#x200B;**[!UICONTROL 檢視帳戶]**。
+
+   _[!UICONTROL 中繼廣告帳戶]_&#x200B;檢視會列出`Account name`、`Added by`、`Date added`和`Status`。
+
+使用&#x200B;**[!UICONTROL 新增帳戶]**&#x200B;將更多帳戶新增至清單。 當您新增連結到相同中繼企業設定檔的帳戶時，授權流程可能會略有不同。 在連線過程中，您只選取新的中繼廣告帳戶。
 
 ## 資料擷取
 
