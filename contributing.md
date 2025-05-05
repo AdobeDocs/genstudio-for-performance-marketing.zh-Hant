@@ -48,4 +48,4 @@ ht-degree: 19%
 
 ## 安全問題
 
-不應在此問題追蹤器上回報安全性問題。 請改為[將問題提交給Adobe安全性專家](https://helpx.adobe.com/security/alertus.html)。
+不應在此問題追蹤器上回報安全性問題。 請改為[將問題提交給Adobe安全性專家](https://helpx.adobe.com/tw/security/alertus.html)。

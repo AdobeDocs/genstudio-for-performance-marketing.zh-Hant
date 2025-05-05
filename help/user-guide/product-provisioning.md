@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 布建Adobe GenStudio for Performance Marketing
 
-Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)中執行初始布建工作。 Adobe系統管理員可以從Admin Console存取GenStudio產品設定檔，並將可用的產品授權指派給使用者。
+Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html#Overview)中執行初始布建工作。 Adobe系統管理員可以從Admin Console存取GenStudio產品設定檔，並將可用的產品授權指派給使用者。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterpri
 
 **存取GenStudio產品設定檔**
 
-1. 按一下歡迎電子郵件中的&#x200B;**開始使用**&#x200B;連結，以瀏覽至[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)。
+1. 按一下歡迎電子郵件中的&#x200B;**開始使用**&#x200B;連結，以瀏覽至[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html#Overview)。
 
 1. 使用您的Adobe ID登入Admin Console。
 
@@ -62,7 +62,7 @@ Adobe系統管理員會在[Adobe Admin Console](https://helpx.adobe.com/enterpri
 
 您可以個別新增使用者或匯入多個使用者的帳戶資訊：
 
-* [個別管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users)
+* [個別管理使用者](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html#add-users)
 
 * [管理多位使用者/大量CSV上傳](https://helpx.adobe.com/tw//enterprise/using/bulk-upload-users.html)
 

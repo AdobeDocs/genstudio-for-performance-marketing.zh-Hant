@@ -104,9 +104,9 @@ _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ -->整合設定准則�
 
    出現&#x200B;_Powered by Adobe Express_&#x200B;視窗。
 
-1. 執行影像編輯，例如[裁切影像](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html)、[移除物件](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)以及套用效果。
+1. 執行影像編輯，例如[裁切影像](https://helpx.adobe.com/tw/express/create-and-edit-images/edit-images/crop-images.html)、[移除物件](https://helpx.adobe.com/tw/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)以及套用效果。
 
-   請參閱[Adobe Express檔案](https://helpx.adobe.com/express/user-guide.html)，瞭解如何使用Adobe Express在GenStudio for Performance Marketing中修訂影像。
+   請參閱[Adobe Express檔案](https://helpx.adobe.com/tw/express/user-guide.html)，瞭解如何使用Adobe Express在GenStudio for Performance Marketing中修訂影像。
 
 1. 按一下&#x200B;_[!UICONTROL 套用變更]_&#x200B;以儲存您的編輯。
 1. 視需要繼續編輯個別影像變體，並套用變更以儲存進度。
