@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **若要選擇中繼廣告範本**：
 
-1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 中繼廣告]**。
+1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 中繼廣告]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的中繼廣告範本。
 1. 按兩下以選取範本，然後按兩下 **[!UICONTROL 使用]**。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 在右側功能表欄（Facebook 和 Instagram 圖示）中切換 Meta 廣告通道選項 **（在 Facebook** 和 **Instagram** 之間），以查看和管理每個通道的變體。
 
-修改 Meta 廣告](#revise-generated-variants)時[，您可以更改 Facebook 和 Instagram 廣告的外觀比例。
+修改 Meta 廣告[&#128279;](#revise-generated-variants)時，您可以更改 Facebook 和 Instagram 廣告的外觀比例。
 
 ## 修改生成的變型
 
@@ -94,11 +94,11 @@ ht-degree: 0%
 頁首或內文)，並視需要編輯。
 * **若要變更或選取呼叫動作**，請按一下call-to-action按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入call-to-action文字的URL。
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
-* **要向變體](/help/user-guide/create/manage-variants.md#add-image-link)**&#x200B;中的圖像添加連結，請按兩下[圖像資產（如果圖像當前不存在，則按兩下圖像資產區域），然後按下連結圖示。
-* **要重新生成變體的一部分，請按下[可編輯文字欄位並使用建議的編輯&#x200B;]_選項，_[!UICONTROL 或輸入新提示並按兩下**[!UICONTROL &#x200B;生成&#x200B;]**。](/help/user-guide/create/manage-variants.md#re-generate-sections)**
-* **要在变體](/help/user-guide/create/manage-variants.md#swap-image)**&#x200B;中添加或交換圖像，請按兩下[圖像資產（如果當前不存在圖像，則按兩下圖像資產區域），然後按兩下&#x200B;**[!UICONTROL “從內容]**&#x200B;交換”圖示。
-* **若要裁剪或重新定位圖像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將[滑鼠懸停在圖像上，按兩下出現的裁剪圖示，然後調整圖像大小和刊登。
-* **要刪除 Meta 廣告，請按下[變體的選項選單，然後按下**[!UICONTROL &#x200B;刪除變體&#x200B;]**。](/help/user-guide/create/manage-variants.md#delete-variant)**
+* **要向變體[&#128279;](/help/user-guide/create/manage-variants.md#add-image-link)**&#x200B;中的圖像添加連結，請按兩下圖像資產（如果圖像當前不存在，則按兩下圖像資產區域），然後按下連結圖示。
+* **要重新生成變體的一部分，請按下[可編輯文字欄位並使用建議的編輯&#x200B;]_選項，_[[!UICONTROL 或輸入新提示並按兩下**&#x200B;[!UICONTROL &#x200B;生成&#x200B;]&#x200B;**。]](/help/user-guide/create/manage-variants.md#re-generate-sections)**
+* **要在变體[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)**&#x200B;中添加或交換圖像，請按兩下圖像資產（如果當前不存在圖像，則按兩下圖像資產區域），然後按兩下&#x200B;**[!UICONTROL “從內容]**&#x200B;交換”圖示。
+* **若要裁剪或重新定位圖像[&#128279;](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠懸停在圖像上，按兩下出現的裁剪圖示，然後調整圖像大小和刊登。
+* **要刪除 Meta 廣告，請按下[變體的選項選單，然後按下**&#x200B;[!UICONTROL &#x200B;刪除變體&#x200B;]&#x200B;**。](/help/user-guide/create/manage-variants.md#delete-variant)**
 
 ## 提交產生回饋
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ## 驗證內容檢查對齊情況
 
-為了優化生成的變體並確保嚴格遵守品牌識別、平臺指南和輔助功能標準，善用內容檢查&#x200B;_面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)的強大[_&#x200B;功能。此面板顯示全面的內容檢查詳細資訊並闡明改進區域。
+為了優化生成的變體並確保嚴格遵守品牌識別、平臺指南和輔助功能標準，善用內容檢查&#x200B;_面板[&#128279;](/help/user-guide/guidelines/brand-validation.md#content-check-panel)的強大_&#x200B;功能。此面板顯示全面的內容檢查詳細資訊並闡明改進區域。
 
 **要對多屬性**&#x200B;執行內容檢查，請執行以下作：
 
@@ -138,7 +138,7 @@ ht-degree: 0%
 
 要使生成的 Meta 廣告可供當前和未來使用，請將其發佈內容並匯出以用於您的行銷廣告系列。
 
-1. **要發佈您的新 Meta 廣告體驗**，請按兩下頂部工具列中的Publish ]**，或在審批流程中按兩下**[!UICONTROL 。
+1. **要發佈您的新 Meta 廣告體驗**，請按兩下頂部工具列中的Publish **，或在審批流程中按兩下**。
 1. **若要匯出您新的中繼廣告體驗**，請按一下頂端工具列中的&#x200B;**[!UICONTROL 匯出]**。
    1. 選取格式 — HTML和影像或CSV和影像(JPG或PNG) — 按一下「匯出&#x200B;**[!UICONTROL 」]**。
 

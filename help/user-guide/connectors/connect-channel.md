@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 連線付費媒體帳戶
 
-_[!DNL Data connectors]_可讓GenStudio for Performance Marketing與您的付費媒體網路帳戶緊密整合。 透過連線到協力廠商管道帳戶，您可以交換關鍵資料，例如[[!DNL Insights]](/help/user-guide/insights/overview.md)中的行銷活動績效量度，並且可以透過[[!DNL Activate]](/help/user-guide/activation/overview.md)傳遞新的廣告位置。 此整合可讓GenStudio for Performance Marketing管理您的媒體和廣告，同時從您的作用中行銷活動接收有價值的深入分析，包括曝光數、點按數和轉換。
+_[!DNL Data connectors]_&#x200B;可讓GenStudio for Performance Marketing與您的付費媒體網路帳戶緊密整合。 透過連線到協力廠商管道帳戶，您可以交換關鍵資料，例如[[!DNL Insights]](/help/user-guide/insights/overview.md)中的行銷活動績效量度，並且可以透過[[!DNL Activate]](/help/user-guide/activation/overview.md)傳遞新的廣告位置。 此整合可讓GenStudio for Performance Marketing管理您的媒體和廣告，同時從您的作用中行銷活動接收有價值的深入分析，包括曝光數、點按數和轉換。
 
 **若要連線到付費媒體帳戶**：
 

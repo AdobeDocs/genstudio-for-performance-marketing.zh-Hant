@@ -18,7 +18,7 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 **若要檢視資產詳細資訊**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，檢閱右側的&#x200B;_[!UICONTROL 詳細資料]_&#x200B;區段。
 
@@ -56,7 +56,7 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 **若要編輯使用者定義的中繼資料**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，檢閱右側的&#x200B;_[!UICONTROL 詳細資料]_&#x200B;區段。
 

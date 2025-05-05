@@ -85,7 +85,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 1. 按一下「**[!UICONTROL 重述]**」。
 
-   1. 從重新產生的片語清單中選擇，或按一下[重新整理結果] ]**以取得更多選項。**[!UICONTROL 
+   1. 從重新產生的片語清單中選擇，或按一下[重新整理結果] **以取得更多選項。**
 
    1. 按一下&#x200B;**[!UICONTROL 取代]**。
 
@@ -95,7 +95,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
    1. 在URL中輸入或貼上，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-      若要修訂CTA中的現有連結，請編輯現有URL或貼入新URL，然後按一下[套用]。****
+      若要修訂CTA中的現有連結，請編輯現有URL或貼入新URL，然後按一下[套用]。**&#x200B;**
 
 新增或修訂連結會套用至變體集中的所有CTA。
 
@@ -155,7 +155,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 1. 按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
 1. 使用GenStudio資產[!DNL Content]檢視中的篩選和搜尋功能，進一步縮小搜尋結果的範圍。
 
-   您也可以從[**[!UICONTROL 位置&#x200B;]**功能表](/help/user-guide/content/manage-assets.md#location)中選取已連線的Adobe Experience Manager (AEM) Assets Content Hub存放庫，使用該存放庫中的可用影像。
+   您也可以從[**[!UICONTROL 位置&#x200B;]**&#x200B;功能表](/help/user-guide/content/manage-assets.md#location)中選取已連線的Adobe Experience Manager (AEM) Assets Content Hub存放庫，使用該存放庫中的可用影像。
 
 1. 按一下以選取影像，然後按一下&#x200B;**[!UICONTROL 使用]**。
 
@@ -163,7 +163,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 ## 新增影像連結
 
-與新增或交換產生之變體中的影像類似，您可以新增影像連結。 您用來產生變體&#x200B;_的範本必須_&#x200B;包含連結](/help/user-guide/content/customize-template.md#content-placeholders)的[內容預留位置，才能啟用此功能。
+與新增或交換產生之變體中的影像類似，您可以新增影像連結。 您用來產生變體&#x200B;_的範本必須_&#x200B;包含連結[&#128279;](/help/user-guide/content/customize-template.md#content-placeholders)的內容預留位置，才能啟用此功能。
 
 **若要在變體**&#x200B;中新增影像連結：
 

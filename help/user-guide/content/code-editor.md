@@ -34,4 +34,4 @@ _[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會顯示GenStudio for Perf
 
 ![更正無效的範本](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
 
-_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會更新以反映您所做的變更。 在您滿意欄位正確且完成之後，請按[下一步] ****&#x200B;繼續[上傳您的範本](/help/user-guide/content/use-templates.md#add-a-template)。
+_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會更新以反映您所做的變更。 在您滿意欄位正確且完成之後，請按[下一步] **&#x200B;**&#x200B;繼續[上傳您的範本](/help/user-guide/content/use-templates.md#add-a-template)。

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 啟用工作流程
 
-_[!DNL Activate]_支援以創意素材的形式在頻道特定格式中啟用廣告體驗，例如Meta或Google Campaign Manager 360廣告體驗。
+_[!DNL Activate]_&#x200B;支援以創意素材的形式在頻道特定格式中啟用廣告體驗，例如Meta或Google Campaign Manager 360廣告體驗。
 
 GenStudio for Performance Marketing體驗是行銷活動元件（例如廣告），會以創意的形式針對付費廣告頻道或電子郵件上的特定受眾加以準備。 創意內容包含三個主要元件：
 
@@ -36,11 +36,11 @@ GenStudio for Performance Marketing體驗是行銷活動元件（例如廣告）
 
   >[!TIP]
   >
-  >您可以直接從&#x200B;_[!DNL Content]_Experience Gallery中選取已核准的廣告體驗，以準備做為Google Campaign Manager 360創意內容。 一旦您從_[!DNL Content]_&#x200B;相簿選取體驗，您就無法編輯資產或將其新增至您的創意內容。
+  >您可以直接從&#x200B;_[!DNL Content]_&#x200B;Experience Gallery中選取已核准的廣告體驗，以準備做為Google Campaign Manager 360創意內容。 一旦您從&#x200B;_[!DNL Content]_&#x200B;相簿選取體驗，您就無法編輯資產或將其新增至您的創意內容。
 
 * **檢閱您的體驗並發佈至目標頻道**。 在創意設定期間使用&#x200B;_預覽_&#x200B;面板，在最終完成啟用之前，評估您選擇的廣告版位和文字元素。 您的最終發佈前稽核會在目的地頻道的廣告管理應用程式中進行。 例如，在GenStudio for Performance Marketing中啟動中繼廣告體驗後，您必須登入Meta Ads Manager、檢閱您的創意，然後選取其特定屬性才能發佈。
 
-一旦創意內容在其目標付費媒體頻道上線，_[!DNL Insights]_就可以追蹤和分析其效能資料。
+一旦創意內容在其目標付費媒體頻道上線，_[!DNL Insights]_&#x200B;就可以追蹤和分析其效能資料。
 
 ## 支援的管道
 

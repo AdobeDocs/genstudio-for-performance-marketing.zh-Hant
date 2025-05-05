@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 建立LinkedIn體驗
 
-本教學課程演示如何使用 [GenStudio 進行績效營銷[[!DNL Create]](/help/user-guide/create/overview.md)（左側導覽區域中的畫筆圖示）生成符合品牌準則的LinkedIn體驗](/help/user-guide/create/meta-experiences.md)。
+本教學課程演示如何使用 [&#128279;](/help/user-guide/create/meta-experiences.md)GenStudio 進行績效營銷[[!DNL Create]](/help/user-guide/create/overview.md)（左側導覽區域中的畫筆圖示）生成符合品牌準則的LinkedIn體驗。
 
-在開始生成LinkedIn廣告之前，[請務必在 GenStudio 中為效果行銷添加指南](/help/user-guide/guidelines/add-guidelines.md)並學習創建提示](/help/user-guide/effective-prompts.md)的[基礎知識。
+在開始生成LinkedIn廣告之前，[請務必在 GenStudio 中為效果行銷添加指南](/help/user-guide/guidelines/add-guidelines.md)並學習創建提示[&#128279;](/help/user-guide/effective-prompts.md)的基礎知識。
 
 ## 選擇一個範本
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 **要選擇LinkedIn範本**：
 
-1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL LinkedIn]**。
+1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL LinkedIn]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定範本。
-1. 按一下以選取範本，然後按一下[使用]。****
+1. 按一下以選取範本，然後按一下[使用]。**&#x200B;**
 
    此動作會開啟畫布，這是內容建立的中心樞紐。
 
@@ -81,8 +81,8 @@ ht-degree: 0%
 * **若要[編輯LinkedIn廣告草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名的草稿_&#x200B;標題，然後輸入新標題。
 * **若要[手動編輯LinkedIn廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何廣告區段（例如主旨列、標題或內文）並視需要編輯。
 * **要更改或選擇號召性用語**，請按兩下號召性用語按鈕，然後從可用的按鈕文本選項中進行選擇。 在“連結”_中_，輸入號召性用語文本的URL。
-* **要重新生成變體的一部分，請按下[可編輯的文字欄位並使用建議的&#x200B;]_編輯選項，_[!UICONTROL 或在 _[!UICONTROL 生成新text_ 部分中]輸入新提示，然後按兩下**[!UICONTROL &#x200B;生成&#x200B;]**。](/help/user-guide/create/manage-variants.md#re-generate-sections)**
-* **若要裁剪或重新定位圖像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將[滑鼠懸停在圖像上，按兩下出現的裁剪圖示，然後調整圖像大小和刊登。
+* **要重新生成變體的一部分，請按下[可編輯的文字欄位並使用建議的&#x200B;]_編輯選項，_[[!UICONTROL 或在 _[!UICONTROL 生成新text_ 部分中]輸入新提示，然後按兩下**&#x200B;[!UICONTROL &#x200B;生成&#x200B;]&#x200B;**。]](/help/user-guide/create/manage-variants.md#re-generate-sections)**
+* **若要裁剪或重新定位圖像[&#128279;](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠懸停在圖像上，按兩下出現的裁剪圖示，然後調整圖像大小和刊登。
 * **要 [刪除LinkedIn廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請單擊多屬性的選項功能表，然後按下 **[!UICONTROL 刪除多屬性]**。
 
 ## 提交生成反饋
@@ -125,6 +125,6 @@ ht-degree: 0%
 
 1. **若要發佈新體驗**，請按兩下 **[!UICONTROL 頂部工具列中或審批流程中的Publish]** 。
 1. **要導出新體驗**，請按兩下 **[!UICONTROL 頂部工具列中的導出]** 。
-   1. 選取格式(JPG、PNG或GIF)，然後按一下「匯出」****。
+   1. 選取格式(JPG、PNG或GIF)，然後按一下「匯出」**&#x200B;**。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。

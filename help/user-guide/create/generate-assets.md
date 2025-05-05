@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # 產生影像
 
-通過使用GenStudio進行效果行銷 [[!DNL Create]](/help/user-guide/create/overview.md) （畫筆圖示），您可以生成 _[!DNL On-brand images]_從所選圖像中汲取靈感的資產，捕捉其視覺衝擊力和整體美感。<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+通過使用GenStudio進行效果行銷 [[!DNL Create]](/help/user-guide/create/overview.md) （畫筆圖示），您可以生成 _[!DNL On-brand images]_&#x200B;從所選圖像中汲取靈感的資產，捕捉其視覺衝擊力和整體美感。<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 為了設計一個醒目且有效的圖像，建議您 [在GenStudio中為效果行銷](/help/user-guide/guidelines/add-guidelines.md) 添加指南，並查看 [編寫提示](/help/user-guide/effective-prompts.md)的基礎知識。
 
 ## 影像型別
 
-_[!DNL On-brand images]_是從選定影像中汲取靈感的已產生資產，擷取其視覺效果和整體美感。 這些影像是使用[!DNL Content]中已提供的影像以及精心製作的提示來建立，以指導設計。 它們嚴格遵守品牌指導方針和在產生過程中選擇的引數。
+_[!DNL On-brand images]_&#x200B;是從選定影像中汲取靈感的已產生資產，擷取其視覺效果和整體美感。 這些影像是使用[!DNL Content]中已提供的影像以及精心製作的提示來建立，以指導設計。 它們嚴格遵守品牌指導方針和在產生過程中選擇的引數。
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ -->整合設定准則、引數，以及[精心打造的提示](/help/user-guide/effective-prompts.md)，以提供吸引目光的影像資產。
 
@@ -37,7 +37,7 @@ _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ -->整合設定准則�
 
 **若要選擇參考影像**：
 
-1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 品牌上影像]**。
+1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 品牌上影像]**。
 1. 使用篩選&#x200B;_旁的_&#x200B;搜尋選項查找特定影像。
 
    ![選取參考影像](/help/assets/select-img.png){width="400" zoomable="yes"}
@@ -54,7 +54,7 @@ _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ -->整合設定准則�
 
 ### 新增參數
 
-結合指南](/help/user-guide/guidelines/overview.md)和参數可[增強內容生成過程，並且是生成 [!DNL on-brand image].
+結合指南[&#128279;](/help/user-guide/guidelines/overview.md)和参數可增強內容生成過程，並且是生成 [!DNL on-brand image].
 
 **要添加指南和參數**，請執行以下作：
 
@@ -113,7 +113,7 @@ _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ -->整合設定准則�
 
 ### 驗證內容檢查對齊方式
 
-為了優化生成的變體並確保嚴格遵守品牌識別、平臺指南和輔助功能標準，善用內容檢查&#x200B;_面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)的強大[_&#x200B;功能。此面板顯示全面的內容檢查詳細資訊並闡明改進區域。
+為了優化生成的變體並確保嚴格遵守品牌識別、平臺指南和輔助功能標準，善用內容檢查&#x200B;_面板[&#128279;](/help/user-guide/guidelines/brand-validation.md#content-check-panel)的強大_&#x200B;功能。此面板顯示全面的內容檢查詳細資訊並闡明改進區域。
 
 **要執行內容檢查**，請執行以下作：
 

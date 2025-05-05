@@ -41,15 +41,15 @@ Adobe GenStudio for Performance Marketing [!DNL Insights]提供內容效能的�
 
 ### 頻道
 
-[[!DNL Insights] _[!UICONTROL 管道&#x200B;]_檢視](channels.md)是預設檢視，並顯示作用中行銷活動詳細資訊的清單，例如目標、預算、啟動日期和活動。 請務必[連線管道帳戶](/help/user-guide/connectors/connect-channel.md)，讓GenStudio for Performance Marketing開始接收您的統計資料。
+[[!DNL Insights] _[!UICONTROL 管道&#x200B;]_&#x200B;檢視](channels.md)是預設檢視，並顯示作用中行銷活動詳細資訊的清單，例如目標、預算、啟動日期和活動。 請務必[連線管道帳戶](/help/user-guide/connectors/connect-channel.md)，讓GenStudio for Performance Marketing開始接收您的統計資料。
 
 ### 廣告
 
-[[!DNL Insights] _[!UICONTROL 廣告&#x200B;]_檢視](ads.md)著重於評估廣告的成效。 [!UICONTROL 廣告]檢視可讓您根據廣告在指定日期範圍內的刊登位置，分析廣告的量度。 按一下_[!UICONTROL &#x200B;廣告名稱&#x200B;]_即可檢視廣告效能量度、依廣告位置排列的效能量度和屬性。
+[[!DNL Insights] _[!UICONTROL 廣告&#x200B;]_&#x200B;檢視](ads.md)著重於評估廣告的成效。 [!UICONTROL 廣告]檢視可讓您根據廣告在指定日期範圍內的刊登位置，分析廣告的量度。 按一下&#x200B;_[!UICONTROL &#x200B;廣告名稱&#x200B;]_&#x200B;即可檢視廣告效能量度、依廣告位置排列的效能量度和屬性。
 
 ### 媒體
 
-[[!DNL Insights] _[!UICONTROL 媒體&#x200B;]_檢視](media.md)可協助您分析創意內容的效能。 您可以識別有助於改善所選量度的媒體屬性，例如點按數或曝光數。
+[[!DNL Insights] _[!UICONTROL 媒體&#x200B;]_&#x200B;檢視](media.md)可協助您分析創意內容的效能。 您可以識別有助於改善所選量度的媒體屬性，例如點按數或曝光數。
 
 按一下媒體內容，可針對不同廣告和廣告投放位置提供其績效的進一步相關情境：
 
@@ -61,4 +61,4 @@ Adobe GenStudio for Performance Marketing [!DNL Insights]提供內容效能的�
 
 媒體&#x200B;_屬性_&#x200B;可透過固有細節(例如色彩、色調、組合（例如主旨、字型、視覺元素）和其他關鍵元件)協助識別創意內容。 屬性通常是一組經過最少測量和分析的內容資訊。
 
-[[!DNL Insights] _[!UICONTROL 屬性&#x200B;]_檢視](attributes.md)可協助您調查並識別哪些屬性對特定對象、管道、地區表現較佳，並可協助您強調季節性趨勢。 透過這些深入分析，您可以使用效能屬性來建立變體、鎖定特定對象，或實驗不同的行銷活動策略。
+[[!DNL Insights] _[!UICONTROL 屬性&#x200B;]_&#x200B;檢視](attributes.md)可協助您調查並識別哪些屬性對特定對象、管道、地區表現較佳，並可協助您強調季節性趨勢。 透過這些深入分析，您可以使用效能屬性來建立變體、鎖定特定對象，或實驗不同的行銷活動策略。
