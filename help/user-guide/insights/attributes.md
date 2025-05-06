@@ -4,9 +4,9 @@ description: 瞭解如何評估Adobe GenStudio for Performance Marketing中特�
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: c619f092d0f64ca6d847f058e343578d0b22a3d6
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,7 @@ _[!UICONTROL 屬性]_&#x200B;表格是使用[!UICONTROL 屬性]名稱來組織�
 
 ![屬性篩選器和資料表](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
-{{empty-table}}
-
-## 篩選器屬性
-
-表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表，您可在此從多個清單中選取。 請參閱[篩選媒體](/help/user-guide/insights/media.md#filter-media)，瞭解促銷活動和廣告的關鍵字篩選器。
-
-
->[!NOTE]
->
->套用的篩選器會在[!DNL Insights]中的所有檢視中持續存在。 選取廣告表格或相簿上方的&#x200B;**[!UICONTROL 全部清除]**&#x200B;以移除所有選取的篩選器。
-
-### 下載表格結果
-
-{{$include /help/_includes/download-insights.md}}
+{{filter-table}}
 
 ## 屬性詳細資料
 
@@ -74,8 +61,8 @@ GenStudio for Performance Marketing使用Adobe的AI和機器學習功能來研�
 | **[!UICONTROL #影片]** | 具有此屬性的視訊數量。 | 「屬性」表格中的計數可能與「屬性詳細資訊」檢視中的計數不同。 如果管道來源（例如中繼）和GenStudio使用的摘要計算略有不同，則會出現這種差異。 |
 | **[!UICONTROL 曝光次數]** | 每次將具有此屬性的影像或影片載入管道時的計數，無論互動或檢視為何。 | 高曝光數可表示廣泛的可見度，但若想瞭解insight的真正效能，可將其與其他參與量度相關連。 |
 | **[!UICONTROL 點按]** | 使用者與此屬性之影像或視訊互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
-| **[!UICONTROL CTR &#x200B;]**<br>_點進率_ | 導致點按具有此屬性的影像或影片的曝光百分比(%)。<br>**計算**： `clicks`除以`impressions` | 高點進率表示內容與訊息和設計的對象高度相關且充滿動力，並有效鎖定對象的興趣。 |
-| **[!UICONTROL CPM &#x200B;]**<br>_每千成本_ | 具有此屬性的影像或視訊的每1,000次廣告印象成本。<br>**計算**：總金額`spent`除以範圍，然後乘以1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
-| **[!UICONTROL CPA &#x200B;]**<br>_每個動作的成本_ | 完成特定客戶動作（例如購買或訂閱）所花費的平均成本。<br>**計算**：總金額`spent`除以已完成的客戶動作數目 | 協助識別可產生寶貴客戶動作的屬性。 |
-| **[!UICONTROL CPC &#x200B;]**<br>_每次點按成本_ | 具有此屬性的影像或影片每次點按的相關平均成本。<br>**計算**：總金額`spent`除以`clicks` | 平均成本降低可能表示廣告支出符合成本效益，尤其是與轉換率增加相比。 |
+| **[!UICONTROL CTR ]**<br>_點進率_ | 導致點按具有此屬性的影像或影片的曝光百分比(%)。<br>**計算**： `clicks`除以`impressions` | 高點進率表示內容與訊息和設計的對象高度相關且充滿動力，並有效鎖定對象的興趣。 |
+| **[!UICONTROL CPM ]**<br>_每千成本_ | 具有此屬性的影像或視訊的每1,000次廣告印象成本。<br>**計算**：總金額`spent`除以範圍，然後乘以1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
+| **[!UICONTROL CPA ]**<br>_每個動作的成本_ | 完成特定客戶動作（例如購買或訂閱）所花費的平均成本。<br>**計算**：總金額`spent`除以已完成的客戶動作數目 | 協助識別可產生寶貴客戶動作的屬性。 |
+| **[!UICONTROL CPC ]**<br>_每次點按成本_ | 具有此屬性的影像或影片每次點按的相關平均成本。<br>**計算**：總金額`spent`除以`clicks` | 平均成本降低可能表示廣告支出符合成本效益，尤其是與轉換率增加相比。 |
 | **[!UICONTROL 支出]** | 與指定期間內的屬性相關的預算支出金額。 | 在短時間內發生高支出量可能表示快速使用，這可能導致資源提早耗盡。 根據關鍵績效指標追蹤所花費的金額，以協助監控整體投資報酬率。 |

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9362ed03a54d5cbd661a2f278096b3a1fd692e36
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 0%
 >
 >透過[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)豐富您在此主題上的技能。
 
-## 空白表格的秘訣 {#empty-table}
+## 篩選表格的秘訣 {#filter-table}
 
 >[!TIP]
 >
->看到`No results found`訊息嗎？ 修改選取專案、清除所有篩選器或擴大日期範圍來調整篩選器。
+>看到太多結果或`No results found`訊息？ 透過修改選取專案、清除所有篩選器或調整日期範圍來調整篩選器。 請參閱[Insights檢視的篩選](/help/user-guide/insights/filter-views.md)，瞭解動態和多功能的篩選功能。
