@@ -3,9 +3,10 @@ title: 篩選見解檢視
 description: 瞭解如何搭配前瞻分析使用增強型篩選功能。
 level: Intermediate
 feature: Reporting and Insights
-source-git-commit: 656395e517fcb334b64865dcdbde09d8d982dc0a
+exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
+source-git-commit: 04bc6f911394d0f4c324abc347ce125203011960
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 ## 篩選基本資訊
 
-[!DNL Insights]中的每個檢視都會提供篩選選項清單。 表格左上方的篩選器（漏斗）圖示會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表。 無論您是檢視表格或相簿，套用的篩選器都會顯示在表格或相簿上方的&#x200B;**[!UICONTROL 篩選依據]**&#x200B;清單中。 依預設，會選取管道和帳戶。
+[!DNL Insights]中的每個檢視都會提供篩選選項清單。 左側的篩選器（漏斗）切換會開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表。 無論您是檢視表格或相簿，套用的篩選器都會顯示在表格或相簿上方的&#x200B;**[!UICONTROL 篩選依據]**&#x200B;清單中。 依預設，會選取管道和帳戶。
 
 ![篩選依據](/help/assets/insights-filter-by.png "篩選依據"){width=600 zoomable="yes"}
 
@@ -24,9 +25,9 @@ ht-degree: 0%
 
 ### 搜尋欄位
 
-按一下搜尋（放大鏡）圖示，使用搜尋字詞來尋找表格或相簿中的特定專案。 例如，在[!UICONTROL 廣告]表格中輸入辭彙`pink`會篩選結果，以僅顯示名稱中使用辭彙`pink`的廣告。
+按一下搜尋（放大鏡）圖示，鍵入搜尋字詞以找出表格或相簿中的特定專案。 例如，在[!UICONTROL 廣告]表格中輸入辭彙`Gear`會篩選結果，以僅顯示名稱中使用辭彙`Gear`的廣告。
 
-![搜尋欄位範例](/help/assets/insights-search.png "搜尋粉紅色的廣告"){width=600 zoomable="yes"}
+![搜尋欄位範例](/help/assets/insights-search.png "搜尋名稱中包含Gear的廣告"){width=600 zoomable="yes"}
 
 ### 日期範圍
 
@@ -52,15 +53,15 @@ ht-degree: 0%
 - 內容型別縮寫： `EB`、`CHT`或`DSP`
 - 提案代碼或縮寫： `OFFER2023`， `PROMO`
 
-隨著時間過去，行銷活動和廣告的清單會呈指數增長。 請考慮下列情境以使用&#x200B;_[!UICONTROL 行銷活動]_&#x200B;篩選器來調整[!UICONTROL 廣告]表格。
+隨著時間推移，您的行銷活動和廣告清單可能會呈指數增長。 請考慮下列情境以使用&#x200B;_[!UICONTROL 行銷活動]_&#x200B;篩選器來調整[!UICONTROL 廣告]表格。
 
 **若要使用行銷活動篩選器來調整廣告表格**：
 
-1. 在&#x200B;_[!DNL Insights]_&#x200B;中，選取&#x200B;**[!UICONTROL 廣告]**&#x200B;檢視。
+1. 在&#x200B;_[!DNL Insights]_中，選取&#x200B;**[!UICONTROL 廣告]**檢視。
 
-   ![廣告篩選與資料表](/help/assets/insights-ads-filter.png "含篩選清單的廣告檢視"){zoomable="yes"}
+   ![廣告篩選和表格](/help/assets/insights-ads-filter.png "含篩選功能表的廣告檢視"){zoomable="yes"}
 
-1. 按一下表格左上方的篩選（漏斗）圖示，開啟&#x200B;**[!UICONTROL 篩選]**&#x200B;功能表。
+1. 按一下表格左上方的篩選器（漏斗）切換以開啟&#x200B;**[!UICONTROL 篩選器]**&#x200B;功能表。
 
 1. 驗證選取的`Filter by`頻道和帳戶是否正確。
 
@@ -70,11 +71,17 @@ ht-degree: 0%
 
 1. 在&#x200B;_[!UICONTROL 選取行銷活動]_&#x200B;搜尋欄位中，輸入以逗號分隔的關鍵字。
 
-   - 視需要使用任意數量的關鍵字來調整清單。 下列範例會尋找名稱中有`evergreen`、`ROI`和`Meta`的行銷活動：
+   使用關鍵字透過邏輯和精確的篩選來縮小搜尋範圍。
 
-     ![關鍵字搜尋](/help/assets/insights-select-campaigns-keywords.png "輸入關鍵字以搜尋行銷活動名稱"){width=500}
+   - 若要尋找同時包含`adventure` **和** `ready`的行銷活動名稱，請輸入以逗號分隔的兩個關鍵字：
 
-   - 您可以新增另一組關鍵字來擴大搜尋範圍。 使用多組關鍵字可讓您納入符合第一組關鍵字或第二組關鍵字的行銷活動。 例如，您可以搜尋標示為`evergreen`和`web`的行銷活動&#x200B;_或_&#x200B;標示為`photoshop`和`roi`的行銷活動：
+     ![搜尋所有關鍵字](/help/assets/insights-select-campaigns-and.png "搜尋包含兩個關鍵字的促銷活動名稱"){width=500}
+
+   - 若要尋找包含`adventure` **或** `ready`的行銷活動名稱，請分別輸入每個關鍵字：
+
+     ![搜尋關鍵字](/help/assets/insights-select-campaigns-or.png "搜尋至少包含一個關鍵字的行銷活動名稱"){width=500}
+
+   - 若要執行進階搜尋，請合併多組關鍵字。 例如，搜尋具有`adventure`和`apparel` **OR** `sun`和`gear`的促銷活動名稱：
 
      ![使用多組關鍵字搜尋](/help/assets/insights-advanced-or.png "使用多組關鍵字搜尋促銷活動名稱"){width=500}
 
@@ -82,7 +89,7 @@ ht-degree: 0%
 
    ![行銷活動清單](/help/assets/insights-select-campaigns-list.png "選取要包含的行銷活動")
 
-您選取的行銷活動現在會出現在廣告表格或相簿上方的&#x200B;_[!UICONTROL 篩選依據]_&#x200B;清單中。 您可以專注於連結至所選行銷活動的廣告。 在此範例中，篩選的結果包含28個廣告，提供更具針對性的分析檢視。
+您選取的行銷活動現在會出現在廣告表格或相簿上方的&#x200B;_[!UICONTROL 篩選依據]_&#x200B;清單中。 您可以專注於連結至所選行銷活動的廣告。 在此範例中，篩選的結果包含6個廣告，提供更具針對性的分析檢視。
 
 ![依行銷活動篩選的表格](/help/assets/insights-filter-by-campaigns.png "具有行銷活動篩選器的表格"){zoomable="yes"}
 
