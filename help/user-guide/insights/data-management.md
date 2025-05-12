@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing使用Customer Journey Analytics (CJA)建立�
 - AEP連線：前置詞為`GS Insights`的資料流程
 - AEP連線： GS Insights帳戶
 
-在刪除AEP中的任何資料元件之前，請參閱&#x200B;_Customer Journey Analytics_&#x200B;指南中的[刪除關聯](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/deletion)。
+在刪除AEP中的任何資料元件之前，請參閱&#x200B;_Customer Journey Analytics_&#x200B;指南中的[刪除關聯](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion)。
 
 >[!ENDSHADEBOX]
 
@@ -47,4 +47,4 @@ GenStudio for Performance Marketing使用Customer Journey Analytics (CJA)建立�
 
 GenStudio for Performance Marketing會保留13個月的管道資料。 此保留原則包含在初始連線期間擷取的6個月資料，以確保完整的歷史資料分析和報告。
 
-請參閱[連線頻道廣告帳戶](/help/user-guide/connectors/connect-channel.md)。
+請參閱[連線付費媒體帳戶](/help/user-guide/connectors/connect-channel.md)。

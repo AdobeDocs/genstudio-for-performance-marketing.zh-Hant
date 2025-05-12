@@ -5,9 +5,9 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: ac166245f5358c3bd050227b3ba9c53caa0e3622
+source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 2%
 
 ---
@@ -62,4 +62,4 @@ GenStudio系統管理員可以手動輸入或上傳您組織的特定品牌需�
 
 ### 步驟5：連線至中繼(Facebook)帳戶
 
-設定GenStudio for Performance Marketing與貴組織社交帳戶之間的連線，以接收來自作用中行銷活動、資產和體驗的資料。 [!DNL Insights]提供工具來分析管道衍生的資料。 請參閱[連線至中繼(Facebook)帳戶](/help/user-guide/connectors/connect-channel.md#meta-ads-connect)。
+設定GenStudio for Performance Marketing與貴組織社交帳戶之間的連線，以接收來自作用中行銷活動、資產和體驗的資料。 [!DNL Insights]提供工具來分析管道衍生的資料。 請參閱[連線至中繼廣告](/help/user-guide/connectors/meta-ads.md)。

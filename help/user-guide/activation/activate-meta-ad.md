@@ -3,9 +3,9 @@ title: 啟動中繼廣告
 description: 瞭解如何啟用中繼廣告體驗。
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
+source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1354'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Adobe GenStudio for Performance Marketing支援為Instagram和Facebook啟用中�
 
 在貴組織啟動體驗之前，GenStudio系統管理員需要將您的中繼帳戶連結到GenStudio for Performance Marketing。 此連線可讓資料在GenStudio和外部行銷工具（例如Meta）之間流動，以啟用啟用程式。
 
-請參閱[連線至中繼(Facebook)帳戶](/help/user-guide/connectors/connect-channel.md#meta-ads-connect)。
+請參閱[連線至中繼廣告](/help/user-guide/connectors/meta-ads.md)。
 
 同步完成後，您可以檢視新增的帳戶。 大量資料需要更長的時間才能同步。
 
@@ -62,21 +62,21 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
 **若要從內容上傳資產**：
 
-_[!DNL Content]_&#x200B;提供組織已核准資產和體驗的中央檢視。 您可以使用&#x200B;**[!UICONTROL 搜尋]**（放大鏡）和_&#x200B;篩選&#x200B;_功能表選項，將[_[!DNL Content]_&#x200B;收藏館](/help/user-guide/content/manage-assets.md)顯示的資產詳細目錄設定為焦點。
+_[!DNL Content]_提供組織已核准資產和體驗的中央檢視。 您可以使用&#x200B;**[!UICONTROL 搜尋]**（放大鏡）和_&#x200B;篩選&#x200B;_功能表選項，將[_[!DNL Content]_&#x200B;收藏館](/help/user-guide/content/manage-assets.md)顯示的資產詳細目錄設定為焦點。
 
 1. 從&#x200B;_[!DNL Activate]_，按一下「中繼廣告」方塊上的&#x200B;**[!UICONTROL 新增]**。_ Creative安裝程式&#x200B;_檢視隨即開啟。
 
 1. 按一下&#x200B;**[!UICONTROL 選取]**，然後選取&#x200B;**[!UICONTROL 從內容選取]**。 _選取內容_&#x200B;檢視會開啟，顯示您搜尋或篩選的影像資產庫。
 
-1. 使用&#x200B;_[!DNL Content]_&#x200B;相簿的搜尋和篩選工具，選取至少一個要上傳的資產。
+1. 使用&#x200B;_[!DNL Content]_相簿的搜尋和篩選工具，選取至少一個要上傳的資產。
 
 1. 按一下&#x200B;**[!UICONTROL 使用]**&#x200B;將選取的資產包含在您的創意中。 _Creative設定_&#x200B;視窗將資產納入其預設外觀比例中，位於&#x200B;_媒體_&#x200B;區域。 _預覽_&#x200B;面板在支援此外觀比例的廣告投放中預覽資產。
 
-如果上傳失敗，會開啟資訊性錯誤訊息，其中包含&#x200B;_[!DNL Content]_&#x200B;中資產的連結。
+如果上傳失敗，會開啟資訊性錯誤訊息，其中包含&#x200B;_[!DNL Content]_中資產的連結。
 
 **若要上傳外部資產**：
 
-您可以從Microsoft OneDrive或Dropbox上傳最多6個外部至&#x200B;_[!DNL Content]_&#x200B;相簿的靜態影像。
+您可以從Microsoft OneDrive或Dropbox上傳最多6個外部至&#x200B;_[!DNL Content]_相簿的靜態影像。
 
 1. 從&#x200B;_[!DNL Activate]_，按一下中繼圖磚上的&#x200B;**[!UICONTROL 新增]**。_ Creative安裝程式&#x200B;_視窗隨即開啟。
 
@@ -86,9 +86,9 @@ _[!DNL Content]_&#x200B;提供組織已核准資產和體驗的中央檢視。 �
 
 1. 將影像檔案拖放至影像上傳區域，選取支援外觀比例的影像。 或者，您也可以瀏覽裝置以尋找資產。
 
-1. （選擇性）若要從您的裝置上傳資產，請按一下[瀏覽] **&#x200B;**，然後選取[瀏覽]檔案&#x200B;_或[瀏覽]資料夾_&#x200B;以識別要上傳的資產。__
+1. （選擇性）若要從您的裝置上傳資產，請按一下[瀏覽] ****，然後選取[瀏覽]檔案&#x200B;_或[瀏覽]資料夾_&#x200B;以識別要上傳的資產。__
 
-1. 在&#x200B;_新增詳細資料_&#x200B;區域，新增資訊性詳細資料至您上傳的資產，以便在&#x200B;_[!DNL Content]_&#x200B;中搜尋和篩選。 這些詳細資料會儲存為中繼資料。
+1. 在&#x200B;_新增詳細資料_&#x200B;區域，新增資訊性詳細資料至您上傳的資產，以便在&#x200B;_[!DNL Content]_中搜尋和篩選。 這些詳細資料會儲存為中繼資料。
 
 1. 上傳資產和指派的詳細資料後，請按一下右下方的&#x200B;**[!UICONTROL 新增Assets]**。
 
