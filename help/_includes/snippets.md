@@ -1,7 +1,7 @@
 ---
-source-git-commit: e46f074381e76c48827bcf12b46ed8f063a3cd52
+source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 >[!TIP]
 >
 >GenStudio for Performance Marketing需要您連線至管道帳戶才能開始接收資料。 請參閱[連線付費媒體帳戶](/help/user-guide/connectors/connect-channel.md)。
+
+## CSS效果附註 {#note-css-effects}
+
+>[!NOTE]
+>
+>GenStudio for Performance Marketing不支援某些CSS圖形效果，例如`backdrop-filter`濾鏡效果（模糊、亮度、對比）。 如果您的範本使用這些屬性，這些屬性可能不會如預期顯示在匯出的內容中。
 
 ## 注意AEM Assets {#note-aem-assets}
 
