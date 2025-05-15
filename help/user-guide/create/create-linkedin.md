@@ -26,9 +26,9 @@ ht-degree: 0%
 
 **若要選擇LinkedIn範本**：
 
-1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL LinkedIn]**。
+1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL LinkedIn]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定範本。
-1. 按一下以選取範本，然後按一下[使用]。****
+1. 按一下以選取範本，然後按一下[使用]。**&#x200B;**
 
    此動作會開啟畫布，這是內容建立的中心樞紐。
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 若要讓產生的LinkedIn廣告可供目前和未來使用，請將它發佈至[!UICONTROL Content]，然後匯出以用於您的行銷活動。
 
 1. **若要發佈您的新體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
-1. **若要匯出您的新體驗**，請按一下頂端工具列中的[匯出]。****
-   1. 選取格式(JPG、PNG或GIF)，然後按一下「匯出」****。
+1. **若要匯出您的新體驗**，請按一下頂端工具列中的[匯出]。**&#x200B;**
+   1. 選取格式(JPG、PNG或GIF)，然後按一下「匯出」**&#x200B;**。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。
