@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 **若要選擇電子郵件範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 電子郵件]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 電子郵件]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的電子郵件範本。
-1. 按一下以選取電子郵件範本，然後按一下[使用]。**&#x200B;**
+1. 按一下以選取電子郵件範本，然後按一下[使用]。****
 
    內容建立的中心「畫布」隨即顯示。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 在提示抽屜中新增[指南](/help/user-guide/guidelines/overview.md)和&#x200B;_引數_&#x200B;中的資產，會增加內容產生程式的費用，是產生電子郵件體驗的必要準備步驟。
 
-如果您使用具有預先定義指引（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的範本，這些指引適用於您的變體。 您可以視需要加以變更。
+如果您使用具有預先定義指引（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的範本，這些指引適用於您的變體。 如有需要，您可以加以變更。
 
 **若要新增引數和資產**：
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 **若要輸入提示**：
 
-1. 在 _「描述您要生成的體驗」_ 提示框中輸入提示。
+1. 在&#x200B;_「描述您要產生的體驗」_&#x200B;提示方塊中輸入提示。
 1. 按一下&#x200B;**[!UICONTROL 產生]**。
 
 依預設，會產生四個變數（全部由您新增的提示、指引和內容所推動），並顯示在畫布中。
@@ -85,10 +85,11 @@ ht-degree: 0%
 
 * **若要[編輯電子郵件草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名草稿_&#x200B;標題，然後輸入新標題。
 * **若要[手動編輯電子郵件](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何可編輯的文字欄位（例如主旨列、標題或內文）並視需要編輯
-* **若要[變更或選取呼叫動作](/help/user-guide/create/manage-variants.md#revise-call-to-action)**，請按一下call-to-action按鈕並選取&#x200B;_[!UICONTROL 重新片語]_&#x200B;或&#x200B;_[!UICONTROL 新增連結]_。
+* **若要[變更或選取Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**，請按一下call-to-action按鈕，然後選取&#x200B;_[!UICONTROL 重新片語]_&#x200B;或&#x200B;_[!UICONTROL 新增連結]_。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
 * **若要[新增連結至變體中的影像](/help/user-guide/create/manage-variants.md#add-image-link)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下連結圖示。
+* **若要[為變體中的影像新增替代文字](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**，請按一下影像資產，並使用&#x200B;_替代文字_&#x200B;選項來手動新增或產生每個影像的替代文字。
 * **若要[刪除電子郵件](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下以選取電子郵件標題（例如「電子郵件1/4」），然後按一下&#x200B;**[!UICONTROL 刪除變體]**。
 
 ## 提交產生回饋
@@ -131,7 +132,7 @@ ht-degree: 0%
 若要讓產生的電子郵件可供目前和未來使用，請將它發佈至[!UICONTROL Content]，並匯出以用於您的行銷活動。
 
 1. **若要發佈您的新電子郵件體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
-1. **若要匯出您的新電子郵件體驗**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式（CSV和影像或僅限 HTML），然後按下「**[!UICONTROL 匯出」。]**
+1. **若要匯出您的新電子郵件體驗**，請按一下頂端工具列中的[匯出]。****
+   1. 選取格式(僅限CSV和影像或HTML)，然後按一下「匯出」****。
 
-有關詳細資訊，請參閱 [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) 。
+如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。

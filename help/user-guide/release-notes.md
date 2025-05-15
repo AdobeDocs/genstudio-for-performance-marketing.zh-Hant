@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
+source-git-commit: c3c3ca28d31539383863cf7c8ad11a24aed0965f
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2300'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,18 @@ ht-degree: 0%
 
 此版本資訊詳細說明GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2025.04.10 {#latest}
+## 2025.05.15 {#latest}
+
+### 修正和增強功能
+
+* 已啟用[將替代(alt)文字](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)新增至個別變體影像的功能。
+* 新增[新的中繼外觀比例](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 橫向1.19:1 （1080畫素寬度）。
+* 現在您可以選擇多個體驗來匯出或下載。 請參閱[匯出體驗](/help/user-guide/content/manage-assets.md#export-experiences)。
+<!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
+
+## 舊版發行說明
+
++++2025.05.15註釋
 
 ### 修正和增強功能
 
@@ -23,8 +34,6 @@ ht-degree: 0%
 * 啟用功能，可[檢視及選取體驗的個別圖層](/help/user-guide/create/manage-variants.md#view-layers) （可編輯的文字欄位或可編輯的影像），以反白它們以進行修訂，例如重新產生內容或裁切影像。
 * 已新增[新範本欄位](/help/user-guide/content/use-templates.md#template-elements) `sub-headline`，以便在體驗中取得其他文字，以吸引受眾注意並突顯行銷訊息。
 * 新增支援[將廣告體驗](/help/user-guide/activation/overview.md)從GenStudio for Performance Marketing發佈至Google Campaign Manager 360。 「啟動」在發佈至「Google管理員360廣告商」之前，可支援詳細的「Campaign管理員360廣告預覽。 透過「啟動」發佈的廣告一經上線，就會自動提取至「深入分析」中，讓使用者可以追蹤及報告廣告效益。
-
-## 舊版發行說明
 
 +++2025.03.13註釋
 
@@ -67,8 +76,8 @@ ht-degree: 0%
 * 已新增在變體中[新增連結至影像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
 * 將[內容檢查](/help/user-guide/guidelines/brand-validation.md)和檢閱及核准功能移至新的右方動作列，以最大化畫布空間並改善使用者體驗。
 * 簡化[上傳或手動新增品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
-* 引進在畫布上的變體[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)中新增或交換影像資產的功能。
-* 改善使用者體驗和建立首頁[&#128279;](/help/user-guide/create/overview.md)上頻道類別的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
+* 引進在畫布上的變體](/help/user-guide/create/manage-variants.md#swap-image)中[新增或交換影像資產的功能。
+* 改善使用者體驗和建立首頁](/help/user-guide/create/overview.md)上頻道類別[的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
 * 已改善[!DNL Insights]表格和相簿檢視中的篩選。
 
 +++

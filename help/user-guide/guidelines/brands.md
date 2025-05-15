@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] 是完整的品牌資產集合（行銷文案、影像、體驗等），可協助您建立品牌一致的內容。
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1471'
 ht-degree: 1%
 
 ---
@@ -87,31 +87,6 @@ GenStudio for Performance Marketing使用您[!DNL Brand]的豐富品牌資訊，
 根據產業最佳實務和個別平台規格，每個管道會套用下列[!DNL Brands]的預設管道准則。
 
 >[!BEGINTABS]
-
->[!TAB 電子郵件]
-
-| 區段 | 預設指引 |
-|-----------|-------------------------------|
-| 主旨 | 限制在2行以內 |
-| 預覽文字 | 限制在2行以內 |
-| 標題 | 限制在8字以內 |
-| 內文 | 限製為3-4行 |
-| CTA | 限制在2個字以內 |
-
->[!TAB 付費社交]
-
-| 區段 | 預設指引 |
-|-----------|-------------------------------|
-| 標題 | 限制在40個字元以內 |
-| 內文 | 限制在125個字元以內 |
-
->[!TAB 顯示廣告]
-
-| 區段 | 預設指引 |
-|-----------|-------------------------------|
-| 標題 | 限制在6字以內 |
-| 內文 | 限制在6字以內 |
-| CTA | 限制在2個字以內 |
 
 >[!TAB Meta]
 

@@ -1,67 +1,67 @@
 ---
 title: 建立LinkedIn體驗
-description: 瞭解如何使用 品牌 GenStudio for Performance Marketing Adobe Systems創建符合LinkedIn體驗。
+description: 瞭解如何使用Adobe GenStudio for Performance Marketing建立符合品牌規範的LinkedIn體驗。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
-badgeBeta: label="試用版" tooltip="此功能目前正在Beta中，因此某些功能可能會受到限制或可能發生變化。"
+badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
 # 建立LinkedIn體驗
 
-本教學課程演示如何使用 [&#128279;](/help/user-guide/create/meta-experiences.md)GenStudio 進行績效營銷[[!DNL Create]](/help/user-guide/create/overview.md)（左側導覽區域中的畫筆圖示）生成符合品牌準則的LinkedIn體驗。
+本教學課程示範如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側導覽區域中的繪圖筆刷圖示）產生符合您品牌方針的[LinkedIn體驗](/help/user-guide/create/meta-experiences.md)。
 
-在開始生成LinkedIn廣告之前，[請務必在 GenStudio 中為效果行銷添加指南](/help/user-guide/guidelines/add-guidelines.md)並學習創建提示[&#128279;](/help/user-guide/effective-prompts.md)的基礎知識。
+開始產生LinkedIn廣告之前，請務必在GenStudio for Performance Marketing中[新增指導方針](/help/user-guide/guidelines/add-guidelines.md)，並瞭解[建立提示](/help/user-guide/effective-prompts.md)的基本知識。
 
-## 選擇一個範本
+## 選擇範本
 
-若要生成新的LinkedIn體驗，需要一個範本來提供內容框架。 有關支援的LinkedIn外觀比例的資訊，請參閱 [範本](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) 的最佳實踐。
+若要產生新的LinkedIn體驗，您需要範本為您的內容提供架構。 請參閱[範本最佳實務](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以取得支援的LinkedIn外觀比例相關資訊。
 
-**要選擇LinkedIn範本**：
+**若要選擇LinkedIn範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL LinkedIn]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL LinkedIn]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定範本。
-1. 按一下以選取範本，然後按一下[使用]。**&#x200B;**
+1. 按一下以選取範本，然後按一下[使用]。****
 
    此動作會開啟畫布，這是內容建立的中心樞紐。
 
 ## 新增引數
 
-[在提示抽屜的参数&#x200B;_中添加_&#x200B;指南](/help/user-guide/guidelines/overview.md)和資產可增強內容生成過程，並且是準備生成LinkedIn體驗的關鍵步驟。
+在提示抽屜中新增[指南](/help/user-guide/guidelines/overview.md)和&#x200B;_引數_&#x200B;中的資產，可強化內容產生程式，是準備產生LinkedIn體驗的關鍵步驟。
 
-**若要新增参数和資產**：
+**若要新增引數和資產**：
 
-1. 按兩下「 _參數」_ 圖示以展開提示抽屜。
-1. 在“参数”__&#x200B;部分中，選擇準則 （、[!DNL Personas][!DNL Brands]） 和 [!DNL Products]— 以通知內容創建。
+1. 按一下&#x200B;_引數_&#x200B;圖示以展開提示抽屜。
+1. 在&#x200B;_引數_&#x200B;區段中，選取指導方針 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知內容建立。
 
    ![選擇角色](/help/assets/persona-select.png){width="600" zoomable="yes"}
 
    如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)。
 
-1. 新增內容以便在體驗 *中使用并* 影響內容產生：
-   * 按兩下從 **[!UICONTROL 內容]** 中選擇以從 [!DNL Content] 存放庫中選擇資產（圖像），過濾並選擇一個或多個圖像。
+1. 新增內容以用於體驗&#x200B;*和*，以影響內容產生：
+   * 按一下&#x200B;**[!UICONTROL 從「內容」選取]**，從[!DNL Content]存放庫選取資產（影像）、篩選並選取一或多個影像。
 
      ![選擇視覺內容](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
-     要使用已連接[!DNL AEM Assets Content Hub]存放庫中的資產，請從位置&#x200B;__&#x200B;下拉菜單中選擇存放庫。篩選並選擇一個或多個圖像。
+     若要使用已連線[!DNL AEM Assets Content Hub]存放庫中的資產，請從&#x200B;_位置_&#x200B;下拉式選單中選擇存放庫。 篩選並選取一或多個影像。
 
-   * 或者，將資產拖放到“ **[!UICONTROL 從內容]** 中選擇”部分以上傳一個或多個新資產。
-1. 按兩下 **[!UICONTROL 使用]**。
+   * 或者，將資產拖放至&#x200B;**[!UICONTROL 從內容選取]**&#x200B;區段，以上傳一或多個新資產。
+1. 按一下&#x200B;**[!UICONTROL 使用]**。
 
-添加完參數后，可以通過再次按兩下 _「參數_ 」圖示來摺疊提示抽屜。
+新增完引數後，您可以再次按一下&#x200B;_引數_&#x200B;圖示來收合提示抽屜。
 
 ## 輸入提示
 
-選擇指南后，使用自然語言制作提示，以開始為新LinkedIn體驗生成內容。 詳細的提示可確保您收到良好的品質和有用的輸出。
+選取准則後，請使用自然語言製作提示，開始為您新的LinkedIn體驗產生內容。 詳細的提示可確保您獲得高品質且有用的輸出。
 
-請參閱 [編寫有效提示](/help/user-guide/effective-prompts.md) 以瞭解有關編寫提示的詳細資訊。
+請參閱[撰寫有效提示](/help/user-guide/effective-prompts.md)，深入瞭解撰寫提示的相關資訊。
 
 **若要輸入提示**：
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 產生的內容會以漸進方式載入 — 當LinkedIn體驗的每個區段產生時，都會顯示在畫布中。 請參閱[LinkedIn體驗](/help/user-guide/create/linkedin-experiences.md#progressive-loading)，瞭解如何在畫布中載入這些變更。
 
-## 修改產生的LinkedIn廣告
+## 修訂產生的LinkedIn廣告
 
 在傳送變體以供核准或發佈到[!DNL Content]之前，您可以編輯LinkedIn廣告或從產生的廣告集中刪除變體。
 
@@ -80,14 +80,15 @@ ht-degree: 0%
 
 * **若要[編輯LinkedIn廣告草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名的草稿_&#x200B;標題，然後輸入新標題。
 * **若要[手動編輯LinkedIn廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何廣告區段（例如主旨列、標題或內文）並視需要編輯。
-* **要更改或選擇號召性用語**，請按兩下號召性用語按鈕，然後從可用的按鈕文本選項中進行選擇。 在“連結”_中_，輸入號召性用語文本的URL。
-* **要重新生成變體的一部分，請按下[可編輯的文字欄位並使用建議的&#x200B;]_編輯選項，_[[!UICONTROL 或在 _[!UICONTROL 生成新text_ 部分中]輸入新提示，然後按兩下**&#x200B;[!UICONTROL &#x200B;生成&#x200B;]&#x200B;**。]](/help/user-guide/create/manage-variants.md#re-generate-sections)**
-* **若要裁剪或重新定位圖像[&#128279;](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠懸停在圖像上，按兩下出現的裁剪圖示，然後調整圖像大小和刊登。
-* **要 [刪除LinkedIn廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請單擊多屬性的選項功能表，然後按下 **[!UICONTROL 刪除多屬性]**。
+* **若要變更或選取呼叫動作**，請按一下call-to-action按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入call-to-action文字的URL。
+* **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或在_[!UICONTROL 產生新文字_區段]中輸入新提示，然後按一下&#x200B;**[!UICONTROL 產生]**。
+* **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠游標停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。
+* **若要[為變體中的影像新增替代文字](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**，請按一下影像資產，並使用&#x200B;_替代文字_&#x200B;選項來手動新增或產生每個影像的替代文字。
+* **若要[刪除LinkedIn廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下變體的選項功能表，然後按一下&#x200B;**[!UICONTROL 刪除變體]**。
 
-## 提交生成反饋
+## 提交產生回饋
 
-要提交有關生成輸出品質的反饋，請按下[選項圖示（三個點），然後選擇&#x200B;**[!UICONTROL 良好輸出]**&#x200B;或&#x200B;**[!UICONTROL 差輸出]**。](/help/user-guide/create/manage-variants.md#generation-feedback)
+若要[提交關於產生輸出品質的意見反應](/help/user-guide/create/manage-variants.md#generation-feedback)，請按一下選項圖示（三個點）並選取&#x200B;**[!UICONTROL 輸出良好]**&#x200B;或&#x200B;**[!UICONTROL 輸出不良]**。
 
 ## 驗證內容檢查對齊方式
 
@@ -97,34 +98,34 @@ ht-degree: 0%
 
 1. 按一下右側動作列中的&#x200B;_內容檢查_&#x200B;面板圖示以開啟&#x200B;[_內容檢查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)。 檢視&#x200B;*需要稽核*&#x200B;和&#x200B;*通過*&#x200B;檢查的摘要，以檢視哪些區段和准則需要改進。
 
-   ![_內容檢查_ 面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_內容檢查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. [手動修改多屬性](#revise-generated-variants) ，以確保您的多屬性與執行的內容檢查緊密一致。
+1. [手動修訂變體](#revise-generated-variants)以確保您的變體與執行的內容檢查緊密對齊。
 
-請参閱 [品牌驗證](/help/user-guide/guidelines/brand-validation.md)。
+請參閱[品牌驗證](/help/user-guide/guidelines/brand-validation.md)。
 
-## 獲得評論和批准
+## 取得檢閱和核准
 
 使用「核准」面板（可從畫布的頂端功能表列存取）來取得稽核、追蹤稽核評論，以及取得利害關係人的核准。
 
-**要獲得審核和批准**，請執行以下作：
+**若要取得稽核與核准**：
 
-1. [Launch批准請求](/help/user-guide/approvals/request-review.md) ，以徵求 [草擬的 Meta 廣告體驗](/help/user-guide/approvals/approve-content.md)的批准。
+1. [啟動核准要求](/help/user-guide/approvals/request-review.md)以徵求[草擬中繼廣告體驗的核准](/help/user-guide/approvals/approve-content.md)。
 
-   ![傳送草稿以供審閱和批准](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
+   ![傳送草稿以供檢閱和核准](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
-1. [在審核過程中移除或添加審閱者](/help/user-guide/approvals/review-and-edit.md#manage-approvals) 。
-1. [存取 內容 進行審核](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) ，並視圖修訂請求。
-1. 編輯每個評論評論的草稿，並 [發佈您的 Meta 廣告體驗](#publish-and-export-experience)。
+1. [在稽核程式期間移除或新增稽核者](/help/user-guide/approvals/review-and-edit.md#manage-approvals)。
+1. [存取內容以供檢閱](/help/user-guide/approvals/review-and-edit.md#access-content-for-review)並檢視修訂要求。
+1. 編輯每次稽核評論的草稿，並[發佈您的中繼廣告體驗](#publish-and-export-experience)。
 
-有關詳細資訊，請參閱 [審核和批准](/help/user-guide/approvals/overview.md) 。
+如需詳細資訊，請參閱[檢閱與核准](/help/user-guide/approvals/overview.md)。
 
-## Publish和導出體驗
+## 發佈和匯出體驗
 
-要使生成的LinkedIn廣告可供當前和將來使用，請將其發佈內容，然後匯出以用於行銷廣告系列。
+若要讓產生的LinkedIn廣告可供目前和未來使用，請將它發佈至[!UICONTROL Content]，然後匯出以用於您的行銷活動。
 
-1. **若要發佈新體驗**，請按兩下 **[!UICONTROL 頂部工具列中或審批流程中的Publish]** 。
-1. **要導出新體驗**，請按兩下 **[!UICONTROL 頂部工具列中的導出]** 。
-   1. 選取格式(JPG、PNG或GIF)，然後按一下「匯出」**&#x200B;**。
+1. **若要發佈您的新體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
+1. **若要匯出您的新體驗**，請按一下頂端工具列中的[匯出]。****
+   1. 選取格式(JPG、PNG或GIF)，然後按一下「匯出」****。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。

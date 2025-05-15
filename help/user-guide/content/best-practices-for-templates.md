@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
+source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -107,8 +107,9 @@ ht-degree: 0%
 **支援的外觀比例**：
 
 - 正方形1:1 （1080 x 1080畫素）
-- 垂直4:5 （1080 x 1350畫素）
+- 縱向4:5 （1080 x 1350畫素）
 - 內文9:16 （1080 x 1920畫素）
+- 橫向：1.91:1 （1080畫素寬度）
 - 自訂影像大小： （50 x 50畫素最小影像寬度）
 
 **可辨識的欄位名稱**：
@@ -137,17 +138,17 @@ ht-degree: 0%
 
 **支援的維度**：
 
-- 垂直： （畫素）
+- 寬x高（畫素）
+- 垂直：
    - 300 x 600
    - 160 x 600&#x200B;
-- 水準： （畫素）
+- 水準：
    - 300 x 250
    - 728 x 90
    - 336 x 280
    - 320 x 50
    - 970 x 250&#x200B;
-- 自訂： （畫素）
-   - 50 x 50至2000 x 2000
+- 自訂：50 x 50至2000 x 2000
 
 **可辨識的欄位名稱**：
 

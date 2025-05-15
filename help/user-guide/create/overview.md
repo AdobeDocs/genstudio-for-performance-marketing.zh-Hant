@@ -4,9 +4,9 @@ description: 在Adobe GenStudio for Performance Marketing [!DNL Create]中使用
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 4eb45ec7e845847ebac86986924bbc39aaed42c0
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -35,68 +35,131 @@ GenStudio for Performance Marketing [!DNL Create]運用Adobe GenAI的強大功�
 ## [!DNL Create] 使用案例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="建立新內容" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>建立電子郵件體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="建立中繼廣告體驗" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>建立中繼廣告體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="建立LinkedIn廣告體驗" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>建立LinkedIn廣告體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="建立顯示廣告體驗" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>建立顯示廣告體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="建立橫幅體驗" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong>建立橫幅體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="建立影像" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong>產生影像</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing可讓行銷人員&#x200B;**建立新的行銷內容**。 在此使用案例中，使用已定義的[指南](/help/user-guide/guidelines/overview.md)和靈感影像來通知建立符合品牌標準的內容。
@@ -137,11 +200,11 @@ GenStudio for Performance Marketing會針對每個變體執行[內容檢查](/he
 
 ### 草稿
 
-在[!DNL Create]的&#x200B;_最近工作_&#x200B;區段中，存取和管理所有最近草稿。 檢視並完成您先前的工作，以準備將其發佈至[[!DNL Content]](/help/user-guide/content/overview.md)或匯出以供使用。
+在[!DNL Create]的&#x200B;_最近_&#x200B;區段中，您可以存取和管理所有最近草稿。 檢視並完成您先前的工作，以準備將其發佈至[[!DNL Content]](/help/user-guide/content/overview.md)或匯出以供使用。 按一下選項（三個點）圖示以刪除草稿。
 
-進行中的草稿會自動儲存。 當您導覽回[!DNL Create]首頁時，_最近工作_&#x200B;區段會以您最近的草稿更新。 本區段中的每個草稿都會顯示狀態，例如&#x200B;_草稿_&#x200B;或&#x200B;_已核准_。
+草稿會自動儲存並顯示在[!DNL Create]首頁的&#x200B;_最近_&#x200B;區段中。 本區段中的每個草稿都會顯示狀態，例如&#x200B;_草稿_&#x200B;或&#x200B;_已核准_。
 
-按一下排序圖示（格線或表格），以格線或表格檢視顯示&#x200B;_最近的工作_&#x200B;專案。
+按一下相簿檢視（格線）圖示，以格線或表格檢視顯示&#x200B;_最近_&#x200B;個專案。
 
 ### 管理變體
 
