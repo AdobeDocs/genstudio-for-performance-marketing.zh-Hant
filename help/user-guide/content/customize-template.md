@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: d0fd0bd2ac98149ec4d6449a7490d55cc48d9ae2
+source-git-commit: 04bb7adcc9ce7eaeca2ea1f3ef39882f8e43ff6d
 workflow-type: tm+mt
 source-wordcount: '1480'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以透過插入內容預留位置或產生AI用來插入內容的欄位，自訂要在GenStudio for Performance Marketing中使用的範本。
 
-以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
+以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
 
 您的範本準備就緒後，您可以[將其上傳到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，並開始根據您的自訂範本產生個人化電子郵件。
 
@@ -30,10 +30,10 @@ GenStudio for Performance Marketing可辨識範本中的某些[元素](use-templ
 
 在HTML範本的head或body中，您可以使用[!DNL Handlebars]語法來插入內容預留位置，以要求GenStudio for Performance Marketing將實際內容填入範本。 GenStudio for Performance Marketing會根據[可辨識的&#x200B;_欄位_&#x200B;名稱](#recognized-field-names)來辨識及解譯內容預留位置。
 
-例如，您可以使用`{{ headline }}`搭配[!DNL Handlebars]語法來指示電子郵件標題的放置位置。 GenStudio可辨識此欄位，根據您的指引和提示條件產生相關標題，並將標題插入此位置：
+例如，您可以使用`{{headline}}`搭配[!DNL Handlebars]語法來指示電子郵件標題的放置位置。 GenStudio可辨識此欄位，根據您的指引和提示條件產生相關標題，並將標題插入此位置：
 
 ```handlebars
-<div>{{ headline }}</div>
+<div>{{headline}}</div>
 ```
 
 ### 可辨識的欄位名稱
@@ -50,7 +50,7 @@ GenStudio for Performance Marketing可辨識範本中的某些[元素](use-templ
 | `{{cta}}` | call to action<br>檢視[行動號召](#calls-to-action) | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
 | `{{image}}` | 影像 — 從[!DNL Content]中選取 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
 | `{{on_image_text}}` | 在影像文字上<br>請參閱[在影像文字上](#on-image-text)。 | 中繼廣告<br>LinkedIn廣告 |
-| `{{link}}` | 影像上的呼叫動作<br>請參閱影像[&#128279;](#link-on-image)上的連結。 | 電子郵件 |
+| `{{link}}` | 影像上的呼叫動作<br>請參閱影像](#link-on-image)上的[連結。 | 電子郵件 |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 
@@ -126,10 +126,10 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 
 ### 在影像文字上
 
-`{{ on_image_text }}`預留位置是用來指定直接放置在體驗影像上且具影響力之短訊息的文字覆蓋。
+`{{on_image_text}}`預留位置是用來指定直接放置在體驗影像上且具影響力之短訊息的文字覆蓋。
 
 ```html
-<div class="image-text">{{ on_image_text }}</div>
+<div class="image-text">{{on_image_text}}</div>
 ```
 
 <!-- this field does not work in Create canvas 2025/03
@@ -166,7 +166,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 <tbody>
     <tr>
         <td>
-            <p><span class="footer-text">{{ footerLegal }}</span></p>
+            <p><span class="footer-text">{{footerLegal}}</span></p>
         </td>
     </tr>
 </tbody>
@@ -190,7 +190,7 @@ _區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位�
 
 因為此規則，區段無法巢狀化。
 
-每種範本型別（例如電子郵件或中繼廣告）在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
+每種範本型別（例如電子郵件或中繼廣告）在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
 
 例如，電子郵件範本最多可包含三個區段；因此，您可以有三個標題和正文區段：
 
@@ -236,9 +236,9 @@ GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯�
 
 ```html
 <a class="button" {{#if _genStudio.browser }}
-   href="{{ link }}"{{/if}}{{#if _genStudio.export }}
-   href="{{ link }}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
-   target="_blank">{{ cta }}</a>
+   href="{{link}}"{{/if}}{{#if _genStudio.export }}
+   href="{{link}}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
+   target="_blank">{{cta}}</a>
 ```
 
 ## 靜態內容
@@ -270,15 +270,15 @@ GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯�
             }
         </style>
     </head>
-    <body>{{ pre_header }}
+    <body>{{pre_header}}
         <div class="container">
-            <h1>{{ headline }}</h1>
-            <p><a href="{{ link }}">
-            <img alt="{{ headline }}"
-                    src="{{ image }}"
+            <h1>{{headline}}</h1>
+            <p><a href="{{link}}">
+            <img alt="{{headline}}"
+                    src="{{image}}"
                     width="600" height="600"
                     border="0"/></a></p>
-            <p>{{ body }}</p>
+            <p>{{body}}</p>
         </div>
     </body>
 </html>
@@ -315,22 +315,22 @@ GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯�
             }
         </style>
     </head>
-    <body>{{ pre_header }}
+    <body>{{pre_header}}
         <div class="container">
-            <h1>{{ headline }}</h1>
-            <p>{{ body }}</p>
+            <h1>{{headline}}</h1>
+            <p>{{body}}</p>
             <!-- Pod1 -->
             <div class="pod">
-                <h2>{{ pod1_headline }}</h2>
-                <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
-                <p>{{ pod1_body }}</p>
+                <h2>{{pod1_headline}}</h2>
+                <p><img alt="{{ headline }}" src="{{pod1_image}}" width="200" height="200" border="0"></p>
+                <p>{{pod1_body}}</p>
             </div>
             <!-- End of Pod1 -->
             <!-- Pod2 -->
             <div class="pod">
-                <h2>{{ pod2_headline }}</h2>
-                <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
-                <p>{{ pod2_body }}</p>
+                <h2>{{pod2_headline}}</h2>
+                <p><img alt="{{headline}}" src="{{pod2_image}}" width="200" height="200" border="0"></p>
+                <p>{{pod2_body}}</p>
             </div>
             <!-- End of Pod2 -->
         </div>
@@ -377,8 +377,8 @@ GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯�
     </head>
     <body>
         <div class="ad-container">
-            <img src="{{ image }}" alt="Ad Image" class="ad-image" />
-            <div class="ad-text">{{ on_image_text }}</div>
+            <img src="{{image}}" alt="Ad Image" class="ad-image" />
+            <div class="ad-text">{{on_image_text}}</div>
         </div>
     </body>
 </html>

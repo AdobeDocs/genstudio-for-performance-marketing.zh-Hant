@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能�
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,8 @@ LinkedIn體驗的可編輯區段包括：
 * 標題
 * 簡介文字
 * 說明
-* 行動號召(CTA)
+* call to action (CTA)
 * 影像
-* 品牌標誌
 
 請參閱[範本元素](/help/user-guide/content/use-templates.md#template-elements)。
 
@@ -41,7 +40,7 @@ LinkedIn體驗的可編輯區段包括：
 LinkedIn體驗的每個欄位和區段都會依照此順序逐步載入：
 
 1. 所有變化的主要文字
-1. 行動號召和相關聯的URL
+1. call-to-action和相關聯的URL
 1. 標題
 1. 影像上文字
 1. 品牌驗證
