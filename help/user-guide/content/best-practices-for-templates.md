@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
+source-git-commit: dc958a831e3fa26cfc18f7c1a5febd0662102d43
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ ht-degree: 0%
 
 **限制**：
 
-- 使用[區段](customize-template.md#sections-or-groups)：
-   - 基本範本（僅一個區段）可以產生一組範本元素。
-   - 複雜範本（多個區段）最多可以產生三組範本元素。
+- 行銷電子郵件可以有0、2或3 [節](customize-template.md#sections-or-groups)：
+   - 基本範本（零個區段）可以產生一組不需要群組命名慣例的單一範本元素。
+   - 複雜範本（多個區段）最多可以產生三組範本元素，這要求您遵循群組命名慣例： (`groupname_fieldname`)
 - 範本中允許的最大欄位為20
 - HTML檔案大小上限為102 KB
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 對於電子郵件，會自動包含`subject`欄位。 在下列欄位中使用內容預留位置：
 
-- `pre_header`
+- `pre_header` （未啟用RTF文字）
 - `headline`
 - `sub_headline`
 - `body`
@@ -103,8 +103,11 @@ ht-degree: 0%
 
 - 使用[區段](customize-template.md#sections-or-groups)：
    - 只能使用一個區段，以產生一組範本元素。
+- 僅需要一個影像欄位。
 
 **支援的外觀比例**：
+
+必須設定外觀比例：
 
 - 正方形1:1 （1080 x 1080畫素）
 - 縱向4:5 （1080 x 1350畫素）
@@ -135,10 +138,11 @@ ht-degree: 0%
 
 - 使用[區段](customize-template.md#sections-or-groups)：
    - 只能使用一個區段，以產生一組範本元素。
+- 僅需要一個影像欄位。
 
 **支援的維度**：
 
-- 寬x高（畫素）
+- 必須設定寬度x高度（畫素）
 - 垂直：
    - 300 x 600
    - 160 x 600&#x200B;
@@ -171,6 +175,7 @@ ht-degree: 0%
 
 - 使用[區段](customize-template.md#sections-or-groups)：
    - 只能使用一個區段，以產生一組範本元素。
+- 僅需要一個影像欄位。
 - 影像大小上限為5 MB
 - 標題最多70個字元
 - 介紹文字上限150個字元

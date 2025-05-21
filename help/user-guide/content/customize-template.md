@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 04bb7adcc9ce7eaeca2ea1f3ef39882f8e43ff6d
+source-git-commit: f6c00f473d561cae123997ab3e310867fbdf60d1
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以透過插入內容預留位置或產生AI用來插入內容的欄位，自訂要在GenStudio for Performance Marketing中使用的範本。
 
-以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
+以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
 
 您的範本準備就緒後，您可以[將其上傳到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，並開始根據您的自訂範本產生個人化電子郵件。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 GenStudio for Performance Marketing可辨識範本中的某些[元素](use-templates.md#template-elements)，但前提是您使用[可辨識的欄位名稱](#recognized-field-names)來識別它們。
 
-在HTML範本的head或body中，您可以使用[!DNL Handlebars]語法來插入內容預留位置，以要求GenStudio for Performance Marketing將實際內容填入範本。 GenStudio for Performance Marketing會根據[可辨識的&#x200B;_欄位_&#x200B;名稱](#recognized-field-names)來辨識及解譯內容預留位置。
+在HTML範本的head或body中，您可以使用[!DNL Handlebars]語法來插入內容預留位置，以要求GenStudio for Performance Marketing將實際內容填入範本。 GenStudio for Performance Marketing會根據[可辨識的&#x200B;_欄位_&#x200B;名稱](#recognized-field-names)來辨識及解譯這些預留位置。 每個欄位名稱都與特定的規則和行為相關聯，這些規則和行為可決定如何產生內容並將其插入範本中。
 
 例如，您可以使用`{{headline}}`搭配[!DNL Handlebars]語法來指示電子郵件標題的放置位置。 GenStudio可辨識此欄位，根據您的指引和提示條件產生相關標題，並將標題插入此位置：
 
@@ -38,7 +38,7 @@ GenStudio for Performance Marketing可辨識範本中的某些[元素](use-templ
 
 ### 可辨識的欄位名稱
 
-下表列出GenStudio for Performance Marketing將預留位置新增至範本時識別的欄位名稱。 使用[!DNL Handlebars]語法新增這些欄位名稱至您的範本，其中您需要GenStudio for Performance Marketing產生特定型別的內容。
+下表列出GenStudio for Performance Marketing將預留位置新增至範本時識別的欄位名稱。 每個欄位都遵循特定的管道准則、LLM指示及角色型規則。 使用[!DNL Handlebars]語法新增這些欄位名稱至您的範本，其中您需要GenStudio for Performance Marketing產生特定型別的內容。
 
 | 欄位 | 角色 | 頻道範本 |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
@@ -50,7 +50,7 @@ GenStudio for Performance Marketing可辨識範本中的某些[元素](use-templ
 | `{{cta}}` | call to action<br>檢視[行動號召](#calls-to-action) | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
 | `{{image}}` | 影像 — 從[!DNL Content]中選取 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
 | `{{on_image_text}}` | 在影像文字上<br>請參閱[在影像文字上](#on-image-text)。 | 中繼廣告<br>LinkedIn廣告 |
-| `{{link}}` | 影像上的呼叫動作<br>請參閱影像[&#128279;](#link-on-image)上的連結。 | 電子郵件 |
+| `{{link}}` | 影像上的呼叫動作<br>請參閱影像](#link-on-image)上的[連結。 | 電子郵件 |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 
@@ -174,9 +174,12 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 ## 區段或群組
 
-_區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位需要高度一致性。 建立此關係可協助AI產生符合區段中創意元素的內容。
+當有兩或三組欄位時，您可以在行銷電子郵件範本中使用區段。 _區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位需要高度一致性。 建立此關係可協助AI產生符合區段中創意元素的內容。
 
-在欄位名稱中使用您選擇的前置詞來指示欄位是區段或群組的一部分。 在底線(`_`)之後使用欄位名稱（例如`headline`、`body`、`image`或`cta`）。
+
+使用您選擇的群組名稱作為前置詞，表示欄位是區段或群組的一部分。 在底線(`_`)之後使用欄位名稱（例如`headline`、`body`、`image`或`cta`）。
+
+語法： `groupname_fieldname`
 
 - _正確_ (👍)： `pod1_body`
 - _不正確_ (❌)： `pod1body`
@@ -190,10 +193,9 @@ _區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位�
 
 因為此規則，區段無法巢狀化。
 
-每種範本型別（例如電子郵件或中繼廣告）在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
+每種範本型別（例如電子郵件或中繼廣告）在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines)。
 
 例如，電子郵件範本最多可包含三個區段；因此，您可以有三個標題和正文區段：
-
 
 - `pre_header`
 - `pod1_headline`
