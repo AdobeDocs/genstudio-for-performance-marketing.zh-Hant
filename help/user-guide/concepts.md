@@ -39,7 +39,7 @@ GenStudio for Performance Marketing透過Azure OpenAI使用GPT系列的協力廠
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_(如[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所定義)是量化GenStudio for Performance Marketing內產生式AI功能之使用的單位。
+_[!DNL Generative Actions]_(如[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所定義)是量化GenStudio for Performance Marketing內產生式AI功能之使用的單位。
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +48,11 @@ If genactions roll over month to month or not -->
 
 ### 費率
 
-您會收到[GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所述的[!DNL Generative Actions]預設配額。
+您會收到[GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所述的[!DNL Generative Actions]預設配額。
 
 >[!NOTE]
 >
->使用率可能有所不同。 計畫可能會有變動。 如需更新的費率資訊，請參閱[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)。
+>使用率可能有所不同。 計畫可能會有變動。 如需更新的費率資訊，請參閱[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)。
 
 下列函式以指定的速率使用[!DNL Generative Actions]。
 
