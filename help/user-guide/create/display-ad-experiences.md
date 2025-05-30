@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 產生顯示廣告體驗時，會建立四個變數並顯示在畫布中。
 
-請參閱[遵循特定管道的範本准則](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以取得支援的維度、可辨識的欄位名稱等相關資訊。
+請參閱[顯示廣告範本指導方針](/help/user-guide/templates/display-template.md)，以取得支援的維度、可辨識的欄位名稱等資訊。
 
 顯示廣告體驗的可編輯區段包括：
 
 * 標題
 * 副標題
 * 內文
-* 行動號召(CTA)
+* call to action (CTA)
 * 影像
 
 請參閱[範本元素](/help/user-guide/content/use-templates.md#template-elements)。

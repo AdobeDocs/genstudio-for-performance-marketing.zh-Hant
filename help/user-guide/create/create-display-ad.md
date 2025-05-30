@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 ## 選擇範本
 
-若要建立顯示廣告體驗，請使用可用的範本為您的內容提供架構。 請參閱[範本最佳實務](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以取得支援的顯示廣告維度相關資訊。
+若要建立顯示廣告體驗，請使用可用的範本為您的內容提供架構。 請參閱[顯示廣告範本指導方針](/help/user-guide/templates/display-template.md)，以取得支援的顯示廣告維度的相關資訊。
 
 **若要選擇顯示廣告範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 顯示廣告]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 顯示廣告]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的顯示廣告範本。
 1. 在&#x200B;_選取範本_&#x200B;檢視中，按一下顯示廣告範本。
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
@@ -127,13 +127,13 @@ When revising and preparing email experiences, you can toggle between previews f
 若要讓產生的顯示廣告可供目前和未來使用，請將它發佈至[!UICONTROL Content]，並匯出以用於您的行銷活動。
 
 1. **若要發佈您的新顯示廣告體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
-   1. 選取&#x200B;_[!UICONTROL [!DNL Campaigns]]_&#x200B;並新增&#x200B;_[!UICONTROL &#x200B;更多詳細資料&#x200B;]_（如有需要）。
+   1. 選取&#x200B;_[!UICONTROL [!DNL Campaigns]]_並新增_[!UICONTROL &#x200B;更多詳細資料&#x200B;]_（如有需要）。
    1. 點擊&#x200B;**[!UICONTROL 發佈]**。
 
       ![發佈顯示廣告](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **若要匯出您的新顯示廣告體驗**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式(HTML和影像、PNG或JPG)，然後按一下「匯出」**&#x200B;**。
+1. **若要匯出您的新顯示廣告體驗**，請按一下頂端工具列中的[匯出]。****
+   1. 選取格式(HTML和影像、PNG或JPG)，然後按一下「匯出」****。
 
       匯出的HTML應放置在預先定義的Web屬性中，例如範本或`div`容器。 如果沒有這些設定的尺寸，獨立檢視影像時，影像可能會扭曲。
 

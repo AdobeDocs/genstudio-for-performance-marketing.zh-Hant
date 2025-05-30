@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 ## 選擇範本
 
-若要產生新的LinkedIn體驗，您需要範本為您的內容提供架構。 請參閱[範本最佳實務](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以取得支援的LinkedIn外觀比例相關資訊。
+若要產生新的LinkedIn體驗，您需要範本為您的內容提供架構。 請參閱[LinkedIn範本指導方針](/help/user-guide/templates/linkedin-template.md)，以取得支援的LinkedIn外觀比例相關資訊。
 
 **若要選擇LinkedIn範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL LinkedIn]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL LinkedIn]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定範本。
-1. 按一下以選取範本，然後按一下[使用]。**&#x200B;**
+1. 按一下以選取範本，然後按一下[使用]。****
 
    此動作會開啟畫布，這是內容建立的中心樞紐。
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 若要讓產生的LinkedIn廣告可供目前和未來使用，請將它發佈至[!UICONTROL Content]，然後匯出以用於您的行銷活動。
 
 1. **若要發佈您的新體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
-1. **若要匯出您的新體驗**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式(JPG、PNG或GIF)，然後按一下「匯出」**&#x200B;**。
+1. **若要匯出您的新體驗**，請按一下頂端工具列中的[匯出]。****
+   1. 選取格式(JPG、PNG或GIF)，然後按一下「匯出」****。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。

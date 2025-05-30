@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 ## 選擇範本
 
-若要開始產生新的中繼廣告體驗，請使用可用的範本為您的內容提供框架。 請參閱[範本最佳實務](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以取得支援的中繼廣告外觀比例的相關資訊。
+若要開始產生新的中繼廣告體驗，請使用可用的範本為您的內容提供框架。 請參閱[中繼廣告範本指導方針](/help/user-guide/templates/meta-template.md)，以取得支援的中繼廣告外觀比例的相關資訊。
 
 **若要選擇中繼廣告範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 中繼廣告]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 中繼廣告]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的中繼廣告範本。
 1. 按一下以選取範本，然後按一下&#x200B;**[!UICONTROL 使用]**。
 
