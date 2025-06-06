@@ -5,7 +5,7 @@ level: Beginner
 feature: Generative AI, Guidelines
 role: Admin
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: a7b1665f9d735dad9f33aa4f92c56088ae85a625
+source-git-commit: 96e5d88eb92e61940d3cfbbf019edefd7d29e4c4
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 1%
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 **Adobe系統管理員**&#x200B;在Adobe Admin Console中擁有超級使用者許可權，可執行所有使用者管理工作，例如新增或刪除使用者。 此系統管理員角色未提供GenStudio for Performance Marketing應用程式中的許可權，因此可說明Adobe系統管理員不需要GenStudio授權的原因。 Adobe系統管理員通常會使用Admin Console在GenStudio部署中新增和刪除使用者帳戶，並從個別使用者或使用者群組指派或移除權益或許可權。
 
-**GenStudio系統管理員**&#x200B;是GenStudio for Performance Marketing中的超級使用者，但沒有在Adobe Admin Console中執行工作的許可權。 此系統管理員角色需要GenStudio產品授權，而且對應至[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中的超級使用者。 GenStudio系統管理員擁有GenStudio for Performance Marketing功能的完整權利，包括[!DNL Brands]、[!DNL Persona]以及[!DNL Product]建立、刪除、更新和發佈。 [Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)說明GenStudio使用者角色與產品授權的關係。
+**GenStudio系統管理員**&#x200B;是GenStudio for Performance Marketing中的超級使用者，但沒有在Adobe Admin Console中執行工作的許可權。 此系統管理員角色需要GenStudio產品授權，而且對應至[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中的超級使用者。 GenStudio系統管理員擁有GenStudio for Performance Marketing功能的完整權利，包括[!DNL Brands]、[!DNL Persona]以及[!DNL Product]建立、刪除、更新和發佈。 [Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)說明GenStudio使用者角色與產品授權的關係。
 
-請參閱&#x200B;_企業和團隊管理指南_&#x200B;中的[管理角色](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html#enterprise)。
+請參閱&#x200B;_企業和團隊管理指南_&#x200B;中的[管理角色](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)。
 
 ## 權益
 
@@ -85,8 +85,8 @@ _共同作業人員_&#x200B;可以在GenStudio for Performance Marketing中檢�
 | [!DNL Content] | 否 | 否 | 否 | 是 |
 | [!DNL Create] | 否 | 否 | 否 | 是 |
 | [!DNL Insights] | 否 | 否 | 否 | 是 |
-| [!DNL Personas] | 否 | 否 | 否 | 是 |
-| [!DNL Products] | 否 | 否 | 否 | 是 |
+| [!DNL Personas] | 是 | 是 | 是 | 是 |
+| [!DNL Products] | 是 | 是 | 是 | 是 |
 | [!DNL Reviews and approvals] | 否 | 否 | 否 | 是 |
 | [!DNL Templates] | 否 | 否 | 否 | 是 |
 
