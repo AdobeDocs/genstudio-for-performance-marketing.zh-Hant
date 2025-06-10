@@ -49,7 +49,7 @@ ht-degree: 0%
 * 編輯評論標題。
 * 變更選用的到期日。
 
-如果已啟用Workfront Proof整合，此面板會顯示多階段工作流程中每個核准階段的狀態。 若要檢視註解，請按一下[在Workfront中檢視註解] ]**，在[!DNL Proofing Viewer]中開啟註解。**[!UICONTROL 
+如果已啟用Workfront Proof整合，此面板會顯示多階段工作流程中每個核准階段的狀態。 若要檢視註解，請按一下[在Workfront中檢視註解] **，在[!DNL Proofing Viewer]中開啟註解。**
 
 ## 透過Workfront Proof啟動核准請求
 
