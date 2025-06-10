@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## 使用Workfront Proof檢閱內容
 
-[!DNL Proofing Viewer]提供[強大的標籤工具](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)，用於標註校樣及追蹤變更。 您也可以比較兩個版本的校訂。
+[!DNL Proofing Viewer]提供[強大的標籤工具](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)，用於標註校樣及追蹤變更。 您也可以比較兩個版本的校訂。
 
 **檢閱內容**：
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 比較校訂
 
-從[!DNL Proofing Viewer]，您可以[比較校訂版本](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)。
+從[!DNL Proofing Viewer]，您可以[比較校訂版本](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)。
 
 **比較校樣**：
 
@@ -94,4 +94,4 @@ ht-degree: 0%
 
    校樣並排顯示，較新版本位於左側。
 
-Workfront Proof提供數個工具來比較校樣，包括自動比較工具。 請參閱[使用比較工具](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)。
+Workfront Proof提供數個工具來比較校樣，包括自動比較工具。 請參閱[使用比較工具](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)。

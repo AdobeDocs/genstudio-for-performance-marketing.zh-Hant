@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 核准內容
 
-核准者在需要稽核和核準時會收到產品內通知、電子郵件，如果啟用，還會收到Slack通知。 通知會提供顯示檢閱內容之畫布的連結。 如需管理通知的相關資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
+核准者在需要稽核和核準時會收到產品內通知、電子郵件，如果啟用，還會收到Slack通知。 通知會提供顯示檢閱內容之畫布的連結。 如需管理通知的相關資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences)。
 
 如果內容草稿符合貴組織的標準和您的期望，您就可以核准草稿了。
 
