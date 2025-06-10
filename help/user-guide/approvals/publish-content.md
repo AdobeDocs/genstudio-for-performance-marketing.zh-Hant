@@ -3,16 +3,16 @@ title: 發佈核准的內容
 description: 瞭解如何使用Adobe GenStudio for Performance Marketing發佈核准的內容。
 feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
+source-git-commit: 82a29250b1a054c91f144c4e9c431324c5e61afa
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
 # 發佈核准的內容
 
-建立品牌一致核准內容的最後一個階段是使用適當的中繼資料將其儲存到[!DNL Content]。 您（內容編輯器或建立者）可以透過發佈或儲存至[!DNL Content]來完成核准的資產。
+建立品牌一致核准內容的最後一個階段是使用適當的中繼資料將其儲存到[!DNL Content]。 您（內容編輯器或建立者）可以透過將已核准資產發佈到[!DNL Content]來完成該資產。
 
 當所有指定的核准者核准草稿時，草稿狀態會變更為&#x200B;**已核准**。 Adobe GenStudio for Performance Marketing會在編輯器的畫布上顯示&#x200B;_已核准且準備發佈的變體_&#x200B;快顯視窗。
 
@@ -34,9 +34,11 @@ ht-degree: 0%
 
 ## 發佈後
 
-所有GenStudio for Performance Marketing使用者都可以存取[!DNL Content]中已核准的資產或體驗。 「資產詳細資訊」面板可識別資產的上傳和核准歷史記錄。 這些屬性可識別儲存的內容：
+所有GenStudio for Performance Marketing使用者都可以存取[!DNL Content]中已核准的資產或體驗。 _資產詳細資料_&#x200B;面板可識別資產的上傳與核准歷史記錄。 這些屬性可識別儲存的內容：
 
 * **[!UICONTROL 建立者]**：識別上傳資產或體驗的GenStudio使用者。
 * **[!UICONTROL 核准歷史記錄]**：識別核准日期和時間以及核准者。
 
 將草稿資產或體驗儲存至[!DNL Content]後，草稿URL無效。
+
+如果您已啟用Workfront Proof整合，校樣評論和版本會在資產或體驗發佈後儲存。
