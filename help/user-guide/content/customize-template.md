@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以透過插入內容預留位置或產生AI用來插入內容的欄位，自訂要在GenStudio for Performance Marketing中使用的範本。
 
-以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
+以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
 
 您的範本準備就緒後，您可以[將其上傳到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，並開始根據您的自訂範本產生個人化電子郵件。
 
@@ -50,7 +50,7 @@ GenStudio for Performance Marketing可辨識範本中特定型別的內容或[�
 | `{{cta}}` | call to action<br>檢視[行動號召](#calls-to-action) | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
 | `{{image}}` | 影像 — 從[!DNL Content]中選取 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
 | `{{on_image_text}}` | 在影像文字上<br>請參閱[在影像文字上](#on-image-text)。 | 中繼廣告<br>LinkedIn廣告 |
-| `{{link}}` | 影像上的呼叫動作<br>請參閱影像](#link-on-image)上的[連結。 | 電子郵件 |
+| `{{link}}` | 影像上的呼叫動作<br>請參閱影像[&#128279;](#link-on-image)上的連結。 | 電子郵件 |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 

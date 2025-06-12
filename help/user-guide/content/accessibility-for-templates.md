@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 建立無障礙範本
 
-Adobe致力於為所有受眾提供最佳體驗。 如需進一步閱讀，請參閱Adobe](https://www.adobe.com/trust/accessibility/initiatives.html)的[協助工具方案。
+Adobe致力於為所有受眾提供最佳體驗。 如需進一步閱讀，請參閱Adobe[&#128279;](https://www.adobe.com/trust/accessibility/initiatives.html)的協助工具方案。
 
 在GenStudio for Performance Marketing中，您可以上傳資產和範本，以針對各種體驗建立內容。 遵循協助工具標準有助於您的內容觸及到最大的目標受眾。
 
