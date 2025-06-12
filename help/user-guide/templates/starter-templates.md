@@ -3,12 +3,12 @@ title: 為GenStudio for Performance Marketing準備電子郵件範本
 description: 瞭解如何準備電子郵件範本以用於Adobe GenStudio for Performance Marketing。
 level: Beginner
 feature: Media Templates
-hide: true
-hidefromtoc: true
+badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"
 recommendations: noDisplay, noCatalog
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
+source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 0%
 _入門範本_&#x200B;是預先定義的範本選項，旨在協助您快速開始使用GenStudio for Performance Marketing，並瞭解如何建立有效的媒體。 在[!DNL Create]中，選取媒體型別。 如果有入門範本，請切換至&#x200B;**[!UICONTROL 入門範本]**&#x200B;索引標籤，以瀏覽並選取符合您需求的範本。
 
 ![入門範本標籤](/help/assets/starter-templates.png "選取範本標籤"){width="350"}
-
-## 選擇正確的外觀比例
 
 為您的廣告選取適當的外觀比例，對於最大化影響並確保內容在不同平台和位置間正確顯示非常重要。 選擇外觀比例時，請考量下列事項：
 

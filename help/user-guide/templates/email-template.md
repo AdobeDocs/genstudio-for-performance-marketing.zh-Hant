@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: d9d774f727b69b18af6114965fdb8ffb450f797b
+source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -27,14 +27,18 @@ ht-degree: 0%
 
 ## 可辨識的欄位名稱
 
-GenStudio for Performance Marketing會自動產生電子郵件的`subject`欄位。 自訂範本時，請在下列必填欄位中使用內容預留位置：
+自訂電子郵件範本時，請在下列必填欄位中使用內容預留位置：
 
-- `pre_header` （未啟用RTF文字）
 - `headline`
 - `sub_headline`
 - `body`
 - `cta`
 - `image` (從JPEG、PNG或GIF內容中選取)
+
+GenStudio for Performance Marketing會自動產生下列欄位。 未啟用RTF文字。 您不需要為下列專案套用內容預留位置：
+
+- `pre_header`
+- `subject`
 
 範本中允許的最大欄位為20。 請參閱[內容預留位置](/help/user-guide/content/customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
 
@@ -56,30 +60,46 @@ _區段_&#x200B;可讓您將內容組織成不同的群組，以支援更複雜�
 
 +++範例：電子郵件範本包含一個區段
 
-以下是包含一節之電子郵件的HTML範本基本範例。 標題包含用於樣式的簡單、內嵌CSS。 內文包含`pre_header`、`headline`和`image` [預留位置](#content-placeholders)，供GenStudio for Performance Marketing在電子郵件產生程式期間用來插入內容。
+以下是具有一個區段的HTML電子郵件範本的基本範例。 `<head>`包含用於樣式的簡單內嵌CSS，而`<body>`使用內容預留位置，例如`pre_header`、`headline`、`sub_headline`、`body`、`cta`和`image`等具有連結和。 這些預留位置可讓GenStudio for Performance Marketing在電子郵件產生期間插入動態內容。
 
-```html {line-numbers="true" highlight="13"}
+```html
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Adobe</title>
+        <title>Marketing Email</title>
         <style>
             .container {
-            width: 100%;
-            padding: 20px;
-            font-family: Arial, sans-serif;
+                width: 100%;
+                padding: 20px;
+                font-family: Arial, sans-serif;
+            }
+            .cta-button {
+                display: inline-block;
+                background-color: #fff;
+                color: #000;
+                border: 2px solid #000;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-family: 'Source Sans Pro', Arial, sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+                margin-top: 20px;
+                text-align: center;
             }
         </style>
     </head>
-    <body>{{pre_header}}
+    <body>
         <div class="container">
+            {{pre_header}}
             <h1>{{headline}}</h1>
-            <p><a href="{{link}}">
-            <img alt="{{headline}}"
-                    src="{{image}}"
-                    width="600" height="600"
-                    border="0"/></a></p>
+            <p>
+                <a href="{{link}}">
+                    <img alt="banner headline" src="{{image}}" width="600" height="600">
+                </a>
+            </p>
+            <h2>{{sub_headline}}</h2>
             <p>{{body}}</p>
+            <a href="#" class="cta-button">{{cta}}</a>
         </div>
     </body>
 </html>
@@ -114,6 +134,19 @@ _區段_&#x200B;可讓您將內容組織成不同的群組，以支援更複雜�
             .pod p {
                 color: #666;
             }
+            .cta-button {
+            display: inline-block;
+            background-color: #fff; /* Background color to white */
+            color: #000; /* Text color to black */
+            border: 2px solid #000; /* Border color to black */
+            padding: 10px 20px;
+            text-decoration: none;            
+            font-family: 'Source Sans Pro', Arial, sans-serif;
+            font-weight: 600; /* Semibold */
+            font-size: 14px;
+            margin-top: 20px;
+            text-align: center;
+            }
         </style>
     </head>
     <body>{{pre_header}}
@@ -123,17 +156,18 @@ _區段_&#x200B;可讓您將內容組織成不同的群組，以支援更複雜�
             <!-- Pod1 -->
             <div class="pod">
                 <h2>{{pod1_headline}}</h2>
-                <p><img alt="{{ headline }}" src="{{pod1_image}}" width="200" height="200" border="0"></p>
+                <p><img alt="pic1" src="{{pod1_image}}" width="200" height="200" border="0"></p>
                 <p>{{pod1_body}}</p>
             </div>
             <!-- End of Pod1 -->
             <!-- Pod2 -->
             <div class="pod">
                 <h2>{{pod2_headline}}</h2>
-                <p><img alt="{{headline}}" src="{{pod2_image}}" width="200" height="200" border="0"></p>
+                <p><img alt="pic2" src="{{pod2_image}}" width="200" height="200" border="0"></p>
                 <p>{{pod2_body}}</p>
             </div>
             <!-- End of Pod2 -->
+            <a href="#" class="cta-button">{{cta}}</a>
         </div>
     </body>
 </html>

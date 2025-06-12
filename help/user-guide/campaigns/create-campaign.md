@@ -3,7 +3,8 @@ title: Adobe GenStudio for Performance Marketing行銷活動
 description: 瞭解如何建立和管理運用創作AI資產和體驗的數位行銷活動。
 feature: Campaign Planning, Campaign Brief
 badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"
-source-git-commit: edbeb7f0d08e2215a23f15cfeff77a5217cd264b
+exl-id: b7c4194f-fa61-4739-acd6-7acbdd98e9b2
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 0%
@@ -16,12 +17,11 @@ GenStudio for Performance Marketing行銷活動會定義關鍵數位行銷活動
 
 行銷活動的主要元素儲存在行銷活動物件中，這會為所有使用相同唯一行銷活動名稱標籤的資產和體驗建立共用內容。 此標籤可識別整個GenStudio for Performance Marketing中的行銷活動。
 
-GenStudio系統管理員和Genstudio編輯人員可以建立行銷活動。
+GenStudio系統管理員和GenStudio編輯人員可以建立行銷活動。
 
 ## 定義行銷活動詳細資料
 
 {{$include /help/_includes/campaign-details.md}}
-
 
 **若要輸入行銷活動詳細資料**：
 

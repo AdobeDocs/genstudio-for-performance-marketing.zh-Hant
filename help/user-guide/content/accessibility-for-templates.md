@@ -3,16 +3,16 @@ title: 建立無障礙範本
 description: 在Adobe GenStudio for Performance Marketing中建立範本，這些範本可觸及更多對象並提供最佳體驗。
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: 28c128ad6f3d173b7516a6b1309555c12e6a4e2d
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # 建立無障礙範本
 
-Adobe致力於為所有受眾提供最佳體驗。 如需進一步閱讀，請參閱Adobe[&#128279;](https://www.adobe.com/trust/accessibility/initiatives.html)的協助工具方案。
+Adobe致力於為所有受眾提供最佳體驗。 如需進一步閱讀，請參閱Adobe](https://www.adobe.com/trust/accessibility/initiatives.html)的[協助工具方案。
 
 在GenStudio for Performance Marketing中，您可以上傳資產和範本，以針對各種體驗建立內容。 遵循協助工具標準有助於您的內容觸及到最大的目標受眾。
 
@@ -27,6 +27,11 @@ Adobe致力於為所有受眾提供最佳體驗。 如需進一步閱讀，請�
 ```
 
 ![創意拼貼、書籍、拿著巨鉛筆的男人、電腦](/help/assets/card-create-assets.png){width="400"}
+
+自訂範本時，請針對`alt`和`aria-label`屬性使用內容預留位置：
+
+- [替代文字](/help/user-guide/content/customize-template.md#alternative-text)
+- [協助工具標籤](/help/user-guide/content/customize-template.md#accessibility-label)
 
 ## 字型
 

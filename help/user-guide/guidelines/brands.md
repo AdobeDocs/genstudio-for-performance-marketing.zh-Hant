@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] 是完整的品牌資產集合（行銷文案、影像、體驗等），可協助您建立品牌一致的內容。
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,13 @@ GenStudio for Performance Marketing使用您[!DNL Brand]的豐富品牌資訊，
 
 已刪除的[!DNL Brands]已封存30天，並可在該期間內復原。
 
-## [!DNL Brands]指南
+## 品牌指南
 
 指引可讓GenStudio for Performance Marketing清楚掌握您專屬品牌的方法、語調、視覺感受等。
+
+>[!NOTE]
+>
+>如果您上傳以非英文撰寫的品牌指引，或手動使用非英文建立品牌，GenStudio for Performance Marketing會以相同語言顯示這些指引。
 
 從[平台指導方針和ADA協助工具標準](/help/user-guide/guidelines/overview.md#compliance)抽象出來的某些管道指導方針會預先填入為預設值。
 
@@ -42,7 +46,7 @@ GenStudio for Performance Marketing使用您[!DNL Brand]的豐富品牌資訊，
 
 下表顯示各類品牌語調指引和指引範例。
 
-| 指引類別 | 說明 | 最佳做法 |
+| 指引類別 | 說明 | 最佳實務 |
 | ------------------| :---------- | :---------- |
 | [!UICONTROL 音調] | 透過書面通訊表達的品牌個性 | 使用描述性字詞清楚傳達品牌的情感和語調。 <br>_範例_：「正版」、「可玩」<br><br>簡潔明瞭（3-6個准則），並專注於關鍵品牌語調屬性。<br><br>選取跨通訊通道一致的字詞/片語，以建立一致的品牌識別。 |
 | [!UICONTROL 品牌值] | 推動品牌文化、客戶體驗和業務策略的原則 | 使用描述性字詞來傳達品牌的使命、願景和受眾需求。 <br>_範例_：「真誠」、「鼓舞人心」、「漸進式」<br><br>簡潔明瞭（3-6個指導方針），並專注於核心品牌價值/主題。 |
@@ -70,7 +74,7 @@ GenStudio for Performance Marketing使用您[!DNL Brand]的豐富品牌資訊，
 
 下表顯示每個管道區段、可用的管道、區段說明、建議範例和範例結果。
 
-| 部分 | 頻道 | 說明 | 最佳做法 |
+| 部分 | 頻道 | 說明 | 最佳實務 |
 | ------------------| --------- | --------- | -------- |
 | 一般 | 電子郵件、中繼資料、橫幅和顯示廣告 | 第二個主旨行或電子郵件預覽文字 | 定義整體語調/情緒，以在整個電子郵件中保持一致（2-5准則）。<br>_範例_：「保持友善且平易近人的語調」、「避免過於正式的語言」<br><br> |
 | 主旨 | 電子郵件 | 摘要電子郵件內容的引人入勝且有趣的標題 | 針對語調、長度等提供具體指引（2-5個指引）。 在&#x200B;_範例_&#x200B;區段中新增先前成功的主旨行，以獲得更好的品質輸出。<br>_範例_：「將主旨與電子郵件內文對齊」 |
@@ -137,7 +141,7 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
 ### 標誌
 
-[!DNL Brand]標誌可作為代表公司身分、值和產品的視覺符號。 您可以為JPG、JPEG、SVG或PNG格式的[!DNL Brand]上傳一個或多個標誌（每個檔案不得超過1GB）。 可以在建立[!DNL Brand]期間或從個別&#x200B;_[!DNL Brands]檢視_&#x200B;新增標誌。
+[!DNL Brand]標誌可作為代表公司身分、值和產品的視覺符號。 您可以為JPG、JPEG、SVG或PNG格式的[!DNL Brand]上傳一個或多個標誌（每個檔案不得超過1GB）。 可以在建立[!DNL Brand]期間或從個別&#x200B;_[!DNL Brands]檢視_&#x200B;新增標誌。 圖志可以做為特定[!DNL Brand]的縮圖影像。
 
 每個上傳的標誌會在標誌圖磚中包含下列詳細資訊：
 
@@ -145,7 +149,13 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 - 檔案大小
 - 解決方法
 
-從色彩的動作功能表（三個點），您可以&#x200B;**[!UICONTROL 下載]**、**[!UICONTROL 重新命名]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**&#x200B;色彩。
+從標誌的動作功能表（三個點），您可以[檢視詳細資料並管理](/help/user-guide/guidelines/add-guidelines.md#manage-brands)個人標誌：
+
+- **[!UICONTROL 檢視詳細資料]**
+- **[!UICONTROL 下載]**
+- [**[!UICONTROL 用作品牌縮圖]**](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail)
+- **[!UICONTROL 重新命名]**
+- **[!UICONTROL 刪除]**
 
 ### 顏色
 

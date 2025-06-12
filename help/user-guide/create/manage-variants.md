@@ -3,9 +3,9 @@ title: 管理變體
 description: 根據您的數位行銷需求，自訂及增強產生的變體和資產。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,27 @@ Adobe GenStudio for Performance Marketing [!DNL Create]可讓您自訂及增強�
 
 ## 手動編輯文字
 
-您可以編輯產生之變體中的文字欄位。 透過實驗不同的短語和措辭，為您的對象調整文字。 例如，您可以手動修訂變體中的文字，以預覽所選影像的標題外觀。
+您可以編輯產生之變體中的文字欄位。 透過實驗不同的短語和措辭並套用格式，為您的對象調整文字。 例如，您可以粗體和右對齊變體的文字，以符合影像的版面。
+
+可用的文字格式包括：
+
+* 粗體、斜體和底線
+* 靠左、靠中和靠右對齊
+* 專案符號和順序清單
+* 文字顏色
+* 文字大小
+* 連結
+
+文字格式選項會因管道而異（中繼、電子郵件等）
 
 **若要在產生的變化中手動編輯文字**：
 
 1. 產生一組變體後，在變體中的可編輯文字上連按兩下。
 1. 輸入新文字。
+1. 若要格式化文字，請反白適用的文字，然後按一下**[!UICONTROL 格式化文字**]。
+
+   套用任何（或全部！）可用的格式選項至您的文字。
+
 1. 按一下關閉文字欄位以儲存。
 
 ## 檢檢視層
@@ -85,7 +100,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 1. 按一下「**[!UICONTROL 重述]**」。
 
-   1. 從重新產生的片語清單中選擇，或按一下[重新整理結果] **以取得更多選項。**
+   1. 從重新產生的片語清單中選擇，或按一下[重新整理結果] ]**以取得更多選項。**[!UICONTROL 
 
    1. 按一下&#x200B;**[!UICONTROL 取代]**。
 
@@ -95,22 +110,55 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
    1. 在URL中輸入或貼上，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-      若要修訂CTA中的現有連結，請編輯現有URL或貼入新URL，然後按一下[套用]。**&#x200B;**
+      若要修訂CTA中的現有連結，請編輯現有URL或貼入新URL，然後按一下[套用]。****
 
 新增或修訂連結會套用至變體集中的所有CTA。
 
 ## 裁切資產
 
-您可以在個別產生的變體中，手動裁切和重新定位影像資產。
+您可以使用裁切工具，以手動方式裁切和重新定位個別產生變體中的影像資產。
 
 **若要裁切和重新定位變體中的影像**：
 
-1. 產生一組變體後，將滑鼠移至變體內的影像上。
-1. 按一下影像左角的裁切圖示。
+1. 產生一組變體後，將滑鼠懸停在變體中的影像上並按一下。
+1. 按一下&#x200B;**[!UICONTROL 編輯]** （鉛筆圖示）。
+1. 按一下&#x200B;**[!UICONTROL 裁切]**。
 1. 調整影像邊界方框，並將影像拖曳到需要的位置。
 1. 按一下&#x200B;**[!UICONTROL 套用]**&#x200B;將裁切套用至單一影像，或按一下&#x200B;**[!UICONTROL 套用至所有影像]**&#x200B;套用至變體中的所有影像。
 
    裁切的影像會儲存並對變體可見。
+
+## 使用產生式展開
+
+展開影像的尺寸，並以「創作」展開來新增創作的內容。 「產生式展開」可讓您將不符合的影像轉換為橫幅、中繼廣告、LinkedIn廣告或顯示廣告範本最適合的外觀比例。
+
+此「產生式擴充」功能與「裁切」工具搭配使用，可讓您全面控制付費媒體頻道中各種外觀比例的資產。
+
+**若要使用Generative Expand將影像配合您的頻道範本**：
+
+1. 產生一組變體後，將滑鼠懸停在變體中的影像上並按一下。
+1. 按一下&#x200B;**[!UICONTROL 編輯]** （鉛筆圖示）。
+1. 按一下&#x200B;**[!UICONTROL 展開]**。
+
+   影像會在&#x200B;_編輯影像_&#x200B;畫布檢視中開啟，其邊界方塊符合您工作範本的外觀比例。
+
+1. 將影像四處移動，以達到理想的位置。
+1. _選擇性_&#x200B;在提示方塊中新增提示，提供您要如何展開影像的詳細資訊。
+
+   舉例來說，如果您要展開一張圖片，上面是一件格子襯衫掛在晾衣繩上，上面是露營地的火焰，您可以加上「在山裡露營時，身著爆裂火焰的霧山」。
+
+   使用產生式展開之前：
+
+   產生式展開前![](/help/assets/before-genexpand.png){width="300" zoomable="yes"}
+
+   使用產生式展開之後：
+
+   產生式展開後![](/help/assets/after-genexpand.png){width="300" zoomable="yes"}
+
+1. 按一下&#x200B;**[!UICONTROL 產生]**。
+1. 點進並選取產生的選項，或按一下&#x200B;**[!UICONTROL 更多]** （加號圖示）以取得產生的選項清單。
+1. 按一下&#x200B;**[!UICONTROL 保留]**&#x200B;以儲存產生式展開結果。
+1. 若要將該結果套用至單一影像，請按一下&#x200B;**[!UICONTROL 套用]**。 按一下&#x200B;**[!UICONTROL 套用至所有影像]**，將結果套用至變體集中的所有相關影像。
 
 ## 變更外觀比例
 
@@ -148,7 +196,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 1. 按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
 1. 使用GenStudio資產[!DNL Content]檢視中的篩選和搜尋功能，進一步縮小搜尋結果的範圍。
 
-   您也可以從[**[!UICONTROL 位置&#x200B;]**&#x200B;功能表](/help/user-guide/content/manage-assets.md#location)中選取已連線的Adobe Experience Manager (AEM) Assets Content Hub存放庫，使用該存放庫中的可用影像。
+   您也可以從[**[!UICONTROL 位置&#x200B;]**功能表](/help/user-guide/content/manage-assets.md#location)中選取已連線的Adobe Experience Manager (AEM) Assets Content Hub存放庫，使用該存放庫中的可用影像。
 
 1. 按一下以選取影像，然後按一下&#x200B;**[!UICONTROL 使用]**。
 
@@ -156,7 +204,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 ## 新增影像連結
 
-與新增或交換產生之變體中的影像類似，您可以新增影像連結。 您用來產生變體&#x200B;_的範本必須_&#x200B;包含連結[&#128279;](/help/user-guide/content/customize-template.md#content-placeholders)的內容預留位置，才能啟用此功能。
+與新增或交換產生之變體中的影像類似，您可以新增影像連結。 您用來產生變體&#x200B;_的範本必須_&#x200B;包含連結](/help/user-guide/content/customize-template.md#content-placeholders)的[內容預留位置，才能啟用此功能。
 
 **若要在變體**&#x200B;中新增影像連結：
 
@@ -174,7 +222,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 當您在建立過程中新增內容（影像）時，可以為每個包含的影像定義替代文字。 將替代文字新增至影像可改善協助工具、搜尋引擎最佳化及使用者體驗。
 
-若要啟用替代文字功能，請在範本中新增內容預留位置[&#128279;](/help/user-guide/content/customize-template.md#alternative-text)。
+若要啟用替代文字功能，請在範本中新增內容預留位置](/help/user-guide/content/customize-template.md#alternative-text)。[
 
 **若要新增替代文字至產生之變體中的影像**：
 
@@ -184,10 +232,23 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
    1. 按一下文字方塊並新增替代文字。
    1. 按一下「**[!UICONTROL 套用]**」。
 1. 若要產生影像的替代文字，請執行下列動作：
-   1. 文字欄位保持空白，然後按一下[產生]。**&#x200B;**
-   1. 如果您對初始結果不滿意，請按一下[產生&#x200B;**&#x200B;**]。
+   1. 文字欄位保持空白，然後按一下[產生]。****
+   1. 如果您對初始結果不滿意，請按一下[產生&#x200B;****]。
    1. 按一下「**[!UICONTROL 套用]**」。
 1. 針對變體集中的每個影像重複此步驟。
+
+## 新增協助工具標籤
+
+新增協助工具標籤(Aria-labels)，為您的變體中的影像和call-to-action連結提供協助工具名稱。 協助工具標籤可補充可見文字，協助使用者瞭解連結或按鈕的用途。
+
+**若要在變體中的影像或call-to-action連結中新增協助工具標籤**：
+
+1. 產生一組變體後，按一下變體中的影像或call-to-action。
+1. 按一下&#x200B;**[!UICONTROL ARIA-label]**&#x200B;按鈕。
+1. 按一下進入文字方塊，並新增簡短說明，說明連結或按鈕的作用。 例如，您可以使用「在WKND的官方網站購物」作為call to action按鈕連結。
+1. 按一下「**[!UICONTROL 套用]**」。
+
+若要啟用協助工具標籤功能，[在範本中新增內容預留位置](/help/user-guide/content/customize-template.md)。
 
 ## 裝置的預覽
 

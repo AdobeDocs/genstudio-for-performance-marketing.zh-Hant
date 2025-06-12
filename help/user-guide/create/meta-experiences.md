@@ -5,18 +5,18 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 0344e43bc9cd417ea7b3ecd3a394bbcd6b104303
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
 # 中繼體驗
 
-透過Adobe GenStudio for Performance Marketing，您可以使用創作AI來簡化[建立高影響力的中繼體驗](/help/user-guide/create/create-meta-ad.md)。
+透過Adobe GenStudio for Performance Marketing，您可以使用創作AI來簡化[建立高影響力的中繼體驗](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]可讓內容建立者使用[指南](/help/user-guide/guidelines/overview.md)、影像資產，以及[精心設計的提示](/help/user-guide/effective-prompts.md)，快速[建立中繼廣告體驗](/help/user-guide/create/create-meta-ad.md)。
 
-[!DNL Create]可讓內容建立者使用[指南](/help/user-guide/guidelines/overview.md)、影像資產，以及[精心設計的提示](/help/user-guide/effective-prompts.md)，快速[建立中繼廣告體驗](/help/user-guide/create/create-meta-ad.md)。
+產生中繼體驗時，會建立四個變數並顯示在畫布中。 GenStudio for Performance Marketing同時支援[標準和自訂大小的中繼廣告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 
 產生中繼體驗時，四個變數會建立並顯示在畫布中。
 
@@ -28,13 +28,9 @@ GenStudio for Performance Marketing同時支援[標準和自訂大小的中繼�
 * 內文
 * call to action (CTA)
 * 影像上文字
-* 影像
+* 影像/影片
 
 請參閱[範本元素](/help/user-guide/content/use-templates.md#template-elements)。
-
-<!-- ## Meta ad capabilities
-
-Content creators and marketers can produce brand-consistent Meta ad experiences in GenStudio for Performance Marketing. -->
 
 ## 中繼廣告管道
 

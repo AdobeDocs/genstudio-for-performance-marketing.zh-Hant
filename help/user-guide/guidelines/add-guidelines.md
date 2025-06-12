@@ -5,9 +5,9 @@ feature: Brand Personalization, Product Personalization, Persona Personalization
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,9 @@ ht-degree: 0%
 
 若要新增[!DNL Brand]，[上傳品牌指南](#upload-a-brand)或[藉由選取指引並輸入您的品牌詳細資料來手動建立品牌](#manually-add-brand)。 [將 [!DNL Brand]](#publish-brand)發佈至[!DNL Content]以供未來產生內容使用。
 
-在左側導覽區域中，按一下&#x200B;_共用_&#x200B;清單中的&#x200B;**[!DNL Brands]**。 在&#x200B;_[!DNL Brands]_&#x200B;面板中，選取&#x200B;**新增品牌**。
+如果您上傳以非英文撰寫的品牌指引，或手動使用非英文建立品牌，GenStudio for Performance Marketing會以相同語言顯示這些指引。
+
+在左側導覽區域中，按一下&#x200B;_共用_&#x200B;清單中的&#x200B;**[!DNL Brands]**。 在&#x200B;_[!DNL Brands]_面板中，選取&#x200B;**新增品牌**。
 
 >[!TIP]
 >
@@ -75,7 +77,7 @@ ht-degree: 0%
 
    ![品牌](/help/assets/brands.png){width="600" zoomable="yes"}
 
-   - _何時使用此品牌_：按一下[新增]&#x200B;**&#x200B;** （或按一下文字欄位以變更現有文字），然後輸入品牌的概述和使用資訊。 按一下&#x200B;**[!UICONTROL 儲存變更]**。
+   - _何時使用此品牌_：按一下[新增]**** （或按一下文字欄位以變更現有文字），然後輸入品牌的概述和使用資訊。 按一下&#x200B;**[!UICONTROL 儲存變更]**。
    - [_[!DNL Brand]語音准則&#x200B;_](brands.md#brand-voice-guidelines)：在每個准則欄位中新增適用的資訊。
 
      ![新增[!DNL Brand]語音准則](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
@@ -91,11 +93,26 @@ ht-degree: 0%
 
 您不必[發佈](#publish-brand)您的[!DNL Brand]，即可存取資訊。 任何手動新增的資訊在新增後即可立即使用。 若要讓您組織中的其他人在GenStudio for Performance Marketing中使用[!DNL Brand]資訊，您必須將其發佈。 已建立的[!DNL Brand]在發佈之前為草稿形式。
 
+### 變更品牌縮圖
+
+手動新增[!DNL Brand]之後，您可以變更縮圖影像，以確保在[!DNL Brands]清單中可輕鬆加以區分。
+
+如果[!DNL Brand]是由檔案擷取（而非手動新增）所建立，則這些檔案中的可用標誌會自動實作為縮圖影像。
+
+**若要手動變更[!DNL Brand]**&#x200B;的縮圖影像：
+
+1. 從動作功能表中選取&#x200B;**[!UICONTROL 變更縮圖]**。
+1. 在&#x200B;_上傳_&#x200B;索引標籤中上傳新影像。
+1. 在&#x200B;_[!UICONTROL 變更縮圖]_&#x200B;中，變更上傳的影像。
+1. 選取「**[!UICONTROL 更新]**」以將影像儲存為[!DNL Brand]縮圖影像。
+
+您可以在[!UICONTROL 標誌]索引標籤檢視中為[!DNL Brand]選取現有的[!DNL Brand]標誌。 按一下以開啟標誌，然後從動作選單中選取&#x200B;**[!UICONTROL 作為品牌縮圖]**。
+
 ### 發佈品牌
 
 發佈[!DNL Brand]草稿之前，請按一下所有指引區段以檢閱所有填入的資訊。 視需要對品牌指導方針進行變更。
 
-在&#x200B;_[!DNL Brands]_&#x200B;中，任何草稿或已發佈的[!DNL Brands]都會顯示為圖磚。 狀態徽章 —_&#x200B;已發佈&#x200B;_或_&#x200B;草稿&#x200B;_— 以及上次修改品牌的時間會顯示在每個圖磚的底部。
+在&#x200B;_[!DNL Brands]_中，任何草稿或已發佈的[!DNL Brands]都會顯示為圖磚。 狀態徽章 —_&#x200B;已發佈&#x200B;_或_&#x200B;草稿&#x200B;_— 以及上次修改品牌的時間會顯示在每個圖磚的底部。
 
 >[!TIP]
 >
@@ -121,7 +138,7 @@ ht-degree: 0%
 
 ### 管理品牌
 
-在&#x200B;_[!DNL Brands]_&#x200B;首頁中，您可以按一下以開啟已建立的品牌，以進行管理或發佈。
+在&#x200B;_[!DNL Brands]_首頁中，您可以按一下以開啟已建立的品牌，以進行管理或發佈。
 
 若要&#x200B;**檢視品牌資訊**，請按一下左側導覽區域中的&#x200B;**[!UICONTROL [!DNL Brands]]**，然後按一下以開啟現有的品牌。
 
@@ -129,8 +146,14 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!DNL Brands]**&#x200B;中，按一下以開啟已定義的品牌。
 1. 若要檢視個別詳細資料或修改准則，請按一下頂端的[**[!UICONTROL 品牌語音准則]**](brands.md#brand-voice-guidelines)、[**[!UICONTROL 影像准則]**](brands.md#image-guidelines)、[**[!UICONTROL 頻道准則]**](brands.md#channel-guidelines)、[**[!UICONTROL 標誌]**](brands.md#logos)或[**[!DNL Colors]**](brands.md#colors)。
+1. 若要管理品牌標誌，請按一下頂端的[**[!UICONTROL 標誌]**](brands.md#logos)，然後按一下動作功能表（三個點）。
+   1. 選取&#x200B;**[!UICONTROL 檢視詳細資料]**&#x200B;以檢視[!DNL Brand]的資訊，例如&#x200B;_格式_&#x200B;和&#x200B;_大小_。
+   1. 選取&#x200B;**[!UICONTROL 下載]**&#x200B;以下載標誌。
+   1. 選取[**[!UICONTROL 使用作為品牌縮圖]](#change-brand-thumbnail)，將標誌設定為縮圖影像。
+   1. 選取&#x200B;**[!UICONTROL 重新命名]**&#x200B;以重新命名標誌。
+   1. 選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以刪除標誌。
 1. 若要重新命名現有品牌，請按一下標題並輸入新標題。
-1. 若要複製現有品牌，請從&#x200B;_[!DNL Brands]_&#x200B;動作功能表選取&#x200B;**[!UICONTROL 複製]**。
+1. 若要複製現有品牌，請從&#x200B;_[!DNL Brands]_動作功能表選取&#x200B;**[!UICONTROL 複製]**。
    1. 在&#x200B;_重複品牌_&#x200B;快顯視窗中輸入品牌名稱，然後按一下&#x200B;**[!UICONTROL 重複品牌]**。
 
       快顯視窗會確認品牌已複製 — 「已建立新品牌」。 重複的品牌最初處於&#x200B;_取消發佈_&#x200B;模式。
@@ -142,7 +165,7 @@ ht-degree: 0%
 
 若要新增角色，請[上傳角色指南](#upload-a-persona)或[藉由選取指南並輸入角色詳細資訊，手動建立角色](#manually-add-persona)。
 
-在左側導覽區域中，按一下&#x200B;_共用_&#x200B;清單中的&#x200B;**[!DNL Personas]**。 在&#x200B;_[!DNL Personas]_&#x200B;面板中，選取&#x200B;**新增角色**。
+在左側導覽區域中，按一下&#x200B;_共用_&#x200B;清單中的&#x200B;**[!DNL Personas]**。 在&#x200B;_[!DNL Personas]_面板中，選取&#x200B;**新增角色**。
 
 您可以在GenStudio for Performance Marketing中新增[!DNL Persona]，協助將您建立的內容鎖定為您理想的對象。
 
@@ -194,13 +217,13 @@ ht-degree: 0%
 1. 若要編輯封面影像，請將滑鼠游標停留在封面上，然後從動作選單中選取&#x200B;**[!UICONTROL 編輯封面]**。
    1. 從&#x200B;_相簿_&#x200B;標籤&#x200B;_的相簿中選擇影像，或_&#x200B;在&#x200B;_上傳_&#x200B;標籤中上傳新影像。
    1. 按一下&#x200B;**[!UICONTROL 使用影像]**。
-   1. 若要重新定位封面影像，請按一下動作功能表中的[重新定位] **&#x200B;**，將影像拖曳到需要的位置，然後按一下[儲存] **&#x200B;**。
+   1. 若要重新定位封面影像，請按一下動作功能表中的[重新定位] ****，將影像拖曳到需要的位置，然後按一下[儲存] ****。
 
-   若要檢視您建立的[!DNL Personas]，請按一下&#x200B;_角色_&#x200B;檢視頂端附近的向後箭頭，以導覽回&#x200B;_[!DNL Personas]_&#x200B;首頁。
+   若要檢視您建立的[!DNL Personas]，請按一下&#x200B;_角色_&#x200B;檢視頂端附近的向後箭頭，以導覽回&#x200B;_[!DNL Personas]_首頁。
 
 ### 管理[!DNL Personas]
 
-在&#x200B;_[!DNL Personas]_&#x200B;首頁中，您可以&#x200B;**開啟已建立的[!DNL Persona]**&#x200B;以進行編輯或檢閱，或從清單中&#x200B;**刪除角色**：
+在&#x200B;_[!DNL Personas]_首頁中，您可以&#x200B;**開啟已建立的[!DNL Persona]**以進行編輯或檢閱，或從清單中&#x200B;**刪除角色**：
 
 - 從[!DNL Personas]動作選單中選取&#x200B;**[!UICONTROL 開啟]**&#x200B;以修訂和檢閱現有角色。
 - 從[!DNL Personas]動作功能表中選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以&#x200B;**刪除**&#x200B;角色。
@@ -210,7 +233,7 @@ ht-degree: 0%
 
 若要新增產品，[請上傳產品指南](#upload-a-product)或[藉由選取指引並輸入產品詳細資料來手動建立產品](#manually-add-product)。
 
-在左側導覽區域中，按一下&#x200B;_共用_&#x200B;清單中的&#x200B;**[!DNL Products]**。 在&#x200B;_[!DNL Products]_&#x200B;面板中，選取&#x200B;**新增產品**。
+在左側導覽區域中，按一下&#x200B;_共用_&#x200B;清單中的&#x200B;**[!DNL Products]**。 在&#x200B;_[!DNL Products]_面板中，選取&#x200B;**新增產品**。
 
 ![新增[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
 
@@ -262,13 +285,13 @@ ht-degree: 0%
 1. 若要編輯封面影像，請將滑鼠游標停留在封面上，然後從動作選單中選取&#x200B;**[!UICONTROL 編輯封面]**。
    1. 從&#x200B;_相簿_&#x200B;標籤&#x200B;_的相簿中選擇影像，或_&#x200B;在&#x200B;_上傳_&#x200B;標籤中上傳新影像。
    1. 按一下&#x200B;**[!UICONTROL 使用影像]**。
-   1. 若要重新定位封面影像，請按一下動作功能表中的[重新定位] **&#x200B;**，將影像拖曳到需要的位置，然後按一下[儲存] **&#x200B;**。
+   1. 若要重新定位封面影像，請按一下動作功能表中的[重新定位] ****，將影像拖曳到需要的位置，然後按一下[儲存] ****。
 
-   若要檢視您建立的[!DNL Products]，請按一下&#x200B;_產品_&#x200B;檢視頂端附近的向後箭頭，以導覽回&#x200B;_[!DNL Products]_&#x200B;首頁。
+   若要檢視您建立的[!DNL Products]，請按一下&#x200B;_產品_&#x200B;檢視頂端附近的向後箭頭，以導覽回&#x200B;_[!DNL Products]_首頁。
 
 ### 管理[!DNL Products]
 
-在&#x200B;_[!DNL Products]_&#x200B;首頁中，您可以&#x200B;**開啟已建立的[!DNL Product]**&#x200B;以進行編輯或檢閱，或從清單中&#x200B;**刪除產品**：
+在&#x200B;_[!DNL Products]_首頁中，您可以&#x200B;**開啟已建立的[!DNL Product]**以進行編輯或檢閱，或從清單中&#x200B;**刪除產品**：
 
 - 從[!DNL Products]動作選單中選取&#x200B;**[!UICONTROL 開啟]**&#x200B;以修訂與檢閱現有產品。
 - 從[!DNL Products]動作功能表選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以&#x200B;**刪除**&#x200B;產品。

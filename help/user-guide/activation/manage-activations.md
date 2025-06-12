@@ -3,7 +3,7 @@ title: 管理啟用
 description: 瞭解如何使用Adobe GenStudio for Performance Marketing管理啟用的體驗。
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 65bf96b7b2871e0c28dbe341b71f4e8584de9f3e
+source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 管理啟用
 
-_[!DNL Activate]_&#x200B;提供每個廣告頻道啟用狀態的集中檢視，包括「已發佈」（成功）、「失敗」（失敗）和「發佈」（擱置）啟用。_&#x200B;啟用的體驗&#x200B;_檢視會顯示一個已連線頻道廣告帳戶的所有啟用。
+[!DNL Activate]提供每個廣告頻道啟用狀態的集中檢視，包括「已發佈」（成功）、「失敗」（失敗）和「發佈」（擱置）啟用。 _啟用的體驗_&#x200B;檢視會顯示一個已連線頻道廣告帳戶的所有啟用。
 
-_[!DNL Activate]_&#x200B;會依廣告頻道組織已啟用的體驗。 按一下頻道圖磚上的&#x200B;**[!UICONTROL 檢視]**。 所選管道的_&#x200B;已啟動體驗&#x200B;_檢視隨即開啟。 此檢視會依名稱列出體驗，並按啟用日期排序。 如果您的組織尚未為該頻道啟動體驗，則產品圖磚不包含&#x200B;**[!UICONTROL 檢視]**&#x200B;按鈕。
+[!DNL Activate]會依廣告頻道組織已啟用的體驗。 按一下頻道圖磚上的&#x200B;**[!UICONTROL 檢視]**。 所選管道的&#x200B;_已啟動體驗_&#x200B;檢視隨即開啟。 此檢視會依名稱列出體驗，並按啟用日期排序。 如果您的組織尚未為該頻道啟動體驗，則產品圖磚不包含&#x200B;**[!UICONTROL 檢視]**&#x200B;按鈕。
 
 ## 啟用的體驗檢視
 
@@ -24,7 +24,7 @@ _[!DNL Activate]_&#x200B;會依廣告頻道組織已啟用的體驗。 按一下
 
 | 屬性 | 值 |
 |------------------|---------------------------------------------------------------------------------------------|
-| 體驗名稱 | GenStudio for Performance Marketing中的體驗名稱<br>此名稱可識別&#x200B;_[!DNL Content]_&#x200B;中的體驗 |
+| 體驗名稱 | GenStudio for Performance Marketing中的體驗名稱<br>此名稱可識別&#x200B;_[!DNL Content]_中的體驗 |
 | 廣告名稱 | 廣告頻道中的廣告名稱 |
 | 發佈日期 | 廣告體驗成功發佈的日期<br>使用月日年格式 |
 | 發佈者 | 啟用體驗的GenStudio for Performance Marketing使用者名稱 |

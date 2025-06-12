@@ -5,9 +5,9 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
+source-git-commit: 7495891b58d7830453ba81048df3373820823136
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,14 @@ GenStudio for Performance Marketing會使用有關您的品牌和市場的資訊
 
 ### 步驟1：新增指引
 
-設定組織品牌識別的主要建置組塊，是內容編輯與共同作業人員工作的必要先決條件。 [指南](/help/user-guide/guidelines/overview.md)擷取品牌特性，例如圖志、語調和調色盤。 您可以上傳[[!DNL Brands] 指南](/help/user-guide/guidelines/brands.md)檔案或手動輸入品牌資訊。 [[!DNL Personas] 准則](/help/user-guide/guidelines/personas.md)和[[!DNL Products] 准則](/help/user-guide/guidelines/products.md)也很重要。 GenStudio for Performance Marketing的基本產生AI功能會使用這些准則來建立護欄，以引導內容產生。
+品牌[指導方針](/help/user-guide/guidelines/overview.md)擷取品牌特性。 GenStudio for Performance Marketing的基本創作AI功能會使用這些准則來建立護欄，以引導內容產生。 您可以上傳[[!DNL Brands] 指南](/help/user-guide/guidelines/brands.md)檔案或手動輸入品牌資訊。
+
+內容編輯與共同作業人員必須等到貴組織的[品牌識別](/help/user-guide/guidelines/brands.md)的基本元素建立後，才能開始工作。 這些品牌元件包含兩者：
+
+* 無形元素，例如語調
+* 有形資產，例如標誌、調色盤和印刷樣式。
+
+在建立指引之前，請先瞭解GenStudio for Performance Marketing如何定義[品牌元件](/help/user-guide/guidelines/brands.md)
 
 #### 準備您的指引檔案
 

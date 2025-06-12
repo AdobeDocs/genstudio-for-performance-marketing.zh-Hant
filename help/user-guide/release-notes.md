@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2667'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,45 @@ ht-degree: 0%
 
 此版本資訊詳細說明GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2025.05.15 {#latest}
+## 2025.06 {#latest}
+
+### 可用的入門範本
+
+[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
+
+[入門範本](/help/user-guide/templates/starter-templates.md)提供快速啟動創意程式的方法。 您現在可以從Meta或LinkedIn廣告入門範本中選取。
+
+### 產生式擴展AI功能
+
+[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
+
+現在，在GenStudio for Performance Marketing [!DNL Create]中，您可以使用[Generative Expand AI功能](/help/user-guide/create/manage-variants.md#use-generative-expand)來擴展影像的尺寸，並新增產生式內容以符合付費媒體變體中的廣告範本。
+
+### 新增影片至廣告
+
+[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
+
+除了影像內容之外，您現在還可以新增視訊至[LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos)和[Meta](/help/user-guide/create/create-meta-ad.md#manage-videos)廣告。 選擇影片並新增至變體時，請直接在GenStudio for Performance Marketing中檢視自動播放影片預覽。
+
+### 修正和增強功能
+
+* 新增支援[將廣告體驗](/help/user-guide/activation/activate-linkedin-ad.md)從GenStudio for Performance Marketing發佈至LinkedIn行銷活動管理員。 [!DNL Activate]在發佈至LinkedIn行銷活動管理員之前，支援詳細的LinkedIn廣告預覽。
+
+* [Workfront Proof整合](/help/user-guide/approvals/overview.md)為GenStudio for Performance Marketing提供強大的校訂檢閱和核准功能。 在GenStudio for Performance Marketing中檢閱的內容會同步至Workfront Proof，且檢閱評論和狀態會保留。
+
+* 已新增功能，透過新增協助工具標籤(Aria-labels)，[為您的變體中的影像和call-to-action連結](/help/user-guide/create/manage-variants.md#add-accessibility-labels)提供可存取的名稱。
+
+* 以非英文新增或修訂[品牌指引](/help/user-guide/guidelines/brands.md)時，GenStudio for Performance Marketing會以相同語言顯示這些指引。
+
+* 手動新增[!DNL Brand]或透過從檔案手動擷取來建立[!DNL Brand]之後，您可以[變更或新增品牌縮圖影像](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail)，以確保在您的[!DNL Brands]清單中可輕鬆區分每個品牌。
+
+* 您現在可以在產生的變體中[對文字](/help/user-guide/create/manage-variants.md#manually-edit-text)使用RTF編輯格式。 嘗試各種變體文字的格式選項，例如顏色、大小、清單等。
+
+* 您現在可以在平台設定期間，透過複製平台設定期間的現有廣告集[建立新的廣告集](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set)。 中繼廣告集定義特定廣告的時機、頻道詳細資訊和對象。 中繼行銷活動可包含多個廣告集，但一個廣告集僅與一個行銷活動相關聯。
+
+## 舊版發行說明
+
++++2025.05.15註釋
 
 ### 修正和增強功能
 
@@ -24,7 +62,7 @@ ht-degree: 0%
 * 現在您可以選擇多個體驗來匯出或下載。 請參閱[匯出體驗](/help/user-guide/content/manage-assets.md#export-experiences)。
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
-## 舊版發行說明
++++
 
 +++2025.04.15版注意事項
 
@@ -34,6 +72,8 @@ ht-degree: 0%
 * 啟用功能，可[檢視及選取體驗的個別圖層](/help/user-guide/create/manage-variants.md#view-layers) （可編輯的文字欄位或可編輯的影像），以反白它們以進行修訂，例如重新產生內容或裁切影像。
 * 已新增[新範本欄位](/help/user-guide/content/use-templates.md#template-elements) `sub-headline`，以便在體驗中取得其他文字，以吸引受眾注意並突顯行銷訊息。
 * 新增支援[將廣告體驗](/help/user-guide/activation/overview.md)從GenStudio for Performance Marketing發佈至Google Campaign Manager 360。 「啟動」在發佈至「Google管理員360廣告商」之前，可支援詳細的「Campaign管理員360廣告預覽。 透過「啟動」發佈的廣告一經上線，就會自動提取至「深入分析」中，讓使用者可以追蹤及報告廣告效益。
+
++++
 
 +++2025.03.13註釋
 
@@ -57,7 +97,7 @@ ht-degree: 0%
 
 作為品牌驗證程式的一部分，[內容檢查](/help/user-guide/guidelines/brand-validation.md)已引入[法規遵循標準](/help/user-guide/guidelines/overview.md)。 這些檢查會根據[!DNL Brand]指南、平台指南（例如Meta）和ADA標準來檢閱體驗中的每個變體。 此程式提供需修訂以符合規範之指引和標準的完整摘要。
 
-### 擴充性
+### 擴展性
 
 新的GenStudio for Performance Marketing [可擴充性架構](/help/extensibility/overview.md)提供工具，讓組織能夠透過附加元件或可擴充應用程式，將自己的宣告規範遵循通訊協定整合到內容建立工作流程與驗證中。
 
@@ -76,8 +116,8 @@ ht-degree: 0%
 * 已新增在變體中[新增連結至影像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
 * 將[內容檢查](/help/user-guide/guidelines/brand-validation.md)和檢閱及核准功能移至新的右方動作列，以最大化畫布空間並改善使用者體驗。
 * 簡化[上傳或手動新增品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
-* 引進在畫布上的變體[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)中新增或交換影像資產的功能。
-* 改善使用者體驗和建立首頁[&#128279;](/help/user-guide/create/overview.md)上頻道類別的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
+* 引進在畫布上的變體](/help/user-guide/create/manage-variants.md#swap-image)中[新增或交換影像資產的功能。
+* 改善使用者體驗和建立首頁](/help/user-guide/create/overview.md)上頻道類別[的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
 * 已改善[!DNL Insights]表格和相簿檢視中的篩選。
 
 +++

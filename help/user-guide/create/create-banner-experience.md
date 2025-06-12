@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **若要選擇橫幅範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 橫幅]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 橫幅]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的橫幅範本。
 1. 在&#x200B;_選取範本_&#x200B;檢視中，按一下橫幅範本。
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
@@ -77,12 +77,15 @@ ht-degree: 0%
 
 * **若要[編輯橫幅草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名草稿_&#x200B;標題，然後輸入新標題。
 * **若要[手動編輯橫幅](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請連按兩下任何橫幅區段或欄位(例如標題或CTA)，然後視需要編輯。
+* **若要在變體中[套用文字格式](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下變體的影像上文字或內嵌連結，然後按一下&#x200B;**[!UICONTROL 格式化文字]**。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或在_[!UICONTROL 產生新文字_區段]中輸入新提示，然後按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
 * **若要[新增連結至變體中的影像](/help/user-guide/create/manage-variants.md#add-image-link)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下連結圖示。
 * **若要[為變體中的影像新增替代文字](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**，請按一下影像資產，並使用&#x200B;_替代文字_&#x200B;選項來手動新增或產生每個影像的替代文字。
+* **若要[新增協助工具標籤](/help/user-guide/create/manage-variants.md#add-accessibility-labels)至您的變體**，請按一下影像或call-to-action連結，然後提供簡短說明，說明連結或按鈕的作用。
 * **若要[變更廣告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小與外觀比例，請按一下&#x200B;_[!UICONTROL 調整大小]_&#x200B;按鈕（在畫布左邊有按鈕圖示的方塊），然後選取要套用至所有變體的新大小與外觀比例。 變數會複製並調整大小。
-* **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。 按一下「**[!UICONTROL 套用]**」。
+* **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請按一下影像，按一下&#x200B;**[!UICONTROL 編輯]** （鉛筆圖示），然後按一下&#x200B;**[!UICONTROL 裁切]**。 調整影像大小和位置。
+* **要[使用[產生式展開]以調整影像大小並符合您的工作範本](/help/user-guide/create/manage-variants.md#use-generative-expand)**，按一下影像，按一下[編輯]]**（鉛筆圖示），然後**[!UICONTROL &#x200B;展開&#x200B;]**。**[!UICONTROL &#x200B;調整影像以符合所需的外觀比例和範本。
 
 <!-- # Preview for device
 When revising and preparing email experiences, you can toggle between previews for desktop and mobile views to ensure coherence and visual appeal of draft variants.
@@ -102,7 +105,7 @@ When revising and preparing email experiences, you can toggle between previews f
 
    ![_內容檢查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. [手動修訂變體](#revise-generated-variants)以確保您的變體與執行的內容檢查緊密對齊。
+1. [手動修訂變體](#revise-generated-banners)以確保您的變體與執行的內容檢查緊密對齊。
 
 請參閱[品牌驗證](/help/user-guide/guidelines/brand-validation.md)。
 
@@ -124,13 +127,13 @@ When revising and preparing email experiences, you can toggle between previews f
 若要讓產生的橫幅供目前和未來使用，請將橫幅發佈至[!UICONTROL Content]，然後匯出以用於您的行銷活動。
 
 1. **若要發佈您的新橫幅體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
-   1. 選取&#x200B;_[!UICONTROL [!DNL Campaigns]]_&#x200B;並新增&#x200B;_[!UICONTROL &#x200B;更多詳細資料&#x200B;]_（如有需要）。
+   1. 選取&#x200B;_[!UICONTROL [!DNL Campaigns]]_並新增_[!UICONTROL &#x200B;更多詳細資料&#x200B;]_（如有需要）。
    1. 點擊&#x200B;**[!UICONTROL 發佈]**。
 
       ![發佈橫幅](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **若要匯出您的新橫幅**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式(HTML和影像、PNG或JPG)，然後按一下「匯出」**&#x200B;**。
+1. **若要匯出您的新橫幅**，請按一下頂端工具列中的[匯出]。****
+   1. 選取格式(HTML和影像、PNG或JPG)，然後按一下「匯出」****。
 
       匯出的HTML應放置在預先定義的Web屬性中，例如範本或`div`容器。 如果沒有這些設定的尺寸，獨立檢視影像時，影像可能會扭曲。
 

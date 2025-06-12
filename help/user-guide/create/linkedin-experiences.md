@@ -6,18 +6,16 @@ badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能�
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
+source-git-commit: c34576c93550eff6f15b31416e7a41ec36339fe5
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
 # LinkedIn體驗
 
-透過Adobe GenStudio for Performance Marketing，您可以利用創作AI來有效率[建立強大的LinkedIn體驗](/help/user-guide/create/create-linkedin.md)。
-
-[!DNL Create]可讓內容建立者和行銷人員採用[指南](/help/user-guide/guidelines/overview.md)、影像資產和[指示提示](/help/user-guide/effective-prompts.md)，以[產生符合品牌的LinkedIn體驗](/help/user-guide/create/create-email-experience.md)。
+透過Adobe GenStudio for Performance Marketing，您可以利用創作AI來有效率[建立強大的LinkedIn體驗](/help/user-guide/create/create-linkedin.md)。 [!DNL Create]可讓內容建立者和行銷人員採用[指南](/help/user-guide/guidelines/overview.md)、影像資產和[指示提示](/help/user-guide/effective-prompts.md)，以[產生符合品牌的LinkedIn體驗](/help/user-guide/create/create-email-experience.md)。
 
 產生LinkedIn體驗時，會建立四個變數並顯示在畫布中。
 
@@ -27,7 +25,7 @@ LinkedIn體驗的可編輯區段包括：
 * 簡介文字
 * 說明
 * call to action (CTA)
-* 影像
+* 影像/影片
 
 請參閱[範本元素](/help/user-guide/content/use-templates.md#template-elements)。
 

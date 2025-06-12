@@ -5,20 +5,20 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 1f62546f4fc2381bcc4d8fd3acadd1d6470ed9e8
+source-git-commit: 7dfd915ebcc001b12357cfa334346e6698436d7d
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
 
 # 使用範本
 
-GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#x200B;快速產生一致的品牌上行銷內容。 範本提供起點，包含預先設定的版面和設計元素，可大幅減少產生新內容所需的時間和精力。
+GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#x200B;快速產生一致的品牌上行銷內容。 範本提供起點，包含預先設定的版面和設計元素，可大幅減少產生新內容所需的時間和精力。 若要開始使用，請在[!DNL Content]中上傳自訂範本，或在[!DNL Create]中使用入門範本。 [入門範本](/help/user-guide/templates/starter-templates.md)提供從標準設計開始的快速方法，而自訂範本可讓您使用獨特的設計和版面。
 
 雖然GenStudio for Performance Marketing不支援直接在應用程式中建立範本，但您可以使用熱門設計工具(例如Adobe InDesign、Illustrator或Express)輕鬆設計和準備範本。 設計完成後，您可以加以調整以用於GenStudio for Performance Marketing。 請依照下列步驟開始使用範本：
 
-1. **設計您的範本**：使用您偏好的設計工具，以元素[&#128279;](#template-elements)建立範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
+1. **設計您的範本**：使用您偏好的設計工具，以元素](#template-elements)建立[範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
 
 2. **為您的範本撰寫程式碼**：將您的設計轉換為HTML和內嵌CSS，以確保在各種裝置間保持乾淨且有回應。 請考慮[協助工具准則](accessibility-for-templates.md)，以協助達到您預期的最大受眾。
 
@@ -40,7 +40,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 | **副標題** | 電子郵件、橫幅和顯示廣告 | 支援標題的次要文字元素。 它通常簡明扼要，設計上可配合主要標題，讓讀者更關注內容。 |
 | **簡介文字** | LinkedIn | 主要訊息會傳達核心訊息，類似於內文。 最多可使用150個字元，包括空格、最多四個表情符號和標點符號。 |
 | **內文** | 電子郵件、中繼廣告、橫幅和顯示廣告 | 廣告的主要文字傳達核心訊息。 它應該吸引人、提供資訊和具有說服力，以鼓勵對象採取所需的行動。 |
-| **號召性用語** | 電子郵件、中繼廣告、橫幅和顯示廣告、LinkedIn | 行動號召按鈕使用片語和連結來鼓勵收件者採取特定動作，例如按一下連結或進行購買。 |
+| **號召性用語** | 電子郵件、中繼廣告、橫幅和顯示廣告、LinkedIn | call-to-action按鈕使用片語和連結來鼓勵收件者採取特定動作，例如按一下連結或進行購買。 |
 | **影像** | 電子郵件、中繼廣告、橫幅和顯示廣告、LinkedIn | 提升視覺吸引力、分解文字，並支援訊息。 影像應高品質且吸引目光。 |
 | **頁尾** | 電子郵件 | 電子郵件的底部區段包含其他內容，例如聯絡詳細資訊、社群媒體連結、免責宣告和取消訂閱選項。 |
 | **文字覆蓋** | 中繼廣告 | 放置在影像上的文字，用以支援和增強標題與內文內容。 |
@@ -59,7 +59,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 ## 管理範本
 
-_[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
+_[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
 
 ### 搜尋範本
 
@@ -82,7 +82,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 **若要新增範本**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
 
 1. 按一下&#x200B;**[!UICONTROL 新增範本]**。
 
@@ -96,7 +96,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
    >[!TIP]
    >
-   >如果範本不正確，請按一下[上一步] **&#x200B;**&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/content/code-editor.md)進行簡單的更正。
+   >如果範本不正確，請按一下[上一步] ****&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/content/code-editor.md)進行簡單的更正。
 
 1. 當您對範本預覽感到滿意時，請按一下&#x200B;**[!UICONTROL [下一步]]**。
 
@@ -117,7 +117,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 **若要重新整理範本**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
 
 1. 按一下範本以取得完整檢視和詳細資訊清單。
 
@@ -129,7 +129,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 **若要使用範本建立體驗**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
 
 1. 按一下範本以取得完整檢視和詳細資訊清單。
 
@@ -148,7 +148,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 >[!BEGINSHADEBOX]
 
-**必備條件**
+**先決條件**
 
 - 應用程式(AJO、Marketo)和GenStudio for Performance Marketing必須屬於相同的IMS組織才能整合
 - 使用者必須具有「共同作業人員」角色（最低層級）或以上層級

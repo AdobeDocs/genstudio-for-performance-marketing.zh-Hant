@@ -4,9 +4,10 @@ description: 搭配Adobe GenStudio for Performance Marketing使用顯示廣告�
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
+source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -27,12 +28,16 @@ ht-degree: 0%
 
 ## 可辨識的欄位名稱
 
-針對橫幅和顯示廣告，GenStudio for Performance Marketing會自動產生`cta`欄位。 自訂範本時，請在下列必填欄位中使用內容預留位置：
+自訂橫幅或顯示廣告範本時，請為下列必填欄位使用內容預留位置：
 
 - `headline`
 - `sub_headline`
 - `body`
 - `image` (必要，從JPEG、PNG或GIF內容中選取)
+
+GenStudio for Performance Marketing會自動產生下列欄位。 您不需要為下列專案套用內容預留位置：
+
+- `cta`
 
 請參閱[內容預留位置](/help/user-guide/content/customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
 

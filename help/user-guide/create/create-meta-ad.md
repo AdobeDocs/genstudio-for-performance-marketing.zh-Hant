@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,15 @@ ht-degree: 0%
 
 若要開始產生新的中繼廣告體驗，請使用可用的範本為您的內容提供框架。 請參閱[中繼廣告範本指導方針](/help/user-guide/templates/meta-template.md)，以取得支援的中繼廣告外觀比例的相關資訊。
 
+選取範本時，您可以選擇使用其中一個已上傳的範本或入門範本。
+
 **若要選擇中繼廣告範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 中繼廣告]**。
-1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的中繼廣告範本。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 中繼廣告]**。
+1. 選取&#x200B;**[!UICONTROL 自訂範本]**&#x200B;以瀏覽您上傳的範本，或選取&#x200B;**[!UICONTROL 入門範本]**&#x200B;以瀏覽預先建立的範本。
+
+   如果您打算將視訊資產新增至中繼變體，則必須選擇入門範本。 它們會預先載入系統定義的內容區域，以方便視訊的使用。
+
 1. 按一下以選取範本，然後按一下&#x200B;**[!UICONTROL 使用]**。
 
    此動作會開啟畫布，這是內容建立的中心樞紐。
@@ -46,14 +51,17 @@ ht-degree: 0%
 
    如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)。
 
-1. 新增內容以用於體驗&#x200B;*和*，以影響內容產生：
-   * 按一下&#x200B;**[!UICONTROL 從「內容」選取]**，從[!DNL Content]存放庫選取資產（影像）、篩選並選取一或多個影像。
+1. 新增內容（影像或視訊）以用於體驗&#x200B;*和*，以影響內容產生：
+   * 按一下&#x200B;**[!UICONTROL 從內容中選取]**&#x200B;以從您的[!DNL Content]存放庫選取資產、篩選並選取一或多個影像。
+
+     如果您使用的範本有視訊區段，系統會預先選取並篩選視訊內容(.mp4)。 將滑鼠指標暫留在視訊上，檢視自動播放的預覽。
 
      ![選擇視覺內容](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
      若要使用已連線[!DNL AEM Assets Content Hub]存放庫中的資產，請從&#x200B;_位置_&#x200B;下拉式選單中選擇存放庫。 篩選並選取一或多個影像。
 
-   * 或者，將資產拖放至&#x200B;**[!UICONTROL 從內容選取]**&#x200B;區段，以上傳一或多個新資產。
+   * 或者，將影像拖放至&#x200B;**[!UICONTROL 從內容選取]**&#x200B;區段，以上傳一或多個新資產。
+
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
 
 新增完引數後，您可以再次按一下&#x200B;_引數_&#x200B;圖示來收合提示抽屜。
@@ -68,6 +76,8 @@ ht-degree: 0%
 
 1. 在&#x200B;_「描述您要產生的體驗」_&#x200B;提示方塊中輸入提示。
 1. 按一下&#x200B;**[!UICONTROL 產生]**。
+
+   請參閱[管理視訊](#manage-videos)，瞭解其產生方式及管理方式。
 
 依預設，會產生四個變數（全部由您新增的提示、指引和內容所推動），並顯示在畫布中。
 
@@ -93,13 +103,23 @@ ht-degree: 0%
 * **若要[手動編輯中繼廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何廣告區段(例如主旨列、
 頁首或內文)，並視需要編輯。
 * **若要變更或選取呼叫動作**，請按一下call-to-action按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入call-to-action文字的URL。
+* **若要在變體中[套用文字格式](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下變體的影像上文字或內嵌連結，然後按一下&#x200B;**[!UICONTROL 格式化文字]**。
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **若要[新增連結至變體中的影像](/help/user-guide/create/manage-variants.md#add-image-link)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下連結圖示。
+* **若要[變更廣告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小與外觀比例，請按一下&#x200B;_[!UICONTROL 調整大小]_&#x200B;按鈕（在畫布左邊有按鈕圖示的方塊），然後選取要套用至所有變體的新大小與外觀比例。 變數會複製並調整大小。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
-* **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠游標停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。
+* **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請按一下影像，按一下&#x200B;**[!UICONTROL 編輯]** （鉛筆圖示），然後按一下&#x200B;**[!UICONTROL 裁切]**。 調整影像大小和位置。
+* **要[使用[產生式展開]以調整影像大小並符合您的工作範本](/help/user-guide/create/manage-variants.md#use-generative-expand)**，按一下影像，按一下[編輯]]**（鉛筆圖示），然後**[!UICONTROL &#x200B;展開&#x200B;]**。**[!UICONTROL &#x200B;調整影像以符合所需的外觀比例和範本。
 * **若要[為變體中的影像新增替代文字](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**，請按一下影像資產，並使用&#x200B;_替代文字_&#x200B;選項來手動新增或產生每個影像的替代文字。
+* **若要[新增協助工具標籤](/help/user-guide/create/manage-variants.md#add-accessibility-labels)至您的變體**，請按一下影像或call-to-action連結，然後提供簡短說明，說明連結或按鈕的作用。
 * **若要[刪除中繼廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下變體的選項功能表，然後按一下&#x200B;**[!UICONTROL 刪除變體]**。
+
+### 管理影片
+
+將滑鼠停留在每個影片上，檢視循環的自動播放。
+
+視訊會在產生期間重新設定影格，以符合選取的外觀比例。 按一下&#x200B;**[!UICONTROL 重新設定視訊]**&#x200B;並切換為關閉視訊，即可回覆成未重新設定影格的視訊。
 
 ## 提交產生回饋
 
