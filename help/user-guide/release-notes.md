@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
 workflow-type: tm+mt
-source-wordcount: '2667'
+source-wordcount: '2694'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,8 @@ ht-degree: 0%
 * 您現在可以在產生的變體中[對文字](/help/user-guide/create/manage-variants.md#manually-edit-text)使用RTF編輯格式。 嘗試各種變體文字的格式選項，例如顏色、大小、清單等。
 
 * 您現在可以在平台設定期間，透過複製平台設定期間的現有廣告集[建立新的廣告集](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set)。 中繼廣告集定義特定廣告的時機、頻道詳細資訊和對象。 中繼行銷活動可包含多個廣告集，但一個廣告集僅與一個行銷活動相關聯。
+
+* 您現在可以匯出行銷活動詳細資料，以便在Word或PDF中以行銷活動簡介的形式從外部存取。 選取行銷活動，然後按一下&#x200B;**[!UICONTROL 匯出]** （右上角）。
 
 ## 舊版發行說明
 
@@ -116,8 +118,8 @@ ht-degree: 0%
 * 已新增在變體中[新增連結至影像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
 * 將[內容檢查](/help/user-guide/guidelines/brand-validation.md)和檢閱及核准功能移至新的右方動作列，以最大化畫布空間並改善使用者體驗。
 * 簡化[上傳或手動新增品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
-* 引進在畫布上的變體[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)中新增或交換影像資產的功能。
-* 改善使用者體驗和建立首頁[&#128279;](/help/user-guide/create/overview.md)上頻道類別的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
+* 引進在畫布上的變體](/help/user-guide/create/manage-variants.md#swap-image)中[新增或交換影像資產的功能。
+* 改善使用者體驗和建立首頁](/help/user-guide/create/overview.md)上頻道類別[的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
 * 已改善[!DNL Insights]表格和相簿檢視中的篩選。
 
 +++
