@@ -3,9 +3,9 @@ title: 管理變體
 description: 根據您的數位行銷需求，自訂及增強產生的變體和資產。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
+source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,13 @@ Adobe GenStudio for Performance Marketing [!DNL Create]可讓您自訂及增強�
 * 文字大小
 * 連結
 
-文字格式選項會因管道而異（中繼、電子郵件等）
+文字格式選項會因每個管道而異（中繼、電子郵件等）
 
 **若要在產生的變化中手動編輯文字**：
 
 1. 產生一組變體後，在變體中的可編輯文字上連按兩下。
 1. 輸入新文字。
-1. 若要格式化文字，請反白適用的文字，然後按一下&#x200B;**[!UICONTROL 格式化文字**]。
+1. 若要格式化文字，請反白適用的文字，然後按一下**[!UICONTROL 格式化文字**]。
 
    套用任何（或全部！）可用的格式選項至您的文字。
 
@@ -84,7 +84,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
    變體會以修訂後的文字更新。
 
-## 修訂行動號召
+## 修訂Call to action
 
 產生一組變體後，您可以修訂call-to-action (CTA)文字和連結。
 
@@ -110,7 +110,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
    1. 在URL中輸入或貼上，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-      若要修訂CTA中的現有連結，請編輯現有URL或貼入新URL，然後按一下[套用]。**&#x200B;**
+      若要修訂CTA中的現有連結，請編輯現有URL或貼入新URL，然後按一下[套用]。****
 
 新增或修訂連結會套用至變體集中的所有CTA。
 
@@ -162,7 +162,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 ## 變更外觀比例
 
-您可以快速變更中繼廣告的[外觀比例](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)，以符合所需的廣告大小。 選擇與範本尺寸幾乎相符的影像外觀比例，以避免不需要的裁切或拉伸。 例如，如果您的範本是1200 × 628畫素（寬矩形），使用1:1的方形影像可能會裁切側邊，可能會截斷重要內容。 最佳影像大小為628 x 628畫素，符合範本的高度。
+您可以快速變更中繼廣告的[外觀比例](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)，以符合所需的廣告大小。 選擇與範本尺寸幾乎相符的影像外觀比例，以避免不需要的裁切或拉伸。 例如，如果您的範本是1200 × 628畫素（寬矩形），則使用1:1方形影像可能會裁切側邊，可能會截斷重要內容。 最佳影像大小為628 x 628畫素，符合範本的高度。
 
 >[!NOTE]
 >
@@ -170,7 +170,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 **若要變更產生的中繼廣告的外觀比例**：
 
-1. 產生一組變體後，選取「畫布」左側的長寬比調整大小圖示（指向方塊轉角的箭頭）。
+1. 產生一組變體後，按一下畫布左側的&#x200B;**[!UICONTROL 調整外觀比例大小]** （指向方塊角落的箭頭）。
 
    目前用於廣告的外觀比例會顯示在&#x200B;_[!UICONTROL 調整大小]_&#x200B;視窗的頂端。
 
@@ -184,7 +184,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
    [!DNL Create]會根據新選取的外觀比例，建置每個變體的副本。 所有變體（包括初始長寬比中的變體）都會顯示在畫布中。
 
-   例如，如果您一開始以1:1外觀比例產生四個變體，然後將外觀比例變更為4:5，畫布上現在可以使用&#x200B;_8_&#x200B;個總計變體。
+   舉例來說，如果您一開始以1:1外觀比例產生四個變體，然後將外觀比例變更為4:5，畫布上即可使用&#x200B;_8_&#x200B;個總計變體。
 
 ## 交換影像
 
@@ -196,7 +196,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 1. 按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
 1. 使用GenStudio資產[!DNL Content]檢視中的篩選和搜尋功能，進一步縮小搜尋結果的範圍。
 
-   您也可以從[**[!UICONTROL 位置&#x200B;]**&#x200B;功能表](/help/user-guide/content/manage-assets.md#location)中選取已連線的Adobe Experience Manager (AEM) Assets Content Hub存放庫，使用該存放庫中的可用影像。
+   您也可以從[**[!UICONTROL 位置&#x200B;]**功能表](/help/user-guide/content/manage-assets.md#location)中選取已連線的Adobe Experience Manager (AEM) Assets Content Hub存放庫，使用該存放庫中的可用影像。
 
 1. 按一下以選取影像，然後按一下&#x200B;**[!UICONTROL 使用]**。
 
@@ -231,8 +231,8 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
    1. 按一下文字方塊並新增替代文字。
    1. 按一下「**[!UICONTROL 套用]**」。
 1. 若要產生影像的替代文字，請執行下列動作：
-   1. 文字欄位保持空白，然後按一下[產生]。**&#x200B;**
-   1. 如果您對初始結果不滿意，請按一下[產生&#x200B;**&#x200B;**]。
+   1. 文字欄位保持空白，然後按一下[產生]。****
+   1. 如果您對初始結果不滿意，請按一下[產生&#x200B;****]。
    1. 按一下「**[!UICONTROL 套用]**」。
 1. 針對變體集中的每個影像重複此步驟。
 
