@@ -4,18 +4,24 @@ description: 瞭解如何為GenStudio for Performance Marketing [!DNL Brand] 建
 level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 89b7f477310326755a6b34cb97d5ad5664e98dec
+source-git-commit: 8ed591795cee157760159cca6e899cab15792252
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
 
 # 指派[!DNL Brand]許可權
 
-依預設，GenStudio系統管理員可以建立和編輯[!DNL Brands]。 內容編輯者和共同作業人員角色具有編輯和建立許可權，但可能不需要任何系統管理許可權。 若要授予內容編輯者和共同作業人員這些[!DNL Brand]相關權益，Adobe系統管理員必須在Adobe Admin Console中執行一些額外的設定工作。 請參閱&#x200B;_企業和團隊管理指南_&#x200B;中的[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html#Overview)。
+依預設，GenStudio系統管理員可以建立和編輯[!DNL Brands]。 內容編輯者和共同作業人員角色具有編輯和建立許可權，但可能不需要任何系統管理許可權。
 
-新增使用者和使用者群組是所有具有透過Admin Console管理之權益的Adobe產品所共有的基本工作。 請參閱&#x200B;_企業與團隊管理指南_&#x200B;中的[Adobe Admin Console使用者](https://helpx.adobe.com/tw/enterprise/using/users.html)，以取得新增使用者和使用者群組的使用者管理與程式的概觀。
+若要授予內容編輯者和共同作業人員這些[!DNL Brand]相關權益，Adobe系統管理員必須在Adobe Admin Console中執行一些額外的設定工作。 請參閱[企業和團隊管理指南](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)中的&#x200B;_Adobe Admin Console_。
+
+新增使用者和使用者群組是所有具有透過Admin Console管理之權益的Adobe產品所共有的基本工作。 請參閱[企業與團隊管理指南](https://helpx.adobe.com/tw/enterprise/using/users.html)中的&#x200B;_Adobe Admin Console使用者_，以取得新增使用者和使用者群組的使用者管理與程式的概觀。
+
+觀看此影片逐步解說或遵循以下步驟。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470499/?learn=on&enablevpops)
 
 ## 步驟1：建立使用者群組
 
@@ -31,7 +37,7 @@ ht-degree: 1%
 
 1. 按一下「**[!UICONTROL 儲存]**」。Admin Console會開啟&#x200B;_新群組_&#x200B;快顯視窗，其中包含新建立群組的名稱。
 
-請參閱&#x200B;_企業和團隊管理指南_&#x200B;中的[管理使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)。
+請參閱[企業和團隊管理指南](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)中的&#x200B;_管理使用者群組_。
 
 ## 步驟2：將GenStudio系統管理員設定檔指派給使用者群組
 
@@ -43,7 +49,7 @@ ht-degree: 1%
 
 1. 從&#x200B;_指派的產品設定檔_&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL 指派設定檔]**。 _指派產品和設定檔_&#x200B;快顯視窗隨即開啟。
 
-1. 從&#x200B;_選取產品_&#x200B;清單中選取`Adobe GenStudio`。
+1. 從`Adobe GenStudio`選取產品&#x200B;_清單中選取_。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**。 _選取產品設定檔_&#x200B;快顯視窗隨即開啟，顯示與Adobe GenStudio相關聯的產品設定檔。
 
@@ -53,7 +59,7 @@ ht-degree: 1%
 
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-請參閱&#x200B;_企業和團隊管理指南_&#x200B;中的[將產品設定檔指派給使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)。
+請參閱[企業和團隊管理指南](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)中的&#x200B;_將產品設定檔指派給使用者群組_。
 
 ## 步驟3：將使用者新增至使用者群組
 
@@ -69,7 +75,7 @@ ht-degree: 1%
 
 1. 選取您先前建立的使用者群組名稱。 _新增使用者到此使用者群組_&#x200B;快顯視窗開啟。
 
-1. 透過使用者名稱或電子郵件地址新增新的或現有的使用者。 當您輸入現有使用者的名稱或電子郵件地址時，此欄位會自動填入屬於此IMS組織的已知使用者的相符名稱。 瞭解如何在&#x200B;_企業和團隊管理指南_&#x200B;的[管理使用者群組](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)中管理使用者群組。
+1. 透過使用者名稱或電子郵件地址新增新的或現有的使用者。 當您輸入現有使用者的名稱或電子郵件地址時，此欄位會自動填入屬於此IMS組織的已知使用者的相符名稱。 瞭解如何在[企業和團隊管理指南](https://helpx.adobe.com/tw/enterprise/using/user-groups.html)的&#x200B;_管理使用者群組_&#x200B;中管理使用者群組。
 
 使用者新增至群組時，會獲得Adobe GenStudio系統管理員的[!DNL Brand]建立、編輯和發佈許可權。 使用者也會收到編輯Adobe GenStudio for Performance Marketing [!DNL Brands]專案的自動電子郵件邀請。
 
@@ -77,7 +83,7 @@ ht-degree: 1%
 
 _專案_&#x200B;提供儲存位置，讓選取的使用者可以儲存資產，在此案例中為[!DNL Brands]個資產。
 
-**若要從&#x200B;_儲存體_標籤**&#x200B;建立[!DNL Brands]專案：
+**若要從[!DNL Brands]儲存體&#x200B;_標籤_建立**&#x200B;專案：
 
 1. 導覽至Admin Console中的&#x200B;_儲存空間_&#x200B;索引標籤。
 
@@ -89,7 +95,7 @@ _專案_&#x200B;提供儲存位置，讓選取的使用者可以儲存資產，�
 
 1. 按一下 **[!UICONTROL 建立]**。_邀請加入專案_&#x200B;快顯視窗開啟。
 
-請參閱&#x200B;_企業和團隊管理指南_&#x200B;中的[管理專案](https://helpx.adobe.com/tw/enterprise/using/projects-in-business-storage.html)。
+請參閱[企業和團隊管理指南](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html)中的&#x200B;_管理專案_。
 
 ## 步驟5：邀請使用者群組加入專案
 
