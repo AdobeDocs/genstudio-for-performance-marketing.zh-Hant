@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
+source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
 workflow-type: tm+mt
-source-wordcount: '3052'
+source-wordcount: '3415'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,60 @@ ht-degree: 0%
 
 此版本資訊提供GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2025.07.25 {#latest}
+## 2025.08.15 {#latest}
+
+### 文字屬性的深入分析
+
+Adobe GenStudio中的「文字屬性深入分析」可分析廣告文案中使用的情緒色調、勸說技巧和敘述風格。 行銷活動上線後，GenStudio會追蹤這些文字屬性如何與CTR、CPA、CPC、曝光數和支出等關鍵效能量度產生關聯。
+
+目前僅提供英文廣告使用。 如需詳細資訊，請參閱[文字功能](/help/user-guide/insights/text-features.md)。
+
+### 深入分析範本的改良專案
+
+* 廣告預覽卡片現在包含文字的「檢視更多」選項。
+* 廣告頁面石砌卡的新範本。
+
+### 使用品牌驗證產生多語言內容
+
+提示抽屜中的新語言選擇器支援建立多語言內容，讓地區行銷人員能夠為其當地受眾開發品牌上內容。 此功能目前支援12種語言。
+
+### 範本的視訊資產支援
+
+* 視訊資產可新增至Meta和LinkedIn範本。
+
+### 啟用體驗改善
+
+* 儲存啟動草稿的新功能。
+* 重試失敗啟用的新功能。
+
+### 在多個文字欄位中使用相同的角色
+
+對於複雜的客戶範本，現在支援使用相同角色的多個文字欄位（例如，「內文」、「cta」、「影像文字」等）。
+
+在[範本程式碼編輯器指南](/help/user-guide/content/code-editor.md)中探索詳細資料。
+
+### 支援全新Clio 4 Standard與Clio 4 Ultra image產生機型
+
+[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
+
+Adobe GenStudio for Performance Marketing現在支援最新的Firefly Image Model 4套裝，包括兩個強大的變體：
+
+**Clio 4 Standard**：最佳化速度與簡化性，適合製作插圖、圖示、基本物件像片及單一主題肖像，滿足90%的日常創意需求。
+
+**Clio 4 Ultra**：優先處理真實感和精確度，擅長呈現人體肖像、中等大小的群組，以及高階創意工作的複雜場景。
+
+如需使用這些新影像產生模型的詳細資訊，請參閱[產生資產](/help/user-guide/create/generate-assets.md)。
+
+### 電子郵件的現成翻譯
+
+[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
+
+Adobe GenStudio for Performance Marketing現在提供內建的電子郵件翻譯功能，讓行銷人員能夠有效地在全球擴充其電子郵件促銷活動。 此功能可讓您取得核准的電子郵件體驗，並使用Azure Open AI翻譯服務將其翻譯成多種目標語言。
+
+
+## 舊版發行說明
+
++++2025.07.25版注意事項
 
 ### 相容資產篩選
 
@@ -45,10 +98,9 @@ ht-degree: 0%
 
 範本選擇現在對於中繼廣告是選用的，可讓使用者建立廣告，而不需要媒體頂端的文字和標誌。 此增強功能可用於其他媒體型別，例如動畫GIF和視訊，這些可能不需要文字覆蓋圖或標誌位置。
 
++++
 
-## 舊版發行說明
-
-+++2025.06.15註釋
++++2025.06.15版注意事項
 
 ### 可用的入門範本
 
@@ -88,7 +140,7 @@ ht-degree: 0%
 
 +++
 
-+++2025.05.15註釋
++++2025.05.15版注意事項
 
 ### 修正和增強功能
 
@@ -211,7 +263,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 +++
 
-+++2024.12.12版注意事項
++++2024.12.12註釋
 
 ### 新功能
 

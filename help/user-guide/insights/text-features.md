@@ -3,7 +3,7 @@ title: 文字功能
 description: 瞭解GenStudio for Performance Marketing中使用的屬性類別的文字功能。
 feature: Reporting and Insights, Text Attributes, Generative AI
 exl-id: 7b81b0ae-0c62-468f-965c-fd8070644fb3
-source-git-commit: ac2e18899f910a47ec5013a13c2ee2771684ddad
+source-git-commit: 3ccc6313a7c559f1c0846c144d23b783da0aecfa
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 1%
