@@ -1,12 +1,12 @@
 ---
-title: 管理資產和體驗
+title: 管理Assets和體驗
 description: 簡化並增強對品牌核准資產的管理，以便在您的數位行銷歷程中使用和重複使用。
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 1df977edbca284e67a5d28a6835bf5fc5608aa33
+source-git-commit: 6880aadb104aac6b3282980760406168df3da5fe
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 0%
+source-wordcount: '1514'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 
 相簿會根據選取的檢視，顯示已核准資產、體驗或範本的詳細目錄。 表格左上方的篩選（漏斗）切換會開啟&#x200B;**[!UICONTROL 篩選]**&#x200B;功能表，您可以從許多類別中選取，以篩選相簿中顯示的內容。 在&#x200B;_[!UICONTROL Assets]_&#x200B;檢視中，按一下搜尋（放大鏡）圖示以使用關鍵字尋找資產。
 
-下列顯示對[!UICONTROL Assets]相簿中字詞`space`的搜尋：
+下列顯示對`space`Assets[!UICONTROL 相簿中字詞]的搜尋：
 
 ![搜尋空間的Assets檢視](/help/assets/content-assets-filter.png "搜尋具有空間屬性的資產")
 
@@ -36,7 +36,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 
 **若要搜尋要重複使用的內容**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL Assets]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL Assets]**區段。
 
 1. 從&#x200B;**[!UICONTROL 位置]**&#x200B;清單中選取資產存放庫，或確認您所檢視的資產存放庫是否正確。 `GenStudio assets`是預設存放庫。
 
@@ -56,17 +56,17 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 
 ### 位置
 
-依預設，您透過[!DNL Create]程式或上傳新增至[!DNL Content]的資產會儲存在`GenStudio assets`存放庫中。 `GenStudio assets`存放庫是GenStudio for Performance Marketing中的讀寫存放庫。 這表示您可以儲存、編輯和刪除`GenStudio assets`存放庫中的資產。
+依預設，您透過[!DNL Content]程式或上傳新增至[!DNL Create]的資產會儲存在`GenStudio assets`存放庫中。 `GenStudio assets`存放庫是GenStudio for Performance Marketing中的讀寫存放庫。 這表示您可以儲存、編輯和刪除`GenStudio assets`存放庫中的資產。
 
-右側&#x200B;_[!UICONTROL Assets]_&#x200B;相簿上方的&#x200B;**[!UICONTROL 位置]**&#x200B;清單可讓您從已連線的Adobe Experience Manager (AEM) [!DNL Assets Content Hub]存放庫中進行選取。
+右側&#x200B;**[!UICONTROL Assets]**&#x200B;相簿上方的&#x200B;_[!UICONTROL 位置]_&#x200B;清單可讓您從已連線的Adobe Experience Manager (AEM) [!DNL Assets Content Hub]存放庫中進行選取。
 
 ![存放庫的位置清單](/help/assets/content-location-selection.png "選取內容存放庫"){width="350"}
 
 選取AEM存放庫時，相簿會顯示該存放庫中的資產詳細目錄，好讓您可以善用這些存放庫中已核准的資產，作為內容建立的輸入專案。 篩選器選項會變更，以反映[!DNL AEM Assets Content Hub]中設定的類別。
 
-如需將[!DNL AEM Assets Content Hub]存放庫新增到AEM的指引，請參閱[連線GenStudio for Performance Marketing存放庫](connect-aem-repo.md)。
+如需將[存放庫新增到AEM的指引，請參閱](connect-aem-repo.md)連線GenStudio for Performance Marketing存放庫[!DNL AEM Assets Content Hub]。
 
-AEM存放庫為唯讀，這表示您可以存取內容，但無法將草稿、新資產或中繼資料儲存至AEM存放庫。 資產、體驗和範本的所有草稿和最終更新都會使用新的[系統中繼資料](asset-details.md#system-metadata)儲存到`GenStudio assets`存放庫。
+AEM存放庫為唯讀，這表示您可以存取內容，但無法將草稿、新資產或中繼資料儲存至AEM存放庫。 資產、體驗和範本的所有草稿和最終更新都會使用新的`GenStudio assets`系統中繼資料[儲存到](asset-details.md#system-metadata)存放庫。
 
 {{note-aem-assets}}
 
@@ -82,7 +82,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 | --------------------------------------------------------- | :----: | :---------: | :-------: |
 | [檢視詳細資料](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
 | [建立體驗](/help/user-guide/create/overview.md) |        |             | ✓ |
-| 在Adobe Express中編輯[&#128279;](#edit-in-express) | ✓ |             |           |
+| 在Adobe Express中編輯[](#edit-in-express) | ✓ |             |           |
 | [匯出體驗](#export-experiences) |        | ✓ |           |
 | [重新整理](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [下載](#download-assets) | ✓ |             | ✓ |
@@ -90,19 +90,19 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 ### 新增資產
 
-將資產新增至[!DNL Content]時，預設會儲存在`GenStudio assets`存放庫中。 _[!UICONTROL 新增資產]_&#x200B;按鈕僅在&#x200B;_[!UICONTROL 位置]_&#x200B;是`GenStudio assets`存放庫時可用。
+將資產新增至[!DNL Content]時，預設會將其儲存在`GenStudio assets`存放庫中。 _[!UICONTROL 新增資產]_&#x200B;按鈕僅在&#x200B;_[!UICONTROL 位置]_&#x200B;是`GenStudio assets`存放庫時可用。
 
 ![位置欄位](/help/assets/content-location.png "位置欄位"){width="350"}
 
 **若要新增一或多個資產**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，按一下&#x200B;**[!UICONTROL 新增資產]**。
+1. 在&#x200B;_[!DNL Content]_中，按一下&#x200B;**[!UICONTROL 新增資產]**。
 
-1. 在&#x200B;_新增您核准的資產_&#x200B;檢視中，將一或多個檔案拖放至放置區。 您可以選擇使用&#x200B;**[!UICONTROL 瀏覽]**&#x200B;從本機檔案選取，或是從Dropbox或Microsoft OneDrive匯入檔案。
+2. 在&#x200B;_新增您核准的資產_&#x200B;檢視中，將一或多個檔案拖放至放置區。 您可以選擇使用&#x200B;**[!UICONTROL 瀏覽]**&#x200B;從本機檔案選取，或是從Dropbox或Microsoft OneDrive匯入檔案。
 
-1. 在&#x200B;_新增詳細資料_&#x200B;區段中，選取&#x200B;**[!UICONTROL 促銷活動名稱]**&#x200B;或輸入新名稱。
+3. 在&#x200B;_新增詳細資料_&#x200B;區段中，選取&#x200B;**[!UICONTROL 促銷活動名稱]**&#x200B;或輸入新名稱。
 
-1. 若要改善可發現性，請在&#x200B;**更多詳細資料**&#x200B;區段中新增選用的詳細資料，例如&#x200B;_品牌名稱_、_角色_、_地區_&#x200B;和&#x200B;_關鍵字_。
+4. 如需可發現性，請在&#x200B;_更多詳細資料_&#x200B;區段中新增選用的詳細資料，例如&#x200B;_品牌名稱_、_角色_、_地區_&#x200B;和&#x200B;**關鍵字**。
 
    您提供的詳細資料越多，就越能體驗GenStudio for Performance Marketing的強大功能。 從清單中選取一或多個詳細資訊，或輸入適用的新詳細資訊，例如關鍵字。 您新增的每個詳細資訊都會顯示在清單下方。 按一下&#x200B;**`x`**&#x200B;以移除詳細資料。
 
@@ -110,17 +110,17 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
    檢視[中繼資料詳細資料](/help/user-guide/content/asset-details.md#system-metadata)。
 
-1. 按一下&#x200B;**[!UICONTROL 新增資產]**。
+5. 按一下&#x200B;**[!UICONTROL 新增資產]**。
 
-1. 當資產上傳完成時，按一下&#x200B;**完成**。
+6. 當資產上傳完成時，按一下&#x200B;**完成**。
 
-1. 若要檢視您上傳的新資產，請按一下畫布底部的&#x200B;_可用新資產_&#x200B;通知中的&#x200B;**[!UICONTROL 重新整理]**。
+7. 若要檢視您上傳的新資產，請按一下畫布底部的&#x200B;**[!UICONTROL 可用新資產]**&#x200B;通知中的&#x200B;_重新整理_。
 
 ### 下載資產
 
 **若要下載資產**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取資產或範本。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_中，選取資產或範本。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，按一下右上角的&#x200B;**[!UICONTROL 下載]**&#x200B;圖示（向下箭頭）。
 
@@ -130,7 +130,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 **若要刪除資產**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，按一下右上角的&#x200B;**[!UICONTROL 刪除]** （垃圾桶）。
 
@@ -140,17 +140,21 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 您可以選取一或多個核准的體驗，以與目標頻道相容的格式下載。 已下載檔案的名稱為匯出日期： `2025-06-15-export.zip`。 解壓縮檔案時，每個管道型別都會有一個資料夾，其中包含以您選取的格式匯出的資產。 每個匯出的資產會保留其原始資產名稱作為檔案名稱。
 
+>[!WARNING]
+>
+>擷取的資產不安全，未經清理便無法顯示。 所有使用者必須在其終端使用輸入清理技術，從範本處理跨網站指令碼(XSS)。
+
 **若要匯出或下載體驗**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取一或多個體驗。
+1. 在&#x200B;_[!DNL Content]_中，選取一或多個體驗。
 
    橫幅的左側會顯示選取的體驗數目，右側則會顯示[!UICONTROL 啟用]、[!UICONTROL 下載]或[!UICONTROL 刪除]的選項。
 
-1. （選擇性）如果您選擇啟用，系統可能會要求您選取平台，然後繼續執行[!DNL Activate]工作流程。 請參閱[啟動](/help/user-guide/activation/overview.md)。
+2. （選擇性）如果您選擇啟用，系統可能會要求您選取平台，然後繼續執行[!DNL Activate]工作流程。 請參閱[啟動](/help/user-guide/activation/overview.md)。
 
-1. 按一下「**[!UICONTROL 下載]**」。
+3. 按一下「**[!UICONTROL 下載]**」。
 
-1. 在&#x200B;_下載_&#x200B;快顯視窗中，從可用的格式中選取。
+4. 在&#x200B;_下載_&#x200B;快顯視窗中，從可用的格式中選取。
 
    如果您從不同管道選取多個體驗，您就有機會為每個管道型別選取格式。
 
@@ -161,7 +165,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 ## 在Express中編輯
 
-您可以使用Adobe Express直接在GenStudio for Performance Marketing中編輯影像資產(JPG或PNG)。 由Adobe Express _支援的_&#x200B;畫布提供便利的功能，讓您在不離開GenStudio應用程式的情況下增強影像。 您可以輕鬆移除背景、套用產生式填色、調整效果和裁切影像。
+您可以使用Adobe Express直接在GenStudio for Performance Marketing中編輯影像資產(JPG或PNG)。 由Adobe Express _[!UICONTROL 支援的]_&#x200B;畫布提供便利的功能，讓您在不離開GenStudio應用程式的情況下增強影像。 您可以輕鬆移除背景、套用產生式填色、調整效果和裁切影像。
 
 >[!BEGINSHADEBOX]
 
@@ -176,7 +180,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 **若要使用Express**&#x200B;編輯資產：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取影像資產。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_中，選取影像資產。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，按一下右上角的&#x200B;**[!UICONTROL 在Adobe Express中編輯]**&#x200B;圖示。
 
@@ -184,7 +188,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 1. 當您對更新的影像感到滿意時，請按一下右上角的&#x200B;**[!UICONTROL 儲存復本]**。
 
-1. 選取檔案格式(JPG或PNG)，然後按一下「儲存副本」**&#x200B;**。
+1. 選取檔案格式(JPG或PNG)，然後按一下「儲存副本」****。
 
 1. 在&#x200B;_[!UICONTROL 儲存資產]_&#x200B;快顯視窗中，更新&#x200B;**[!UICONTROL 資產名稱]**。
 
