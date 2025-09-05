@@ -59,7 +59,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 ## 管理範本
 
-_[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
+_[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
 
 ### 搜尋範本
 
@@ -82,7 +82,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
 **若要新增範本**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
 
 2. 按一下&#x200B;**[!UICONTROL 新增範本]**。
 
@@ -96,7 +96,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
    >[!TIP]
    >
-   >如果範本不正確，請按一下[上一步] ****&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/content/code-editor.md)進行簡單的更正。
+   >如果範本不正確，請按一下[上一步] **&#x200B;**&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/content/code-editor.md)進行簡單的更正。
 
 5. 當您對範本預覽感到滿意時，請按一下&#x200B;**[!UICONTROL [下一步]]**。
 
@@ -117,7 +117,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
 **若要重新整理範本**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
 
 2. 按一下範本以取得完整檢視和詳細資訊清單。
 
@@ -129,7 +129,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
 **若要使用範本建立體驗**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
 
 2. 按一下範本以取得完整檢視和詳細資訊清單。
 
