@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 7dfd915ebcc001b12357cfa334346e6698436d7d
+source-git-commit: 2f15dc05f65ec216c7d242ffb3e14a83c76f3000
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 0%
@@ -18,7 +18,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 雖然GenStudio for Performance Marketing不支援直接在應用程式中建立範本，但您可以使用熱門設計工具(例如Adobe InDesign、Illustrator或Express)輕鬆設計和準備範本。 設計完成後，您可以加以調整以用於GenStudio for Performance Marketing。 請依照下列步驟開始使用範本：
 
-1. **設計您的範本**：使用您偏好的設計工具，以元素[&#128279;](#template-elements)建立範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
+1. **設計您的範本**：使用您偏好的設計工具，以元素[建立](#template-elements)範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
 
 2. **為您的範本撰寫程式碼**：將您的設計轉換為HTML和內嵌CSS，以確保在各種裝置間保持乾淨且有回應。 請考慮[協助工具准則](accessibility-for-templates.md)，以協助達到您預期的最大受眾。
 
@@ -59,7 +59,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 ## 管理範本
 
-_[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
+_[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
 
 ### 搜尋範本
 
@@ -72,7 +72,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 以下顯示依管道型別篩選，例如電子郵件、顯示廣告、中繼廣告和LinkedIn廣告。
 
-![內容範本清單](/help/assets/content-templates-filter.png "搜尋LinkedIn範本"){width="650" zoomable="yes"}
+![內容範本清單](/help/assets/content-templates-filter.png "搜尋LinkedIn範本"){width="650"}
 
 為擁有或付費媒體選取範本時，範本搜尋功能可在[!UICONTROL 建立]期間使用。 如果看不到某些篩選選項，則表示存放庫中沒有符合對應中繼資料條件的範本。 請確定範本已正確加上中繼資料標籤，如此才能透過這些篩選器探索範本。
 
@@ -82,34 +82,34 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 **若要新增範本**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
 
-1. 按一下&#x200B;**[!UICONTROL 新增範本]**。
+2. 按一下&#x200B;**[!UICONTROL 新增範本]**。
 
-1. 在&#x200B;_[!UICONTROL 新增您核准的範本]_&#x200B;窗格中，瀏覽HTML範本檔案或將HTML範本檔案拖曳至放置空間。 按一下「**[!UICONTROL 下一步]**」。
+3. 在&#x200B;_[!UICONTROL 新增您核准的範本]_&#x200B;窗格中，瀏覽HTML範本檔案或將HTML範本檔案拖曳至放置空間。 按一下「**[!UICONTROL 下一步]**」。
 
-1. 在&#x200B;_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格中，檢閱欄位。 確認您使用正確的範本，以及所有詳細資料皆如預期般顯示。
+4. 在&#x200B;_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格中，檢閱欄位。 確認您使用正確的範本，以及所有詳細資料皆如預期般顯示。
 
    電子郵件範本的範例預覽：
 
-   ![偵測到預覽欄位](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
+   ![偵測到預覽欄位](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
-   >如果範本不正確，請按一下[上一步] **&#x200B;**&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/content/code-editor.md)進行簡單的更正。
+   >如果範本不正確，請按一下[上一步] ****&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/content/code-editor.md)進行簡單的更正。
 
-1. 當您對範本預覽感到滿意時，請按一下&#x200B;**[!UICONTROL [下一步]]**。
+5. 當您對範本預覽感到滿意時，請按一下&#x200B;**[!UICONTROL [下一步]]**。
 
-1. 在&#x200B;_[!UICONTROL 提供範本詳細資料並上傳]_&#x200B;中，命名您的範本並選取&#x200B;**[!UICONTROL 頻道]**&#x200B;型別。
+6. 在&#x200B;_[!UICONTROL 提供範本詳細資料並上傳]_&#x200B;中，命名您的範本並選取&#x200B;**[!UICONTROL 頻道]**&#x200B;型別。
 
    需要範本名稱和管道型別。 其他需求可能包括：
 
    - **Meta**：需要外觀比例
    - **橫幅和顯示廣告**：需要維度
 
-1. 新增儘可能多的詳細資訊，以改善搜尋和篩選中的範本識別。
+7. 新增儘可能多的詳細資訊，以改善搜尋和篩選中的範本識別。
 
-1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
+8. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
 ### 重新整理範本
 
@@ -117,11 +117,11 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 **若要重新整理範本**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
 
-1. 按一下範本以取得完整檢視和詳細資訊清單。
+2. 按一下範本以取得完整檢視和詳細資訊清單。
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 重新整理]** （圓圈箭頭）以重新整理範本中使用的所有資產。
+3. 按一下右上角的&#x200B;**[!UICONTROL 重新整理]** （圓圈箭頭）以重新整理範本中使用的所有資產。
 
 ### 使用範本建立體驗
 
@@ -129,13 +129,13 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 **若要使用範本建立體驗**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
 
-1. 按一下範本以取得完整檢視和詳細資訊清單。
+2. 按一下範本以取得完整檢視和詳細資訊清單。
 
-1. 從右上角按一下&#x200B;**[!UICONTROL 建立體驗]** （繪圖筆刷）以使用範本。
+3. 從右上角按一下&#x200B;**[!UICONTROL 建立體驗]** （繪圖筆刷）以使用範本。
 
-1. 繼續[建立](/help/user-guide/create/overview.md#create-use-cases)體驗。
+4. 繼續[建立](/help/user-guide/create/overview.md#create-use-cases)體驗。
 
 ## AJO和Marketo的範本
 

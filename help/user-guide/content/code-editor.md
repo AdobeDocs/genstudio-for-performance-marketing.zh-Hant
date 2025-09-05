@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 81c4b10e22ac347eb2a464496bd65b29c3c94efa
+source-git-commit: f9fec89a522f3c82367516b79dbc79db5a106bbf
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 _[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會顯示GenStudio for Performance Marketing在您的範本中辨識的欄位清單。 檢閱清單，然後您可以捲動HTML程式碼以檢視範本的形式。
 
-![程式碼編輯器檢視](/help/assets/template-detected-fields.png "檢查偵測到的欄位"){width="600" zoomable="yes"}
+![程式碼編輯器檢視](/help/assets/template-detected-fields.png "檢查偵測到的欄位"){width="600"}
 
 如果您發現清單中缺少欄位，請搜尋範本程式碼並尋找缺少欄位的位置。 使用Handlebars語法和[可辨識的欄位名稱](/help/user-guide/content/customize-template.md#recognized-field-names)插入正確的預留位置。 使用程式碼編輯器底部的「尋找和取代」表單，搜尋程式碼中的特定字串。 (Windows `CTRL`+`F`或macOS `CMD`+`F`)
 
@@ -36,22 +36,22 @@ _[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會顯示GenStudio for Perf
 >
 >影像變數的角色無法調整。
 
-![多重角色欄位選擇](/help/assets/multirole-dropdown-field.png "多重角色欄位選擇"){width="600" zoomable="yes"}
+![多重角色欄位選擇](/help/assets/multirole-dropdown-field.png "多重角色欄位選擇"){width="600"}
 
 若要將角色指派給變數：
 
 1. 在&#x200B;_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格中找到變數。 系統會自動探索這些變數。
 2. 檢閱指派給每個變數的角色。 角色會自動指派，但可使用範本中任何變數的下拉式清單進行調整。
 3. 從下拉式選單中選取新角色，即可調整角色。
-4. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;繼續。
+4. 按一下[下一步]****&#x200B;繼續。
 
 ## 進行更正
 
 如果您的範本中有錯誤，您可能會看到`Template is invalid`訊息，其中包含問題的簡短說明。 在下列範例中，訊息指出`_image`欄位不符合在多重面板範本中建立的欄位命名慣例。 該訊息進一步建議您需要使用正確的前置詞更新欄位名稱。 在範本程式碼編輯器中尋找`_image`欄位，並依建議更新名稱。
 
-![更正無效的範本](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
+![更正無效的範本](/help/assets/animation/template-code-editor.gif){width="600"}
 
-_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會更新以反映您所做的變更。 在您滿意欄位正確且完成之後，請按[下一步] **&#x200B;**&#x200B;繼續[上傳您的範本](/help/user-guide/content/use-templates.md#add-a-template)。
+_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會更新以反映您所做的變更。 在您滿意欄位正確且完成之後，請按[下一步] ****&#x200B;繼續[上傳您的範本](/help/user-guide/content/use-templates.md#add-a-template)。
 
 ## 常見範本問題和解決方案
 
