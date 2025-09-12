@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
+source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
 workflow-type: tm+mt
-source-wordcount: '3411'
+source-wordcount: '3502'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 0%
 
 此版本資訊提供GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2025.08.15 {#latest}
+## 2025.09.11 {#latest}
+
+### 適用於付費媒體的新產生式擴展AI功能
+
+新的GenExpand功能可讓行銷人員動態調整其創意資產，以支援跨付費媒體管道（例如Meta、LinkedIn、顯示廣告和橫幅）的不同外觀比例。 當影像不符合預期外觀比例時（例如將窄影像新增至寬版面），您可以使用GenExpand來修改影像以符合大小。
+
+此功能可簡化直接在GenStudio for Performance Marketing中編輯影像與調整大小的程式。 如需詳細資訊，請參閱[產生式展開AI功能](/help/user-guide/create/manage-variants.md#use-generative-expand)。
+
+## 舊版發行說明
+
++++2025.08.15版注意事項
 
 ### 文字屬性的深入分析
 
@@ -65,8 +75,7 @@ Adobe GenStudio for Performance Marketing現在支援最新的Firefly Image Mode
 
 Adobe GenStudio for Performance Marketing現在提供內建的電子郵件翻譯功能，讓行銷人員能夠有效地在全球擴充其電子郵件促銷活動。 此功能可讓您取得核准的電子郵件體驗，並使用Azure Open AI翻譯服務將其翻譯成多種目標語言。
 
-
-## 舊版發行說明
++++
 
 +++2025.07.25版注意事項
 
@@ -184,7 +193,7 @@ Adobe GenStudio for Performance Marketing現在提供內建的電子郵件翻譯
 
 作為品牌驗證程式的一部分，[內容檢查](/help/user-guide/guidelines/overview.md)已引入[法規遵循標準](/help/user-guide/guidelines/brand-validation.md)。 這些檢查會根據[!DNL Brand]指南、平台指南（例如Meta）和ADA標準來檢閱體驗中的每個變體。 此程式提供需修訂以符合規範之指引和標準的完整摘要。
 
-### 擴展性
+### 可擴充性
 
 新的GenStudio for Performance Marketing [可擴充性架構](/help/extensibility/overview.md)提供工具，讓組織能夠透過附加元件或可擴充應用程式，將自己的宣告規範遵循通訊協定整合到內容建立工作流程與驗證中。
 
