@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
+source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -44,17 +44,18 @@ GenStudio for Performance Marketing會自動產生下列欄位。 未啟用RTF�
 
 ## 多節電子郵件
 
-_區段_&#x200B;可讓您將內容組織成不同的群組，以支援更複雜的版面配置。 在Genstudio for Performance Marketing中，您可以使用群組命名慣例來定義每個區段。 請參閱[自訂範本區段](/help/user-guide/content/customize-template.md#sections-or-groups)。
+_區段_&#x200B;可讓您將內容組織成不同的群組，以支援更複雜的版面配置。 在GenStudio for Performance Marketing中，您可以使用群組命名慣例來定義每個區段。 請參閱[自訂範本區段](/help/user-guide/content/customize-template.md#sections-or-groups)。
 
 多區段範本可以有0、2或3個區段：
 
 - 基本範本（零個區段）可以產生一組不需要群組命名慣例的單一範本元素。
-- 複雜範本（多個區段）最多可以產生三組範本元素，這要求您遵循群組命名慣例： (`groupname_fieldname`)
+- 複雜範本（多個區段）最多可以產生三組範本元素，這需要您遵循群組命名慣例： `<groupname_fieldname>`。
+- 使用多個區段時，不會填入區段外任何保持獨立的元素。
 
-兩個區段的欄位名稱範例：
+以下是兩個區段使用群組命名慣例的欄位名稱範例：
 
-- `pod1_headline`, `pod1_body`, `pod1_cta`
-- `pod2_headline`, `pod2_body`, `pod2_cta`
+- 在區段1：`pod1_headline`， `pod1_body`， `pod1_cta`
+- 在區段2：`pod2_headline`， `pod2_body`， `pod2_cta`
 
 ## 範本範例
 
@@ -109,7 +110,7 @@ _區段_&#x200B;可讓您將內容組織成不同的群組，以支援更複雜�
 
 +++範例：具有多個區段的電子郵件範本
 
-以下是上述範例中的相同HTML範本，但包含另外兩個區段。 標題包含用於設定群組樣式的內嵌CSS。 本文使用兩個群組，其中的[內容預留位置](#content-placeholders)使用前置詞。
+以下是上述範例中的相同HTML範本，但另有兩個區段。 標題包含用於設定群組樣式的內嵌CSS。 本文使用兩個群組，其中的[內容預留位置](#content-placeholders)使用前置詞。
 
 ```html
 <!DOCTYPE html>
@@ -151,8 +152,6 @@ _區段_&#x200B;可讓您將內容組織成不同的群組，以支援更複雜�
     </head>
     <body>{{pre_header}}
         <div class="container">
-            <h1>{{headline}}</h1>
-            <p>{{body}}</p>
             <!-- Pod1 -->
             <div class="pod">
                 <h2>{{pod1_headline}}</h2>
