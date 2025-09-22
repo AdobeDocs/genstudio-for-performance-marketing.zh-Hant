@@ -4,7 +4,7 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
+source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
 workflow-type: tm+mt
 source-wordcount: '3502'
 ht-degree: 0%
@@ -195,7 +195,7 @@ Adobe GenStudio for Performance Marketing現在提供內建的電子郵件翻譯
 
 ### 可擴充性
 
-新的GenStudio for Performance Marketing [可擴充性架構](/help/extensibility/overview.md)提供工具，讓組織能夠透過附加元件或可擴充應用程式，將自己的宣告規範遵循通訊協定整合到內容建立工作流程與驗證中。
+新的GenStudio for Performance Marketing [可擴充性架構](/help/extensibility/setup.md)提供工具，讓組織能夠透過附加元件或可擴充應用程式，將自己的宣告規範遵循通訊協定整合到內容建立工作流程與驗證中。
 
 ### 範本
 

@@ -1,11 +1,11 @@
 ---
-title: 建立App Builder應用程式以擴充GenStudio for Performance Marketing
-description: 開始建立應用程式或附加元件。
+title: 建立App Builder應用程式
+description: 開始建立應用程式或附加元件，以擴充GenStudio for Performance Marketing。
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
-source-git-commit: 89b7f477310326755a6b34cb97d5ad5664e98dec
+source-git-commit: 04a4f6432c5db87489e39f9396a7782c86441695
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * npm （與Node.js封裝）
 
-* Adobe Developer命令列介面(CLI)。 若要安裝： `npm install -g @adobe/aio-cli`
+* Adobe Developer命令列介面(CLI)。 若要與npm一起安裝，請執行： `npm install -g @adobe/aio-cli`
 
 >[!ENDSHADEBOX]
 
@@ -47,10 +47,10 @@ App Builder應用程式的關鍵元件包括這些組建和設定檔案。 此�
 * App Builder設定檔案：
 
    * `app.config.yaml`
-   * `ext.config.yaml`：附加元件的組態檔
-   * `app.config.yaml`：附加元件的設定檔(包括將您的應用程式定義為GenStudio for Performance Marketing附加元件)
+   * `ext.config.yaml`：附加元件的組態檔。
+   * `app.config.yaml`：附加元件的設定檔(包括將您的應用程式定義為GenStudio for Performance Marketing附加元件)。
    * `.aio`
-   * `.env`：不要將`.env`檔案認可到原始檔控制
+   * `.env`：不要將`.env`檔案認可到原始檔控制。
 
 ### Source程式碼
 
@@ -70,7 +70,7 @@ App Builder應用程式的關鍵元件包括這些組建和設定檔案。 此�
 
 ### Source程式碼元件
 
-* `ExtensionRegistration.tsx`：定義主機應用程式(GenStudio for Performance Marketing)需要載入及顯示附加元件的必要API。
+* `ExtensionRegistration.tsx`：定義主機應用程式(GenStudio for Performance Marketing)載入及顯示附加元件的必要API。
 
 * `App.tsx`：定義路由傳送至其他元件的主要應用程式元件。
 
@@ -88,7 +88,7 @@ App Builder應用程式的關鍵元件包括這些組建和設定檔案。 此�
 
 1. 從[GenStudio UIX範例](https://github.com/adobe/genstudio-uix-examples)存放庫下載範例應用程式。
 
-1. 從[Adobe Developer Console](https://developer.adobe.com/console/)上的App Builder專案工作區中，選取「**[!UICONTROL 全部下載]**」以下載專案詳細資料。
+1. 從[Adobe Developer Console](https://developer.adobe.com/console/)上的App Builder專案工作區中，選取「[!UICONTROL 全部下載]」以下載專案詳細資料。
 
 1. 在您偏好的整合式開發環境(IDE)中，在本機開啟範例應用程式。
 
@@ -106,17 +106,15 @@ App Builder應用程式的關鍵元件包括這些組建和設定檔案。 此�
 
 ## 新增自訂程式碼到您的附加元件
 
-您在`AdditionalContextDialog.tsx`和`RightPanel.tsx`檔案中定義您的附加元件程式碼。 這兩個檔案定義使用者存取附加元件時的快顯視窗外觀和行為。
+在`AdditionalContextDialog.tsx`和`RightPanel.tsx`檔案中定義您的附加元件程式碼。 這兩個檔案定義使用者存取附加元件時的快顯視窗外觀和行為。
 
-* `AdditionalContextDialog.tsx`：如果您打算使用&#x200B;_新增內容_&#x200B;附加元件，請定義此元件。 使用者在[!DNL Create]的提示抽屜中按一下&#x200B;_附加元件_&#x200B;時，與此元件互動。
+* `AdditionalContextDialog.tsx`：如果您打算使用&#x200B;_新增內容_&#x200B;附加元件，請定義此元件。 使用者在&#x200B;_的提示抽屜中按一下_&#x200B;附加元件[!DNL Create]時，與此元件互動。
 
 * `RightPanel.tsx`：如果您打算使用&#x200B;_Right Panel_&#x200B;附加元件（體驗驗證），請定義此元件。 使用者在[!DNL Create]體驗草稿中按一下右側面板中的驗證附加元件，與此元件互動。
 
-您現在已準備好[部署您的應用程式](deploy-app.md)
-
 ## 應用程式開發的最佳作法
 
-維護開發環境可協助您避免應用程式開發和部署錯誤：
+維護開發環境有助於避免應用程式開發和部署錯誤：
 
 * 如果您使用舊版範例應用程式，請重新安裝以升級相依性：
 
@@ -124,4 +122,6 @@ App Builder應用程式的關鍵元件包括這些組建和設定檔案。 此�
   rm -rf node_modules package-lock.json && npm i
   ```
 
-* 升級GenStudio UIX SDK。 確認您使用的是最新版本的[GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk)。 請參閱[GenStudio UIX範例存放庫](https://github.com/adobe/genstudio-uix-examples)以瞭解如何使用最新的SDK變更。
+* 升級GenStudio UIX SDK。 確認您使用的是最新版的[GenStudio UIX SDK](https://github.com/adobe/genstudio-uix-sdk)。 請參閱[GenStudio UIX範例存放庫](https://github.com/adobe/genstudio-uix-examples)以瞭解如何使用最新的SDK變更。
+
+現在您已準備好[部署您的應用程式](deploy-app.md)
