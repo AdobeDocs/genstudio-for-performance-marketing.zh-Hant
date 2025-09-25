@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 12336812e8f4f55935f624ad0a195b5928850c7f
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 建立電子郵件體驗
 
-此教學課程示範如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)產生品牌化[電子郵件體驗](/help/user-guide/create/email-experiences.md) （在左側導覽區域中繪製筆刷圖示）。
+此教學課程示範如何使用GenStudio for Performance Marketing [產生品牌化](/help/user-guide/create/email-experiences.md)電子郵件體驗[[!DNL Create]](/help/user-guide/create/overview.md) （在左側導覽區域中繪製筆刷圖示）。
 
 若要建立有效的電子郵件體驗，建議您[在GenStudio for Performance Marketing中新增准則](/help/user-guide/guidelines/add-guidelines.md)，並在開始之前[先梳理製作提示字元](/help/user-guide/effective-prompts.md)的基本知識。
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 **若要選擇電子郵件範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 電子郵件]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 電子郵件]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的電子郵件範本。
-1. 按一下以選取電子郵件範本，然後按一下[使用]。**&#x200B;**
+1. 按一下以選取電子郵件範本，然後按一下[使用]。****
 
    內容建立的中心「畫布」隨即顯示。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
 
    >[!NOTE]
-   >如果您的電子郵件範本有多個區段，請在&#x200B;_多區段電子郵件_&#x200B;中為每個電子郵件區段選取[!DNL Products]和內容（視覺資產）。 多節電子郵件支援每個節一個視覺資產。 您只能從[!DNL Content]將視覺資產新增至多節電子郵件，而不能從本機來源拖放或上傳資產。
+   >如果您的電子郵件範本有多個區段，請在[!DNL Products]多區段電子郵件&#x200B;_中為每個電子郵件區段選取_&#x200B;和內容（視覺資產）。 多節電子郵件支援每個節一個視覺資產。 您只能從[!DNL Content]將視覺資產新增至多節電子郵件，而不能從本機來源拖放或上傳資產。
    >![為每個電子郵件區段新增內容和引數](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 當您完成新增引數時，可以再次按一下&#x200B;_引數_&#x200B;圖示來收合提示抽屜。
@@ -134,7 +134,7 @@ ht-degree: 0%
 若要讓產生的電子郵件可供目前和未來使用，請將它發佈至[!UICONTROL Content]，並匯出以用於您的行銷活動。
 
 1. **若要發佈您的新電子郵件體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
-1. **若要匯出您的新電子郵件體驗**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式(僅限CSV和影像或HTML)，然後按一下「匯出」**&#x200B;**。
+1. **若要匯出您的新電子郵件體驗**，請按一下頂端工具列中的[匯出]。****
+   1. 選取格式(僅限CSV和影像或HTML)，然後按一下「匯出」****。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。

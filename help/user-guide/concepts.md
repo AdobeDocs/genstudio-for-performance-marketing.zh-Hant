@@ -4,7 +4,7 @@ description: 瞭解Adobe GenStudio for Performance Marketing概念和術語。
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 概念
 
-GenStudio for Performance Marketing是獨立企業產品，其內含Adobe的內容供應鏈，可簡化行銷活動。 大規模建立個人化、品牌核准的內容、監控成效，以及快速適應不斷變化的市場，這些都是極具挑戰性的工作。 GenStudio for Performance Marketing將Creative Cloud和Experience Cloud整合在一個應用程式中，該應用程式利用創作AI作為企業行銷團隊的效能倍增器。
+GenStudio for Performance Marketing是獨立企業產品，其中包含Adobe的內容supply chain，可簡化行銷活動。 大規模建立個人化、品牌核准的內容、監控成效，以及快速適應不斷變化的市場，這些都是極具挑戰性的工作。 GenStudio for Performance Marketing將Creative Cloud和Experience Cloud整合在一個應用程式中，該應用程式利用創作AI作為企業行銷團隊的效能倍增器。
 
 透過GenStudio for Performance Marketing，您可以：
 
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing透過Azure OpenAI使用GPT系列的協力廠
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_(如[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所定義)是量化GenStudio for Performance Marketing內產生式AI功能之使用的單位。
+_[!DNL Generative Actions]_(如[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所定義)是量化GenStudio for Performance Marketing內產生式AI功能之使用的單位。
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +48,11 @@ If genactions roll over month to month or not -->
 
 ### 費率
 
-您會收到[GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所述的[!DNL Generative Actions]預設配額。
+您會收到[!DNL Generative Actions]GenStudio for Performance Marketing產品說明[中所述的](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)預設配額。
 
 >[!NOTE]
 >
->使用率可能有所不同。 計畫可能會有變動。 如需更新的費率資訊，請參閱[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)。
+>使用率可能有所不同。 計畫可能會有變動。 如需更新的費率資訊，請參閱[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)。
 
 下列函式以指定的速率使用[!DNL Generative Actions]。
 
@@ -91,7 +91,7 @@ GenStudio for Performance Marketing納入緩解計畫，以防止根據Adobe資�
 
 ## 內容生命週期
 
-對於以更快的速度在多個管道提供高品質體驗的需求很高。 GenStudio for Performance Marketing將內容供應鏈簡化為行銷人員妥善組織的工作流程。 GenStudio for Performance Marketing在生命週期的每個階段都運用Adobe技術。
+對於以更快的速度在多個管道提供高品質體驗的需求很高。 GenStudio for Performance Marketing為行銷人員將內容supply chain簡化為妥善組織的工作流程。 GenStudio for Performance Marketing在生命週期的每個階段都運用Adobe技術。
 
 <table style="table-layout:auto">
 

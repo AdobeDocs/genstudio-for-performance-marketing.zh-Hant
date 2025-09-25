@@ -4,7 +4,7 @@ description: 瞭解如何最佳化協力廠商付費廣告頻道的啟用。
 level: Intermediate
 feature: Ad Activation
 exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
@@ -35,15 +35,15 @@ ht-degree: 0%
 
 * **檢閱您的廣告集，並確定在任何時候只有一個廣告在作用中**
 
-  如果您需要啟動多個中繼廣告，請為每個中繼廣告建立個別的動態Creative廣告集。 範例錯誤： _動態Creative廣告集最多允許一個使用中的廣告。 不允許使用者在同一個動態Creative廣告集下建立多個廣告。 (100)_
+  如果您需要啟用多個Meta廣告，請為每個廣告建立個別的動態Creative廣告集。 範例錯誤： _動態Creative廣告集最多允許一個使用中的廣告。 不允許使用者在同一個動態Creative廣告集下建立多個廣告。 (100)_
 
 * **將套用的規則數目與平台**&#x200B;所指定的數目相符
 
   付費管道希望套用的規則數目符合其指定格式。  如有必要，請調整規則數量，以符合平台所指定的值。 範例錯誤： _廣告AssetFeed的format有X目標規則：格式名稱，但此格式應為X目標規則。 (100)_
 
-* **選擇與您的廣告集目標相容的呼叫動作(CTA)**
+* **選擇與您的廣告集目標相容的call-to-action (CTA)**
 
-  與Dynamic Creative廣告集中的目標不相容的呼叫動作會觸發錯誤。 範例錯誤： _動態Creative廣告集中的目標Y不支援呼叫動作型別X。 (100)_
+  與Dynamic Creative廣告集中的目標不相容的呼叫動作會觸發錯誤。 範例錯誤： _動態call to action廣告集中的目標Y不支援Creative型別X。 (100)_
 
 * **請確定目標廣告集的上限支援廣告體驗的數量**
 
@@ -51,4 +51,4 @@ ht-degree: 0%
 
 * **請確定平台支援您選取的CTA型別**
 
-  確認您的體驗包含支援的CTA型別。 範例錯誤： _(#100)無效的動作型別呼叫(100)_
+  確認您的體驗包含支援的CTA型別。 範例錯誤： _(#100)無效的call to action型別(100)_

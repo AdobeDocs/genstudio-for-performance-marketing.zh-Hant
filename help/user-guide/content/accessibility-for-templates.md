@@ -3,16 +3,16 @@ title: 建立無障礙範本
 description: 在Adobe GenStudio for Performance Marketing中建立範本，這些範本可觸及更多對象並提供最佳體驗。
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: 28c128ad6f3d173b7516a6b1309555c12e6a4e2d
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
 # 建立無障礙範本
 
-Adobe致力於為所有受眾提供最佳體驗。 如需進一步閱讀，請參閱Adobe[&#128279;](https://www.adobe.com/trust/accessibility/initiatives.html)的協助工具方案。
+Adobe致力於為所有受眾提供最佳體驗。 如需進一步閱讀，請參閱Adobe[的](https://www.adobe.com/trust/accessibility/initiatives.html)協助工具方案。
 
 在GenStudio for Performance Marketing中，您可以上傳資產和範本，以針對各種體驗建立內容。 遵循協助工具標準有助於您的內容觸及到最大的目標受眾。
 
@@ -40,7 +40,7 @@ Adobe致力於為所有受眾提供最佳體驗。 如需進一步閱讀，請�
 提供文字和背景之間的適當對比。 避免使用在深色背景產生深色文字，而在淺色背景產生淺色文字的字型顏色。 考量最佳比率的對比准則：
 
 - 文字和影像：對比率至少為4.5:1
-- 大型文字的大型文字和影像：至少3:1的對比率
+- 大型文字的大型文字和影像：對比率至少為3:1
 
 ## 連結目的（僅限連結）
 

@@ -3,7 +3,7 @@ title: 發佈核准的內容
 description: 瞭解如何使用Adobe GenStudio for Performance Marketing發佈核准的內容。
 feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: 7979887740dad1e3c70c9cefc528306ddfd47c3c
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%

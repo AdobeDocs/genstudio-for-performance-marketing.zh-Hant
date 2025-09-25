@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: e2b2e3b541c4d07530b9e725fceebabccbf6c84d
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -58,4 +58,4 @@ ht-degree: 0%
 - [電子郵件](/help/user-guide/templates/email-template.md)
 - [顯示廣告和橫幅廣告](/help/user-guide/templates/display-template.md)
 - [LinkedIn](/help/user-guide/templates/linkedin-template.md)
-- [中繼廣告](/help/user-guide/templates/meta-template.md)
+- [Meta廣告](/help/user-guide/templates/meta-template.md)

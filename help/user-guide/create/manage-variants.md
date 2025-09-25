@@ -3,7 +3,7 @@ title: 管理變體
 description: 根據您的數位行銷需求，自訂及增強產生的變體和資產。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 管理變體
 
-Adobe GenStudio for Performance Marketing [!DNL Create]可讓您自訂及增強產生的變體 — [電子郵件](/help/user-guide/create/email-experiences.md)、[中繼廣告](/help/user-guide/create/meta-experiences.md)等等 — 以用於數位行銷方案。
+Adobe GenStudio for Performance Marketing [!DNL Create]可讓您自訂及增強產生的變體 — [電子郵件](/help/user-guide/create/email-experiences.md)、[Meta廣告](/help/user-guide/create/meta-experiences.md)等等 — 以用於數位行銷方案。
 
 當[建立體驗](/help/user-guide/create/overview.md)時，您可以個別或批次修改產生之變體的內容和資產。 在個別微觀層級管理變體的功能可讓您管理每個產生的內容。
 
@@ -41,13 +41,13 @@ Adobe GenStudio for Performance Marketing [!DNL Create]可讓您自訂及增強�
 * 文字大小
 * 連結
 
-文字格式選項會因每個管道而異（中繼、電子郵件等）
+文字格式選項會因不同管道而異(Meta、電子郵件等)
 
 **若要在產生的變化中手動編輯文字**：
 
 1. 產生一組變體後，在變體中的可編輯文字上連按兩下。
 1. 輸入新文字。
-1. 若要格式化文字，請反白適用的文字，然後按一下&#x200B;**[!UICONTROL 格式化文字**]。
+1. 若要格式化文字，請反白適用的文字，然後按一下**[!UICONTROL 格式化文字**]。
 
    套用任何（或全部！）可用的格式選項至您的文字。
 
@@ -69,7 +69,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]可讓您自訂及增強�
 
 GenStudio for Performance Marketing有內建功能，可重新產生產生產生變體的區段。 您可以重述、縮短或加長文字，或新增提示以產生新內容。
 
-例如，您可以重新產生一個中繼廣告變體的標題區段，以檢視它在特定背景資產下的外觀。 您可以&#x200B;_[!UICONTROL 重新片語]_、_[!UICONTROL 縮短]_、_[!UICONTROL 加長]_&#x200B;區段內容，或&#x200B;_[!UICONTROL 產生新文字]_&#x200B;以新增提示。
+例如，您可以重新產生一個Meta廣告變體的標題區段，以檢視它在特定背景資產中的外觀。 您可以&#x200B;_[!UICONTROL 重新片語]_、_[!UICONTROL 縮短]_、_[!UICONTROL 加長]_&#x200B;區段內容，或&#x200B;_[!UICONTROL 產生新文字]_&#x200B;以新增提示。
 
 ![重新產生區段](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
@@ -110,7 +110,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
    1. 在URL中輸入或貼上，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-      若要修訂CTA中的現有連結，請編輯現有URL或貼入新URL，然後按一下[套用]。**&#x200B;**
+      若要修訂CTA中的現有連結，請編輯現有URL或貼入新URL，然後按一下[套用]。****
 
 新增或修訂連結會套用至變體集中的所有CTA。
 
@@ -130,7 +130,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 ## 使用產生式展開
 
-展開影像的尺寸，並以「創作」展開來新增創作的內容。 「產生式展開」可讓您將不符合的影像轉換為橫幅、中繼廣告、LinkedIn廣告或顯示廣告範本最適合的外觀比例。
+展開影像的尺寸，並以「創作」展開來新增創作的內容。 「產生式展開」可讓您將不符合的影像轉換為橫幅、Meta廣告、LinkedIn廣告或顯示廣告範本最適合的外觀比例。
 
 此「產生式擴充」功能與「裁切」工具搭配使用，可讓您全面控制付費媒體頻道中各種外觀比例的資產。
 
@@ -162,13 +162,13 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 ## 變更外觀比例
 
-您可以快速變更中繼廣告的[外觀比例](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)，以符合所需的廣告大小。 選擇與範本尺寸幾乎相符的影像外觀比例，以避免不需要的裁切或拉伸。 例如，如果您的範本是1200 × 628畫素（寬矩形），則使用1:1方形影像可能會裁切側邊，可能會截斷重要內容。 最佳影像大小為628 x 628畫素，符合範本的高度。
+您可以快速變更Meta廣告的[外觀比例](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)，以符合所需的廣告大小。 選擇與範本尺寸幾乎相符的影像外觀比例，以避免不需要的裁切或拉伸。 例如，如果您的範本是1200 × 628畫素（寬矩形），則使用1:1方形影像可能會裁切側邊，可能會截斷重要內容。 最佳影像大小為628 x 628畫素，符合範本的高度。
 
 >[!NOTE]
 >
 >根據可用的範本，可能會提供各種外觀比例和大小。
 
-**若要變更產生的中繼廣告的外觀比例**：
+**若要變更產生的Meta廣告的外觀比例**：
 
 1. 產生一組變體後，按一下畫布左側的&#x200B;**[!UICONTROL 調整外觀比例大小]** （指向方塊角落的箭頭）。
 
@@ -196,7 +196,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 1. 按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
 1. 使用GenStudio資產[!DNL Content]檢視中的篩選和搜尋功能，進一步縮小搜尋結果的範圍。
 
-   您也可以從[**[!UICONTROL 位置&#x200B;]**&#x200B;功能表](/help/user-guide/content/manage-assets.md#location)中選取已連線的Adobe Experience Manager (AEM) Assets Content Hub存放庫，使用該存放庫中的可用影像。
+   您也可以從[**[!UICONTROL 位置&#x200B;]**功能表](/help/user-guide/content/manage-assets.md#location)中選取已連線的Adobe Experience Manager (AEM) Assets Content Hub存放庫，使用該存放庫中的可用影像。
 
 1. 按一下以選取影像，然後按一下&#x200B;**[!UICONTROL 使用]**。
 
@@ -231,8 +231,8 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
    1. 按一下文字方塊並新增替代文字。
    1. 按一下「**[!UICONTROL 套用]**」。
 1. 若要產生影像的替代文字，請執行下列動作：
-   1. 文字欄位保持空白，然後按一下[產生]。**&#x200B;**
-   1. 如果您對初始結果不滿意，請按一下[產生&#x200B;**&#x200B;**]。
+   1. 文字欄位保持空白，然後按一下[產生]。****
+   1. 如果您對初始結果不滿意，請按一下[產生&#x200B;****]。
    1. 按一下「**[!UICONTROL 套用]**」。
 1. 針對變體集中的每個影像重複此步驟。
 

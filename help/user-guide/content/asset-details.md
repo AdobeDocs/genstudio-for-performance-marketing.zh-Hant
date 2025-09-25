@@ -3,7 +3,7 @@ title: 資產詳細資訊
 description: Adobe GenStudio for Performance Marketing會使用豐富的中繼資料儲存已核准的內容，以供搜尋和效能追蹤。
 feature: Generative AI, Content Attributes, Content Management
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 1%
@@ -18,7 +18,7 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 **若要檢視資產詳細資訊**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，檢閱右側的&#x200B;_[!UICONTROL 詳細資料]_&#x200B;區段。
 
@@ -56,7 +56,7 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 **若要編輯使用者定義的中繼資料**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，檢閱右側的&#x200B;_[!UICONTROL 詳細資料]_&#x200B;區段。
 
@@ -87,13 +87,13 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 ## 產生式內容
 
-[!UICONTROL 產生式內容]區段顯示用來產生體驗的資訊，例如[!DNL Create]處理序期間使用的`Prompt`。 此深入分析可協助您建立更成功的變體。
+[!UICONTROL 產生式內容]區段顯示用來產生體驗的資訊，例如`Prompt`處理序期間使用的[!DNL Create]。 此insight可協助您建立更成功的變體。
 
 資訊可能包括：
 
-- 在[!DNL Create]處理序期間選取了`Brand`、`Product`和`Persona`引數
+- 在`Brand`處理序期間選取了`Product`、`Persona`和[!DNL Create]引數
 - 電子郵件體驗的`Subject line`和`Preheader`
-- 中繼廣告的`Headline`和`Body`
+- Meta廣告的`Headline`和`Body`
 
 ## 歷史記錄
 

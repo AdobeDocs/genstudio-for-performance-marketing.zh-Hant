@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 ## 多節電子郵件
 
-電子郵件體驗可以包含多個區段，允許完全自訂以符合您的品牌和目標。 [為每個區段](/help/user-guide/create/create-email-experience.md#add-parameters)選取 [!DNL Products] 和視覺資產，並使用[結構化提示](/help/user-guide/effective-prompts.md#structured-prompts)製作獨特的內容。 每個區段支援一個視覺資產。
+電子郵件體驗可以包含多個區段，允許完全自訂以符合您的品牌和目標。 [為每個區段 [!DNL Products] 選取](/help/user-guide/create/create-email-experience.md#add-parameters)和視覺資產，並使用[結構化提示](/help/user-guide/effective-prompts.md#structured-prompts)製作獨特的內容。 每個區段支援一個視覺資產。
 
 請參閱[使用區段自訂範本](/help/user-guide/content/customize-template.md#sections-or-groups)，瞭解如何建立多區段範本。
 

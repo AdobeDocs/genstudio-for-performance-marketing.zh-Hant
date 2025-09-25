@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 透過Adobe GenStudio for Performance Marketing，您可以使用創作AI來簡化[成功建立顯示廣告體驗](/help/user-guide/create/create-display-ad.md)。
 
-[!DNL Create]可讓現代行銷人員使用[指南](/help/user-guide/guidelines/overview.md)、影像資產和[精心打造的提示](/help/user-guide/effective-prompts.md)，來[製作品牌一致的顯示廣告體驗](/help/user-guide/create/create-display-ad.md)。
+[!DNL Create]可讓現代行銷人員使用[指南](/help/user-guide/create/create-display-ad.md)、影像資產和[精心打造的提示](/help/user-guide/guidelines/overview.md)，來[製作品牌一致的顯示廣告體驗](/help/user-guide/effective-prompts.md)。
 
 產生顯示廣告體驗時，會建立四個變數並顯示在畫布中。
 

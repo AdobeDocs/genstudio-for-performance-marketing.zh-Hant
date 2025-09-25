@@ -1,36 +1,36 @@
 ---
-title: 建立中繼廣告體驗
-description: 瞭解如何使用Adobe GenStudio for Performance Marketing建立Facebook或Instagram的品牌內中繼廣告體驗。
+title: 建立Meta廣告體驗
+description: 瞭解如何使用Adobe GenStudio for Performance Marketing建立品牌上Meta廣告體驗（適用於Facebook或Instagram）。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%
 
 ---
 
-# 建立中繼廣告體驗
+# 建立Meta廣告體驗
 
-此教學課程示範如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)產生品牌化[中繼廣告體驗](/help/user-guide/create/meta-experiences.md) （左側導覽區域中的繪圖筆刷圖示）。
+此教學課程示範如何使用GenStudio for Performance Marketing [產生品牌化](/help/user-guide/create/meta-experiences.md)Meta廣告體驗[[!DNL Create]](/help/user-guide/create/overview.md) （左側導覽區域中的繪圖筆刷圖示）。
 
-開始產生中繼廣告體驗之前，請務必[在GenStudio for Performance Marketing中納入指引](/help/user-guide/guidelines/add-guidelines.md)，並熟悉[建立提示](/help/user-guide/effective-prompts.md)的基本知識。
+開始產生Meta廣告體驗之前，請務必[在GenStudio for Performance Marketing中納入指引](/help/user-guide/guidelines/add-guidelines.md)，並熟悉[建立提示](/help/user-guide/effective-prompts.md)的基本知識。
 
 ## 選擇範本
 
-若要開始產生新的中繼廣告體驗，請使用可用的範本為您的內容提供框架。 請參閱[中繼廣告範本指導方針](/help/user-guide/templates/meta-template.md)，以取得支援的中繼廣告外觀比例的相關資訊。
+若要開始產生新的Meta廣告體驗，請使用可用的範本為您的內容提供架構。 請參閱[Meta廣告範本指導方針](/help/user-guide/templates/meta-template.md)，以取得支援的Meta廣告外觀比例相關資訊。
 
 選取範本時，您可以選擇使用其中一個已上傳的範本或入門範本。
 
-**若要選擇中繼廣告範本**：
+**若要選擇Meta廣告範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 中繼廣告]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL Meta廣告]**。
 1. 選取&#x200B;**[!UICONTROL 自訂範本]**&#x200B;以瀏覽您上傳的範本，或選取&#x200B;**[!UICONTROL 入門範本]**&#x200B;以瀏覽預先建立的範本。
 
-   如果您打算將視訊資產新增至中繼變體，則必須選擇入門範本。 它們會預先載入系統定義的內容區域，以方便視訊的使用。
+   如果您打算將視訊資產新增至您的Meta變體，則必須選擇入門範本。 它們會預先載入系統定義的內容區域，以方便視訊的使用。
 
 1. 按一下以選取範本，然後按一下&#x200B;**[!UICONTROL 使用]**。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 新增引數
 
-在提示抽屜中新增[指南](/help/user-guide/guidelines/overview.md)和&#x200B;_引數_&#x200B;中的資產，可強化內容產生程式，是準備產生中繼廣告的重要步驟。
+在提示抽屜中新增[指南](/help/user-guide/guidelines/overview.md)和&#x200B;_引數_&#x200B;中的資產，可強化內容產生程式，是準備產生Meta廣告的重要步驟。
 
 如果您使用具有預先定義指引（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的範本，這些指引適用於您的變體。 如有需要，您可以加以變更。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ## 輸入提示
 
-選取准則後，使用自然語言製作提示，以開始為您新的中繼廣告體驗產生內容。 詳細提示產生比模糊或模稜兩可的提示更高的品質輸出。
+選取准則後，請使用自然語言製作提示，以開始為您新的Meta廣告體驗產生內容。 詳細提示產生比模糊或模稜兩可的提示更高的品質輸出。
 
 請參閱[撰寫有效提示](/help/user-guide/effective-prompts.md)，深入瞭解撰寫提示的相關資訊。
 
@@ -81,28 +81,28 @@ ht-degree: 0%
 
 依預設，會產生四個變數（全部由您新增的提示、指引和內容所推動），並顯示在畫布中。
 
-產生的內容會以漸進方式載入 — 當中繼體驗的每個區段產生時，都會顯示在畫布中。 請參閱[中繼體驗](/help/user-guide/create/meta-experiences.md#progressive-loading)，瞭解如何在畫布中載入這些變更。
+產生的內容會以漸進方式載入，當Meta體驗的每個區段產生時，都會顯示在畫布中。 請參閱[Meta體驗](/help/user-guide/create/meta-experiences.md#progressive-loading)，瞭解如何在畫布中載入這些變更。
 
-## 選擇中繼廣告頻道
+## 選擇Meta廣告頻道
 
-產生中繼廣告時，您可以在Facebook或Instagram廣告之間選擇。
+產生Meta廣告時，您可以選擇Facebook或Instagram廣告。
 
-切換右側功能表列（Facebook和Instagram圖示）中的中繼廣告頻道選項（在&#x200B;**Facebook**&#x200B;和&#x200B;**Instagram**&#x200B;之間），以檢視和管理每個頻道的變體。
+切換右側功能表列（Facebook和Instagram圖示）中的Meta廣告頻道選項（在&#x200B;**Facebook**&#x200B;和&#x200B;**Instagram**&#x200B;之間），以檢視和管理每個頻道的變體。
 
-[修訂中繼廣告](#revise-generated-variants)時，您可以變更Facebook和Instagram廣告的外觀比例。
+[修改Meta廣告](#revise-generated-variants)時，您可以變更Facebook和Instagram廣告的外觀比例。
 
 ## 修訂產生的變體
 
-在選取要傳送以進行核准或發佈到[!DNL Content]的內容之前，您可以編輯中繼廣告或從產生的廣告集中刪除變體。
+在選取要傳送以進行核准或發佈至[!DNL Content]的內容之前，您可以編輯Meta廣告或從產生的廣告集中刪除變體。
 
 若要反白要修訂的各個圖層，請按一下可編輯的欄位或影像，然後按一下&#x200B;_[!UICONTROL 檢檢視層]_。
 
 **若要修訂產生的變體**：
 
-* **若要[編輯中繼廣告草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名的草稿_&#x200B;標題，然後輸入新標題。
-* **若要[手動編輯中繼廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何廣告區段(例如主旨列、
+* **若要[編輯Meta廣告草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名的草稿_&#x200B;標題，然後輸入新標題。
+* **若要[手動編輯Meta廣告](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下任何廣告區段(例如主旨列、
 頁首或內文)，並視需要編輯。
-* **若要變更或選取呼叫動作**，請按一下call-to-action按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入call-to-action文字的URL。
+* **若要變更或選取call to action**，請按一下call-to-action按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入call-to-action文字的URL。
 * **若要在變體中[套用文字格式](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下變體的影像上文字或內嵌連結，然後按一下&#x200B;**[!UICONTROL 格式化文字]**。
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **若要[新增連結至變體中的影像](/help/user-guide/create/manage-variants.md#add-image-link)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下連結圖示。
@@ -110,10 +110,10 @@ ht-degree: 0%
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
 * **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請按一下影像，按一下&#x200B;**[!UICONTROL 編輯]** （鉛筆圖示），然後按一下&#x200B;**[!UICONTROL 裁切]**。 調整影像大小和位置。
-* **要[使用[產生式展開]以調整影像大小並符合您的工作範本](/help/user-guide/create/manage-variants.md#use-generative-expand)**，按一下影像，按一下[編輯]&#x200B;**（鉛筆圖示），然後**&#x200B;[!UICONTROL &#x200B;展開&#x200B;]&#x200B;**。**&#x200B;調整影像以符合所需的外觀比例和範本。
+* **要[使用[產生式展開]以調整影像大小並符合您的工作範本](/help/user-guide/create/manage-variants.md#use-generative-expand)**，按一下影像，按一下[編輯]**[!UICONTROL （鉛筆圖示），然後]**&#x200B;展開&#x200B;**[!UICONTROL 。]**&#x200B;調整影像以符合所需的外觀比例和範本。
 * **若要[為變體中的影像新增替代文字](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**，請按一下影像資產，並使用&#x200B;_替代文字_&#x200B;選項來手動新增或產生每個影像的替代文字。
 * **若要[新增協助工具標籤](/help/user-guide/create/manage-variants.md#add-accessibility-labels)至您的變體**，請按一下影像或call-to-action連結，然後提供簡短說明，說明連結或按鈕的作用。
-* **若要[刪除中繼廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下變體的選項功能表，然後按一下&#x200B;**[!UICONTROL 刪除變體]**。
+* **若要[刪除Meta廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下變體的選項功能表，然後按一下&#x200B;**[!UICONTROL 刪除變體]**。
 
 ### 管理影片
 
@@ -145,28 +145,28 @@ ht-degree: 0%
 
 **若要取得稽核與核准**：
 
-1. [啟動核准要求](/help/user-guide/approvals/request-review.md)以徵求[草擬中繼廣告體驗的核准](/help/user-guide/approvals/approve-content.md)。
+1. [啟動核准要求](/help/user-guide/approvals/request-review.md)以徵求[草擬的Meta廣告體驗核准](/help/user-guide/approvals/approve-content.md)。
 
    ![傳送草稿以供檢閱和核准](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
 1. [在稽核程式期間移除或新增稽核者](/help/user-guide/approvals/review-and-edit.md#manage-approvals)。
 1. [存取內容以供檢閱](/help/user-guide/approvals/review-and-edit.md#access-content-for-review)並檢視修訂要求。
-1. 編輯每次稽核評論的草稿，並[發佈您的中繼廣告體驗](#publish-and-export-experience)。
+1. 編輯每次評論的草稿，並[發佈您的Meta廣告體驗](#publish-and-export-experience)。
 
 如需詳細資訊，請參閱[檢閱與核准](/help/user-guide/approvals/overview.md)。
 
 ## 發佈和匯出體驗
 
-若要讓產生的中繼廣告可供目前和未來使用，請將它發佈至[!UICONTROL Content]，並匯出以用於您的行銷活動。
+若要讓產生的Meta廣告可供目前和未來使用，請將它發佈至[!UICONTROL 內容]，並匯出以用於您的行銷活動。
 
-1. **若要發佈新的中繼廣告體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
-1. **若要匯出您新的中繼廣告體驗**，請按一下頂端工具列中的&#x200B;**[!UICONTROL 匯出]**。
+1. **若要發佈新的Meta廣告體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
+1. **若要匯出您新的Meta廣告體驗**，請按一下頂端工具列中的「**[!UICONTROL 匯出]**」。
    1. 選取格式 — HTML和影像或CSV和影像(JPG或PNG) — 按一下「匯出&#x200B;**[!UICONTROL 」]**。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。
 
-## 連線中繼資料
+## 連線Meta
 
-您可以將GenStudio for Performance Marketing連線至中繼以接收進階分析和內容效能的深入分析。
+您可以將GenStudio for Performance Marketing連線至Meta，接收進階分析和內容效能的深入分析。
 
-檢視[中繼廣告連線](/help/user-guide/connectors/meta-ads.md)。
+請參閱[Meta廣告連線](/help/user-guide/connectors/meta-ads.md)。

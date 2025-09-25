@@ -1,26 +1,26 @@
 ---
-title: 中繼體驗
-description: 瞭解Adobe GenStudio for Performance Marketing中的所有中繼體驗。
+title: Meta體驗
+description: 瞭解Adobe GenStudio for Performance Marketing中的Meta體驗。
 feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 0344e43bc9cd417ea7b3ecd3a394bbcd6b104303
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
-# 中繼體驗
+# Meta體驗
 
-透過Adobe GenStudio for Performance Marketing，您可以使用創作AI來簡化[建立高影響力的中繼體驗](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]可讓內容建立者使用[指南](/help/user-guide/guidelines/overview.md)、影像資產，以及[精心設計的提示](/help/user-guide/effective-prompts.md)，快速[建立中繼廣告體驗](/help/user-guide/create/create-meta-ad.md)。
+透過Adobe GenStudio for Performance Marketing，您可以使用創作AI來簡化[建立高影響力的Meta體驗](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]可讓內容建立者使用[指南](/help/user-guide/guidelines/overview.md)、影像資產和[精心設計的提示](/help/user-guide/effective-prompts.md)，快速[建立Meta廣告體驗](/help/user-guide/create/create-meta-ad.md)。
 
-產生中繼體驗時，會建立四個變數並顯示在畫布中。 GenStudio for Performance Marketing同時支援[標準和自訂大小的中繼廣告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
+產生Meta體驗時，會建立四個變數並顯示在畫布中。 GenStudio for Performance Marketing同時支援[標準與自訂大小的Meta廣告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 
-產生中繼體驗時，四個變數會建立並顯示在畫布中。
+產生Meta體驗時，會建立四個變數並顯示在畫布中。
 
-GenStudio for Performance Marketing同時支援[標準和自訂大小的中繼廣告](/help/user-guide/templates/meta-template.md)。
+GenStudio for Performance Marketing同時支援[標準與自訂大小的Meta廣告](/help/user-guide/templates/meta-template.md)。
 
 電子郵件體驗的可編輯區段包括：
 
@@ -32,11 +32,11 @@ GenStudio for Performance Marketing同時支援[標準和自訂大小的中繼�
 
 請參閱[範本元素](/help/user-guide/content/use-templates.md#template-elements)。
 
-## 中繼廣告管道
+## Meta廣告管道
 
-建立中繼廣告體驗時，您可以為Facebook和Instagram頻道產生變體。 在Facebook和Instagram廣告之間來回切換以預覽每個頻道的變體。
+建立Meta廣告體驗時，您可以為Facebook和Instagram頻道產生變體。 在Facebook和Instagram廣告之間來回切換以預覽每個頻道的變體。
 
-請參閱[選擇中繼廣告頻道](/help/user-guide/create/create-meta-ad.md#choose-meta-ads-channel)。
+請參閱[選擇Meta廣告頻道](/help/user-guide/create/create-meta-ad.md#choose-meta-ads-channel)。
 
 ## 漸進式載入
 
@@ -44,7 +44,7 @@ GenStudio for Performance Marketing同時支援[標準和自訂大小的中繼�
 
 當您按一下&#x200B;**[!UICONTROL 產生]**&#x200B;時，畫布底部會顯示載入指示器，用於更新您的產生進度。
 
-中繼廣告體驗的每個欄位和區段都會依照以下順序逐步載入：
+Meta廣告體驗的每個欄位和區段都會依照此順序逐步載入：
 
 1. 所有變化的主要文字
 1. 呼叫動作和相關聯的URL

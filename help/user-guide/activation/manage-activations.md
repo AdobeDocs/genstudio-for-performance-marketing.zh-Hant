@@ -3,7 +3,7 @@ title: 管理啟用
 description: 瞭解如何使用Adobe GenStudio for Performance Marketing管理啟用的體驗。
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | 屬性 | 值 |
 |------------------|---------------------------------------------------------------------------------------------|
-| 體驗名稱 | GenStudio for Performance Marketing中的體驗名稱<br>此名稱可識別&#x200B;_[!DNL Content]_&#x200B;中的體驗 |
+| 體驗名稱 | GenStudio for Performance Marketing中的體驗名稱<br>此名稱可識別&#x200B;_[!DNL Content]_中的體驗 |
 | 廣告名稱 | 廣告頻道中的廣告名稱 |
 | 發佈日期 | 廣告體驗成功發佈的日期<br>使用月日年格式 |
 | 發佈者 | 啟用體驗的GenStudio for Performance Marketing使用者名稱 |
@@ -40,7 +40,7 @@ ht-degree: 0%
 從&#x200B;_啟用的體驗_&#x200B;檢視，按一下啟用。 唯讀的&#x200B;_啟用詳細資料_&#x200B;檢視會擷取已啟用體驗的定義詳細資料，包括失敗的啟用。 此檢視包含衍生自GenStudio for Performance Marketing和廣告頻道的資訊。
 
 * **發佈時間和日期**：從廣告頻道管理員發佈的時間和日期
-* **廣告ID**：付費管道所指派且用於追蹤的ID。 按一下此欄位旁的&#x200B;**[!UICONTROL 開啟]**&#x200B;按鈕，在中繼廣告管理員中檢視已發佈的廣告
+* **廣告ID**：付費管道所指派且用於追蹤的ID。 按一下此欄位旁的&#x200B;**[!UICONTROL 開啟]**&#x200B;按鈕，檢視Meta Ads Manager中已發佈的廣告
 * **體驗詳細資料**：在GenStudio for Performance Marketing啟用工作流程期間指派的所選影像資產、文字和中繼資料
 * **頻道設定**：用來啟用廣告體驗的付費頻道帳戶
 

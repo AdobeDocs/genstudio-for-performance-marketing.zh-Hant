@@ -4,10 +4,10 @@ description: 瞭解GenStudio for Performance Marketing中所使用屬性類別�
 level: Intermediate
 feature: Reporting and Insights, Video Attributes, Generative AI
 exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
-source-git-commit: c742fb33a04b36da35036a4554a475141fce8b01
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ GenStudio for Performance Marketing中的音訊偵測涉及分析視訊的音訊
 
 **若要預覽視訊並聆聽音訊範例**：
 
-1. 在&#x200B;_[!DNL Insights]_&#x200B;中，選取&#x200B;**[!UICONTROL 屬性]**&#x200B;檢視。
+1. 在&#x200B;_[!DNL Insights]_中，選取&#x200B;**[!UICONTROL 屬性]**檢視。
 
 1. 選取&#x200B;**[!UICONTROL 影片]**&#x200B;以變更資料表檢視。
 
@@ -49,7 +49,7 @@ GenStudio for Performance Marketing中的音訊偵測涉及分析視訊的音訊
 | 音樂類別 | 當影片中有音樂出現時，音樂型別的廣泛分類。 型別有助於識別音樂的一般型別，例如`contemporary`或`traditional`樣式。 | `Contemporary/pop music`，`Traditional/folk-based music`，`Instrumental/orchestral music`，`Rock music`，`Acoustic/unplugged music`，`Specialised/occasional music`，`Experimental/unique music` |
 | 音樂型別 | 視訊中存在音樂時音樂風格的特定分類，可提供更詳細的音樂識別，例如`electronic`或`jazz`。 | `electronic`、`hip-hop`、`dance`、`novelty`、`rock`、`world`、`reggae`、`pop`、`film`、`jazz`、`background`、`latin` |
 | 物件 | 識別視訊中顯示的一或多個專案、實體和元素。 | 值太多，但某些範例包括： `backpack`、`book`、`hawk`、`glasses`、`fish`、`pencil`、`mountain bike`、`soap` |
-| 方向 | 視訊相對於其寬度和高度的對齊方式。 偵測它是否比高（橫向）寬、比寬（縱向）高，或寬度和高度相等（正方形）。 | `landscape`, `portrait`, `square` |
+| 方向 | 視訊相對於其寬度和高度的對齊方式。 偵測它是否比高（橫向）寬、比寬（縱向）高，或寬度和高度相等（正方形）。 | `landscape`、`portrait`、`square` |
 | 人員 | 當至少有一個人在場時，一個或多個屬性可以描述影片中的人或在場的人。 | `person`、`woman`、`man`、`girl`、`boy`、`social group`、`kid`、`crowd`、`people` |
 | 場景 | 識別視訊中的設定或環境，提供製作視訊的位置或描繪位置型別的相關內容。 | 值太多，但某些範例包括： `lake`、`underwater`、`highway`、`hill`、`log cabin`、`island`、`beach`、`lounge` |
 | 樣式 | 偵測套用至視訊元素的視覺化處理，例如After Effects或Lightroom中使用的視覺化處理。 | `design`，`illustration`，`logo`，`square`，`cartoon`，`art`，`matte`，`neon` |

@@ -5,7 +5,7 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights, Delivery and Activation
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2f18b273684a9fe9b9b8903838ae09f5cd2b7842
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -29,7 +29,7 @@ _付費媒體帳戶_&#x200B;是指企業管理和執行付費廣告行銷活動�
 1. 請參閱下列您選取的聯結器型別，以檢閱先決條件並繼續連線步驟：
 
    - [Google Campaign Manager 360](google-cm360.md)
-   - [中繼廣告](meta-ads.md)
+   - [Meta Ads](meta-ads.md)
 
 ## 付費媒體連線
 

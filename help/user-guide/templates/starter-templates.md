@@ -6,9 +6,9 @@ feature: Media Templates
 badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
-source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ _入門範本_&#x200B;是預先定義的範本選項，旨在協助您快速開�
 | 2:3， 4:5 | 縱向 | 適合直向格式，有助於創意在行動裝置上脫穎而出。 |
 | 9:16 | 垂直 | 最適合使用LinkedIn內文（影片全熒幕體驗）。 |
 
-### 中繼廣告範本
+### Meta廣告範本
 
 靜態影像和視訊媒體型別支援所有外觀比例。
 

@@ -5,7 +5,7 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 7495891b58d7830453ba81048df3373820823136
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%

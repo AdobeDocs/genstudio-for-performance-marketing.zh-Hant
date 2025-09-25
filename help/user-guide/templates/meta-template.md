@@ -1,22 +1,22 @@
 ---
-title: 中繼廣告範本指導方針
-description: 搭配Adobe GenStudio for Performance Marketing使用中繼廣告範本時，請遵循最佳實務准則。
+title: Meta廣告範本指引
+description: 搭配Adobe GenStudio for Performance Marketing使用Meta廣告範本時，請遵循最佳實務作法。
 level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: d9d774f727b69b18af6114965fdb8ffb450f797b
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
 
-# 中繼廣告範本指導方針
+# Meta廣告範本指引
 
-中繼廣告範本可協助您跨中繼平台建立視覺上一致且有效的廣告。 您可以遵循建議的設計實務並使用支援的欄位，確保您的範本已針對GenStudio for Performance Marketing最佳化。 本指南說明如何建構、自訂和準備中繼廣告範本，以無縫整合併取得高影響力的結果。
+Meta廣告範本可協助您在Meta平台上建立視覺上一致且有效的廣告。 您可以遵循建議的設計實務並使用支援的欄位，確保您的範本已針對GenStudio for Performance Marketing最佳化。 本指南說明如何架構、自訂和準備Meta廣告範本，以順暢整合併取得高影響力的結果。
 
-自訂中繼廣告範本以搭配GenStudio for Performance Marketing使用時，請遵循下列設計最佳實務：
+自訂Meta廣告範本以搭配GenStudio for Performance Marketing使用時，請遵循下列設計最佳實務：
 
 - 使用360畫素寬度作為欄版面
 - 影像的最低解析度為1080 x 1080畫素
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 可辨識的欄位名稱
 
-自訂您的中繼廣告範本時，請套用這些必填欄位的內容預留位置：
+自訂Meta廣告範本時，請套用這些必填欄位的內容預留位置：
 
 - `image` (必要，從JPEG、PNG或GIF內容中選取)
 - `on_image_text` （出現在影像上的文字）
@@ -48,7 +48,7 @@ GenStudio for Performance Marketing會自動產生下列欄位。 您不需要�
 
 | 外觀比例 | 尺寸（畫素） | 備註 |
 |------------------|----------------------------|-----------------------------------------------------------------------|
-| 正方形1:1 | 1080 x 1080 | 大部分中繼位置的標準；建議用於廣泛的相容性。 |
+| 正方形1:1 | 1080 x 1080 | 適用於大多數Meta版位的標準；建議用於廣泛的相容性。 |
 | 縱向4:5 | 1080 x 1350 | 針對行動饋送最佳化；提供更垂直的空間。 |
 | 劇本9:16 | 1080 x 1920 | 適用於劇本和膠捲；填滿整個行動熒幕。 |
 | 橫向1.91:1 | 1080 x 566 | 最適合連結廣告和新聞摘要位置；廣泛格式。 |
@@ -58,11 +58,11 @@ GenStudio for Performance Marketing會自動產生下列欄位。 您不需要�
 
 ## 範本範例
 
-+++範例：中繼廣告範本
++++範例： Meta廣告範本
 
 <!-- Does this need to be a precise size? -->
 
-以下是中繼廣告範本的基本範例。 標題包含用於樣式的內嵌CSS。 本文使用[內容預留位置](#content-placeholders) （例如`image`和`on_image_text`）來指示GenStudio for Performance Marketing可以在何處產生內容。
+以下是Meta廣告範本的基本範例。 標題包含用於樣式的內嵌CSS。 本文使用[內容預留位置](#content-placeholders) （例如`image`和`on_image_text`）來指示GenStudio for Performance Marketing可以在何處產生內容。
 
 ```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>

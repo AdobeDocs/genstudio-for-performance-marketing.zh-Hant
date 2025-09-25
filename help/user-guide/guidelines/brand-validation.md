@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing中的品牌驗證
 description: 瞭解內建品牌驗證系統如何在GenStudio for Performance Marketing中運作。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -27,7 +27,7 @@ GenStudio for Performance Marketing會針對不同方面執行品牌驗證和其
 
 _內容檢查_&#x200B;摘要顯示：
 
-* 以通過驗證的[個准則](overview.md)與測試過的准則數目相較之下，計算出[[!DNL Brand]](brands.md)的符合性百分比
+* 以通過驗證的[[!DNL Brand]](brands.md)個准則[與測試過的准則數目相較之下，計算出](overview.md)的符合性百分比
 * 平台指引的`Pass`或`Fail`個結果，例如Meta或LinkedIn
 * ADA協助工具標準的`Pass`或`Fail`個結果
 
@@ -39,13 +39,13 @@ _內容檢查_&#x200B;摘要顯示：
 
 ## 內容檢查面板
 
-從右側的動作列&#x200B;_或_&#x200B;按一下&#x200B;[_內容檢查_&#x200B;摘要圖示](#content-check-summary)時，_內容檢查_&#x200B;面板會在畫布的右側開啟。 此面板提供詳細的品牌驗證、平台指引和無障礙標準資訊，並闡明改善的機會。
+從右側的動作列&#x200B;_或_&#x200B;按一下&#x200B;_內容檢查_&#x200B;摘要圖示&#x200B;[_時，_&#x200B;內容檢查](#content-check-summary)面板會在畫布的右側開啟。 此面板提供詳細的品牌驗證、平台指引和無障礙標準資訊，並闡明改善的機會。
 
 ![內容檢查面板](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
 _內容檢查_&#x200B;面板會顯示影像和變體區段的驗證和[相容性資訊](/help/user-guide/guidelines/overview.md#compliance)：
 
-* 代表[!DNL Brand]、平台指引及協助工具標準的&#x200B;_內容檢查_&#x200B;摘要資訊
+* 代表&#x200B;_、平台指引及協助工具標準的_&#x200B;內容檢查[!DNL Brand]摘要資訊
 * _需要檢閱_&#x200B;區段，顯示失敗准則的數目以及每個需要修訂之准則的詳細資訊
 * _通過_&#x200B;區段，顯示通過准則的數目以及有關每個通過准則的詳細資訊
 
@@ -56,7 +56,7 @@ _內容檢查_&#x200B;面板會顯示影像和變體區段的驗證和[相容性
 在&#x200B;_內容檢查_&#x200B;面板中，您可以切換要執行哪些准則和協助工具標準檢查。 按一下面板頂端的&#x200B;_內容型別_&#x200B;圖示（層級圖示）以開啟或關閉：
 
 * **[!DNL Brand]** — 執行與[!DNL Brand]准則相關的檢查
-* **平台准則** — 執行與通道特定平台（例如Meta）相關的檢查
+* **平台指南** — 執行與特定通道平台(例如Meta)相關的檢查
 * **協助工具** — 執行與ADA協助工具標準相關的檢查
 
 若要&#x200B;**為您要執行的檢查設定內容型別**，請按一下以關閉或開啟可用的型別，然後按一下&#x200B;**套用**。
@@ -80,7 +80,7 @@ _內容檢查_&#x200B;面板會顯示影像和變體區段的驗證和[相容性
 
    使用為每個檢查提供的推理來指導您修訂影像和變體。
 
-1. 進行必要的修訂後，請按一下[重新檢查分數] **&#x200B;**&#x200B;來重新檢查並驗證您的變更，以確保它們更符合您的品牌識別、平台指引及協助工具標準。
+1. 進行必要的修訂後，請按一下[重新檢查分數] ****&#x200B;來重新檢查並驗證您的變更，以確保它們更符合您的品牌識別、平台指引及協助工具標準。
 
    內容檢查程式會再次執行。 如果修訂專案通過驗證，則會在畫布底部顯示綠色橫幅，以確認分數已更新。 如果重新檢查後沒有變更，橫幅會確認分數沒有變更。 修訂變體的&#x200B;_內容檢查_&#x200B;摘要圖示中的百分比也會顯示您的進度。
 

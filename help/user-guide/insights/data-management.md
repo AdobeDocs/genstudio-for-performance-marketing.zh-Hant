@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -19,7 +19,7 @@ GenStudio for Performance Marketing使用Adobe Experience Platform (AEP)來擷�
 
 ## 資料連線
 
-GenStudio for Performance Marketing使用Customer Journey Analytics (CJA)建立與一或多個AEP資料集的連線，以彙總多個資料來源。 CJA使用這些資料連線來建立資料檢視，以便分析具有[!DNL Insights]的量度。
+GenStudio for Performance Marketing使用Customer Journey Analytics (CJA)，透過建立與一個或多個AEP資料集的連線來彙總多個資料來源。 CJA使用這些資料連線來建立資料檢視，以分析具有[!DNL Insights]的量度。
 
 >[!BEGINSHADEBOX]
 
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing使用Customer Journey Analytics (CJA)建立�
 - AEP連線：前置詞為`GS Insights`的資料流程
 - AEP連線： GS Insights帳戶
 
-在刪除AEP中的任何資料元件之前，請參閱&#x200B;_Customer Journey Analytics_&#x200B;指南中的[刪除關聯](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/deletion)。
+在刪除AEP中的任何資料元件之前，請參閱[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion)指南中的&#x200B;_刪除關聯_。
 
 >[!ENDSHADEBOX]
 
