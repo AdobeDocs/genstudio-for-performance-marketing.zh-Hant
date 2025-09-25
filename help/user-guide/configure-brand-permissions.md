@@ -15,7 +15,7 @@ ht-degree: 1%
 
 依預設，GenStudio系統管理員可以建立和編輯[!DNL Brands]。 內容編輯者和共同作業人員角色具有編輯和建立許可權，但可能不需要任何系統管理許可權。
 
-若要授予內容編輯者和共同作業人員這些[!DNL Brand]相關權益，Adobe系統管理員必須在Adobe Admin Console中執行一些額外的設定工作。 請參閱[企業和團隊管理指南](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview)中的&#x200B;_Adobe Admin Console_。
+若要授予內容編輯者和共同作業人員這些[!DNL Brand]相關權益，Adobe系統管理員必須在Adobe Admin Console中執行一些額外的設定工作。 請參閱[企業和團隊管理指南](https://helpx.adobe.com/tw/enterprise/using/admin-console.html#Overview)中的&#x200B;_Adobe Admin Console_。
 
 新增使用者和使用者群組是所有具有透過Admin Console管理之權益的Adobe產品所共有的基本工作。 請參閱[企業與團隊管理指南](https://helpx.adobe.com/tw/enterprise/using/users.html)中的&#x200B;_Adobe Admin Console使用者_，以取得新增使用者和使用者群組的使用者管理與程式的概觀。
 
@@ -95,7 +95,7 @@ _專案_&#x200B;提供儲存位置，讓選取的使用者可以儲存資產，�
 
 1. 按一下 **[!UICONTROL 建立]**。_邀請加入專案_&#x200B;快顯視窗開啟。
 
-請參閱[企業和團隊管理指南](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html)中的&#x200B;_管理專案_。
+請參閱[企業和團隊管理指南](https://helpx.adobe.com/tw/enterprise/using/projects-in-business-storage.html)中的&#x200B;_管理專案_。
 
 ## 步驟5：邀請使用者群組加入專案
 

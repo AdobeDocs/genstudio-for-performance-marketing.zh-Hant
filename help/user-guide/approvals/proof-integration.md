@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Workfront Proof與GenStudio for Performance Marketing整合
 
-與Workfront Proof的整合透過進階功能（包括核准範本、多階段工作流程，以及[比較校訂版本](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)的功能）增強了GenStudio for Performance Marketing檢閱和核准生命週期。 此結構化版本設定可確保透明度、責任感，並在整個內容檢閱生命週期中簡化共同作業。
+與Workfront Proof的整合透過進階功能（包括核准範本、多階段工作流程，以及[比較校訂版本](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)的功能）增強了GenStudio for Performance Marketing檢閱和核准生命週期。 此結構化版本設定可確保透明度、責任感，並在整個內容檢閱生命週期中簡化共同作業。
 
 >[!BEGINSHADEBOX]
 
 **必要條件**：
 
-安裝[Adobe Workfront Web Viewer擴充功能](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
+安裝[Adobe Workfront Web Viewer擴充功能](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Workfront Proof的[!DNL Proofing Viewer]是供檢視、評論和比較校訂的�
 
 ### 授權和使用者角色
 
-授權可識別產品中的一組使用者權益。 Workfront Proof比GenStudio for Performance Marketing提供更多的授權型別或使用者角色。 [校訂角色概觀](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)介紹與Workfront Proof檢閱及核准工作流程相關的使用者角色。
+授權可識別產品中的一組使用者權益。 Workfront Proof比GenStudio for Performance Marketing提供更多的授權型別或使用者角色。 [校訂角色概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)介紹與Workfront Proof檢閱及核准工作流程相關的使用者角色。
 
 | GenStudio for Performance Marketing授權       | Workfront授權                 | 說明                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Adobe系統管理員在Adobe Admin Console中管理這兩種產品的使用者�
 
 >[!NOTE]
 >
-> Workfront Proof提供[個額外的使用者角色](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)。 並非所有角色都可見於效能行銷內部。 不過，系統會遵循Workfront Proof範本中設定的任何角色。
+> Workfront Proof提供[個額外的使用者角色](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)。 並非所有角色都可見於效能行銷內部。 不過，系統會遵循Workfront Proof範本中設定的任何角色。
 
 ### 草稿和校樣
 
@@ -79,9 +79,9 @@ Workfront Proof核准範本提供預先格式化的步驟，可簡化校訂核�
 
 檢閱者可以直接按一下校樣的特定區域，以留下精確的情境式評論。 所有註解都會加上時間戳記，並儲存為校樣版本歷史記錄的一部分。 GenStudio for Performance Marketing中沒有評論歷程記錄。
 
-您可以[比較兩個版本的校訂](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)，以評估稽核評論和內容。
+您可以[比較兩個版本的校訂](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)，以評估稽核評論和內容。
 
 ## 通知和提醒
 
 當新校訂可供檢閱或當進行中的檢閱已變更狀態時，檢閱者和核准者會收到電子郵件通知。
-[校訂通知和提醒](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders)包含校訂的個人化連結、有關校訂及其通過核准程式進度的詳細資訊，以及版本設定資訊。
+[校訂通知和提醒](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders)包含校訂的個人化連結、有關校訂及其通過核准程式進度的詳細資訊，以及版本設定資訊。
