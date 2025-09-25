@@ -27,7 +27,7 @@ ht-degree: 0%
 
 **若要檢視特定屬性類別中的影像**：
 
-1. 在&#x200B;_[!DNL Insights]_中，選取&#x200B;**[!UICONTROL 屬性]**檢視。
+1. 在&#x200B;_[!DNL Insights]_&#x200B;中，選取&#x200B;**[!UICONTROL 屬性]**&#x200B;檢視。
 
 1. 選取&#x200B;**[!UICONTROL 影像]**&#x200B;以變更表格檢視。
 

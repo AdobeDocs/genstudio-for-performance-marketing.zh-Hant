@@ -23,7 +23,7 @@ GenStudio for Performance Marketing中的音訊偵測涉及分析視訊的音訊
 
 **若要預覽視訊並聆聽音訊範例**：
 
-1. 在&#x200B;_[!DNL Insights]_中，選取&#x200B;**[!UICONTROL 屬性]**檢視。
+1. 在&#x200B;_[!DNL Insights]_&#x200B;中，選取&#x200B;**[!UICONTROL 屬性]**&#x200B;檢視。
 
 1. 選取&#x200B;**[!UICONTROL 影片]**&#x200B;以變更資料表檢視。
 

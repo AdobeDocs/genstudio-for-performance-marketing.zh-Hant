@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | 屬性 | 值 |
 |------------------|---------------------------------------------------------------------------------------------|
-| 體驗名稱 | GenStudio for Performance Marketing中的體驗名稱<br>此名稱可識別&#x200B;_[!DNL Content]_中的體驗 |
+| 體驗名稱 | GenStudio for Performance Marketing中的體驗名稱<br>此名稱可識別&#x200B;_[!DNL Content]_&#x200B;中的體驗 |
 | 廣告名稱 | 廣告頻道中的廣告名稱 |
 | 發佈日期 | 廣告體驗成功發佈的日期<br>使用月日年格式 |
 | 發佈者 | 啟用體驗的GenStudio for Performance Marketing使用者名稱 |
