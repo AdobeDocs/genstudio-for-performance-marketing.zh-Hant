@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # GenStudio Academy
 
-<a href="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5"><img src="../assets/elevate-your-generative-ai.png">
+<a href="https://learningmanager.adobe.com/accountiplogin?ipId=16970&accesskey=c4988oojirhb5"><img src="../assets/elevate-your-generative-ai.png">
 
 <img src="../assets/learn-generative-ai-with-genstudio.png">
 

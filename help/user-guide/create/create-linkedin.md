@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 建立LinkedIn體驗
 
-本教學課程示範如何使用GenStudio for Performance Marketing [ （左側導覽區域中的繪圖筆刷圖示）產生符合您品牌方針的](/help/user-guide/create/meta-experiences.md)LinkedIn體驗[[!DNL Create]](/help/user-guide/create/overview.md)。
+本教學課程示範如何使用GenStudio for Performance Marketing [&#x200B; （左側導覽區域中的繪圖筆刷圖示）產生符合您品牌方針的](/help/user-guide/create/meta-experiences.md)LinkedIn體驗[[!DNL Create]](/help/user-guide/create/overview.md)。
 
 開始產生LinkedIn廣告之前，請務必在GenStudio for Performance Marketing中[新增指導方針](/help/user-guide/guidelines/add-guidelines.md)，並瞭解[建立提示](/help/user-guide/effective-prompts.md)的基本知識。
 
