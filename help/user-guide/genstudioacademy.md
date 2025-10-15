@@ -31,6 +31,6 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-<a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html"><img src="../assets/put-your-learnings-into-practice.png"></a>
+<a href="https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html"><img src="../assets/put-your-learnings-into-practice.png"></a>
 
 >[!ENDSHADEBOX]
