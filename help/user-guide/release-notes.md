@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
+source-git-commit: a294111abbe89030a7095458c4b08de18722230f
 workflow-type: tm+mt
-source-wordcount: '3502'
+source-wordcount: '3763'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,54 @@ ht-degree: 0%
 
 此版本資訊提供GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2025.09.11 {#latest}
+## 2025.10.26 {#latest}
+
+### 適用於Photoshop和Figma的全新GenStudio外掛程式
+
+* 使用適用於Adobe Photoshop和Figma設計工具的新GenStudio外掛程式，直接建立品牌內和個人化廣告。
+
+### 擴充的視訊功能
+
+* 行銷人員現在可以輕鬆新增介紹和說明剪輯，以預先製作的品牌或訊息設定視訊廣告的框架。
+* 在整個視訊長度中新增影像、文字和標誌覆蓋圖
+
+### LinkedIn、Meta和TikTok的延伸深入分析
+
+* GenStudio Insights現在包含LinkedIn Ads績效報表，讓行銷人員能夠直接在平台中檢視和分析其行銷活動和廣告的績效，以用於：
+   * LinkedIn廣告
+   * Meta Ads
+   * TikTok Ads
+
+### Amazon Ads啟用
+
+* GenStudio現在支援直接在Amazon Ads平台啟用顯示廣告。
+
+### Flashtalking啟用
+
+* GenStudio現在支援在Flashtalking (Innovid)廣告服務平台中直接啟用顯示廣告。
+* 使用者必須與啟動工程團隊協調，手動設定其Flashtalking API Token。 自助權杖設定將在未來版本中新增。
+
+### 與Adobe Campaign V8整合
+
+* GenStudio for Performance Marketing現在與Adobe Campaign V8整合，讓行銷人員能夠順暢地運用AI支援的內容建立功能以及Campaign的進階協調功能。
+
+### 視訊自動播放
+
+* 視訊現在會在[!DNL Create]、[!DNL Content]和[!DNL Insights]模組之間自動播放，提供順暢的預覽體驗。
+
+### 第三方電子郵件範本匯入
+
+* GenStudio for Performance Marketing現在透過擴充性架構，支援與協力廠商電子郵件設計系統的緊密整合。 主要功能包括：
+
+   * 在內容建立期間自動從第三方電子郵件設計系統匯入範本
+   * 將範本中繼資料與匯入的範本一起帶來
+   * 直接連線到協力廠商系統，維護單一信任來源
+   * 為建置自訂整合提供的SDK和範例應用程式
+
+
+## 舊版發行說明
+
++++2025.09.11版注意事項
 
 ### 適用於付費媒體的新產生式擴展AI功能
 
@@ -23,7 +70,7 @@ ht-degree: 0%
 
 此功能可簡化直接在GenStudio for Performance Marketing中編輯影像與調整大小的程式。 如需詳細資訊，請參閱[產生式展開AI功能](/help/user-guide/create/manage-variants.md#use-generative-expand)。
 
-## 舊版發行說明
++++
 
 +++2025.08.15版注意事項
 
@@ -85,7 +132,7 @@ Adobe GenStudio for Performance Marketing現在提供內建的電子郵件翻譯
 
 ### 中繼的多重資產啟用
 
-中繼廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下，上傳並啟用多個不同外觀比例的影像資產。 此功能可讓一個廣告針對各種中繼位置（例如摘要、劇本和卷軸）提供合適的創意素材。 廣告商可以在單一API呼叫中，預覽各個位置呈現每個影像的方式，並將所有版本發佈至Meta。
+Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下，上傳並啟用多個不同外觀比例的影像資產。 此功能可讓一個廣告針對各種Meta位置（例如摘要、劇本和卷軸）提供合適的創意素材。 廣告商可以在單一API呼叫中，預覽各個位置呈現每個影像的方式，並將所有版本發佈至Meta。
 
 ### 變體中的RTF格式
 
@@ -101,11 +148,11 @@ Adobe GenStudio for Performance Marketing現在提供內建的電子郵件翻譯
 
 提示抽屜中新的「語言選擇器」下拉式選單支援建立多語言內容，讓地區行銷人員可為其當地受眾開發品牌上內容。 此功能目前支援12種GA語言和5種Beta語言，語言清單為LLM提供定義的工作流程以及清晰的語言指令，以實現更一致的輸出。
 
-### 中繼廣告的選用範本選擇
+### Meta廣告的選用範本選擇
 
 [!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
 
-範本選擇現在對於中繼廣告是選用的，可讓使用者建立廣告，而不需要媒體頂端的文字和標誌。 此增強功能可用於其他媒體型別，例如動畫GIF和視訊，這些可能不需要文字覆蓋圖或標誌位置。
+範本選擇現在可與Meta廣告搭配使用，讓使用者不需在媒體頂端使用文字和標誌即可建立廣告。 此增強功能可用於其他媒體型別，例如動畫GIF和視訊，這些可能不需要文字覆蓋圖或標誌位置。
 
 +++
 
@@ -173,9 +220,9 @@ Adobe GenStudio for Performance Marketing現在提供內建的電子郵件翻譯
 
 +++2025.03.13註釋
 
-### 啟用中繼廣告
+### 啟用Meta廣告
 
-行銷人員現在可以[從GenStudio for Performance Marketing發佈廣告體驗](/help/user-guide/activation/overview.md)到Meta Ads Manager。 [!DNL Activate]支援部署前的詳細中繼廣告預覽。 透過[!DNL Activate]發佈的中繼廣告一旦上線，就會自動提取到[!DNL Insights]中，讓使用者可以追蹤及報告廣告效益。
+行銷人員現在可以[從GenStudio for Performance Marketing發佈廣告體驗](/help/user-guide/activation/overview.md)到Meta Ads Manager。 [!DNL Activate]支援部署前的詳細中繼廣告預覽。 透過[!DNL Activate]發佈的Meta廣告一旦上線，就會自動提取到[!DNL Insights]中，讓使用者可以追蹤及報告廣告效益。
 
 ### 建立LinkedIn體驗
 
@@ -246,7 +293,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 ### 修正和增強功能
 
-* 字元計數現在會顯示在顯示廣告的所有產生和手動欄位中。 檢視&#x200B;_中繼體驗_&#x200B;中的[字元計數](/help/user-guide/create/meta-experiences.md#character-counts)。<!-- GS-7732 -->
+* 字元計數現在會顯示在顯示廣告的所有產生和手動欄位中。 檢視&#x200B;_Meta體驗_&#x200B;中的[字元計數](/help/user-guide/create/meta-experiences.md#character-counts)。<!-- GS-7732 -->
 
 * _共同作業人員_&#x200B;現在可以檢視資產，但不能建立、編輯或刪除這些資產。 先前，[!DNL Create]中未如預期強制執行共同作業者權益。<!-- GS-7614 -->
 
@@ -260,7 +307,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * [!DNL Brand]選取器下拉式功能表現在對範本而言可如預期般運作。 以前，某些範本的選擇器無法成功載入。<!-- GS-8908 -->
 
-* 編輯人員現在最多可以為單一面板電子郵件和中繼廣告選取四個影像。<!-- GS-2631 -->
+* 編輯人員現在最多可以為單面板電子郵件和Meta廣告選取四個影像。<!-- GS-2631 -->
 
 * 在編輯體驗的中繼資料後，已核准體驗的`Created by`欄位的年值現在會如預期般一致。<!-- GS-8344 -->
 
@@ -320,7 +367,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 編輯人員現在可以在建立顯示廣告時選取最多四個影像。<!-- GS-7189 -->
 
-* 現在當在不同瀏覽器上調整大小時，顯示廣告和中繼廣告草稿會如預期般載入。<!-- GS-7204 -->
+* 顯示廣告和Meta廣告草稿在其他瀏覽器上調整大小時，現在會如預期般載入。<!-- GS-7204 -->
 
 * 未使用的範本欄位不再顯示在產生的內容中。 <!-- GS-5670 -->
 
@@ -338,11 +385,11 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 現在，當草稿無法載入[!DNL Create] _最近工作_&#x200B;區域時，編輯人員會如預期看到錯誤訊息。 <!-- GS-8081 -->
 
-* Canvas現在會以正確順序顯示調整大小的中繼廣告和顯示廣告。 <!-- GS-7375 -->
+* Canvas現在會以正確順序顯示調整大小的Meta廣告和顯示廣告。 <!-- GS-7375 -->
 
 * 編輯人員現在可以按一下進入電子郵件和顯示廣告的欄位。<!-- GS-6297 -->
 
-* 電子郵件和中繼廣告的編輯片段功能現在會如預期透過按一下觸發。<!-- GS-8081 -->
+* 電子郵件和Meta廣告的編輯片段功能現在會如預期透過按一下觸發。<!-- GS-8081 -->
 
 * 改善[!DNL Create] **[!UICONTROL 上一步]**&#x200B;按鈕的效能。<!-- GS-6767 -->
 
@@ -400,7 +447,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 當使用者按一下離開時，[!DNL Create]提示抽屜現在會如預期關閉。<!-- GS-5254 -->
 
-* 中繼廣告匯出現在會如預期包含所選的call-to-action標籤。<!-- GS-6504 -->
+* Meta廣告匯出現在會如預期包含所選的call-to-action標籤。<!-- GS-6504 -->
 
 * 品牌分數現在會更新並如預期保留再生體驗。<!-- GS-6535 -->
 
@@ -418,7 +465,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 片段重新產生現在對調整大小的體驗如預期般運作。<!-- GS-6836 -->
 
-* 重新產生中繼廣告影像後，重新調整影像大小不會再產生錯誤。 先前，在重新產生之前調整影像大小會將頻道中繼資料從`meta`變更為`facebook`。<!-- GS-7042 -->
+* 重新產生Meta廣告影像後，重新調整其大小不會再產生錯誤。 先前，在重新產生之前調整影像大小會將頻道中繼資料從`meta`變更為`facebook`。<!-- GS-7042 -->
 
 +++
 
