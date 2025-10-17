@@ -2,7 +2,7 @@
 title: GenStudio Experience Selector MFE
 description: 瞭解如何為您的GenStudio應用程式和附加元件實作Experience Selector Micro FrontEnd。
 feature: Extensibility, Extensions, Experiences
-source-git-commit: d6e580763d85df6d9d295d4e87501af4b022f57b
+source-git-commit: d9d6d3825cd953245049de119c66f54274f20fd9
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 6%
@@ -107,15 +107,15 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience-stage.adobe
 
 此存放庫包含不同架構的工作範例：
 
-- [完整的React應用程式，展示與Vite組建系統](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js)的整合。
+- [一個&#x200B;**完整的React應用程式**，展示與Vite組建系統](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js)的整合。
 
-- [具有組合API整合的Vue 3應用程式](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js)。
+- [具有組合API整合的&#x200B;**Vue 3應用程式**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js)。
 
-- [兩個vanilla JavaScript實作](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js)：
+- [兩個&#x200B;**Vanilla JavaScript實作**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js)：
 
-- [此Vanilla ESM版本使用ES6模組和現代JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)。
+   - [此&#x200B;**Vanilla ESM**&#x200B;版本使用ES6模組和現代JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)。
 
-- [此Vanilla UMD版本使用透過指令碼標籤載入的UMD組合](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)。
+   - [此&#x200B;**Vanilla UMD**&#x200B;版本使用透過指令碼標籤](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)載入的UMD組合。
 
 ## 驗證流程
 
