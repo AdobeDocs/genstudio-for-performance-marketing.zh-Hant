@@ -5,9 +5,9 @@ user-guide-description: 探索 Adobe GenStudio for Performance Marketing 的功�
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 69915cf03785c3a916bab75cbc34d0126749cddc
+source-git-commit: 48dae1e6ce14a7dc1f2cc5fbad60eefebe99bf4e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '242'
 ht-degree: 18%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 18%
    + 付費媒體帳戶 {#connect-account}
       + [Google行銷活動管理員360](connectors/google-cm360.md)
       + [LinkedIn](connectors/linkedin-ads.md)
-      + [中繼廣告](connectors/meta-ads.md)
+      + [Meta廣告](connectors/meta-ads.md)
 + 准則 {#guidelines}
    + [指南總覽](guidelines/overview.md)
    + [品牌](guidelines/brands.md)
@@ -40,13 +40,13 @@ ht-degree: 18%
 + 建立 {#create}
    + [[!DNL Create] 總覽](create/overview.md)
    + [電子郵件體驗](create/email-experiences.md)
-   + [中繼體驗](create/meta-experiences.md)
+   + [Meta體驗](create/meta-experiences.md)
    + [LinkedIn體驗](create/linkedin-experiences.md)
    + [顯示廣告體驗](create/display-ad-experiences.md)
    + [橫幅體驗](create/banner-experiences.md)
    + [管理變體](create/manage-variants.md)
    + [建立電子郵件體驗](create/create-email-experience.md)
-   + [建立中繼廣告體驗](create/create-meta-ad.md)
+   + [建立Meta廣告體驗](create/create-meta-ad.md)
    + [建立LinkedIn體驗](create/create-linkedin.md)
    + [建立顯示廣告體驗](create/create-display-ad.md)
    + [建立橫幅體驗](create/create-banner-experience.md)
@@ -63,6 +63,7 @@ ht-degree: 18%
    + [管理資產和體驗](content/manage-assets.md)
    + [連線AEM存放庫](content/connect-aem-repo.md)
    + [資產詳細資料](content/asset-details.md)
+   + [Content Credentials](content/content-credentials.md)
 + 範本 {#templates}
    + [使用範本](content/use-templates.md)
    + [入門範本](templates/starter-templates.md)
@@ -74,7 +75,7 @@ ht-degree: 18%
       + [顯示廣告指南](templates/display-template.md)
       + [電子郵件指南](templates/email-template.md)
       + [LinkedIn廣告指南](templates/linkedin-template.md)
-      + [中繼廣告指南](templates/meta-template.md)
+      + [Meta廣告指南](templates/meta-template.md)
 + 行銷活動 {#campaigns}
    + [行銷活動概覽](campaigns/overview.md)
    + [建立行銷活動](campaigns/create-campaign.md)
