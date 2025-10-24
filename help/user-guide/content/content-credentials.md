@@ -3,9 +3,9 @@ title: 適用於組織的Content Credentials
 description: 瞭解如何在GenStudio for Performance Marketing中套用及檢閱Content Credentials。
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: b7e3d1c3b20149eee85670098ddd100b41e27f2c
+source-git-commit: 9023c86d45e6fdc8b6ddd0bdedd23eed05e87aae
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->此功能目前為測試版，僅供已獲得存取權的組織使用。 如有興趣，請洽詢您的Adobe客戶團隊代表以進行註冊。
+> 此功能目前為測試版，僅供已獲得存取權的組織使用。 如有興趣，請洽詢您的Adobe客戶團隊代表，或[使用此連結來要求註冊](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr)。
 
 
 ## 開始使用Content Credentials
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 什麼是Content Credentials？ 
 
-Content Credentials是經久耐用的業界標準中繼資料型別，包含建立內容的詳細資訊以及建立者的身分資訊。 將內容線上發佈至支援平台時，或使用[Adobe的Inspect tool](https://contentauthenticity.adobe.com/inspect)或[Adobe Content Authenticity Chrome瀏覽器擴充功能](https://helpx.adobe.com/tw/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)等工具，即可檢視Content Credentials。  
+Content Credentials是經久耐用的業界標準中繼資料型別，包含建立內容的詳細資訊以及建立者的身分資訊。 將內容線上發佈至支援平台時，或使用[Adobe的Inspect tool](https://contentauthenticity.adobe.com/inspect)或[Adobe Content Authenticity Chrome瀏覽器擴充功能](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)等工具，即可檢視Content Credentials。  
 
 套用Content Credentials有助於提高內容製作方式的透明度，也有助於您的使用者將自己連結到其內容。
 
@@ -55,7 +55,7 @@ Content Credentials是經久耐用的業界標準中繼資料型別，包含建�
 
 縮圖右上角的Content Credential徽章表示「品牌簽署」內容。
 
-![具有認證的匯入資產](./images/import-discovery1.png){width="350"}
+![具有認證的匯入資產](./images/import-discovery1.png)
 
 選取已簽署的內容會顯示詳細的中繼資料：已發佈的品牌、錄製程式、使用的工具、時間戳記。
 
@@ -75,13 +75,13 @@ Content Credential徽章會顯示在畫布資產選擇器中。
 
 從草稿匯出期間，已修改的資產會自動重新簽署，而新的認證會連結至原始資產。
 
-已匯出資產上的![認證資料](./images/edit-and-transformation1.png){width="300"}
+已匯出資產上的![認證資料](./images/edit-and-transformation1.png){width="60%"}
 
 ### 檢閱和核准
 
 在「稽核並核准」預覽中，右側邊欄會顯示資產的認證狀態。
 
-![已核准資產的認證資料](./images/review-and-approve1.png){width="300"}
+![已核准資產的認證資料](./images/review-and-approve1.png){width="60%"}
 
 當檢閱者檢查資產時，會顯示每個變體的認證詳細資料。 使用者按一下&#x200B;**[!UICONTROL 儲存至內容]**&#x200B;時，核准的體驗會重新簽署。
 
@@ -91,7 +91,7 @@ Content Credential徽章會顯示在畫布資產選擇器中。
 
 在啟用期間，認證狀態會顯示在Experience選擇器中。
 
-已啟動資產上的![認證資料](./images/activate-export1.png){width="350"}
+已啟動資產上的![認證資料](./images/activate-export1.png){width="60%"}
 
 匯出的檔案將會內嵌C2PA相容的認證。
 
