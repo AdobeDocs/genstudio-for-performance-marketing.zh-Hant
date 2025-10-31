@@ -3,7 +3,7 @@ title: 適用於組織的Content Credentials
 description: 瞭解如何在GenStudio for Performance Marketing中套用及檢閱Content Credentials。
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: 9023c86d45e6fdc8b6ddd0bdedd23eed05e87aae
+source-git-commit: 488bc7d7b7447ee6e807dd91f83766844c24abb9
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 什麼是Content Credentials？ 
 
-Content Credentials是經久耐用的業界標準中繼資料型別，包含建立內容的詳細資訊以及建立者的身分資訊。 將內容線上發佈至支援平台時，或使用[Adobe的Inspect tool](https://contentauthenticity.adobe.com/inspect)或[Adobe Content Authenticity Chrome瀏覽器擴充功能](https://helpx.adobe.com/tw/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)等工具，即可檢視Content Credentials。  
+Content Credentials是經久耐用的業界標準中繼資料型別，包含建立內容的詳細資訊以及建立者的身分資訊。 將內容線上發佈至支援平台時，或使用[Adobe的Inspect tool](https://contentauthenticity.adobe.com/inspect)或[Adobe Content Authenticity Chrome瀏覽器擴充功能](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)等工具，即可檢視Content Credentials。  
 
 套用Content Credentials有助於提高內容製作方式的透明度，也有助於您的使用者將自己連結到其內容。
 
@@ -61,7 +61,7 @@ Content Credentials是經久耐用的業界標準中繼資料型別，包含建�
 
 可依認證狀態篩選內容。
 
-![資產上的認證資料](./images/import-discovery2.png)
+![資產上的認證資料](./images/import-discovery2.jpg)
 
 ### 建立和選取
 
