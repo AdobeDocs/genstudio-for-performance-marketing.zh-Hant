@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
+source-git-commit: 730e8f89f466ab457670cefe98833f5f4732636c
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以透過插入內容預留位置或產生AI用來插入內容的欄位，自訂要在GenStudio for Performance Marketing中使用的範本。
 
-以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
+以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱[Handlebars語言指南 [!DNL Handlebars]中的](https://handlebarsjs.com/guide/#what-is-handlebars)什麼是__，瞭解如何準備您的範本。
 
 您的範本準備就緒後，您可以[將其上傳到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，並開始根據您的自訂範本產生個人化電子郵件。
 
@@ -43,21 +43,21 @@ GenStudio for Performance Marketing可辨識範本中特定型別的內容或[�
 | 欄位 | 角色 | 頻道範本 |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | 預覽文字 | 電子郵件 |
-| `{{headline}}` | 標題 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
+| `{{headline}}` | 標題 | 電子郵件<br>Meta廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
 | `{{sub_headline}}` | 副標題 | 電子郵件<br>橫幅和顯示廣告 |
 | `{{introductory_text}}` | 簡介文字 | LinkedIn廣告 |
-| `{{body}}` | 內文 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告 |
-| `{{cta}}` | call to action<br>檢視[行動號召](#calls-to-action) | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
-| `{{image}}` | 影像 — 從[!DNL Content]中選取 | 電子郵件<br>中繼廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
-| `{{on_image_text}}` | 在影像文字上<br>請參閱[在影像文字上](#on-image-text)。 | 中繼廣告<br>LinkedIn廣告 |
-| `{{link}}` | 影像上的呼叫動作<br>請參閱影像[&#128279;](#link-on-image)上的連結。 | 電子郵件 |
+| `{{body}}` | 內文 | 電子郵件<br>Meta廣告<br>橫幅和顯示廣告 |
+| `{{cta}}` | call to action<br>檢視[行動號召](#calls-to-action) | 電子郵件<br>Meta廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
+| `{{image}}` | 影像 — 從[!DNL Content]中選取 | 電子郵件<br>Meta廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
+| `{{on_image_text}}` | 在影像文字上<br>請參閱[在影像文字上](#on-image-text)。 | Meta廣告<br>LinkedIn廣告 |
+| `{{link}}` | 影像<br>上的Call to action請參閱影像[上的](#link-on-image)連結。 | 電子郵件 |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 
 GenStudio for Performance Marketing會在下列範本中自動產生特定欄位：
 
 - **電子郵件範本**&#x200B;不需要您識別`subject`欄位
-- **中繼廣告範本**&#x200B;不需要您識別`headline`、`body`和`CTA`欄位
+- **Meta廣告範本**&#x200B;不需要您識別`headline`、`body`和`CTA`欄位
 - **橫幅和顯示廣告範本**&#x200B;不需要您識別`CTA`欄位
 - **LinkedIn廣告範本**&#x200B;不需要您識別`headline`、`introductory_text`和`CTA`欄位
 
@@ -113,7 +113,7 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 
 ### 替代文字
 
-使用使用者定義的欄位名稱做為預留位置，以產生影像的替代文字(HTML `alt="text"`屬性)說明。 下列`{{imageDescription}}`預留位置與相同`<img>`標籤內的`{{image}}`欄位搭配使用，確保影像與其描述之間的關係持續存在。
+使用使用者定義的欄位名稱做為預留位置，以產生影像的替代文字(HTML `alt="text"`屬性)說明。 下列`{{imageDescription}}`預留位置與相同`{{image}}`標籤內的`<img>`欄位搭配使用，確保影像與其描述之間的關係持續存在。
 
 ```html
 <img src="{{image}}" alt="{{imageDescription}}">
@@ -200,20 +200,20 @@ RTF編輯&#x200B;**不是**&#x200B;可用於`alt`內容：
 
 如果欄位出現多次，RTF功能會根據它是否在任何執行個體中作為HTML屬性使用來決定。 例如，將headline當做標題，並當做影像的替代文字時，會以`alt`標籤優先。
 
-RTF編輯&#x200B;**不適用於`headline`**，因為它已用作`alt`內容：
+RTF編輯&#x200B;**不適用於**`headline`，因為它已用作`alt`內容：
 
 ```html
 <h1>{{headline}}</h1>
 <img src="image.jpg" alt="{{headline}}">
 ```
 
-RTF編輯可能適用於特定頻道中的特定欄位，例如社交頻道(Meta、LinkedIn)中的`on_image_text`。
+RTF編輯可能適用於特定頻道內的某些欄位，例如社交頻道(Meta、LinkedIn)中的`on_image_text`。
 
 ## 區段或群組
 
 如果您的電子郵件範本需要多個內容區域（例如多個優惠方案或內文），您可以使用區段或群組來組織這些區域。 _區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位需要高度一致性。 建立此關係可協助AI產生符合區段中創意元素的內容。
 
-使用您選擇的群組名稱作為前置詞，表示欄位是區段或群組的一部分。 在底線(`_`)之後使用欄位名稱（例如`headline`、`body`、`image`或`cta`）。
+使用您選擇的群組名稱作為前置詞，表示欄位是區段或群組的一部分。 在底線(`headline`)之後使用欄位名稱（例如`body`、`image`、`cta`或`_`）。
 
 語法： `groupname_fieldname`
 
@@ -229,7 +229,7 @@ RTF編輯可能適用於特定頻道中的特定欄位，例如社交頻道(Meta
 
 因為此規則，區段無法巢狀化。
 
-每種範本型別（例如電子郵件或中繼廣告）在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](/help/user-guide/content/best-practices-for-templates.md)。
+每種範本型別(例如電子郵件或Meta廣告)在區段的使用上都有通道特定的限制。 請參閱[使用範本的最佳實務](/help/user-guide/content/best-practices-for-templates.md)主題中的&#x200B;_頻道特定准則_。
 
 例如，電子郵件範本最多可包含三個區段；因此，您可以有三個標題和正文區段：
 
@@ -259,7 +259,7 @@ GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯�
 
 您可以使用內建協助程式（可執行特定動作的[!DNL Handlebars]範本語言中的特殊運算式）來控制特殊內容的可見度。 例如，您可以新增條件陳述式，在匯出的範本中新增追蹤引數至連結，同時保持預覽連結整齊。
 
-呈現範本時會設定`_genStudio.browser`值，匯出範本時會設定`genStudio.export`值。 例如，當範本用於匯出時，您可使用條件包裝函式，決定在電子郵件頂端包含特定內容：
+呈現範本時會設定`_genStudio.canvas`值，匯出範本時會設定`genStudio.export`值。 例如，當範本用於匯出時，您可使用條件包裝函式，決定在電子郵件頂端包含特定內容：
 
 ```handlebars
 {{#if _genStudio.export}}
@@ -270,7 +270,7 @@ GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯�
 另一個範例可能是為了防止在GenStudio for Performance Marketing中預覽範本時使用追蹤程式碼。 下列範例說明如何在匯出的範本中將追蹤引數新增至連結，同時保持預覽連結整齊：
 
 ```html
-<a class="button" {{#if _genStudio.browser }}
+<a class="button" {{#if _genStudio.canvas }}
    href="{{link}}"{{/if}}{{#if _genStudio.export }}
    href="{{link}}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
    target="_blank">{{cta}}</a>
@@ -278,7 +278,7 @@ GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯�
 
 ## 靜態內容
 
-電子郵件和中繼範本通常會連結到託管在其他網域上的影像和CSS檔案。 GenStudio for Performance Marketing產生範本預覽或從中衍生的體驗的縮圖時，會驗證內容來源並嵌入復本以供預覽。
+電子郵件和Meta範本通常會連結到託管在其他網域上的影像和CSS檔案。 GenStudio for Performance Marketing產生範本預覽或從中衍生的體驗的縮圖時，會驗證內容來源並嵌入復本以供預覽。
 
 外部檔案暫時內嵌只是為了建立範本預覽，可確保預覽精確地反映建立時顯示的內容。 這些外部檔案&#x200B;**不是**&#x200B;永久儲存在GenStudio for Performance Marketing中。 建立範本預覽後，GenStudio for Performance Marketing會繼續參照範本中提供的原始來源連結。
 
