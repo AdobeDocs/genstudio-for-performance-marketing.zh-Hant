@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 3fe6e235b774cf5a99627d981230f96d5e51ac02
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,45 @@ ht-degree: 0%
 ![主體規格](/help/assets/channel-email-body.png)
 
 瞭解[品牌、產品和角色准則](/help/user-guide/guidelines/overview.md)如何影響產生的內容，以及如何根據您的行銷目標量身打造內容。
+
+## 正在上傳範本的影像
+
+範本中使用的影像應來自內容存放庫，且必須正確上傳以確保影像正確顯示。
+
+當範本具有邊緣對邊緣（完整出血）影像時，選取的影像會自動調整大小以符合完整範本尺寸。 不過，如果影像不符合範本外觀比例，則會裁切影像以符合範本尺寸，且可能無法如預期顯示。
+
+範本中包含的影像沒有「自動調整」功能。
+
+若要解決影像裁切問題，使用者必須定義將影像上傳至內容存放庫時，範本中要使用的影像外觀比例。 上傳已核准的範本時：
+
+1. [繼續範本上傳程式](/help/user-guide/content/use-templates.md#add-a-template)，直到您到達&#x200B;**[!UICONTROL 新增詳細資料]**&#x200B;頁面。
+
+2. 以&#x200B;**[!UICONTROL 廣告寬度(px)]**&#x200B;和&#x200B;**[!UICONTROL 廣告高度(px)]**&#x200B;定義範本中要使用的影像外觀比例。 這會為顯示影像的範本區段定義影像視窗。
+
+3. 在&#x200B;**[!UICONTROL 更多詳細資料]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 影像大小]**&#x200B;下拉式清單，並選擇&#x200B;_裁切成固定大小_。
+   ![裁切為固定大小](./images/crop-to-fixed-size.png "裁切為固定大小"){width="80%"}
+
+若要在瀏覽器中決定影像的大小與外觀比例：
+
+1. 檢查影像。
+   - Windows/Linux：
+      - 按F12。
+   - macOS：
+      - 按下Command + Option + I。
+
+1. 將滑鼠停留在影像上。
+
+1. 請注意外觀比例。 使用此專案來定義範本中影像的外觀比例。
+
+上傳期間未套用這些詳細資料時，系統假設影像是範本的整個外觀比例，若影像與該外觀比例不完全相符，系統就會裁切該影像。
+
+![在顯示廣告中裁切的影像](./images/cropped-display.png "影像裁切"){width="60%"}
+
+顯示廣告範本中的&#x200B;**❌已裁切的影像**
+
+![顯示在顯示廣告中的影像](./images/full-fit.png "顯示在顯示廣告中的影像"){width="60%"}
+
+**✅影像已完整顯示**
 
 ## 遵循特定頻道的範本准則
 
