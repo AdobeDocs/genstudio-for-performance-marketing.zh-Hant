@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Products]
 description: GenStudio for Performance Marketing [!DNL Products] 整合了您產品的各個方面（影像、說明和價值主張），以建立相關內容，強調產品優勢並維護產品訊息的一致性。
 feature: Product Personalization, Variant Generation, Generative AI
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 GenStudio for Performance Marketing中的[!DNL Products]運用對產品規格、優勢和差異因素的深入瞭解，以產生具影響力的內容。
 
-[!DNL Products]包含特定產品的所有元素，例如影像、說明和價值主張，以建立有凝聚力的品牌宣告。 運用Adobe的進階AI技術，GenStudio for Performance Marketing准則（[[!DNL Brands]、 [!DNL Products]和 [!DNL Personas]](/help/user-guide/guidelines/overview.md)）共同產生吸引人的內容，展現您產品的長處並確保所有傳訊內容的一致性。
+[!DNL Products]包含特定產品的所有元素，例如影像、說明和價值主張，以建立有凝聚力的品牌宣告。 運用Adobe的進階AI技術，GenStudio for Performance Marketing [指南](/help/user-guide/guidelines/overview.md) — 共同產生吸引人的內容，展現您產品的長處，並確保所有傳訊內容的一致性。
 
 **若要檢視或修改產品**：
 
 1. 在左側導覽區域中，按一下&#x200B;**[!UICONTROL 產品]**。
-1. 若要[檢視個別詳細資料或修改產品](add-guidelines.md#manage-products)，請按一下&#x200B;_[!DNL Products]_&#x200B;動作功能表並選取&#x200B;**[!UICONTROL 開啟]**。
+1. 若要[檢視個別詳細資料或修改產品](add-guidelines.md#manage-products)，請按一下&#x200B;_[!DNL Products]_動作功能表並選取&#x200B;**[!UICONTROL 開啟]**。
 1. 按一下進入指引類別文字欄位，修訂產品指引。
 
 請參閱[新增指導方針](add-guidelines.md)，瞭解如何在GenStudio for Performance Marketing中新增或修改產品。

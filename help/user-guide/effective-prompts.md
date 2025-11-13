@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 >[!NOTE]
 >
->如果在提示抽屜的&#x200B;_引數_&#x200B;中新增准則，您就不需要在提示中包含這些准則的參照。 GenStudio for Performance Marketing在內容產生中會運用這些[!DNL Brands]、[!DNL Products]和[!DNL Personas]。
+>如果在提示抽屜的&#x200B;_引數_&#x200B;中新增准則，您就不需要在提示中包含這些准則的參照。 GenStudio for Performance Marketing會自動運用內容產生的功能。
 
 ### 准則
 

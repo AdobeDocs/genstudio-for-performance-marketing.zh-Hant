@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 **若要選擇電子郵件範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 電子郵件]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 電子郵件]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的電子郵件範本。
-1. 按一下以選取電子郵件範本，然後按一下[使用]。**&#x200B;**
+1. 按一下以選取電子郵件範本，然後按一下[使用]。****
 
    內容建立的中心「畫布」隨即顯示。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 在提示抽屜中新增[指南](/help/user-guide/guidelines/overview.md)和&#x200B;_引數_&#x200B;中的資產，會增加內容產生程式的費用，是產生電子郵件體驗的必要準備步驟。
 
-如果您使用具有預先定義指引（[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的範本，這些指引適用於您的變體。 如有需要，您可以加以變更。
+如果您使用具有預先定義指引（例如[!DNL Brands]、[!DNL Personas]或[!DNL Products]）的範本，這些指引適用於您的變體。 如有需要，您可以加以變更。
 
 **若要新增引數和資產**：
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 若要讓產生的電子郵件可供目前和未來使用，請將它發佈至[!UICONTROL Content]，並匯出以用於您的行銷活動。
 
 1. **若要發佈您的新電子郵件體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
-1. **若要匯出您的新電子郵件體驗**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式(僅限CSV和影像或HTML)，然後按一下「匯出」**&#x200B;**。
+1. **若要匯出您的新電子郵件體驗**，請按一下頂端工具列中的[匯出]。****
+   1. 選取格式(僅限CSV和影像或HTML)，然後按一下「匯出」****。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。

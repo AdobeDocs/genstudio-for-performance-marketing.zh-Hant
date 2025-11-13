@@ -1,5 +1,5 @@
 ---
-source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
+source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->透過[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)豐富您在此主題上的技能。
+>透過[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)加深您對這個主題的瞭解。
 
 ## 篩選表格的秘訣 {#filter-table}
 

@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing中的品牌驗證
 description: 瞭解內建品牌驗證系統如何在GenStudio for Performance Marketing中運作。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -18,8 +18,9 @@ GenStudio for Performance Marketing會針對不同方面執行品牌驗證和其
 
 * 已定義或預設[!DNL Brand]指南
 * 平台指南
-<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 * 美國殘障人士法案(ADA)標準
+<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
+
 
 ## 內容檢查摘要
 
@@ -80,7 +81,7 @@ _內容檢查_&#x200B;面板會顯示影像和變體區段的驗證和[相容性
 
    使用為每個檢查提供的推理來指導您修訂影像和變體。
 
-1. 進行必要的修訂後，請按一下[重新檢查分數] **&#x200B;**&#x200B;來重新檢查並驗證您的變更，以確保它們更符合您的品牌識別、平台指引及協助工具標準。
+1. 進行必要的修訂後，請按一下[重新檢查分數] ****&#x200B;來重新檢查並驗證您的變更，以確保它們更符合您的品牌識別、平台指引及協助工具標準。
 
    內容檢查程式會再次執行。 如果修訂專案通過驗證，則會在畫布底部顯示綠色橫幅，以確認分數已更新。 如果重新檢查後沒有變更，橫幅會確認分數沒有變更。 修訂變體的&#x200B;_內容檢查_&#x200B;摘要圖示中的百分比也會顯示您的進度。
 

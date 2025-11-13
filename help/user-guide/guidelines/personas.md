@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Personas]
 description: GenStudio for Performance Marketing [!DNL Personas] 真實地呈現了您的客戶區段，並擷取了他們的興趣、痛點、偏好設定和行為特徵。
 feature: Persona Personalization, Variant Generation, Generative AI
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 [!DNL Personas]提供您客戶區段的真實描述，包括其資訊、興趣、痛點、偏好設定和行為特徵。
 
-GenStudio for Performance Marketing運用指引（[[!DNL Brands]、 [!DNL Products]和 [!DNL Personas]](overview.md)）的強大功能及Adobe的創作AI技術，為您的目標客戶組織個人化行銷內容。&#x200B;
+GenStudio for Performance Marketing運用[指引的強大功能](overview.md)，以及Adobe的創作AI技術，為目標客戶組織個人化行銷內容&#x200B;。
 
 **若要檢視或修改角色**：
 
 1. 在左側導覽區域中，按一下&#x200B;**[!UICONTROL 角色]**。
-1. 若要[檢視個人詳細資料或修改角色](add-guidelines.md#manage-personas)，請按一下&#x200B;_[!DNL Personas]_&#x200B;動作功能表並選取&#x200B;**開啟**。
+1. 若要[檢視個人詳細資料或修改角色](add-guidelines.md#manage-personas)，請按一下&#x200B;_[!DNL Personas]_動作功能表並選取&#x200B;**開啟**。
 1. 按一下准則類別文字欄位，修訂角色准則。
 
 請參閱[新增准則](add-guidelines.md)以瞭解如何在GenStudio for Performance Marketing中新增或修改角色。
