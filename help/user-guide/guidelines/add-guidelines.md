@@ -46,7 +46,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 **若要上傳品牌檔案**：
 
-1. 在&#x200B;_[!DNL Brands]_面板中，選取&#x200B;**[!UICONTROL 新增品牌]**按鈕。
+1. 在&#x200B;_[!DNL Brands]_&#x200B;面板中，選取&#x200B;**[!UICONTROL 新增品牌]**&#x200B;按鈕。
 1. 選擇&#x200B;**[!UICONTROL 上傳PDF]**，並在&#x200B;_選擇新增品牌的方式_&#x200B;快顯視窗中輸入品牌名稱。
 1. 選取「**[!UICONTROL 繼續]**」。
 1. 瀏覽並附加或拖曳您的品牌准則檔案至&#x200B;_[!UICONTROL 新增您的品牌]_&#x200B;快顯視窗。
@@ -77,7 +77,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
    ![品牌](/help/assets/brands.png){width="600" zoomable="yes"}
 
-   - _何時使用此品牌_：按一下[新增]**** （或按一下文字欄位以變更現有文字），然後輸入品牌的概述和使用資訊。 按一下&#x200B;**[!UICONTROL 儲存變更]**。
+   - _何時使用此品牌_：按一下[新增]&#x200B;**&#x200B;** （或按一下文字欄位以變更現有文字），然後輸入品牌的概述和使用資訊。 按一下&#x200B;**[!UICONTROL 儲存變更]**。
    - [_[!DNL Brand]語音准則&#x200B;_](brands.md#brand-voice-guidelines)：在每個准則欄位中新增適用的資訊。
 
      ![新增[!DNL Brand]語音准則](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
@@ -112,7 +112,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 發佈[!DNL Brand]草稿之前，請按一下所有指引區段以檢閱所有填入的資訊。 視需要對品牌指導方針進行變更。
 
-在&#x200B;_[!DNL Brands]_中，任何草稿或已發佈的[!DNL Brands]都會顯示為圖磚。 狀態徽章 —_&#x200B;已發佈&#x200B;_或_&#x200B;草稿&#x200B;_— 以及上次修改品牌的時間會顯示在每個圖磚的底部。
+在&#x200B;_[!DNL Brands]_&#x200B;中，任何草稿或已發佈的[!DNL Brands]都會顯示為圖磚。 狀態徽章 —_&#x200B;已發佈&#x200B;_或_&#x200B;草稿&#x200B;_— 以及上次修改品牌的時間會顯示在每個圖磚的底部。
 
 >[!TIP]
 >
@@ -138,7 +138,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 ### 管理品牌
 
-在&#x200B;_[!DNL Brands]_首頁中，您可以按一下以開啟已建立的品牌，以便管理或發佈該品牌。
+在&#x200B;_[!DNL Brands]_&#x200B;首頁中，您可以按一下以開啟已建立的品牌，以便管理或發佈該品牌。
 
 若要&#x200B;**檢視品牌資訊**，請按一下左側導覽區域中的&#x200B;**[!UICONTROL [!DNL Brands]]**，然後按一下以開啟現有的品牌。
 
@@ -179,7 +179,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 請參閱[[!DNL Personas]](/help/user-guide/guidelines/personas.md)。
 
-1. 在&#x200B;_[!DNL Personas]_面板中，選取&#x200B;**[!UICONTROL 新增角色]**按鈕。
+1. 在&#x200B;_[!DNL Personas]_&#x200B;面板中，選取&#x200B;**[!UICONTROL 新增角色]**&#x200B;按鈕。
 1. 選擇&#x200B;**[!UICONTROL 上傳檔案]**，並在&#x200B;_選擇新增角色的方式_&#x200B;快顯視窗中輸入角色名稱。
 1. 選取「**[!UICONTROL 繼續]**」。
 1. 瀏覽並附加或拖曳您的角色指南檔案至&#x200B;_[!UICONTROL 新增您的角色]_&#x200B;快顯視窗。
@@ -219,13 +219,13 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 1. 若要編輯封面影像，請將滑鼠游標停留在封面上，然後從動作選單中選取&#x200B;**[!UICONTROL 編輯封面]**。
    1. 從&#x200B;_相簿_&#x200B;標籤&#x200B;_的相簿中選擇影像，或_&#x200B;在&#x200B;_上傳_&#x200B;標籤中上傳新影像。
    1. 按一下&#x200B;**[!UICONTROL 使用影像]**。
-   1. 若要重新定位封面影像，請按一下動作功能表中的[重新定位] ****，將影像拖曳到需要的位置，然後按一下[儲存] ****。
+   1. 若要重新定位封面影像，請按一下動作功能表中的[重新定位] **&#x200B;**，將影像拖曳到需要的位置，然後按一下[儲存] **&#x200B;**。
 
-   若要檢視您建立的[!DNL Personas]，請按一下&#x200B;_角色_&#x200B;檢視頂端附近的向後箭頭，以導覽回&#x200B;_[!DNL Personas]_首頁。
+   若要檢視您建立的[!DNL Personas]，請按一下&#x200B;_角色_&#x200B;檢視頂端附近的向後箭頭，以導覽回&#x200B;_[!DNL Personas]_&#x200B;首頁。
 
 ### 管理[!DNL Personas]
 
-在&#x200B;_[!DNL Personas]_首頁中，您可以&#x200B;**開啟已建立的[!DNL Persona]**以進行編輯或檢閱，或從清單中&#x200B;**刪除角色**：
+在&#x200B;_[!DNL Personas]_&#x200B;首頁中，您可以&#x200B;**開啟已建立的[!DNL Persona]**&#x200B;以進行編輯或檢閱，或從清單中&#x200B;**刪除角色**：
 
 - 從&#x200B;**[!UICONTROL 動作選單中選取]**&#x200B;開啟[!DNL Personas]以修訂和檢閱現有角色。
 - 從&#x200B;**[!UICONTROL 動作功能表中選取]**&#x200B;刪除[!DNL Personas]以&#x200B;**刪除**&#x200B;角色。
@@ -237,7 +237,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 1. 在左側導覽區域中，按一下&#x200B;**[!DNL Products]**&#x200B;共用&#x200B;_清單中的_。
    GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines.png){width="650" zoomable="yes"}
-1. 在&#x200B;_[!DNL Products]_面板中，選取&#x200B;**新增產品**。
+1. 在&#x200B;_[!DNL Products]_&#x200B;面板中，選取&#x200B;**新增產品**。
 1. 選擇[上傳產品](#upload-a-product)或[手動建立產品](#manually-add-product)，方法是選取准則並輸入產品詳細資料。
 
 ![新增[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
@@ -290,13 +290,13 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
    1. 若要編輯封面影像，請將滑鼠游標停留在封面上，然後從動作選單中選取&#x200B;**[!UICONTROL 編輯封面]**。
    1. 從&#x200B;_相簿_&#x200B;標籤&#x200B;_的相簿中選擇影像，或_&#x200B;在&#x200B;_上傳_&#x200B;標籤中上傳新影像。
    1. 按一下&#x200B;**[!UICONTROL 使用影像]**。
-   1. 若要重新定位封面影像，請按一下動作功能表中的[重新定位] ****，將影像拖曳到需要的位置，然後按一下[儲存] ****。
+   1. 若要重新定位封面影像，請按一下動作功能表中的[重新定位] **&#x200B;**，將影像拖曳到需要的位置，然後按一下[儲存] **&#x200B;**。
 
-   若要檢視您建立的[!DNL Products]，請按一下&#x200B;_產品_&#x200B;檢視頂端附近的向後箭頭，以導覽回&#x200B;_[!DNL Products]_首頁。
+   若要檢視您建立的[!DNL Products]，請按一下&#x200B;_產品_&#x200B;檢視頂端附近的向後箭頭，以導覽回&#x200B;_[!DNL Products]_&#x200B;首頁。
 
 ### 管理[!DNL Products]
 
-在&#x200B;_[!DNL Products]_首頁中，您可以&#x200B;**開啟已建立的[!DNL Product]**以進行編輯或檢閱，或從清單中&#x200B;**刪除產品**：
+在&#x200B;_[!DNL Products]_&#x200B;首頁中，您可以&#x200B;**開啟已建立的[!DNL Product]**&#x200B;以進行編輯或檢閱，或從清單中&#x200B;**刪除產品**：
 
 - 從&#x200B;**[!UICONTROL 動作選單中選取]**&#x200B;開啟[!DNL Products]以修訂與檢閱現有產品。
 - 從&#x200B;**[!UICONTROL 動作功能表選取]**&#x200B;刪除[!DNL Products]以&#x200B;**刪除**&#x200B;產品。
@@ -306,11 +306,11 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 >[!NOTE]
 >
->[!DNL Audiences]功能需要由Adobe團隊上線才能出現在GenStudio中。 如果&#x200B;_[!DNL Audiences]_未出現在範本引數中，請聯絡您的Adobe代表。
+>[!DNL Audiences]功能需要由Adobe團隊上線才能出現在GenStudio中。 如果&#x200B;_[!DNL Audiences]_&#x200B;未出現在範本引數中，請聯絡您的Adobe代表。
 
 [!DNL Audiences]提供Adobe Real-Time Customer Data Platform (RTCDP)的目標客戶區段，將精確的目標資料帶入您的內容產生工作流程中。 GenStudio for Performance Marketing運用對象定義，協助您建立與特定客戶區段相符的量身打造行銷內容。
 
-[!DNL Audiences]在[ _[!DNL Create]_工作流程](../create/overview.md#templates)的引數窗格中顯示為下拉式清單。 使用兩個准則時，_[!DNL Audiences]_&#x200B;可以為&#x200B;_[!DNL Personas]_增加特殊性，但也可以有效地單獨使用。
+[!DNL Audiences]在[&#x200B; _[!DNL Create]_&#x200B;工作流程](../create/overview.md#templates)的引數窗格中顯示為下拉式清單。 使用兩個准則時，_[!DNL Audiences]_&#x200B;可以為&#x200B;_[!DNL Personas]_&#x200B;增加特殊性，但也可以有效地單獨使用。
 
 上線期間，會匯入對象定義並將其轉換為與GenStudio相容的格式。 此程式通常需要幾天才能完成。 請連絡您的Adobe團隊以將其啟動。
 
@@ -318,13 +318,13 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 - 組織對Adobe Real-Time Customer Data Platform的存取權
 - 已在RTCDP沙箱中設定現有的對象
-- _[!DNL Audience]_整合需要Adobe團隊的手動上線程式
+- _[!DNL Audience]_&#x200B;整合需要Adobe團隊的手動上線程式
 
 **若要選取對象**：
 
-1. 在[ _[!DNL Create]_工作流程](../create/overview.md#templates)中，選取範本並按一下&#x200B;**[!UICONTROL 使用]**按鈕以開啟草稿。
-1. 在引數清單中，按一下&#x200B;_[!UICONTROL 對象]_下拉式清單以檢視所有可用的對象。
+1. 在[&#x200B; _[!DNL Create]_&#x200B;工作流程](../create/overview.md#templates)中，選取範本並按一下&#x200B;**[!UICONTROL 使用]**&#x200B;按鈕以開啟草稿。
+1. 在引數清單中，按一下&#x200B;_[!UICONTROL 對象]_&#x200B;下拉式清單以檢視所有可用的對象。
    角色引數窗格中的![對象下拉式清單](./audience-dropdown.png){width=450}
 1. 從清單中選取要指派的對象。 如果選取了[!DNL Persona]，系統會建議符合您選取[!DNL Persona]的建議對象。
-1. 按一下&#x200B;**[!UICONTROL 檢視對象詳細資料]**以檢視針對所選對象產生的擴充說明和傳訊偏好設定。 對象詳細資訊會通知內容產生，確保您的創意符合目標區段的特定特性和偏好設定。
+1. 按一下&#x200B;**[!UICONTROL 檢視對象詳細資料]**&#x200B;以檢視針對所選對象產生的擴充說明和傳訊偏好設定。 對象詳細資訊會通知內容產生，確保您的創意符合目標區段的特定特性和偏好設定。
    ![對象詳細資料窗格](./audience-details.png){width=450}

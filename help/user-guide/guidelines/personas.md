@@ -19,7 +19,7 @@ GenStudio for Performance Marketing運用[指引的強大功能](overview.md)，
 **若要檢視或修改角色**：
 
 1. 在左側導覽區域中，按一下&#x200B;**[!UICONTROL 角色]**。
-1. 若要[檢視個人詳細資料或修改角色](add-guidelines.md#manage-personas)，請按一下&#x200B;_[!DNL Personas]_動作功能表並選取&#x200B;**開啟**。
+1. 若要[檢視個人詳細資料或修改角色](add-guidelines.md#manage-personas)，請按一下&#x200B;_[!DNL Personas]_&#x200B;動作功能表並選取&#x200B;**開啟**。
 1. 按一下准則類別文字欄位，修訂角色准則。
 
 請參閱[新增准則](add-guidelines.md)以瞭解如何在GenStudio for Performance Marketing中新增或修改角色。
