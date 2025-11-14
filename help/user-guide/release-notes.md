@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 015f2f14edfb05cab11a66a8e5bc9b357f2e3ab9
+source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
 workflow-type: tm+mt
-source-wordcount: '3763'
+source-wordcount: '4162'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,53 @@ ht-degree: 0%
 
 此版本資訊提供GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2025.10.16 {#latest}
+## 2025.11.14 {#latest}
+
+### Real-Time CDP受眾整合
+
+* GenStudio for Performance Marketing現在與Adobe Real-Time Customer Data Platform (RTCDP)整合，讓行銷人員直接在[!DNL Create]工作流程中運用對象定義。
+* 行銷人員在內容產生期間選取[!DNL Audience]引數，即可根據客戶內容建立個人化的創意和電子郵件副本，包括傳訊偏好設定、購買者區段、歷程階段和行為資料。
+
+### 顯示廣告的無效見解
+
+* [!DNL Insights]現在包含Innovid （前身為Flashtalking）作為顯示廣告頻道，讓行銷人員能夠在統一的平台中與Meta、LinkedIn和TikTok一起分析行銷活動績效。
+* 每日重新整理資料，並存取關鍵效能量度（包括曝光數、點按數和CTR），行銷人員就能更快速地做出最佳化決策，無需在工具之間切換。
+
+### 付費媒體與電子郵件的現成翻譯
+
+* 直接在GenStudio for Performance Marketing中將核准的付費媒體和電子郵件體驗立即翻譯成40多種語言。
+* 使用Azure Open AI翻譯服務，團隊可同時將內容大量翻譯成多種目標語言。
+
+### 適用於體驗的PDF匯出
+
+[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
+
+* 行銷人員現在可以[將體驗匯出為PDF格式](/help/user-guide/content/manage-assets.md#export-experiences)，以供稽核、核准和封存。
+
+### Firefly Image Model 4上的自訂模型
+
+* GenStudio for Performance Marketing現在支援以Adobe Firefly Image Model 4[訓練的](/help/user-guide/create/generate-assets.md)自訂模型，提供更優異的品牌上影像產生功能，以及更出色的真實感和細節。
+
+### Meta單一視訊廣告啟用
+
+* 行銷人員現在可以直接從GenStudio for Performance Marketing將[使用單一視訊資產啟用Meta廣告](/help/user-guide/activation/activate-meta-ad.md)至Meta Ads Manager。 這可讓媒體購買者、效能行銷人員和創意團隊順暢地發佈視訊廣告體驗，維持與靜態廣告啟動相同的簡化工作流程。
+* 使用者可以設定視訊廣告創意細節、預覽視訊的顯示方式，以及在Meta平台啟用視訊廣告。
+
+### Meta行銷活動各動作型別的CPA
+
+* 針對Meta廣告行銷活動，使用彈性的轉換追蹤[分析](/help/user-guide/insights/ads.md)每次動作成本(CPA)。
+* 若要在[!DNL Insights]中計算並檢視跨行銷活動、廣告、資產和屬性的CPA，請從多種動作型別（例如購買、加入購物車事件、銷售機會、視訊檢視或自訂轉換）中選取，而不是單一固定量度。
+
+### 修正和增強功能
+
+* 已新增SDK擴充功能，可讓客戶連線至自己的DAM，而不是在內容產生期間使用AEM Assets作為資產的預設值。
+* 使用者現在可以套用[!DNL Brand]標籤，以便由[!DNL Product]將[!DNL Persona]和[!DNL Brand]記錄分組。
+* [!DNL Experience Translations]流量已最佳化，同時提供付費媒體和電子郵件新的翻譯功能。
+
+
+## 舊版發行說明
+
++++2025.10.16版注意事項
 
 ### 適用於Photoshop和Figma的全新GenStudio外掛程式
 
@@ -59,8 +105,9 @@ ht-degree: 0%
    * 直接連線到協力廠商系統，維護單一信任來源
    * 為建置自訂整合提供的SDK和範例應用程式
 
++++
 
-## 舊版發行說明
+
 
 +++2025.09.11版注意事項
 
@@ -190,7 +237,7 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 
 * 您現在可以在產生的變體中[對文字](/help/user-guide/create/manage-variants.md#manually-edit-text)使用RTF編輯格式。 嘗試各種變體文字的格式選項，例如顏色、大小、清單等。
 
-* 您現在可以在平台設定期間，透過複製平台設定期間的現有廣告集[建立新的廣告集](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set)。 中繼廣告集定義特定廣告的時機、頻道詳細資訊和對象。 中繼行銷活動可包含多個廣告集，但一個廣告集僅與一個行銷活動相關聯。
+* 您現在可以在平台設定期間，透過複製平台設定期間的現有廣告集[建立新的廣告集](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set)。 Meta廣告集定義特定廣告的時機、頻道詳細資訊和對象。 中繼行銷活動可包含多個廣告集，但一個廣告集僅與一個行銷活動相關聯。
 
 * 您現在可以匯出行銷活動詳細資料，以便在Word或PDF中以行銷活動簡介的形式從外部存取。 選取行銷活動，然後按一下&#x200B;**[!UICONTROL 匯出]** （右上角）。
 
@@ -222,7 +269,7 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 
 ### 啟用Meta廣告
 
-行銷人員現在可以[從GenStudio for Performance Marketing發佈廣告體驗](/help/user-guide/activation/overview.md)到Meta Ads Manager。 [!DNL Activate]支援部署前的詳細中繼廣告預覽。 透過[!DNL Activate]發佈的Meta廣告一旦上線，就會自動提取到[!DNL Insights]中，讓使用者可以追蹤及報告廣告效益。
+行銷人員現在可以[從GenStudio for Performance Marketing發佈廣告體驗](/help/user-guide/activation/overview.md)到Meta Ads Manager。 [!DNL Activate]支援部署前的詳細Meta廣告預覽。 透過[!DNL Activate]發佈的Meta廣告一旦上線，就會自動提取到[!DNL Insights]中，讓使用者可以追蹤及報告廣告效益。
 
 ### 建立LinkedIn體驗
 
@@ -238,7 +285,7 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 
 ### 合規性
 
-作為品牌驗證程式的一部分，[內容檢查](/help/user-guide/guidelines/overview.md)已引入[法規遵循標準](/help/user-guide/guidelines/brand-validation.md)。 這些檢查會根據[!DNL Brand]指南、平台指南（例如Meta）和ADA標準來檢閱體驗中的每個變體。 此程式提供需修訂以符合規範之指引和標準的完整摘要。
+作為品牌驗證程式的一部分，[內容檢查](/help/user-guide/guidelines/overview.md)已引入[法規遵循標準](/help/user-guide/guidelines/brand-validation.md)。 這些檢查會根據[!DNL Brand]指南、平台指南(例如Meta)和ADA標準來檢閱體驗中的每個變體。 此程式提供需修訂以符合規範之指引和標準的完整摘要。
 
 ### 可擴充性
 
@@ -299,7 +346,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 內容編輯人員現在可以編輯資產、體驗和範本中繼資料。<!-- GS-4905 -->
 
-* 現在支援中繼廣告範本中的自訂影像大小。<!-- GS-7512 -->
+* 現在支援Meta廣告範本中的自訂影像大小。<!-- GS-7512 -->
 
 * 現在會在範本產生期間預先載入角色、品牌和產品選項。<!-- GS-8069 -->
 
@@ -339,7 +386,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 匯出選項現在包括：
 
-* 將顯示廣告和中繼廣告匯出為HTML、JPEG或PNG。 請參閱[建立顯示廣告體驗](/help/user-guide/create/create-display-ad.md)和[建立中繼廣告體驗](/help/user-guide/create/create-meta-ad.md)。<!-- GS-7093 6655 5152-->
+* 將顯示廣告和Meta廣告匯出為HTML、JPEG或PNG。 請參閱[建立顯示廣告體驗](/help/user-guide/create/create-display-ad.md)和[建立中繼廣告體驗](/help/user-guide/create/create-meta-ad.md)。<!-- GS-7093 6655 5152-->
 
 其他新功能可讓編輯器：
 
@@ -439,7 +486,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 從&#x200B;**[!UICONTROL 動作功能表選取]**&#x200B;刪除[!DNL Create] (...)現在可如預期運作。<!-- GS-6871 -->
 
-* 使用者現在可以單獨透過鍵盤控制所有中繼廣告範本互動元素。<!-- GS-4066 -->
+* 使用者現在可以單獨透過鍵盤控制所有Meta和範本互動元素。<!-- GS-4066 -->
 
 * 新增從範本影像欄位提取影像尺寸至顯示廣告範本的功能。 智慧型裁切請求現在會針對影像的實際維度傳送，而非針對整個範本。 <!-- GS-6926 -->
 
@@ -451,7 +498,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 品牌分數現在會更新並如預期保留再生體驗。<!-- GS-6535 -->
 
-* 中繼廣告和顯示廣告的HTML匯出不再包含包裝函式`div`和`chrome`元素。<!-- GS-7116 -->
+* Meta廣告和顯示廣告的HTML匯出不再包含包裝函式`div`和`chrome`元素。<!-- GS-7116 -->
 
 * 發佈期間電子郵件草稿呈現的問題現已解決。<!-- GS-6394 -->
 
