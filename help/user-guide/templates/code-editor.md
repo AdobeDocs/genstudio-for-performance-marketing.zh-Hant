@@ -43,7 +43,7 @@ _[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會顯示GenStudio for Perf
 1. 在&#x200B;_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格中找到變數。 系統會自動探索這些變數。
 2. 檢閱指派給每個變數的角色。 角色會自動指派，但可使用範本中任何變數的下拉式清單進行調整。
 3. 從下拉式選單中選取新角色，即可調整角色。
-4. 按一下[下一步]****&#x200B;繼續。
+4. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;繼續。
 
 ## 進行更正
 
@@ -51,7 +51,7 @@ _[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會顯示GenStudio for Perf
 
 ![更正無效的範本](/help/assets/animation/template-code-editor.gif){width="600"}
 
-_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會更新以反映您所做的變更。 在您滿意欄位正確且完成之後，請按[下一步] ****&#x200B;繼續[上傳您的範本](/help/user-guide/templates/use-templates.md#add-a-template)。
+_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會更新以反映您所做的變更。 在您滿意欄位正確且完成之後，請按[下一步] **&#x200B;**&#x200B;繼續[上傳您的範本](/help/user-guide/templates/use-templates.md#add-a-template)。
 
 ## 常見範本問題和解決方案
 
