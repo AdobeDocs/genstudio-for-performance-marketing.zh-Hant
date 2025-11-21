@@ -5,7 +5,7 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -59,7 +59,7 @@ GenStudio系統管理員可以手動輸入或上傳您組織的特定品牌需�
 
 範本可加速內容建立。 範本包含已核准的功能，例如頁首和頁尾，針對特定管道進行最佳化。 系統管理員通常會上傳和管理其組織的範本。 內容編輯人員可使用範本，在組織品牌的既定界限內，快速啟動內容建立程式。
 
-請參閱[使用範本](/help/user-guide/content/use-templates.md)。
+請參閱[使用範本](/help/user-guide/templates/use-templates.md)。
 
 ### 步驟4：上傳已核准的資產
 

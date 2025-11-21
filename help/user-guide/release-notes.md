@@ -4,7 +4,7 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '4162'
 ht-degree: 0%
@@ -149,7 +149,7 @@ Adobe GenStudio中的「文字屬性深入分析」可分析廣告文案中使�
 
 對於複雜的客戶範本，現在支援使用相同角色的多個文字欄位（例如，「內文」、「cta」、「影像文字」等）。
 
-在[範本程式碼編輯器指南](/help/user-guide/content/code-editor.md)中探索詳細資料。
+在[範本程式碼編輯器指南](/help/user-guide/templates/code-editor.md)中探索詳細資料。
 
 ### 支援新的Firefly影像產生模型
 
@@ -248,7 +248,7 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 ### 修正和增強功能
 
 * 已啟用[將替代(alt)文字](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)新增至個別變體影像的功能。
-* 新增[新的中繼外觀比例](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 橫向1.19:1 （1080畫素寬度）。
+* 新增[新的中繼外觀比例](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 橫向1.19:1 （1080畫素寬度）。
 * 現在您可以選擇多個體驗來匯出或下載。 請參閱[匯出體驗](/help/user-guide/content/manage-assets.md#export-experiences)。
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -258,9 +258,9 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 
 ### 修正和增強功能
 
-* 新的範本篩選選項！ 現在您可以在&#x200B;_[!UICONTROL 和]_&#x200B;內容[!DNL Create] > _[!UICONTROL 範本]_&#x200B;中精簡您的&#x200B;_[!UICONTROL 選取範本]_&#x200B;清單。 請參閱[搜尋範本](/help/user-guide/content/use-templates.md#search-templates)。 請確定範本已正確加上中繼資料標籤，如此才能透過這些篩選器探索範本。
+* 新的範本篩選選項！ 現在您可以在&#x200B;_[!UICONTROL 和]_&#x200B;內容[!DNL Create] > _[!UICONTROL 範本]_&#x200B;中精簡您的&#x200B;_[!UICONTROL 選取範本]_&#x200B;清單。 請參閱[搜尋範本](/help/user-guide/templates/use-templates.md#search-templates)。 請確定範本已正確加上中繼資料標籤，如此才能透過這些篩選器探索範本。
 * 啟用功能，可[檢視及選取體驗的個別圖層](/help/user-guide/create/manage-variants.md#view-layers) （可編輯的文字欄位或可編輯的影像），以反白它們以進行修訂，例如重新產生內容或裁切影像。
-* 已新增[新範本欄位](/help/user-guide/content/use-templates.md#template-elements) `sub-headline`，以便在體驗中取得其他文字，以吸引受眾注意並突顯行銷訊息。
+* 已新增[新範本欄位](/help/user-guide/templates/use-templates.md#template-elements) `sub-headline`，以便在體驗中取得其他文字，以吸引受眾注意並突顯行銷訊息。
 * 新增支援[將廣告體驗](/help/user-guide/activation/overview.md)從GenStudio for Performance Marketing發佈至Google Campaign Manager 360。 「啟動」在發佈至「Google管理員360廣告商」之前，可支援詳細的「Campaign管理員360廣告預覽。 透過「啟動」發佈的廣告一經上線，就會自動提取至「深入分析」中，讓使用者可以追蹤及報告廣告效益。
 
 +++
@@ -275,13 +275,13 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 
 [!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
 
-已新增對[建立LinkedIn體驗](/help/user-guide/create/create-linkedin.md)的支援。 請參閱頻道特定准則中的[LinkedIn廣告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)索引標籤。
+已新增對[建立LinkedIn體驗](/help/user-guide/create/create-linkedin.md)的支援。 請參閱頻道特定准則中的[LinkedIn廣告](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)索引標籤。
 
 ### 建立橫幅體驗
 
 [!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
 
-新增支援[建立橫幅體驗](/help/user-guide/create/create-banner-experience.md)。 請參閱頻道特定准則中的[橫幅](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)標籤。
+新增支援[建立橫幅體驗](/help/user-guide/create/create-banner-experience.md)。 請參閱頻道特定准則中的[橫幅](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)標籤。
 
 ### 合規性
 
@@ -293,12 +293,12 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 
 ### 範本
 
-* **範本程式碼編輯器** — 新的[範本程式碼編輯器](/help/user-guide/content/code-editor.md)可協助您驗證並調整範本，以便在使用GenStudio for Performance Marketing產生新體驗時達到最佳使用效果。
+* **範本程式碼編輯器** — 新的[範本程式碼編輯器](/help/user-guide/templates/code-editor.md)可協助您驗證並調整範本，以便在使用GenStudio for Performance Marketing產生新體驗時達到最佳使用效果。
 
   ![程式碼編輯器檢視](/help/assets/template-detected-fields.png "檢查偵測到的欄位"){width="500" zoomable="yes"}
 
-* **影像上的連結** — 啟用影像連結來自訂您的電子郵件範本。 請參閱[自訂範本：影像](/help/user-guide/content/customize-template.md#link-on-image)上的連結。
-* **AJO和Marketo範本** — 上傳您在Adobe Journey Optimizer (AJO)或Marketo中建立的範本。 請參閱[使用AJO和Marketo的範本](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo)。
+* **影像上的連結** — 啟用影像連結來自訂您的電子郵件範本。 請參閱[自訂範本：影像](/help/user-guide/templates/customize-template.md#link-on-image)上的連結。
+* **AJO和Marketo範本** — 上傳您在Adobe Journey Optimizer (AJO)或Marketo中建立的範本。 請參閱[使用AJO和Marketo的範本](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo)。
 
 ### 修正和增強功能
 
@@ -336,7 +336,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 ### 產生新的呼叫動作
 
-您現在可以在管理變體時產生新的call-to-action (CTA)片語。 使用新的&#x200B;_重新片語_&#x200B;和&#x200B;_新增連結_&#x200B;選項來產生新片語並編輯CTA連結。 您的範本必須正確設定，這些新的CTA功能才能運作。 遵循&#x200B;_自訂範本_&#x200B;中的准則： [呼叫動作](/help/user-guide/content/customize-template.md#calls-to-action)。 如需變體中CTA的管理准則，請參閱[修訂Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
+您現在可以在管理變體時產生新的call-to-action (CTA)片語。 使用新的&#x200B;_重新片語_&#x200B;和&#x200B;_新增連結_&#x200B;選項來產生新片語並編輯CTA連結。 您的範本必須正確設定，這些新的CTA功能才能運作。 遵循&#x200B;_自訂範本_&#x200B;中的准則： [呼叫動作](/help/user-guide/templates/customize-template.md#calls-to-action)。 如需變體中CTA的管理准則，請參閱[修訂Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)。<!-- GS-6676 -->
 
 ### 修正和增強功能
 
@@ -382,7 +382,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 * 影像上傳期間顯示廣告體驗中的影像尺寸。<!-- GS-7166 -->
 
-* 請參閱[範本最佳實務](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)中的通道特定准則。
+* 請參閱[範本最佳實務](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)中的通道特定准則。
 
 匯出選項現在包括：
 
@@ -446,7 +446,7 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 ### 新功能
 
-新增顯示外部網域上託管之靜態內容的支援。 GenStudio for Performance Marketing會驗證範本中定義的內容來源，並嵌入副本以產生範本預覽。 檢視[靜態內容](/help/user-guide/content/customize-template.md#static-content)。<!-- GS-6107 -->
+新增顯示外部網域上託管之靜態內容的支援。 GenStudio for Performance Marketing會驗證範本中定義的內容來源，並嵌入副本以產生範本預覽。 檢視[靜態內容](/help/user-guide/templates/customize-template.md#static-content)。<!-- GS-6107 -->
 
 ### 修正和增強功能
 

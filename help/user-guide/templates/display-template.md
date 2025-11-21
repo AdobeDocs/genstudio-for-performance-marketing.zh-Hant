@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
-source-git-commit: 85cc8ee51bd6b934811583dc0a8460d6d7083a70
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing會自動產生下列欄位。 您不需要�
 
 - `cta`
 
-請參閱[內容預留位置](/help/user-guide/content/customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
+請參閱[內容預留位置](/help/user-guide/templates/customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
 
 ## 支援的維度
 

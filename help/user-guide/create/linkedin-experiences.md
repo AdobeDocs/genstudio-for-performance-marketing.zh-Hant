@@ -6,7 +6,7 @@ badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能�
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -27,7 +27,7 @@ LinkedIn體驗的可編輯區段包括：
 * call to action (CTA)
 * 影像/影片
 
-請參閱[範本元素](/help/user-guide/content/use-templates.md#template-elements)。
+請參閱[範本元素](/help/user-guide/templates/use-templates.md#template-elements)。
 
 ## 漸進式載入
 

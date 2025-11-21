@@ -7,7 +7,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c1118ada-7fee-43cd-aff4-eab69539afb4
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # 產生影像
 
-使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （繪圖筆刷圖示），您就可以產生&#x200B;_[!DNL On-brand images]_&#x200B;個從選取的影像中汲取靈感的產生資產，擷取其視覺效果和整體美感。<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （繪圖筆刷圖示），您就可以產生&#x200B;_[!DNL On-brand images]_個從選取的影像中汲取靈感的產生資產，擷取其視覺效果和整體美感。<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 若要設計吸引目光且有效的影像，建議您[在GenStudio for Performance Marketing中新增准則](/help/user-guide/guidelines/add-guidelines.md)，並檢閱撰寫提示的[基本知識](/help/user-guide/effective-prompts.md)。
 
 ## 影像型別
 
-_[!DNL On-brand images]_&#x200B;是從選定影像中汲取靈感的已產生資產，擷取其視覺效果和整體美感。 這些影像是使用[!DNL Content]中已提供的影像以及精心製作的提示來建立，以指導設計。 它們嚴格遵守品牌指導方針和在產生過程中選擇的引數。
+_[!DNL On-brand images]_是從選定影像中汲取靈感的已產生資產，擷取其視覺效果和整體美感。 這些影像是使用[!DNL Content]中已提供的影像以及精心製作的提示來建立，以指導設計。 它們嚴格遵守品牌指導方針和在產生過程中選擇的引數。
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ -->整合設定准則、引數，以及[精心打造的提示](/help/user-guide/effective-prompts.md)，以提供吸引目光的影像資產。
 
@@ -34,11 +34,11 @@ _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ -->整合設定准則�
 
 ### 選擇參考影像
 
-若要建立&#x200B;_[!DNL On-brand images]_，請選取儲存在[!DNL Content]中的現有影像。 如需有關支援的[維度的資訊，請參閱](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)範本最佳實務[!DNL on-brand image]。
+若要建立&#x200B;_[!DNL On-brand images]_，請選取儲存在[!DNL Content]中的現有影像。 如需有關支援的[維度的資訊，請參閱](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)範本最佳實務[!DNL on-brand image]。
 
 **若要選擇參考影像**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 品牌上影像]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 品牌上影像]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定影像。
 
    ![選取參考影像](/help/assets/select-img.png){width="400" zoomable="yes"}
@@ -105,9 +105,9 @@ _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ -->整合設定准則�
 
    出現&#x200B;_Powered by Adobe Express_&#x200B;視窗。
 
-1. 執行影像編輯，例如[裁切影像](https://helpx.adobe.com/tw/express/create-and-edit-images/edit-images/crop-images.html)、[移除物件](https://helpx.adobe.com/tw/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)以及套用效果。
+1. 執行影像編輯，例如[裁切影像](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html)、[移除物件](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)以及套用效果。
 
-   請參閱[Adobe Express檔案](https://helpx.adobe.com/tw/express/user-guide.html)，瞭解如何使用Adobe Express在GenStudio for Performance Marketing中修訂影像。
+   請參閱[Adobe Express檔案](https://helpx.adobe.com/express/user-guide.html)，瞭解如何使用Adobe Express在GenStudio for Performance Marketing中修訂影像。
 
 1. 按一下&#x200B;_[!UICONTROL 套用變更]_&#x200B;以儲存您的編輯。
 1. 視需要繼續編輯個別影像變體，並套用變更以儲存進度。

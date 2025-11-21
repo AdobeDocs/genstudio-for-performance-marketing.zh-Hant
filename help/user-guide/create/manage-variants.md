@@ -3,7 +3,7 @@ title: 管理變體
 description: 根據您的數位行銷需求，自訂及增強產生的變體和資產。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]可讓您自訂及增強�
 
 1. 產生一組變體後，在變體中的可編輯文字上連按兩下。
 1. 輸入新文字。
-1. 若要格式化文字，請反白適用的文字，然後按一下&#x200B;**[!UICONTROL 格式化文字**]。
+1. 若要格式化文字，請反白適用的文字，然後按一下**[!UICONTROL 格式化文字**]。
 
    套用任何（或全部！）可用的格式選項至您的文字。
 
@@ -110,7 +110,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
    1. 在URL中輸入或貼上，然後按一下&#x200B;**[!UICONTROL 套用]**。
 
-      若要修訂CTA中的現有連結，請編輯現有URL或貼入新URL，然後按一下[套用]。**&#x200B;**
+      若要修訂CTA中的現有連結，請編輯現有URL或貼入新URL，然後按一下[套用]。****
 
 新增或修訂連結會套用至變體集中的所有CTA。
 
@@ -196,7 +196,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 1. 按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
 1. 使用GenStudio資產[!DNL Content]檢視中的篩選和搜尋功能，進一步縮小搜尋結果的範圍。
 
-   您也可以從[**[!UICONTROL 位置&#x200B;]**&#x200B;功能表](/help/user-guide/content/manage-assets.md#location)中選取已連線的Adobe Experience Manager (AEM) Assets Content Hub存放庫，使用該存放庫中的可用影像。
+   您也可以從[**[!UICONTROL 位置&#x200B;]**功能表](/help/user-guide/content/manage-assets.md#location)中選取已連線的Adobe Experience Manager (AEM) Assets Content Hub存放庫，使用該存放庫中的可用影像。
 
 1. 按一下以選取影像，然後按一下&#x200B;**[!UICONTROL 使用]**。
 
@@ -204,7 +204,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 ## 新增連結
 
-您可以新增連結，以連結至變體中的文字、影像和CTA按鈕。 您用來產生變體&#x200B;_的範本必須_&#x200B;包含連結[的](/help/user-guide/content/customize-template.md#content-placeholders)內容預留位置，才能啟用此功能。
+您可以新增連結，以連結至變體中的文字、影像和CTA按鈕。 您用來產生變體&#x200B;_的範本必須_&#x200B;包含連結[的](/help/user-guide/templates/customize-template.md#content-placeholders)內容預留位置，才能啟用此功能。
 
 **若要在變體**&#x200B;中新增連結：
 
@@ -221,7 +221,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 當您在建立過程中新增內容（影像）時，可以為每個包含的影像定義替代文字。 將替代文字新增至影像可改善協助工具、搜尋引擎最佳化及使用者體驗。
 
-若要啟用替代文字功能，請在範本中新增內容預留位置[。](/help/user-guide/content/customize-template.md#alternative-text)
+若要啟用替代文字功能，請在範本中新增內容預留位置[。](/help/user-guide/templates/customize-template.md#alternative-text)
 
 **若要新增替代文字至產生之變體中的影像**：
 
@@ -231,8 +231,8 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
    1. 按一下文字方塊並新增替代文字。
    1. 按一下「**[!UICONTROL 套用]**」。
 1. 若要產生影像的替代文字，請執行下列動作：
-   1. 文字欄位保持空白，然後按一下[產生]。**&#x200B;**
-   1. 如果您對初始結果不滿意，請按一下[產生&#x200B;**&#x200B;**]。
+   1. 文字欄位保持空白，然後按一下[產生]。****
+   1. 如果您對初始結果不滿意，請按一下[產生&#x200B;****]。
    1. 按一下「**[!UICONTROL 套用]**」。
 1. 針對變體集中的每個影像重複此步驟。
 
@@ -247,7 +247,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 1. 按一下進入文字方塊，並新增簡短說明，說明連結或按鈕的作用。 例如，您可以使用「在WKND的官方網站購物」作為call to action按鈕連結。
 1. 按一下「**[!UICONTROL 套用]**」。
 
-若要啟用協助工具標籤功能，[在範本中新增內容預留位置](/help/user-guide/content/customize-template.md)。
+若要啟用協助工具標籤功能，[在範本中新增內容預留位置](/help/user-guide/templates/customize-template.md)。
 
 ## 裝置的預覽
 

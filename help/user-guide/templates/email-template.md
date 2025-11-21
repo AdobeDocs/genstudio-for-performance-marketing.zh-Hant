@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,11 +40,11 @@ GenStudio for Performance Marketing會自動產生下列欄位。 未啟用RTF�
 - `pre_header`
 - `subject`
 
-範本中允許的最大欄位為20。 請參閱[內容預留位置](/help/user-guide/content/customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
+範本中允許的最大欄位為20。 請參閱[內容預留位置](/help/user-guide/templates/customize-template.md#content-placeholders)，進一步瞭解如何在範本中使用欄位名稱。
 
 ## 多節電子郵件
 
-_區段_&#x200B;可讓您將內容組織成不同的群組，以支援更複雜的版面配置。 在GenStudio for Performance Marketing中，您可以使用群組命名慣例來定義每個區段。 請參閱[自訂範本區段](/help/user-guide/content/customize-template.md#sections-or-groups)。
+_區段_&#x200B;可讓您將內容組織成不同的群組，以支援更複雜的版面配置。 在GenStudio for Performance Marketing中，您可以使用群組命名慣例來定義每個區段。 請參閱[自訂範本區段](/help/user-guide/templates/customize-template.md#sections-or-groups)。
 
 多區段範本可以有0、2或3個區段：
 

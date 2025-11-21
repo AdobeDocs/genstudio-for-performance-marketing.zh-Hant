@@ -6,10 +6,10 @@ badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能�
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,17 +21,17 @@ Adobe GenStudio for Performance Marketing可讓您利用產生式AI來增強[成
 
 產生橫幅體驗時，會建立四個變數並顯示在畫布中。
 
-請參閱[遵循特定管道的範本准則](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以取得支援的維度、可辨識的欄位名稱等相關資訊。
+請參閱[遵循特定管道的範本准則](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)，以取得支援的維度、可辨識的欄位名稱等相關資訊。
 
 顯示廣告體驗的可編輯區段包括：
 
 * 標題
 * 副標題
-* 內文
+* 正文
 * call to action (CTA)
 * 影像
 
-請參閱[範本元素](/help/user-guide/content/use-templates.md#template-elements)。
+請參閱[範本元素](/help/user-guide/templates/use-templates.md#template-elements)。
 
 <!-- ## Character counts
 

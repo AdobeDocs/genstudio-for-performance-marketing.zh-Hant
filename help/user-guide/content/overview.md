@@ -4,7 +4,7 @@ description: 瞭解如何在一個直覺式入口網站中尋找、編輯、重�
 level: Beginner
 feature: Content Management, Media Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 650a32a1bbb10c17ff25c5bbb36f12cead218dfc
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -13,63 +13,116 @@ ht-degree: 1%
 
 # Adobe GenStudio for Performance Marketing [!DNL Content]
 
-GenStudio for Performance Marketing [!DNL Content]提供中央位置，可儲存、尋找及共用所有品牌核准的資產、體驗和範本。 您可以使用創作AI編輯和重新混合內容、深入瞭解內容使用情況和情緒，以及重新整理和重新利用現有資產。
+GenStudio for Performance Marketing [!DNL Content]提供中央位置，可儲存、尋找及共用所有品牌核准的資產、體驗和範本。 您可以編輯和重新混合內容、取得內容使用情況和情緒的insight，以及使用創作AI重新整理和重新利用現有資產。
 
 ## [!DNL Content] 使用案例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md#search">
+
          <img alt="放大鏡" src="../../assets/icons/icon-search.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md#search-content">
+
          <strong>尋找內容</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md">
+
          <img alt="具有加號的影像" src="../../assets/icons/icon-addContent.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md">
+
          <strong>新增資產</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/asset-details.md#edit-in-express">
+
          <img alt="在Adobe Express中編輯" src="../../assets/icons/icon-editExpress.png">
+
       </a>
+
       <p>
+
          <a href="../content/asset-details.md#edit-in-express">
+
          <strong>在Adobe Express中編輯資產</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
-      <a href="../content/customize-template.md">
+
+      <a href="../templates/customize-template.md">
+
          <img alt="在資產上加亮螺栓" src="../../assets/icons/icon-template.png">
+
       </a>
+
       <p>
-         <a href="../content/customize-template.md">
+
+         <a href="../templates/customize-template.md">
+
          <strong>自訂範本</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
-      <a href="../content/use-templates.md">
+
+      <a href="../templates/use-templates.md">
+
          <img alt="使用加號在資產上加亮螺栓" src="../../assets/icons/icon-addTemplate.png">
+
       </a>
+
       <p>
-         <a href="../content/use-templates.md#upload-a-template">
+
+         <a href="../templates/use-templates.md#upload-a-template">
+
          <strong>上傳範本</strong>
+
          </a>
+
       </p>
+
    </td>
+
 </tr>
+
 </table>
 
 ## [!DNL Content]功能
@@ -86,4 +139,4 @@ GenStudio for Performance Marketing [!DNL Content]可讓您輕鬆管理核准的
 
 ### 使用範本
 
-範本可加快建立流程，讓您跨多個管道產生一致的內容。 上傳您的自訂範本，以作為建立程式中的起點，並預先設定版面配置和設計元素。 瞭解[使用範本](use-templates.md)中的基本範本元素和程式。 並使用[自訂範本](customize-template.md)主題深入探究建立範本。
+範本可加快建立流程，讓您跨多個管道產生一致的內容。 上傳您的自訂範本，以作為建立程式中的起點，並預先設定版面配置和設計元素。 瞭解[使用範本](../templates/use-templates.md)中的基本範本元素和程式。 並使用[自訂範本](../templates/customize-template.md)主題深入探究建立範本。

@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 透過Adobe GenStudio for Performance Marketing，您可以使用創作AI來簡化[建立高影響力的Meta體驗](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]可讓內容建立者使用[指南](/help/user-guide/guidelines/overview.md)、影像資產和[精心設計的提示](/help/user-guide/effective-prompts.md)，快速[建立Meta廣告體驗](/help/user-guide/create/create-meta-ad.md)。
 
-產生Meta體驗時，會建立四個變數並顯示在畫布中。 GenStudio for Performance Marketing同時支援[標準與自訂大小的Meta廣告](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
+產生Meta體驗時，會建立四個變數並顯示在畫布中。 GenStudio for Performance Marketing同時支援[標準與自訂大小的Meta廣告](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 
 產生Meta體驗時，會建立四個變數並顯示在畫布中。
 
@@ -25,12 +25,12 @@ GenStudio for Performance Marketing同時支援[標準與自訂大小的Meta廣�
 電子郵件體驗的可編輯區段包括：
 
 * 標題
-* 內文
+* 正文
 * call to action (CTA)
 * 影像上文字
 * 影像/影片
 
-請參閱[範本元素](/help/user-guide/content/use-templates.md#template-elements)。
+請參閱[範本元素](/help/user-guide/templates/use-templates.md#template-elements)。
 
 ## Meta廣告管道
 

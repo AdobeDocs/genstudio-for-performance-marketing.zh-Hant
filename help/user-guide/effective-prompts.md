@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -59,7 +59,7 @@ GenStudio for Performance Marketing指南可協助創作AI個人化您的資產�
 
 ### 結構化提示
 
-對於多節電子郵件，您可以構造提示以提供節特定的指示，以便為電子郵件中的每個節產生不同的內容。 結構化提示應直接參照電子郵件範本[中的](/help/user-guide/content/customize-template.md#sections-or-groups)節名稱，以便將產生的內容插入對應的內容預留位置。
+對於多節電子郵件，您可以構造提示以提供節特定的指示，以便為電子郵件中的每個節產生不同的內容。 結構化提示應直接參照電子郵件範本[中的](/help/user-guide/templates/customize-template.md#sections-or-groups)節名稱，以便將產生的內容插入對應的內容預留位置。
 
 例如，您可以指示GenStudio for Performance Marketing針對第一節中宣傳新產品的電子郵件產生內容，並在第二節中詳細說明節省成本的好處。
 
@@ -93,7 +93,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-檢視[使用範本的最佳實務](/help/user-guide/content/best-practices-for-templates.md)。
+檢視[使用範本的最佳實務](/help/user-guide/templates/best-practices-for-templates.md)。
 
 ## 再試一次
 
