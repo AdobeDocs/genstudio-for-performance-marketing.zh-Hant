@@ -1,11 +1,11 @@
 ---
 title: Adobe GenStudio for Performance Marketing中的品牌驗證
-description: 瞭解內建品牌驗證系統如何在GenStudio for Performance Marketing中運作。
+description: 瞭解GenStudio for Performance Marketing中的內建品牌驗證系統。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: e2acf90ef5fef6af03a756882caf53ab125055c4
+source-git-commit: 6a33f7e3a769eda459f70e6ab4e8559064ede2b4
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ GenStudio for Performance Marketing會針對不同方面執行品牌驗證和其
 
 * 已定義或預設[!DNL Brand]指南
 * 平台指南
-* [美國殘障人士法案(ADA)標準](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
+* [協助工具支援](/help/user-guide/guidelines/brand-validation.md#supporting-your-accessibility-strategy)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -81,19 +81,22 @@ _內容檢查_&#x200B;面板會顯示影像和變體區段的驗證和[相容性
 
    使用為每個檢查提供的推理來指導您修訂影像和變體。
 
-1. 進行必要的修訂後，請按一下[重新檢查分數] **&#x200B;**&#x200B;來重新檢查並驗證您的變更，以確保它們符合您的品牌識別、平台指引及協助工具標準。
+1. 進行必要的修訂後，請按一下[重新檢查分數] ****&#x200B;來重新檢查並驗證您的變更，以確保它們符合您的品牌識別、平台指引及協助工具標準。
 
    內容檢查程式會再次執行。 如果修訂專案通過驗證，則會在畫布底部顯示綠色橫幅，以確認分數已更新。 如果重新檢查後沒有變更，橫幅會確認分數沒有變更。 修訂變體的&#x200B;_內容檢查_&#x200B;摘要圖示中的百分比也會顯示您的進度。
 
 1. 繼續修訂區段，以確保整個變體通過驗證和協助工具檢查。 使用畫布中個別變體旁的箭頭，導覽至每個變體。
 
-## 美國殘障人士法案(ADA)驗證
+## 支援協助工具策略
 
-這些協助工具檢查內容包含在美國殘障人士法案(ADA)的法律遵循中：
+GenStudio for Performance Marketing包含內容檢查，旨在協助客戶支援其自己的協助工具最佳實務。
 
-[WCAG 1.1.1非文字內容](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) — 確保影像提供`<alt>`屬性。
-[WCAG 1.4.3對比（最小值）](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) — 確保產生的文字與背景的對比為4.5:1。
-[WCAG 3.1.3不尋常字詞](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html) — 識別以不尋常或受限制的方式使用的字詞或短語，包括成語和行話。
-[WCAG 3.1.4縮寫](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html) — 識別縮寫擴充形式或含意的機制。
-[WCAG 3.1.5讀取層級](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html) — 確保內容在較低的中等教育層級可讀取。
+此功能包括下列內容檢查：
 
+* 影像提供`<alt>`屬性。
+* 產生的文字與背景的對比為4.5:1。
+* 避免以不尋常或受限制的方式使用字詞或短語，包括習語和行話。
+* 縮寫的擴充形式或含義可供使用。
+* 在初中教育層級可讀取內容。
+
+雖然客戶需自行負責其法律和協助工具合規性，但仍鼓勵客戶將這些功能用作為其更廣泛協助工具策略的一部分。
