@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ GenStudio for Performance Marketing會自動產生下列欄位。 未啟用RTF�
 
 _區段_&#x200B;可讓您將內容組織成不同的群組，以支援更複雜的版面配置。 在GenStudio for Performance Marketing中，您可以使用群組命名慣例來定義每個區段。 請參閱[自訂範本區段](/help/user-guide/templates/customize-template.md#sections-or-groups)。
 
-多區段範本可以有0、2或3個區段：
+多節電子郵件範本最多可以包含10個節：
 
 - 基本範本（零個區段）可以產生一組不需要群組命名慣例的單一範本元素。
-- 複雜範本（多個區段）最多可以產生三組範本元素，這需要您遵循群組命名慣例： `<groupname_fieldname>`。
+- 複雜的範本（多個區段）可以產生範本元素集，這需要您遵循群組命名慣例： `<groupname_fieldname>`。
 - 使用多個區段時，不會填入區段外任何保持獨立的元素。
 
 以下是兩個區段使用群組命名慣例的欄位名稱範例：
