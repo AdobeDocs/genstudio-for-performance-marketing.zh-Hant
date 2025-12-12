@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
+source-git-commit: 4f3d8558f37656ccfc67b592e0bb9e90c30a7963
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您可以透過插入內容預留位置或產生AI用來插入內容的欄位，自訂要在GenStudio for Performance Marketing中使用的範本。
 
-以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱[Handlebars語言指南 [!DNL Handlebars]中的](https://handlebarsjs.com/guide/#what-is-handlebars)什麼是__，瞭解如何準備您的範本。
+以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱[Handlebars語言指南 [!DNL Handlebars]中的](https://handlebarsjs.com/guide/#what-is-handlebars)什麼是__，瞭解如何準備您的範本。
 
 您的範本準備就緒後，您可以[將其上傳到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，並開始根據您的自訂範本產生個人化電子郵件。
 
@@ -222,18 +222,26 @@ RTF編輯可能適用於特定頻道內的某些欄位，例如社交頻道(Meta
 - _正確_ (👍)： `pod1_body`
 - _不正確_ (❌)： `pod1body`
 
-每個區段只能使用其中一個欄位型別。因為此規則，區段不能巢狀化。
-
-例如，下列欄位屬於`pod1`區段：
+每個區段只能使用每個欄位型別中的一個。 例如，下列欄位屬於`pod1`區段：
 
 - `pod1_headline`
 - `pod1_body`
 - `pod1_image`
 - `pod1_cta`
 
-GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯性比`pod2_body`更密切。
+因為此規則，區段無法巢狀化。
 
 每種範本型別(例如電子郵件或Meta廣告)在區段的使用上都有通道特定的限制。 請參閱[使用範本的最佳實務](/help/user-guide/templates/best-practices-for-templates.md)主題中的&#x200B;_頻道特定准則_。
+
+例如，電子郵件範本最多可包含三個區段；因此，您可以有三個標題和正文區段：
+
+- `pre_header`
+- `pod1_headline`、`pod1_body`
+- `pod2_headline`、`pod2_body`
+- `pod3_headline`、`pod3_body`
+- `cta`
+
+GenStudio for Performance Marketing瞭解`pod1_headline`與`pod1_body`的關聯性比`pod2_body`更密切。
 
 >[!TIP]
 >
