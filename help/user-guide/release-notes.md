@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
 workflow-type: tm+mt
-source-wordcount: '4162'
+source-wordcount: '4225'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,15 @@ ht-degree: 0%
 
 此版本資訊提供GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2025.11.14 {#latest}
+## 2025.12.12 {#latest}
+
+### 範本的標誌交換
+
+行銷人員現在可以在[!DNL Create]工作流程中直接在範本中動態交換圖志，而不需要為不同的品牌圖志、子品牌或產品線建立多個範本變體。 此功能可讓建立者在內容建立時選取或交換適當的標誌，簡化範本管理並降低生產負荷。
+
+## 舊版發行說明
+
++++2025.11.14版注意事項
 
 ### Real-Time CDP受眾整合
 
@@ -58,6 +66,7 @@ ht-degree: 0%
 * 使用者現在可以套用[!DNL Brand]標籤，以便由[!DNL Product]將[!DNL Persona]和[!DNL Brand]記錄分組。
 * [!DNL Experience Translations]流量已最佳化，同時提供付費媒體和電子郵件新的翻譯功能。
 
++++
 
 ## 舊版發行說明
 
