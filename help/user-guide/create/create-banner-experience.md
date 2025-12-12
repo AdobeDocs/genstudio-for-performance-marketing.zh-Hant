@@ -2,13 +2,14 @@
 title: 建立橫幅體驗
 description: 瞭解如何在Adobe [!DNL GenStudio] 中建立橫幅體驗，以進行效能行銷。
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
+badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: f323537b698961bb71ffeb830ff06c5993fe38c5
+source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 **若要選擇橫幅範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 橫幅]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 橫幅]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的橫幅範本。
 1. 在&#x200B;_選取範本_&#x200B;檢視中，按一下橫幅範本。
 1. 按一下&#x200B;**[!UICONTROL 使用]**。
@@ -57,7 +58,7 @@ ht-degree: 0%
 
 選取准則後，請使用自然語言建立提示，以開始產生新橫幅體驗的內容。 為了確保高品質的結果，必須製作詳細且描述性的提示。
 
-![輸入提示](/help/assets/prompt-displayad.png){width="300" align="center"}
+![輸入提示](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 請參閱[撰寫有效提示](/help/user-guide/effective-prompts.md)，深入瞭解撰寫提示的相關資訊。
 
@@ -84,7 +85,7 @@ ht-degree: 0%
 * **若要[新增協助工具標籤](/help/user-guide/create/manage-variants.md#add-accessibility-labels)至您的變體**，請按一下影像或call-to-action連結，然後提供簡短說明，說明連結或按鈕的作用。
 * **若要[變更廣告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小與外觀比例，請按一下&#x200B;_[!UICONTROL 調整大小]_&#x200B;按鈕（在畫布左邊有按鈕圖示的方塊），然後選取要套用至所有變體的新大小與外觀比例。 變數會複製並調整大小。
 * **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請按一下影像，按一下&#x200B;**[!UICONTROL 編輯]** （鉛筆圖示），然後按一下&#x200B;**[!UICONTROL 裁切]**。 調整影像大小和位置。
-* **要[使用[產生式展開]以調整影像大小並符合您的工作範本](/help/user-guide/create/manage-variants.md#use-generative-expand)**，按一下影像，按一下[編輯]&#x200B;**[!UICONTROL （鉛筆圖示），然後]**&#x200B;展開&#x200B;**[!UICONTROL 。]**&#x200B;調整影像以符合所需的外觀比例和範本。
+* **要[使用[產生式展開]以調整影像大小並符合您的工作範本](/help/user-guide/create/manage-variants.md#use-generative-expand)**，按一下影像，按一下[編輯]**[!UICONTROL （鉛筆圖示），然後]**&#x200B;展開&#x200B;**[!UICONTROL 。]**&#x200B;調整影像以符合所需的外觀比例和範本。
 
 <!-- # Preview for device
 When revising and preparing email experiences, you can toggle between previews for desktop and mobile views to ensure coherence and visual appeal of draft variants.
@@ -126,13 +127,13 @@ When revising and preparing email experiences, you can toggle between previews f
 若要讓產生的橫幅供目前和未來使用，請將橫幅發佈至[!UICONTROL Content]，然後匯出以用於您的行銷活動。
 
 1. **若要發佈您的新橫幅體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
-   1. 選取&#x200B;_[!UICONTROL [!DNL Campaigns]]_&#x200B;並新增&#x200B;_[!UICONTROL &#x200B;更多詳細資料&#x200B;]_（如有需要）。
+   1. 選取&#x200B;_[!UICONTROL [!DNL Campaigns]]_並新增_[!UICONTROL &#x200B;更多詳細資料&#x200B;]_（如有需要）。
    1. 點擊&#x200B;**[!UICONTROL 發佈]**。
 
       ![發佈橫幅](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **若要匯出您的新橫幅**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式(HTML和影像、PNG或JPG)，然後按一下「匯出」**&#x200B;**。
+1. **若要匯出您的新橫幅**，請按一下頂端工具列中的[匯出]。****
+   1. 選取格式(HTML和影像、PNG或JPG)，然後按一下「匯出」****。
 
       匯出的HTML應放置在預先定義的Web屬性中，例如範本或`div`容器。 如果沒有這些設定的尺寸，獨立檢視影像時，影像可能會扭曲。
 

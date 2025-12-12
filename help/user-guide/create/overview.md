@@ -4,9 +4,9 @@ description: 在Adobe GenStudio for Performance Marketing [!DNL Create]中使用
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: c8b9e0b1b78195a648774d383c94ed9974fa8bcd
+source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -35,68 +35,131 @@ GenStudio for Performance Marketing [!DNL Create]運用Adobe GenAI的強大功�
 ## [!DNL Create] 使用案例
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="建立新內容" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>建立電子郵件體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="建立Meta廣告體驗" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>建立Meta廣告體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="建立LinkedIn廣告體驗" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>建立LinkedIn廣告體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="建立顯示廣告體驗" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>建立顯示廣告體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="建立橫幅體驗" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong>建立橫幅體驗</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="建立影像" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong>產生影像</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 GenStudio for Performance Marketing可讓行銷人員&#x200B;**建立新的行銷內容**。 在此使用案例中，使用已定義的[指南](/help/user-guide/guidelines/overview.md)和靈感影像來通知建立符合品牌標準的內容。
@@ -113,11 +176,11 @@ GenStudio for Performance Marketing可讓行銷人員&#x200B;**建立新的行�
 
 ### 參數
 
-在提示抽屜中，您可以新增&#x200B;_引數_ （例如[!DNL Brands]、[!DNL Products]以及[!DNL Personas]和[!DNL Content]）來塑造產生的體驗。
+在提示抽屜中，您可以新增&#x200B;_引數_ (例如[!DNL Brands]、[!DNL Products]和[!DNL Personas] （准則）)和[!DNL Content] （資產），以塑造產生的體驗。
 
-這些新增的引數插入[准則](/help/user-guide/guidelines/overview.md)和[!DNL Content]提供用於產生程式的資產，確保自訂輸出符合品牌的全面識別。 在您的GenStudio for Performance Marketing中新增指引，並在內容產生期間加以使用，可大幅增強建立適當品牌上內容的效能。
+這些新增的引數將[准則](/help/user-guide/guidelines/overview.md)和資產插入產生程式，確保內容已自訂以符合品牌的完整身分。 建議您在GenStudio for Performance Marketing中新增指引，並在內容產生程式期間使用，因為這些指引可大幅增強建立合適品牌內內容的效能。
 
-內容 — 已上傳或已新增的影像資產 — 在&#x200B;_中，引數_&#x200B;用於產生的變體中，並通知為變體產生的復本（文字）。 您可以上傳資產，或選取已存在於[!DNL Content]或任何已連線的AEM Content Hub存放庫中的資產。
+已上傳或新增的影像資產內容（位於&#x200B;_中）引數_&#x200B;用於產生的變體中，並通知為變體產生的複製內容（文字）。 您可以上傳資產，或選取已存在於[!DNL Content]或任何已連線的AEM Content Hub存放庫中的資產。
 
 ### 提示
 
