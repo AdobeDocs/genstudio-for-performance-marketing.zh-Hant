@@ -4,9 +4,9 @@ description: 了解 Adobe GenStudio for Performance Marketing 的最新功能和
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
+source-git-commit: c7300b3f531947081253aaf719e099512b419539
 workflow-type: tm+mt
-source-wordcount: '4225'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,31 @@ ht-degree: 0%
 
 此版本資訊提供GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2025.12.12 {#latest}
+## 2026.01 {#latest}
+
+### HTML畫布提示面板重新設計
+
+[!DNL Create] HTML畫布提示抽屜現在在電子郵件、顯示廣告和付費媒體廣告中以左側面板出現，取代了先前的底部抽屜。 此重新整理可保持相同的核心功能，同時改善工作區版面以及在產生內容時的一致性。
+
+### 多面板電子郵件產生，最多10個區段
+
+您現在可以在[!DNL Create]中建立最多10個Pod/區段的電子郵件，將產生多Pod電子郵件的範圍擴大至先前1-3 Pod的上限。 此增強功能可在單一世代流程中啟用更豐富、結構化的電子郵件配置，而不需跨多個路徑將內容拼接在一起。
+
+### Content Credentials資產真實性
+
+[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
+
+GenStudio for Performance Marketing現在支援Content Credentials，可讓團隊在建立、檢閱和匯出的整個過程中，套用並保留資產的真實性中繼資料。 認證徽章和詳細資訊會出現在關鍵工作流程中，以便組織驗證來歷並在共用內容時維持信任。
+
+## 舊版發行說明
+
++++2025.12.12註釋
 
 ### 範本的標誌交換
 
 行銷人員現在可以在[!DNL Create]工作流程中直接在範本中動態交換圖志，而不需要為不同的品牌圖志、子品牌或產品線建立多個範本變體。 此功能可讓建立者在內容建立時選取或交換適當的標誌，簡化範本管理並降低生產負荷。
 
-## 舊版發行說明
++++
 
 +++2025.11.14版注意事項
 
@@ -67,8 +85,6 @@ ht-degree: 0%
 * [!DNL Experience Translations]流量已最佳化，同時提供付費媒體和電子郵件新的翻譯功能。
 
 +++
-
-## 舊版發行說明
 
 +++2025.10.16版注意事項
 
