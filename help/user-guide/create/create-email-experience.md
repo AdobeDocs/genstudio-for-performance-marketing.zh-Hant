@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 168ea3d21f5771aeb05553ffe992dc9648b0e4e4
+source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 **若要選擇電子郵件範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 電子郵件]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 電子郵件]**。
 1. 使用&#x200B;_篩選器_&#x200B;旁的搜尋選項來尋找特定的電子郵件範本。
-1. 按一下以選取電子郵件範本，然後按一下[使用]。**&#x200B;**
+1. 按一下以選取電子郵件範本，然後按一下[使用]。****
 
    內容建立的中心「畫布」隨即顯示。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. 按一下&#x200B;_引數_&#x200B;圖示以展開提示抽屜。
 1. 在&#x200B;_引數_&#x200B;區段中，選取指導方針 — [!DNL Brands]、[!DNL Personas]和[!DNL Products] — 以通知內容建立。
 
-   ![選擇角色](/help/assets/persona-select-email2.png){width="300" align="center"}
+   ![選擇角色](/help/assets/persona-select-email2.png){width="50%" align="center"}
 
    如果這些功能表中沒有可用的品牌、角色或產品，請[將准則新增至您的GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md)。
 
@@ -110,9 +110,9 @@ ht-degree: 0%
 
 1. 按一下右側動作列中的&#x200B;_內容檢查_&#x200B;面板圖示以開啟&#x200B;[_內容檢查_&#x200B;面板](/help/user-guide/guidelines/brand-validation.md#content-check-panel)。 檢視&#x200B;*需要稽核*&#x200B;和&#x200B;*通過*&#x200B;檢查的摘要，以檢視哪些區段和准則需要改進。
 
-   ![_內容檢查_&#x200B;面板](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_內容檢查_&#x200B;面板](/help/assets/content-check-panel.png){width="300"}
 
-1. [手動修訂變體](#revise-generated-variants)以確保您的變體與執行的內容檢查緊密對齊。
+2. [手動修訂變體](#revise-generated-variants)以確保您的變體與執行的內容檢查緊密對齊。
 
 請參閱[品牌驗證](/help/user-guide/guidelines/brand-validation.md)。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 若要讓產生的電子郵件可供目前和未來使用，請將它發佈至[!UICONTROL Content]，並匯出以用於您的行銷活動。
 
 1. **若要發佈您的新電子郵件體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
-1. **若要匯出您的新電子郵件體驗**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式(僅限CSV和影像或HTML)，然後按一下「匯出」**&#x200B;**。
+1. **若要匯出您的新電子郵件體驗**，請按一下頂端工具列中的[匯出]。****
+   1. 選取格式(僅限CSV和影像或HTML)，然後按一下「匯出」****。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。
