@@ -57,7 +57,7 @@ ht-degree: 0%
 
 **若要使用行銷活動篩選器來調整廣告表格**：
 
-1. 在&#x200B;_[!DNL Insights]_中，選取&#x200B;**[!UICONTROL 廣告]**檢視。
+1. 在&#x200B;_[!DNL Insights]_&#x200B;中，選取&#x200B;**[!UICONTROL 廣告]**&#x200B;檢視。
 
    ![廣告篩選和表格](/help/assets/insights-ads-filter.png "含篩選功能表的廣告檢視"){zoomable="yes"}
 
