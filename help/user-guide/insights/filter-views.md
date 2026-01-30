@@ -4,9 +4,9 @@ description: 瞭解如何搭配前瞻分析使用增強型篩選功能。
 level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 0eeb41597d547bf806b1728541ca85b598d2aa1c
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 **若要使用行銷活動篩選器來調整廣告表格**：
 
-1. 在&#x200B;_[!DNL Insights]_&#x200B;中，選取&#x200B;**[!UICONTROL 廣告]**&#x200B;檢視。
+1. 在&#x200B;_[!DNL Insights]_中，選取&#x200B;**[!UICONTROL 廣告]**檢視。
 
    ![廣告篩選和表格](/help/assets/insights-ads-filter.png "含篩選功能表的廣告檢視"){zoomable="yes"}
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    ![行銷活動清單](/help/assets/insights-select-campaigns-list.png "選取要包含的行銷活動")
 
-您選取的行銷活動現在會出現在廣告表格或相簿上方的&#x200B;_[!UICONTROL 篩選依據]_&#x200B;清單中。 您可以專注於連結至所選行銷活動的廣告。 在此範例中，篩選的結果包含6個廣告，提供更具針對性的分析檢視。
+您選取的行銷活動現在會出現在廣告表格或相簿上方的&#x200B;_[!UICONTROL 篩選依據]_&#x200B;清單中。 您可以專注於連結至所選行銷活動的廣告。 在此範例中，篩選的結果可提供更具針對性的檢視進行分析。
 
 ![依行銷活動篩選的表格](/help/assets/insights-filter-by-campaigns.png "具有行銷活動篩選器的表格"){zoomable="yes"}
 
