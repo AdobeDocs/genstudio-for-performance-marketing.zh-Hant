@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing整合
 description: 瞭解可用於Adobe GenStudio for Performance Marketing的整合。
 feature: Generative AI
 role: User
-source-git-commit: 5f5627712c26bdb14aa8a729c57697f5df322572
+source-git-commit: fd6e2f182568839cef59e4f6c87569b3e576851f
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 GenStudio for Performance Marketing可與其他功能強大的設計產品整合，為依賴這些產品的行銷人員提供順暢的體驗。 您將會在這裡找到有關可用整合以及如何使用的資訊。
 
 探索GenStudio for Performance Marketing提供的外掛程式，以及其他Adobe產品和其他產品，以簡化您的設計工作流程。
+
+注意：雖然這些外掛程式可讓創意人員製作廣告，並將其匯出為GenStudio的核准使用體驗，但GenStudio for Performance Marketing中的Adobe Express範本卻是創意人員製作廣告範本的建議方法。
 
 ## Figma外掛程式
 
