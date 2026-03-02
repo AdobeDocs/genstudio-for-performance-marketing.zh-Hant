@@ -3,12 +3,12 @@ title: 資料管理
 description: 瞭解GenStudio for Performance Marketing中 [!DNL Insights] 的資料擷取和儲存。
 feature: Reporting and Insights
 level: Experienced
-role: Admin, Data Architect
+role: Admin, Developer
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 7cd8067ab272da971ad41a3853c0fa52c328cf0a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing使用Customer Journey Analytics (CJA)，透�
 - AEP連線：前置詞為`GS Insights`的資料流程
 - AEP連線： GS Insights帳戶
 
-在刪除AEP中的任何資料元件之前，請參閱[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/deletion)指南中的&#x200B;_刪除關聯_。
+在刪除AEP中的任何資料元件之前，請參閱&#x200B;_Customer Journey Analytics_&#x200B;指南中的[刪除關聯](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion)。
 
 >[!ENDSHADEBOX]
 

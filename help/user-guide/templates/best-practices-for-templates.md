@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 71b46454fa6fe2037ea6b103c0dfeedad74b8919
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 使用正確的範本元素
 
-每種範本型別使用不同元素來建立通道特定內容建立的結構。 [熟悉範本的各個部分](use-templates.md#template-elements)，並包含內容與範本型別的最佳元素。
+每種範本型別使用不同元素來建立通道特定內容建立的結構。[熟悉範本](use-templates.md#template-elements)的各個部分，並包含內容與範本型別的最佳元素。
 
 自訂範本時，請使用欄位名稱來取代這些元素，因為您需要GenStudio for Performance Marketing產生內容。
 
@@ -37,14 +37,14 @@ ht-degree: 0%
 
 ## 在範本中使用預留位置文字
 
-預留位置文字可協助定義語法或結構，讓使用者稍後在範本中填入內容。 例如，{first_name}。{last_name}@email等 以定義電子郵件地址。 不過，有些常見分隔字元已保留給GenStudio for Performance Marketing中的其他含義：
+預留位置文字可協助定義語法或結構，讓使用者稍後在範本中填入內容。 例如，{first_name}.{last_name}@email.等，以定義電子郵件地址。 不過，有些常見分隔字元已保留給GenStudio for Performance Marketing中的其他含義：
 
-❌ &lt; > — 用於HTML標籤。
-❌ {{ }}{{ }} — 用於Handlebar運算式。
+❌ `< >` — 正用於HTML標籤。
+❌ `{{ }}` — 用於Handlebar運算式。
 
 使用單括弧（直括弧或大括弧）來表示預留位置文字，以避免與現有標籤混淆。
 
-✅ {first_name} — 名字的預留位置。
+✅ `{first_name}` — 名字的預留位置。
 
 ## 設定頻道准則
 
