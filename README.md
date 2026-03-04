@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # 已封存
 
-此存放庫已移轉至GHEC： <https://github.com/Adobe-Enterprise-Docs/genstudio-for-performance-marketing.en>
+此存放庫已移轉至GHEC： <https://github.com/Adobe-Enterprise-Docs/genstudio-for-performance-marketing.zh-Hant>
