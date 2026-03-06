@@ -1,13 +1,12 @@
 ---
 title: GenStudio Academy
-description: 透過Adobe GenStudio Academy增強您的內容供應鏈技能
+description: 透過Adobe GenStudio Academy增強您的內容supply chain技能
 recommendations: noDisplay, noCatalog
 index: false
-hidefromtoc: true
 exl-id: 44486f96-e01b-4fa1-91f3-a0b50d458133
-source-git-commit: cac3ee686121c3b5eca6f91ab6cfe2c0e97def4a
+source-git-commit: 42ff7403f1b75bf735a689a25226f9bec7b0539a
 workflow-type: tm+mt
-source-wordcount: '17'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
