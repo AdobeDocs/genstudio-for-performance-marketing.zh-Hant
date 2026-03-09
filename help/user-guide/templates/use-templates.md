@@ -6,12 +6,23 @@ role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
 TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 1374
@@ -25,7 +36,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 雖然GenStudio for Performance Marketing不支援直接在應用程式中建立範本，但您可以使用熱門設計工具(例如Adobe InDesign、Illustrator或Express)輕鬆設計和準備範本。 設計完成後，您可以加以調整以用於GenStudio for Performance Marketing。 請依照下列步驟開始使用範本：
 
-1. **設計您的範本**：使用您偏好的設計工具，以元素](#template-elements)建立[範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
+1. **設計您的範本**：使用您偏好的設計工具，以元素[&#128279;](#template-elements)建立範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
 
 2. **為您的範本撰寫程式碼**：將您的設計轉換為HTML和內嵌CSS，以確保在各種裝置間保持乾淨且有回應。 請考慮[協助工具准則](accessibility-for-templates.md)，以協助達到您預期的最大受眾。
 
@@ -54,7 +65,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 >[!TIP]
 >
-檢視GenStudio for Performance Marketing支援的每種管道型別範本的[可辨識欄位名稱](customize-template.md#recognized-field-names)。
+>檢視GenStudio for Performance Marketing支援的每種管道型別範本的[可辨識欄位名稱](customize-template.md#recognized-field-names)。
 
 ## 自訂範本
 
@@ -62,11 +73,11 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 >[!TIP]
 >
-遵循[協助工具准則](accessibility-for-templates.md)和[最佳實務](/help/user-guide/templates/best-practices-for-templates.md)，以便您可以觸及更多對象並提供最佳體驗。
+>遵循[協助工具准則](accessibility-for-templates.md)和[最佳實務](/help/user-guide/templates/best-practices-for-templates.md)，以便您可以觸及更多對象並提供最佳體驗。
 
 ## 管理範本
 
-_[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
+_[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
 
 ### 搜尋範本
 
@@ -89,7 +100,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
 **若要新增範本**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
 
 2. 按一下&#x200B;**[!UICONTROL 新增範本]**。
 
@@ -103,7 +114,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
    >[!TIP]
    >
-   如果範本不正確，請按一下[上一步] ****&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/templates/code-editor.md)進行簡單的更正。
+   >如果範本不正確，請按一下[上一步] **&#x200B;**&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/templates/code-editor.md)進行簡單的更正。
 
 5. 當您對範本預覽感到滿意時，請按一下&#x200B;**[!UICONTROL [下一步]]**。
 
@@ -124,7 +135,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
 **若要重新整理範本**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
 
 2. 按一下範本以取得完整檢視和詳細資訊清單。
 
@@ -136,7 +147,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
 **若要使用範本建立體驗**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
 
 2. 按一下範本以取得完整檢視和詳細資訊清單。
 

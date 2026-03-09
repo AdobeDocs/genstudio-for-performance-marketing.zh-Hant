@@ -4,11 +4,22 @@ description: GenStudio for Performance Marketing [!DNL Brands] 是完整的品�
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
 TQID: https://experienceleague.adobe.com/mZ70azBCwP8KshE6iX7hwGvEWawBkU36aDejZbAkRAY
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 1525
@@ -40,7 +51,7 @@ GenStudio for Performance Marketing使用您[!DNL Brand]的豐富品牌資訊，
 
 >[!NOTE]
 >
-如果您上傳以非英文撰寫的品牌指引，或手動使用非英文建立品牌，GenStudio for Performance Marketing會以相同語言顯示這些指引。
+>如果您上傳以非英文撰寫的品牌指引，或手動使用非英文建立品牌，GenStudio for Performance Marketing會以相同語言顯示這些指引。
 
 從[平台指導方針和ADA協助工具標準](/help/user-guide/guidelines/overview.md#compliance)抽象出來的某些管道指導方針會預先填入為預設值。
 

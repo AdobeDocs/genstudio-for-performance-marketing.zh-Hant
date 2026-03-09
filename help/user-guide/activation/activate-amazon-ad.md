@@ -4,10 +4,15 @@ description: 瞭解如何啟用Amazon Ads體驗。
 feature: Ad Activation
 exl-id: 539cb43c-a9d8-4473-8a7d-e81967111741
 TQID: https://experienceleague.adobe.com/4L4JHcYLSsoQ50QbCW7Mof52h5jpz3z8n0UL8CaqLA8
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2: id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2:
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 507
@@ -39,7 +44,7 @@ GenStudio系統管理員必須先將您的Amazon Ads帳戶連線至GenStudio for
 
 若要選取體驗：
 
-1. 使用內容庫的搜尋和篩選工具來識別您要啟用的體驗，然後按一下[使用]。**** (您也可以按一下Amazon Ads產品卡上的&#x200B;**[!UICONTROL 新增]**，從「啟動」中選取體驗。)
+1. 使用內容庫的搜尋和篩選工具來識別您要啟用的體驗，然後按一下[使用]。**&#x200B;** (您也可以按一下Amazon Ads產品卡上的&#x200B;**[!UICONTROL 新增]**，從「啟動」中選取體驗。)
 
 1. 在繼續啟用之前，系統會要求您選取平台。 選取&#x200B;_Amazon_。
 
@@ -47,7 +52,7 @@ GenStudio系統管理員必須先將您的Amazon Ads帳戶連線至GenStudio for
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 新增體驗]**&#x200B;以新增體驗至此啟用群組。
 
-1. 按一下「下一步&#x200B;****」以確認您的Amazon Ads平台設定。
+1. 按一下「下一步&#x200B;**&#x200B;**」以確認您的Amazon Ads平台設定。
 
    _平台設定_&#x200B;檢視開啟。 此檢視會填入衍生自已設定Amazon Ads帳戶的選項。
 
@@ -59,7 +64,7 @@ GenStudio系統管理員必須先將您的Amazon Ads帳戶連線至GenStudio for
 
 1.對每個選取的體驗重複。
 
-1. 按一下「下一步&#x200B;****」以確認您的Amazon Ads設定。
+1. 按一下「下一步&#x200B;**&#x200B;**」以確認您的Amazon Ads設定。
 
 ## 步驟5：預覽並啟用您的廣告
 

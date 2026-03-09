@@ -5,12 +5,25 @@ level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
 TQID: https://experienceleague.adobe.com/2U5hz1iDNFnxkrGDBPxAAne8rW8Jp0FypcwHkpRVTE8
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
+  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 716
@@ -57,9 +70,9 @@ _[!UICONTROL 行銷活動]_&#x200B;表格是使用頻道型廣告行銷活動來
 | **[!UICONTROL 啟動]** | 行銷活動發行或發佈至市場的日期。 | 高曝光數可能表示廣告正在觸及預期的對象。 |
 | **[!UICONTROL 曝光次數]** | 在管道內每次載入內容時的計數，不考慮互動或檢視。 | 高曝光數可表示廣泛的顯示度，但若想瞭解insight的真正效能，可將其與其他參與量度一併考慮。 |
 | **[!UICONTROL 點按]** | 使用者與廣告行銷活動中的可點按元素(例如連結或call-to-action按鈕)互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
-| **[!UICONTROL CTR ]**<br>_點進率_ | 在管道內導致行銷活動點按的曝光百分比(%)。<br>**計算**： （`clicks`除以`impressions`） x 100 = % | 高點進率表示內容與訊息和設計的對象高度相關且充滿動力，並有效鎖定對象的興趣。 |
-| **[!UICONTROL CPM ]**<br>_每千成本_ | 廣告行銷活動的每一千次廣告印象成本。<br>**計算**： （總金額`spent`除以`impressions`） x 1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
-| **[!UICONTROL CPC ]**<br>_每次點按成本_ | 與廣告行銷活動中每次點按相關聯的平均成本。<br>**計算**：總金額`spent`除以`clicks` = $ | 平均成本降低可能表示廣告支出符合成本效益，尤其是與轉換率增加相比。 |
+| **[!UICONTROL CTR &#x200B;]**<br>_點進率_ | 在管道內導致行銷活動點按的曝光百分比(%)。<br>**計算**： （`clicks`除以`impressions`） x 100 = % | 高點進率表示內容與訊息和設計的對象高度相關且充滿動力，並有效鎖定對象的興趣。 |
+| **[!UICONTROL CPM &#x200B;]**<br>_每千成本_ | 廣告行銷活動的每一千次廣告印象成本。<br>**計算**： （總金額`spent`除以`impressions`） x 1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
+| **[!UICONTROL CPC &#x200B;]**<br>_每次點按成本_ | 與廣告行銷活動中每次點按相關聯的平均成本。<br>**計算**：總金額`spent`除以`clicks` = $ | 平均成本降低可能表示廣告支出符合成本效益，尤其是與轉換率增加相比。 |
 | **[!UICONTROL 影片播放]** | 影片在廣告行銷活動中開始播放的次數（不含重播）。 當使用者按一下「播放」或視訊自動播放時，視訊就會開始播放。 | 大量影片播放可能表示影片正在吸引注意力，也可能表示縮圖、標題或位置正在檢視器中有效地繪圖。 |
 | **[!UICONTROL 預算]** | 為實現行銷活動目標而配置給廣告行銷活動的資金總計。 | 高預算意味著有更多的資源，以擴大觸及面並產生更大的潛在影響。 |
 | **[!UICONTROL 支出]** | 在指定期間內跨不同平台放置廣告的預算花費金額。 | 在短時間內發生高支出量可能表示快速使用，這可能導致資源提早耗盡。 根據關鍵績效指標追蹤所花費的金額，以協助監控整體投資報酬率。 |

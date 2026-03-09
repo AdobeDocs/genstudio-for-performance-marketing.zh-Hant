@@ -4,11 +4,23 @@ description: GenStudio for Performance Marketing [!DNL Personas] 真實地呈現
 feature: Persona Personalization, Variant Generation, Generative AI
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
 TQID: https://experienceleague.adobe.com/05SP4Vat09WFu4jdpvxj-5tlSzkFG-kj0FJbb5200ms
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: cec71013-cf14-4e28-b808-3d3060935bcbid: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: cec71013-cf14-4e28-b808-3d3060935bcb
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 360
@@ -25,7 +37,7 @@ GenStudio for Performance Marketing運用[指引的強大功能](overview.md)，
 **若要檢視或修改角色**：
 
 1. 在左側導覽區域中，按一下&#x200B;**[!UICONTROL 角色]**。
-1. 若要[檢視個人詳細資料或修改角色](add-guidelines.md#manage-personas)，請按一下&#x200B;_[!DNL Personas]_動作功能表並選取&#x200B;**開啟**。
+1. 若要[檢視個人詳細資料或修改角色](add-guidelines.md#manage-personas)，請按一下&#x200B;_[!DNL Personas]_&#x200B;動作功能表並選取&#x200B;**開啟**。
 1. 按一下准則類別文字欄位，修訂角色准則。
 
 請參閱[新增准則](add-guidelines.md)以瞭解如何在GenStudio for Performance Marketing中新增或修改角色。

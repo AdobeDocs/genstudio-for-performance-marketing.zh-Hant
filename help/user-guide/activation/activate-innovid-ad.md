@@ -4,11 +4,19 @@ description: 瞭解如何啟用無痕體驗。
 feature: Ad Activation
 exl-id: ebb2aa9e-8efb-45b0-9ba2-7b27b8888708
 TQID: https://experienceleague.adobe.com/VTzk2CDlTqawM1ckdHPVzs2ES-y0Ui0mkOLnVD88bJk
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 489
@@ -43,7 +51,7 @@ GenStudio系統管理員必須先將您的無罪帳戶連線至GenStudio for Per
 1. 使用內容庫的搜尋和篩選工具來識別您要啟用的體驗。 然後按一下&#x200B;**[!UICONTROL 使用]**。 或者，您可以按一下Innovid產品卡上的&#x200B;**[!UICONTROL 新增]**，從「啟動」中選取體驗。
 1. 在繼續啟用之前，系統會提示您選取平台。 選取&#x200B;*Innovid*。 此體驗的「無視覺化體驗設定」頁面隨即開啟。 已預先填入體驗的詳細資料，且無法修訂。 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 新增體驗]**&#x200B;以新增體驗至此啟用群組。
-1. 按一下[下一步]****&#x200B;以確認您的Innovid平台設定。 **[!UICONTROL 平台設定]**&#x200B;檢視會開啟。此檢視會顯示從您設定的Innovid帳戶衍生的選項。
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以確認您的Innovid平台設定。 **[!UICONTROL 平台設定]**&#x200B;檢視會開啟。此檢視會顯示從您設定的Innovid帳戶衍生的選項。
 
 ## 步驟4：確認無驗證平台設定
 
@@ -51,7 +59,7 @@ GenStudio系統管理員必須先將您的無罪帳戶連線至GenStudio for Per
 1. 從&#x200B;**[!UICONTROL Creative資料庫]**&#x200B;下拉式清單中選取Creative資料庫。 您的Innovid帳戶設定會決定可用的Creative資料庫。 您的創意體驗會在啟用完成時以無訊息傳送至此Creative資料庫。
 1. 將名稱新增至&#x200B;**[!UICONTROL Creative名稱]**&#x200B;欄位。 Innovid會以此名稱識別體驗。
 1. 對每個選取的體驗重複。
-1. 按一下[下一步]****&#x200B;確認您的Innovid設定。
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;確認您的Innovid設定。
 
 ## 步驟5：預覽並啟用您的廣告
 
