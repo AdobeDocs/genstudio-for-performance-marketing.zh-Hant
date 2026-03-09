@@ -2,9 +2,21 @@
 title: GenStudio Experience Selector MFE
 description: 瞭解如何為您的GenStudio應用程式和附加元件實作Experience Selector Micro FrontEnd。
 feature: Extensibility, Extensions, Experiences
-source-git-commit: 27e85e62f83bad391348c45da1558cd1a58204fc
+exl-id: 918d3772-406b-4e16-bddc-0d5b160978d3
+TQID: https://experienceleague.adobe.com/0KCx1agovbj3-ShbAZ6JiHnHchMI47F9g4mvE4NPpvc
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bfaa655b-e017-428d-80d0-09de2183b296
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: 601
 ht-degree: 4%
 
 ---
@@ -44,7 +56,7 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/s
 | 屬性 | 類型 | 必要 | 說明 |
 |----------|------|----------|-------------|
 | `apiKey` | 字串 | 是 | GenStudio服務的API金鑰 |
-| `imsOrg` | 字串 | 是 | IMS組織ID |
+| `imsOrg` | 字串 | 是 | IMS 組織 ID |
 | `env` | 字串 | 是 | 環境(`stage`， `prod`) |
 | `susiConfig` | 物件 | 是 | [SUSI驗證組態](#susi-configuration) |
 | `onSelectionConfirmed` | 函式 | 是 | 確認選取時回撥 |
@@ -52,7 +64,7 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/s
 | `locale` | 字串 | 否 | 語言地區設定（例如，`en-US`） |
 | `isOpen` | 布林值 | 否 | 初始對話方塊狀態 |
 | `selectionType` | 字串 | 否 | 選擇模式（`single`或`multiple`） |
-| `customFilters` | 陣列 | 否 | 自訂篩選條件 |
+| `customFilters` | 陣列 | 無 | 自訂篩選條件 |
 | `dialogTitle` | 字串 | 否 | 自訂對話方塊標題 |
 
 ### SUSI設定

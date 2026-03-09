@@ -1,16 +1,38 @@
 ---
-title: 資產詳細資訊
+title: 資產詳細資料
 description: Adobe GenStudio for Performance Marketing會使用豐富的中繼資料儲存已核准的內容，以供搜尋和效能追蹤。
 feature: Generative AI, Content Attributes, Content Management
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+TQID: https://experienceleague.adobe.com/Hm7qcrP6VcXf6IqZ2pYybduNyjjV8kdWj571gcRpglI
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
+  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: 732
 ht-degree: 1%
 
 ---
 
-# 資產詳細資訊
+# 資產詳細資料
 
 Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核准的內容，以便探索性和效能追蹤。
 
@@ -75,8 +97,8 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md)已新增至GenStudio for Performance Marketing並發佈以供使用 |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md)已新增至GenStudio for Performance Marketing以供使用 |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md)已新增至GenStudio for Performance Marketing以供使用 |
-| 頻道 | 用於發佈特定內容型別（例如電子郵件、橫幅和顯示廣告）的平台 |
-| [!UICONTROL 時間範圍] | 使用資產的時間範圍，例如季、季、年等。 範例：`Winter 2023` |
+| 管道 | 用於發佈特定內容型別（例如電子郵件、橫幅和顯示廣告）的平台 |
+| [!UICONTROL 時間範圍] | 使用資產的時間範圍，例如季、季、年等。範例： `Winter 2023` |
 | 地區 | 使用資產的區域。 範例： `North America`， `APAC`， `Italy` |
 | 語言 | 使用資產的語言。 範例：`Spanish` |
 | 關鍵字 | 使用者定義的關鍵字可用來進一步識別資產的特性和用途 |
@@ -87,11 +109,11 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 
 ## 產生式內容
 
-[!UICONTROL 產生式內容]區段顯示用來產生體驗的資訊，例如`Prompt`處理序期間使用的[!DNL Create]。 此insight可協助您建立更成功的變體。
+[!UICONTROL 產生式內容]區段顯示用來產生體驗的資訊，例如[!DNL Create]處理序期間使用的`Prompt`。 此insight可協助您建立更成功的變體。
 
 資訊可能包括：
 
-- 在`Brand`處理序期間選取了`Product`、`Persona`和[!DNL Create]引數
+- 在[!DNL Create]處理序期間選取了`Brand`、`Product`和`Persona`引數
 - 電子郵件體驗的`Subject line`和`Preheader`
 - Meta廣告的`Headline`和`Body`
 

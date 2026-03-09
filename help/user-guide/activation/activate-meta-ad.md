@@ -3,9 +3,23 @@ title: 啟動Meta廣告
 description: 瞭解如何啟用Meta廣告體驗。
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
+TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: d87258a7-722c-4afd-b632-adddc447c7aa
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: 1931
 ht-degree: 1%
 
 ---
@@ -96,7 +110,7 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
 **若要從內容上傳資產**：
 
-[!DNL Content]提供組織已核准資產和體驗的中央檢視。 您可以使用[[!DNL Content] 搜尋](/help/user-guide/content/manage-assets.md) （放大鏡）和&#x200B;**[!UICONTROL 篩選]**&#x200B;功能表選項，集中顯示&#x200B;_收藏館_&#x200B;的資產詳細目錄。
+[!DNL Content]提供組織已核准資產和體驗的中央檢視。 您可以使用&#x200B;**[!UICONTROL 搜尋]** （放大鏡）和&#x200B;_篩選_&#x200B;功能表選項，集中顯示[[!DNL Content] 收藏館](/help/user-guide/content/manage-assets.md)的資產詳細目錄。
 
 1. 從[!DNL Activate]，按一下頻道卡片上的&#x200B;**[!UICONTROL 新增]**。 _體驗設定_&#x200B;檢視隨即開啟。
 
@@ -116,7 +130,7 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
 1. 在&#x200B;_媒體_&#x200B;區段中，按一下&#x200B;**[!UICONTROL 選取]**。 下拉式功能表會顯示&#x200B;_從「內容」_&#x200B;或&#x200B;_上傳_&#x200B;中選取的選項。
 
-1. 按一下 **[!UICONTROL 上傳]**。 _加入外觀比例_&#x200B;視窗開啟。
+1. 按一下「**[!UICONTROL 上傳]**」。 _加入外觀比例_&#x200B;視窗開啟。
 
 1. 將影像檔案拖放至影像上傳區域，選取支援外觀比例的影像。 或者，您也可以瀏覽裝置以尋找資產。
 
@@ -152,7 +166,7 @@ GenStudio for Performance Marketing需要&#x200B;_主要文字_&#x200B;和&#x200
 | 行銷活動 | 廣告體驗所屬的所有GenStudio for Performance Marketing行銷活動 |
 | 品牌 | 可讓使用者建立擷取品牌身分本質之品牌指引的使用者定義或預設指引。 |
 | 產品 | 與貴組織相關聯並在GenStudio for Performance Marketing中識別的產品 |
-| 角色 | 與貴組織相關聯並在GenStudio for Performance Marketing中識別的角色 |
+| 人物誌 | 與貴組織相關聯並在GenStudio for Performance Marketing中識別的角色 |
 | 時間範圍 | 廣告體驗作用中的季度、季節、年度或其他組織定義的時間單位 |
 | 地區 | 啟動體驗的地理區域 |
 | 語言 | 使用廣告體驗的語言 |
@@ -174,7 +188,7 @@ GenStudio for Performance Marketing需要&#x200B;_主要文字_&#x200B;和&#x200
 
 ### 建立新廣告集
 
-您可以在平台設定期間複製現有廣告集，藉此建立新的廣告集。 中繼廣告集定義特定廣告的時機、頻道詳細資訊和對象。 中繼行銷活動可包含多個廣告集，但一個廣告集僅與一個行銷活動相關聯。
+您可以在平台設定期間複製現有廣告集，藉此建立新的廣告集。 Meta廣告集定義特定廣告的時機、頻道詳細資訊和對象。 Meta行銷活動可包含多個廣告集，但一個廣告集僅與一個行銷活動相關聯。
 
 **若要建立新的廣告集**：
 
@@ -208,7 +222,7 @@ GenStudio for Performance Marketing需要&#x200B;_主要文字_&#x200B;和&#x200
 
 ## 步驟5：預覽並啟用您的廣告
 
-_檢閱_&#x200B;頁面會顯示您在&#x200B;_體驗設定_&#x200B;中組裝的廣告體驗，並提供檢視和編輯體驗的最後機會。 按一下&#x200B;**[!UICONTROL 體驗設定]**&#x200B;標籤旁的&#x200B;_編輯區段_&#x200B;以進行變更。 您也可以按一下右上角的「**[!UICONTROL 上一步]**」，返回&#x200B;_體驗設定_&#x200B;頁面。
+_檢閱_&#x200B;頁面會顯示您在&#x200B;_體驗設定_&#x200B;中組裝的廣告體驗，並提供檢視和編輯體驗的最後機會。 按一下&#x200B;_體驗設定_&#x200B;標籤旁的&#x200B;**[!UICONTROL 編輯區段]**&#x200B;以進行變更。 您也可以按一下右上角的「**[!UICONTROL 上一步]**」，返回&#x200B;_體驗設定_&#x200B;頁面。
 
 ### 步驟6：完成啟用您的廣告體驗
 

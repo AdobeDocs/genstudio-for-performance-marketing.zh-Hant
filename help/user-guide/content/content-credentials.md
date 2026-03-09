@@ -3,10 +3,24 @@ title: 適用於組織的Content Credentials
 description: 瞭解如何在GenStudio for Performance Marketing中套用及檢閱Content Credentials。
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: 488bc7d7b7447ee6e807dd91f83766844c24abb9
+exl-id: 9fc1e428-7fa7-4f00-84ba-51c9318766f4
+TQID: https://experienceleague.adobe.com/ATpH1AXBAhr5tJDVkgx0ZaK20YYBmP7NQF0BUCtGiGw
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 0%
+source-wordcount: 700
+ht-degree: 1%
 
 ---
 
@@ -98,4 +112,3 @@ Content Credential徽章會顯示在畫布資產選擇器中。
 所有支援的格式(JPEG、PNG、MP4)都能維持認證完整性。
 
 已匯出資產上的![認證資料](./images/activate-export2.png)
-

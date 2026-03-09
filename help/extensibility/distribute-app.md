@@ -3,9 +3,14 @@ title: 發佈您的應用程式
 description: 為GenStudio for Performance Marketing發佈您的應用程式或附加元件。
 feature: Extensibility
 exl-id: 4935356b-08df-402c-b1a2-b89627afc188
-source-git-commit: 2df93292f456cc952f72faea3d25ca0503a4e2db
+TQID: https://experienceleague.adobe.com/6SHsqsafwqCWS3dspM65BTVAqZ09WwW2IxF-PIecINE
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 303
 ht-degree: 0%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 0%
 
 本主題討論私人散佈。 私人發佈會將附加元件部署限制在IMS組織所識別的組織。
 
-公開發佈可讓附加元件在Adobe Exchange上作為應用程式使用。 [App Builder](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)開發人員檔案中的&#x200B;_公開發佈_&#x200B;說明如何讓您的應用程式可供任何Adobe組織使用。
+公開發佈可讓附加元件在Adobe Exchange上作為應用程式使用。[_App Builder_&#x200B;開發人員檔案中的公開發佈](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)說明如何讓您的應用程式可供任何Adobe組織使用。
 
 >[!BEGINSHADEBOX]
 
@@ -38,7 +43,7 @@ ht-degree: 0%
 
 1. 從[Adobe Developer Console](https://developer.adobe.com/console/)中，選取部署應用程式的組織、專案和工作區。
 
-1. 從&#x200B;**[!UICONTROL Workspace總覽]**&#x200B;區域選取&#x200B;_核准_。 _應用程式核准_&#x200B;窗格開啟。
+1. 從&#x200B;_Workspace總覽_&#x200B;區域選取&#x200B;**[!UICONTROL 核准]**。 _應用程式核准_&#x200B;窗格開啟。
 
 1. 在&#x200B;_應用程式提交詳細資料_&#x200B;區域中，新增附加元件的詳細資訊。 詳細資訊包括應用程式名稱、說明和連絡人電子郵件。
 

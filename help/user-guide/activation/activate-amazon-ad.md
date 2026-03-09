@@ -2,9 +2,20 @@
 title: 啟用Amazon Ads
 description: 瞭解如何啟用Amazon Ads體驗。
 feature: Ad Activation
-source-git-commit: de8b0ff99c93bd54c4b2205955d6d99c37fccbcc
+exl-id: 539cb43c-a9d8-4473-8a7d-e81967111741
+TQID: https://experienceleague.adobe.com/4L4JHcYLSsoQ50QbCW7Mof52h5jpz3z8n0UL8CaqLA8
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2:
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: 507
 ht-degree: 0%
 
 ---
