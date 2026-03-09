@@ -34,7 +34,7 @@ ht-degree: 4%
 
 觀看此影片逐步解說或遵循以下步驟。
 
->[!VIDEO](https://video.tv.adobe.com/v/3474996?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475008?captions=chi_hant&learn=on&enablevpops)
 
 ## 步驟1：建立使用者群組
 
