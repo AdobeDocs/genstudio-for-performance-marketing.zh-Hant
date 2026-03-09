@@ -3,9 +3,15 @@ title: Adobe GenStudio for Performance Marketing中的品牌驗證
 description: 瞭解GenStudio for Performance Marketing中的內建品牌驗證系統。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 6a33f7e3a769eda459f70e6ab4e8559064ede2b4
+TQID: https://experienceleague.adobe.com/0avyL5lvm9hWdlxGE0RwPhP0dX2bA91GNnlKLG1oqEY
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 786
 ht-degree: 0%
 
 ---
@@ -28,7 +34,7 @@ GenStudio for Performance Marketing會針對不同方面執行品牌驗證和其
 
 _內容檢查_&#x200B;摘要顯示：
 
-* 以通過驗證的[[!DNL Brand]](brands.md)個准則[與測試過的准則數目相較之下，計算出](overview.md)的符合性百分比
+* 以通過驗證的[個准則](overview.md)與測試過的准則數目相較之下，計算出[[!DNL Brand]](brands.md)的符合性百分比
 * 平台指引的`Pass`或`Fail`個結果，例如Meta或LinkedIn
 * ADA協助工具標準的`Pass`或`Fail`個結果
 
@@ -40,19 +46,19 @@ _內容檢查_&#x200B;摘要顯示：
 
 ## 內容檢查面板
 
-從右側的動作列&#x200B;_或_&#x200B;按一下&#x200B;_內容檢查_&#x200B;摘要圖示&#x200B;[_時，_&#x200B;內容檢查](#content-check-summary)面板會在畫布的右側開啟。 此面板提供詳細的品牌驗證、平台指引和無障礙標準資訊，並闡明改善的機會。
+從右側的動作列&#x200B;_或_&#x200B;按一下&#x200B;[_內容檢查_&#x200B;摘要圖示](#content-check-summary)時，_內容檢查_&#x200B;面板會在畫布的右側開啟。 此面板提供詳細的品牌驗證、平台指引和無障礙標準資訊，並闡明改善的機會。
 
 ![內容檢查面板](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
 _內容檢查_&#x200B;面板會顯示影像和變體區段的驗證和[相容性資訊](/help/user-guide/guidelines/overview.md#compliance)：
 
-* 代表&#x200B;_、平台指引及協助工具標準的_&#x200B;內容檢查[!DNL Brand]摘要資訊
+* 代表[!DNL Brand]、平台指引及協助工具標準的&#x200B;_內容檢查_&#x200B;摘要資訊
 * _需要檢閱_&#x200B;區段，顯示失敗准則的數目以及每個需要修訂之准則的詳細資訊
 * _通過_&#x200B;區段，顯示通過准則的數目以及有關每個通過准則的詳細資訊
 
 請參閱[改善品牌一致性](#improve-brand-alignment)，瞭解如何改善&#x200B;_內容檢查_&#x200B;面板分數。
 
-### 內容型別
+### 內容類型
 
 在&#x200B;_內容檢查_&#x200B;面板中，您可以切換要執行哪些准則和協助工具標準檢查。 按一下面板頂端的&#x200B;_內容型別_&#x200B;圖示（層級圖示）以開啟或關閉：
 
@@ -74,14 +80,14 @@ _內容檢查_&#x200B;面板會顯示影像和變體區段的驗證和[相容性
 
    >[!NOTE]
    >
-   > _內容檢查_&#x200B;面板中註記的&#x200B;_品牌聲音_&#x200B;指引適用於整個變體，而非個別區段。 系統會強調顯示整個內容變體，以利提出改善建議。
+   _內容檢查_&#x200B;面板中註記的&#x200B;_品牌聲音_&#x200B;指引適用於整個變體，而非個別區段。 系統會強調顯示整個內容變體，以利提出改善建議。
 
 1. 按一下以修正目前不相容的准則。
 1. 按一下以展開並檢查每個需要在可用區段（例如&#x200B;_標題_、_色彩_&#x200B;和&#x200B;_品牌語音_）中檢閱的檢查。
 
    使用為每個檢查提供的推理來指導您修訂影像和變體。
 
-1. 進行必要的修訂後，請按一下[重新檢查分數] **&#x200B;**&#x200B;來重新檢查並驗證您的變更，以確保它們符合您的品牌識別、平台指引及協助工具標準。
+1. 進行必要的修訂後，請按一下[重新檢查分數] ****&#x200B;來重新檢查並驗證您的變更，以確保它們符合您的品牌識別、平台指引及協助工具標準。
 
    內容檢查程式會再次執行。 如果修訂專案通過驗證，則會在畫布底部顯示綠色橫幅，以確認分數已更新。 如果重新檢查後沒有變更，橫幅會確認分數沒有變更。 修訂變體的&#x200B;_內容檢查_&#x200B;摘要圖示中的百分比也會顯示您的進度。
 

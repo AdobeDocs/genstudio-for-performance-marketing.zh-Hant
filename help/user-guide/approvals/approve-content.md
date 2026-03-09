@@ -3,10 +3,14 @@ title: 核准內容
 description: 瞭解如何使用Adobe GenStudio for Performance Marketing核准產生的內容。
 feature: Content Review, Content Management
 exl-id: f6458d8f-dff3-448e-9f08-6d192f8a91d9
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+TQID: https://experienceleague.adobe.com/-gEhuBGNiJb3BxrRvJKcZea87FCe5FERanIKGLBuO3U
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 1%
+source-wordcount: 202
+ht-degree: 5%
 
 ---
 
@@ -30,12 +34,12 @@ ht-degree: 1%
 
 **若要決定內容**：
 
-1. 按一下&#x200B;**[!UICONTROL 頂端的]**&#x200B;做出決定[!DNL Proofing Viewer]。
+1. 按一下[!DNL Proofing Viewer]頂端的&#x200B;**[!UICONTROL 做出決定]**。
 
    _校訂決定_&#x200B;快顯視窗隨即開啟，顯示核准或傳送意見回饋的選項。
 
 1. 選取&#x200B;**[!UICONTROL 已核准]**&#x200B;或&#x200B;**[!UICONTROL 已核准變更]**。
 
-1. 按一下「**[!UICONTROL 提交]**」。
+1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
 草稿建立者會收到您核准的通知，您的工作即告完成。 請參閱[發佈內容](/help/user-guide/approvals/publish-content.md)，以取得儲存至[!DNL Content]或&#x200B;_發佈_&#x200B;的程式概述。

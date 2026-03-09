@@ -3,10 +3,15 @@ title: 管理啟用
 description: 瞭解如何使用Adobe GenStudio for Performance Marketing管理啟用的體驗。
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
+TQID: https://experienceleague.adobe.com/ird0IiW8L5Axjj2FmEjlUcD1sPaNCNfxj9XNqGfQWiI
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 0%
+source-wordcount: 361
+ht-degree: 1%
 
 ---
 
@@ -22,13 +27,13 @@ ht-degree: 0%
 
 下表列出定義每個體驗的屬性。
 
-| 屬性 | 值 |
+| 屬性 | 價值 |
 |------------------|---------------------------------------------------------------------------------------------|
-| 體驗名稱 | GenStudio for Performance Marketing中的體驗名稱<br>此名稱可識別&#x200B;_[!DNL Content]_&#x200B;中的體驗 |
+| 體驗名稱 | GenStudio for Performance Marketing中的體驗名稱<br>此名稱可識別&#x200B;_[!DNL Content]_中的體驗 |
 | 廣告名稱 | 廣告頻道中的廣告名稱 |
 | 發佈日期 | 廣告體驗成功發佈的日期<br>使用月日年格式 |
 | 發佈者 | 啟用體驗的GenStudio for Performance Marketing使用者名稱 |
-| 地區 | 啟動體驗的地理區域 |
+| 區域 | 啟動體驗的地理區域 |
 | 狀態 | 選取的廣告體驗狀態<br>值包括「失敗」、「已發佈」和「發佈」 |
 
 使用&#x200B;**[!UICONTROL 搜尋]** （放大鏡）或捲動體驗清單，依體驗名稱尋找啟用。

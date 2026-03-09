@@ -3,9 +3,13 @@ title: 要求檢閱與核准
 description: 使用Adobe GenStudio for Performance Marketing請求對所產生的內容進行稽核。
 feature: Content Review, Content Management
 exl-id: 4d5cb23c-457f-47b6-a265-a283afbc54d4
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+TQID: https://experienceleague.adobe.com/U10cTzNTnIpGrSbcQr3fwgcsDUocGKcTv4dHu2Dqbhg
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: 950
 ht-degree: 0%
 
 ---
@@ -49,7 +53,7 @@ ht-degree: 0%
 * 編輯評論標題。
 * 變更選用的到期日。
 
-如果已啟用Workfront Proof整合，此面板會顯示多階段工作流程中每個核准階段的狀態。 若要檢視註解，請按一下[在Workfront中檢視註解] **[!UICONTROL ，在]**&#x200B;中開啟註解。[!DNL Proofing Viewer]
+如果已啟用Workfront Proof整合，此面板會顯示多階段工作流程中每個核准階段的狀態。 若要檢視註解，請按一下[在Workfront中檢視註解] ]**，在[!DNL Proofing Viewer]中開啟註解。**[!UICONTROL 
 
 ## 透過Workfront Proof啟動核准請求
 

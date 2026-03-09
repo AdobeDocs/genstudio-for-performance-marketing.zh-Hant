@@ -7,16 +7,23 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
+TQID: https://experienceleague.adobe.com/6ydfKraxfvL6j24ImEAs-P5xV5dldGbQ7Kg8wMsWuOs
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: 1240
 ht-degree: 0%
 
 ---
 
 # 建立LinkedIn體驗
 
-本教學課程示範如何使用GenStudio for Performance Marketing [&#x200B; （左側導覽區域中的繪圖筆刷圖示）產生符合您品牌方針的](/help/user-guide/create/meta-experiences.md)LinkedIn體驗[[!DNL Create]](/help/user-guide/create/overview.md)。
+本教學課程示範如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （左側導覽區域中的繪圖筆刷圖示）產生符合您品牌方針的[LinkedIn體驗](/help/user-guide/create/meta-experiences.md)。
 
 開始產生LinkedIn廣告之前，請務必在GenStudio for Performance Marketing中[新增指導方針](/help/user-guide/guidelines/add-guidelines.md)，並瞭解[建立提示](/help/user-guide/effective-prompts.md)的基本知識。
 
@@ -28,12 +35,12 @@ ht-degree: 0%
 
 **若要選擇LinkedIn範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL LinkedIn]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL LinkedIn]**。
 1. 選取&#x200B;**[!UICONTROL 自訂範本]**&#x200B;以瀏覽您上傳的範本，或選取&#x200B;**[!UICONTROL 入門範本]**&#x200B;以瀏覽預先建立的範本。
 
    如果您打算將視訊資產新增至您的Meta變體，則必須選擇入門範本。 它們會預先載入系統定義的內容區域，以方便視訊的使用。
 
-1. 按一下以選取範本，然後按一下[使用]。**&#x200B;**
+1. 按一下以選取範本，然後按一下[使用]。****
 
    此動作會開啟畫布，這是內容建立的中心樞紐。
 
@@ -92,7 +99,7 @@ ht-degree: 0%
 * **若要變更或選取call to action**，請按一下call-to-action按鈕，然後從可用的按鈕文字選項中選取。 在&#x200B;_連結_&#x200B;中，輸入call-to-action文字的URL。
 * **若要在變體中[套用文字格式](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下變體的影像上文字，然後按一下&#x200B;**[!UICONTROL 格式化文字]**。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或在_[!UICONTROL 產生新文字_區段]中輸入新提示，然後按一下&#x200B;**[!UICONTROL 產生]**。
-* **要[使用[產生式展開]以調整影像大小並符合您的工作範本](/help/user-guide/create/manage-variants.md#use-generative-expand)**，按一下影像，按一下[編輯]&#x200B;**[!UICONTROL （鉛筆圖示），然後]**&#x200B;展開&#x200B;**[!UICONTROL 。]**&#x200B;調整影像以符合所需的外觀比例和範本。
+* **要[使用[產生式展開]以調整影像大小並符合您的工作範本](/help/user-guide/create/manage-variants.md#use-generative-expand)**，按一下影像，按一下[編輯]]**（鉛筆圖示），然後**[!UICONTROL &#x200B;展開&#x200B;]**。**[!UICONTROL &#x200B;調整影像以符合所需的外觀比例和範本。
 * **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請將滑鼠游標停留在影像上，按一下顯示的裁切圖示，然後調整影像大小和位置。
 * **若要[變更廣告](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**&#x200B;的大小與外觀比例，請按一下&#x200B;_[!UICONTROL 調整大小]_&#x200B;按鈕（在畫布左邊有按鈕圖示的方塊），然後選取要套用至所有變體的新大小與外觀比例。 變數會複製並調整大小。
 * **若要[新增或交換變體中的資產（影像或視訊）](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下資產（或資產區域），然後按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
@@ -145,7 +152,7 @@ ht-degree: 0%
 若要讓產生的LinkedIn廣告可供目前和未來使用，請將它發佈至[!UICONTROL Content]，然後匯出以用於您的行銷活動。
 
 1. **若要發佈您的新體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
-1. **若要匯出您的新體驗**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式(JPG、PNG或GIF)，然後按一下「匯出」**&#x200B;**。
+1. **若要匯出您的新體驗**，請按一下頂端工具列中的[匯出]。****
+   1. 選取格式(JPG、PNG或GIF)，然後按一下「匯出」****。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。
