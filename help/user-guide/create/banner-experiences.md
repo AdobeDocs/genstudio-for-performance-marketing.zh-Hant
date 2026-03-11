@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 117
 ht-degree: 1%
@@ -47,8 +47,10 @@ Adobe GenStudio for Performance Marketing可讓您利用產生式AI來增強[成
 
 請參閱[範本元素](/help/user-guide/templates/use-templates.md#template-elements)。
 
-<!-- ## Character counts
+<!-- 
+## Character counts
 
 After you generate a set of display ad variants, you can see the character count displayed for each section. Hover over or click into a generated section, such as the subject line or the body, and see the section name and character count for that section.
 
-![Character count](/help/assets/character-count.png){width="500" zoomable="yes"} -->
+![Character count](/help/assets/character-count.png){width="500" zoomable="yes"} 
+-->

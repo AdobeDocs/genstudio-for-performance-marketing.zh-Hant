@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 1646
 ht-degree: 0%
@@ -158,7 +158,8 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 <div class="image-text">{{on_image_text}}</div>
 ```
 
-<!-- this field does not work in Create canvas 2025/03
+<!-- 
+this field does not work in Create canvas 2025/03
 
 ### Brand logo field name
 

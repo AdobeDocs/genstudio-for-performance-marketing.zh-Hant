@@ -20,7 +20,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
 source-wordcount: 1525
 ht-degree: 2%
@@ -132,7 +132,8 @@ GenStudio for Performance Marketing使用您[!DNL Brand]的豐富品牌資訊，
 
 >[!ENDTABS]
 
-<!-- Not in M2.1 // ### Image guidelines
+<!-- 
+Not in M2.1 // ### Image guidelines
 
 Images have certain inherent guidelines that influence image composition.
 
@@ -154,7 +155,8 @@ You can create your own categories, like Photos, Product, or Illustration imager
 
 Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
-![Logo guidelines in GenStudio for Performance Marketing](/help/assets/logos.png){width="650" zoomable="yes"} -->
+![Logo guidelines in GenStudio for Performance Marketing](/help/assets/logos.png){width="650" zoomable="yes"} 
+-->
 
 ### 標誌
 
