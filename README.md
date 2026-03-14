@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ### 輕微更改
 
-如果您提供次要更新，請開啟該文章並按一下&#x200B;**編輯**&#x200B;連結，該連結將您帶到該文章的GitHub源。 使用GitHub UI進行更新。 請參閱常規[Adobe文檔參與者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+如果您提供次要更新，請開啟該文章並按一下&#x200B;**編輯**&#x200B;連結，該連結將您帶到該文章的GitHub源。 使用GitHub UI進行更新。 請參閱常規[Adobe文檔參與者指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
 
 Adobe使用條款涵蓋您為此回購協定中的文檔和代碼實例提交的輕微更正或澄清。
 
@@ -31,7 +31,7 @@ Adobe使用條款涵蓋您為此回購協定中的文檔和代碼實例提交的
 
 社區參與者可以使用GitHub UI進行基本編輯，或分叉回購以做出主要貢獻。
 
-有關詳細資訊，請參閱[Adobe文檔參與者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+有關詳細資訊，請參閱[Adobe文檔參與者指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
 
 ## Markdown
 
