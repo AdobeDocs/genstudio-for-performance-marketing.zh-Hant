@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 關於[!DNL Adobe Express]中的範本
 
-在[!DNL Adobe Express]中，可以使用應用程式中提供的現有入門範本](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)或包含實用品牌限制的[自訂範本](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)來建立[新檔案，例如：
+在[!DNL Adobe Express]中，可以使用應用程式中提供的現有入門範本[&#128279;](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)或包含實用品牌限制的[自訂範本](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)來建立新檔案，例如：
 
 - [無法變更的鎖定元素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)
 - 鎖定可控制使用者在需要時如何解鎖元素的限制
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 自動產生多種大小
 
-在 [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html)中為[資產建立多個頁面時，這些頁面會移轉至從該資產建立的任何範本。 快速頁面將在[!DNL GenStudio for Performance Marketing]中產生不同大小的創意內容。
+在 [!DNL Express][&#128279;](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html)中為資產建立多個頁面時，這些頁面會移轉至從該資產建立的任何範本。 快速頁面將在[!DNL GenStudio for Performance Marketing]中產生不同大小的創意內容。
 
 當[!DNL Express]中的資產存在多個大小的內容時，可以在單一世代中為所有這些大小產生變體。
 
@@ -205,7 +205,7 @@ ht-degree: 0%
 
 **要使用視訊元件**：
 
-1. 選取體驗並按一下&#x200B;**[!UICONTROL 編輯]**按鈕，進入焦點模式並使用視訊元件功能。 只會顯示單一變體，且會沿著底部顯示場景線。
+1. 選取體驗並按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，進入焦點模式並使用視訊元件功能。 只會顯示單一變體，且會沿著底部顯示場景線。
    ![使用視訊元件選項的選取體驗](./images/video-assembly.png){width=70%}
 1. 調整您的視訊體驗。 視訊元件選項包括：
    - 播放視訊
@@ -221,7 +221,7 @@ ht-degree: 0%
 
 **若要使用產生式展開來展開影像**：
 
-1. 選取解除鎖定的影像層，然後按一下影像框底部的&#x200B;**[!UICONTROL 展開]**按鈕。
+1. 選取解除鎖定的影像層，然後按一下影像框底部的&#x200B;**[!UICONTROL 展開]**&#x200B;按鈕。
    ![顯示展開窗格的影像層](./images/image-expand.png){width=70%}
 1. 將影格拉到影像將展開的所需尺寸。 將會出現「展開選項」視窗。 在「展開」選項中，您可以透過下列方式加速展開：
    - 輸入提示
