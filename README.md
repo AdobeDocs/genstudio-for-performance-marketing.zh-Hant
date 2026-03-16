@@ -1,41 +1,41 @@
 ---
-source-git-commit: 3af756e5bc0e2731187c3879c1593605706d6a2c
+source-git-commit: 28ad1f3a659fd1f44283c8e5913810f8637b87a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
 
 ---
-# GenStudio for Performance Marketing文檔
+# GenStudio for Performance Marketing檔案
 
-此網站包含GenStudio for Performance Marketing產品的最新文檔。
+本網站包含GenStudio for Performance Marketing產品的最新檔案。
 
-## Adobe開放原始碼行為准則
+## Adobe Open Source行為準則
 
-此項目已採用[Adobe開放原始碼行為准則](code-of-conduct.md)或[.NET Foundation行為准則](https://dotnetfoundation.org/about/policies/code-of-conduct)。 請參閱[提供](contributing.md)文章。
+此專案已採用[Adobe Open Source行為準則](code-of-conduct.md)或[.NET Foundation行為準則](https://dotnetfoundation.org/about/policies/code-of-conduct)。 請參閱[參與](contributing.md)頁面。
 
-### 輕微更改
+### 微幅變更
 
-如果您提供次要更新，請開啟該文章並按一下&#x200B;**編輯**&#x200B;連結，該連結將您帶到該文章的GitHub源。 使用GitHub UI進行更新。 請參閱常規[Adobe文檔參與者指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
+如果您要貢獻微幅更新內容，請開啟文章並按一下&#x200B;**編輯**&#x200B;連結，系統就會將您導向文章的GitHub來源。 使用GitHub UI進行更新。 請參閱一般[Adobe檔案投稿人指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
 
-Adobe使用條款涵蓋您為此回購協定中的文檔和代碼實例提交的輕微更正或澄清。
+您在本存放庫為檔案和程式碼範例提交的小幅更正或釐清均包含在Adobe使用條款中。
 
-### 主要變化
+### 重大變更
 
-如果您是Adobe社區的一部分，並且要建立文章或提交重大更改，請在&#x200B;_問題_&#x200B;頁籤上提交問題，以開始與文檔團隊的對話。 一旦您和作者就計畫達成一致，就構建並放置內容。
+如果您是Adobe社群的一員，且想建立文章或提交重大變更，請在「_問題_」標籤上提交問題，以便與檔案團隊展開對話。 一旦您和作者就計畫達成一致後，請一起建立內容並放置在一起。
 
-### Adobe員工的主要變動
+### 來自Adobe員工的重大變更
 
-如果您是Adobe產品團隊的技術編寫者、計畫經理或開發人員，並且您的工作是提供或撰寫技術文章，請使用`https://git.corp.adobe.com/AdobeDocs`上的專用儲存庫。
+若您是Adobe產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用`https://git.corp.adobe.com/AdobeDocs`的私人存放庫。
 
-## 工具和設定
+## 工具與設定
 
-社區參與者可以使用GitHub UI進行基本編輯，或分叉回購以做出主要貢獻。
+社群投稿人可以使用GitHub UI進行基本編輯或建立存放庫復本，以做出重大貢獻。
 
-有關詳細資訊，請參閱[Adobe文檔參與者指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
+如需詳細資訊，請參閱[Adobe檔案貢獻者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
 
 ## Markdown
 
-此儲存庫中的所有文章都使用GitHub調味的標籤。 如果您不熟悉markdown ，請參閱：
+此存放庫中的所有文章皆使用GitHub風格的Markdown。 如果您不熟悉Markdown，請參閱：
 
 - [Markdown基本介紹](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [可列印的Markdown速查表](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
