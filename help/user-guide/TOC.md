@@ -5,7 +5,7 @@ user-guide-description: 探索 Adobe GenStudio for Performance Marketing 的功�
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 689c259f8766848815850d38cc0b13d3669dd718
+source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 18%
@@ -70,7 +70,7 @@ ht-degree: 18%
    + [自訂範本](templates/customize-template.md)
    + [範本程式碼編輯器](templates/code-editor.md)
    + [建立可存取的範本](templates/accessibility-for-templates.md)
-   + [使用快速範本](templates/express-templates.md)
+   + [使用快速範本](/help/user-guide/templates/express-templates.md)
    + [範本的最佳實務](templates/best-practices-for-templates.md)
    + 管道最佳實務 {#channel-best-practice}
       + [顯示廣告指南](templates/display-template.md)
