@@ -1,12 +1,12 @@
 ---
-title: 在GenStudio中使用Adobe Express範本
+title: 在GenStudio for Performance Marketing中使用Adobe Express範本
 description: 探索能夠整合Adobe Express資產的GenStudio for Performance Marketing功能。
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 161d6c46f7b20ac47caa6135e437ea48cb6d99db
+source-git-commit: 26d8f8a7f25679ced3fc3030a3e9d32b1ea554b0
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 ## 關於[!DNL Adobe Express]中的範本
 
-在[!DNL Adobe Express]中，可以使用應用程式中提供的現有入門範本[&#128279;](https://helpx.adobe.com/tw/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)或包含實用品牌限制的[自訂範本](https://helpx.adobe.com/tw/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)來建立新檔案，例如：
+在[!DNL Adobe Express]中，可以使用應用程式中提供的現有入門範本](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)或包含實用品牌限制的[自訂範本](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)來建立[新檔案，例如：
 
-- [無法變更的鎖定元素](https://helpx.adobe.com/tw/express/web/invite-collaborate/object-locking.html)
+- [無法變更的鎖定元素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)
 - 鎖定可控制使用者在需要時如何解鎖元素的限制
 
-在[!DNL Adobe Express]中設定於範本的鎖定設定也將套用在[!DNL GenStudio for Performance Marketing]中。 使用[該 [!DNL Adobe Express] 指示建立具有品牌限制的自訂範本](https://helpx.adobe.com/tw/express/web/brands-libraries-projects/create-manage-brands/template-control.html)。
+在[!DNL Adobe Express]中設定於範本的鎖定設定也將套用在[!DNL GenStudio for Performance Marketing]中。 使用[該 [!DNL Adobe Express] 指示建立具有品牌限制的自訂範本](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html)。
 
 若要在Express範本中使用自訂字型，管理員必須先接受Admin Console中的「自訂字型」合格選件，此選件包含在Express授權權益中。
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 ## 關於變體及具有[!DNL Adobe Express]範本的[!DNL Experiences]
 
-[!DNL Express]範本提供許多您在[管理其他變體](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text)時會熟悉的功能。 不過，有一些功能強大的新增功能，可簡化來自[!DNL Express]的內容之任何工作流程。 本節說明[!DNL Adobe Express]實作的專屬功能。
+[!DNL Express]範本提供許多您在[管理其他變體](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text)時會熟悉的功能。 不過，有一些功能強大的新增功能，可簡化來自[!DNL Express]的內容之任何工作流程。 本節說明[!DNL Adobe Express]實作的專屬功能。
 
 ### 自動產生多種大小
 
-在 [!DNL Express][&#128279;](https://helpx.adobe.com/tw/express/web/arrange-layers-and-pages/add-pages.html)中為資產建立多個頁面時，這些頁面會移轉至從該資產建立的任何範本。 快速頁面將在[!DNL GenStudio for Performance Marketing]中產生不同大小的創意內容。
+在 [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html)中為[資產建立多個頁面時，這些頁面會移轉至從該資產建立的任何範本。 快速頁面將在[!DNL GenStudio for Performance Marketing]中產生不同大小的創意內容。
 
 當[!DNL Express]中的資產存在多個大小的內容時，可以在單一世代中為所有這些大小產生變體。
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 ### 範本鎖定限制
 
-範本可以包含從[!DNL Express]移轉過來的[鎖定元素](https://helpx.adobe.com/tw/express/web/invite-collaborate/object-locking.html)，並控制某些功能的變更方式。 範本會遵循這些設定，也可在範本上變更：
+範本可以包含從[!DNL Express]移轉過來的[鎖定元素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)，並控制某些功能的變更方式。 範本會遵循這些設定，也可在範本上變更：
 
 1. 在範本上選取鎖定的元素。
 1. 按一下所選元素左上方的鎖定圖示。
@@ -205,7 +205,7 @@ ht-degree: 0%
 
 **要使用視訊元件**：
 
-1. 選取體驗並按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，進入焦點模式並使用視訊元件功能。 只會顯示單一變體，且會沿著底部顯示場景線。
+1. 選取體驗並按一下&#x200B;**[!UICONTROL 編輯]**按鈕，進入焦點模式並使用視訊元件功能。 只會顯示單一變體，且會沿著底部顯示場景線。
    ![使用視訊元件選項的選取體驗](./images/video-assembly.png){width=70%}
 1. 調整您的視訊體驗。 視訊元件選項包括：
    - 播放視訊
@@ -221,7 +221,7 @@ ht-degree: 0%
 
 **若要使用產生式展開來展開影像**：
 
-1. 選取解除鎖定的影像層，然後按一下影像框底部的&#x200B;**[!UICONTROL 展開]**&#x200B;按鈕。
+1. 選取解除鎖定的影像層，然後按一下影像框底部的&#x200B;**[!UICONTROL 展開]**按鈕。
    ![顯示展開窗格的影像層](./images/image-expand.png){width=70%}
 1. 將影格拉到影像將展開的所需尺寸。 將會出現「展開選項」視窗。 在「展開」選項中，您可以透過下列方式加速展開：
    - 輸入提示
@@ -242,4 +242,4 @@ ht-degree: 0%
 
 ## 檢閱和核准
 
-編輯並調整變體後，使用[檢閱和核准工作流程](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/approve/overview)核准並發佈您的內容。
+編輯並調整變體後，使用[檢閱和核准工作流程](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview)核准並發佈您的內容。
