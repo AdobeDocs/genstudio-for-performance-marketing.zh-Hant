@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ### 微幅變更
 
-如果您要貢獻微幅更新內容，請開啟文章並按一下&#x200B;**編輯**&#x200B;連結，系統就會將您導向文章的GitHub來源。 使用GitHub UI進行更新。 請參閱一般[Adobe檔案投稿人指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+如果您要貢獻微幅更新內容，請開啟文章並按一下&#x200B;**編輯**&#x200B;連結，系統就會將您導向文章的GitHub來源。 使用GitHub UI進行更新。 請參閱一般[Adobe檔案投稿人指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
 
 您在本存放庫為檔案和程式碼範例提交的小幅更正或釐清均包含在Adobe使用條款中。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 社群投稿人可以使用GitHub UI進行基本編輯或建立存放庫復本，以做出重大貢獻。
 
-如需詳細資訊，請參閱[Adobe檔案貢獻者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+如需詳細資訊，請參閱[Adobe檔案貢獻者指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
 
 ## Markdown
 
