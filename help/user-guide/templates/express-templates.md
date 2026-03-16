@@ -19,12 +19,12 @@ ht-degree: 0%
 
 ## 關於[!DNL Adobe Express]中的範本
 
-在[!DNL Adobe Express]中，可以使用應用程式中提供的現有入門範本[&#128279;](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)或包含實用品牌限制的[自訂範本](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)來建立新檔案，例如：
+在[!DNL Adobe Express]中，可以使用應用程式中提供的現有入門範本[&#128279;](https://helpx.adobe.com/tw/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5)或包含實用品牌限制的[自訂範本](https://helpx.adobe.com/tw/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html)來建立新檔案，例如：
 
-- [無法變更的鎖定元素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)
+- [無法變更的鎖定元素](https://helpx.adobe.com/tw/express/web/invite-collaborate/object-locking.html)
 - 鎖定可控制使用者在需要時如何解鎖元素的限制
 
-在[!DNL Adobe Express]中設定於範本的鎖定設定也將套用在[!DNL GenStudio for Performance Marketing]中。 使用[該 [!DNL Adobe Express] 指示建立具有品牌限制的自訂範本](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html)。
+在[!DNL Adobe Express]中設定於範本的鎖定設定也將套用在[!DNL GenStudio for Performance Marketing]中。 使用[該 [!DNL Adobe Express] 指示建立具有品牌限制的自訂範本](https://helpx.adobe.com/tw/express/web/brands-libraries-projects/create-manage-brands/template-control.html)。
 
 若要在Express範本中使用自訂字型，管理員必須先接受Admin Console中的「自訂字型」合格選件，此選件包含在Express授權權益中。
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 ## 關於變體及具有[!DNL Adobe Express]範本的[!DNL Experiences]
 
-[!DNL Express]範本提供許多您在[管理其他變體](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text)時會熟悉的功能。 不過，有一些功能強大的新增功能，可簡化來自[!DNL Express]的內容之任何工作流程。 本節說明[!DNL Adobe Express]實作的專屬功能。
+[!DNL Express]範本提供許多您在[管理其他變體](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text)時會熟悉的功能。 不過，有一些功能強大的新增功能，可簡化來自[!DNL Express]的內容之任何工作流程。 本節說明[!DNL Adobe Express]實作的專屬功能。
 
 ### 自動產生多種大小
 
-在 [!DNL Express][&#128279;](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html)中為資產建立多個頁面時，這些頁面會移轉至從該資產建立的任何範本。 快速頁面將在[!DNL GenStudio for Performance Marketing]中產生不同大小的創意內容。
+在 [!DNL Express][&#128279;](https://helpx.adobe.com/tw/express/web/arrange-layers-and-pages/add-pages.html)中為資產建立多個頁面時，這些頁面會移轉至從該資產建立的任何範本。 快速頁面將在[!DNL GenStudio for Performance Marketing]中產生不同大小的創意內容。
 
 當[!DNL Express]中的資產存在多個大小的內容時，可以在單一世代中為所有這些大小產生變體。
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 ### 範本鎖定限制
 
-範本可以包含從[!DNL Express]移轉過來的[鎖定元素](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html)，並控制某些功能的變更方式。 範本會遵循這些設定，也可在範本上變更：
+範本可以包含從[!DNL Express]移轉過來的[鎖定元素](https://helpx.adobe.com/tw/express/web/invite-collaborate/object-locking.html)，並控制某些功能的變更方式。 範本會遵循這些設定，也可在範本上變更：
 
 1. 在範本上選取鎖定的元素。
 1. 按一下所選元素左上方的鎖定圖示。
@@ -242,5 +242,5 @@ ht-degree: 0%
 
 ## 檢閱和核准
 
-編輯並調整變體後，使用[檢閱和核准工作流程](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview)核准並發佈您的內容。
+編輯並調整變體後，使用[檢閱和核准工作流程](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/approve/overview)核准並發佈您的內容。
 
