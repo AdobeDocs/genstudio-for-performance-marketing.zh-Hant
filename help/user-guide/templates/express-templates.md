@@ -1,12 +1,12 @@
 ---
-title: 在GenStudio中使用Adobe Express範本
+title: 在GenStudio for Performance Marketing中使用Adobe Express範本
 description: 探索能夠整合Adobe Express資產的GenStudio for Performance Marketing功能。
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 161d6c46f7b20ac47caa6135e437ea48cb6d99db
+source-git-commit: 26d8f8a7f25679ced3fc3030a3e9d32b1ea554b0
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
