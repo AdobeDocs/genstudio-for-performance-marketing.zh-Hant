@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 59f51bf35c5ad81845d2cd11c6659a0833e4de7b
+source-git-commit: 0c9aa3dd0939e9e31d3e53f02c954e65a151026b
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: 1464
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ GenStudio for Performance Marketing中的[!DNL Insights]目前支援下列可用
 | LinkedIn | <ul><li>單一影像廣告</li><li>單一視訊廣告</li><li>文章廣告</li></ul> | <ul><li>輪播廣告</li><li>檔案廣告</li><li>活動廣告</li><li>思想領袖廣告</li><li>潛在客戶一般廣告</li><li>追隨者廣告</li><li>交談廣告</li><li>焦點廣告</li><li>工作廣告</li><li>內容廣告</li><li>訊息廣告</li></ul> |
 | TikTok | <ul><li>單一影像廣告</li><li>單一視訊廣告</li></ul> | <ul><li>動態消息內廣告（影片、Spark、輪播）</li><li>高階知名度廣告（TopView、品牌接管）</li><li>互動式廣告（主題標籤挑戰、品牌效應）</li><li>Commerce Ads （購物、目錄、直播）</li><li>銷售機會與訊息廣告</li><li>由於沒有資產可判斷廣告型別，因此難以分類</li></ul> |
 | DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YouTube_AND_PARTNERS_AD</li></ul> | 付費媒體管道不提供擷取創意資產的存取權，因此很難將廣告型別準確分類。 |
-| 無資訊 | 不適用 | 由於沒有資產可判斷廣告型別，因此難以分類。 |
+| 無資訊 | 不適用 | 付費媒體管道不提供擷取創意資產的存取權，因此很難將廣告型別準確分類。 |
 
 ### 廣告刊登
 
