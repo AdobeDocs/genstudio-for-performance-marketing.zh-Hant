@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 59f51bf35c5ad81845d2cd11c6659a0833e4de7b
 workflow-type: tm+mt
-source-wordcount: 1449
-ht-degree: 0%
+source-wordcount: 1457
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ GenStudio for Performance Marketing中的[!DNL Insights]目前支援下列可用
 | Meta | <ul><li>動態廣告</li><li>連結廣告</li><li>簡單影像廣告</li><li>簡單視訊廣告</li><li>購買廣告</li></ul> | <ul><li>Advantage+目錄廣告</li><li>輪播廣告</li><li>Messenger廣告</li><li>潛在客戶廣告</li><li>集合廣告</li><li>呼叫廣告</li><li>擁有的頁面貼文廣告</li><li>合作夥伴關係廣告</li><li>彈性廣告</li></ul> |
 | LinkedIn | <ul><li>單一影像廣告</li><li>單一視訊廣告</li><li>文章廣告</li></ul> | <ul><li>輪播廣告</li><li>檔案廣告</li><li>活動廣告</li><li>思想領袖廣告</li><li>潛在客戶一般廣告</li><li>追隨者廣告</li><li>交談廣告</li><li>焦點廣告</li><li>工作廣告</li><li>內容廣告</li><li>訊息廣告</li></ul> |
 | TikTok | <ul><li>單一影像廣告</li><li>單一視訊廣告</li></ul> | <ul><li>動態消息內廣告（影片、Spark、輪播）</li><li>高階知名度廣告（TopView、品牌接管）</li><li>互動式廣告（主題標籤挑戰、品牌效應）</li><li>Commerce Ads （購物、目錄、直播）</li><li>銷售機會與訊息廣告</li><li>由於沒有資產可判斷廣告型別，因此難以分類</li></ul> |
-| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YouTube_AND_PARTNERS_AD</li></ul> | 難以分類。 我們沒有資產可判斷廣告型別。 |
+| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YouTube_AND_PARTNERS_AD</li></ul> | 付費媒體管道不提供擷取創意資產的存取權，因此很難將廣告型別準確分類。 |
 | 無資訊 | 不適用 | 由於沒有資產可判斷廣告型別，因此難以分類。 |
 
 ### 廣告刊登
@@ -99,11 +99,11 @@ GenStudio for Performance Marketing中的[!DNL Insights]目前支援下列可用
 | 量度 | 定義 | insight |
 | ---------------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL 廣告名稱]** | 已連線管道帳戶的廣告清單。 選取行銷活動以篩選廣告。 | 按一下任何關鍵量度以排序廣告清單。 |
-| **[!UICONTROL 行銷活動]** | 行銷活動是設計用來達成特定目標的一組廣告。 | 當您依行銷活動篩選廣告表格時，行銷活動所有廣告的摘要量度可能會與[!UICONTROL 管道]檢視中的行銷活動摘要列不同。 如果管道來源(例如Meta)和GenStudio使用的摘要計算略有不同，則會出現這種差異。 |
+| **[!UICONTROL 行銷活動]** | 行銷活動是設計用來達成特定目標的一組廣告。 | 當您依行銷活動篩選廣告表格時，行銷活動所有廣告的摘要量度可能會與[!UICONTROL 管道]檢視中的行銷活動摘要列不同。 如果管道來源（例如Meta）和GenStudio使用的摘要計算略有不同，則會出現這種差異。 |
 | **[!UICONTROL 位置]** | 廣告[位置](#ad-placements) （廣告在行銷活動中出現的位置）的計數。 | 位置會增加受眾觸及率。<p>顯示零版位和零媒體的廣告可能表示[不支援的廣告型別](#unsupported-placements)。</p> |
-| **[!UICONTROL 媒體]** | 在廣告和廣告投放位置中使用的資產數量 | 「廣告」表格中的計數可能與「廣告詳細資料」檢視中的計數不同。 如果管道來源(例如Meta)和GenStudio使用的摘要計算略有不同，則會出現這種差異。 |
+| **[!UICONTROL 媒體]** | 在廣告和廣告投放位置中使用的資產數量 | 「廣告」表格中的計數可能與「廣告詳細資料」檢視中的計數不同。 如果管道來源（例如Meta）和GenStudio使用的摘要計算略有不同，則會出現這種差異。 |
 | **[!UICONTROL 曝光次數]** | 每次廣告刊登或廣告載入管道中的計數，無論互動或檢視。 | 高曝光數可表示廣泛的可見度，但若想瞭解insight的真正效能，可將其與其他參與量度相關連。 |
-| **[!UICONTROL 點按]** | 使用者在廣告投放中與可點按元素(例如連結或call-to-action按鈕)互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
+| **[!UICONTROL 點按]** | 使用者在廣告投放中與可點按元素（例如連結或call-to-action按鈕）互動的次數。 | 點按次數高表示對內容有強烈的興趣和參與，這可能有效並觸及適當的對象。 |
 | **[!UICONTROL CTR &#x200B;]**<br>_點進率_ | 導致促銷活動內廣告點選的曝光百分比(%)。<br>**計算**： `clicks`除以`impressions` | 高點進率表示內容與訊息和設計的對象高度相關且充滿動力，並有效鎖定對象的興趣。 |
 | **[!UICONTROL CPM &#x200B;]**<br>_每千成本_ | 每一千次廣告印象的平均成本。<br>**計算**：總金額`spent`除以範圍，然後乘以1000 | 低值可能表示具有成本效益的可見度，尤其是與高點進率配對時。 |
 | **[!UICONTROL CPA &#x200B;]**<br>_每個動作的成本_ | 完成特定客戶動作（例如購買或訂閱）所花費的平均成本。<br>**計算**：總金額`spent`除以客戶動作完成的數目 | 用於監控可產生寶貴客戶動作的廣告支出。 |
