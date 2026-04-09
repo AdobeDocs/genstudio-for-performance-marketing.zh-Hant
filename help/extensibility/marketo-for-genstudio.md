@@ -25,8 +25,8 @@ ht-degree: 0%
 >[!VIDEO](https://video.tv.adobe.com/v/3483299?learn=on)
 
 1. 開啟[Adobe Exchange](https://exchange.adobe.com)並移至&#x200B;**[!UICONTROL Experience Cloud]**。
-1. 開啟GenStudio ](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio)適用的[Marketo清單。
-   在Adobe Exchange](/help/extensibility/marketo-adobe-exchange.png){width="75%"}上列出適用於GenStudio的![Marketo
+1. 開啟GenStudio [&#128279;](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio)適用的Marketo清單。
+   在Adobe Exchange![&#128279;](/help/extensibility/marketo-adobe-exchange.png){width="75%"}上列出適用於GenStudio的Marketo
 1. 選取&#x200B;**[!UICONTROL 免費]**&#x200B;為您的組織請求應用程式。
 1. 在您的組織&#x200B;**稽核並核准**&#x200B;要求之後，請繼續[取得Marketo認證](#get-marketo-credentials)以及[從Exchange部署應用程式](#deploy-the-application-from-exchange)。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 ### 建立或選取LaunchPoint服務
 
 1. 在&#x200B;**[!UICONTROL Admin]**&#x200B;中，在&#x200B;**[!UICONTROL Integration]**&#x200B;下，開啟&#x200B;**[!UICONTROL LaunchPoint]**。
-1. 按一下「建立&#x200B;****」以建立新服務（或使用現有的自訂服務）。
+1. 按一下「建立&#x200B;**&#x200B;**」以建立新服務（或使用現有的自訂服務）。
    ![LaunchPoint自訂服務](/help/extensibility/marketo-launchpoint-custom-service.png){width="80%"}
 1. 針對您的服務，按一下&#x200B;**[!UICONTROL 檢視詳細資料]**&#x200B;並複製&#x200B;**[!UICONTROL 使用者端識別碼]**&#x200B;和&#x200B;**[!UICONTROL 使用者端密碼]**。 您將在Adobe Exchange **[!UICONTROL 設定]**&#x200B;中輸入這些專案。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ### 更新設定
 
-若要變更環境的設定值，請先取消部署&#x200B;****，更新欄位，然後再次&#x200B;**[!UICONTROL 部署]**。
+若要變更環境的設定值，請先取消部署&#x200B;**&#x200B;**，更新欄位，然後再次&#x200B;**[!UICONTROL 部署]**。
 
 ## 存取GenStudio中的Marketo範本
 
