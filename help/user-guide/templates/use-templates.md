@@ -23,18 +23,18 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
 workflow-type: tm+mt
-source-wordcount: 1374
+source-wordcount: 1410
 ht-degree: 1%
 
 ---
 
 # 使用範本
 
-GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#x200B;快速產生一致的品牌上行銷內容。 範本提供起點，包含預先設定的版面和設計元素，可大幅減少產生新內容所需的時間和精力。 若要開始，請在[!DNL Content]中上傳自訂範本，或在[!DNL Create]中使用入門範本。[入門範本](/help/user-guide/templates/starter-templates.md)提供從標準設計開始的快速方法，而自訂範本可讓您使用獨特的設計和版面。
+GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#x200B;快速產生一致的品牌上行銷內容。 範本提供起點，包含預先設定的版面和設計元素，可大幅減少產生新內容所需的時間和精力。 若要開始使用，請在[!DNL Content]中上傳自訂範本，或在[!DNL Create]中使用入門範本。 [入門範本](/help/user-guide/templates/starter-templates.md)提供從標準設計開始的快速方法，而自訂範本可讓您使用獨特的設計和版面。
 
-雖然GenStudio for Performance Marketing不支援直接在應用程式中建立範本，但您可以使用熱門設計工具(例如Adobe InDesign、Illustrator或Express)輕鬆設計和準備範本。 設計完成後，您可以加以調整以用於GenStudio for Performance Marketing。 請依照下列步驟開始使用範本：
+雖然GenStudio for Performance Marketing不支援直接在應用程式中建立範本，但您可以使用熱門設計工具（例如Adobe InDesign、Illustrator或Express）輕鬆設計和準備範本。 設計完成後，您可以加以調整以用於GenStudio for Performance Marketing。 請依照下列步驟開始使用範本：
 
 1. **設計您的範本**：使用您偏好的設計工具，以元素[&#128279;](#template-elements)建立範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
 
@@ -131,7 +131,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 ### 重新整理範本
 
-範本可能包含靜態檔案，例如圖示或標誌。[建立範本預覽後未儲存靜態內容](/help/user-guide/templates/customize-template.md#static-content)。 GenStudio for Performance Marketing會繼續參考範本中提供的來源連結。 使用重新整理以更新這些資產最新版本的範本預覽。
+範本可能包含靜態檔案，例如圖示或標誌。 建立範本預覽後未儲存[靜態內容](/help/user-guide/templates/customize-template.md#static-content)。 GenStudio for Performance Marketing會繼續參考範本中提供的來源連結。 使用重新整理以更新這些資產最新版本的範本預覽。
 
 **若要重新整理範本**：
 
@@ -159,6 +159,8 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 您可以上傳在Adobe Journey Optimizer (AJO)或Marketo中建立的範本。 GenStudio for Performance Marketing會偵測應用程式特有的模式並忽略它們，保留原始表單以繼續用於AJO或Marketo。 您不需要變更原始AJO或Marketo語法。
 
+若要在GenStudio中使用Journey Optimizer資料庫中的AJO範本（包括當您建立電子郵件體驗時的&#x200B;**[!UICONTROL AJO範本]**&#x200B;標籤），您的組織必須從Adobe Exchange安裝並設定GenStudio適用的[Journey Optimizer](/help/extensibility/journey-optimizer-for-genstudio.md)應用程式。
+
 可辨識的應用程式模式包括：
 
 - **AJO**： `{{profile.*}}`，`{{context.*}}`
@@ -173,4 +175,4 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 >[!ENDSHADEBOX]
 
-接著，[使用預留位置自訂您的範本](/help/user-guide/templates/customize-template.md)，以指示GenStudio for Performance Marketing應在何處為您產生內容。[將範本](#add-a-template)新增至[!DNL Content]存放庫並驗證範本。 使用程式碼編輯器進行任何細微的更正。
+接著，[使用預留位置自訂您的範本](/help/user-guide/templates/customize-template.md)，以指示GenStudio for Performance Marketing應在何處為您產生內容。 [將範本](#add-a-template)新增至[!DNL Content]存放庫並驗證範本。 使用程式碼編輯器進行任何細微的更正。
