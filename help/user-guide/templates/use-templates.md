@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 70984b2c03e14a14b36fca6dfc62dcda9138949e
+source-git-commit: 10f44078f4c1b5865006311f9b32eab479986722
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: 1443
 ht-degree: 1%
 
 ---
@@ -160,6 +160,8 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 您可以上傳在Adobe Journey Optimizer (AJO)或Marketo中建立的範本。 GenStudio for Performance Marketing會偵測應用程式特有的模式並忽略它們，保留原始表單以繼續用於AJO或Marketo。 您不需要變更原始AJO或Marketo語法。
 
 若要在GenStudio中使用Journey Optimizer資料庫中的AJO範本（包括當您建立電子郵件體驗時的&#x200B;**[!UICONTROL AJO範本]**&#x200B;標籤），您的組織必須從Adobe Exchange安裝並設定GenStudio適用的[Journey Optimizer](/help/extensibility/journey-optimizer-for-genstudio.md)應用程式。
+
+若要在GenStudio中使用Marketo Engage資料庫中的Marketo範本（包括當您建立電子郵件體驗時的&#x200B;**[!UICONTROL Marketo範本]**&#x200B;標籤），您的組織必須從Adobe Exchange安裝和設定GenStudio的[Marketo](/help/extensibility/marketo-for-genstudio.md)。
 
 可辨識的應用程式模式包括：
 
