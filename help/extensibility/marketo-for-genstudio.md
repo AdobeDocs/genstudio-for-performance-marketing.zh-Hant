@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 從Adobe Exchange安裝應用程式
 
->[!VIDEO](https://video.tv.adobe.com/v/3483299?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483322?captions=chi_hant&learn=on)
 
 1. 開啟[Adobe Exchange](https://exchange.adobe.com)並移至&#x200B;**[!UICONTROL Experience Cloud]**。
 1. 開啟GenStudio [&#128279;](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio)適用的Marketo清單。
