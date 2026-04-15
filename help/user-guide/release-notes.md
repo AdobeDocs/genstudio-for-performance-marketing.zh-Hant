@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 90c6d3e24ec752f0cb23476e7fc407dee294a4c9
+source-git-commit: 3556becd6dc0417f4c36d28def7d5cb20cc10cec
 workflow-type: tm+mt
-source-wordcount: 5224
+source-wordcount: 4584
 ht-degree: 0%
 
 ---
@@ -50,77 +50,7 @@ ht-degree: 0%
 
 此版本資訊提供GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2026.04 {#latest}
-
-### Meta廣告帳戶的CPA （依動作型別）
-
-針對[!DNL Insights]中的Meta廣告行銷活動，您現在可以使用符合行銷活動最佳化方式的轉換動作，來分析每個動作的成本(CPA)，而不只是單一預設量度。
-
-從可用的Meta動作型別中選擇，例如：
-
-* 購買
-* 加入購物車事件
-* 銷售線索
-* 影片觀看次數
-* 自訂轉換
-
-並在廣告、Assets （媒體）和屬性[!DNL Insights]表格中一致地檢閱CPA。
-
-### 建立工作流程中的RTCDP對象
-
-[Adobe Real-Time Customer Data Platform (RTCDP)對象](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences)可在[!DNL Create]工作流程中使用，因此您可以在對象定義中根植產生的體驗，連同您現有的准則。
-
-### 在[!DNL Insights]中沒有顯示頻道
-
-Innovid現在在[!DNL Insights]中顯示為顯示頻道，因此您可以在Meta、LinkedIn、TikTok和其他連線來源旁邊，集中檢閱行銷活動和廣告效益，並每日重新整理量度。
-
-使用Innovid來評估曝光數、點按數和點進率。
-
-### 使用單一視訊資產啟動LinkedIn
-
-現在，您可以依照靜態LinkedIn廣告所使用的端對端啟用流程，從GenStudio for Performance Marketing將使用單一視訊資產[&#128279;](/help/user-guide/activation/activate-linkedin-ad.md)的LinkedIn廣告體驗啟用至LinkedIn行銷活動管理員。
-
-### 付費媒體和電子郵件體驗的現成翻譯
-
-現在使用[建立首頁](/help/user-guide/create/overview.md)上的&#x200B;**[!UICONTROL 翻譯及本地化]**&#x200B;卡片，或在[管理資產和體驗](/help/user-guide/content/manage-assets.md)中，從核准的付費媒體體驗或電子郵件體驗的動作功能表選擇&#x200B;**[!UICONTROL 翻譯]**，以翻譯內容
-
-針對付費媒體，請以單一流程將內容翻譯成&#x200B;**40+**&#x200B;種語言。
-
-對於電子郵件，請在單一流程中將內容翻譯成&#x200B;**超過10**&#x200B;個支援的語言。
-
-### 範本資產的第三方DAM連線
-
-組織現在可以使用註冊的附加元件來&#x200B;**連線自己的數位資產管理(DAM)**&#x200B;存放庫，讓作者可以在範本引數流程中瀏覽並從該系統選取媒體。
-
-請參閱[尋找DAM擴充功能](/help/extensibility/deploy-app.md#find-dam-extensions)和[開始建置可擴充的應用程式](/help/extensibility/setup.md)，瞭解如何建置和散發附加元件。
-
-### 整合的Experience Selector微前端
-
-**Experience Selector**&#x200B;將GenStudio帶入合作夥伴和自訂應用程式。 內嵌微前端(MFE)，透過符合您整合需求的一致UI和登入，在合作夥伴或自訂應用程式中提供瀏覽、篩選和選取功能。
-
-在[GenStudio Experience Selector MFE](/help/extensibility/experience-selector.md)中採用獨立套件、設定選項和內嵌模式。 您的團隊會提供挑選器體驗，而不需從頭重新建置選取專案UX。
-
-### Firefly Image Model 4上的自訂模型
-
-在[!DNL Create]中[產生影像](/help/user-guide/create/generate-assets.md)。 **[!UICONTROL 模型]清單現在包含在Adobe Firefly**&#x200B;影像模型4上訓練的自訂模型，適用於&#x200B;**品牌**&#x200B;和&#x200B;**文字對影像**&#x200B;工作，反映影像模型4訓練，而不僅僅是較舊的影像模型3自訂模型。
-
-您仍可維持相同的[!DNL Create]流程，而較新的Firefly基礎可支援使用經過影像模型4訓練的模型來進行品牌安全產生作業。 引數和提示的行為與其他模型選取類似 — 沒有平行的工作流程可站立。
-
-### Horizon畫布上的快速範本（Meta、LinkedIn和Display）
-
-**Horizon畫布** + Adobe Express範本現在&#x200B;**已可在[!DNL Create]中** Meta **、** LinkedIn **和**&#x200B;顯示&#x200B;**普遍使用**。 多尺寸版面配置、行動快速設計（若有支援）、圖層鎖定和WYSIWYG編輯，可取代這些頻道的舊HTML範本瓶頸，讓團隊更快推出品牌創意。
-
-閱讀[在GenStudio for Performance Marketing中使用Adobe Express範本](/help/user-guide/templates/express-templates.md)以瞭解支援的格式、入門和自訂範本，以及畫布功能。 本主題說明在調整Express版面配置時，通道特定的支援。
-
-### PDF匯出以供檢閱和封存
-
-[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
-
-您可以[從[!DNL Create]畫布上的匯出草稿和[!DNL Content]中的已核准體驗將體驗](/help/user-guide/content/manage-assets.md#export-experiences)匯出至PDF，產生不可編輯的檔案以供利害關係人稽核、核准記錄和封存，尤其是當團隊需要固定快照以符合合規性或法規稽核工作流程時。
-
-## 舊版發行說明
-
-+++2026.03.15版注意事項
+## 2026.03.15 {#latest}
 
 ### Meta、LinkedIn和Display的快速範本
 
@@ -139,7 +69,7 @@ Innovid現在在[!DNL Insights]中顯示為顯示頻道，因此您可以在Meta
 
 您現在可以從GenStudio for Performance Marketing建立、核准和啟用TikTok摘要內影片廣告。 在[!DNL Create]工作流程中輕鬆產生廣告，然後將體驗發佈至[!DNL Content]。 使用TikTok的[!DNL Insights]監視效能並通知下一次創意重新整理。
 
-+++
+## 舊版發行說明
 
 +++2026.01.15版注意事項
 
