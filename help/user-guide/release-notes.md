@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ### 建立工作流程中的RTCDP對象
 
-[Adobe Real-Time Customer Data Platform (RTCDP)對象](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences)可在[!DNL Create]工作流程中使用，因此您可以在對象定義中根植產生的體驗，連同您現有的准則。
+[Adobe Real-Time Customer Data Platform (RTCDP)對象](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences)可在[!DNL Create]工作流程中使用，因此您可以在對象定義中根植產生的體驗，連同您現有的准則。
 
 ### 在[!DNL Insights]中沒有顯示頻道
 
