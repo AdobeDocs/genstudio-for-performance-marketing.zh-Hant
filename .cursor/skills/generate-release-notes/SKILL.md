@@ -1,9 +1,9 @@
 ---
 name: generate-release-notes
 description: ""
-source-git-commit: 1a33b08048233c5f9a82b5f428082aa5c71b0052
+source-git-commit: 85ad74d3f24fb809b11f57b23bd24a7ae3310f43
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,23 @@ ht-degree: 0%
 
 **KT/wiki欄位對應和檔案路徑：** [reference.md](reference.md)
 
+## 編輯範圍（嚴格）
+
+使用這項技能時，**您可以**&#x200B;新增&#x200B;**或**&#x200B;編輯&#x200B;**發行說明內文內容的唯一位置**&#x200B;是&#x200B;**`## … {#latest}`**&#x200B;標題的區段（包含`{#latest}`錨點的單一區塊）。
+
+- **不要**&#x200B;編輯&#x200B;**舊版發行說明** — 任何`+++Notes from YYYY.MM.DD+++`可摺疊的區塊 — 或&#x200B;**任何**&#x200B;舊版的`##`每月區段（不再有`{#latest}`），即使主題看起來相關、連結看起來錯誤或復本看起來重複或過時。
+- **除非使用者提出此技能未涵蓋的**&#x200B;明確、單獨的&#x200B;**要求，否則不要**&#x200B;在目前`{#latest}`區塊外對前`###`個子區段、專案符號、連結或文字進行「修改」。
+- **例外狀況：** [在引入&#x200B;**新**&#x200B;前`{#latest}`個區塊時，封存先前的](#archive-previous-latest)： **移動**&#x200B;整個先前的`{#latest}`區段至&#x200B;**新的**，可摺疊至&#x200B;**舊版發行說明**&#x200B;下，如下所述。 在該階段中，**不會**&#x200B;重寫或新增到&#x200B;**其他、較舊的**&#x200B;封存區塊。
+
+如果新資訊屬於檔案，請將它放置在目前&#x200B;**`{#latest}`**&#x200B;標題下（或先封存，然後只新增到新`{#latest}`下）。
+
 ## 工作流程檢查清單
 
 以此順序工作。 複製檢查清單並追蹤多步驟編輯的進度。
 
-1. [ ]開啟`help/user-guide/release-notes.md`並讀取目前的`## YYYY.MM {#latest}`區塊和&#x200B;**舊版發行說明**&#x200B;區域。
+1. [ ]開啟`help/user-guide/release-notes.md`並讀取目前的`## YYYY.MM {#latest}`區塊。 將&#x200B;**舊版發行說明**&#x200B;視為&#x200B;**唯讀**&#x200B;內容，除非您在步驟2中執行封存步驟。
 2. [ ]如果新增&#x200B;**新的**&#x200B;每月發行：封存目前的最新版本（請參閱[封存先前的最新](#archive-previous-latest)）。
-3. [ ]新增或編輯前`## YYYY.MM {#latest}`個區段（最新月份在發行清單頂端）。
+3. [ ]僅新增或編輯&#x200B;**2&rbrace;前`## YYYY.MM {#latest}`個區段（發行清單頂端的最新月份）。**
 4. [ ]針對每個專案，套用[決定規則](#decision-rules) （功能`###`與&#x200B;**修正和增強功能**、Beta徽章或不是）。
 5. [ ]新增或驗證最相關片語的檔案連結（請參閱[reference.md](reference.md#documentation-linking)）。
 6. [ ]在完成前執行[品質檢查](#quality-checks)。
@@ -47,10 +57,12 @@ ht-degree: 0%
 匯入新`## YYYY.MM {#latest}`時：
 
 1. 剪下整個`## YYYY.MM {#latest}`區段（從標題到發行內容結尾，在下一個`##`或&#x200B;**舊版發行說明**&#x200B;之前）。
-2. 將其貼到可收合區塊內的&#x200B;**舊版發行說明**&#x200B;中。
+2. Paste it into **Earlier release notes**, inside a **new** collapsible block.
 3. 將舊標題取代為： `+++Notes from YYYY.MM.DD+++` （使用實際的發行日期；如檔案中現有附註的格式）。
 4. 從封存的標題中移除`{#latest}`；新的頂端區段是唯一具有`{#latest}`的區段。
 5. 在&#x200B;**舊版發行說明**&#x200B;內保持時間順序（除非檔案已使用不同的順序 — **符合現有的檔案**，否則最新的封存區塊會朝頂端對齊）。
+
+Do **not** edit the body of **pre-existing** `+++Notes from …+++` blocks while performing this archive—only insert the newly archived block and preserve older archives as-is.
 
 ## 必要的結構
 
@@ -108,6 +120,7 @@ This release information details the latest updates to the GenStudio for Perform
 
 完成工作之前：
 
+- [ ] **範圍：**&#x200B;只有`## … {#latest}`區塊新增或編輯；**舊版發行說明**&#x200B;和舊版的每月區段並未修改，除了[封存舊版`{#latest}`的先前最新](#archive-previous-latest)剪下/貼上到&#x200B;**新**&#x200B;封存區塊以外。
 - [ ]所有新連結或已變更的相對連結儘可能解析為`help/`下的真實路徑。
 - [ ]個Beta功能包含必要的Beta徽章片段。
 - [ ]術語符合現有的版本注意事項(`[!DNL …]`， `[!UICONTROL …]`)。
