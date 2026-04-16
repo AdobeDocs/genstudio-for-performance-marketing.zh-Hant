@@ -5,26 +5,15 @@ feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Conten
 role: User
 level: Beginner
 TQID: https://experienceleague.adobe.com/aK9mP2vR8xT4nW6yB1cF3hJ5kL7mN9pQ2rS4tU6vW8x
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 5f02a3076ca875f9819e5da55824bbf9c5337bb4
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 100%
+source-wordcount: 931
+ht-degree: 89%
 
 ---
 
@@ -32,7 +21,7 @@ ht-degree: 100%
 
 使用[!DNL GenStudio for Performance Marketing]，您可以在[[!DNL Create]](/help/user-guide/create/overview.md)工作流程中建立TikTok廣告作為付費媒體體驗。 產生創意變體、執行品牌和管道檢查、發佈至[!DNL Content]，並透過[[!DNL Activate]](/help/user-guide/activation/overview.md)啟用，以將內容傳遞至TikTok Ads Manager以供最終稽核和啟動。
 
-[!DNL GenStudio for Performance Marketing]中的TikTok適合更廣範圍的全通路工作流程：您可以連同其他社交和顯示管道（例如Meta和LinkedIn）一起分析[[!DNL Insights]](/help/user-guide/insights/overview.md)中的TikTok行銷活動和廣告效益，而不需要切換到個別的報告工具。
+[!DNL GenStudio for Performance Marketing]中的TikTok適合更廣大的全通路工作流程：您可以在[[!DNL Insights]](/help/user-guide/insights/overview.md#dashboard)中的標準[!DNL Insights]檢視 — [!UICONTROL 行銷活動]、[!UICONTROL 廣告]、[!UICONTROL 媒體]和[!UICONTROL 屬性] — 以及其他社交和顯示頻道（例如Meta和LinkedIn）中分析TikTok行銷活動和廣告效益，而不是切換到個別的報告工具。 **[!UICONTROL Insights 2.0]**&#x200B;跨管道總覽（[Insights總覽 — Insights 2.0](/help/user-guide/insights/overview.md#insights-20)）僅著重於Meta和LinkedIn；目前未包含TikTok。
 
 [!DNL Insights]個表面量度，包括：
 
@@ -183,7 +172,7 @@ _正在發佈_&#x200B;強制回應視窗出現並自動關閉。 系統會將您
 
 ![GenStudio發佈模式](../../assets/tiktok/publishing-modal.png){width="30%"}
 
-啟用表格顯示最新的啟用，處理完成時狀態為&#x200B;**擱置中**。您可以在發佈完成時瀏覽離開。
+啟用表格顯示最新的啟用，處理完成時狀態為&#x200B;**擱置中**。發佈完成時，您可以導覽到別處。
 
 ![TikTok詳細資料頁面](../../assets/tiktok/tiktok-details-page.png){width="90%"}
 
