@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 45495ee2df117d6c9d87324fc1ac421387fd3032
+source-git-commit: f7f72c23c8bc7a52040af2c897b94d107a7c95bf
 workflow-type: tm+mt
-source-wordcount: 4994
+source-wordcount: 4727
 ht-degree: 0%
 
 ---
@@ -52,35 +52,11 @@ ht-degree: 0%
 
 ## 2026.04.16 {#latest}
 
-### 新[!DNL Insights] 2.0總覽
-
-[[!DNL Insights]](/help/user-guide/insights/overview.md)的2.0版將&#x200B;**Meta**&#x200B;與&#x200B;**LinkedIn**&#x200B;效能整合到一個工作區中。 跨頻道和特定頻道的快照、貢獻樣式報表以及高績效和低績效廣告檢視，讓您更容易看到支出的運作方式。
-
-### 來自廣告標籤的[!DNL Insights]
-
-**來自廣告標籤的深入分析**&#x200B;將追蹤ID劃分為您可以與效能（例如成本、參與度、轉換等）一起分析的標籤維度，而不需將廣告名稱匯出至試算表。 體驗中會顯示較強且較弱的標籤值，因此您的命名慣例會變成您可以控制的專案，而非您離線解碼的專案。
-
 ### [!DNL Create]中的內容感知建議
 
 在[建立工作流程](/help/user-guide/create/overview.md)中，**[!UICONTROL 從內容選取]**&#x200B;現在會以&#x200B;**[!UICONTROL 關聯性]**&#x200B;排序開啟，因此格線會在您的提示匣中反映[!DNL Brands]、[!DNL Products]、[!DNL Personas]和語言。
 
 或者，如果造訪間隔應該會引發，而非符合內容，請切換至&#x200B;**[!UICONTROL 最近新增]**。
-
-### HTML畫布中的內容片段交換
-
-針對HTML畫布上的[電子郵件體驗](/help/user-guide/create/create-email-experience.md)，**在單一畫布中使用三種位置型別來組合電子郵件體驗**：
-
-* 產生式槽（AI產生的副本）
-* 內容片段槽（透過Content Advisor MFE從連線的AEM存放庫中選擇的預先核准內容片段）
-* 鎖定的位置（法律免責宣告等不可變欄位）
-
-這些內容片段同時存在於相同的畫布中，因此模組化、經過核准的復本無需手動重建HTML。
-
-### 從URL建立[!DNL Brands]、[!DNL Products]和[!DNL Personas]
-
-從公用品牌URL開始建立[!DNL Brands]、[!DNL Products]或[!DNL Personas]，輸出內容以品牌線上發佈的內容為基礎。
-
-品牌指引可一次自動產生。 產品和角色會從您在建立完整詳細資料之前確認的建議適用者開始。
 
 ### [!DNL Create]中的連線電視(CTV)廣告
 
@@ -91,12 +67,6 @@ ht-degree: 0%
 ### HTML5顯示範本、變數和調整大小
 
 您可以&#x200B;**上傳DOM型HTML5 zip檔案，在[!DNL Create]中開發顯示範本**、產生HTML5廣告變化，以及將創意大小調整為其他外觀比例。 已完成的體驗可啟用至[Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md)和[[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md)。
-
-### GenStudio中的Firefly Creative生產工作流程
-
-[!BADGE Beta]{type=Informative tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"}
-
-**Firefly Creative Production**&#x200B;工作流程可以從GenStudio for Performance Marketing發佈和執行，因此行銷人員可以使用較少的工具躍點在應用程式內執行生產執行、下載交付專案，以及將完成的資產路由到[[!DNL Content]](/help/user-guide/content/overview.md)。
 
 ## 舊版發行說明
 
