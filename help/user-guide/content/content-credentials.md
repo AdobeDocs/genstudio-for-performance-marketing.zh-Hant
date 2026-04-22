@@ -1,6 +1,6 @@
 ---
-title: 適用於組織的Content Credentials
-description: 瞭解如何在GenStudio for Performance Marketing中套用及檢閱Content Credentials。
+title: Content Credentials for Organizations
+description: Learn about how to apply and review Content Credentials in GenStudio for Performance Marketing.
 level: Intermediate
 feature: Content Management, Content Attributes
 exl-id: 9fc1e428-7fa7-4f00-84ba-51c9318766f4
@@ -17,45 +17,49 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 1%
+source-wordcount: 723
+ht-degree: 0%
 
 ---
 
-# 適用於組織的Content Credentials
+# Content Credentials for organizations
 
-瞭解內容防篡改認證如何直接內嵌在行銷工作流程中，以證明品牌真實性並促進法規遵循。
+Learn how tamper-proof credentials for content that prove brand authenticity and drive compliance are embedded directly in your marketing workflow.
 
 >[!WARNING]
 >
-> 此功能目前為測試版，僅供已獲得存取權的組織使用。 如有興趣，請洽詢您的Adobe客戶團隊代表，或[使用此連結來要求註冊](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr)。
+> This feature is currently in beta and is only available to organizations that have been granted access. If interested, please reach out to your Adobe account team representative or [use this link to request enrollment](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
+## Get started with Content Credentials {#content-credentials}
 
-## 開始使用Content Credentials
+>[!CONTEXTUALHELP]
+>id="gspm_content_credentials"
+>title="Content Credentials in [!DNL GenStudio for Performance Marketing]"
+>abstract="Tamper-proof credentials for content that prove brand authenticity and drive compliance can be embedded directly in your marketing workflow."
 
-在Admin Console中啟用Content Credentials後，GenStudio for Performance Marketing使用者就可以在應用程式中為全域所有資產開啟Content Credentials。 如果已關閉套用認證的全域選項，使用者可以選擇為每個個別資產套用Content Credentials。
+After Content Credentials have been activated in the Admin Console, GenStudio for Performance Marketing users can turn on Content Credentials for all assets globally in the app. If the global option to apply credentials is turned off, users have the choice to apply Content Credentials for each individual asset.
 
-內容發佈後，Content Credentials將顯示在外部平台上，例如LinkedIn。
+Once content is published, Content Credentials will be visible on external platforms, like LinkedIn.
 
-管理員負責在Admin Console中上傳有效的X.509憑證。 此步驟可確保企業的數位簽章已正確設定，並可在支援的Adobe DX應用程式中使用。
+Administrators are responsible for uploading a valid X.509 certificate within the Admin Console. This step ensures that the enterprise&#39;s digital signature is properly configured and ready for use in supported Adobe DX applications.
 
 >[!NOTE]
 >
->控制此設定日後可能會轉換至Admin Console，精簡各應用程式的Content Credentials管理，並增強行政監督。
+>Control over this setting might transition to the Admin Console in the future, streamlining the management of Content Credentials across applications and enhancing administrative oversight.
 
-## 什麼是Content Credentials？ 
+## What are Content Credentials? 
 
-Content Credentials是經久耐用的業界標準中繼資料型別，包含建立內容的詳細資訊以及建立者的身分資訊。 將內容線上發佈至支援平台時，或使用[Adobe的Inspect tool](https://contentauthenticity.adobe.com/inspect)或[Adobe Content Authenticity Chrome瀏覽器擴充功能](https://helpx.adobe.com/tw/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html)等工具，即可檢視Content Credentials。  
+Content Credentials are a durable, industry-standard type of metadata with details about how content was made and identity information about the creators. Content Credentials can be viewed when the content is published online to supporting platforms, or by using tools like [Adobe&#39;s Inspect tool](https://contentauthenticity.adobe.com/inspect) or the [Adobe Content Authenticity Chrome browser extension](https://helpx.adobe.com/tw/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
-套用Content Credentials有助於提高內容製作方式的透明度，也有助於您的使用者將自己連結到其內容。
+Applying Content Credentials can help increase transparency about how content was made and can help your users connect themselves to their content.
 
-[在Adobe進一步瞭解Content Credentials](https://helpx.adobe.com/tw/creative-cloud/help/content-credentials.html)。
+[Learn more about Content Credentials](https://helpx.adobe.com/tw/creative-cloud/help/content-credentials.html) at Adobe.
 
-## 品牌簽章與資產追蹤
+## Brand signature and asset tracking
 
-品牌簽署內容在提升品牌完整度和使用者信任度方面扮演重要角色。 在Admin Console中正確設定憑證後，組織便可以在Adobe應用程式中，使用唯一的品牌簽章簽署內容。 這項真實性保證是使用不可見的浮水印和指紋技術來維護，這有助於在內容的整個生命週期中保持簽名的耐久性。
+Brand-signed content plays a significant role in promoting brand integrity and user trust. 在Admin Console中正確設定憑證後，組織便可以在Adobe應用程式中，使用唯一的品牌簽章簽署內容。 這項真實性保證是使用不可見的浮水印和指紋技術來維護，這有助於在內容的整個生命週期中保持簽名的耐久性。
 
 除了品牌簽署外，企業也可以直接將資產ID附加至其內容。 這有助於有效率地追蹤資產，尤其是在社群媒體平台上分享或張貼資產時。 透過合併資產ID，組織可以追蹤其內容的原始和發佈路徑，強化監督和問責。
 
