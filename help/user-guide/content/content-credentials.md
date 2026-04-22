@@ -51,7 +51,7 @@ Administrators are responsible for uploading a valid X.509 certificate within th
 
 ## What are Content Credentials? 
 
-Content Credentials are a durable, industry-standard type of metadata with details about how content was made and identity information about the creators. Content Credentials can be viewed when the content is published online to supporting platforms, or by using tools like [Adobe&#39;s Inspect tool](https://contentauthenticity.adobe.com/inspect) or the [Adobe Content Authenticity Chrome browser extension](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Content Credentials are a durable, industry-standard type of metadata with details about how content was made and identity information about the creators. Content Credentials can be viewed when the content is published online to supporting platforms, or by using tools like [Adobe&#39;s Inspect tool](https://contentauthenticity.adobe.com/inspect) or the [Adobe Content Authenticity Chrome browser extension](https://helpx.adobe.com/tw/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 Applying Content Credentials can help increase transparency about how content was made and can help your users connect themselves to their content.
 
