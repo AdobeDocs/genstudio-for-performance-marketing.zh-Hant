@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 7417595bdb075a49cdcfc988be5b900801816019
 workflow-type: tm+mt
-source-wordcount: 2499
+source-wordcount: 3052
 ht-degree: 0%
 
 ---
@@ -45,9 +45,29 @@ GenStudio for Performance Marketing可讓您設定使用者定義的指導方針
 
 {{in-academy}}
 
+## 從URL新增時的指引
+
+當您選擇從[!DNL GenStudio for Performance Marketing]中的URL新增[!DNL Brand]、[!DNL Product]或[!DNL Persona]時，請考慮下列資訊。
+
+**URL型工作流程的先決條件**：
+
+- 您有&#x200B;**使用中的[!DNL GenStudio for Performance Marketing]帳戶**&#x200B;具有Brand Manager或更高的許可權。
+- **URL可公開存取**。 受密碼保護或登入閘道的頁面將產生有限的輸出。
+- **為了獲得最佳結果，請使用品牌自己的網站URL** （首頁或產品/類別頁面），而非retailer、經銷商或彙總商。
+
+**URL型別及其預期輸出**：
+
+| URL型別 | 有何期望 |
+| --- | --- |
+| 品牌首頁 | 您會獲得完整的品牌指引，而且系統會顯示廣泛的產品和角色涵蓋範圍。 |
+| 產品類別頁面 | 產品和角色的範圍設定為該頁面所代表的類別。 |
+| 行銷活動登陸頁面 | 角色訊號特別實用，但品牌輸出可能會反映行銷活動，而非完整品牌。 |
+| retailer或合作夥伴頁面 | 系統會取消協力廠商內容的優先順序，因此輸出會受限。 |
+| 閘道/登入必要頁面 | 頁面內容無法使用，因此輸出將較為保守。 |
+
 ## 新增品牌
 
-若要新增[!DNL Brand]，[上傳品牌指南](#upload-a-brand)或[藉由選取指引並輸入您的品牌詳細資料來手動建立品牌](#manually-add-brand)。[將 [!DNL Brand]](#publish-brand)發佈至[!DNL Content]以供未來產生內容使用。
+若要新增[!DNL Brand]、[上傳品牌指南](#upload-a-brand)、[手動建立品牌](#manually-add-brand)或[從URL建立品牌](#creating-a-brand-from-url)。 當您手動上傳檔案或新增品牌時，請選取指引並輸入您的品牌詳細資料。 [將 [!DNL Brand]](#publish-brand)發佈至[!DNL Content]以供未來產生內容使用。
 
 在左側導覽區域中，按一下&#x200B;_共用_&#x200B;清單中的&#x200B;**[!DNL Brands]**。
 
@@ -61,7 +81,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 ### 上傳品牌
 
-您可以將自己的品牌指引檔案(最多三個PDF或DOC檔案)上傳到GenStudio for Performance Marketing以自動建立品牌。
+您可以將自己的品牌指引檔案（最多三個PDF或DOC檔案）上傳到GenStudio for Performance Marketing以自動建立品牌。
 
 請參閱[[!DNL Brands]](/help/user-guide/guidelines/brands.md)。
 
@@ -114,6 +134,19 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 您不必[發佈](#publish-brand)您的[!DNL Brand]，即可存取資訊。 任何手動新增的資訊在新增後即可立即使用。 若要讓您組織中的其他人在GenStudio for Performance Marketing中使用[!DNL Brand]資訊，您必須將其發佈。 已建立的[!DNL Brand]在發佈之前為草稿形式。
 
+### 從URL建立品牌
+
+**必要條件：**&#x200B;請參閱[URL工作流程的先決條件](#prerequisites-for-url-based-workflows)。 如需不同URL對結果的影響，請參閱[URL型別和預期的輸出](#url-types-and-expected-output)。
+
+**若要從URL建立品牌：**
+
+1. 導覽至GenStudio中的&#x200B;**[!DNL Brands]**，然後按一下&#x200B;**[!UICONTROL +新增品牌]**&#x200B;按鈕。
+1. 當系統提示&#x200B;_選擇新增品牌的方式_&#x200B;時，請透過URL **選取**。
+1. 在提供的欄位中輸入品牌URL。
+1. 系統將會閱讀頁面並自動產生品牌指引，此程式通常只需要不到一分鐘的時間。
+1. 檢閱產生的品牌指引卡片，並視需要編輯任何欄位。
+1. 按一下「**[!UICONTROL 儲存]**」。 品牌現在可用於產生內容。
+
 ### 變更品牌縮圖
 
 手動新增[!DNL Brand]之後，您可以變更縮圖影像，以確保在[!DNL Brands]清單中可輕鬆加以區分。
@@ -137,7 +170,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 >[!TIP]
 >
->如果您只想檢視您建立的品牌，請從[!DNL Brands]篩選器(funnel圖示)中選取&#x200B;**[!UICONTROL 由您建立]**。
+>如果您只想檢視您建立的品牌，請從[!DNL Brands]篩選器（funnel圖示）中選取&#x200B;**[!UICONTROL 由您建立]**。
 
 **若要發佈品牌草稿**：
 
@@ -184,7 +217,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 ## 新增[!DNL Personas]
 
-若要新增角色，請[上傳角色](#upload-a-persona)或[藉由選取准則並輸入角色詳細資訊，手動建立角色](#manually-add-persona)。
+若要新增角色，[請上傳角色](#upload-a-persona)、[手動建立角色](#manually-add-persona)，或從URL [&#128279;](#adding-personas-from-url)新增角色。 當您手動上傳檔案或新增角色時，請選取准則並輸入角色詳細資訊。
 
 在左側導覽區域中，按一下&#x200B;_共用_&#x200B;清單中的&#x200B;**[!DNL Personas]**。
 
@@ -244,6 +277,19 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
    若要檢視您建立的[!DNL Personas]，請按一下&#x200B;_角色_&#x200B;檢視頂端附近的向後箭頭，以導覽回&#x200B;_[!DNL Personas]_&#x200B;首頁。
 
+### 正在從URL新增[!DNL Personas]
+
+**必要條件：**&#x200B;請參閱[URL工作流程的先決條件](#prerequisites-for-url-based-workflows)。 如需不同URL對結果的影響，請參閱[URL型別和預期的輸出](#url-types-and-expected-output)。
+
+**若要從URL新增角色：**
+
+1. 導覽至GenStudio中的&#x200B;**[!DNL Personas]**，然後按一下&#x200B;**[!UICONTROL +新增角色]**&#x200B;按鈕。
+1. 提示&#x200B;_選擇新增角色的方式_&#x200B;時，請透過URL **選取**。
+1. 在提供的欄位中輸入品牌URL。
+1. 檢閱從頁面浮現的對象區段清單。 移除不適用的區段，視需要重新命名，並新增任何遺漏的專案。
+1. 確認清單。 系統會開始為每個已確認的區段產生完整的角色卡。
+1. 角色卡片完成時即會顯示在資料庫中。 在內容產生中使用角色之前，請先檢閱及編輯每個角色。
+
 ### 管理[!DNL Personas]
 
 在&#x200B;_[!DNL Personas]_&#x200B;首頁中，您可以&#x200B;**開啟已建立的[!DNL Persona]**&#x200B;以進行編輯或檢閱，或從清單中&#x200B;**刪除角色**：
@@ -258,8 +304,8 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 1. 在左側導覽區域中，按一下&#x200B;_共用_&#x200B;清單中的&#x200B;**[!DNL Products]**。
    GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines.png){width="650" zoomable="yes"}
-1. 在&#x200B;_[!DNL Products]_&#x200B;面板中，選取&#x200B;**新增產品**。
-1. 選擇[上傳產品](#upload-a-product)或[手動建立產品](#manually-add-product)，方法是選取准則並輸入產品詳細資料。
+1. 在&#x200B;_[!DNL Products]_&#x200B;面板中，選取&#x200B;**[!UICONTROL 新增產品]**。
+1. 選擇[上傳產品](#upload-a-product)、[手動建立產品](#manually-add-a-product)或從URL[&#128279;](#adding-products-from-url)新增產品。 當您手動上傳檔案或新增產品時，請選取指引並輸入您的產品詳細資料。
 
 ![新增[!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
 
@@ -315,6 +361,19 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
    若要檢視您建立的[!DNL Products]，請按一下&#x200B;_產品_&#x200B;檢視頂端附近的向後箭頭，以導覽回&#x200B;_[!DNL Products]_&#x200B;首頁。
 
+### 從URL新增產品
+
+**必要條件：**&#x200B;請參閱[URL工作流程的先決條件](#prerequisites-for-url-based-workflows)。 如需不同URL對結果的影響，請參閱[URL型別和預期的輸出](#url-types-and-expected-output)。
+
+**若要從URL新增[!DNL Products]：**
+
+1. 導覽至GenStudio中的&#x200B;**[!DNL Products]**，然後按一下「**[!UICONTROL +新增產品]**」按鈕。
+1. 當系統提示&#x200B;_選擇新增產品的方式_&#x200B;時，請透過URL **選取**。
+1. 輸入URL。 使用品牌首頁取得廣泛的產品清單，或使用類別頁面來限定結果的範圍。
+1. 檢閱從頁面浮現的產品清單。 移除不屬於的專案、視需要重新命名，以及新增任何缺少的產品。
+1. 確認清單。 系統開始產生每個已確認產品的完整產品詳細資料。
+1. 產品會出現在物件庫中。 請先檢閱並編輯每個產品，才能在內容產生中使用它。
+
 ### 管理[!DNL Products]
 
 在&#x200B;_[!DNL Products]_&#x200B;首頁中，您可以&#x200B;**開啟已建立的[!DNL Product]**&#x200B;以進行編輯或檢閱，或從清單中&#x200B;**刪除產品**：
@@ -331,7 +390,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 [!DNL Audiences]提供Adobe Real-Time Customer Data Platform (RTCDP)的目標客戶區段，將精確的目標資料帶入您的內容產生工作流程中。 GenStudio for Performance Marketing運用對象定義，協助您建立與特定客戶區段相符的量身打造行銷內容。
 
-[!DNL Audiences]在[&#x200B; _[!DNL Create]_&#x200B;工作流程](../create/overview.md#templates)的引數窗格中顯示為下拉式清單。_[!DNL Audiences]_ 使用兩個准則時，可以為&#x200B;_[!DNL Personas]_&#x200B;增加特殊性，但也可以有效地單獨使用。
+[!DNL Audiences]在[&#x200B; _[!DNL Create]_&#x200B;工作流程](../create/overview.md#templates)的引數窗格中顯示為下拉式清單。 使用兩個准則時，_[!DNL Audiences]_&#x200B;可以為&#x200B;_[!DNL Personas]_&#x200B;增加特殊性，但也可以有效地單獨使用。
 
 上線期間，會匯入對象定義並將其轉換為與GenStudio相容的格式。 此程式通常需要幾天才能完成。 請連絡您的Adobe團隊以將其啟動。
 
