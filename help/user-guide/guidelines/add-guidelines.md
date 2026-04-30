@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7417595bdb075a49cdcfc988be5b900801816019
+source-git-commit: e43c9569f3fc5a2353a6fc0e15189ac31f216050
 workflow-type: tm+mt
-source-wordcount: 3052
+source-wordcount: 3019
 ht-degree: 0%
 
 ---
@@ -44,26 +44,6 @@ GenStudio for Performance Marketing可讓您設定使用者定義的指導方針
 使用預先定義的管道指引（如[!DNL Brands]、[!DNL Personas]或[!DNL Products]）從範本建立變體時，這些指引適用於變體。 如有需要，您可以加以變更。
 
 {{in-academy}}
-
-## 從URL新增時的指引
-
-當您選擇從[!DNL GenStudio for Performance Marketing]中的URL新增[!DNL Brand]、[!DNL Product]或[!DNL Persona]時，請考慮下列資訊。
-
-**URL型工作流程的先決條件**：
-
-- 您有&#x200B;**使用中的[!DNL GenStudio for Performance Marketing]帳戶**&#x200B;具有Brand Manager或更高的許可權。
-- **URL可公開存取**。 受密碼保護或登入閘道的頁面將產生有限的輸出。
-- **為了獲得最佳結果，請使用品牌自己的網站URL** （首頁或產品/類別頁面），而非retailer、經銷商或彙總商。
-
-**URL型別及其預期輸出**：
-
-| URL型別 | 有何期望 |
-| --- | --- |
-| 品牌首頁 | 您會獲得完整的品牌指引，而且系統會顯示廣泛的產品和角色涵蓋範圍。 |
-| 產品類別頁面 | 產品和角色的範圍設定為該頁面所代表的類別。 |
-| 行銷活動登陸頁面 | 角色訊號特別實用，但品牌輸出可能會反映行銷活動，而非完整品牌。 |
-| retailer或合作夥伴頁面 | 系統會取消協力廠商內容的優先順序，因此輸出會受限。 |
-| 閘道/登入必要頁面 | 頁面內容無法使用，因此輸出將較為保守。 |
 
 ## 新增品牌
 
@@ -136,7 +116,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 ### 從URL建立品牌
 
-**必要條件：**&#x200B;請參閱[URL工作流程的先決條件](#prerequisites-for-url-based-workflows)。 如需不同URL對結果的影響，請參閱[URL型別和預期的輸出](#url-types-and-expected-output)。
+**必要條件：**&#x200B;從URL新增時請參閱[指南](#guidance-when-adding-from-a-url)。
 
 **若要從URL建立品牌：**
 
@@ -279,7 +259,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 ### 正在從URL新增[!DNL Personas]
 
-**必要條件：**&#x200B;請參閱[URL工作流程的先決條件](#prerequisites-for-url-based-workflows)。 如需不同URL對結果的影響，請參閱[URL型別和預期的輸出](#url-types-and-expected-output)。
+**必要條件：**&#x200B;從URL新增時請參閱[指南](#guidance-when-adding-from-a-url)。
 
 **若要從URL新增角色：**
 
@@ -363,7 +343,7 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 
 ### 從URL新增產品
 
-**必要條件：**&#x200B;請參閱[URL工作流程的先決條件](#prerequisites-for-url-based-workflows)。 如需不同URL對結果的影響，請參閱[URL型別和預期的輸出](#url-types-and-expected-output)。
+**必要條件：**&#x200B;從URL新增時請參閱[指南](#guidance-when-adding-from-a-url)。
 
 **若要從URL新增[!DNL Products]：**
 
@@ -408,3 +388,23 @@ GenStudio for Performance Marketing中的![指導方針](/help/assets/guidelines
 1. 從清單中選取要指派的對象。 如果選取了[!DNL Persona]，系統會建議符合您選取[!DNL Persona]的建議對象。
 1. 按一下&#x200B;**[!UICONTROL 檢視對象詳細資料]**&#x200B;以檢視針對所選對象產生的擴充說明和傳訊偏好設定。 對象詳細資訊會通知內容產生，確保您的創意符合目標區段的特定特性和偏好設定。
    ![對象詳細資料窗格](./audience-details.png){width=450}
+
+## 從URL新增時的指引
+
+當您選擇從[!DNL GenStudio for Performance Marketing]中的URL新增[!DNL Brand]、[!DNL Product]或[!DNL Persona]時，請考慮下列資訊。
+
+**URL型工作流程的先決條件**：
+
+- 您有&#x200B;**使用中的[!DNL GenStudio for Performance Marketing]帳戶**&#x200B;具有Brand Manager或更高的許可權。
+- **URL可公開存取**。 受密碼保護或登入閘道的頁面將產生有限的輸出。
+- **為了獲得最佳結果，請使用品牌自己的網站URL** （首頁或產品/類別頁面），而非retailer、經銷商或彙總商。
+
+**URL型別及其預期輸出**：
+
+| URL型別 | 有何期望 |
+| --- | --- |
+| 品牌首頁 | 您會獲得完整的品牌指引，而且系統會顯示廣泛的產品和角色涵蓋範圍。 |
+| 產品類別頁面 | 產品和角色的範圍設定為該頁面所代表的類別。 |
+| 行銷活動登陸頁面 | 角色訊號特別實用，但品牌輸出可能會反映行銷活動，而非完整品牌。 |
+| retailer或合作夥伴頁面 | 系統會取消協力廠商內容的優先順序，因此輸出會受限。 |
+| 閘道/登入必要頁面 | 頁面內容無法使用，因此輸出將較為保守。 |
