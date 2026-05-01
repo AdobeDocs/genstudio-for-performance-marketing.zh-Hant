@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1931
+source-wordcount: 1980
 ht-degree: 1%
 
 ---
@@ -53,9 +53,9 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
 ## 步驟2：連線至您的Meta帳戶
 
-在貴組織啟用體驗之前，GenStudio系統管理員必須將您的Meta帳戶連結至GenStudio for Performance Marketing。 此連線可讓資料在GenStudio和外部行銷工具(例如Meta)之間流動，以啟用啟用程式。
+在貴組織啟用體驗之前，GenStudio系統管理員必須將您的Meta帳戶連結至GenStudio for Performance Marketing。 此連線可讓資料在GenStudio和外部行銷工具（例如Meta）之間流動，以啟用啟用程式。 請參閱[連線至Meta Ads](/help/user-guide/connectors/meta-ads.md)。
 
-請參閱[連線至Meta Ads](/help/user-guide/connectors/meta-ads.md)。
+若要選取Instagram帳戶，請在Meta Business Manager中確認您要使用的[Instagram帳戶已連線至上線期間選取的相同廣告帳戶](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account)。 如果缺少此連線，Instagram帳戶可能不會在啟用期間出現在[!DNL GenStudio for Performance Marketing] _Instagram帳戶_&#x200B;下拉式功能表中。
 
 同步完成後，您可以檢視新增的帳戶。 大量資料需要更長的時間才能同步。
 
@@ -96,7 +96,7 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
    _體驗設定_&#x200B;頁面提供準備廣告啟用的中央位置。 準備您的廣告包括以下三個工作：
 
 1. 為體驗指派名稱。 啟用後，您可以使用此名稱在&#x200B;_已啟用的體驗_&#x200B;表格中搜尋此體驗。
-1. 選取媒體資產。 您可以使用來自[!DNL Content]的資產或上傳外部資產(例如，來自OneDrive或Dropbox)。
+1. 選取媒體資產。 您可以使用來自[!DNL Content]的資產或上傳外部資產（例如，來自OneDrive或Dropbox）。
 1. [新增文字](#add-ad-text)。
 1. [新增中繼資料](#assign-metadata)。
 
