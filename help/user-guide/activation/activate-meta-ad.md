@@ -4,22 +4,14 @@ description: 瞭解如何啟用Meta廣告體驗。
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
 TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1931
+source-wordcount: 1980
 ht-degree: 1%
 
 ---
@@ -53,9 +45,9 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
 ## 步驟2：連線至您的Meta帳戶
 
-在貴組織啟用體驗之前，GenStudio系統管理員必須將您的Meta帳戶連結至GenStudio for Performance Marketing。 此連線可讓資料在GenStudio和外部行銷工具(例如Meta)之間流動，以啟用啟用程式。
+在貴組織啟用體驗之前，GenStudio系統管理員必須將您的Meta帳戶連結至GenStudio for Performance Marketing。 此連線可讓資料在GenStudio和外部行銷工具（例如Meta）之間流動，以啟用啟用程式。 請參閱[連線至Meta Ads](/help/user-guide/connectors/meta-ads.md)。
 
-請參閱[連線至Meta Ads](/help/user-guide/connectors/meta-ads.md)。
+若要選取Instagram帳戶，請在Meta Business Manager中確認您要使用的[Instagram帳戶已連線至上線期間選取的相同廣告帳戶](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account)。 如果缺少此連線，Instagram帳戶可能不會在啟用期間出現在[!DNL GenStudio for Performance Marketing] _Instagram帳戶_&#x200B;下拉式功能表中。
 
 同步完成後，您可以檢視新增的帳戶。 大量資料需要更長的時間才能同步。
 
@@ -65,7 +57,7 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
 * **直接從[!DNL Content]**&#x200B;啟動。 透過預先定義的設定選取已核准的體驗，是啟動單一管道啟動的最簡化方式。
 
-* **從[!DNL Activate] > _體驗設定_**&#x200B;組合您的廣告體驗。 您可以從[!DNL Content]中選取視覺資產、新增文字元素，以及選取外觀比例，藉此建立體驗。 此方法包含更多步驟，但在打造創意體驗時可提供更大彈性。
+* **從[!DNL Activate] > _體驗設定_**組合您的廣告體驗。 您可以從[!DNL Content]中選取視覺資產、新增文字元素，以及選取外觀比例，藉此建立體驗。 此方法包含更多步驟，但在打造創意體驗時可提供更大彈性。
 
 ### 從內容啟用核准的體驗
 
@@ -81,7 +73,7 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
    如果您使用多個體驗，請在左側邊欄切換體驗，直到您完成每個體驗的準備為止。
 
-1. 按一下「下一步&#x200B;**&#x200B;**」以確認您的Meta廣告設定。
+1. 按一下「下一步&#x200B;****」以確認您的Meta廣告設定。
 
 1. 為每個體驗指派名稱。 啟用後，您可以使用此名稱在&#x200B;_已啟用的體驗_&#x200B;表格中搜尋此體驗。
 
@@ -96,7 +88,7 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
    _體驗設定_&#x200B;頁面提供準備廣告啟用的中央位置。 準備您的廣告包括以下三個工作：
 
 1. 為體驗指派名稱。 啟用後，您可以使用此名稱在&#x200B;_已啟用的體驗_&#x200B;表格中搜尋此體驗。
-1. 選取媒體資產。 您可以使用來自[!DNL Content]的資產或上傳外部資產(例如，來自OneDrive或Dropbox)。
+1. 選取媒體資產。 您可以使用來自[!DNL Content]的資產或上傳外部資產（例如，來自OneDrive或Dropbox）。
 1. [新增文字](#add-ad-text)。
 1. [新增中繼資料](#assign-metadata)。
 
@@ -120,7 +112,7 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
 1. 按一下「**[!UICONTROL 使用]**」，將選取的資產包含在您的廣告體驗中。 _體驗設定_&#x200B;視窗包含在&#x200B;_媒體_&#x200B;區域的預設外觀比例中的資產。 _預覽_&#x200B;面板在支援此外觀比例的廣告投放中預覽資產。
 
-如果上傳失敗，會開啟資訊性錯誤訊息，其中包含&#x200B;_[!DNL Content]_&#x200B;中資產的連結。
+如果上傳失敗，會開啟資訊性錯誤訊息，其中包含&#x200B;_[!DNL Content]_中資產的連結。
 
 **若要上傳外部資產**：
 
@@ -134,9 +126,9 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
 1. 將影像檔案拖放至影像上傳區域，選取支援外觀比例的影像。 或者，您也可以瀏覽裝置以尋找資產。
 
-1. （選擇性）若要從您的裝置上傳資產，請按一下[瀏覽] **&#x200B;**，然後選取[瀏覽]檔案&#x200B;_或[瀏覽]資料夾_&#x200B;以識別要上傳的資產。__
+1. （選擇性）若要從您的裝置上傳資產，請按一下[瀏覽] ****，然後選取[瀏覽]檔案&#x200B;_或[瀏覽]資料夾_&#x200B;以識別要上傳的資產。__
 
-1. 在&#x200B;_新增詳細資料_&#x200B;區域，新增資訊性詳細資料至您上傳的資產，以便在&#x200B;_[!DNL Content]_&#x200B;中搜尋和篩選。 這些詳細資料會儲存為中繼資料。
+1. 在&#x200B;_新增詳細資料_&#x200B;區域，新增資訊性詳細資料至您上傳的資產，以便在&#x200B;_[!DNL Content]_中搜尋和篩選。 這些詳細資料會儲存為中繼資料。
 
 1. 上傳資產和指派的詳細資料後，請按一下右下方的&#x200B;**[!UICONTROL 新增Assets]**。
 

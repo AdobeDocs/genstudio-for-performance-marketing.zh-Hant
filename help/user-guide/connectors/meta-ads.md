@@ -7,29 +7,15 @@ recommendations: noDisplay
 feature: Reporting and Insights
 exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
 TQID: https://experienceleague.adobe.com/egZtqgG24xRPuMu7QAnuo25ZgUr-q7hGL9-k1x-PCQ0
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: 875
 ht-degree: 0%
 
 ---
@@ -66,7 +52,7 @@ ht-degree: 0%
 
 1. 遵循Facebook驗證指示，驗證帳戶資訊，然後按一下&#x200B;**[!UICONTROL 繼續為……]**
 
-1. 在&#x200B;_[!UICONTROL 商務用Facebook登入]_ (Meta至Adobe符號)中，逐步執行下列選取專案以授予GenStudio for Performance Marketing存取權：
+1. 在&#x200B;_[!UICONTROL 商務用Facebook登入]_ （Meta至Adobe符號）中，逐步執行下列選取專案以授予GenStudio for Performance Marketing存取權：
 
    - 選取一或多個Meta企業設定檔，然後按一下&#x200B;**[!UICONTROL 繼續]**
    - 選取一或多個Meta頁面，然後按一下&#x200B;**[!UICONTROL 繼續]**
@@ -88,6 +74,23 @@ ht-degree: 0%
    ![Meta帳戶清單](/help/assets/meta/meta-accounts-list.png "連線的Meta帳戶清單"){zoomable="yes"}
 
 使用&#x200B;**[!UICONTROL 新增帳戶]**&#x200B;將更多帳戶新增至清單。 當您新增連結至相同Meta企業設定檔的帳戶時，授權流程可能會稍微不同。 在連線過程中，您只能選取新的Meta Ads帳戶。
+
+## 連線Instagram帳戶
+
+>[!IMPORTANT]
+>
+>在您啟用Meta廣告之前，請在Meta Business Manager中確認您要使用的Instagram帳戶已連線至上線期間選取的相同廣告帳戶。 如果缺少此連線，Instagram帳戶可能不會在啟用期間出現在[!DNL GenStudio for Performance Marketing] _Instagram帳戶_&#x200B;下拉式功能表中。
+
+**若要在Meta Business Manager中驗證或更新Instagram帳戶連線**：
+
+1. 移至&#x200B;**[!UICONTROL 設定]**。
+1. 在&#x200B;_帳戶_&#x200B;下，選取&#x200B;**[!UICONTROL Instagram帳戶]**。
+1. 選擇您要使用的Instagram帳戶。
+1. 按一下&#x200B;**[!UICONTROL 連線資產]**。
+1. 在&#x200B;_廣告帳戶_&#x200B;下，確認已列出上線期間使用的廣告帳戶。
+1. 如果未列出，請按一下&#x200B;**[!UICONTROL 連線資產]**&#x200B;並新增正確的廣告帳戶。
+
+在連線廣告帳戶後，返回[!DNL GenStudio for Performance Marketing]並繼續啟用流程。
 
 ## 連線最佳實務
 
@@ -140,5 +143,3 @@ ht-degree: 0%
 1. 第一次嘗試連線時，請勿選取Instagram帳戶。
 1. 在新增其他資產之前，請驗證連線是否成功。
 1. 當Page連線穩定後，請個別新增Instagram帳戶。
-
-
