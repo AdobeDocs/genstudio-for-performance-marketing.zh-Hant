@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: 501
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ aio app run
 
 >[!NOTE]
 >
->強制建置和部署會覆寫您現有的部署。**請先在測試環境中完整測試您的應用程式**。
+>強制建置和部署會覆寫您現有的部署。 **請先在測試環境中完整測試您的應用程式**。
 
 ```bash
 aio app build --force-build
@@ -111,6 +111,10 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 執行您選取的擴充功能以驗證產生的內容。
 
 ![有效驗證](./validation-valid.png){width="600" zoomable="yes"}
+
+發生錯誤時，您可以使用擴充功能以程式設計方式更新體驗副本。 按一下「**[!UICONTROL 複製]**」按鈕會將建議的文字複製到剪貼簿。 按一下&#x200B;**[!UICONTROL 套用]**&#x200B;按鈕會將文字套用至所產生體驗中的特定文字方塊。
+
+![顯示複製和套用按鈕的驗證錯誤](./validation-copy-apply.png){width="600" zoomable="yes"}
 
 ### 尋找DAM擴充功能
 
