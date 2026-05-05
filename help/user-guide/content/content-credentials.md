@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
 workflow-type: tm+mt
 source-wordcount: 723
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 0%
 >
 > 此功能目前為測試版，僅供已獲得存取權的組織使用。 如有興趣，請洽詢您的Adobe客戶團隊代表，或[使用此連結來要求註冊](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr)。
 
-## 開始使用Content Credentials {#content-credentials}
+## 開始使用 Content Credentials {#content-credentials}
 
 >[!CONTEXTUALHELP]
 >id="gspm_content_credentials"
->title="[!DNL GenStudio for Performance Marketing]中的Content Credentials"
->abstract="內容防篡改認證，可證明品牌真實性並促進法規遵循，可直接內嵌於行銷工作流程中。"
+>title="[!DNL GenStudio for Performance Marketing] 中的 Content Credentials"
+>abstract="能夠證明品牌真實性及促進合規性的防篡改內容認證，可以直接嵌入您的行銷工作流程中。"
 
 在Admin Console中啟用Content Credentials後，GenStudio for Performance Marketing使用者就可以在應用程式中為全域所有資產開啟Content Credentials。 如果已關閉套用認證的全域選項，使用者可以選擇為每個個別資產套用Content Credentials。
 
