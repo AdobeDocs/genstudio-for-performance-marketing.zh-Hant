@@ -24,24 +24,24 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 10082fcc357e53ce6a084fb466d60a5674ea9f9e
+source-git-commit: acdd8a2f6b066a7b4849e92c94127011dc6daed5
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1469
 ht-degree: 1%
 
 ---
 
-# 廣告和廣告刊登概觀
+# 廣告標籤和廣告版位概觀
 
-[!DNL Insights] _[!UICONTROL 廣告]_&#x200B;檢視會顯示已連線頻道廣告帳戶的廣告清單。 _廣告_&#x200B;是一種促銷資產，包含視覺和互動式內容，旨在作為行銷活動的一部分發佈給特定對象。
+[!DNL Insights] _[!UICONTROL 廣告標籤]_&#x200B;檢視會顯示已連線頻道廣告帳戶的廣告清單。 _廣告_&#x200B;是一種促銷資產，包含視覺和互動式內容，旨在作為行銷活動的一部分發佈給特定對象。
 
 {{connect-insights}}
 
-_[!UICONTROL 廣告]_&#x200B;表格是使用[!UICONTROL 廣告名稱]來組織。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。
+_[!UICONTROL 廣告標籤]_&#x200B;表格是使用[!UICONTROL 廣告名稱]來組織。 按一下表格右上方的設定(cog)圖示，以切換可檢視欄。
 
-![廣告篩選和資料表](/help/assets/insights-ads-filter.png){zoomable="yes"}
+![廣告標籤見解績效量度](./ad-tags-tab.png)
 
-_[!UICONTROL 廣告]_&#x200B;相簿檢視會顯示廣告預覽拼貼和量度，例如點進率。 按一下相簿右上方的設定(cog)圖示，開啟&#x200B;**[!UICONTROL 卡片設定]**&#x200B;並切換三個可檢視量度之一：
+_[!UICONTROL 廣告標籤]_&#x200B;相簿檢視會顯示廣告預覽的拼貼和量度，例如點進率。 按一下相簿右上方的設定(cog)圖示，開啟&#x200B;**[!UICONTROL 卡片設定]**&#x200B;並切換三個可檢視量度之一：
 
 - CPA （每個動作的成本）
 - CTR （點進率）
