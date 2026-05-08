@@ -2,9 +2,9 @@
 title: 適用於GenStudio的Marketo
 description: 安裝和設定適用於GenStudio Adobe Exchange應用程式的Marketo ，讓您的組織可以在GenStudio for Performance Marketing中使用Marketo Engage範本。
 feature: Extensibility
-source-git-commit: 4118624b479905cd2f2193d542c000678daaf4b8
+source-git-commit: c9bfee479a433a1303a66a66917b0bbe60f24a74
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -22,30 +22,37 @@ ht-degree: 0%
 
 ## 從Adobe Exchange安裝應用程式
 
->[!VIDEO](https://video.tv.adobe.com/v/3483322?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483299?learn=on)
 
 1. 開啟[Adobe Exchange](https://exchange.adobe.com)並移至&#x200B;**[!UICONTROL Experience Cloud]**。
-1. 開啟GenStudio [&#128279;](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio)適用的Marketo清單。
-   在Adobe Exchange![&#128279;](/help/extensibility/marketo-adobe-exchange.png){width="75%"}上列出適用於GenStudio的Marketo
+1. 開啟GenStudio ](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio)適用的[Marketo清單。
+   在Adobe Exchange](/help/extensibility/marketo-adobe-exchange.png){width="75%"}上列出適用於GenStudio的![Marketo
 1. 選取&#x200B;**[!UICONTROL 免費]**&#x200B;為您的組織請求應用程式。
 1. 在您的組織&#x200B;**稽核並核准**&#x200B;要求之後，請繼續[取得Marketo認證](#get-marketo-credentials)以及[從Exchange部署應用程式](#deploy-the-application-from-exchange)。
 
 ## 取得Marketo認證
 
-您使用的是來自&#x200B;**Marketo**&#x200B;執行個體（而非Adobe Developer Console）的認證。 在Exchange中部署之前，請先收集下列專案。
+您使用的是來自&#x200B;**Marketo**&#x200B;執行個體（而非Adobe Developer Console）的認證。 在Exchange中部署之前，請先透過下列步驟收集下列認證。
+
+>[!NOTE]
+>
+>若要產生和擷取Marketo認證，您需要擁有Marketo產品管理員存取權，否則Marketo中不會顯示管理員索引標籤。
 
 ### 建立僅限API的使用者（如果您重複使用現有的API使用者，則為選用）
 
 1. 在Marketo中，移至&#x200B;**[!UICONTROL 管理員]**。
-1. 在&#x200B;**[!UICONTROL 安全性]**&#x200B;底下，開啟&#x200B;**[!UICONTROL 使用者與角色]**。
-1. 若是新的API使用者，請按一下&#x200B;**[!UICONTROL 僅建立API使用者]** （針對每個API使用者使用唯一的電子郵件）。 指派&#x200B;**[!UICONTROL API角色（所有工作區）]**&#x200B;角色（或貴組織所需的角色）。 如果您已有要使用的API使用者，請跳至[建立或選取LaunchPoint服務](#create-or-select-a-launchpoint-service)。
+   ![Marketo管理標籤](/help/extensibility/marketo-admin-global.png){width="80%"}
+1. 在&#x200B;**[!UICONTROL 安全性]**&#x200B;下，開啟&#x200B;**[!UICONTROL 使用者與角色]**，並移至&#x200B;**[!UICONTROL 角色]**&#x200B;標籤。
+1. 建立新角色或編輯現有的角色，新增下列許可權： _Access API_&#x200B;和&#x200B;_Access Design Studio_。
+1. 若是新的API使用者，請按一下&#x200B;**[!UICONTROL 僅建立API使用者]** （針對每個API使用者使用唯一的電子郵件）。
+1. 選取「角色」的核取方塊，並指派您建立的新角色。 如果您已有要使用的API使用者，請跳至[建立或選取LaunchPoint服務](#create-or-select-a-launchpoint-service)。
 
 ![僅API使用者與API角色的使用者與角色](/help/extensibility/marketo-users-roles-api-user.png){width="80%"}
 
 ### 建立或選取LaunchPoint服務
 
 1. 在&#x200B;**[!UICONTROL Admin]**&#x200B;中，在&#x200B;**[!UICONTROL Integration]**&#x200B;下，開啟&#x200B;**[!UICONTROL LaunchPoint]**。
-1. 按一下「建立&#x200B;**&#x200B;**」以建立新服務（或使用現有的自訂服務）。
+1. 按一下「建立&#x200B;****」以建立新服務（或使用現有的自訂服務）。
    ![LaunchPoint自訂服務](/help/extensibility/marketo-launchpoint-custom-service.png){width="80%"}
 1. 針對您的服務，按一下&#x200B;**[!UICONTROL 檢視詳細資料]**&#x200B;並複製&#x200B;**[!UICONTROL 使用者端識別碼]**&#x200B;和&#x200B;**[!UICONTROL 使用者端密碼]**。 您將在Adobe Exchange **[!UICONTROL 設定]**&#x200B;中輸入這些專案。
 
@@ -66,12 +73,26 @@ ht-degree: 0%
 1. 選取「**[!UICONTROL 管理]**」並開啟GenStudio適用的&#x200B;**Marketo**&#x200B;應用程式（例如在&#x200B;**[!UICONTROL App Builder應用程式]**&#x200B;或您組織的Managed App下）。
 1. 在&#x200B;**[!UICONTROL 環境]**&#x200B;下，從下拉式清單中選擇現有環境，或選取&#x200B;**[!UICONTROL 新增環境]**&#x200B;以建立環境。
 1. 開啟所選環境的&#x200B;**[!UICONTROL 組態]**。
-1. 輸入來自[LaunchPoint](#create-or-select-a-launchpoint-service)的&#x200B;**[!UICONTROL 使用者端識別碼]**&#x200B;和&#x200B;**[!UICONTROL 使用者端密碼]**、**[!UICONTROL Marketo Engage身分URL]**&#x200B;以及&#x200B;**[!UICONTROL Marketo Engage REST API基底URL]** （來自[Web服務](#note-your-marketo-rest-api-base-url)的基底主機）。
+1. 針對Marketo Engage Identity URL和Marketo Engage REST API基底URL，輸入來自[LaunchPoint](#create-or-select-a-launchpoint-service)、**[!UICONTROL Marketo Engage Identity URL]**&#x200B;和&#x200B;**[!UICONTROL Marketo Engage REST API基底URL]** （來自[Web服務](#note-your-marketo-rest-api-base-url)的基底&#x200B;主機）的&#x200B;**[!UICONTROL 使用者端識別碼]**&#x200B;和&#x200B;**[!UICONTROL 使用者端密碼]**。
 1. 按一下&#x200B;**[!UICONTROL 部署]**。 部署成功時，動作會變更為&#x200B;**[!UICONTROL 取消部署]**。
 
 ### 更新設定
 
-若要變更環境的設定值，請先取消部署&#x200B;**&#x200B;**，更新欄位，然後再次&#x200B;**[!UICONTROL 部署]**。
+若要變更環境的設定值，請先取消部署&#x200B;****，更新欄位，然後再次&#x200B;**[!UICONTROL 部署]**。
+
+### Workspace設定（選擇性）
+
+如果您要使用預設工作區，可以略過此步驟。 依預設，**Workspace ID**&#x200B;和&#x200B;**範本清單頁面大小**&#x200B;欄位已預先設定。
+
+不過，如果您需要從不同的工作區擷取範本：
+
+1. 在Marketo中，導覽至&#x200B;**[!UICONTROL 管理員]** → **[!UICONTROL 安全性]** → **[!UICONTROL 工作區與分割區]**。
+1. **Workspace ID**&#x200B;欄預設為隱藏。 若要啟用此功能，請在標題列上按一下滑鼠右鍵（會顯示欄名稱）。
+1. 選取&#x200B;**[!UICONTROL 欄]**。
+1. 啟用清單中的&#x200B;**[!UICONTROL ID]**。
+   ![已啟用Workspace ID資料行的Workspaces &amp; Partitions](/help/extensibility/marketo-workspace-id.png){width="80%"}
+
+一旦顯示，請針對您的設定使用適當的&#x200B;**Workspace ID**。
 
 ## 存取GenStudio中的Marketo範本
 
@@ -94,3 +115,12 @@ ht-degree: 0%
 
 * 重新載入頁面或登出並重新登入GenStudio。
 * 在瀏覽器開發人員工具&#x200B;**[!UICONTROL 網路]**&#x200B;面板中，尋找對您的Marketo執行個體發出失敗的API呼叫，並驗證REST基底URL是否符合Marketo中的&#x200B;**[!UICONTROL 網頁服務]** （主機後面沒有額外的路徑）。
+
+### 「找不到範本」錯誤
+
+如果擴充功能安裝成功，且Marketo範本標籤可見但顯示「找不到範本」，問題可能是由應用程式在轉譯範本時超出大小限制所導致。
+若要解決此問題：
+
+1. 從Exchange解除部署應用程式。
+1. 縮小範本清單頁面大小（例如，將其設為1或2）。
+1. 重新部署應用程式。
