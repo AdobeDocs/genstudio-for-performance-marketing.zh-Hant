@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 605ae7a178cd0ad10e302457a9717bb286e81ebb
+source-git-commit: da699f7dc5bd4f0994af4a912017dd2503afed69
 workflow-type: tm+mt
-source-wordcount: 727
-ht-degree: 89%
+source-wordcount: 729
+ht-degree: 88%
 
 ---
 
@@ -51,6 +51,7 @@ GenStudio for Performance Marketing [!DNL Create]運用Adobe GenAI的強大功�
 * [Meta廣告](meta-experiences.md)
 * [LinkedIn廣告](linkedin-experiences.md)
 * [TikTok廣告](tiktok-experiences.md)
+* [ChatGPT廣告](create-chatgpt-ad.md)
 * [連線電視廣告](create-ctv.md)
 * [顯示廣告](display-ad-experiences.md)
 * [橫幅](banner-experiences.md)
