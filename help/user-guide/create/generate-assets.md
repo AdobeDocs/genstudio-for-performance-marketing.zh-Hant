@@ -8,12 +8,25 @@ level: Beginner
 recommendations: noDisplay
 exl-id: c1118ada-7fee-43cd-aff4-eab69539afb4
 TQID: https://experienceleague.adobe.com/NXtN00EKTe0lGI8jJMJWJfWx6mHoMQI1of1mJhgrR5U
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e4a0febc-5163-4017-82ce-fc7594509fb6id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: e4a0febc-5163-4017-82ce-fc7594509fb6
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 6d1053bf94b0a0ba65be90359e4d176e64dfffae
 workflow-type: tm+mt
 source-wordcount: 752
@@ -23,13 +36,13 @@ ht-degree: 0%
 
 # 產生影像變體
 
-使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （繪圖筆刷圖示），您就可以產生&#x200B;_[!DNL Image variants]_個從選取的影像中汲取靈感的產生資產，擷取其視覺效果和整體美感。<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL Image variants]_ and _[!DNL Similar images]_. -->
+使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) （繪圖筆刷圖示），您就可以產生&#x200B;_[!DNL Image variants]_&#x200B;個從選取的影像中汲取靈感的產生資產，擷取其視覺效果和整體美感。<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL Image variants]_ and _[!DNL Similar images]_. -->
 
 若要設計吸引目光且有效的影像，建議您[在GenStudio for Performance Marketing中新增准則](/help/user-guide/guidelines/add-guidelines.md)，並檢閱撰寫提示的[基本知識](/help/user-guide/effective-prompts.md)。
 
 ## 影像型別
 
-_[!DNL Image variants]_是從選定影像中汲取靈感的已產生資產，擷取其視覺效果和整體美感。 這些影像是使用[!DNL Content]中已提供的影像以及精心製作的提示來建立，以指導設計。 它們嚴格遵守品牌指導方針和在產生過程中選擇的引數。
+_[!DNL Image variants]_&#x200B;是從選定影像中汲取靈感的已產生資產，擷取其視覺效果和整體美感。 這些影像是使用[!DNL Content]中已提供的影像以及精心製作的提示來建立，以指導設計。 它們嚴格遵守品牌指導方針和在產生過程中選擇的引數。
 
 _[!DNL Image variants]_<!-- and _[!DNL Similar images]_ -->整合設定准則、引數，以及[精心打造的提示](/help/user-guide/effective-prompts.md)，以提供吸引目光的影像資產。
 
@@ -45,9 +58,9 @@ _[!DNL Image variants]_<!-- and _[!DNL Similar images]_ -->整合設定准則、
 
 **若要選擇參考影像**：
 
-1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL 產生影像變體]**。
+1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL 產生影像變體]**。
    ![產生影像變體](./gen-image-variants.png){width="400" zoomable="yes"}
-1. 若要選擇參考影像，請使用&#x200B;_[!UICONTROL 從內容中選取]_按鈕來尋找特定影像。
+1. 若要選擇參考影像，請使用&#x200B;_[!UICONTROL 從內容中選取]_&#x200B;按鈕來尋找特定影像。
    ![從內容中選取](./gen-variant-select-from-content.png){width="200" zoomable="yes"}
 
    若要使用已連線[!DNL AEM Assets Content Hub]存放庫中的資產，請從&#x200B;_位置_&#x200B;下拉式選單中選擇存放庫。 篩選並選取一個影像。
