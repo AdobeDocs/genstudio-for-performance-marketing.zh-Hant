@@ -4,19 +4,13 @@ description: 部署適用於GenStudio for Performance Marketing的App Builder應
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
 TQID: https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bfaa655b-e017-428d-80d0-09de2183b296id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 622
 ht-degree: 0%
 
 ---
@@ -91,6 +85,7 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 * [數位資產管理(DAM)擴充功能](#find-dam-extensions)
 * [範本副檔名](#find-template-extensions)
 * [翻譯擴充功能](#find-translation-extensions)
+* [內容片段延伸](#find-content-fragment-extension)
 
 ### 尋找提示副檔名
 
@@ -128,7 +123,6 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 ![範本延伸模組](./template-ext.png){width="600" zoomable="yes"}
 
-
 ### 尋找翻譯擴充功能
 
 使用翻譯擴充功能點，透過Proxy提供您自己的翻譯服務，而不使用GenStudio預設翻譯。
@@ -136,7 +130,21 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 
 如果已註冊擴充功能，則會使用提供的翻譯服務。 否則會使用預設的GenStudio翻譯服務。
 
+### 尋找內容片段延伸模組
 
+[!DNL GenStudio for Performance Marketing]中的內容片段延伸以來自連線第三方(3P)存放庫的專案，取代[!DNL Create]畫布上產生的電子郵件體驗中的文字。 設定並部署擴充功能後，您無需離開工作流程即可從畫布交換副本。
+
+>[!NOTE]
+>
+>內容片段延伸功能交換現在可用於畫布上的&#x200B;**電子郵件**&#x200B;體驗。 即將提供&#x200B;**Horizon**&#x200B;管道支援。
+
+**若要使用內容片段延伸**&#x200B;交換文字：
+
+1. 在畫布上，按一下所產生電子郵件變體中的可編輯文字欄位。
+1. 按一下&#x200B;**[!UICONTROL 交換]**。
+   ![交換文字](./subject-line-swap.png){width="400" zoomable="yes"}
+1. 選取您的第三方存放庫。 您的組織可以控制要顯示哪些存放庫以及存放庫UI的行為。
+1. 選取要用來取代欄位文字的索賠。
 
 如果您對您的附加元件感到滿意，您就可以不使用`query`引數來分配它。
 
