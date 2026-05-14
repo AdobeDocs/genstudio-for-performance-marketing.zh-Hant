@@ -14,9 +14,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 8caee588140b91f81a8c77f7da4b930674f46865
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 620
 ht-degree: 4%
 
 ---
@@ -32,6 +32,8 @@ GenStudio Experience Selector MFE允許使用者：
 - 支援單一和多重選取模式
 - 透過SUSI （註冊登入）整合處理驗證
 - 在不同的架構中提供一致的UI
+
+若要使用LWC和選用的電子郵件範本將此MFE內嵌於Salesforce Lightning，請參閱[Salesforce中的Experience Selector MFE](experience-selector-salesforce.md)。
 
 ## 整合選項
 

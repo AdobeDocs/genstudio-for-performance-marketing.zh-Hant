@@ -5,10 +5,10 @@ user-guide-description: 探索 Adobe GenStudio for Performance Marketing 的擴�
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: Developer
-source-git-commit: 566c951706642fd5cde0ce584a5248489e76e917
+source-git-commit: 8caee588140b91f81a8c77f7da4b930674f46865
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 53%
+source-wordcount: '73'
+ht-degree: 47%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 53%
 + 第一方擴充功能 {#first-party}
    + [適用於GenStudio的Journey Optimizer](journey-optimizer-for-genstudio.md)
    + [適用於GenStudio的Marketo](marketo-for-genstudio.md)
++ 3P擴充功能 {#third-party-extensions}
+   + [Salesforce中的Experience Selector MFE](experience-selector-salesforce.md)
 
 <!--
   + UI Extensions {#ui}
