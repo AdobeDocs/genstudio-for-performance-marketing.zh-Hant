@@ -4,9 +4,9 @@ description: 探索能夠整合Adobe Express資產的GenStudio for Performance M
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
+source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL GenStudio for Performance Marketing]可以使用已在[!DNL Adobe Express]中建立和設計的範本。 從[!DNL Adobe Express]取得品牌資產，並使用這些強大的工具將它們整合到引人入勝的行銷活動和[!DNL Experiences]中。
 
-本指南說明[!DNL Adobe Express]範本的需求和功能。
+本指南說明[!DNL Adobe Express]範本的需求和功能。 如需更多秘訣和最佳實務，請參閱[使用範本的最佳實務](/help/user-guide/templates/best-practices-for-templates.md#express-to-genstudio-template-best-practices)。
 
 ## 關於[!DNL Adobe Express]中的範本
 
