@@ -6,24 +6,14 @@ role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
 TQID: https://experienceleague.adobe.com/-lwSfvc0TnVd8byNT-5OfoEsXz7yaeIifcHOJtp-n4c
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 853b63dbc04410c09a0b44c05f3655c06e5dfbcb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: dee4e9a9-78d1-4953-8179-f8da6117027did: ee4b6e5f-5b7a-421b-9859-0f964841a866
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: 580
 ht-degree: 0%
 
 ---
@@ -88,7 +78,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 >
 >內容片段交換現在可用於畫布上的&#x200B;**電子郵件**&#x200B;體驗。 即將提供&#x200B;**Horizon**&#x200B;管道支援。
 
-企業電子郵件內容通常需要新產生的復本和核准的模組化區塊（例如免責宣告、安全語言、優惠方案和法規宣告），以及您為範本打造的內容。 在[!DNL Adobe Experience Manager]、[!DNL Marketo Engage]、[!DNL Adobe Journey Optimizer]和[!DNL Adobe Campaign]中儲存模組化內容的團隊可以找到並交換該內容，以便在電子郵件體驗中使用，而不需離開[!DNL GenStudio for Performance Marketing]。 這對於以下專案非常有用：
+企業電子郵件內容通常需要新產生的復本和核准的模組化區塊（例如免責宣告、安全語言、優惠方案和法規宣告），以及您為範本打造的內容。 在[!DNL Adobe Experience Manager]中儲存模組化內容的團隊可以尋找並交換該內容，以使用電子郵件體驗，而不需離開[!DNL GenStudio for Performance Marketing]。 這對於以下專案非常有用：
 
 * **法規遵循感知內容：** AI可以填滿創意位置，而法規遵循核准的片段會取代可插入的位置；透過匯出，鎖定的法律區域保持不變。
 * **可重複使用的核准內容元件：**&#x200B;核准的標題、地區免責宣告或產品說明在[!DNL Adobe Experience Manager]中仍可保留記錄系統，而作者將其拉入變體，而不需要複製 — 貼上因應措施。
