@@ -10,7 +10,7 @@ git-repo: https://github.com/AdobeDocs/genstudio-for-performance-marketing.zh-Ha
 mini-toc-levels: 2
 description: Adobe GenStudio for Performance Marketing指南
 index: true
-source-git-commit: 56115543221f6b7deb37bc5275bb69f1559281ef
+source-git-commit: 15956dfaa922f998e4f1ea28936cb6ec991a35a9
 workflow-type: tm+mt
 source-wordcount: 77
 ht-degree: 67%
