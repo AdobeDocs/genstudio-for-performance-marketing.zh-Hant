@@ -1,16 +1,16 @@
 ---
 cloud: Experience Cloud
 solution: GenStudio for Performance Marketing
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+usetq: true
 landing-page-name: genstudio-for-performance-marketing
 landing-page-breadcrumb-title: GenStudio
 type: Documentation
-git-repo: https://github.com/AdobeDocs/genstudio-for-performance-marketing.zh-Hant
+git-repo: https://github.com/AdobeDocs/genstudio-for-performance-marketing.en
 mini-toc-levels: 2
 description: Adobe GenStudio for Performance Marketing指南
 index: true
-source-git-commit: 15956dfaa922f998e4f1ea28936cb6ec991a35a9
+source-git-commit: c01f914f24f54e62952507d88ba72547a6a3c372
 workflow-type: tm+mt
 source-wordcount: 77
 ht-degree: 67%
