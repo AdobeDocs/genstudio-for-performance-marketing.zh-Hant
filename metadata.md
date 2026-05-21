@@ -1,7 +1,8 @@
 ---
 cloud: Experience Cloud
 solution: GenStudio for Performance Marketing
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
 usetq: true
 landing-page-name: genstudio-for-performance-marketing
 landing-page-breadcrumb-title: GenStudio
