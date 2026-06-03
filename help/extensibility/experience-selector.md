@@ -14,7 +14,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 600579af1957bd8ee6816eb35038ec0f1d03b854
+source-git-commit: 084f67d1897858ad8c2eb73b94d5881129df5655
 workflow-type: tm+mt
 source-wordcount: 655
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 Experience Selector是Micro Frontend (MFE)，提供用於選取GenStudio體驗的`ExperienceSelectorDialog`元件。 從獨立的JavaScript套件組合匯入`renderExperienceSelectorWithSUSI`函式，在您的應用程式中使用元件，這會自動載入最新部署的Micro Frontend，並顯示一個天然元件介面。
 
->[!TIP]
+>[!NOTE]
 >
 >**可用的API服務** GenStudio API提供RESTful API來管理體驗。
 >
