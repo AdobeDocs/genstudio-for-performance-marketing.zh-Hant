@@ -5,32 +5,12 @@ feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
 TQID: https://experienceleague.adobe.com/i3VF7S-ndAMDoF1akF3l20tStW-IPS--MSysxD-MArc
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-  - id: f912fa8d-7beb-4468-9ea7-1c0f198b59ef
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32id: f912fa8d-7beb-4468-9ea7-1c0f198b59ef
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 754
 ht-degree: 0%
@@ -39,7 +19,7 @@ ht-degree: 0%
 
 # 概念
 
-GenStudio for Performance Marketing是獨立企業產品，其中包含Adobe的內容supply chain，可簡化行銷活動。 大規模建立個人化、品牌核准的內容、監控成效，以及快速適應不斷變化的市場，這些都是極具挑戰性的工作。 GenStudio for Performance Marketing將Creative Cloud和Experience Cloud整合在一個應用程式中，該應用程式利用創作AI作為企業行銷團隊的效能倍增器。
+GenStudio for Performance Marketing是獨立企業產品，其中包含Adobe的內容supply chain，可簡化行銷活動。 大規模建立個人化、品牌核准的內容、監控成效，以及快速適應不斷變化的市場，這些都是極具挑戰性的工作。 GenStudio for Performance Marketing將Creative Cloud和CX Enterprise整合到一個應用程式中，該應用程式利用創作AI作為企業行銷團隊的效能倍增器。
 
 透過GenStudio for Performance Marketing，您可以：
 
@@ -65,7 +45,7 @@ GenStudio for Performance Marketing透過Azure OpenAI使用GPT系列的協力廠
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_(如[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所定義)是量化GenStudio for Performance Marketing內產生式AI功能之使用的單位。
+_[!DNL Generative Actions]_（如[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所定義）是量化GenStudio for Performance Marketing內產生式AI功能之使用的單位。
 
 <!-- 
 Add example about usage mode?
@@ -76,11 +56,11 @@ If genactions roll over month to month or not
 
 ### 費率
 
-您會收到[GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所述的[!DNL Generative Actions]預設配額。
+您會收到[GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所述的[!DNL Generative Actions]預設配額。
 
 >[!NOTE]
 >
->使用率可能有所不同。 計畫可能會有變動。 如需更新的費率資訊，請參閱[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)。
+>使用率可能有所不同。 計畫可能會有變動。 如需更新的費率資訊，請參閱[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)。
 
 下列函式以指定的速率使用[!DNL Generative Actions]。
 
