@@ -2,9 +2,9 @@
 title: 適用於GenStudio的Journey Optimizer
 description: 安裝和設定適用於GenStudio Adobe Exchange應用程式的Journey Optimizer ，讓您的組織可以在GenStudio for Performance Marketing中使用Adobe Journey Optimizer範本。
 feature: Extensibility
-source-git-commit: fbec4567d960a6e3607c5e5e43057e2f22e9f6ea
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483310?captions=chi_hant&learn=on)
 
-1. 開啟[Adobe Exchange](https://exchange.adobe.com)並移至&#x200B;**[!UICONTROL Experience Cloud]**。
+1. 開啟[Adobe Exchange](https://exchange.adobe.com)並移至&#x200B;**[!UICONTROL CX Enterprise]**。
 1. 開啟GenStudio [&#128279;](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio)適用的Journey Optimizer清單。
    Adobe Exchange上適用於GenStudio的![Journey Optimizer清單，包括需求和免費安裝](/help/extensibility/ajo-adobe-exchange.png){width="75%"}
 1. 選取&#x200B;**[!UICONTROL 免費]**&#x200B;為您的組織請求應用程式。
@@ -36,7 +36,7 @@ ht-degree: 0%
 在[Adobe Developer Console](https://developer.adobe.com/console/)中建立提供Journey Optimizer API的OAuth認證的&#x200B;**專案**。 當您在Exchange中設定應用程式時，將需要&#x200B;**使用者端識別碼**、**使用者端密碼**、**組織識別碼**&#x200B;和&#x200B;**領域**&#x200B;之類的值。
 
 1. 登入Adobe Developer Console並建立&#x200B;**新專案**。
-1. 按一下「**[!UICONTROL 新增API]**」並從&#x200B;**[!DNL Experience Cloud]**&#x200B;產品API清單中選取「**[!UICONTROL Adobe Journey Optimizer (AJO) API]**」，將&#x200B;**Adobe Journey Optimizer () API**&#x200B;新增至專案。
+1. 按一下「**[!UICONTROL 新增API]**」並從&#x200B;**[!DNL CX Enterprise]**&#x200B;產品API清單中選取「**[!UICONTROL Adobe Journey Optimizer (AJO) API]**」，將&#x200B;**Adobe Journey Optimizer () API**&#x200B;新增至專案。
 1. 在專案工作區中產生認證，並複製&#x200B;**使用者端識別碼**、**使用者端密碼**、**組織識別碼**、**領域**&#x200B;以及部署流程要求的任何其他值。 安全地儲存它們以供下一節使用。
 
 >[!NOTE]
@@ -57,11 +57,11 @@ ht-degree: 0%
    ![部署前使用AJO認證進行設定（草稿）](/help/extensibility/ajo-config-004.png){width="80%"}
 1. 輸入已新增Journey Optimizer API之Developer Console專案的認證（例如，**[!UICONTROL AJO使用者端識別碼]**、**[!UICONTROL AJO使用者端密碼]**&#x200B;和&#x200B;**[!UICONTROL AJO權杖端點]**，以及任何其他必要欄位）。
 1. 請以全部小寫輸入&#x200B;**沙箱名稱** （例如，`prod`）。
-1. 按一下&#x200B;**[!UICONTROL 部署]**。 部署完成後，狀態將顯示為已部署。 按鈕文字將變更為&#x200B;**[!UICONTROL 取消部署]**。
+1. 按一下&#x200B;**[!UICONTROL 部署]**。部署完成後，狀態將顯示為已部署。按鈕文字將變更為&#x200B;**[!UICONTROL 取消部署]**。
    在App Builder應用程式檢視上可使用![已部署的應用程式與取消部署](/help/extensibility/ajo-config-005.png){width="80%"}
 
-部署後，Adobe Developer Console包含一個名為&#x200B;**Journey Optimizer的新自動產生專案，此專案適用於GenStudio &lt;Your_Environment_Name>**&#x200B;搭配AJO和Adobe Runtime API。 此專案是唯讀的，無法編輯或刪除。
-部署後![唯讀自動產生的Developer Console專案](/help/extensibility/ajo-auto-project.png){width="100%"}
+部署後，Adobe Developer Console包含一個名為&#x200B;**Journey Optimizer （適用於GenStudio &lt;Your_Environment_Name>**），並具有AJO和Adobe Runtime API的自動產生新專案。此專案是唯讀的，無法編輯或刪除。
+![部署後以唯讀方式自動產生的Developer Console專案](/help/extensibility/ajo-auto-project.png){width="100%"}
 
 ### 更新設定
 

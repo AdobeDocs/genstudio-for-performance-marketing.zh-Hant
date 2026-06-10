@@ -12,7 +12,7 @@ feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 338
 ht-degree: 5%
@@ -29,7 +29,7 @@ GenStudio for Performance Marketing附加元件架構提供工具，讓組織將
 
 本指南說明建立附加元件的程式，以自訂及增強GenStudio for Performance Marketing核心AI驅動的內容建立功能。
 
-適用於GenStudio for Performance Marketing之可擴充應用程式的開發人員使用標準Adobe Experience Cloud應用程式開發工具集架構，來開發和部署自訂應用程式或附加元件。[Adobe App Builder](https://developer.adobe.com/app-builder/)是此開發工具集的中心。
+適用於GenStudio for Performance Marketing之可擴充應用程式的開發人員使用標準Adobe CX Enterprise應用程式開發工具集架構，來開發和部署自訂應用程式或附加元件。 [Adobe App Builder](https://developer.adobe.com/app-builder/)是此開發工具集的中心。
 
 附加元件的建立包括下列高階工作：
 

@@ -2,7 +2,7 @@
 title: 適用於GenStudio的Marketo
 description: 安裝和設定適用於GenStudio Adobe Exchange應用程式的Marketo ，讓您的組織可以在GenStudio for Performance Marketing中使用Marketo Engage範本。
 feature: Extensibility
-source-git-commit: c9bfee479a433a1303a66a66917b0bbe60f24a74
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483322?captions=chi_hant&learn=on)
 
-1. 開啟[Adobe Exchange](https://exchange.adobe.com)並移至&#x200B;**[!UICONTROL Experience Cloud]**。
+1. 開啟[Adobe Exchange](https://exchange.adobe.com)並移至&#x200B;**[!UICONTROL CX Enterprise]**。
 1. 開啟GenStudio [&#128279;](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio)適用的Marketo清單。
    在Adobe Exchange![&#128279;](/help/extensibility/marketo-adobe-exchange.png){width="75%"}上列出適用於GenStudio的Marketo
 1. 選取&#x200B;**[!UICONTROL 免費]**&#x200B;為您的組織請求應用程式。

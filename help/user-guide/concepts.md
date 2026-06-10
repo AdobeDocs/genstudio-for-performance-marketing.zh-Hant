@@ -30,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 754
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 # 概念
 
-GenStudio for Performance Marketing是獨立企業產品，其中包含Adobe的內容supply chain，可簡化行銷活動。 大規模建立個人化、品牌核准的內容、監控成效，以及快速適應不斷變化的市場，這些都是極具挑戰性的工作。 GenStudio for Performance Marketing將Creative Cloud和Experience Cloud整合在一個應用程式中，該應用程式利用創作AI作為企業行銷團隊的效能倍增器。
+GenStudio for Performance Marketing是獨立企業產品，其中包含Adobe的內容supply chain，可簡化行銷活動。 大規模建立個人化、品牌核准的內容、監控成效，以及快速適應不斷變化的市場，這些都是極具挑戰性的工作。 GenStudio for Performance Marketing將Creative Cloud和CX Enterprise整合到一個應用程式中，該應用程式利用創作AI作為企業行銷團隊的效能倍增器。
 
 透過GenStudio for Performance Marketing，您可以：
 
@@ -65,7 +65,7 @@ GenStudio for Performance Marketing透過Azure OpenAI使用GPT系列的協力廠
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_(如[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所定義)是量化GenStudio for Performance Marketing內產生式AI功能之使用的單位。
+_[!DNL Generative Actions]_（如[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中所定義）是量化GenStudio for Performance Marketing內產生式AI功能之使用的單位。
 
 <!-- 
 Add example about usage mode?

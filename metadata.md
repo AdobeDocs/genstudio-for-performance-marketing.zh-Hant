@@ -1,5 +1,5 @@
 ---
-cloud: Experience Cloud
+cloud: CX Enterprise
 solution: GenStudio for Performance Marketing
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
@@ -11,10 +11,10 @@ git-repo: https://github.com/AdobeDocs/genstudio-for-performance-marketing.zh-Ha
 mini-toc-levels: 2
 description: Adobe GenStudio for Performance Marketing指南
 index: true
-source-git-commit: c01f914f24f54e62952507d88ba72547a6a3c372
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 77
-ht-degree: 67%
+ht-degree: 83%
 
 ---
 
