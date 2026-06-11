@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: da699f7dc5bd4f0994af4a912017dd2503afed69
+source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
 workflow-type: tm+mt
-source-wordcount: 729
-ht-degree: 88%
+source-wordcount: 794
+ht-degree: 81%
 
 ---
 
@@ -234,6 +234,18 @@ GenStudio for Performance Marketing會針對每個變體執行[內容檢查](/he
 草稿會自動儲存並顯示在[!DNL Create]首頁的&#x200B;_最近_&#x200B;區段中。 本區段中的每個草稿都會顯示狀態，例如&#x200B;_草稿_&#x200B;或&#x200B;_已核准_。
 
 按一下相簿檢視（格線）圖示，以格線或表格檢視顯示&#x200B;_最近_&#x200B;個專案。
+
+### 合作編輯
+
+草稿建立者現在可以與共同作業人員共用草稿、指派角色，並一起即時製作內容。 除了簡單的檢閱和核准外，此功能還提供幾個重要的工作流程優點：
+
+* **在現有草稿上輕鬆共同作業**&#x200B;快速通知，無需重新建立或匯出任何內容。
+
+* **即時共同編輯**&#x200B;在團隊成員之間即時執行，不需重新整理或合併檔案。
+
+* **唯讀存取權**，好奇的利害關係人可在R&amp;A流程開始之前檢視畫布。
+
+瞭解如何[搭配草稿](collaborative-editing.md)使用合作編輯。
 
 ### 管理變體
 
