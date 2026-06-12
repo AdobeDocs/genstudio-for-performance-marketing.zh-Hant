@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: 357
 ht-degree: 1%
 
 ---
@@ -100,3 +100,8 @@ GenStudio for Performance Marketing [!DNL Content]可讓您輕鬆管理核准的
 ### 使用範本
 
 範本可加快建立流程，讓您跨多個管道產生一致的內容。 上傳您的自訂範本，以作為建立程式中的起點，並預先設定版面配置和設計元素。 瞭解[使用範本](../templates/use-templates.md)中的基本範本元素和程式。 並使用[自訂範本](../templates/customize-template.md)主題深入探究建立範本。
+
+### 翻譯已核准的體驗
+
+您可以直接從[!DNL Content] _[!UICONTROL 體驗]_&#x200B;相簿或[!DNL Create]登陸頁面，將核准的電子郵件和付費媒體體驗翻譯成多種語言。 請參閱[從內容翻譯](../create/translate-experiences.md#translate-from-content)或[從建立翻譯](../create/translate-experiences.md#translate-from-create)。
+

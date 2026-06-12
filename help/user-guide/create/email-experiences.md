@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 580
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -108,3 +108,5 @@ Content creators and marketers can produce brand-consistent email experiences in
 ![內容片段UI窗格](./cf-pane.png){width="500" zoomable="yes"}
 
 您的組織會選擇可用的內容片段來源和存放庫。 請參閱[尋找內容片段延伸模組](/help/extensibility/deploy-app.md#find-content-fragment-extension)，瞭解管理員如何設定來源，以及作者如何使用&#x200B;**[!UICONTROL 交換]**&#x200B;從畫布交換復本。
+
+您也可以在HTML畫布上將核准的電子郵件體驗翻譯成多種語言。 請參閱[翻譯及本地化體驗](/help/user-guide/create/translate-experiences.md)。

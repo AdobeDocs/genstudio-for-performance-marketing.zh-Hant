@@ -21,22 +21,26 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 337
 ht-degree: 0%
 
 ---
 
 # Meta體驗
 
-透過Adobe GenStudio for Performance Marketing，您可以使用創作AI來簡化[建立高影響力的Meta體驗](/help/user-guide/create/create-meta-ad.md)。[!DNL Create] 讓內容建立者能夠使用[指南](/help/user-guide/guidelines/overview.md)、影像資產和[精心設計的提示](/help/user-guide/effective-prompts.md)，快速[建立Meta廣告體驗](/help/user-guide/create/create-meta-ad.md)。
+透過Adobe GenStudio for Performance Marketing，您可以使用創作AI來簡化[建立高影響力的Meta體驗](/help/user-guide/create/create-meta-ad.md)。 [!DNL Create]可讓內容建立者使用[指南](/help/user-guide/guidelines/overview.md)、影像資產和[精心設計的提示](/help/user-guide/effective-prompts.md)，快速[建立Meta廣告體驗](/help/user-guide/create/create-meta-ad.md)。
 
 產生Meta體驗時，會建立四個變數並顯示在畫布中。 GenStudio for Performance Marketing同時支援[標準與自訂大小的Meta廣告](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。
 
 產生Meta體驗時，會建立四個變數並顯示在畫布中。
 
 GenStudio for Performance Marketing同時支援[標準與自訂大小的Meta廣告](/help/user-guide/templates/meta-template.md)。
+
+
+您可以在HTML畫布上將核准的Meta體驗翻譯成多種語言。 請參閱[翻譯及本地化體驗](/help/user-guide/create/translate-experiences.md)。
+
 
 電子郵件體驗的可編輯區段包括：
 

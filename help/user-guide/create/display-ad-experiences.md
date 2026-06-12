@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: 126
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 產生顯示廣告體驗時，會建立四個變數並顯示在畫布中。
 
 請參閱[顯示廣告範本指導方針](/help/user-guide/templates/display-template.md)，以取得支援的維度、可辨識的欄位名稱等資訊。
+
+您可以在HTML畫布上將核准的顯示廣告體驗翻譯成多種語言。 請參閱[翻譯及本地化體驗](/help/user-guide/create/translate-experiences.md)。
 
 顯示廣告體驗的可編輯區段包括：
 
