@@ -39,7 +39,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8e00ddcb542ae0b8965f2ea7135d184c14b51fa3
+source-git-commit: b739e84a2345c8bceceff150aa0aa51ba960b0e7
 workflow-type: tm+mt
 source-wordcount: 5284
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## 2026.06.11 {#latest}
 
-**新功能**
+**新功能：**
 
 ### [!DNL Create]和[!DNL Activate]中的YouTube Shorts
 
