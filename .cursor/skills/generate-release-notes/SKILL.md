@@ -31,10 +31,10 @@ ht-degree: 0%
 
 以此順序工作。 複製檢查清單並追蹤多步驟編輯的進度。
 
-0. [ ]如果&#x200B;**Jira**&#x200B;和&#x200B;**Confluence** MCP可用，請先執行[consume-release-sources](../consume-release-sources/SKILL.md)以擷取工作票證、儀式wiki （GA和Beta功能群組）和KT頁面。 如果MCP無法使用，請使用貼上的KT/wiki內容和[reference.md](reference.md#internal-sources-kt-and-release-wikis)欄位對應。
+&#x200B;0. [ ]如果&#x200B;**Jira**&#x200B;和&#x200B;**Confluence** MCP可用，請先執行[consume-release-sources](../consume-release-sources/SKILL.md)以擷取工作票證、儀式wiki （GA和Beta功能群組）和KT頁面。 如果MCP無法使用，請使用貼上的KT/wiki內容和[reference.md](reference.md#internal-sources-kt-and-release-wikis)欄位對應。
 1. [ ]開啟`help/user-guide/release-notes.md`並讀取目前的`## YYYY.MM {#latest}`區塊。 將&#x200B;**舊版發行說明**&#x200B;視為&#x200B;**唯讀**&#x200B;內容，除非您在步驟2中執行封存步驟。
 2. [ ]如果新增&#x200B;**新的**&#x200B;每月發行：封存目前的最新版本（請參閱[封存先前的最新](#archive-previous-latest)）。
-3. [ ]僅新增或編輯&#x200B;**2}前`## YYYY.MM {#latest}`個區段（發行清單頂端的最新月份）。**
+3. [ ]僅新增或編輯&#x200B;**2&rbrace;前`## YYYY.MM {#latest}`個區段（發行清單頂端的最新月份）。**
 4. [ ]針對每個專案，套用[決定規則](#decision-rules) （功能`###`與&#x200B;**修正和增強功能**、Beta徽章或不是）。
 5. [ ]新增或驗證最相關片語的檔案連結（請參閱[reference.md](reference.md#documentation-linking)）。
 6. [ ]在完成前執行[品質檢查](#quality-checks)。
