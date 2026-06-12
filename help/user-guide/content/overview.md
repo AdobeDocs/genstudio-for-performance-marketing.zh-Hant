@@ -5,21 +5,14 @@ level: Beginner
 feature: Content Management, Media Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
 TQID: https://experienceleague.adobe.com/G5Hk3l4ZnlHt81nYxgpFSN2vs6g2-CkiSwLtpAKZqAc
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: 357
 ht-degree: 1%
 
 ---
@@ -100,3 +93,8 @@ GenStudio for Performance Marketing [!DNL Content]可讓您輕鬆管理核准的
 ### 使用範本
 
 範本可加快建立流程，讓您跨多個管道產生一致的內容。 上傳您的自訂範本，以作為建立程式中的起點，並預先設定版面配置和設計元素。 瞭解[使用範本](../templates/use-templates.md)中的基本範本元素和程式。 並使用[自訂範本](../templates/customize-template.md)主題深入探究建立範本。
+
+### 翻譯已核准的體驗
+
+您可以直接從[!DNL Content] _[!UICONTROL 體驗]_&#x200B;相簿或[!DNL Create]登陸頁面，將核准的電子郵件和付費媒體體驗翻譯成多種語言。 請參閱[從內容翻譯](../create/translate-experiences.md#translate-from-content)或[從建立翻譯](../create/translate-experiences.md#translate-from-create)。
+
