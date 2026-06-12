@@ -1,9 +1,9 @@
 ---
 name: generate-release-notes
 description: ""
-source-git-commit: 85ad74d3f24fb809b11f57b23bd24a7ae3310f43
+source-git-commit: c3c6aa86f4f520d020f8928612d1be6be1599652
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 0%
 
 以此順序工作。 複製檢查清單並追蹤多步驟編輯的進度。
 
+&#x200B;0. [ ]如果&#x200B;**Jira**&#x200B;和&#x200B;**Confluence** MCP可用，請先執行[consume-release-sources](../consume-release-sources/SKILL.md)以擷取工作票證、儀式wiki （GA和Beta功能群組）和KT頁面。 如果MCP無法使用，請使用貼上的KT/wiki內容和[reference.md](reference.md#internal-sources-kt-and-release-wikis)欄位對應。
 1. [ ]開啟`help/user-guide/release-notes.md`並讀取目前的`## YYYY.MM {#latest}`區塊。 將&#x200B;**舊版發行說明**&#x200B;視為&#x200B;**唯讀**&#x200B;內容，除非您在步驟2中執行封存步驟。
 2. [ ]如果新增&#x200B;**新的**&#x200B;每月發行：封存目前的最新版本（請參閱[封存先前的最新](#archive-previous-latest)）。
 3. [ ]僅新增或編輯&#x200B;**2&rbrace;前`## YYYY.MM {#latest}`個區段（發行清單頂端的最新月份）。**
@@ -57,12 +58,12 @@ ht-degree: 0%
 匯入新`## YYYY.MM {#latest}`時：
 
 1. 剪下整個`## YYYY.MM {#latest}`區段（從標題到發行內容結尾，在下一個`##`或&#x200B;**舊版發行說明**&#x200B;之前）。
-2. Paste it into **Earlier release notes**, inside a **new** collapsible block.
+2. 將其貼到&#x200B;**新的**&#x200B;可摺疊區塊內的&#x200B;**舊版發行說明**&#x200B;中。
 3. 將舊標題取代為： `+++Notes from YYYY.MM.DD+++` （使用實際的發行日期；如檔案中現有附註的格式）。
 4. 從封存的標題中移除`{#latest}`；新的頂端區段是唯一具有`{#latest}`的區段。
 5. 在&#x200B;**舊版發行說明**&#x200B;內保持時間順序（除非檔案已使用不同的順序 — **符合現有的檔案**，否則最新的封存區塊會朝頂端對齊）。
 
-Do **not** edit the body of **pre-existing** `+++Notes from …+++` blocks while performing this archive—only insert the newly archived block and preserve older archives as-is.
+執行此封存時，請&#x200B;**不**&#x200B;編輯&#x200B;**預先存在的** `+++Notes from …+++`區塊的主體 — 僅插入新封存的區塊並保留舊的封存。
 
 ## 必要的結構
 
@@ -130,7 +131,7 @@ This release information details the latest updates to the GenStudio for Perform
 
 ## 內容來源（摘要）
 
-從內部提取知識轉移檔案或發行Wiki時，依照[reference.md](reference.md#internal-sources-kt-and-release-wikis)中的說明對應欄位。 出貨頁面必須讀取為獨立使用者檔案。
+當&#x200B;**Jira/Confluence MCP**&#x200B;可用時，從[consume-release-sources](../consume-release-sources/SKILL.md)開始（儀式wiki→KT頁面→結構化交接）。 否則，請依照[reference.md](reference.md#internal-sources-kt-and-release-wikis)中的說明，對應貼上的知識轉移或釋出Wiki欄位。 出貨頁面必須讀取為獨立使用者檔案。
 
 ## 可選：拋光新子區段
 

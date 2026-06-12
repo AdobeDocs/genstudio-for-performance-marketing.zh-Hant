@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
+source-git-commit: 8e00ddcb542ae0b8965f2ea7135d184c14b51fa3
 workflow-type: tm+mt
-source-wordcount: 5016
+source-wordcount: 5284
 ht-degree: 0%
 
 ---
@@ -50,7 +50,39 @@ ht-degree: 0%
 
 此版本資訊提供GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2026.05.15 {#latest}
+## 2026.06.11 {#latest}
+
+**新功能**
+
+### [!DNL Create]和[!DNL Activate]中的YouTube Shorts
+
+短格式視訊現在是[!DNL GenStudio for Performance Marketing]中受控制的頻道。 在[!DNL Create]工作流程中建立並啟用品牌上YouTube Shorts，從一開始即套用品牌、產品和角色護欄。
+
+啟用無需手動切換即可關閉回圈：將Shorts推送到Google Ads Demand Gen行銷活動中，或當您的團隊透過DV360流量YouTube廣告時，將其上傳為YouTube上的未列出影片。
+
+### CM360視訊啟用
+
+在[!DNL GenStudio for Performance Marketing]中建立的視訊顯示廣告不再於CM360啟動閘道停止。 從顯示頻道選取控管視訊體驗，在啟動工作流程中預覽，並隨影像和HTML5格式將[創意內容直接發佈至Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md)。
+
+### 在[!DNL Activate]中的Meta應用程式促銷活動
+
+行動應用程式行銷人員現在可以[透過「應用程式促銷」目標，為Meta行銷活動](/help/user-guide/activation/activate-meta-ad.md)啟用體驗，包括鎖定應用程式安裝的廣告集和應用程式事件。 之前，僅支援非應用程式行銷活動目標。
+
+### Horizon畫布上的翻譯
+
+現成翻譯功能現在延伸至Horizon Canvas上的付費媒體體驗，因此區域團隊可將已核准的Meta、LinkedIn和顯示草稿當地語系化，而無需將復本匯出至外部工具。
+
+如需更廣泛的翻譯工作流程，請參閱[翻譯及本地化體驗](/help/user-guide/create/translate-experiences.md)。
+
+### 電子郵件範本中每個Pod有多個影像
+
+[!DNL Create]中的電子郵件範本現在可以在單一Pod中攜帶多個影像，為設計人員提供更豐富的英雄版面配置、產品相簿和多資產storytelling的空間，而不需將內容分割到額外的區段。
+
+上傳或製作具有其他影像欄位的範本，然後產生符合您Pod結構的品牌上變體。 如需端對端電子郵件工作流程，請參閱[電子郵件體驗](/help/user-guide/create/email-experiences.md)。
+
+## 舊版發行說明
+
++++2026.05.15版注意事項
 
 ### Horizon畫布上的合作編輯
 
@@ -80,7 +112,7 @@ HTML畫布上的[電子郵件體驗](/help/user-guide/create/email-experiences.m
 
 Conversational AI是新的付費媒體介面，[!DNL GenStudio for Performance Marketing]現在會端對端使用ChatGPT。 [建立具有品牌內副本變化的ChatGPT廣告體驗](/help/user-guide/create/create-chatgpt-ad.md)、執行品牌和管道檢查、透過核准路由工作，以及將核准的體驗發佈到[!DNL Content]以供重複使用和啟用。
 
-## 舊版發行說明
++++
 
 +++2026.04.16版注意事項
 
