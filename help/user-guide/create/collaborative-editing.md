@@ -4,10 +4,10 @@ description: 瞭解如何在Horizon畫布上即時與共同作業人員共用付
 feature: Create Canvas
 role: User
 level: Beginner
-source-git-commit: 80f96e0db22ab9215660991f0833da719bdc6393
+source-git-commit: 519c4d0273c996dbebcc28ee90a6b31006581305
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 4%
+source-wordcount: '469'
+ht-degree: 5%
 
 ---
 
@@ -30,11 +30,11 @@ Horizon畫布上的合作編輯提供下列功能：
 
 所有受邀的共同作業人員都可以開啟並檢視草稿。 下表列出依角色的編輯與工作流程動作。
 
-| 角色 | 編輯工作區域元素 | 編輯Chrome欄位 | 共用草稿 | 啟動稽核和核准 | 發佈 | 附註 |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[!UICONTROL 所有者]** | 是 | 是 | 是 | 是 | 是 | 僅限檔案建立者 |
-| **[!UICONTROL 編輯器]** | 是 | 是 | 是 | 是 | 是 | 使用者被明確邀請為&#x200B;**[!UICONTROL 編輯者]** |
-| **[!UICONTROL 檢視器]** | 無 | 無 | 無 | 無 | 無 | 受邀做為&#x200B;**[!UICONTROL 檢視者]**&#x200B;的使用者 |
+| 角色 | 編輯工作區域元素 | 編輯Chrome欄位 | 共用草稿 | 刪除草稿 | 啟動稽核和核准 | 發佈 | 附註 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **[!UICONTROL 所有者]** | 是 | 是 | 是 | 是 | 是 | 是 | 僅限檔案建立者 |
+| **[!UICONTROL 編輯器]** | 是 | 是 | 是 | 無 | 是 | 是 | 使用者被明確邀請為&#x200B;**[!UICONTROL 編輯者]** |
+| **[!UICONTROL 檢視器]** | 無 | 無 | 無 | 無 | 無 | 無 | 受邀做為&#x200B;**[!UICONTROL 檢視者]**&#x200B;的使用者 |
 
 ## 先決條件
 
