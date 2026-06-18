@@ -24,16 +24,16 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4cac970f46ab08bcec2f23fd882c552af088c4ea
+source-git-commit: 020002de6749d03d1d41227aaab1bade7da5559d
 workflow-type: tm+mt
-source-wordcount: 812
+source-wordcount: 834
 ht-degree: 0%
 
 ---
 
 # 屬性總覽
 
-[!DNL Insights] _[!UICONTROL 屬性]_&#x200B;檢視會顯示所選管道帳戶在廣告行銷活動中使用的屬性清單。
+[!DNL Insights] _[!UICONTROL 屬性]_&#x200B;檢視會顯示所選管道帳戶在廣告行銷活動中使用的屬性清單。 屬性的最新版本為V4。 如需V4的發行資訊，請參閱發行說明中的[內容智慧功能V4](/help/user-guide/release-notes.md#content-intelligence-featurization-v4)。
 
 {{connect-insights}}
 

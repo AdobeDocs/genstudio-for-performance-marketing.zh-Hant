@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b739e84a2345c8bceceff150aa0aa51ba960b0e7
+source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
 workflow-type: tm+mt
-source-wordcount: 5284
+source-wordcount: 5467
 ht-degree: 0%
 
 ---
@@ -152,6 +152,26 @@ Conversational AI是新的付費媒體介面，[!DNL GenStudio for Performance M
 ### GenStudio for Performance Marketing中的TikTok內容
 
 您現在可以從GenStudio for Performance Marketing建立、核准和啟用TikTok摘要內影片廣告。 在[!DNL Create]工作流程中輕鬆產生廣告，然後將體驗發佈至[!DNL Content]。 使用TikTok的[!DNL Insights]監視效能並通知下一次創意重新整理。
+
+### 內容智慧功能V4
+
+功能化V4代表從V3全面升級，引入廣告優先的設計，包含許多涵蓋影像、文字和視訊內容型別的廣告專屬新功能。
+
+V4的優點包括：
+
+* **Advertising — 優先設計**：專為廣告分析所打造，搭配完整的CTA/選件/標誌分析套裝（18項組合功能）。
+* **精細分類法**：影像/文字/視訊中，具有明確分類和一致功能定義的功能總計增加249%。
+* **生產品質評估**：技術品質評估、行動最佳化及生產型別分類的13個視訊品質功能(CLC/Studio/UGC)。
+* **增強的語意理解**：新功能包括品牌角色、人類需求、認知觸發器和完整的實體辨識。
+* **跨頻道一致性**：跨內容型別的統一功能可啟用跨頻道廣告分析。
+* **行動最佳化**：專用功能，提供外觀比例、位置配合和行動原生偵測。
+
+**主要功能新增：**
+
+* Advertising Suite （20多種功能）：CTA/選件/標誌分析、品牌結合、影響者偵測
+* 行銷活動和產品內容（7項功能）：產品、行銷活動目標/主題、目標對象、國家/地區、地理
+* 視訊品品質度（13項功能）：技術品質、生產分類、行動最佳化
+* 實體認知（9項功能）：影響者、活動、地點、品牌/產品提及、熱門媒體
 
 +++
 
