@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 10f44078f4c1b5865006311f9b32eab479986722
+source-git-commit: dec342aaecde7f5a23c4c98b97703071adf929f5
 workflow-type: tm+mt
-source-wordcount: 1443
+source-wordcount: 1654
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 以下顯示依管道型別篩選，例如電子郵件、顯示廣告、Meta廣告和LinkedIn廣告。
 
-![內容範本清單](/help/assets/content-templates-filter.png "搜尋LinkedIn範本"){width="650"}
+![內容範本清單](/help/assets/content-templates-filter.png "搜尋LinkedIn範本"){width="650" zoomable="yes"}
 
 為擁有或付費媒體選取範本時，範本搜尋功能可在[!UICONTROL 建立]期間使用。 如果看不到某些篩選選項，則表示存放庫中沒有符合對應中繼資料條件的範本。 請確定範本已正確加上中繼資料標籤，如此才能透過這些篩選器探索範本。
 
@@ -100,34 +100,55 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 **若要新增範本**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取頂端列中的&#x200B;**[!UICONTROL HTML範本]**&#x200B;區段。
 
-2. 按一下&#x200B;**[!UICONTROL 新增範本]**。
+1. 按一下&#x200B;**[!UICONTROL +新增範本]**。
 
-3. 在&#x200B;_[!UICONTROL 新增您核准的範本]_&#x200B;窗格中，瀏覽HTML範本檔案或將HTML範本檔案拖曳至放置空間。 按一下「**[!UICONTROL 下一步]**」。
+1. 在&#x200B;_[!UICONTROL 新增核准的範本]_&#x200B;窗格中，選擇範本型別。 然後瀏覽HTML範本檔案，或將HTML範本檔案拖曳至放置空間。 按一下「**[!UICONTROL 下一步]**」。
 
-4. 在&#x200B;_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格中，檢閱欄位。 確認您使用正確的範本，以及所有詳細資料皆如預期般顯示。
+   窗格中的![範本型別](/help/assets/template-choose-type.png){width="500" zoomable="yes"}
 
-   電子郵件範本的範例預覽：
-
-   ![偵測到預覽欄位](/help/assets/template-detected-fields.png){width="650"}
+1. 在&#x200B;_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格中，檢閱欄位。 確認您使用正確的範本，以及所有詳細資料皆如預期般顯示。
 
    >[!TIP]
    >
-   >如果範本不正確，請按一下[上一步] **&#x200B;**&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/templates/code-editor.md)進行簡單的更正。
+   >如果範本中的詳細資料不正確，請按一下[上一步] **&#x200B;**&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/templates/code-editor.md)進行簡單的更正。
 
-5. 當您對範本預覽感到滿意時，請按一下&#x200B;**[!UICONTROL [下一步]]**。
+1. 檢閱自動偵測的欄位。 在雙面板「預覽/程式碼」檢視中，左側面板會顯示範本的即時預覽，其中會包含反白顯示的偵測區域。右側邊欄顯示所有偵測欄位的欄位清單及其目前的位置狀態。 欄位標示為Code索引標籤中可見的Handlebars標籤法（例如`{{headline}}`、`{{body}}`、`{{image}}`）。
 
-6. 在&#x200B;_[!UICONTROL 提供範本詳細資料並上傳]_&#x200B;中，命名您的範本並選取&#x200B;**[!UICONTROL 頻道]**&#x200B;型別。
+   電子郵件範本的範例預覽：
+
+   ![偵測到預覽欄位](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
+
+1. 如果未自動偵測到區域，請在「預覽」面板中將滑鼠指標暫留在該區域上，以檢視&#x200B;**暫留到標籤**&#x200B;功能。 按一下以指派把手標籤，並設定正確的插槽狀態。
+
+   ![顯示標誌欄位位置狀態的暫留至標籤功能](/help/assets/template-slot-state.png){width="500" zoomable="yes"}
+
+   >[!TIP]
+   >
+   > **插槽狀態**
+   >
+   > 針對每個偵測到的欄位，指派適當的位置狀態：
+   >
+   > | **插槽狀態** | **說明** | **用於** |
+   > |---|---|---|
+   > | **其他（可編輯）** | AI會在執行階段產生此欄位的內容，或允許手動編輯自訂欄位。 | 標題、正文和CTA — 任何需要AI變化的地方。 或是手動編輯或內容片段交換的自訂欄位。 |
+   > | **已修正** | AI或使用者無法修改欄位。 | 法律宣告、法規註腳、取消訂閱連結。 |
+
+1. 或者，您可以在[程式碼]索引標籤中手動編輯HTML，然後按一下[自動偵測欄位]按鈕&#x200B;**以重新執行偵測並更新欄位清單。**
+
+1. 當您對範本預覽感到滿意時，請按一下&#x200B;**[!UICONTROL [下一步]]**。
+
+1. 在&#x200B;_[!UICONTROL 提供範本詳細資料並上傳]_&#x200B;中，命名您的範本並選取&#x200B;**[!UICONTROL 頻道]**&#x200B;型別。
 
    需要範本名稱和管道型別。 其他需求可能包括：
 
    - **Meta**：需要外觀比例
    - **橫幅和顯示廣告**：需要維度
 
-7. 新增儘可能多的詳細資訊，以改善搜尋和篩選中的範本識別。
+1. 新增儘可能多的詳細資訊，以改善搜尋和篩選中的範本識別。
 
-8. 按一下「**[!UICONTROL 完成]**」。
+1. 按一下「**[!UICONTROL 完成]**」。
 
 ### 重新整理範本
 
