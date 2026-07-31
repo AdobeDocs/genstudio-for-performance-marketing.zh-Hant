@@ -5,43 +5,14 @@ recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
 TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 24297d57c6dc54c7be22321af9e5079da53f0c60
 workflow-type: tm+mt
-source-wordcount: 5467
+source-wordcount: 5535
 ht-degree: 0%
 
 ---
@@ -79,6 +50,10 @@ ht-degree: 0%
 [!DNL Create]中的電子郵件範本現在可以在單一Pod中攜帶多個影像，為設計人員提供更豐富的英雄版面配置、產品相簿和多資產storytelling的空間，而不需將內容分割到額外的區段。
 
 上傳或製作具有其他影像欄位的範本，然後產生符合您Pod結構的品牌上變體。 如需端對端電子郵件工作流程，請參閱[電子郵件體驗](/help/user-guide/create/email-experiences.md)。
+
+### Express範本的文字流程支援
+
+[!DNL Create]現在採用Horizon Canvas的Adobe Express功能，連結兩個文字方塊，讓單一片語橫跨兩個文字方塊。 產生的副本會將連結方塊填入為一個連線的片語，因此其訊息分割跨兩個方塊的廣告設計最終可以被樣板化以產生，而無需手動複製或重新定位。 深入瞭解[連結的文字流程方塊](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes)。
 
 ## 舊版發行說明
 
@@ -226,7 +201,7 @@ GenStudio for Performance Marketing現在支援Content Credentials，可讓團�
 
 ### Firefly Image Model 4上的自訂模型
 
-* GenStudio for Performance Marketing現在支援以Adobe Firefly Image Model 4[&#128279;](/help/user-guide/create/generate-assets.md)訓練的自訂模型，提供更優異的品牌上影像產生功能，以及更出色的真實感和細節。
+* GenStudio for Performance Marketing現在支援以Adobe Firefly Image Model 4](/help/user-guide/create/generate-assets.md)訓練的[自訂模型，提供更優異的品牌上影像產生功能，以及更出色的真實感和細節。
 
 ### Meta單一視訊廣告啟用
 
@@ -235,7 +210,7 @@ GenStudio for Performance Marketing現在支援Content Credentials，可讓團�
 
 ### Meta行銷活動各動作型別的CPA
 
-* 針對Meta廣告行銷活動，使用彈性的轉換追蹤[&#128279;](/help/user-guide/insights/published-experiences.md)分析每次動作成本(CPA)。
+* 針對Meta廣告行銷活動，使用彈性的轉換追蹤](/help/user-guide/insights/published-experiences.md)分析[每次動作成本(CPA)。
 * 若要在[!DNL Insights]中計算並檢視跨行銷活動、廣告、資產和屬性的CPA，請從多種動作型別（例如購買、加入購物車事件、銷售機會、視訊檢視或自訂轉換）中選取，而不是單一固定量度。
 
 ### 修正和增強功能
@@ -260,9 +235,9 @@ GenStudio for Performance Marketing現在支援Content Credentials，可讓團�
 ### LinkedIn、Meta和TikTok的延伸深入分析
 
 * GenStudio Insights現在包含LinkedIn Ads績效報表，讓行銷人員能夠直接在平台中檢視和分析其行銷活動和廣告的績效，以用於：
-   * LinkedIn廣告
-   * Meta Ads
-   * TikTok Ads
+  * LinkedIn廣告
+  * Meta Ads
+  * TikTok Ads
 
 ### Amazon Ads啟用
 
@@ -285,10 +260,10 @@ GenStudio for Performance Marketing現在支援Content Credentials，可讓團�
 
 * GenStudio for Performance Marketing現在透過擴充性架構，支援與協力廠商電子郵件設計系統的緊密整合。 主要功能包括：
 
-   * 在內容建立期間自動從第三方電子郵件設計系統匯入範本
-   * 將範本中繼資料與匯入的範本一起帶來
-   * 直接連線到協力廠商系統，維護單一信任來源
-   * 為建置自訂整合提供的SDK和範例應用程式
+  * 在內容建立期間自動從第三方電子郵件設計系統匯入範本
+  * 將範本中繼資料與匯入的範本一起帶來
+  * 直接連線到協力廠商系統，維護單一信任來源
+  * 為建置自訂整合提供的SDK和範例應用程式
 
 +++
 
@@ -433,7 +408,7 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 ### 修正和增強功能
 
 * 已啟用[將替代(alt)文字](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)新增至個別變體影像的功能。
-* 新增[新的Meta外觀比例](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 橫向1.19:1 （1080畫素寬度）。
+* 新增[新Meta外觀比例](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 橫向1.19:1 （1080畫素寬度）。
 * 現在您可以選擇多個體驗來匯出或下載。 請參閱[匯出體驗](/help/user-guide/content/manage-assets.md#export-experiences)。
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -491,8 +466,8 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 * 已新增在變體中[新增連結至影像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
 * 將[內容檢查](/help/user-guide/guidelines/brand-validation.md)和檢閱及核准功能移至新的右方動作列，以最大化畫布空間並改善使用者體驗。
 * 簡化[上傳或手動新增品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
-* 引進在畫布上的變體[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)中新增或交換影像資產的功能。
-* 改善使用者體驗和建立首頁[&#128279;](/help/user-guide/create/overview.md)上頻道類別的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
+* 引進在畫布上的變體](/help/user-guide/create/manage-variants.md#swap-image)中[新增或交換影像資產的功能。
+* 改善使用者體驗和建立首頁](/help/user-guide/create/overview.md)上頻道類別[的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
 * 已改善[!DNL Insights]表格和相簿檢視中的篩選。
 
 +++
