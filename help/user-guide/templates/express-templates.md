@@ -4,9 +4,9 @@ description: 探索能夠整合Adobe Express資產的GenStudio for Performance M
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
+source-git-commit: 96249838f5ec957edc22eadf51ec828f54002adf
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,21 @@ ht-degree: 0%
 1. 若要設定文字的格式，請按一下或在文字方塊元素中輸入。 格式選項會出現在快顯列中。 按住Shift鍵會隱藏要檢視文字的列。
 1. 按一下離開文字欄位以儲存任何變更。
 
+### 使用連結的文字流程方塊
+
+[!DNL Adobe Express]支援「文字排列」，範本作者可連結兩個文字方塊，讓單一字詞在兩個方塊間排列。 例如，標題可以在一個方塊中開始，而在另一個方塊中結束，或者片語的一部分可以使用與其餘部分不同的樣式。 當具有文字流程的範本匯入到[!DNL GenStudio for Performance Marketing]中時，畫布會辨識並遵循該連結。 深入瞭解如何在Adobe Express[&#128279;](https://helpx.adobe.com/tw/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html)的文字排文中建立連結文字方塊。
+
+產生連結文字方塊的副本，與產生任何其他欄位的方式相同，不需要額外設定。 連結方塊在整個產生、編輯和變體稽核過程中都會以單一連結短語的方式運作，因此您不需要在方塊之間分割、複製或重新定位文字。
+
+如果產生的復本太長，無法容納連結的方塊，最後一個方塊的底部會顯示一條紅線，表示溢位，與[!DNL Adobe Express]中使用的相同指示器相符。 縮短複製或重新產生欄位以移除溢位。
+
 ### 檢檢視層
 
 您可以快速選取變體的個別圖層並進行變更，例如重新產生截面或裁切影像。 當您選取個別圖層時，圖層內的可編輯欄位或影像會反白顯示。
 
 **若要檢視變體**&#x200B;的圖層：
 
-1. 產生一組變體後，按一下變體內的可編輯欄位或影像。 圖層會顯示在右上方的圖磚行中。
+1. 產生一組變體後，按一下變體內的可編輯欄位或影像。圖層會顯示在右上方的圖磚行中。
    ![變體中的圖層](./images/view-layers.png){width=50%}
 1. 按一下圖層圖磚來選取它。 選取的圖層會針對變體反白。
 1. 繼續對選取的圖層進行任何必要的編輯。
@@ -205,7 +213,7 @@ ht-degree: 0%
 
 **要使用視訊元件**：
 
-1. 選取體驗並按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，進入焦點模式並使用視訊元件功能。 只會顯示單一變體，且會沿著底部顯示場景線。
+1. 選取體驗並按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，進入焦點模式並使用視訊元件功能。只會顯示單一變體，且會沿著底部顯示場景線。
    ![使用視訊元件選項的選取體驗](./images/video-assembly.png){width=70%}
 1. 調整您的視訊體驗。 視訊元件選項包括：
    - 播放視訊

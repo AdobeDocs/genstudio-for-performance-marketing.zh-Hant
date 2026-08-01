@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
+source-git-commit: b886e9e46f386a6b81e7430fd462b662403b9bcb
 workflow-type: tm+mt
-source-wordcount: 5467
+source-wordcount: 5723
 ht-degree: 0%
 
 ---
@@ -50,9 +50,25 @@ ht-degree: 0%
 
 此版本資訊提供GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2026.06.11 {#latest}
+## 2026.07.16 {#latest}
 
 **新功能：**
+
+### 在Horizon畫布上大量編輯
+
+Horizon畫布現在會在多大小或多頁範本中，連結不同大小和頁面的相關文字和影像欄位，因此最後一哩編輯只需進行一次。 在RTE面板中選擇&#x200B;**[!UICONTROL 套用至]**&#x200B;範圍 — 此大小、所有大小或所有概念 — 並自動傳播，可選擇在需要時手動調整欄位標籤。
+
+### 直接在交易台啟用顯示廣告
+
+行銷人員現在可以直接從[!DNL GenStudio for Performance Marketing]將核准的顯示創意發佈到現有的交易台行銷活動。 將帳戶與API權杖連線、從[!DNL Activate]或[!DNL Content]啟動啟用，並使用深層連結追蹤啟用狀態以返回交易台。
+
+### Horizon畫布上的內容片段交換
+
+您現在可以在Horizon畫布上交換文字區塊，以取得直接從AEM內容片段資料庫直接提取的預先核准、可重複使用的內容片段。 內容片段交換適用於大量編輯，因此交換可套用至單一大小，或一次傳播至所有大小和概念，讓受管制的復本保持與核准完全一致，無需手動重新輸入。
+
+## 舊版發行說明
+
++++2026.06.11版注意事項
 
 ### [!DNL Create]和[!DNL Activate]中的YouTube Shorts
 
@@ -80,7 +96,11 @@ ht-degree: 0%
 
 上傳或製作具有其他影像欄位的範本，然後產生符合您Pod結構的品牌上變體。 如需端對端電子郵件工作流程，請參閱[電子郵件體驗](/help/user-guide/create/email-experiences.md)。
 
-## 舊版發行說明
+### Express範本的文字流程支援
+
+[!DNL Create]現在採用Horizon Canvas的Adobe Express功能，連結兩個文字方塊，讓單一片語橫跨兩個文字方塊。 產生的副本會將連結方塊填入為一個連線的片語，因此其訊息分割跨兩個方塊的廣告設計最終可以被樣板化以產生，而無需手動複製或重新定位。 深入瞭解[連結的文字流程方塊](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes)。
+
++++
 
 +++2026.05.15版注意事項
 
@@ -260,9 +280,9 @@ GenStudio for Performance Marketing現在支援Content Credentials，可讓團�
 ### LinkedIn、Meta和TikTok的延伸深入分析
 
 * GenStudio Insights現在包含LinkedIn Ads績效報表，讓行銷人員能夠直接在平台中檢視和分析其行銷活動和廣告的績效，以用於：
-   * LinkedIn廣告
-   * Meta Ads
-   * TikTok Ads
+  * LinkedIn廣告
+  * Meta Ads
+  * TikTok Ads
 
 ### Amazon Ads啟用
 
@@ -285,10 +305,10 @@ GenStudio for Performance Marketing現在支援Content Credentials，可讓團�
 
 * GenStudio for Performance Marketing現在透過擴充性架構，支援與協力廠商電子郵件設計系統的緊密整合。 主要功能包括：
 
-   * 在內容建立期間自動從第三方電子郵件設計系統匯入範本
-   * 將範本中繼資料與匯入的範本一起帶來
-   * 直接連線到協力廠商系統，維護單一信任來源
-   * 為建置自訂整合提供的SDK和範例應用程式
+  * 在內容建立期間自動從第三方電子郵件設計系統匯入範本
+  * 將範本中繼資料與匯入的範本一起帶來
+  * 直接連線到協力廠商系統，維護單一信任來源
+  * 為建置自訂整合提供的SDK和範例應用程式
 
 +++
 
@@ -433,7 +453,7 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 ### 修正和增強功能
 
 * 已啟用[將替代(alt)文字](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)新增至個別變體影像的功能。
-* 新增[新的Meta外觀比例](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 橫向1.19:1 （1080畫素寬度）。
+* 新增[新Meta外觀比例](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) — 橫向1.19:1 （1080畫素寬度）。
 * 現在您可以選擇多個體驗來匯出或下載。 請參閱[匯出體驗](/help/user-guide/content/manage-assets.md#export-experiences)。
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
