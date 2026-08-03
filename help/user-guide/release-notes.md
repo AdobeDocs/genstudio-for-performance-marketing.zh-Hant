@@ -39,7 +39,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b886e9e46f386a6b81e7430fd462b662403b9bcb
+source-git-commit: 86c5e5236bf256694858ae5b0ca1f6930cf35033
 workflow-type: tm+mt
 source-wordcount: 5723
 ht-degree: 0%
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ### 在Horizon畫布上大量編輯
 
-Horizon畫布現在會在多大小或多頁範本中，連結不同大小和頁面的相關文字和影像欄位，因此最後一哩編輯只需進行一次。 在RTE面板中選擇&#x200B;**[!UICONTROL 套用至]**&#x200B;範圍 — 此大小、所有大小或所有概念 — 並自動傳播，可選擇在需要時手動調整欄位標籤。
+Horizon畫布現在會在多大小或多頁範本中，連結不同大小和頁面的相關文字和影像欄位，因此最後一哩編輯只需進行一次。 在編輯選單中選擇&#x200B;**[!UICONTROL 套用至]**&#x200B;範圍（此大小、所有大小或所有概念），編輯會自動傳播，並可在需要時手動調整欄位標籤。
 
 ### 直接在交易台啟用顯示廣告
 
