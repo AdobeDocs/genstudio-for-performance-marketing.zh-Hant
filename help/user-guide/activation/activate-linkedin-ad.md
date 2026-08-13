@@ -4,17 +4,11 @@ description: 瞭解如何啟用LinkedIn廣告體驗。
 feature: Ad Activation
 exl-id: edc95319-36c3-4cbf-a5c0-865b49482b50
 TQID: https://experienceleague.adobe.com/1mcxWePqYd8tYp3e1D2UTSeBHSvPj4WrqeSyiUCxD8c
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2:
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 863
@@ -76,11 +70,11 @@ _預覽面板_&#x200B;支援文字和資產在特定廣告投放內容中的互�
 
    此體驗的LinkedIn廣告&#x200B;_體驗設定_&#x200B;頁面隨即開啟。 系統會預先填入所選體驗的詳細資料。 系統可能會要求您先選取平台，然後再繼續啟用。
 
-1. （選擇性）編輯可編輯欄位(**[!UICONTROL Call to action]**、**[!UICONTROL 網站URL]**、*[!UICONTROL 顯示連結]**)中的值。
+1. （選擇性）編輯可編輯欄位（**[!UICONTROL Call to action]**、**[!UICONTROL 網站URL]**、*[!UICONTROL 顯示連結]**）中的值。
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 新增體驗]**&#x200B;以新增體驗至此啟用群組。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;確認您的體驗設定。
+1. 按一下[下一步]****&#x200B;確認您的體驗設定。
 
 ## 步驟4：確認LinkedIn帳戶設定
 
@@ -98,7 +92,7 @@ _行銷活動群組_&#x200B;是LinkedIn行銷活動管理員的重要元件。 �
 
 1. 在每個體驗的&#x200B;**[!UICONTROL 廣告名稱]**&#x200B;欄位中輸入廣告名稱。 LinkedIn Campaign Manager會以此名稱識別體驗。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;確認您的LinkedIn廣告設定。
+1. 按一下[下一步]****&#x200B;確認您的LinkedIn廣告設定。
 
 ## 步驟5：預覽並啟用您的廣告
 
@@ -109,7 +103,7 @@ _檢閱_&#x200B;頁面提供發佈前檢閱您啟用的最後機會。
 1. （選擇性）按一下您要編輯的體驗或平台詳細資料旁的&#x200B;**[!UICONTROL 編輯區段]**。
 根據您選取的區段，_體驗設定_&#x200B;或&#x200B;_平台設定_&#x200B;檢視會開啟。
 
-1. （選擇性）編輯詳細資料，然後按一下[下一步] **&#x200B;**&#x200B;以返回[檢閱] __&#x200B;檢視。
+1. （選擇性）編輯詳細資料，然後按一下[下一步] ****&#x200B;以返回[檢閱] __&#x200B;檢視。
 
 1. 點擊&#x200B;**[!UICONTROL 發佈]**。
 

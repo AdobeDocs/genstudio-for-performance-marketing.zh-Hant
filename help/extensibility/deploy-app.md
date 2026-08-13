@@ -4,16 +4,10 @@ description: 部署適用於GenStudio for Performance Marketing的App Builder應
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
 TQID: https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bfaa655b-e017-428d-80d0-09de2183b296id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
 workflow-type: tm+mt
 source-wordcount: 622
@@ -86,8 +80,8 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 根據您部署的擴充功能型別，可在UI中的不同位置找到新擴充功能。 目前可用的擴充功能點包括：
 
 * 合規性擴充功能，包括：
-   * [*提示延伸點*](#find-prompt-extensions)，可讓客戶新增其他內容至LLM產生，以及
-   * [*驗證延伸點*](#find-validation-extensions)，可讓客戶驗證LLM產生的內容。 驗證通常會與「提示」延伸功能搭配使用，以確保以延伸提示產生的內容符合客戶要求（例如，醫療藥品索賠或法律）
+  * [*提示延伸點*](#find-prompt-extensions)，可讓客戶新增其他內容至LLM產生，以及
+  * [*驗證延伸點*](#find-validation-extensions)，可讓客戶驗證LLM產生的內容。 驗證通常會與「提示」延伸功能搭配使用，以確保以延伸提示產生的內容符合客戶要求（例如，醫療藥品索賠或法律）
 * [數位資產管理(DAM)擴充功能](#find-dam-extensions)
 * [範本副檔名](#find-template-extensions)
 * [翻譯擴充功能](#find-translation-extensions)

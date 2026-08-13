@@ -1,8 +1,8 @@
 ---
 source-git-commit: edbeb7f0d08e2215a23f15cfeff77a5217cd264b
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 2%
+source-wordcount: '155'
+ht-degree: 5%
 
 ---
 # 行銷活動詳細資料
@@ -11,7 +11,7 @@ ht-degree: 2%
 
 行銷活動&#x200B;_詳細資料_&#x200B;欄位已定義在此資料表中：
 
-| 詳細資料 | 說明 |
+| 詳細資訊 | 說明 |
 |------------|-------------|
 | 行銷活動名稱 | 用於識別行銷活動的唯一名稱。 此名稱會在整個產品中作為行銷活動標籤使用。 |
 | 說明 | 內部利害關係人的行銷活動摘要。 |

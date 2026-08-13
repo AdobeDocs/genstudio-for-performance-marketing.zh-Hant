@@ -6,24 +6,15 @@ role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
 TQID: https://experienceleague.adobe.com/6gHxPvfz-30X3w2MYIc2Aj5SiGZokzOqSvOHYTQ-u7I
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1646
+source-wordcount: 1652
 ht-degree: 0%
 
 ---
@@ -32,7 +23,7 @@ ht-degree: 0%
 
 您可以透過插入內容預留位置或產生AI用來插入內容的欄位，自訂要在GenStudio for Performance Marketing中使用的範本。
 
-以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_&#x200B;範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
+以下幾節將說明如何使用&#x200B;_[!DNL Handlebars]_範本化語言來調整您的HTML範本以適用於GenStudio for Performance Marketing。 [!DNL Handlebars]語法使用具有雙大括弧的規則文字做為內容預留位置。 請參閱_ Handlebars語言指南&#x200B;_中的[什麼是 [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars)，瞭解如何準備您的範本。
 
 您的範本準備就緒後，您可以[將其上傳到GenStudio for Performance Marketing](use-templates.md#upload-a-template)，並開始根據您的自訂範本產生個人化電子郵件。
 
@@ -42,7 +33,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->內容預留位置與使用者稍後要填入的內容預留位置文字&#x200B;**不**&#x200B;相同。 檢視更多有關在範本[&#128279;](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates)中使用預留位置文字的。
+>內容預留位置與使用者稍後要填入的內容預留位置文字&#x200B;**不**&#x200B;相同。 檢視更多有關在範本](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates)中使用預留位置文字的[。
 
 GenStudio for Performance Marketing可辨識範本中特定型別的內容或[元素](use-templates.md#template-elements)，但前提是您必須使用[可辨識的欄位名稱](#recognized-field-names)來辨識它們。
 
@@ -68,7 +59,7 @@ GenStudio for Performance Marketing可辨識範本中特定型別的內容或[�
 | `{{cta}}` | call to action<br>檢視[行動號召](#calls-to-action) | 電子郵件<br>Meta廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
 | `{{image}}` | 影像 — 從[!DNL Content]中選取 | 電子郵件<br>Meta廣告<br>橫幅和顯示廣告<br>LinkedIn廣告 |
 | `{{on_image_text}}` | 在影像文字上<br>請參閱[在影像文字上](#on-image-text)。 | Meta廣告<br>LinkedIn廣告 |
-| `{{link}}` | 影像<br>上的Call to action請參閱影像[&#128279;](#link-on-image)上的連結。 | 電子郵件 |
+| `{{link}}` | 影像<br>上的Call to action請參閱影像](#link-on-image)上的[連結。 | 電子郵件 |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 
@@ -131,7 +122,7 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 
 ### 替代文字
 
-使用使用者定義的欄位名稱做為預留位置，以產生影像的替代文字(HTML `alt="text"`屬性)說明。 下列`{{imageDescription}}`預留位置與相同`<img>`標籤內的`{{image}}`欄位搭配使用，確保影像與其描述之間的關係持續存在。
+使用使用者定義的欄位名稱做為預留位置，以產生影像的替代文字（HTML `alt="text"`屬性）說明。 下列`{{imageDescription}}`預留位置與相同`<img>`標籤內的`{{image}}`欄位搭配使用，確保影像與其描述之間的關係持續存在。
 
 ```html
 <img src="{{image}}" alt="{{imageDescription}}">
@@ -144,7 +135,7 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 
 ### 協助工具標籤
 
-`aria-label`屬性是用來為沒有可見標籤的元素定義可存取的名稱。 在必須提供互動式元素(例如CTA按鈕)上下文的範本中，此屬性特別有用。
+`aria-label`屬性是用來為沒有可見標籤的元素定義可存取的名稱。 在必須提供互動式元素（例如CTA按鈕）上下文的範本中，此屬性特別有用。
 
 ```html
 <a class="button" href="{{link}}" aria-label="{{CTAAriaLabel}}">{{cta}}</a>
@@ -230,7 +221,7 @@ RTF編輯可能適用於特定頻道內的某些欄位，例如社交頻道(Meta
 
 ## 區段或群組
 
-如果您的電子郵件範本需要多個內容區域（例如多個優惠方案或內文），您可以使用區段或群組來組織這些區域。_區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位需要高度一致性。 建立此關係可協助AI產生符合區段中創意元素的內容。
+如果您的電子郵件範本需要多個內容區域（例如多個優惠方案或內文），您可以使用區段或群組來組織這些區域。 _區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位需要高度一致性。 建立此關係可協助AI產生符合區段中創意元素的內容。
 
 使用您選擇的群組名稱作為前置詞，表示欄位是區段或群組的一部分。 在底線(`_`)之後使用欄位名稱（例如`headline`、`body`、`image`或`cta`）。
 
@@ -248,7 +239,7 @@ RTF編輯可能適用於特定頻道內的某些欄位，例如社交頻道(Meta
 
 因為此規則，區段無法巢狀化。
 
-每種範本型別(例如電子郵件或Meta廣告)在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](/help/user-guide/templates/best-practices-for-templates.md)。
+每種範本型別（例如電子郵件或Meta廣告）在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](/help/user-guide/templates/best-practices-for-templates.md)。
 
 例如，電子郵件範本最多可包含三個區段；因此，您可以有三個標題和正文區段：
 

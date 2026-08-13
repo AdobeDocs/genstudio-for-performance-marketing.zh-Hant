@@ -4,16 +4,10 @@ description: 瞭解如何為您的GenStudio應用程式和附加元件實作Expe
 feature: Extensibility, Extensions, Experiences
 exl-id: 918d3772-406b-4e16-bddc-0d5b160978d3
 TQID: https://experienceleague.adobe.com/0KCx1agovbj3-ShbAZ6JiHnHchMI47F9g4mvE4NPpvc
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bfaa655b-e017-428d-80d0-09de2183b296
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 084f67d1897858ad8c2eb73b94d5881129df5655
 workflow-type: tm+mt
 source-wordcount: 655
@@ -133,9 +127,9 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/s
 
 - [兩個&#x200B;**Vanilla JavaScript實作**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js)：
 
-   - [此&#x200B;**Vanilla ESM**&#x200B;版本使用ES6模組和現代JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)。
+  - [此&#x200B;**Vanilla ESM**&#x200B;版本使用ES6模組和現代JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)。
 
-   - [此&#x200B;**Vanilla UMD**&#x200B;版本使用透過指令碼標籤](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)載入的UMD組合。
+  - [此&#x200B;**Vanilla UMD**&#x200B;版本使用透過指令碼標籤](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)載入的UMD組合。
 
 ## 驗證流程
 

@@ -5,26 +5,15 @@ feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Conten
 role: User
 level: Beginner
 TQID: https://experienceleague.adobe.com/aK9mP2vR8xT4nW6yB1cF3hJ5kL7mN9pQ2rS4tU6vW8x
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 931
-ht-degree: 89%
+source-wordcount: 933
+ht-degree: 84%
 
 ---
 
@@ -70,7 +59,7 @@ ht-degree: 89%
 ### 建立設定
 
 * 已設定您的[品牌、產品和角色](/help/user-guide/guidelines/overview.md)，讓應用程式可以產生品牌上的復本和版面配置。
-* 至少會上傳一個TikTok範本。 Adobe建議使用TikTok垂直影片範本，此範本已針對摘要位置最佳化，並具有&#x200B;**9:16**&#x200B;外觀比例，以及頂端和底部UI的安全區域。
+* 至少會上傳一個TikTok範本。 Adobe建議使用TikTok垂直影片範本，此範本已針對摘要位置而最佳化，並具有&#x200B;**9:16**&#x200B;外觀比例，以及頂端和底部UI的安全區域。
 * 視訊已上傳至[!DNL Content]。
 
 ## 產生TikTok資訊源內廣告
@@ -95,7 +84,7 @@ GenStudio for Performance Marketing會產生四種創意變體。
 * 使用&#x200B;**[!UICONTROL 重新產生]**&#x200B;或&#x200B;**[!UICONTROL 調整]**&#x200B;來調整色調、長度或強調。
 * 直接在畫布中編輯文字。
 * 使用&#x200B;**[!UICONTROL 交換]**&#x200B;從[!DNL Content]選取替代視訊。
-* 使用&#x200B;**[!UICONTROL 裁切]**&#x200B;或&#x200B;**[!UICONTROL 重新框架]**&#x200B;調整&#x200B;**9:16**&#x200B;框架內的視訊配置。
+* 使用&#x200B;**[!UICONTROL 裁切]**&#x200B;或&#x200B;**[!UICONTROL 重新影格]**&#x200B;調整&#x200B;**9:16**&#x200B;影格內的視訊配置。
 
 ### 執行品牌和管道檢查
 

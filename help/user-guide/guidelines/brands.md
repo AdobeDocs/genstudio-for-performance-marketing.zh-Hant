@@ -4,25 +4,14 @@ description: GenStudio for Performance Marketing [!DNL Brands] 是完整的品�
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
 TQID: https://experienceleague.adobe.com/mZ70azBCwP8KshE6iX7hwGvEWawBkU36aDejZbAkRAY
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1525
+source-wordcount: 1526
 ht-degree: 2%
 
 ---
@@ -65,10 +54,10 @@ GenStudio for Performance Marketing使用您[!DNL Brand]的豐富品牌資訊，
 
 | 指引類別 | 說明 | 最佳做法 |
 | ------------------| :---------- | :---------- |
-| [!UICONTROL 音調] | 透過書面通訊表達的品牌個性 | 使用描述性字詞清楚傳達品牌的情感和語調。<br>_範例_： 「正版」、「可玩」<br><br>簡潔明瞭（3-6個准則），並專注於關鍵品牌語音屬性。<br><br>選取跨通訊管道一致的文字/片語，以建立一致的品牌識別。 |
-| [!UICONTROL 品牌值] | 推動品牌文化、客戶體驗和業務策略的原則 | 使用描述性字詞來傳達品牌的使命、願景和受眾需求。<br>_範例_： 「真誠」、「鼓舞人心」、「漸進式」<br><br>簡潔明瞭（3-6個指導方針），並專注於核心品牌價值/主題。 |
-| [!UICONTROL 編輯指南] | 定義製作品牌訊息最佳實務的溝通准則 | 使用正面辭彙（5-10准則）來建立堅實的基礎。<br>_範例_：「使用簡單、可存取的語言」而非「避免使用行話」<br><br>提供清楚且可行的指引。<br>_範例_： 「將句子保持在20個字以下」而非「簡潔明瞭」<br><br>反映您的品牌風格，例如使用特定的語法偏好設定。<br>_範例_：「使用長破折號而非冒號」、「使用句子大小寫」<br><br>製作維持輸出一致性的精確准則。 |
-| [!UICONTROL 編輯限制] | 定義品牌訊息中應避免的事項的溝通准則 | 使用直接負面詞語（5-10指南）來指定應避免的內容。<br>_範例_： 「避免使用……」<br><br>提供清楚且可行的指引。<br>_範例_： 「避免修辭問題」 |
+| [!UICONTROL 音調] | 透過書面通訊表達的品牌個性 | 使用描述性字詞清楚傳達品牌的情感和語調。 <br>_範例_：「正版」、「可玩」<br><br>簡潔明瞭（3-6個准則），並專注於關鍵品牌語調屬性。<br><br>選取跨通訊通道一致的字詞/片語，以建立一致的品牌識別。 |
+| [!UICONTROL 品牌值] | 推動品牌文化、客戶體驗和業務策略的原則 | 使用描述性字詞來傳達品牌的使命、願景和受眾需求。 <br>_範例_：「真誠」、「鼓舞人心」、「漸進式」<br><br>簡潔明瞭（3-6個指導方針），並專注於核心品牌價值/主題。 |
+| [!UICONTROL 編輯指南] | 定義製作品牌訊息最佳實務的溝通准則 | 使用正面辭彙（5-10准則）來建立堅實的基礎。<br>_範例_：「使用簡單、可存取的語言」而非「避免使用行話」<br><br>提供清楚且可行的指引。 <br>_範例_：「將句子保留在20個字以內」而非「簡潔明瞭」<br><br>反映您的品牌風格，例如使用特定的語法偏好設定。 <br>_範例_：「使用長破折號而非冒號」、「使用句子大小寫」<br><br>製作維持輸出一致性的精確准則。 |
+| [!UICONTROL 編輯限制] | 定義品牌訊息中應避免的事項的溝通准則 | 使用直接負面詞語（5-10指南）來指定應避免的內容。 <br>_範例_： 「避免使用……」<br><br>提供明確且可操作的指引。 <br>_範例_：「避免修辭問題」 |
 
 ### 影像指導方針
 

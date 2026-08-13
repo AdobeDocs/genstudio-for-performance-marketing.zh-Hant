@@ -4,15 +4,10 @@ description: 瞭解如何使用Adobe GenStudio for Performance Marketing反複�
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
 TQID: https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 694
@@ -74,7 +69,7 @@ ht-degree: 0%
 
 ## 使用Workfront Proof檢閱內容
 
-[!DNL Proofing Viewer]提供[強大的標籤工具](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)，用於標註校樣及追蹤變更。 您也可以比較兩個版本的校訂。
+[!DNL Proofing Viewer]提供[強大的標籤工具](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)，用於標註校樣及追蹤變更。 您也可以比較兩個版本的校訂。
 
 **檢閱內容**：
 
@@ -94,7 +89,7 @@ ht-degree: 0%
 
 ### 比較校訂
 
-從[!DNL Proofing Viewer]，您可以[比較校訂版本](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)。
+從[!DNL Proofing Viewer]，您可以[比較校訂版本](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)。
 
 **比較校樣**：
 
@@ -104,4 +99,4 @@ ht-degree: 0%
 
    校樣並排顯示，較新版本位於左側。
 
-Workfront Proof提供數個工具來比較校樣，包括自動比較工具。 請參閱[使用比較工具](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)。
+Workfront Proof提供數個工具來比較校樣，包括自動比較工具。 請參閱[使用比較工具](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)。

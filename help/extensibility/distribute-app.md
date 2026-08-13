@@ -4,14 +4,12 @@ description: 為GenStudio for Performance Marketing發佈您的應用程式或�
 feature: Extensibility
 exl-id: 4935356b-08df-402c-b1a2-b89627afc188
 TQID: https://experienceleague.adobe.com/6SHsqsafwqCWS3dspM65BTVAqZ09WwW2IxF-PIecINE
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 303
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 0%
 
 本主題討論私人散佈。 私人發佈會將附加元件部署限制在IMS組織所識別的組織。
 
-公開發佈可讓附加元件在Adobe Exchange上作為應用程式使用。[_App Builder_&#x200B;開發人員檔案中的公開發佈](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)說明如何讓您的應用程式可供任何Adobe組織使用。
+公開發佈可讓附加元件在Adobe Exchange上作為應用程式使用。 _App Builder_&#x200B;開發人員檔案中的[公開發佈](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)說明如何讓您的應用程式可供任何Adobe組織使用。
 
 >[!BEGINSHADEBOX]
 

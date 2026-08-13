@@ -4,16 +4,13 @@ description: 開始建立應用程式或附加元件，以擴充GenStudio for Pe
 feature: Extensibility
 exl-id: 4e757dd4-a02d-472c-bc13-6f27dffa48f2
 TQID: https://experienceleague.adobe.com/-GBttZv63YVWezBz1o9yrxvd-Uu5mbP-Aqh7Tm-kco4
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: b6b93e3513804919d43a663bb899e67556a4cbcd
 workflow-type: tm+mt
 source-wordcount: 496
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,19 +42,19 @@ App Builder應用程式的關鍵元件包括這些組建和設定檔案。 此�
 
 * TS應用程式檔案：
 
-   * `package.json`
-   * `package-lock.json`
-   * `eslint`
-   * `tsconfig`
-   * `jest test up`
+  * `package.json`
+  * `package-lock.json`
+  * `eslint`
+  * `tsconfig`
+  * `jest test up`
 
 * App Builder設定檔案：
 
-   * `app.config.yaml`
-   * `ext.config.yaml`：附加元件的組態檔。
-   * `app.config.yaml`：附加元件的設定檔（包括將您的應用程式定義為GenStudio for Performance Marketing附加元件）。
-   * `.aio`
-   * `.env`：不要將`.env`檔案認可到原始檔控制。
+  * `app.config.yaml`
+  * `ext.config.yaml`：附加元件的組態檔。
+  * `app.config.yaml`：附加元件的設定檔（包括將您的應用程式定義為GenStudio for Performance Marketing附加元件）。
+  * `.aio`
+  * `.env`：不要將`.env`檔案認可到原始檔控制。
 
 ### Source程式碼
 
