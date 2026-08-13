@@ -79,9 +79,9 @@ ht-degree: 0%
 
 **另請參閱** （Journey Optimizer存取控制）：
 
-* [存取控制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Journey Optimizer中的許可權](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
-* [系統管理員快速入門](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [存取控制](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Journey Optimizer中的許可權](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/permissions)
+* [系統管理員快速入門](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## 存取GenStudio中的AJO範本
 
