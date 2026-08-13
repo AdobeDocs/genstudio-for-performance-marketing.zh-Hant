@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 從Adobe Exchange安裝應用程式
 
->[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483310?captions=chi_hant&learn=on)
 
 1. 開啟[Adobe Exchange](https://exchange.adobe.com)並移至&#x200B;**[!UICONTROL CX Enterprise]**。
 1. 開啟GenStudio [&#128279;](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio)適用的Journey Optimizer清單。

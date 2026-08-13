@@ -42,7 +42,7 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 * 將產生的[!DNL Experiences]匯出至GenStudio for Performance Marketing。
 * 使用可調整成圖形畫布中所選元素的外掛程式選項。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478820?captions=chi_hant&learn=on)
 
 ## 建立範本
 
@@ -220,7 +220,7 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 您可以使用Figma外掛程式將影格、多個影格或整個檔案轉換為Photoshop格式，然後匯出以用於[GenStudio Photoshop](photoshop-plugin.md)。 目前，轉換期間僅支援主要屬性，例如可見度、字型大小以及基本圖層屬性。 目前尚不支援刪除線、上標、下標、百分比形式的不透明度、漸層和類似的進階屬性等功能。
 
 <!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
->[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3492280?captions=chi_hant&learn=on)
 
 外掛程式支援下列Figma圖層型別的轉換：
 
