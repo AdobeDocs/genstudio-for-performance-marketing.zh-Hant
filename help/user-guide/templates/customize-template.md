@@ -23,7 +23,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1646
+source-wordcount: 1652
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 
 ### 替代文字
 
-使用使用者定義的欄位名稱做為預留位置，以產生影像的替代文字(HTML `alt="text"`屬性)說明。 下列`{{imageDescription}}`預留位置與相同`<img>`標籤內的`{{image}}`欄位搭配使用，確保影像與其描述之間的關係持續存在。
+使用使用者定義的欄位名稱做為預留位置，以產生影像的替代文字（HTML `alt="text"`屬性）說明。 下列`{{imageDescription}}`預留位置與相同`<img>`標籤內的`{{image}}`欄位搭配使用，確保影像與其描述之間的關係持續存在。
 
 ```html
 <img src="{{image}}" alt="{{imageDescription}}">
@@ -144,7 +144,7 @@ GenStudio for Performance Marketing也可以提供各種行動號召短語。 �
 
 ### 協助工具標籤
 
-`aria-label`屬性是用來為沒有可見標籤的元素定義可存取的名稱。 在必須提供互動式元素(例如CTA按鈕)上下文的範本中，此屬性特別有用。
+`aria-label`屬性是用來為沒有可見標籤的元素定義可存取的名稱。 在必須提供互動式元素（例如CTA按鈕）上下文的範本中，此屬性特別有用。
 
 ```html
 <a class="button" href="{{link}}" aria-label="{{CTAAriaLabel}}">{{cta}}</a>
@@ -230,7 +230,7 @@ RTF編輯可能適用於特定頻道內的某些欄位，例如社交頻道(Meta
 
 ## 區段或群組
 
-如果您的電子郵件範本需要多個內容區域（例如多個優惠方案或內文），您可以使用區段或群組來組織這些區域。_區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位需要高度一致性。 建立此關係可協助AI產生符合區段中創意元素的內容。
+如果您的電子郵件範本需要多個內容區域（例如多個優惠方案或內文），您可以使用區段或群組來組織這些區域。 _區段_&#x200B;通知GenStudio for Performance Marketing此區段中的欄位需要高度一致性。 建立此關係可協助AI產生符合區段中創意元素的內容。
 
 使用您選擇的群組名稱作為前置詞，表示欄位是區段或群組的一部分。 在底線(`_`)之後使用欄位名稱（例如`headline`、`body`、`image`或`cta`）。
 
@@ -248,7 +248,7 @@ RTF編輯可能適用於特定頻道內的某些欄位，例如社交頻道(Meta
 
 因為此規則，區段無法巢狀化。
 
-每種範本型別(例如電子郵件或Meta廣告)在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](/help/user-guide/templates/best-practices-for-templates.md)。
+每種範本型別（例如電子郵件或Meta廣告）在區段的使用上都有通道特定的限制。 請參閱&#x200B;_使用範本的最佳實務_&#x200B;主題中的[頻道特定准則](/help/user-guide/templates/best-practices-for-templates.md)。
 
 例如，電子郵件範本最多可包含三個區段；因此，您可以有三個標題和正文區段：
 

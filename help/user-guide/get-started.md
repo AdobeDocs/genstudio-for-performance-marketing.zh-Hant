@@ -1,6 +1,6 @@
 ---
-title: Get Started with Adobe GenStudio for Performance Marketing
-description: Learn how to get started with GenStudio for Performance Marketing to generate brand-aligned marketing content and accelerate campaign management.
+title: 開始使用Adobe GenStudio for Performance Marketing
+description: 瞭解如何開始使用GenStudio for Performance Marketing，以產生符合品牌的行銷內容並加快行銷活動管理。
 level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
@@ -33,32 +33,32 @@ ht-degree: 0%
 
 ---
 
-# Get started with Adobe GenStudio for Performance Marketing
+# 開始使用Adobe GenStudio for Performance Marketing
 
-Adobe GenStudio for Performance Marketing offers a comprehensive suite of tools designed to streamline content creation, management, and analysis. It infuses the content creation lifecycle with generative AI capabilities that transform how marketing content is created, reviewed, shared, and analyzed.
+Adobe GenStudio for Performance Marketing提供全方位的工具套件，用於簡化內容建立、管理和分析。 它透過創作AI功能注入內容建立生命週期，轉變行銷內容的建立、檢閱、共用及分析方式。
 
-## Start creating, sharing, and reviewing content
+## 開始建立、共用和檢閱內容
 
-If you are new to generative AI-based tools or are simply curious about GenStudio for Performance Marketing&#39;s core principles, see [Concepts](/help/user-guide/concepts.md) and [Write effective prompts](/help/user-guide/effective-prompts.md). You can check out [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), Adobe&#39;s online learning platform about using generative AI technologies in the creative process.
+如果您剛開始使用創作AI型工具，或只是想知道的GenStudio for Performance Marketing的核心原則，請參閱[概念](/help/user-guide/concepts.md)和[撰寫有效提示](/help/user-guide/effective-prompts.md)。 您可以檢視Adobe線上學習平台[Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy)，瞭解如何在創意過程中使用創作AI技術。
 
 ## 個人化GenStudio for Performance Marketing
 
-GenStudio for Performance Marketing uses information about your brand and markets to enhance brand-compliant content creation. The generative AI leverages descriptions of customer [personas](/help/user-guide/guidelines/personas.md), [products](/help/user-guide/guidelines/products.md), and [brand guidelines](/help/user-guide/guidelines/overview.md) to guide content generation in alignment with your organization&#39;s requirements.
+GenStudio for Performance Marketing會使用有關您的品牌和市場的資訊，來增強建立符合品牌規範的內容。 創作AI會運用客戶[角色](/help/user-guide/guidelines/personas.md)、[產品](/help/user-guide/guidelines/products.md)和[品牌指導方針](/help/user-guide/guidelines/overview.md)的說明，根據您組織的需求來指導內容的產生。
 
-System managers set up Adobe GenStudio for Performance Marketing by entering or uploading organization-specific information. This preparation ensures that content editors and collaborators can effectively use the generative AI features to create and review campaign assets. Once an Adobe system administrator provisions your organization&#39;s product instance and assigns a GenStudio system manager permissions, the GenStudio system manager can prepare the product&#39;s underlying generative AI framework using guidelines.
+系統管理員可透過輸入或上傳組織特定資訊來設定Adobe GenStudio for Performance Marketing。 這項準備工作可確保內容編輯與共同作業人員能夠有效地使用產生式AI功能，來建立和檢閱行銷活動資產。 一旦Adobe系統管理員布建您組織的產品執行個體並指派GenStudio系統管理員許可權後，GenStudio系統管理員就可以使用指引來準備產品的基本產生AI架構。
 
-### Step 1: Add guidelines
+### 步驟1：新增指引
 
-Brand [guidelines](/help/user-guide/guidelines/overview.md) capture brand characteristics. GenStudio for Performance Marketing&#39;s underlying generative AI capabilities use these guidelines to establish guardrails that guide content generation. 您可以上傳[[!DNL Brands] 指南](/help/user-guide/guidelines/brands.md)檔案或手動輸入品牌資訊。
+品牌[指導方針](/help/user-guide/guidelines/overview.md)擷取品牌特性。 GenStudio for Performance Marketing的基本創作AI功能會使用這些准則來建立護欄，以引導內容產生。 您可以上傳[[!DNL Brands] 指南](/help/user-guide/guidelines/brands.md)檔案或手動輸入品牌資訊。
 
-Content editors and collaborators cannot begin their work until the foundational elements of your organization&#39;s [brand identity](/help/user-guide/guidelines/brands.md) are established. These brand components include both:
+內容編輯與共同作業人員必須等到貴組織的[品牌識別](/help/user-guide/guidelines/brands.md)的基本元素建立後，才能開始工作。 這些品牌元件包含兩者：
 
-* Intangible elements, such as tone of voice
-* Tangible assets, like logos, color palettes, and typography.
+* 無形元素，例如語調
+* 有形資產，例如標誌、調色盤和印刷樣式。
 
-Before creating guidelines, learn about how GenStudio for Performance Marketing defines [brand components](/help/user-guide/guidelines/brands.md)
+在建立指引之前，請先瞭解GenStudio for Performance Marketing如何定義[品牌元件](/help/user-guide/guidelines/brands.md)
 
-#### Prepare your guideline documents
+#### 準備您的指引檔案
 
 全面且重點明確的[[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md)和[[!DNL Personas]](/help/user-guide/guidelines/personas.md)指引定義您組織行銷活動的核心層面。 GenStudio for Performance Marketing會從這些指引中擷取資訊，以開始建立您的品牌。 您可以上傳指導性檔案，或在您將資訊手動輸入到GenStudio for Performance Marketing時進行查閱。 請參閱[新增准則](/help/user-guide/guidelines/overview.md)，以取得上傳或輸入此資訊的指引。
 

@@ -33,7 +33,7 @@ ht-degree: 0%
 
 # Adobe GenStudio for Performance Marketing行銷活動
 
-GenStudio for Performance Marketing [!DNL Campaigns]可加速行銷方案的開發及部署，或&#x200B;_行銷活動_。[!DNL Campaigns] 元件包括資產和體驗，可透過GenStudio for Performance Marketing的AI產生工作流程進行建立、核准和管理，包括符合品牌的影像和文字。
+GenStudio for Performance Marketing [!DNL Campaigns]可加速行銷方案（或&#x200B;_行銷活動_）的開發和部署。 [!DNL Campaigns]元件包含的資產和體驗可藉由GenStudio for Performance Marketing的AI產生工作流程進行建立、核准和管理，包括符合品牌規範的影像和文字。
 
 [!DNL Campaigns]工作流程提供：
 

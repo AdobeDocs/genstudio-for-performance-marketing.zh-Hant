@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 380
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Meta廣告範本可協助您在Meta平台上建立視覺上一致且有效的廣
 
 自訂Meta廣告範本時，請套用這些必填欄位的內容預留位置：
 
-- `image` (必要，從JPEG、PNG或GIF內容中選取)
+- `image` （必要，從JPEG、PNG或GIF內容中選取）
 - `on_image_text` （出現在影像上的文字）
 
 GenStudio for Performance Marketing會自動產生下列欄位。 您不需要為下列專案套用內容預留位置：

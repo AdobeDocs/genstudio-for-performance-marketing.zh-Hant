@@ -19,7 +19,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: 490
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ GenStudio系統管理員必須先將您的無罪帳戶連線至GenStudio for Per
 1. 使用內容庫的搜尋和篩選工具來識別您要啟用的體驗。 然後按一下&#x200B;**[!UICONTROL 使用]**。 或者，您可以按一下Innovid產品卡上的&#x200B;**[!UICONTROL 新增]**，從「啟動」中選取體驗。
 1. 在繼續啟用之前，系統會提示您選取平台。 選取&#x200B;*Innovid*。 此體驗的「無視覺化體驗設定」頁面隨即開啟。 已預先填入體驗的詳細資料，且無法修訂。 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 新增體驗]**&#x200B;以新增體驗至此啟用群組。
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以確認您的Innovid平台設定。 **[!UICONTROL 平台設定]**&#x200B;檢視會開啟。此檢視會顯示從您設定的Innovid帳戶衍生的選項。
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以確認您的Innovid平台設定。 **[!UICONTROL 平台設定]**&#x200B;檢視開啟。此檢視顯示從您設定的Innovid帳戶衍生的選項。
 
 ## 步驟4：確認無驗證平台設定
 

@@ -166,6 +166,6 @@ ht-degree: 0%
 
 1. **若要發佈您的新體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
 1. **若要匯出您的新體驗**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式(JPG、PNG或GIF)，然後按一下「匯出」**&#x200B;**。
+   1. 選取格式（JPG、PNG或GIF），然後按一下「匯出」**&#x200B;**。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。

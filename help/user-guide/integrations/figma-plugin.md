@@ -19,8 +19,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 2c5e5166bfe9d4b1c6cb56495613ff5cf20fab34
 workflow-type: tm+mt
-source-wordcount: 1793
-ht-degree: 76%
+source-wordcount: 1913
+ht-degree: 78%
 
 ---
 
@@ -130,9 +130,9 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 
 使用GenStudio for Performance Marketing AI來產生或產生圖形範本中元素的變數。
 
-1. 如果您使用GenStudio外掛程式遊樂場或已經準備好的範本，請選取包含您的廣告範本的區段節點。您可以從&#x200B;**圖層**&#x200B;面板或直接按一下畫布的區段來執行此操作。
+1. 如果您使用GenStudio外掛程式遊樂場或已經準備好的範本，請選取包含您的廣告範本的區段節點。 您可以從&#x200B;**圖層**&#x200B;面板或直接按一下畫布的區段來執行此操作。
    ![區段選取或變數](./plugin-playground.png){width="50%" zoomable="yes"}
-1. 在外掛程式視窗中，輸入變數的專案名稱、選擇內容的平台，並填寫其他必要資訊。然後按一下&#x200B;**[!UICONTROL 完成設定]**&#x200B;按鈕。
+1. 在外掛程式視窗中，輸入變數的專案名稱、選擇內容的平台，並填寫其他必要資訊。 然後按一下&#x200B;**[!UICONTROL 完成設定]**&#x200B;按鈕。
    ![設定專案視窗](./setup-project.png){width="30%" zoomable="yes"}
 1. 選取要用於產生內容的[!DNL Brand]、[!DNL Persona]和[!DNL Product]。
 1. 選取要產生的變數數量（最多八個）。
@@ -145,7 +145,7 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 
 使用GenStudio for Performance Marketing AI產生廣告複製變化或翻譯圖形範本。
 
-1. 選取包含廣告範本的區段節點。您可以從&#x200B;**圖層**&#x200B;面板或直接按一下畫布的區段來執行此操作。
+1. 選取包含廣告範本的區段節點。 您可以從&#x200B;**圖層**&#x200B;面板或直接按一下畫布的區段來執行此操作。
    ![區段選取或變數](./plugin-playground.png){width="50%" zoomable="yes"}
 1. 在外掛程式視窗中，輸入變數的專案名稱，然後選擇內容的平台。
 1. 在&#x200B;**[!UICONTROL 目標為何？]**，選取&#x200B;**[!UICONTROL 產生變數]**&#x200B;或&#x200B;**[!UICONTROL 翻譯]**，然後按一下&#x200B;**[!UICONTROL 完成設定]**&#x200B;按鈕。
@@ -262,10 +262,10 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 
    1. 在Figma中，按一下畫布右上角的&#x200B;**[!UICONTROL 共用]**。
    1. 在&#x200B;**[!UICONTROL 共用此檔案]**&#x200B;中，按一下&#x200B;**[!UICONTROL 複製連結]**。
-   1. 將複製的連結貼到[!DNL GenStudio for Performance Marketing]外掛程式對話方塊中的&#x200B;**[!UICONTROL Figma檔案連結]**&#x200B;欄位。這需要對每個檔案完成：
+   1. 將複製的連結貼到[!DNL GenStudio for Performance Marketing]外掛程式對話方塊中的&#x200B;**[!UICONTROL Figma檔案連結]**&#x200B;欄位。 這需要對每個檔案完成：
       ![需要檔案金鑰對話方塊](./file-key-required.png){width="35%"}
    1. 按一下&#x200B;**[!UICONTROL 提交]**。
-1. 將會出現快顯視窗，要求存取權以讀取檔案的內容和中繼資料。所有檔案只需執行此動作一次。按一下&#x200B;**[!UICONTROL 允許存取]**。外掛程式會讀取在Figma中選取的影格，並將其轉換為JSON檔案，這是檔案資料的中介格式。
+1. 將會出現快顯視窗，要求存取權以讀取檔案的內容和中繼資料。 所有檔案只需執行此動作一次。 按一下&#x200B;**[!UICONTROL 允許存取]**。 外掛程式會讀取在Figma中選取的影格，並將其轉換為JSON檔案，這是檔案資料的中介格式。
    ![允許存取以讀取檔案的內容和中繼資料](./figma-access-request.png){width="35%"}
 1. 在Photoshop中，開啟[!DNL GenStudio Photoshop]並按一下&#x200B;**[!UICONTROL 匯入]**&#x200B;索引標籤。
 1. 若要選取轉換的檔案，請執行下列步驟之一：
@@ -274,7 +274,7 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
    * 按一下&#x200B;**[!UICONTROL 上傳JSON]**&#x200B;以瀏覽並選取要上傳的JSON檔案。
      ![上傳JSON按鈕](./upload-json.png){width="40%"}
 1. GenStudio Photoshop會將JSON檔案中的資訊轉換為開啟的Photoshop檔案。
-1. 按一下&#x200B;**[!UICONTROL 完成]**。新檔案會在Photoshop中開啟並準備使用。或按一下&#x200B;**[!UICONTROL 另存新檔……]**，選擇儲存檔案的位置。
+1. 按一下「**[!UICONTROL 完成]**」。 新檔案會在Photoshop中開啟並準備使用。 或按一下&#x200B;**[!UICONTROL 另存新檔……]**，選擇儲存檔案的位置。
    ![完成按鈕對話方塊](./import-done-button.png){width="40%"}
 
 ## 產生歷史記錄

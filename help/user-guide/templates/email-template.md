@@ -45,7 +45,7 @@ ht-degree: 0%
 - `sub_headline`
 - `body`
 - `cta`
-- `image` (從JPEG、PNG或GIF內容中選取)
+- `image` （從JPEG、PNG或GIF內容中選取）
 
 GenStudio for Performance Marketing會自動產生下列欄位。 未啟用RTF文字。 您不需要為下列專案套用內容預留位置：
 

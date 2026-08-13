@@ -2,7 +2,7 @@
 source-git-commit: 66aa508298f897c4a239f1b3e13a31ff20b8a944
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 # 欄位對應例外

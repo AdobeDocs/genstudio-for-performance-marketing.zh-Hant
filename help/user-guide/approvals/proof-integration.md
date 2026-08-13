@@ -15,7 +15,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: 912
 ht-degree: 1%
 
 ---
@@ -48,14 +48,14 @@ Workfront Proof的[!DNL Proofing Viewer]是供檢視、評論和比較校訂的�
 
 | 功能        | GenStudio for Performance Marketing                                                                 | Workfront Proof                                                                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| **草稿/校訂生命週期**        | 草稿內容在發佈時過期。 | 具有時間戳記的永久性記錄檔的多階段角色型核准鏈結。<br> 所有版本都會無限期保留。 |
+| **草稿/校訂生命週期**        | 草稿內容在發佈時過期。 | 具有時間戳記的永久性記錄的多階段角色型核准鏈。<br>所有版本都會無限期保留。 |
 | **個註解**                | 評論會繫結至草稿ID，並在發佈後捨棄。                                           | 持續性註釋和註解會保留以供稽核和法規遵循。     |
-| **版本**           | 草稿被視為唯一的執行個體。<br>沒有並排比較。                                      | 完整版本控制，提供並排和覆蓋比較工具。        |
+| **版本**           | 會將草稿視為不重複例項。<br>沒有並排比較。                                      | 完整版本控制，提供並排和覆蓋比較工具。        |
 | **專案管理** | 基本行銷活動管理。 | 完整的行銷活動生命週期管理，包括自訂、範本、報告和詳細稽核。 |
 
 ### 授權和使用者角色
 
-授權可識別產品中的一組使用者權益。 Workfront Proof比GenStudio for Performance Marketing提供更多的授權型別或使用者角色。[校訂角色概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)介紹了與Workfront Proof檢閱及核准工作流程相關聯的使用者角色。
+授權可識別產品中的一組使用者權益。 Workfront Proof比GenStudio for Performance Marketing提供更多的授權型別或使用者角色。 [校訂角色概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles)介紹與Workfront Proof檢閱及核准工作流程相關的使用者角色。
 
 | GenStudio for Performance Marketing授權       | Workfront授權                 | 說明                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|

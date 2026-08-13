@@ -13,7 +13,7 @@ role_v2:
 source-git-commit: b6b93e3513804919d43a663bb899e67556a4cbcd
 workflow-type: tm+mt
 source-wordcount: 496
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,19 +45,19 @@ App Builder應用程式的關鍵元件包括這些組建和設定檔案。 此�
 
 * TS應用程式檔案：
 
-   * `package.json`
-   * `package-lock.json`
-   * `eslint`
-   * `tsconfig`
-   * `jest test up`
+  * `package.json`
+  * `package-lock.json`
+  * `eslint`
+  * `tsconfig`
+  * `jest test up`
 
 * App Builder設定檔案：
 
-   * `app.config.yaml`
-   * `ext.config.yaml`：附加元件的組態檔。
-   * `app.config.yaml`：附加元件的設定檔（包括將您的應用程式定義為GenStudio for Performance Marketing附加元件）。
-   * `.aio`
-   * `.env`：不要將`.env`檔案認可到原始檔控制。
+  * `app.config.yaml`
+  * `ext.config.yaml`：附加元件的組態檔。
+  * `app.config.yaml`：附加元件的設定檔（包括將您的應用程式定義為GenStudio for Performance Marketing附加元件）。
+  * `.aio`
+  * `.env`：不要將`.env`檔案認可到原始檔控制。
 
 ### Source程式碼
 

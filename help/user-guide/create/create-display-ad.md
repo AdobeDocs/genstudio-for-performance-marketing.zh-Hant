@@ -159,7 +159,7 @@ When revising and preparing email experiences, you can toggle between previews f
       ![發佈顯示廣告](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
 1. **若要匯出您的新顯示廣告體驗**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式(HTML和影像、PNG或JPG)，然後按一下「匯出」**&#x200B;**。
+   1. 選取格式（HTML和影像、PNG或JPG），然後按一下「匯出」**&#x200B;**。
 
       匯出的HTML應放置在預先定義的Web屬性中，例如範本或`div`容器。 如果沒有這些設定的尺寸，獨立檢視影像時，影像可能會扭曲。
 

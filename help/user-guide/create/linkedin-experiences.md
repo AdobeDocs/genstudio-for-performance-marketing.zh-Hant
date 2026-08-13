@@ -33,7 +33,7 @@ ht-degree: 0%
 
 # LinkedIn體驗
 
-透過Adobe GenStudio for Performance Marketing，您可以運用創作AI來有效率[建立強大的LinkedIn體驗](/help/user-guide/create/create-linkedin.md)。[!DNL Create] 可讓內容建立者和行銷人員採用[指南](/help/user-guide/guidelines/overview.md)、影像資產，以及[指示提示](/help/user-guide/effective-prompts.md)來[產生品牌認可的LinkedIn體驗](/help/user-guide/create/create-email-experience.md)。
+透過Adobe GenStudio for Performance Marketing，您可以利用創作AI來有效率[建立強大的LinkedIn體驗](/help/user-guide/create/create-linkedin.md)。 [!DNL Create]可讓內容建立者和行銷人員採用[指南](/help/user-guide/guidelines/overview.md)、影像資產和[指示提示](/help/user-guide/effective-prompts.md)，以[產生符合品牌的LinkedIn體驗](/help/user-guide/create/create-email-experience.md)。
 
 產生LinkedIn體驗時，會建立四個變數並顯示在畫布中。
 

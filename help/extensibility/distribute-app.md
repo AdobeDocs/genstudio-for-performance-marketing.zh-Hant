@@ -11,7 +11,7 @@ role_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 303
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 本主題討論私人散佈。 私人發佈會將附加元件部署限制在IMS組織所識別的組織。
 
-公開發佈可讓附加元件在Adobe Exchange上作為應用程式使用。[_App Builder_&#x200B;開發人員檔案中的公開發佈](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)說明如何讓您的應用程式可供任何Adobe組織使用。
+公開發佈可讓附加元件在Adobe Exchange上作為應用程式使用。 _App Builder_&#x200B;開發人員檔案中的[公開發佈](https://developer.adobe.com/app-builder/docs/guides/distribution/public/)說明如何讓您的應用程式可供任何Adobe組織使用。
 
 >[!BEGINSHADEBOX]
 

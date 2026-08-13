@@ -6,7 +6,7 @@ role: Developer, User
 feature: Media Templates
 source-git-commit: 96249838f5ec957edc22eadf51ec828f54002adf
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 **若要檢視變體**&#x200B;的圖層：
 
-1. 產生一組變體後，按一下變體內的可編輯欄位或影像。圖層會顯示在右上方的圖磚行中。
+1. 產生一組變體後，按一下變體內的可編輯欄位或影像。 圖層會顯示在右上方的圖磚行中。
    ![變體中的圖層](./images/view-layers.png){width=50%}
 1. 按一下圖層圖磚來選取它。 選取的圖層會針對變體反白。
 1. 繼續對選取的圖層進行任何必要的編輯。
@@ -213,7 +213,7 @@ ht-degree: 0%
 
 **要使用視訊元件**：
 
-1. 選取體驗並按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，進入焦點模式並使用視訊元件功能。只會顯示單一變體，且會沿著底部顯示場景線。
+1. 選取體驗並按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，進入焦點模式並使用視訊元件功能。 只會顯示單一變體，且會沿著底部顯示場景線。
    ![使用視訊元件選項的選取體驗](./images/video-assembly.png){width=70%}
 1. 調整您的視訊體驗。 視訊元件選項包括：
    - 播放視訊

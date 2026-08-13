@@ -99,7 +99,7 @@ Adobe GenStudio for Performance Marketing會以豐富的中繼資料儲存已核
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md)已新增至GenStudio for Performance Marketing以供使用 |
 | 管道 | 用於發佈特定內容型別（例如電子郵件、橫幅和顯示廣告）的平台 |
 | [!UICONTROL 時間範圍] | 使用資產的時間範圍，例如季、季、年等。範例： `Winter 2023` |
-| 地區 | 使用資產的區域。 範例： `North America`， `APAC`， `Italy` |
+| 區域 | 使用資產的區域。 範例： `North America`， `APAC`， `Italy` |
 | 語言 | 使用資產的語言。 範例：`Spanish` |
 | 關鍵字 | 使用者定義的關鍵字可用來進一步識別資產的特性和用途 |
 

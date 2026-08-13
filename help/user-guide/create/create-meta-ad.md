@@ -186,7 +186,7 @@ ht-degree: 0%
 
 1. **若要發佈新的Meta廣告體驗**，請按一下頂端工具列或核准流程中的&#x200B;**[!UICONTROL 發佈]**。
 1. **若要匯出您新的Meta廣告體驗**，請按一下頂端工具列中的「**[!UICONTROL 匯出]**」。
-   1. 選取格式 — HTML和影像或CSV和影像(JPG或PNG) — 按一下「匯出&#x200B;**[!UICONTROL 」]**。
+   1. 選取格式 — HTML和影像或CSV和影像（JPG或PNG） — 按一下「匯出&#x200B;**[!UICONTROL 」]**。
 
 如需詳細資訊，請參閱[[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content)。
 

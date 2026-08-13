@@ -44,7 +44,7 @@ ht-degree: 1%
 - `headline`
 - `sub_headline`
 - `body`
-- `image` (必要，從JPEG、PNG或GIF內容中選取)
+- `image` （必要，從JPEG、PNG或GIF內容中選取）
 
 GenStudio for Performance Marketing會自動產生下列欄位。 您不需要為下列專案套用內容預留位置：
 

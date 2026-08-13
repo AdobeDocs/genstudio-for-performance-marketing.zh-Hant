@@ -19,7 +19,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
 workflow-type: tm+mt
-source-wordcount: 287
+source-wordcount: 293
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ LinkedIn範本提供結構化方式，可建立和自訂LinkedIn行銷活動的�
 
 自訂LinkedIn範本時，請套用這些必要欄位的內容預留位置：
 
-- `image` (必要，從JPEG、PNG或GIF內容中選取)
+- `image` （必要，從JPEG、PNG或GIF內容中選取）
 - `on_image_text` （出現在影像上的文字）
 
 GenStudio for Performance Marketing會自動產生下列欄位。 您不需要為下列專案套用內容預留位置：

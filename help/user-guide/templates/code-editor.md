@@ -39,7 +39,7 @@ _[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會顯示GenStudio for Perf
 
 ![程式碼編輯器檢視](/help/assets/template-detected-fields.png "檢查偵測到的欄位"){width="600"}
 
-如果您發現清單中缺少欄位，請搜尋範本程式碼並尋找缺少欄位的位置。 使用Handlebars語法和[可辨識的欄位名稱](/help/user-guide/templates/customize-template.md#recognized-field-names)插入正確的預留位置。 使用程式碼編輯器底部的「尋找和取代」表單，搜尋程式碼中的特定字串。 (Windows `CTRL`+`F`或macOS `CMD`+`F`)
+如果您發現清單中缺少欄位，請搜尋範本程式碼並尋找缺少欄位的位置。 使用Handlebars語法和[可辨識的欄位名稱](/help/user-guide/templates/customize-template.md#recognized-field-names)插入正確的預留位置。 使用程式碼編輯器底部的「尋找和取代」表單，搜尋程式碼中的特定字串。 （Windows `CTRL`+`F`或macOS `CMD`+`F`）
 
 ## 調整變數的角色
 
@@ -72,10 +72,10 @@ _[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會更新以反映您所做
 |-----------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | 剖析失敗 | 無法將範本內容剖析為有效的Handlebars。 | 檢查範本中是否有HTML和Handlebars語法錯誤，並更正這些錯誤，以確保[內容預留位置](/help/user-guide/templates/customize-template.md#content-placeholders)的格式有效。 |
 | 未指派群組 | 多群組電子郵件範本中的影像欄位未指派給任何群組。 | 檢查是否一致使用區段首碼。 每個[區段](/help/user-guide/templates/customize-template.md#sections-or-groups)只能使用每個欄位型別(`headline`、`body`、`image`、`cta`)中的一個。 將`image`欄位指派給範本中的有效群組。 |
-| 影像遺失 | 缺少必要的影像欄位。 | 特定範本型別(例如Meta、顯示或橫幅廣告)只需要一個`image`欄位。 將必要的`image`欄位新增至您的範本。 |
+| 影像遺失 | 缺少必要的影像欄位。 | 特定範本型別（例如Meta、顯示或橫幅廣告）只需要一個`image`欄位。 將必要的`image`欄位新增至您的範本。 |
 | 無效的單一群組 | 電子郵件範本只包含一個群組，這是無效的。 | 基本電子郵件範本包含單一範本元素集，這些元素不需要[區段或群組](/help/user-guide/templates/customize-template.md#sections-or-groups)中定義的群組命名慣例。 移除任何群組命名語法，將範本調整為零區段。 |
 | 無欄位 | 範本不包含任何欄位。 | 使用Handlebars語法新增[可辨識的欄位名稱](/help/user-guide/templates/customize-template.md#recognized-field-names)至您的範本，在其中您需要GenStudio for Performance Marketing產生特定型別的內容。 |
-| 缺少必要屬性 | 缺少部分必要的中繼資料屬性。 | 每個範本型別都有根據通道指引的需求和限制。 例如，Meta需要外觀比例，而顯示廣告則需要尺寸。[遵循特定管道的範本准則](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。 |
+| 缺少必要屬性 | 缺少部分必要的中繼資料屬性。 | 每個範本型別都有根據通道指引的需求和限制。 例如，Meta需要外觀比例，而顯示廣告則需要尺寸。 [遵循特定管道的範本准則](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。 |
 | 使用的保留名稱 | 正在使用禁止或保留的欄位名稱。 | 某些[欄位名稱](/help/user-guide/templates/customize-template.md#recognized-field-names) （例如`subject`或`introductory_text`）已保留。 重新命名使用保留或禁止名稱的欄位。 |
 | 太多欄位 | 欄位數超過全域限制20。 | 移除不必要的欄位，確保總計不超過20個。 |
 | 太多群組 | 群組數量超過頻道允許的最大值。 | Meta、display和LinkedIn範本不允許有多個區段。 定義兩個或三個區段時，電子郵件需要群組命名。 減少範本中的群組數量以符合[管道的需求](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines)。 |

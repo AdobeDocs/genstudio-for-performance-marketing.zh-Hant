@@ -44,10 +44,10 @@ ht-degree: 0%
 
 - 可存取所有Meta服務的Facebook/Meta登入
 - _完全控制_ Meta商業Portfolio和廣告帳戶，包括：
-   - 管理行銷活動
-   - 檢視效能
-   - 管理Creative中心模型
-   - 進階分析
+  - 管理行銷活動
+  - 檢視效能
+  - 管理Creative中心模型
+  - 進階分析
 - 停用瀏覽器中的任何快顯封鎖程式
 - 在嘗試連線之前，請先驗證Meta Business Manager中的任何Instagram帳戶頁面關聯
 - 確認管理員對所有正在連線的資產的存取權

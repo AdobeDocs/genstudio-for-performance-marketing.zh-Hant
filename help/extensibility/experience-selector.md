@@ -133,9 +133,9 @@ import { renderExperienceSelectorWithSUSI } from 'https://experience.adobe.com/s
 
 - [兩個&#x200B;**Vanilla JavaScript實作**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js)：
 
-   - [此&#x200B;**Vanilla ESM**&#x200B;版本使用ES6模組和現代JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)。
+  - [此&#x200B;**Vanilla ESM**&#x200B;版本使用ES6模組和現代JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm)。
 
-   - [此&#x200B;**Vanilla UMD**&#x200B;版本使用透過指令碼標籤](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)載入的UMD組合。
+  - [此&#x200B;**Vanilla UMD**&#x200B;版本使用透過指令碼標籤](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var)載入的UMD組合。
 
 ## 驗證流程
 

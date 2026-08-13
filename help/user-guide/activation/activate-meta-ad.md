@@ -19,7 +19,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1980
+source-wordcount: 1981
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
 使用&#x200B;_媒體_&#x200B;區段來選取至少一個影像資產以包含在您的體驗中。 廣告版位與支援的影像外觀比例相關聯，這些比例在&#x200B;_版位_&#x200B;下拉式功能表中列為選項。 此功能表會依外觀比例顯示Facebook貼文或Instagram內文支援的廣告投放位置。
 
-上傳後，資產會儲存至[!DNL Content]。 _媒體_&#x200B;區域預設會顯示具有1:1外觀比例的影像。 替代外觀比例僅包含付費廣告頻道支援的值。 它們會依垂直和水平方向分組。 GenStudio for Performance Marketing支援每個啟用的體驗最多包含六個外觀比例。
+上傳後，資產會儲存至[!DNL Content]。 _媒體_&#x200B;區域預設會以1:1的外觀比例顯示影像。 替代外觀比例僅包含付費廣告頻道支援的值。 它們會依垂直和水平方向分組。 GenStudio for Performance Marketing支援每個啟用的體驗最多包含六個外觀比例。
 
 **若要從內容上傳資產**：
 
@@ -161,14 +161,14 @@ GenStudio for Performance Marketing需要&#x200B;_主要文字_&#x200B;和&#x200
 
 體驗詳細資料會儲存為中繼資料，並可在搜尋體驗時協助使用者。 這些詳細資料可提升[!DNL Content]中體驗的可見度。 使用這些選擇性的使用者定義詳細資訊，來識別體驗的用途以及部署體驗的內容或行銷活動。
 
-| 詳細資料 | 說明 |
+| 詳細資訊 | 說明 |
 |------------|-------------|
 | 行銷活動 | 廣告體驗所屬的所有GenStudio for Performance Marketing行銷活動 |
 | 品牌 | 可讓使用者建立擷取品牌身分本質之品牌指引的使用者定義或預設指引。 |
 | 產品 | 與貴組織相關聯並在GenStudio for Performance Marketing中識別的產品 |
 | 人物誌 | 與貴組織相關聯並在GenStudio for Performance Marketing中識別的角色 |
 | 時間範圍 | 廣告體驗作用中的季度、季節、年度或其他組織定義的時間單位 |
-| 地區 | 啟動體驗的地理區域 |
+| 區域 | 啟動體驗的地理區域 |
 | 語言 | 使用廣告體驗的語言 |
 | 關鍵字 | 便於搜尋和分類廣告體驗的使用者定義關鍵字 |
 
@@ -178,7 +178,7 @@ GenStudio for Performance Marketing需要&#x200B;_主要文字_&#x200B;和&#x200
 
 準備廣告體驗後，您必須確認Meta帳戶資訊。 _Meta廣告設定_&#x200B;檢視已填入衍生自已設定Meta帳戶的選項。
 
-| 詳細資料 | 說明 |
+| 詳細資訊 | 說明 |
 |------------|-------------|
 | 帳戶 | 已連線至GenStudio for Performance Marketing的Meta帳戶 |
 | Facebook頁面 | 發佈體驗的Facebook頁面 |

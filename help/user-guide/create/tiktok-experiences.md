@@ -23,8 +23,8 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 931
-ht-degree: 89%
+source-wordcount: 933
+ht-degree: 84%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 89%
 ### 建立設定
 
 * 已設定您的[品牌、產品和角色](/help/user-guide/guidelines/overview.md)，讓應用程式可以產生品牌上的復本和版面配置。
-* 至少會上傳一個TikTok範本。 Adobe建議使用TikTok垂直影片範本，此範本已針對摘要位置最佳化，並具有&#x200B;**9:16**&#x200B;外觀比例，以及頂端和底部UI的安全區域。
+* 至少會上傳一個TikTok範本。 Adobe建議使用TikTok垂直影片範本，此範本已針對摘要位置而最佳化，並具有&#x200B;**9:16**&#x200B;外觀比例，以及頂端和底部UI的安全區域。
 * 視訊已上傳至[!DNL Content]。
 
 ## 產生TikTok資訊源內廣告
@@ -95,7 +95,7 @@ GenStudio for Performance Marketing會產生四種創意變體。
 * 使用&#x200B;**[!UICONTROL 重新產生]**&#x200B;或&#x200B;**[!UICONTROL 調整]**&#x200B;來調整色調、長度或強調。
 * 直接在畫布中編輯文字。
 * 使用&#x200B;**[!UICONTROL 交換]**&#x200B;從[!DNL Content]選取替代視訊。
-* 使用&#x200B;**[!UICONTROL 裁切]**&#x200B;或&#x200B;**[!UICONTROL 重新框架]**&#x200B;調整&#x200B;**9:16**&#x200B;框架內的視訊配置。
+* 使用&#x200B;**[!UICONTROL 裁切]**&#x200B;或&#x200B;**[!UICONTROL 重新影格]**&#x200B;調整&#x200B;**9:16**&#x200B;影格內的視訊配置。
 
 ### 執行品牌和管道檢查
 

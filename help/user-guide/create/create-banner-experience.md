@@ -96,7 +96,7 @@ ht-degree: 0%
 **若要修訂產生的變體**：
 
 * **若要[編輯橫幅草稿名稱](/help/user-guide/create/manage-variants.md#change-draft-name)**，請按一下畫布頂端的&#x200B;_未命名草稿_&#x200B;標題，然後輸入新標題。
-* **若要[手動編輯橫幅](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請連按兩下任何橫幅區段或欄位(例如標題或CTA)，然後視需要編輯。
+* **若要[手動編輯橫幅](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請連按兩下任何橫幅區段或欄位（例如標題或CTA），然後視需要編輯。
 * **若要在變體中[套用文字格式](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下變體的影像上文字或內嵌連結，然後按一下&#x200B;**[!UICONTROL 格式化文字]**。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或在_[!UICONTROL 產生新文字_區段]中輸入新提示，然後按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
@@ -155,7 +155,7 @@ When revising and preparing email experiences, you can toggle between previews f
       ![發佈橫幅](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
 1. **若要匯出您的新橫幅**，請按一下頂端工具列中的[匯出]。**&#x200B;**
-   1. 選取格式(HTML和影像、PNG或JPG)，然後按一下「匯出」**&#x200B;**。
+   1. 選取格式（HTML和影像、PNG或JPG），然後按一下「匯出」**&#x200B;**。
 
       匯出的HTML應放置在預先定義的Web屬性中，例如範本或`div`容器。 如果沒有這些設定的尺寸，獨立檢視影像時，影像可能會扭曲。
 

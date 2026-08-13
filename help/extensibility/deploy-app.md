@@ -86,8 +86,8 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 根據您部署的擴充功能型別，可在UI中的不同位置找到新擴充功能。 目前可用的擴充功能點包括：
 
 * 合規性擴充功能，包括：
-   * [*提示延伸點*](#find-prompt-extensions)，可讓客戶新增其他內容至LLM產生，以及
-   * [*驗證延伸點*](#find-validation-extensions)，可讓客戶驗證LLM產生的內容。 驗證通常會與「提示」延伸功能搭配使用，以確保以延伸提示產生的內容符合客戶要求（例如，醫療藥品索賠或法律）
+  * [*提示延伸點*](#find-prompt-extensions)，可讓客戶新增其他內容至LLM產生，以及
+  * [*驗證延伸點*](#find-validation-extensions)，可讓客戶驗證LLM產生的內容。 驗證通常會與「提示」延伸功能搭配使用，以確保以延伸提示產生的內容符合客戶要求（例如，醫療藥品索賠或法律）
 * [數位資產管理(DAM)擴充功能](#find-dam-extensions)
 * [範本副檔名](#find-template-extensions)
 * [翻譯擴充功能](#find-translation-extensions)

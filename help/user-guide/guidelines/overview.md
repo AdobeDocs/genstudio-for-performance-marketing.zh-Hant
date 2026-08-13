@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 505
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -85,4 +85,4 @@ Adobe GenStudio for Performance Marketing整合了外部平台指引和ADA協助
 這些累積相容性檢查包括：
 
 * **ADA協助工具** — 對於確保開發包容的內容和數位體驗，以迎合不同能力的使用者而言，是必不可少的。 這些可確保與網路無障礙功能保持一致，並為所有使用者提供公平的存取權。 GenStudio for Performance Marketing目前參考ADA AA級復本（文字）協助工具標準。
-* **平台法規遵循**：對於遵循每個平台的特定准則(例如Meta或LinkedIn)以及遵循業界最佳實務至關重要。 這些是預設的准則，存在於系統中，並預先填入[[!DNL Brand] 准則](/help/user-guide/guidelines/brands.md#brands-guidelines)。
+* **平台法規遵循**：對於遵循每個平台的特定准則（例如Meta或LinkedIn）以及遵循業界最佳實務至關重要。 這些是預設的准則，存在於系統中，並預先填入[[!DNL Brand] 准則](/help/user-guide/guidelines/brands.md#brands-guidelines)。

@@ -24,7 +24,7 @@ topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 2125
+source-wordcount: 2129
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Adobe GenStudio for Performance Marketing [!DNL Create]可讓您自訂及增強�
 * 文字大小
 * 連結
 
-文字格式選項會因不同管道而異(Meta、電子郵件等)
+文字格式選項會因不同管道而異（Meta、電子郵件等）
 
 **若要在產生的變化中手動編輯文字**：
 
@@ -181,7 +181,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
 ## 變更外觀比例
 
-您可以快速變更Meta廣告的[外觀比例](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)，以符合所需的廣告大小。 選擇與範本尺寸幾乎相符的影像外觀比例，以避免不需要的裁切或拉伸。 例如，如果您的範本是1200 × 628畫素（寬矩形），則使用1:1方形影像可能會裁切側邊，可能會截斷重要內容。 最佳影像大小為628 x 628畫素，符合範本的高度。
+您可以快速變更Meta廣告的[外觀比例](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)，以符合所需的廣告大小。 選擇與範本尺寸幾乎相符的影像外觀比例，以避免不需要的裁切或拉伸。 例如，如果您的範本是1200 × 628畫素（寬矩形），使用1:1的方形影像可能會裁切側邊，可能會截斷重要內容。 最佳影像大小為628 x 628畫素，符合範本的高度。
 
 >[!NOTE]
 >
@@ -193,7 +193,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
    目前用於廣告的外觀比例會顯示在&#x200B;_[!UICONTROL 調整大小]_&#x200B;視窗的頂端。
 
-   受此修訂影響的變數數目會記錄在視窗的右上角。_範例_：「4個變數中的4個」
+   受此修訂影響的變數數目會記錄在視窗的右上角。 _範例_：「4個變數中的4個」
 
 1. 選取[可用的外觀比例](/help/user-guide/templates/meta-template.md#supported-aspect-ratios)。
 
@@ -203,7 +203,7 @@ GenStudio for Performance Marketing有內建功能，可重新產生產生產生
 
    [!DNL Create]會根據新選取的外觀比例，建置每個變體的副本。 所有變體（包括初始長寬比中的變體）都會顯示在畫布中。
 
-   舉例來說，如果您一開始以1:1外觀比例產生四個變體，然後將外觀比例變更為4:5，畫布上即可使用&#x200B;_8_&#x200B;個總計變體。
+   例如，如果您一開始以1:1外觀比例產生四個變體，然後將外觀比例變更為4:5，畫布上現在可以使用&#x200B;_8_&#x200B;個總計變體。
 
 ## 交換影像
 

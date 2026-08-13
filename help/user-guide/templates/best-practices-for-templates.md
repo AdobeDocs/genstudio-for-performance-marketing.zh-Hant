@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
 workflow-type: tm+mt
-source-wordcount: 1347
+source-wordcount: 1352
 ht-degree: 0%
 
 ---
@@ -90,9 +90,9 @@ ht-degree: 0%
 
 1. 檢查影像。
    - 在Windows/Linux上：
-      - 按F12。
+     - 按F12。
    - 在macOS上：
-      - 按下Command + Option + I。
+     - 按下Command + Option + I。
 
 1. 將滑鼠停留在影像上。
 
