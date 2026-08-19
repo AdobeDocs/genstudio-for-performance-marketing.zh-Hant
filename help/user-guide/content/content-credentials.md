@@ -17,20 +17,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
+source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
 workflow-type: tm+mt
-source-wordcount: 723
-ht-degree: 4%
+source-wordcount: 670
+ht-degree: 5%
 
 ---
 
 # 適用於組織的Content Credentials
 
 瞭解內容防篡改認證如何直接內嵌在行銷工作流程中，以證明品牌真實性並促進法規遵循。
-
->[!WARNING]
->
-> 此功能目前為測試版，僅供已獲得存取權的組織使用。 如有興趣，請洽詢您的Adobe客戶團隊代表，或[使用此連結來要求註冊](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr)。
 
 ## 開始使用 Content Credentials {#content-credentials}
 
@@ -39,15 +35,11 @@ ht-degree: 4%
 >title="[!DNL GenStudio for Performance Marketing] 中的 Content Credentials"
 >abstract="能夠證明品牌真實性及促進合規性的防篡改內容認證，可以直接嵌入您的行銷工作流程中。"
 
-在Admin Console中啟用Content Credentials後，GenStudio for Performance Marketing使用者就可以在應用程式中為全域所有資產開啟Content Credentials。 如果已關閉套用認證的全域選項，使用者可以選擇為每個個別資產套用Content Credentials。
+GenStudio for Performance Marketing會自動將Content Credentials套用至所有資產。 沒有設定步驟和每個資產的設定可開啟：在整個行銷工作流程中內嵌、保留和重新整理認證。
 
 內容發佈後，Content Credentials將顯示在外部平台上，例如LinkedIn。
 
-管理員負責在Admin Console中上傳有效的X.509憑證。 此步驟可確保企業的數位簽章已正確設定，並可在支援的Adobe DX應用程式中使用。
-
->[!NOTE]
->
->控制此設定日後可能會轉換至Admin Console，精簡各應用程式的Content Credentials管理，並增強行政監督。
+符合C2PA規範的Content Credentials不需要設定憑證。 品牌簽名則為例外：若要使用貴組織自己的簽名簽署內容，管理員必須在Admin Console中上傳有效的X.509憑證。 此步驟可確保企業的數位簽章已正確設定，並可在支援的Adobe DX應用程式中使用。
 
 ## 什麼是Content Credentials？ 
 
@@ -71,7 +63,7 @@ Content Credentials是經久耐用的業界標準中繼資料型別，包含建�
 
 在內容庫中，認證會顯示在匯入的資產上。
 
-縮圖右上角的Content Credential徽章表示「品牌簽署」內容。
+縮圖右上角的Content Credential徽章表示[!UICONTROL Brand signed]內容。
 
 ![具有認證的匯入資產](./images/import-discovery1.png)
 
@@ -93,7 +85,7 @@ Content Credential徽章會顯示在畫布資產選擇器中。
 
 從草稿匯出期間，已修改的資產會自動重新簽署，而新的認證會連結至原始資產。
 
-已匯出資產上的![認證資料](./images/edit-and-transformation1.png){width="60%"}
+![包含匯出格式選項的[下載]對話方塊](./images/edit-and-transformation2.png){width="60%"}
 
 ### 檢閱和核准
 
@@ -103,7 +95,7 @@ Content Credential徽章會顯示在畫布資產選擇器中。
 
 當檢閱者檢查資產時，會顯示每個變體的認證詳細資料。 使用者按一下&#x200B;**[!UICONTROL 儲存至內容]**&#x200B;時，核准的體驗會重新簽署。
 
-![已核准資產的認證資料](./images/review-and-approve2.png)
+![已核准內容的「確認詳細資料」對話方塊，並顯示「儲存至內容」按鈕](./images/review-and-approve3.png)
 
 ### 啟用和匯出
 
