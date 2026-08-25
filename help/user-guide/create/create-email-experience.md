@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: ecda1f61abaafe858629fc4700f61d89e2ab9e3e
+source-git-commit: e47c6644de51ead57f1c2e780aa287eb1de7ac87
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1547
 ht-degree: 0%
 
 ---
@@ -111,10 +111,57 @@ ht-degree: 0%
 * **若要在變體中[套用文字格式](/help/user-guide/create/manage-variants.md#manually-edit-text)**，請按一下變體的影像上文字，然後按一下&#x200B;**[!UICONTROL 格式化文字]**。
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
+* **若要[編輯變體中的影像](#edit-images-in-the-canvas)**，請按一下影像欄位，然後按一下&#x200B;**[!UICONTROL 編輯]** （鉛筆圖示），直接在畫布中裁切、重新定位或展開影像。
 * **若要[新增連結至變體中的影像](/help/user-guide/create/manage-variants.md#add-image-link)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下連結圖示。
 * **若要[為變體中的影像新增替代文字](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**，請按一下影像資產，並使用&#x200B;_替代文字_&#x200B;選項來手動新增或產生每個影像的替代文字。
 * **若要[新增協助工具標籤](/help/user-guide/create/manage-variants.md#add-accessibility-labels)至您的變體**，請按一下影像或call-to-action連結，然後提供簡短說明，說明連結或按鈕的作用。
 * **若要[刪除電子郵件](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下以選取電子郵件標題（例如「電子郵件1/4」），然後按一下&#x200B;**[!UICONTROL 刪除變體]**。
+
+## 在畫布中編輯影像
+
+在不離開畫布或依賴外部設計工具的情況下調整影像。 您可以裁切和重新定位影像，將焦點置於主旨上，或使用「產生式展開」將影像延伸至其原始邊界之外。 編輯內容僅適用於您的電子郵件草稿。 絕不會修改[!DNL Content]和連線資產存放庫中的Source資產。
+
+從電子郵件畫布中的任何影像欄位存取影像編輯。 已編輯的影像會以視覺化方式標示，方便您追蹤您從原始資產變更過哪些影像。
+
+### 裁切和重新定位影像
+
+裁切影像以僅使用您想要的區域。 電子郵件中的裁切是自由格式，沒有外觀比例限制，因此您可以完全控制影像的哪一部分出現，以及以什麼比例出現。
+
+**若要裁切和重新定位影像**：
+
+1. 在電子郵件草稿中，將滑鼠指標暫留在上方，然後按一下影像欄位。
+1. 按一下&#x200B;**[!UICONTROL 編輯]** （鉛筆圖示）。
+1. 按一下&#x200B;**[!UICONTROL 裁切]**。
+1. 調整裁切區域，並將影像拖曳到需要的位置。
+1. 按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以裁切選取的影像，或按一下&#x200B;**[!UICONTROL 套用至所有影像]**&#x200B;以將裁切套用至草稿中的所有影像欄位。
+
+若要結束而不儲存變更，請按一下[取消]。**&#x200B;**
+
+![電子郵件畫布中的影像已啟用裁切工具的「編輯影像」檢視](/help/assets/edit-image-crop-email.png){width="650" zoomable="yes"}
+
+### 使用產生式展開來展開影像
+
+使用「創成」「延伸」，透過創成AI將影像延伸至其原始邊界之外。 電子郵件中的擴充功能不受限於固定的大小或比例，因此您可以將影像調整到所需的空間。
+
+**若要展開影像**：
+
+1. 在電子郵件草稿中，將滑鼠指標暫留在上方，然後按一下影像欄位。
+1. 按一下&#x200B;**[!UICONTROL 編輯]** （鉛筆圖示）。
+1. 按一下&#x200B;**[!UICONTROL 展開]**。
+
+   影像會在展開畫布上的&#x200B;_[!UICONTROL 編輯影像]_&#x200B;檢視中開啟，[!DNL GenStudio for Performance Marketing]會產生展開選項。
+
+1. 移動影像，使其位於展開的區域內。
+1. 選取產生的選項，或按一下&#x200B;**[!UICONTROL 更多]** （加號圖示）以檢視更多選項。
+1. 按一下&#x200B;**[!UICONTROL 套用]**&#x200B;將結果套用至選取的影像，或按一下&#x200B;**[!UICONTROL 套用至所有影像]**&#x200B;將結果套用至草稿中的所有影像欄位。
+
+若要結束而不儲存變更，請按一下[取消]。**&#x200B;**
+
+>[!NOTE]
+>
+>產生式擴充輸出大小不受限制，因此非常大的擴充的品質可能有所不同。 如果結果不符合您的需求，請按一下&#x200B;**[!UICONTROL 更多]**&#x200B;產生其他選項。
+
+![已選取產生式展開結果，且已準備好套用至編輯影像檢視](/help/assets/generative-expand-email.png){width="650" zoomable="yes"}
 
 ## 提交產生回饋
 
