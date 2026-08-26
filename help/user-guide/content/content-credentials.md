@@ -17,9 +17,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
+source-git-commit: 5fe8dccdcf24d26706b7d3621acc1715fd9eb164
 workflow-type: tm+mt
-source-wordcount: 670
+source-wordcount: 750
 ht-degree: 5%
 
 ---
@@ -105,6 +105,13 @@ Content Credential徽章會顯示在畫布資產選擇器中。
 
 匯出的檔案將會內嵌C2PA相容的認證。
 
+匯出的資產也會保留其譜系。 內嵌認證會記錄衍生自匯出的資產，因此匯出的體驗可以透過對原始匯入資產的編輯來回溯。 由於譜系會在檔案內移動，因此資產離開GenStudio for Performance Marketing後仍可檢查。
+
 所有支援的格式(JPEG、PNG、MP4)都能維持認證完整性。
 
 已匯出資產上的![認證資料](./images/activate-export2.png)
+
+## 相關資訊
+
+* [內容透明度](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* 在Adobe的[Content Credentials](https://helpx.adobe.com/tw/creative-cloud/help/content-credentials.html)
