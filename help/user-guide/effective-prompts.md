@@ -21,7 +21,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: b92dff810b9f780d2f7c2f737787bcb07fec6a61
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 0%
@@ -35,6 +35,8 @@ ht-degree: 0%
 GenStudio for Performance Marketing會在每次有機會修改資產時提供產生式AI提示。 有效提示的元件應包括描述性語言、範例，以及未透過您設定的准則提供的資訊。
 
 最佳實務是使用[指南](/help/user-guide/guidelines/overview.md)為GenStudio for Performance Marketing提供您的品牌資訊，然後您就可以完全運用創作AI來產生與品牌一致的內容體驗。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502672?learn=on)
 
 ## 描述性語言
 
