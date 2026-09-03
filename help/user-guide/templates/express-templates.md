@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 自動產生多種大小
 
-在 [!DNL Express][&#128279;](https://helpx.adobe.com/tw/express/web/arrange-layers-and-pages/add-pages.html)中為資產建立多個頁面時，這些頁面會移轉至從該資產建立的任何範本。 快速頁面將在[!DNL GenStudio for Performance Marketing]中產生不同大小的創意內容。
+在 [!DNL Express]&#x200B;[&#128279;](https://helpx.adobe.com/tw/express/web/arrange-layers-and-pages/add-pages.html)中為資產建立多個頁面時，這些頁面會移轉至從該資產建立的任何範本。 快速頁面將在[!DNL GenStudio for Performance Marketing]中產生不同大小的創意內容。
 
 當[!DNL Express]中的資產存在多個大小的內容時，可以在單一世代中為所有這些大小產生變體。
 
