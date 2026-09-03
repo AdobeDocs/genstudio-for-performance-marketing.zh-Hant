@@ -23,10 +23,10 @@ ht-degree: 0%
 
 ## 從Adobe Exchange安裝應用程式
 
->[!VIDEO](https://video.tv.adobe.com/v/3483310?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483287?learn=on)
 
 1. 開啟[Adobe Exchange](https://exchange.adobe.com)並移至&#x200B;**[!UICONTROL CX Enterprise]**。
-1. 開啟GenStudio [&#128279;](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio)適用的Journey Optimizer清單。
+1. 開啟GenStudio ](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio)適用的[Journey Optimizer清單。
    Adobe Exchange上適用於GenStudio的![Journey Optimizer清單，包括需求和免費安裝](/help/extensibility/ajo-adobe-exchange.png){width="75%"}
 1. 選取&#x200B;**[!UICONTROL 免費]**&#x200B;為您的組織請求應用程式。
 1. 在您的組織&#x200B;**檢閱並核准**&#x200B;要求後，繼續執行[在Adobe Developer Console中建立OAuth認證](#create-oauth-credentials-in-adobe-developer-console)以及[從Exchange部署應用程式](#deploy-the-application-from-exchange)。
@@ -50,7 +50,7 @@ ht-degree: 0%
 1. 返回[Adobe Exchange](https://exchange.adobe.com)。
 1. 選取「**[!UICONTROL 管理]**」並開啟&#x200B;**[!UICONTROL App Builder應用程式]** （或貴組織到受管理應用程式的路徑）。
 1. 選取GenStudio的&#x200B;**Journey Optimizer**，並確認應用程式為&#x200B;**已核准**。
-1. 在&#x200B;**[!UICONTROL 環境]**&#x200B;下，從&#x200B;**環境：**&#x200B;下拉式清單中選擇現有環境，或選取&#x200B;**[!UICONTROL 新增環境]**&#x200B;以建立環境。
+1. 在&#x200B;**[!UICONTROL 環境]**&#x200B;下，從&#x200B;**環境：**&#x200B;下拉式清單中選擇現有環境，或選取&#x200B;**[!UICONTROL 新增環境]**以建立環境。
    ![狀態為已核准並新增環境的應用程式詳細資料](/help/extensibility/ajo-config-002.png){width="50%"}
 1. 在選取的環境中，選取&#x200B;**[!UICONTROL 組態]**。
 1. 在&#x200B;**[!UICONTROL 組態]**&#x200B;索引標籤上，尋找&#x200B;**[!UICONTROL AJO認證]**。
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ### 更新設定
 
-若要變更環境的設定變數，請先取消部署&#x200B;**，更新值，然後再重新部署**&#x200B;以讓變更生效。**&#x200B;**
+若要變更環境的設定變數，請先取消部署&#x200B;]**，更新值，然後再重新部署**[!UICONTROL &#x200B;以讓變更生效。****
 
 您可以在Exchange中建立&#x200B;**多個環境** （例如，每個沙箱一個）。 當您的組織使用多個沙箱時，每個部署都可以在GenStudio中顯示為個別的體驗。
 
@@ -79,9 +79,9 @@ ht-degree: 0%
 
 **另請參閱** （Journey Optimizer存取控制）：
 
-* [存取控制](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Journey Optimizer中的許可權](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/permissions)
-* [系統管理員快速入門](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [存取控制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Journey Optimizer中的許可權](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
+* [系統管理員快速入門](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## 存取GenStudio中的AJO範本
 

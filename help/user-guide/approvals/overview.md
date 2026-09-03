@@ -5,17 +5,11 @@ level: Beginner
 feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
 TQID: https://experienceleague.adobe.com/2oFwfqVPlW24irHth-mkEx-ciO5tQgNv2hwAYmkfi-g
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 890
@@ -79,7 +73,7 @@ _檢閱者_&#x200B;可以新增註解，但無法核准內容。 檢閱者的參
 
 GenStudio for Performance Marketing產品內通知會即時更新核准者和內容編輯器，以變更資產狀態和`@mention`個註解。 通知可支援在多個稽核、編輯和核准週期中快速反複執行。
 
-內容編輯者和核准者可以註冊，在Slack中接收這些通知。 請參閱[在CX Enterprise中訂閱服務](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/customer-attributes/subscription)。
+內容編輯者和核准者可以註冊，在Slack中接收這些通知。 請參閱[在CX Enterprise中訂閱服務](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/subscription)。
 
 核准參與者採取的動作會觸發自動產品內通知和電子郵件通知。 當您開始核准流程時，指定的核准者會收到電子郵件和產品內通知。 每當核准者新增`@mention`個註解或做出決定時，您就會與產品內通知和電子郵件通知一起進入回圈。 通知包括內容草稿的連結。
 

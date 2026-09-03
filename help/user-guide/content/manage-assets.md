@@ -4,23 +4,11 @@ description: 簡化並增強對品牌核准資產的管理，以便在您的數�
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
 TQID: https://experienceleague.adobe.com/G9pgYplVoU0cVTOveP57W7MtUehg1E5GAiuGzjL8wRc
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
 source-wordcount: 1546
@@ -54,13 +42,13 @@ Adobe GenStudio for Performance Marketing [!DNL Content]簡化並增強品牌核
 
 **若要搜尋要重複使用的內容**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL Assets]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL Assets]**區段。
 
 1. 從&#x200B;**[!UICONTROL 位置]**&#x200B;清單中選取資產存放庫，或確認您所檢視的資產存放庫是否正確。 `GenStudio assets`是預設存放庫。
 
    >[!IMPORTANT]
    >
-   >_位置_&#x200B;清單只有在您[連線至AEM存放庫](connect-aem-repo.md)時才能使用。
+   _位置_&#x200B;清單只有在您[連線至AEM存放庫](connect-aem-repo.md)時才能使用。
 
 1. 按一下&#x200B;**[!UICONTROL 搜尋]** （放大鏡）以輸入關鍵字或說明。
 
@@ -100,7 +88,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 | --------------------------------------------------------- | :----: | :---------: | :-------: |
 | [檢視詳細資料](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
 | [建立體驗](/help/user-guide/create/overview.md) |        |             | ✓ |
-| 在Adobe Express中編輯[&#128279;](#edit-in-express) | ✓ |             |           |
+| 在Adobe Express中編輯[](#edit-in-express) | ✓ |             |           |
 | [匯出體驗](#export-experiences) |        | ✓ |           |
 | [重新整理](/help/user-guide/templates/use-templates.md#refresh-template) |   |      | ✓ |
 | [下載](#download-assets) | ✓ |             | ✓ |
@@ -114,7 +102,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 **若要新增一或多個資產**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，按一下&#x200B;**[!UICONTROL 新增資產]**。
+1. 在&#x200B;_[!DNL Content]_中，按一下&#x200B;**[!UICONTROL 新增資產]**。
 
 2. 在&#x200B;_新增您核准的資產_&#x200B;檢視中，將一或多個檔案拖放至放置區。 您可以選擇使用&#x200B;**[!UICONTROL 瀏覽]**&#x200B;從本機檔案選取，或是從Dropbox或Microsoft OneDrive匯入檔案。
 
@@ -138,7 +126,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 **若要下載資產**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取資產或範本。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_中，選取資產或範本。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，按一下右上角的&#x200B;**[!UICONTROL 下載]**&#x200B;圖示（向下箭頭）。
 
@@ -148,7 +136,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 **若要刪除資產**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_中，選取資產、體驗或範本。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，按一下右上角的&#x200B;**[!UICONTROL 刪除]** （垃圾桶）。
 
@@ -164,11 +152,11 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 >[!WARNING]
 >
->擷取的資產不安全，未經清理便無法顯示。 所有使用者必須在其終端使用輸入清理技術，從範本處理跨網站指令碼(XSS)。
+擷取的資產不安全，未經清理便無法顯示。 所有使用者必須在其終端使用輸入清理技術，從範本處理跨網站指令碼(XSS)。
 
 **若要匯出或下載體驗**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取一或多個體驗。
+1. 在&#x200B;_[!DNL Content]_中，選取一或多個體驗。
 
    橫幅的左側會顯示選取的體驗數目，右側則會顯示[!UICONTROL 啟用]、[!UICONTROL 下載]或[!UICONTROL 刪除]的選項。
 
@@ -186,7 +174,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 ## 在Express中編輯
 
-您可以使用Adobe Express直接在GenStudio for Performance Marketing中編輯影像資產（JPG或PNG）。 由Adobe Express _支援的_&#x200B;畫布提供便利的功能，讓您在不離開GenStudio應用程式的情況下增強影像。 您可以輕鬆移除背景、套用產生式填色、調整效果和裁切影像。
+您可以使用Adobe Express直接在GenStudio for Performance Marketing中編輯影像資產（JPG或PNG）。 由Adobe Express ]_支援的_[!UICONTROL &#x200B;畫布提供便利的功能，讓您在不離開GenStudio應用程式的情況下增強影像。 您可以輕鬆移除背景、套用產生式填色、調整效果和裁切影像。
 
 >[!BEGINSHADEBOX]
 
@@ -201,7 +189,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 **若要使用Express**&#x200B;編輯資產：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取影像資產。 按一下資產可開啟資產聚焦檢視。
+1. 在&#x200B;_[!DNL Content]_中，選取影像資產。 按一下資產可開啟資產聚焦檢視。
 
 1. 在資產檢視中，按一下右上角的&#x200B;**[!UICONTROL 在Adobe Express中編輯]**&#x200B;圖示。
 
@@ -209,7 +197,7 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
 1. 當您對更新的影像感到滿意時，請按一下右上角的&#x200B;**[!UICONTROL 儲存復本]**。
 
-1. 選取檔案格式（JPG或PNG），然後按一下「儲存副本」**&#x200B;**。
+1. 選取檔案格式（JPG或PNG），然後按一下「儲存副本」****。
 
 1. 在&#x200B;_[!UICONTROL 儲存資產]_&#x200B;快顯視窗中，更新&#x200B;**[!UICONTROL 資產名稱]**。
 
@@ -219,6 +207,6 @@ AEM存放庫可能會強制執行某些授權要求，例如資產過期。 這�
 
    >[!TIP]
    >
-   >您提供的詳細資料越多，就越能體驗GenStudio for Performance Marketing的強大功能。 從清單中選取一或多個詳細資訊，或輸入適用的新詳細資訊，例如關鍵字。 您新增的每個詳細資訊都會顯示在清單下方。 按一下&#x200B;**`x`**&#x200B;以移除詳細資料。
+   您提供的詳細資料越多，就越能體驗GenStudio for Performance Marketing的強大功能。 從清單中選取一或多個詳細資訊，或輸入適用的新詳細資訊，例如關鍵字。 您新增的每個詳細資訊都會顯示在清單下方。 按一下&#x200B;**`x`**&#x200B;以移除詳細資料。
 
 1. 按一下「**[!UICONTROL 儲存]**」。

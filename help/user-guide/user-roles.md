@@ -6,24 +6,12 @@ feature: Generative AI, Guidelines
 role: Admin
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
 TQID: https://experienceleague.adobe.com/H1MbYm5RniRbZBous-F4nBi-2h5RD1AG4IgydlP22-c
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 1155
@@ -45,9 +33,9 @@ ht-degree: 10%
 
 **Adobe系統管理員**&#x200B;在Adobe Admin Console中擁有超級使用者許可權，可執行所有使用者管理工作，例如新增或刪除使用者。 此系統管理員角色未提供GenStudio for Performance Marketing應用程式中的許可權，因此可說明Adobe系統管理員不需要GenStudio授權的原因。 Adobe系統管理員通常會使用Admin Console在GenStudio部署中新增和刪除使用者帳戶，並從個別使用者或使用者群組指派或移除權益或許可權。
 
-**GenStudio系統管理員**&#x200B;是GenStudio for Performance Marketing中的超級使用者，但沒有在Adobe Admin Console中執行工作的許可權。 此系統管理員角色需要GenStudio產品授權，而且對應至[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中的超級使用者。 GenStudio系統管理員擁有GenStudio for Performance Marketing功能的完整權利，包括[!DNL Brands]、[!DNL Persona]以及[!DNL Product]建立、刪除、更新和發佈。 [Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)說明GenStudio使用者角色與產品授權的關係。
+**GenStudio系統管理員**&#x200B;是GenStudio for Performance Marketing中的超級使用者，但沒有在Adobe Admin Console中執行工作的許可權。 此系統管理員角色需要GenStudio產品授權，而且對應至[Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)中的超級使用者。 GenStudio系統管理員擁有GenStudio for Performance Marketing功能的完整權利，包括[!DNL Brands]、[!DNL Persona]以及[!DNL Product]建立、刪除、更新和發佈。 [Adobe GenStudio for Performance Marketing產品說明](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html)說明GenStudio使用者角色與產品授權的關係。
 
-請參閱&#x200B;_企業和團隊管理指南_&#x200B;中的[管理角色](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html#enterprise)。
+請參閱&#x200B;_企業和團隊管理指南_&#x200B;中的[管理角色](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)。
 
 ## 權益
 

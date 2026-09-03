@@ -5,18 +5,11 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 2c5e5166bfe9d4b1c6cb56495613ff5cf20fab34
 workflow-type: tm+mt
 source-wordcount: 1913
@@ -42,7 +35,7 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 * 將產生的[!DNL Experiences]匯出至GenStudio for Performance Marketing。
 * 使用可調整成圖形畫布中所選元素的外掛程式選項。
 
->[!VIDEO](https://video.tv.adobe.com/v/3478820?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## 建立範本
 
@@ -130,9 +123,9 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 
 使用GenStudio for Performance Marketing AI來產生或產生圖形範本中元素的變數。
 
-1. 如果您使用GenStudio外掛程式遊樂場或已經準備好的範本，請選取包含您的廣告範本的區段節點。 您可以從&#x200B;**圖層**&#x200B;面板或直接按一下畫布的區段來執行此操作。
+1. 如果您使用GenStudio外掛程式遊樂場或已經準備好的範本，請選取包含您的廣告範本的區段節點。 您可以從&#x200B;**圖層**面板或直接按一下畫布的區段來執行此操作。
    ![區段選取或變數](./plugin-playground.png){width="50%" zoomable="yes"}
-1. 在外掛程式視窗中，輸入變數的專案名稱、選擇內容的平台，並填寫其他必要資訊。 然後按一下&#x200B;**[!UICONTROL 完成設定]**&#x200B;按鈕。
+1. 在外掛程式視窗中，輸入變數的專案名稱、選擇內容的平台，並填寫其他必要資訊。 然後按一下&#x200B;**[!UICONTROL 完成設定]**按鈕。
    ![設定專案視窗](./setup-project.png){width="30%" zoomable="yes"}
 1. 選取要用於產生內容的[!DNL Brand]、[!DNL Persona]和[!DNL Product]。
 1. 選取要產生的變數數量（最多八個）。
@@ -145,17 +138,17 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 
 使用GenStudio for Performance Marketing AI產生廣告複製變化或翻譯圖形範本。
 
-1. 選取包含廣告範本的區段節點。 您可以從&#x200B;**圖層**&#x200B;面板或直接按一下畫布的區段來執行此操作。
+1. 選取包含廣告範本的區段節點。 您可以從&#x200B;**圖層**面板或直接按一下畫布的區段來執行此操作。
    ![區段選取或變數](./plugin-playground.png){width="50%" zoomable="yes"}
 1. 在外掛程式視窗中，輸入變數的專案名稱，然後選擇內容的平台。
-1. 在&#x200B;**[!UICONTROL 目標為何？]**，選取&#x200B;**[!UICONTROL 產生變數]**&#x200B;或&#x200B;**[!UICONTROL 翻譯]**，然後按一下&#x200B;**[!UICONTROL 完成設定]**&#x200B;按鈕。
+1. 在&#x200B;**[!UICONTROL 目標為何？]**，選取&#x200B;**[!UICONTROL 產生變數]**&#x200B;或&#x200B;**[!UICONTROL 翻譯]**，然後按一下&#x200B;**[!UICONTROL 完成設定]**按鈕。
    ![設定專案視窗](./setup-project.png){width="30%" zoomable="yes"}
 1. 選取要用於產生內容的[!DNL Brand]、[!DNL Persona]和[!DNL Product]。
 1. 選取要產生的變數數目。
 1. 使用「**[!UICONTROL 選取內容]**」下的按鈕，從您的資產中瀏覽並選擇影像。 最近新增的40個資產會先出現，您可以搜尋其他資產。 選取的影像會自動調整大小以符合您的範本。
 1. 輸入文字提示。 **[!UICONTROL 欄位]**&#x200B;清單中的每個欄位都將&#x200B;**[!UICONTROL 動作]**&#x200B;選項設定為&#x200B;**[!UICONTROL 產生新內容的]**。
 1. 對應所有欄位角色。 請參閱[欄位角色對應](#field-role-mapping)。
-1. 選取每個欄位型別，以產生變數或在外掛程式左側的面板中翻譯，然後將初始內容貼到每個&#x200B;**[!UICONTROL 初始內容]**&#x200B;方塊中。
+1. 選取每個欄位型別，以產生變數或在外掛程式左側的面板中翻譯，然後將初始內容貼到每個&#x200B;**[!UICONTROL 初始內容]**方塊中。
    ![初始內容方塊中的範例文字](./initial-content-box.png){width="60%" zoomable="yes"}
 1. 按一下&#x200B;**[!UICONTROL 產生]**&#x200B;按鈕。
 
@@ -207,9 +200,9 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 1. 從側欄功能表選取「匯出」專案。
    針對Meta廣告顯示![標示為匯出按鈕](./mark-for-export.png){width="60%" zoomable="yes"}
 1. 選取目的地。
-1. 按一下[匯出&#x200B;**&#x200B;**]以匯出內容。
+1. 按一下[匯出&#x200B;****]以匯出內容。
 
-已在外掛程式面板中建立ZIP檔案，或在GenStudio **中顯示**&#x200B;開啟的連結。 使用ZIP連結來選擇儲存檔案的位置，或選取&#x200B;**[!UICONTROL 在GenStudio中開啟]**。
+已在外掛程式面板中建立ZIP檔案，或在GenStudio ]**中顯示**[!UICONTROL &#x200B;開啟的連結。 使用ZIP連結來選擇儲存檔案的位置，或選取&#x200B;**[!UICONTROL 在GenStudio中開啟]**。
 
 ## 將Figma框架轉換為Photoshop
 
@@ -220,7 +213,7 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 您可以使用Figma外掛程式將影格、多個影格或整個檔案轉換為Photoshop格式，然後匯出以用於[GenStudio Photoshop](photoshop-plugin.md)。 目前，轉換期間僅支援主要屬性，例如可見度、字型大小以及基本圖層屬性。 目前尚不支援刪除線、上標、下標、百分比形式的不透明度、漸層和類似的進階屬性等功能。
 
 <!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
->[!VIDEO](https://video.tv.adobe.com/v/3492280?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
 
 外掛程式支援下列Figma圖層型別的轉換：
 
@@ -255,14 +248,14 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 
 1. 若要移轉選取的框架，請執行下列任一項動作：
 
-   * 按一下[匯出&#x200B;**&#x200B;**]將轉換的檔案匯出至選擇的位置，或
-   * 按一下&#x200B;**[!UICONTROL 傳輸至Photoshop]**&#x200B;以快取轉換後的檔案，以便在GenStudio Photoshop中立即使用。
+   * 按一下[匯出&#x200B;****]將轉換的檔案匯出至選擇的位置，或
+   * 按一下&#x200B;**[!UICONTROL 傳輸至Photoshop]**以快取轉換後的檔案，以便在GenStudio Photoshop中立即使用。
      ![傳輸到GenStudio Photoshop按鈕](./transfer-to-ps-button.png){width="40%"}
 1. 接下來，分享您的Figma檔案連結。 外掛程式需要圖形檔案URL才能完成轉換。 新增檔案的URL。
 
    1. 在Figma中，按一下畫布右上角的&#x200B;**[!UICONTROL 共用]**。
    1. 在&#x200B;**[!UICONTROL 共用此檔案]**&#x200B;中，按一下&#x200B;**[!UICONTROL 複製連結]**。
-   1. 將複製的連結貼到[!DNL GenStudio for Performance Marketing]外掛程式對話方塊中的&#x200B;**[!UICONTROL Figma檔案連結]**&#x200B;欄位。 這需要對每個檔案完成：
+   1. 將複製的連結貼到[!DNL GenStudio for Performance Marketing]外掛程式對話方塊中的&#x200B;**[!UICONTROL Figma檔案連結]**欄位。 這需要對每個檔案完成：
       ![需要檔案金鑰對話方塊](./file-key-required.png){width="35%"}
    1. 按一下&#x200B;**[!UICONTROL 提交]**。
 1. 將會出現快顯視窗，要求存取權以讀取檔案的內容和中繼資料。 所有檔案只需執行此動作一次。 按一下&#x200B;**[!UICONTROL 允許存取]**。 外掛程式會讀取在Figma中選取的影格，並將其轉換為JSON檔案，這是檔案資料的中介格式。
@@ -271,7 +264,7 @@ GenStudio for Performance Marketing Figma外掛程式會在Figma應用程式中�
 1. 若要選取轉換的檔案，請執行下列步驟之一：
 
    * 按一下&#x200B;**[!UICONTROL 從外掛程式]**，從快取檔案清單中選擇以&#x200B;**[!UICONTROL 傳輸到GenStudio Photoshop]**&#x200B;轉換的檔案，或
-   * 按一下&#x200B;**[!UICONTROL 上傳JSON]**&#x200B;以瀏覽並選取要上傳的JSON檔案。
+   * 按一下&#x200B;**[!UICONTROL 上傳JSON]**以瀏覽並選取要上傳的JSON檔案。
      ![上傳JSON按鈕](./upload-json.png){width="40%"}
 1. GenStudio Photoshop會將JSON檔案中的資訊轉換為開啟的Photoshop檔案。
 1. 按一下「**[!UICONTROL 完成]**」。 新檔案會在Photoshop中開啟並準備使用。 或按一下&#x200B;**[!UICONTROL 另存新檔……]**，選擇儲存檔案的位置。
