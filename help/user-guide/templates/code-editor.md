@@ -6,11 +6,18 @@ role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
 TQID: https://experienceleague.adobe.com/QtGu-GaR4LMNGa4IrtYKzk1EjL1g9y08hF-kAm4rLJM
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 787
@@ -49,7 +56,7 @@ _[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會顯示GenStudio for Perf
 1. 在&#x200B;_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格中找到變數。 系統會自動探索這些變數。
 2. 檢閱指派給每個變數的角色。 角色會自動指派，但可使用範本中任何變數的下拉式清單進行調整。
 3. 從下拉式選單中選取新角色，即可調整角色。
-4. 按一下[下一步]****&#x200B;繼續。
+4. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;繼續。
 
 ## 進行更正
 
@@ -57,7 +64,7 @@ _[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會顯示GenStudio for Perf
 
 ![更正無效的範本](/help/assets/animation/template-code-editor.gif){width="600"}
 
-_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會更新以反映您所做的變更。 在您滿意欄位正確且完成之後，請按[下一步] ****&#x200B;繼續[上傳您的範本](/help/user-guide/templates/use-templates.md#add-a-template)。
+_[!UICONTROL 檢查偵測到的欄位]_&#x200B;窗格會更新以反映您所做的變更。 在您滿意欄位正確且完成之後，請按[下一步] **&#x200B;**&#x200B;繼續[上傳您的範本](/help/user-guide/templates/use-templates.md#add-a-template)。
 
 ## 常見範本問題和解決方案
 

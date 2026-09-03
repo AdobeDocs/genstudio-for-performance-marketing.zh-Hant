@@ -7,9 +7,13 @@ feature: Content Management
 recommendations: noDisplay
 exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
 TQID: https://experienceleague.adobe.com/FJ6G7qlBlkrsGk1H7SHhlkqHUHYYGKkTqklTeGDxJho
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 387
@@ -37,7 +41,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
-管理員應確認[!DNL AEM Assets Content Hub]存放庫與GenStudio for Performance Marketing位於相同的組織內。
+>管理員應確認[!DNL AEM Assets Content Hub]存放庫與GenStudio for Performance Marketing位於相同的組織內。
 
 ## 步驟2：入門GenStudio使用者
 
@@ -54,7 +58,7 @@ ht-degree: 3%
 
 ## 步驟4：設定資產可見度
 
-在&#x200B;_[!DNL AEM Assets Content Hub]_組態選項中，檢閱篩選器、資產詳細資訊、搜尋和品牌推廣的每組組態選項。
+在&#x200B;_[!DNL AEM Assets Content Hub]_&#x200B;組態選項中，檢閱篩選器、資產詳細資訊、搜尋和品牌推廣的每組組態選項。
 
 請參閱&#x200B;_Content Hub_&#x200B;檔案中的[設定AEM as a Cloud Service使用者介面](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options)。
 
