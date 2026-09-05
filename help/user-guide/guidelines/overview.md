@@ -34,7 +34,7 @@ ht-degree: 1%
 
 # GenStudio for Performance Marketing指引
 
->[!VIDEO](https://video.tv.adobe.com/v/3502922?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502940?captions=chi_hant&learn=on)
 
 GenStudio for Performance Marketing指引可上傳或手動新增至GenStudio for Performance Marketing，讓使用者可建立品牌指引，以擷取品牌識別的精髓。
 

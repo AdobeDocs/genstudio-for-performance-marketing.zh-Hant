@@ -36,7 +36,7 @@ GenStudio for Performance Marketing會在每次有機會修改資產時提供產
 
 最佳實務是使用[指南](/help/user-guide/guidelines/overview.md)為GenStudio for Performance Marketing提供您的品牌資訊，然後您就可以完全運用創作AI來產生與品牌一致的內容體驗。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502672?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502682?captions=chi_hant&learn=on)
 
 ## 描述性語言
 
