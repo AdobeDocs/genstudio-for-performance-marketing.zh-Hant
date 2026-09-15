@@ -9,38 +9,56 @@ exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
 TQID: https://experienceleague.adobe.com/ht5ZJBghEPMEL--WNyl5uam-Mb92dsgp-4g9jQ9aO-g
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
   - id: b03d2162-d906-40a0-9cbd-001391e22d4a
+    internal-label: Content performance
   - id: be495d08-ecd1-455f-951e-c22de504e667
+    internal-label: Content generation
   - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+    internal-label: Create prompt
   - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+    internal-label: Create canvas
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
   - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
+    internal-label: Meta experiences
   - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+    internal-label: Variant generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Insights
+source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
 workflow-type: tm+mt
-source-wordcount: 1414
+source-wordcount: '1436'
 ht-degree: 0%
-
 ---
-
 # 建立Meta廣告體驗
 
 此教學課程示範如何使用GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md)產生品牌化[Meta廣告體驗](/help/user-guide/create/meta-experiences.md) （左側導覽區域中的繪圖筆刷圖示）。
+
+若要建置多卡片轉盤廣告，而非單一影像或視訊廣告，請參閱[建立Meta轉盤廣告體驗](/help/user-guide/create/create-meta-carousel-ad.md)。
 
 開始產生Meta廣告體驗之前，請務必[在GenStudio for Performance Marketing中納入指引](/help/user-guide/guidelines/add-guidelines.md)，並熟悉[建立提示](/help/user-guide/effective-prompts.md)的基本知識。
 
@@ -52,7 +70,7 @@ ht-degree: 0%
 
 **若要選擇Meta廣告範本**：
 
-1. 在&#x200B;_[!DNL Create]_&#x200B;中，按一下&#x200B;**[!UICONTROL Meta廣告]**。
+1. 在&#x200B;_[!DNL Create]_中，按一下&#x200B;**[!UICONTROL Meta廣告]**。
 1. 選取&#x200B;**[!UICONTROL 自訂範本]**&#x200B;以瀏覽您上傳的範本，或選取&#x200B;**[!UICONTROL 入門範本]**&#x200B;以瀏覽預先建立的範本。
 
    如果您打算將視訊資產新增至您的Meta變體，則必須選擇入門範本。 它們會預先載入系統定義的內容區域，以方便視訊的使用。
@@ -135,7 +153,7 @@ ht-degree: 0%
 * **若要[重新產生變體](/help/user-guide/create/manage-variants.md#re-generate-sections)**&#x200B;的區段，請按一下可編輯的文字欄位並使用&#x200B;_[!UICONTROL 建議的編輯]_&#x200B;選項，或輸入新的提示並按一下&#x200B;**[!UICONTROL 產生]**。
 * **若要[新增或交換變體中的影像](/help/user-guide/create/manage-variants.md#swap-image)**，請按一下影像資產（如果影像目前不存在，則按一下影像資產區域），然後按一下&#x200B;**[!UICONTROL 從內容交換]**&#x200B;圖示。
 * **若要[裁切或重新定位影像](/help/user-guide/create/manage-variants.md#crop-assets)**，請按一下影像，按一下&#x200B;**[!UICONTROL 編輯]** （鉛筆圖示），然後按一下&#x200B;**[!UICONTROL 裁切]**。 調整影像大小和位置。
-* **要[使用[產生式展開]以調整影像大小並符合您的工作範本](/help/user-guide/create/manage-variants.md#use-generative-expand)**，按一下影像，按一下[編輯]&#x200B;**（鉛筆圖示），然後**&#x200B;[!UICONTROL &#x200B;展開&#x200B;]&#x200B;**。**&#x200B;調整影像以符合所需的外觀比例和範本。
+* **要[使用[產生式展開]以調整影像大小並符合您的工作範本](/help/user-guide/create/manage-variants.md#use-generative-expand)**，按一下影像，按一下[編輯]]**（鉛筆圖示），然後**[!UICONTROL &#x200B;展開&#x200B;]**。**[!UICONTROL &#x200B;調整影像以符合所需的外觀比例和範本。
 * **若要[為變體中的影像新增替代文字](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**，請按一下影像資產，並使用&#x200B;_替代文字_&#x200B;選項來手動新增或產生每個影像的替代文字。
 * **若要[新增協助工具標籤](/help/user-guide/create/manage-variants.md#add-accessibility-labels)至您的變體**，請按一下影像或call-to-action連結，然後提供簡短說明，說明連結或按鈕的作用。
 * **若要[刪除Meta廣告](/help/user-guide/create/manage-variants.md#delete-variant)**，請按一下變體的選項功能表，然後按一下&#x200B;**[!UICONTROL 刪除變體]**。
