@@ -22,7 +22,7 @@ Meta輪播廣告是一種付費廣告格式，可顯示2到10張可滑動卡片�
 
 選取範本並開啟「畫布」後，在提示抽屜中選擇輪播格式。
 
-1. 在&#x200B;_[!DNL Create your ads]_面板中，展開_[!UICONTROL &#x200B;引數&#x200B;]_。
+1. 在&#x200B;_[!DNL Create your ads]_&#x200B;面板中，展開&#x200B;_[!UICONTROL &#x200B;引數&#x200B;]_。
 1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 轉盤廣告]**。
 
    ![在「格式」下拉式清單設為「轉盤」廣告和卡片清單時，建立「廣告」面板](./carousel-format-cards.png){width="70%" zoomable="yes"}
