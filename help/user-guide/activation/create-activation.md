@@ -46,7 +46,7 @@ ht-degree: 1%
 
 單一啟用表格可同時包含多個付費廣告頻道和廣告格式的體驗。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503547?captions=chi_hant&learn=on)
 
 ## 連線您的管道帳戶
 
