@@ -283,7 +283,7 @@ GenStudio for Performance Marketing現在支援Content Credentials，可讓團�
 
 ### Firefly Image Model 4上的自訂模型
 
-* GenStudio for Performance Marketing現在支援以Adobe Firefly Image Model 4](/help/user-guide/create/generate-assets.md)訓練的[自訂模型，提供更優異的品牌上影像產生功能，以及更出色的真實感和細節。
+* GenStudio for Performance Marketing現在支援以Adobe Firefly Image Model 4[&#128279;](/help/user-guide/create/generate-assets.md)訓練的自訂模型，提供更優異的品牌上影像產生功能，以及更出色的真實感和細節。
 
 ### Meta單一視訊廣告啟用
 
@@ -292,7 +292,7 @@ GenStudio for Performance Marketing現在支援Content Credentials，可讓團�
 
 ### Meta行銷活動各動作型別的CPA
 
-* 針對Meta廣告行銷活動，使用彈性的轉換追蹤](/help/user-guide/insights/published-experiences.md)分析[每次動作成本(CPA)。
+* 針對Meta廣告行銷活動，使用彈性的轉換追蹤[&#128279;](/help/user-guide/insights/published-experiences.md)分析每次動作成本(CPA)。
 * 若要在[!DNL Insights]中計算並檢視跨行銷活動、廣告、資產和屬性的CPA，請從多種動作型別（例如購買、加入購物車事件、銷售機會、視訊檢視或自訂轉換）中選取，而不是單一固定量度。
 
 ### 修正和增強功能
@@ -548,8 +548,8 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 * 已新增在變體中[新增連結至影像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
 * 將[內容檢查](/help/user-guide/guidelines/brand-validation.md)和檢閱及核准功能移至新的右方動作列，以最大化畫布空間並改善使用者體驗。
 * 簡化[上傳或手動新增品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
-* 引進在畫布上的變體](/help/user-guide/create/manage-variants.md#swap-image)中[新增或交換影像資產的功能。
-* 改善使用者體驗和建立首頁](/help/user-guide/create/overview.md)上頻道類別[的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
+* 引進在畫布上的變體[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)中新增或交換影像資產的功能。
+* 改善使用者體驗和建立首頁[&#128279;](/help/user-guide/create/overview.md)上頻道類別的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
 * 已改善[!DNL Insights]表格和相簿檢視中的篩選。
 
 +++
