@@ -44,7 +44,7 @@ GenStudio系統管理員或編輯器必須連線每個付費廣告頻道的廣�
 
 使用[!DNL Activate]為其目標付費廣告頻道準備廣告體驗。 在單一啟用表格中，針對多個付費廣告頻道大量啟動[體驗](create-activation.md)。 然後，[管理您的啟用](manage-activations.md)以檢視每個啟用體驗的狀態和詳細資訊。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503547?captions=chi_hant&learn=on)
 
 ### 從內容啟用核准的體驗
 
