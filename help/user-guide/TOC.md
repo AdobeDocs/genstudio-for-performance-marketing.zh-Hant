@@ -6,10 +6,10 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
+source-git-commit: 378b5c689ce9dab9ffdde6d17a06df68cca2d305
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 82%
+source-wordcount: '293'
+ht-degree: 81%
 ---
 
 # Adobe GenStudio for Performance Marketing指南 {#user-guide}
@@ -99,6 +99,10 @@ ht-degree: 82%
     + [Meta](activation/activate-meta-ad.md)
     + [Amazon](activation/activate-amazon-ad.md)
     + [無](activation/activate-innovid-ad.md)
+    + [TikTok](activation/activate-tiktok-ad.md)
+    + [YouTube](activation/activate-youtube-ad.md)
+    + [ChatGPT](activation/activate-chatgpt-ad.md)
+    + [交易台](activation/activate-trade-desk-ad.md)
 + Insights {#insights}
   + [深入解析概觀](insights/overview.md)
   + [深入分析篩選器](insights/filter-views.md)

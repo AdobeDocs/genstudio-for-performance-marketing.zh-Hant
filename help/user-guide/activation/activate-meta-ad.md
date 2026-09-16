@@ -6,228 +6,67 @@ exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
 TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
 subfeature_v2:
   - id: d87258a7-722c-4afd-b632-adddc447c7aa
+    internal-label: Ad activation
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
+    internal-label: Metadata
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 1981
-ht-degree: 1%
-
+source-wordcount: '382'
+ht-degree: 0%
 ---
-
 # 啟動Meta廣告
 
 Adobe GenStudio for Performance Marketing支援將Meta廣告體驗啟動至Instagram和Facebook。
 
-您可以在GenStudio for Performance Marketing中[建立Meta體驗](/help/user-guide/create/create-meta-ad.md)，並選取它以啟動，或從[!DNL Activate]中已核准的資產建構新的體驗。
+**支援的格式**：影像、視訊、輪播。
 
-啟用Meta廣告會遵循啟用其他付費管道所需的[相同一般步驟](create-activation.md)。 啟用程式支援根據Meta的特定需求準備您的廣告體驗。 在GenStudio for Performance Marketing中啟用Meta體驗後，請使用[Meta Ads Manager](https://adsmanager.facebook.com/)在最終發佈之前微調特定Meta廣告位置的體驗。
+[在GenStudio for Performance Marketing中建立Meta體驗](/help/user-guide/create/create-meta-ad.md)，然後選取它以進行啟用。
+
+啟用Meta廣告會遵循啟用其他付費廣告頻道所需的[相同一般步驟](create-activation.md)。 本頁說明Meta專屬的先決條件和設定欄位。 在GenStudio for Performance Marketing中啟用Meta體驗後，請使用[Meta Ads Manager](https://adsmanager.facebook.com/)檢閱體驗並啟動廣告。
+
+與其他管道不同，Meta廣告可以在單一廣告中包含多個外觀比例。 如果您的體驗有多個外觀比例，[!DNL Activate]仍只會為其產生一列，而不是每個外觀比例產生一列。
 
 GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
-## 步驟1：設定您的Meta帳戶
-
-在啟動啟動之前，[登入Meta](https://adsmanager.facebook.com/)以存取您的Meta廣告管理員帳戶。
-
->[!BEGINSHADEBOX]
-
-**必要條件**：
+## 先決條件
 
 確認您連線的Meta廣告帳戶擁有在Meta廣告平台的這些元件中管理廣告的完整許可權：
 
+* Meta廣告帳戶
 * Facebook頁面
 * Meta行銷活動
 * Meta廣告集
 * Instagram設定檔（選填）
 
->[!ENDSHADEBOX]
+目標Meta行銷活動和廣告集必須已存在於Meta廣告管理員中。 GenStudio for Performance Marketing目前不會建立行銷活動或廣告集。
 
-## 步驟2：連線至您的Meta帳戶
+## 連線您的Meta帳戶
 
-在貴組織啟用體驗之前，GenStudio系統管理員必須將您的Meta帳戶連結至GenStudio for Performance Marketing。 此連線可讓資料在GenStudio和外部行銷工具（例如Meta）之間流動，以啟用啟用程式。 請參閱[連線至Meta Ads](/help/user-guide/connectors/meta-ads.md)。
+在貴組織啟用體驗之前，GenStudio系統管理員必須將您的Meta帳戶連結至GenStudio for Performance Marketing。 此連線可讓資料在GenStudio for Performance Marketing和Meta之間流動，以啟用啟用啟用程式。 請參閱[連線至Meta Ads](/help/user-guide/connectors/meta-ads.md)。
 
-若要選取Instagram帳戶，請在Meta Business Manager中確認您要使用的[Instagram帳戶已連線至上線期間選取的相同廣告帳戶](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account)。 如果缺少此連線，Instagram帳戶可能不會在啟用期間出現在[!DNL GenStudio for Performance Marketing] _Instagram帳戶_&#x200B;下拉式功能表中。
+若要選取Instagram帳戶，請在Meta Business Manager中確認您要使用的[Instagram帳戶已連線至上線期間選取的相同廣告帳戶](/help/user-guide/connectors/meta-ads.md#connect-an-instagram-account)。 如果缺少此連線，Instagram帳戶在啟用期間可能不會顯示在&#x200B;**[!UICONTROL Instagram設定檔]**&#x200B;下拉式功能表中。
 
 同步完成後，您可以檢視新增的帳戶。 大量資料需要更長的時間才能同步。
 
-## 步驟3：準備體驗以進行啟用
+## Meta設定欄位
 
-您可以透過兩種方式啟動啟動：
+核准的資產、標題和正文已鎖定，且無法在啟用期間進行編輯，因為它們已在[!DNL Content]中通過稽核和核准。 您可以編輯：
 
-* **直接從[!DNL Content]**&#x200B;啟動。 透過預先定義的設定選取已核准的體驗，是啟動單一管道啟動的最簡化方式。
-
-* **從[!DNL Activate] > _體驗設定_**&#x200B;組合您的廣告體驗。 您可以從[!DNL Content]中選取視覺資產、新增文字元素，以及選取外觀比例，藉此建立體驗。 此方法包含更多步驟，但在打造創意體驗時可提供更大彈性。
-
-### 從內容啟用核准的體驗
-
-您可以選取多個體驗，以針對單一付費管道啟用。 系統可能會要求您先選取平台，然後再繼續啟用。
-
-如果您選取多個體驗來作為群組啟動，請使用左側邊欄將&#x200B;_體驗設定_&#x200B;檢視聚焦於所選體驗的詳細資料。
-
-1. 使用[!DNL Content]相簿的搜尋和篩選工具來識別您要啟用的體驗，然後按一下&#x200B;**[!UICONTROL 啟用]**。
-
-   Meta廣告&#x200B;_體驗設定_&#x200B;頁面會針對此體驗開啟。 系統會預先填入所選體驗的詳細資料。 您可以編輯&#x200B;**[!UICONTROL Call-to-action]**、**[!UICONTROL 網站URL]**&#x200B;和&#x200B;**[!UICONTROL 顯示連結]**&#x200B;欄位。 如果您選取多個要啟用的體驗，_體驗設定_&#x200B;檢視會包含顯示所有選取體驗縮圖的左側邊欄。 使用此左側邊欄將&#x200B;_體驗設定_&#x200B;檢視的焦點放在所選體驗的詳細資料。
-
-1. 從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;下拉式功能表中選取行銷活動。
-
-   如果您使用多個體驗，請在左側邊欄切換體驗，直到您完成每個體驗的準備為止。
-
-1. 按一下「下一步&#x200B;**&#x200B;**」以確認您的Meta廣告設定。
-
-1. 為每個體驗指派名稱。 啟用後，您可以使用此名稱在&#x200B;_已啟用的體驗_&#x200B;表格中搜尋此體驗。
-
-### 組合體驗元件
-
-如果您選擇不直接從[!DNL Content]啟動已核准的體驗，您可以選取資產、指派外觀比例，以及草稿文字元素。
-
-**若要準備您的啟動體驗**：
-
-1. 從[!DNL Activate]，在代表您所選付費頻道的圖示上按一下&#x200B;**[!UICONTROL 新增]**。 _體驗設定_&#x200B;檢視隨即開啟。
-
-   _體驗設定_&#x200B;頁面提供準備廣告啟用的中央位置。 準備您的廣告包括以下三個工作：
-
-1. 為體驗指派名稱。 啟用後，您可以使用此名稱在&#x200B;_已啟用的體驗_&#x200B;表格中搜尋此體驗。
-1. 選取媒體資產。 您可以使用來自[!DNL Content]的資產或上傳外部資產（例如，來自OneDrive或Dropbox）。
-1. [新增文字](#add-ad-text)。
-1. [新增中繼資料](#assign-metadata)。
-
-   _預覽面板_&#x200B;支援文字和資產在特定廣告投放內容中的互動式檢視。 使用&#x200B;_選取位置_&#x200B;下拉式功能表，在支援的廣告位置之間切換。 預覽提供完成特定位置廣告元素決策的機會。 當您在&#x200B;_預覽_&#x200B;面板中選取版位時，只有您的廣告檢視會受到影響。 未儲存您在&#x200B;_預覽_&#x200B;面板中的位置選取範圍。
-
-### 選取您的媒體資產
-
-使用&#x200B;_媒體_&#x200B;區段來選取至少一個影像資產以包含在您的體驗中。 廣告版位與支援的影像外觀比例相關聯，這些比例在&#x200B;_版位_&#x200B;下拉式功能表中列為選項。 此功能表會依外觀比例顯示Facebook貼文或Instagram內文支援的廣告投放位置。
-
-上傳後，資產會儲存至[!DNL Content]。 _媒體_&#x200B;區域預設會以1:1的外觀比例顯示影像。 替代外觀比例僅包含付費廣告頻道支援的值。 它們會依垂直和水平方向分組。 GenStudio for Performance Marketing支援每個啟用的體驗最多包含六個外觀比例。
-
-**若要從內容上傳資產**：
-
-[!DNL Content]提供組織已核准資產和體驗的中央檢視。 您可以使用&#x200B;**[!UICONTROL 搜尋]** （放大鏡）和&#x200B;_篩選_&#x200B;功能表選項，集中顯示[[!DNL Content] 收藏館](/help/user-guide/content/manage-assets.md)的資產詳細目錄。
-
-1. 從[!DNL Activate]，按一下頻道卡片上的&#x200B;**[!UICONTROL 新增]**。 _體驗設定_&#x200B;檢視隨即開啟。
-
-1. 按一下&#x200B;**[!UICONTROL 選取]**，然後選取&#x200B;**[!UICONTROL 從內容選取]**。 _選取內容_&#x200B;檢視會開啟，顯示您搜尋或篩選的影像資產庫。
-
-1. 使用[!DNL Content]相簿的搜尋和篩選工具，選取至少一個要上傳的資產。
-
-1. 按一下「**[!UICONTROL 使用]**」，將選取的資產包含在您的廣告體驗中。 _體驗設定_&#x200B;視窗包含在&#x200B;_媒體_&#x200B;區域的預設外觀比例中的資產。 _預覽_&#x200B;面板在支援此外觀比例的廣告投放中預覽資產。
-
-如果上傳失敗，會開啟資訊性錯誤訊息，其中包含&#x200B;_[!DNL Content]_&#x200B;中資產的連結。
-
-**若要上傳外部資產**：
-
-您可以從Microsoft OneDrive或Dropbox上傳最多6個外部至[!DNL Content]相簿的靜態影像。
-
-1. 從[!DNL Activate]，按一下Meta動態磚上的&#x200B;**[!UICONTROL 新增]**。 _體驗設定_&#x200B;視窗隨即開啟。
-
-1. 在&#x200B;_媒體_&#x200B;區段中，按一下&#x200B;**[!UICONTROL 選取]**。 下拉式功能表會顯示&#x200B;_從「內容」_&#x200B;或&#x200B;_上傳_&#x200B;中選取的選項。
-
-1. 按一下「**[!UICONTROL 上傳]**」。 _加入外觀比例_&#x200B;視窗開啟。
-
-1. 將影像檔案拖放至影像上傳區域，選取支援外觀比例的影像。 或者，您也可以瀏覽裝置以尋找資產。
-
-1. （選擇性）若要從您的裝置上傳資產，請按一下[瀏覽] **&#x200B;**，然後選取[瀏覽]檔案&#x200B;_或[瀏覽]資料夾_&#x200B;以識別要上傳的資產。__
-
-1. 在&#x200B;_新增詳細資料_&#x200B;區域，新增資訊性詳細資料至您上傳的資產，以便在&#x200B;_[!DNL Content]_&#x200B;中搜尋和篩選。 這些詳細資料會儲存為中繼資料。
-
-1. 上傳資產和指派的詳細資料後，請按一下右下方的&#x200B;**[!UICONTROL 新增Assets]**。
-
-### 新增廣告文字
-
-使用&#x200B;_啟用Meta廣告_&#x200B;頁面的&#x200B;_文字_&#x200B;區段，將引人入勝且與品牌相容的文字新增至必要文字欄位。 文字包含廣告和call-to-action文字的主要（內文）文字。 您無法編輯&#x200B;_主要文字_、_標題_&#x200B;和&#x200B;_描述_&#x200B;欄位。 您可以編輯&#x200B;_Call-to-action_、_顯示連結_&#x200B;和&#x200B;_網站URL_&#x200B;欄位。
-
-| 欄位 | 必要 | 字元限制（上限） |
-|-----------------|---------------------------|---------------------------------|
-| 廣告名稱 | 是 | 500 |
-| 主要文字 | 是 | 500 |
-| 標題 | 是 | 255 |
-| 說明 | 否 | 125 |
-| call to action | 是 | 僅限下拉式功能表選項 |
-| 顯示URL | 否 | 1000 |
-| 網站URL | 是 | 1000 |
-| 影像 | 至少需要一個 |                                 |
-
-GenStudio for Performance Marketing需要&#x200B;_主要文字_&#x200B;和&#x200B;_標題_，而非Meta。
-
-### 指派中繼資料
-
-體驗詳細資料會儲存為中繼資料，並可在搜尋體驗時協助使用者。 這些詳細資料可提升[!DNL Content]中體驗的可見度。 使用這些選擇性的使用者定義詳細資訊，來識別體驗的用途以及部署體驗的內容或行銷活動。
-
-| 詳細資訊 | 說明 |
-|------------|-------------|
-| 行銷活動 | 廣告體驗所屬的所有GenStudio for Performance Marketing行銷活動 |
-| 品牌 | 可讓使用者建立擷取品牌身分本質之品牌指引的使用者定義或預設指引。 |
-| 產品 | 與貴組織相關聯並在GenStudio for Performance Marketing中識別的產品 |
-| 人物誌 | 與貴組織相關聯並在GenStudio for Performance Marketing中識別的角色 |
-| 時間範圍 | 廣告體驗作用中的季度、季節、年度或其他組織定義的時間單位 |
-| 區域 | 啟動體驗的地理區域 |
-| 語言 | 使用廣告體驗的語言 |
-| 關鍵字 | 便於搜尋和分類廣告體驗的使用者定義關鍵字 |
-
-組合或選取您的體驗後，按一下[下一步] **[!UICONTROL 以確認您的Meta設定。]**
-
-## 步驟4：確認Meta帳戶設定
-
-準備廣告體驗後，您必須確認Meta帳戶資訊。 _Meta廣告設定_&#x200B;檢視已填入衍生自已設定Meta帳戶的選項。
-
-| 詳細資訊 | 說明 |
-|------------|-------------|
-| 帳戶 | 已連線至GenStudio for Performance Marketing的Meta帳戶 |
-| Facebook頁面 | 發佈體驗的Facebook頁面 |
-| Instagram帳戶 | 已連線至GenStudio for Performance Marketing的Instagram帳戶 |
-| 行銷活動 | 廣告體驗所屬的Meta行銷活動 |
-| 廣告集 | 已啟用的廣告體驗所屬的Meta廣告集。 此設定會決定廣告的最終版位。 |
-
-### 建立新廣告集
-
-您可以在平台設定期間複製現有廣告集，藉此建立新的廣告集。 Meta廣告集定義特定廣告的時機、頻道詳細資訊和對象。 Meta行銷活動可包含多個廣告集，但一個廣告集僅與一個行銷活動相關聯。
-
-**若要建立新的廣告集**：
-
-1. 從&#x200B;_Meta行銷活動_&#x200B;下拉式選單中選取行銷活動。
-
-   選取的行銷活動會決定&#x200B;_廣告集_&#x200B;下拉式選單中作為選項可用的廣告集。
-
-1. 按一下&#x200B;**[!UICONTROL +建立新廣告集]**。
-
-   _建立新廣告集_&#x200B;快顯視窗隨即開啟，以識別建立新廣告集的Meta行銷活動。
-
-1. 從&#x200B;_[從_&#x200B;使用組態]下拉式功能表中選取您要複製的廣告集。
-
-   GenStudio for Performance Marketing會將`- Copy`附加至選取的廣告集名稱，以指派預設廣告集名稱。
-
-1. （選擇性，但建議使用）在&#x200B;**[!UICONTROL 新廣告集名稱]**&#x200B;欄位中輸入唯一的廣告名稱，以取代預設值。
-
-1. 按一下&#x200B;**[!UICONTROL 建立廣告集]**。
-
-   您會返回&#x200B;_平台設定_&#x200B;檢視，其中已預先選取新廣告集。 成功訊息隨即出現，包括指向Meta Ads Manager中設定之廣告的連結。 此廣告集可用於未來的啟用。
-
->[!NOTE]
->
->如果廣告集已成功建立，但無法儲存廣告集名稱，則廣告集會以預設名稱（_原始廣告集名稱 — 副本_）儲存在Meta Ads Manager中。
-
-### 追蹤ID
-
-追蹤ID （廣告名稱）提供收集連結至體驗效能之量度的機制。 在此欄位中輸入廣告名稱。
-
-按一下右上角的&#x200B;**[!UICONTROL 下一步]**，預覽您的廣告體驗並完成啟用。
-
-## 步驟5：預覽並啟用您的廣告
-
-_檢閱_&#x200B;頁面會顯示您在&#x200B;_體驗設定_&#x200B;中組裝的廣告體驗，並提供檢視和編輯體驗的最後機會。 按一下&#x200B;_體驗設定_&#x200B;標籤旁的&#x200B;**[!UICONTROL 編輯區段]**&#x200B;以進行變更。 您也可以按一下右上角的「**[!UICONTROL 上一步]**」，返回&#x200B;_體驗設定_&#x200B;頁面。
-
-### 步驟6：完成啟用您的廣告體驗
-
-1. 點擊&#x200B;**[!UICONTROL 發佈]**。
-
-   完整的Meta廣告體驗及其相關中繼資料會直接推送至選取的Meta Ads Manager廣告集。 體驗會以非使用中狀態傳送至Meta Ads Manager。 從Meta Ads Manager，您可以管理部署廣告體驗和Meta行銷活動的最後步驟。
-
-1. [登入Meta Ads Manager](https://adsmanager.facebook.com/)以檢閱您的廣告體驗，並完成特定Meta頻道的發佈。
+* **文字欄位**：說明、Call-to-action、目的地URL、URL引數、追蹤ID （用作Meta廣告名稱）
+* **平台設定欄位**：廣告帳戶、Facebook頁面、Instagram設定檔、Meta行銷活動、Meta廣告集

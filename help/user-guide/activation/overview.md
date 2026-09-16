@@ -7,59 +7,57 @@ exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
 TQID: https://experienceleague.adobe.com/-Nal0YqjTzKw4g2SM3IuMf0a13e87CWdTqBZPd0dBkU
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 subfeature_v2:
   - id: d87258a7-722c-4afd-b632-adddc447c7aa
+    internal-label: Ad activation
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+    internal-label: Metadata
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 # Adobe GenStudio for Performance Marketing啟用
 
-GenStudio for Performance Marketing [!DNL Activate]會提供一個中央位置，讓您準備您的廣告體驗，以啟用選取付費廣告管道。 _啟用_&#x200B;是將廣告體驗、資產和文字準備為創意廣告體驗，針對特定付費頻道中的刊登位置量身打造的程式。 啟用會將創意體驗提供給處於非使用中狀態的指定管道，以便從管道進行最終稽核和部署。 然後廣告體驗可以分發到他們的預期市場。
+GenStudio for Performance Marketing [!DNL Activate]是您準備並傳送廣告體驗至付費廣告頻道（例如Meta或LinkedIn）的地方。 _啟用_&#x200B;會採用已核准的廣告體驗及其資產、套用特定管道所需的設定，然後以非使用中狀態、關閉狀態直接傳送給該管道。 從那裡，您可以在廣告上線之前，在管道自己的廣告管理員中進行最終審查。
 
-內容編輯人員和系統管理員可以發佈其資產在GenStudio for Performance Marketing中產生或上傳至的體驗。
+[!DNL Activate]會將您的體驗直接提供給頻道，因此您不需要匯出檔案或手動將其上傳到頻道自己的廣告管理員。
 
-[!DNL Activate]會針對每個支援的付費媒體頻道顯示產品卡。 此圖磚會識別付費媒體頻道，並列出過去30天內發生的成功廣告啟用次數。 它也是管理啟動和建立新啟動的入口點。
-
-每個付費媒體頻道帳戶都必須先連線至GenStudio for Performance Marketing，您才能啟用廣告體驗。
-
-## 啟用使用案例
-
-* 直接從[!DNL Content]為選取的付費廣告頻道啟用已核准的體驗。
-
-* [建立啟用](create-activation.md)。 您可以先選取視覺資產、指派文字並定義中繼資料，再推送至付費管道來製作廣告體驗。
-
-* [管理啟用](manage-activations.md)。 _[!DNL Activate]_&#x200B;提供所有已啟動體驗的概觀。 您也可以檢視個別啟用的詳細資訊。
+GenStudio系統管理員或編輯器必須連線每個付費廣告頻道的廣告帳戶，您才能為該頻道啟用廣告體驗。
 
 ## 啟用功能
 
-[!DNL Activate]有助於準備廣告體驗，以分發到他們的目標付費頻道。
+使用[!DNL Activate]為其目標付費廣告頻道準備廣告體驗。 在單一啟用表格中，針對多個付費廣告頻道大量啟動[體驗](create-activation.md)。 然後，[管理您的啟用](manage-activations.md)以檢視每個啟用體驗的狀態和詳細資訊。
 
-### 直接從內容啟用已核准的體驗
+>[!VIDEO](https://video.tv.adobe.com/v/3503547?captions=chi_hant&learn=on)
 
-您可以直接從[!DNL Content]啟用核准的體驗，或將多個核准的體驗啟用為選取的付費管道的啟用群組。 群組中的所有體驗都必須以相同的付費頻道為目標。
+### 從內容啟用核准的體驗
 
-### 準備體驗以進行啟用
+從[!DNL Content]選取一或多個已核准、已發佈的體驗，或從[!DNL Activate]登陸頁面開始。 與舊版[!DNL Activate]不同，單一啟用表格可同時包含多個付費廣告管道的體驗，依廣告格式和管道進行整理。
 
-_體驗設定_&#x200B;頁面整合您選取廣告體驗視覺元素所需的工具、調整廣告文字（包括call-to-action文字），以及新增可增強體驗追蹤和可見度的實用中繼資料。
+>[!NOTE]
+>
+>[!DNL Content]會呼叫&#x200B;**頻道**&#x200B;中的目的地，例如Meta或LinkedIn。 [!DNL Activate]會呼叫相同目的地的&#x200B;**平台** （例如，在&#x200B;**[!UICONTROL 平台設定]**&#x200B;中）。 這兩個詞指的是一樣的。
 
-### 選取廣告體驗的資產
+### 設定廣告和平台設定詳細資料
 
-從[!DNL Content]搜尋並選取核准的視覺資產，或從Dropbox或OneDrive上傳資產。 您可以直接從裝置上傳資產。 一個廣告體驗可以在多個位置中執行。 Assets能以廣告投放位置所需的外觀比例上傳。
+啟用表格中的每一列代表一個廣告。 核准的創意資產、標題和正文會被鎖定，因為它們已通過稽核和核准。 您可以編輯其餘欄位，例如call-to-action文字、目的地URL以及平台設定詳細資訊，例如廣告帳戶、行銷活動和廣告集。 一次編輯一列的欄位，或選取多個列以大量編輯共用欄位。
 
-### 預覽和啟用廣告頻道的體驗
+### 檢閱您的體驗並發佈至其廣告頻道
 
-確認與此廣告啟用相關聯的付費頻道帳戶、廣告集和Meta行銷活動。 _預覽_&#x200B;面板可讓您在完成之前檢視不同位置的廣告體驗。 (當您在&#x200B;_預覽_&#x200B;面板中選取版位時，只有您的廣告檢視會受到影響。 未儲存您在&#x200B;_預覽_&#x200B;面板中的位置選取範圍。) 在您滿意您的廣告體驗後，請按一下[發佈]，將體驗及其相關中繼資料推送至付費廣告頻道。**&#x200B;**
+確認每一列顯示[!UICONTROL 準備啟動]。 [!DNL Activate]將遺漏或無效的欄位標示為旗標、不相容的動作呼叫，以及重複的追蹤ID標示為[!UICONTROL 需要注意]。 當每一列準備就緒時，按一下&#x200B;**[!UICONTROL 傳送至Platform]**&#x200B;以發佈表格中的所有廣告。 [!DNL Activate]會近乎即時報告每個廣告的狀態，而成功發佈的廣告會包含目的地平台原生廣告管理員中該廣告的深層連結。 失敗的廣告會傳回錯誤訊息，並可重試。
