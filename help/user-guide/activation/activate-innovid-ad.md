@@ -6,73 +6,58 @@ exl-id: ebb2aa9e-8efb-45b0-9ba2-7b27b8888708
 TQID: https://experienceleague.adobe.com/VTzk2CDlTqawM1ckdHPVzs2ES-y0Ui0mkOLnVD88bJk
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Insights
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 490
+source-wordcount: '268'
 ht-degree: 0%
-
 ---
-
 # 啟動無訊息廣告
 
-Adobe GenStudio for Performance Marketing可讓GenStudio系統管理員和編輯人員將廣告體驗發佈至Innovid平台。
+Adobe GenStudio for Performance Marketing支援將廣告體驗啟用為Innovid。
 
-從內容庫或啟動首頁啟動無痕廣告體驗的發佈。
+**支援的格式**：靜態顯示、HTML5壓縮顯示。
 
-## 步驟1：設定您的Innovid帳戶
+啟用無罪體驗會遵循啟用其他付費廣告頻道所需的[相同的一般步驟](create-activation.md)。 本頁涵蓋Innovid專屬的先決條件和設定欄位。 在GenStudio for Performance Marketing中啟用體驗後，使用Innovid檢閱體驗並啟動廣告。
 
-Innovid可讓行銷人員在不同帳戶內組織行銷活動和廣告。 每個廣告商都有創意資料庫，而GenStudio for Performance Marketing會將廣告體驗發佈至創意資料庫。
+GenStudio的系統管理員和編輯人員可以啟用廣告體驗。
 
-在嘗試啟用之前，[先登入您的Innovid帳戶][1]。 確認您有權存取無效帳戶。 當您從GenStudio for Performance Marketing發佈無痕體驗時，該體驗會傳送至建立期間選取的創意資源庫。
+## 先決條件
 
-## 步驟2：連線至您的Innovid帳戶
+* 存取目標Innovid帳戶。
+* 該帳戶的管理員存取權，可讀取和寫入Innovid。
 
-GenStudio系統管理員必須先將您的無罪帳戶連線至GenStudio for Performance Marketing，您的組織才能在創意程式庫中發佈資產。 您必須擁有新增帳戶的管理員存取權，才能在Innovid中讀取和寫入。 請參閱[連線付費媒體帳戶][2]。
+Innovid會在不同的帳戶內組織行銷活動和廣告，每個帳戶都有一個創意資料庫。 Innovid中必須已存在目標創意程式庫；GenStudio for Performance Marketing會發佈廣告體驗至該創意程式庫，但不建立帳戶或創意程式庫。
+
+## 連線您的Innovid帳戶
+
+GenStudio系統管理員必須先將您的Innovid帳戶連線至GenStudio for Performance Marketing，您的組織才能在創意程式庫中發佈資產。 您必須擁有該帳戶的管理員存取權，才能在Innovid中讀取和寫入。 請參閱[連線付費媒體帳戶](/help/user-guide/connectors/connect-channel.md)。
 
 同步完成後，您可以檢視新增的帳戶。
 
-## 步驟3：選取廣告體驗的內容
+## 無效的設定欄位
 
-從內容體驗收藏館或「啟動」首頁開始發佈程式。 無法編輯已核准的體驗。 每個體驗只能包含一個資產。
+核准的資產已鎖定，且無法在啟用期間進行編輯，因為它們已在[!DNL Content]中通過檢閱和核准。 您可以編輯：
 
-若要選取體驗：
+* **文字欄位**：追蹤識別碼（用來作為平台創意名稱）
+* **平台設定欄位**：帳戶、Creative資料庫、概念名稱
 
-1. 使用內容庫的搜尋和篩選工具來識別您要啟用的體驗。 然後按一下&#x200B;**[!UICONTROL 使用]**。 或者，您可以按一下Innovid產品卡上的&#x200B;**[!UICONTROL 新增]**，從「啟動」中選取體驗。
-1. 在繼續啟用之前，系統會提示您選取平台。 選取&#x200B;*Innovid*。 此體驗的「無視覺化體驗設定」頁面隨即開啟。 已預先填入體驗的詳細資料，且無法修訂。 
-1. （選擇性）按一下&#x200B;**[!UICONTROL 新增體驗]**&#x200B;以新增體驗至此啟用群組。
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以確認您的Innovid平台設定。 **[!UICONTROL 平台設定]**&#x200B;檢視開啟。此檢視顯示從您設定的Innovid帳戶衍生的選項。
-
-## 步驟4：確認無驗證平台設定
-
-1. 從&#x200B;**[!UICONTROL 帳戶]**&#x200B;下拉式功能表中選取帳戶。 
-1. 從&#x200B;**[!UICONTROL Creative資料庫]**&#x200B;下拉式清單中選取Creative資料庫。 您的Innovid帳戶設定會決定可用的Creative資料庫。 您的創意體驗會在啟用完成時以無訊息傳送至此Creative資料庫。
-1. 將名稱新增至&#x200B;**[!UICONTROL Creative名稱]**&#x200B;欄位。 Innovid會以此名稱識別體驗。
-1. 對每個選取的體驗重複。
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;確認您的Innovid設定。
-
-## 步驟5：預覽並啟用您的廣告
-
-「檢閱」頁面提供發佈前檢閱啟用的最後機會。
-
-1. （選擇性）按一下&#x200B;**[!UICONTROL 平台設定]**&#x200B;標籤旁的&#x200B;**[!UICONTROL 編輯區段]**&#x200B;以編輯平台設定。 您無法編輯體驗內容。
-1. 點擊&#x200B;**[!UICONTROL 發佈]**。
-
-您的無變數廣告體驗會直接推送至所選無變數帳戶內的創意資料庫。
-
-## 步驟6：完成廣告體驗的發佈
-
-請造訪[Innovid的網站][1]，管理安裝的最後步驟，並在發佈的體驗中部署您的廣告。
-
-[1]: https://www.innovid.com/
-[2]: /help/user-guide/connectors/connect-channel.md
+當啟用完成時，您的創意體驗會傳送至在Innovid中選取的創意程式庫。
