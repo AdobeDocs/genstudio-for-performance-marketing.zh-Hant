@@ -2,7 +2,7 @@
 title: 連線AI助理
 description: 瞭解如何將支援的AI助理連線到[!DNL GenStudio for Performance Marketing]並驗證對可用工具的存取權。
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -36,8 +36,9 @@ Claude需要Pro、Max、Team或Enterprise計畫。 相同的遠端聯結器可�
 1. 使用您的Adobe ID登入。
 1. 選取可存取[!DNL GenStudio for Performance Marketing]的IMS組織。
 
-&#x200B;> [!NOTE]
-&#x200B;> 在團隊或企業計畫中，組織所有者可能需要先新增聯結器。 如果聯結器已經可用，請改為選取&#x200B;**[!UICONTROL 連線]**。
+>[!NOTE]
+>
+>在團隊或企業計畫中，組織所有者可能需要先新增聯結器。 如果聯結器已經可用，請改為選取&#x200B;**[!UICONTROL 連線]**。
 
 ## 連線ChatGPT
 
@@ -52,8 +53,9 @@ ChatGPT需要Plus、Pro、Business、Enterprise或Education帳戶。 自訂MCP�
 1. 使用您的Adobe ID登入。
 1. 選取可存取[!DNL GenStudio for Performance Marketing]的IMS組織。
 
-&#x200B;> [!NOTE]
-> ChatGPT可以變更開發人員和聯結器設定的位置。 如果帳戶中的這些標籤不同，請依照目前的OpenAI指示新增遠端MCP聯結器。
+>[!NOTE]
+>
+>ChatGPT可以變更開發人員和聯結器設定的位置。 如果帳戶中的這些標籤不同，請依照目前的OpenAI指示新增遠端MCP聯結器。
 
 ## 連線字典
 
@@ -106,8 +108,9 @@ Microsoft可控制Copilot中自訂MCP連線的設定流程。 依照目前的[Mi
 
 助理會傳回可用的效能資料，或說明為何沒有資料符合要求。
 
-&#x200B;> [!TIP]
-&#x200B;> 如果驗證失敗，請重新連線，並確認您選取正確的IMS組織。 如果未顯示工具，請確認您的帳戶可以存取[!DNL GenStudio for Performance Marketing]。
+>[!TIP]
+>
+>如果驗證失敗，請重新連線，並確認您選取正確的IMS組織。 如果未顯示工具，請確認您的帳戶可以存取[!DNL GenStudio for Performance Marketing]。
 
 ## 相關功能
 

@@ -2,7 +2,7 @@
 title: 使用AI助理
 description: 瞭解如何使用連線至[!DNL GenStudio for Performance Marketing]的AI助理來查詢效能資料、建立草稿及發佈已核准的廣告。
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -89,8 +89,9 @@ ht-degree: 0%
 - 「此範本中可以變更哪些專案？」
 - &quot;從此範本建立Meta廣告。 使用標題為「夏季優惠活動」和「call to action Shop Now」。 以下是創意簡介：[說明行銷活動、語調和選件]。」
 
-&#x200B;> [!TIP]
-> 建立草稿會在Creative Cloud中成為真正的檔案。 這不是預覽。 先準備創意簡報並復本，再詢問。
+>[!TIP]
+>
+>建立草稿會在Creative Cloud中成為真正的檔案。 這不是預覽。 先準備創意簡報並復本，再詢問。
 
 ## 檢閱和共用草稿
 
@@ -109,8 +110,9 @@ ht-degree: 0%
 - 「為我的Meta廣告帳戶和行銷活動設定此體驗。」
 - 「將此體驗發佈至LinkedIn。」
 
-&#x200B;> [!IMPORTANT]
-> 發佈會建立即時廣告投放位置，並可能會產生廣告支出。 無法透過助理還原。 發佈前請確認目標帳戶、行銷活動和體驗。 重複此請求會建立另一個廣告。
+>[!IMPORTANT]
+>
+>發佈會建立即時廣告投放位置，並可能會產生廣告支出。 無法透過助理還原。 發佈前請確認目標帳戶、行銷活動和體驗。 重複此請求會建立另一個廣告。
 
 ## 解譯空白或無法使用的結果
 

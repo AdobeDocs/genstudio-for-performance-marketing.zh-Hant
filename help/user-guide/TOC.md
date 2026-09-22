@@ -6,7 +6,7 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+source-git-commit: e577c7b1e55c629fb3ab7155eb012963884731cd
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 77%
@@ -23,7 +23,7 @@ ht-degree: 77%
   + [設定 [!DNL Brand] 許可權](configure-brand-permissions.md)
   + [使用者角色](user-roles.md)
   + [有效提示](effective-prompts.md)
-+ AI助理
++ AI助理 {#ai-assistants}
   + [AI助理概述](ai-assistants/overview.md)
   + [連線AI小幫手](ai-assistants/connect-ai-assistants.md)
   + [使用AI助理](ai-assistants/use-ai-assistants.md)
