@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 1%
 ---
 # 最佳化啟用
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 * **對每一列使用唯一的追蹤識別碼**
 
-  [!DNL Activate]會將重複的追蹤ID標示為[!UICONTROL 需要注意]，而且除非受影響格式和Platform資料表中的每一列都有唯一的追蹤ID，否則不會允許您發佈。 如果您大量編輯多個列的追蹤ID，請確認您想要將相同的值套用至每個選取的列。
+  [!DNL Activate]會將重複的追蹤ID標示為[!UICONTROL 需要注意]，而且除非受影響格式和Platform資料表中的每一列都有唯一的追蹤ID，否則不會允許您發佈。 每個&#x200B;**[!UICONTROL 追蹤ID]**&#x200B;欄位都會預先填入體驗名稱，因此跨廣告格式或平台共用體驗的列都會以相同的值開始。 檢查並解決這些重複專案，而不僅僅是大量編輯所引入的專案。 如果您大量編輯多個列的追蹤ID，請確認您想要將相同的值套用至每個選取的列。
 
 * **使用有效、完整的目的地URL**
 

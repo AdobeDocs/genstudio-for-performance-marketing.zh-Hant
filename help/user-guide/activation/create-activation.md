@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c8d964aa325aee782c175abf3fce880fb17ae6ca
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1233'
 ht-degree: 1%
 ---
 # 啟用工作流程
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 單一啟用表格可包含多個付費廣告平台和廣告格式的體驗。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503547?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
 ## 連線您的平台帳戶
 
@@ -84,7 +84,7 @@ GenStudio系統管理員或編輯器必須連線每個付費廣告平台的廣�
 
 ## 設定廣告和平台設定詳細資料
 
-編輯每列內嵌欄位，或在相同格式表格中選取多個列，然後按一下工具列上的[編輯詳細資料] **&#x200B;**，該工具列似乎可一次大量編輯這些欄位。
+編輯每列內嵌欄位，或在相同格式表格中選取多個列，然後按一下工具列上的[編輯詳細資料] ****，該工具列似乎可一次大量編輯這些欄位。
 
 ![在啟用表格中選取多個廣告，以大量編輯詳細資料或平台設定](./images/bulk-edit-action-bar.png)
 
@@ -104,11 +104,11 @@ GenStudio系統管理員或編輯器必須連線每個付費廣告平台的廣�
 | ChatGPT | 聊天卡 | 標題，內文 | 目標URL、追蹤ID | OpenAI廣告帳戶、OpenAI行銷活動、OpenAI廣告群組 |
 | 交易台 | 靜態顯示 | N/A | 追蹤ID | 帳戶、行銷活動 |
 
-若要設定一組廣告格式的平台設定欄位，請按一下[管理平台設定] **&#x200B;**，並編輯結果對話方塊中的欄位。
+若要設定一組廣告格式的平台設定欄位，請按一下[管理平台設定] ****，並編輯結果對話方塊中的欄位。
 
 ![用於選擇Meta廣告帳戶、行銷活動和廣告集的「管理平台設定」對話方塊](./images/manage-platform-settings.png)
 
-**[!UICONTROL 追蹤ID]**&#x200B;欄位最初是空白的。 追蹤ID與廣告平台的廣告名稱或創意名稱相同，且廣告平台會將其用作廣告的識別名稱。 使用此欄位來識別用於報告和疑難排解的廣告。 在&#x200B;**[!UICONTROL 追蹤ID]**&#x200B;欄位中輸入您要使用的值。
+每個&#x200B;**[!UICONTROL 追蹤ID]**&#x200B;欄位都會預先填入體驗名稱：廣告平台會使用此值作為廣告名稱或創意名稱來報告和疑難排解。 如果您想使用其他專案，請就地編輯值。
 
 ![正在編輯啟動資料表中內嵌的追蹤ID欄位](./images/tracking-id-edit.png)
 
