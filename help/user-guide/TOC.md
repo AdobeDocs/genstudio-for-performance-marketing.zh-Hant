@@ -6,10 +6,10 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: e577c7b1e55c629fb3ab7155eb012963884731cd
+source-git-commit: 22db02c07a9f33cb1c70df9286ad6eb143dafd38
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 77%
+source-wordcount: '316'
+ht-degree: 75%
 ---
 
 # Adobe GenStudio for Performance Marketing指南 {#user-guide}
@@ -51,6 +51,7 @@ ht-degree: 77%
   + [顯示廣告體驗](create/display-ad-experiences.md)
   + [橫幅體驗](create/banner-experiences.md)
   + [管理變體](create/manage-variants.md)
+  + [產生並調整具有狀態產生](create/stateful-generation.md)的內容
   + [翻譯及本地化體驗](create/translate-experiences.md)
   + [合作編輯](create/collaborative-editing.md)
   + [使用標誌交換](create/logo-swap.md)
