@@ -51,7 +51,7 @@ ht-degree: 75%
   + [顯示廣告體驗](create/display-ad-experiences.md)
   + [橫幅體驗](create/banner-experiences.md)
   + [管理變體](create/manage-variants.md)
-  + [產生並調整具有狀態產生](create/stateful-generation.md)的內容
+  + [產生並調整具有狀態產生的內容](create/stateful-generation.md)
   + [翻譯及本地化體驗](create/translate-experiences.md)
   + [合作編輯](create/collaborative-editing.md)
   + [使用標誌交換](create/logo-swap.md)
