@@ -3,7 +3,7 @@ title: 啟用工作流程
 description: 瞭解廣告體驗的啟用工作流程。
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-TQID: https://experienceleague.adobe.com/HSwFeL1qCzgFao2Ii64Hx-kaADRnd3dxaswFMzJ7nfA
+TQID: 'https://experienceleague.adobe.com/HSwFeL1qCzgFao2Ii64Hx-kaADRnd3dxaswFMzJ7nfA'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
     internal-label: GenStudio for Performance Marketing
@@ -14,11 +14,15 @@ feature_v2:
     internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
     internal-label: Guidelines
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
     internal-label: Assets
   - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
     internal-label: Channels
+  - id: d87258a7-722c-4afd-b632-adddc447c7aa
+    internal-label: Ad activation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +31,7 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: db0cebfe795569d9913757d190db853097a00405
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 1%
@@ -46,7 +50,7 @@ ht-degree: 1%
 
 單一啟用表格可包含多個付費廣告平台和廣告格式的體驗。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503547?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
 ## 連線您的平台帳戶
 
@@ -84,7 +88,7 @@ GenStudio系統管理員或編輯器必須連線每個付費廣告平台的廣�
 
 ## 設定廣告和平台設定詳細資料
 
-編輯每列內嵌欄位，或在相同格式表格中選取多個列，然後按一下工具列上的[編輯詳細資料] **&#x200B;**，該工具列似乎可一次大量編輯這些欄位。
+編輯每列內嵌欄位，或在相同格式表格中選取多個列，然後按一下工具列上的[編輯詳細資料] ****，該工具列似乎可一次大量編輯這些欄位。
 
 ![在啟用表格中選取多個廣告，以大量編輯詳細資料或平台設定](./images/bulk-edit-action-bar.png)
 
@@ -104,7 +108,7 @@ GenStudio系統管理員或編輯器必須連線每個付費廣告平台的廣�
 | ChatGPT | 聊天卡 | 標題，內文 | 目標URL、追蹤ID | OpenAI廣告帳戶、OpenAI行銷活動、OpenAI廣告群組 |
 | 交易台 | 靜態顯示 | N/A | 追蹤ID | 帳戶、行銷活動 |
 
-若要設定一組廣告格式的平台設定欄位，請按一下[管理平台設定] **&#x200B;**，並編輯結果對話方塊中的欄位。
+若要設定一組廣告格式的平台設定欄位，請按一下[管理平台設定] ****，並編輯結果對話方塊中的欄位。
 
 ![用於選擇Meta廣告帳戶、行銷活動和廣告集的「管理平台設定」對話方塊](./images/manage-platform-settings.png)
 

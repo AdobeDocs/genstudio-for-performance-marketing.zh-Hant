@@ -3,23 +3,33 @@ title: 檢閱和編輯內容
 description: 瞭解如何使用Adobe GenStudio for Performance Marketing反複檢閱和編輯內容。
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-TQID: https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA
+TQID: 'https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: dae8b49d-2853-4f33-a27d-a2bad09cbeb6
+    internal-label: Content review
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+    internal-label: Content production
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # 檢閱和編輯內容
 
 稽核和核准階段通常涉及多個利害關係人和反複的意見反應，這會減慢內容製作的速度。 GenStudio for Performance Marketing透過可加速內容修訂的generative AI簡化此程式，讓建立者能夠使用提示式編輯快速回應意見回應。 稽核週期越複雜，GenStudio提供的省時優勢就越多。
@@ -36,7 +46,7 @@ ht-degree: 0%
 
 * **直接從核准要求中的草稿連結存取草稿以供檢視**。 按一下核准要求電子郵件或產品內通知中的草稿連結。 畫布隨即開啟，顯示資產或體驗。 _核准_&#x200B;面板會顯示在右側。
 
-* **從核准要求清單存取草稿以供檢閱**。 如果要求您檢閱多個內容草稿，您的通知電子郵件會包含&#x200B;**[!UICONTROL 檢視所有通知]**&#x200B;按鈕。 按一下此按鈕，即可導覽至顯示您已收到之所有通知的頁面，包括已從其他Adobe CX Enterprise產品啟用的核准要求與通知。
+* **從核准要求清單存取草稿以供檢閱**。 如果要求您檢閱多個內容草稿，您的通知電子郵件會包含&#x200B;**[!UICONTROL 檢視所有通知]**&#x200B;按鈕。 按一下此按鈕，即可導覽至顯示您已收到之所有通知的頁面，包括核准要求以及您已啟用其他Adobe CX Enterprise產品的通知。
 
 ## 存取內容以供檢閱
 
@@ -74,7 +84,7 @@ ht-degree: 0%
 
 ## 使用Workfront Proof檢閱內容
 
-[!DNL Proofing Viewer]提供[強大的標籤工具](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)，用於標註校樣及追蹤變更。 您也可以比較兩個版本的校訂。
+[!DNL Proofing Viewer]提供[強大的標籤工具](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1)，用於標註校樣及追蹤變更。 您也可以比較兩個版本的校訂。
 
 **檢閱內容**：
 
@@ -94,7 +104,7 @@ ht-degree: 0%
 
 ### 比較校訂
 
-從[!DNL Proofing Viewer]，您可以[比較校訂版本](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)。
+從[!DNL Proofing Viewer]，您可以[比較校訂版本](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs)。
 
 **比較校樣**：
 
@@ -104,4 +114,4 @@ ht-degree: 0%
 
    校樣並排顯示，較新版本位於左側。
 
-Workfront Proof提供數個工具來比較校樣，包括自動比較工具。 請參閱[使用比較工具](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)。
+Workfront Proof提供數個工具來比較校樣，包括自動比較工具。 請參閱[使用比較工具](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools)。

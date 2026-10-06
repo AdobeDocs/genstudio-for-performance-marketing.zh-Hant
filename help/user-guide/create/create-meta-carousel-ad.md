@@ -2,7 +2,13 @@
 title: 建立Meta廣告體驗 — 輪播廣告
 description: 瞭解如何在[!DNL GenStudio for Performance Marketing]中建立多卡片Meta輪播廣告體驗、管理卡片，以及產生品牌內概念。
 role: User
-source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -22,7 +28,7 @@ Meta輪播廣告是一種付費廣告格式，可顯示2到10張可滑動卡片�
 
 選取範本並開啟「畫布」後，在提示抽屜中選擇輪播格式。
 
-1. 在&#x200B;_[!DNL Create your ads]_&#x200B;面板中，展開&#x200B;_[!UICONTROL &#x200B;引數&#x200B;]_。
+1. 在&#x200B;_[!DNL Create your ads]_面板中，展開_[!UICONTROL &#x200B;引數&#x200B;]_。
 1. 從&#x200B;**[!UICONTROL 格式]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 轉盤廣告]**。
 
    ![在「格式」下拉式清單設為「轉盤」廣告和卡片清單時，建立「廣告」面板](./carousel-format-cards.png){width="70%" zoomable="yes"}

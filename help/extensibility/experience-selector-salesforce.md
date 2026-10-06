@@ -2,13 +2,29 @@
 title: Salesforce中的Experience Selector MFE
 description: 瞭解如何在Salesforce Lightning中部署及設定Experience Selector MFE，包括CSP、Adobe驗證、Apex電子郵件範本及驗證。
 feature: Extensibility, Extensions, Experiences
-source-git-commit: 99a2b657560d20642b7b92aefb976ba2373ebc7f
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: bfaa655b-e017-428d-80d0-09de2183b296
+    internal-label: Extensions
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
-
 ---
-
 # Salesforce中的Experience Selector MFE
 
 本主題說明客戶與實作人員如何在Salesforce組織中部署及執行[!DNL GenStudio for Performance Marketing] Experience Selector微前端(MFE)。 內容涵蓋管理員步驟（無程式碼）、開發人員步驟（部署和設定），以及安全性相關設定，例如內容安全性原則(CSP)。
@@ -17,7 +33,7 @@ ht-degree: 0%
 
 ## 這項整合的作用
 
->[!VIDEO](https://video.tv.adobe.com/v/3491090?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491079?learn=on)
 
 Lightning Web Component (LWC) `sfgsmfe`會載入Adobe的Experience Selector UMD套件組合併在`<dialog>`中呈現，讓使用者可以從[!DNL GenStudio for Performance Marketing]中挑選體驗。
 

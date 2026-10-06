@@ -5,38 +5,51 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-TQID: https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s
+TQID: 'https://experienceleague.adobe.com/kXXSni5VZMFH615A-Re1-QjLooEyfXcMwVBwXnxp58s'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
+  - id: e65b668e-f73f-400b-be97-cb6a0ed5e208
+    internal-label: Media templates
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dec342aaecde7f5a23c4c98b97703071adf929f5
+    internal-label: Insights
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: '1654'
 ht-degree: 1%
-
 ---
-
 # 使用範本
 
 GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#x200B;快速產生一致的品牌上行銷內容。 範本提供起點，包含預先設定的版面和設計元素，可大幅減少產生新內容所需的時間和精力。 若要開始使用，請在[!DNL Content]中上傳自訂範本，或在[!DNL Create]中使用入門範本。 [入門範本](/help/user-guide/templates/starter-templates.md)提供從標準設計開始的快速方法，而自訂範本可讓您使用獨特的設計和版面。
 
 雖然GenStudio for Performance Marketing不支援直接在應用程式中建立範本，但您可以使用熱門設計工具（例如Adobe InDesign、Illustrator或Express）輕鬆設計和準備範本。 設計完成後，您可以加以調整以用於GenStudio for Performance Marketing。 請依照下列步驟開始使用範本：
 
-1. **設計您的範本**：使用您偏好的設計工具，以元素[&#128279;](#template-elements)建立範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
+1. **設計您的範本**：使用您偏好的設計工具，以元素](#template-elements)建立[範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
 
 2. **為您的範本撰寫程式碼**：將您的設計轉換為HTML和內嵌CSS，以確保在各種裝置間保持乾淨且有回應。 請考慮[協助工具准則](accessibility-for-templates.md)，以協助達到您預期的最大受眾。
 
@@ -77,7 +90,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 ## 管理範本
 
-_[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
+_[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
 
 ### 搜尋範本
 
@@ -100,7 +113,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 **若要新增範本**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取頂端列中的&#x200B;**[!UICONTROL HTML範本]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_中，選取頂端列中的&#x200B;**[!UICONTROL HTML範本]**區段。
 
 1. 按一下&#x200B;**[!UICONTROL +新增範本]**。
 
@@ -112,7 +125,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
    >[!TIP]
    >
-   >如果範本中的詳細資料不正確，請按一下[上一步] **&#x200B;**&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/templates/code-editor.md)進行簡單的更正。
+   >如果範本中的詳細資料不正確，請按一下[上一步] ****&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/templates/code-editor.md)進行簡單的更正。
 
 1. 檢閱自動偵測的欄位。 在雙面板「預覽/程式碼」檢視中，左側面板會顯示範本的即時預覽，其中會包含反白顯示的偵測區域。右側邊欄顯示所有偵測欄位的欄位清單及其目前的位置狀態。 欄位標示為Code索引標籤中可見的Handlebars標籤法（例如`{{headline}}`、`{{body}}`、`{{image}}`）。
 
@@ -135,7 +148,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
    > | **其他（可編輯）** | AI會在執行階段產生此欄位的內容，或允許手動編輯自訂欄位。 | 標題、正文和CTA — 任何需要AI變化的地方。 或是手動編輯或內容片段交換的自訂欄位。 |
    > | **已修正** | AI或使用者無法修改欄位。 | 法律宣告、法規註腳、取消訂閱連結。 |
 
-1. 或者，您可以在[程式碼]索引標籤中手動編輯HTML，然後按一下[自動偵測欄位]按鈕&#x200B;**以重新執行偵測並更新欄位清單。**
+1. 或者，您可以在[程式碼]索引標籤中手動編輯HTML，然後按一下[自動偵測欄位]按鈕&#x200B;]**以重新執行偵測並更新欄位清單。**[!UICONTROL 
 
 1. 當您對範本預覽感到滿意時，請按一下&#x200B;**[!UICONTROL [下一步]]**。
 
@@ -156,7 +169,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 **若要重新整理範本**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
 
 2. 按一下範本以取得完整檢視和詳細資訊清單。
 
@@ -168,7 +181,7 @@ _[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Mark
 
 **若要使用範本建立體驗**：
 
-1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
+1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
 
 2. 按一下範本以取得完整檢視和詳細資訊清單。
 

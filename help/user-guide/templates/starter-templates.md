@@ -6,22 +6,29 @@ feature: Media Templates
 badgeBeta: label="Beta" tooltip="此功能目前在Beta中，因此某些功能可能會受到限制或有所變更。"
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
-TQID: https://experienceleague.adobe.com/wM0dD2t751PHH9UkmPpZDzwv-1L90UW5vdcKXDeIBHE
+TQID: 'https://experienceleague.adobe.com/wM0dD2t751PHH9UkmPpZDzwv-1L90UW5vdcKXDeIBHE'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: e65b668e-f73f-400b-be97-cb6a0ed5e208
+    internal-label: Media templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Beginner
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '415'
 ht-degree: 5%
-
 ---
-
 # 入門範本
 
 _入門範本_&#x200B;是預先定義的範本選項，旨在協助您快速開始使用GenStudio for Performance Marketing，並瞭解如何建立有效的媒體。 在[!DNL Create]中，選取媒體型別。 如果有入門範本，請切換至&#x200B;**[!UICONTROL 入門範本]**&#x200B;索引標籤，以瀏覽並選取符合您需求的範本。

@@ -4,13 +4,26 @@ description: 瞭解如何在Horizon畫布上即時與共同作業人員共用付
 feature: Create Canvas
 role: User
 level: Beginner
-source-git-commit: 519c4d0273c996dbebcc28ee90a6b31006581305
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+subfeature_v2:
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+    internal-label: Create canvas
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 5%
-
 ---
-
 # 合作編輯
 
 合作編輯功能可讓草稿建立者與合作人員分享Horizon畫布上的付費媒體草稿、指派角色，以及即時合作。
@@ -60,7 +73,7 @@ Horizon畫布上的合作編輯提供下列功能：
 ## 尋找共用內容
 
 1. 前往內容登陸頁面。
-1. 在「**[!UICONTROL 最近]**」區段中，按一下「從Adobe Express範本&#x200B;**」索引標籤。**
-1. 選取「與您共用」**&#x200B;**，檢視其他使用者授予您存取權的所有草稿。
+1. 在「**[!UICONTROL 最近]**」區段中，按一下「從Adobe Express範本&#x200B;]**」索引標籤。**[!UICONTROL 
+1. 選取「與您共用」****，檢視其他使用者授予您存取權的所有草稿。
 1. 選取&#x200B;**[!UICONTROL 您的]**，只檢視您建立的草稿。
 1. 將滑鼠停留在任何列上的共用指標圖示上，即可檢視檔案擁有者和您的許可權層級。

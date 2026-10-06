@@ -4,25 +4,36 @@ description: 瞭解GenStudio for Performance Marketing檢閱和核准程式。
 level: Beginner
 feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
-TQID: https://experienceleague.adobe.com/2oFwfqVPlW24irHth-mkEx-ciO5tQgNv2hwAYmkfi-g
+TQID: 'https://experienceleague.adobe.com/2oFwfqVPlW24irHth-mkEx-ciO5tQgNv2hwAYmkfi-g'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
+subfeature_v2:
+  - id: dae8b49d-2853-4f33-a27d-a2bad09cbeb6
+    internal-label: Content review
+  - id: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+    internal-label: Metadata
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: '890'
 ht-degree: 0%
-
 ---
-
 # Adobe GenStudio for Performance Marketing審查與核准
 
 檢閱和核准工作流程可確保所有利害關係人（從創意團隊到法律專家）能夠有效地檢閱和核准行銷活動資產和體驗，包括創作AI生產的品牌資產。
@@ -79,7 +90,7 @@ _檢閱者_&#x200B;可以新增註解，但無法核准內容。 檢閱者的參
 
 GenStudio for Performance Marketing產品內通知會即時更新核准者和內容編輯器，以變更資產狀態和`@mention`個註解。 通知可支援在多個稽核、編輯和核准週期中快速反複執行。
 
-內容編輯者和核准者可以註冊，在Slack中接收這些通知。 請參閱[在CX Enterprise中訂閱服務](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/customer-attributes/subscription)。
+內容編輯者和核准者可以註冊，在Slack中接收這些通知。 請參閱[在CX Enterprise中訂閱服務](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/subscription)。
 
 核准參與者採取的動作會觸發自動產品內通知和電子郵件通知。 當您開始核准流程時，指定的核准者會收到電子郵件和產品內通知。 每當核准者新增`@mention`個註解或做出決定時，您就會與產品內通知和電子郵件通知一起進入回圈。 通知包括內容草稿的連結。
 

@@ -5,27 +5,37 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-TQID: https://experienceleague.adobe.com/7M69ANYE-JeTqD3ByecPd8Wt-nBB5YbudVJpx3r25FA
+TQID: 'https://experienceleague.adobe.com/7M69ANYE-JeTqD3ByecPd8Wt-nBB5YbudVJpx3r25FA'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
 subfeature_v2:
   - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+    internal-label: Create canvas
   - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+    internal-label: Display ad experiences
+  - id: e65b668e-f73f-400b-be97-cb6a0ed5e208
+    internal-label: Media templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
+    internal-label: Beginner
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 126
+source-wordcount: '126'
 ht-degree: 1%
-
 ---
-
 # 顯示廣告體驗
 
 透過Adobe GenStudio for Performance Marketing，您可以使用創作AI來簡化[成功建立顯示廣告體驗](/help/user-guide/create/create-display-ad.md)。

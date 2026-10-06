@@ -3,7 +3,7 @@ title: 啟動LinkedIn廣告
 description: 瞭解如何啟用LinkedIn廣告體驗。
 feature: Ad Activation
 exl-id: edc95319-36c3-4cbf-a5c0-865b49482b50
-TQID: https://experienceleague.adobe.com/1mcxWePqYd8tYp3e1D2UTSeBHSvPj4WrqeSyiUCxD8c
+TQID: 'https://experienceleague.adobe.com/1mcxWePqYd8tYp3e1D2UTSeBHSvPj4WrqeSyiUCxD8c'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
     internal-label: GenStudio for Performance Marketing
@@ -15,13 +15,15 @@ feature_v2:
 subfeature_v2:
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
     internal-label: Experiences
+  - id: d87258a7-722c-4afd-b632-adddc447c7aa
+    internal-label: Ad activation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
