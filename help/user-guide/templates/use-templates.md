@@ -49,7 +49,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 雖然GenStudio for Performance Marketing不支援直接在應用程式中建立範本，但您可以使用熱門設計工具（例如Adobe InDesign、Illustrator或Express）輕鬆設計和準備範本。 設計完成後，您可以加以調整以用於GenStudio for Performance Marketing。 請依照下列步驟開始使用範本：
 
-1. **設計您的範本**：使用您偏好的設計工具，以元素](#template-elements)建立[範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
+1. **設計您的範本**：使用您偏好的設計工具，以元素[&#128279;](#template-elements)建立範本的視覺版面，例如頁首、標題、內文、CTA、影像和頁尾。
 
 2. **為您的範本撰寫程式碼**：將您的設計轉換為HTML和內嵌CSS，以確保在各種裝置間保持乾淨且有回應。 請考慮[協助工具准則](accessibility-for-templates.md)，以協助達到您預期的最大受眾。
 
@@ -90,7 +90,7 @@ GenStudio for Performance Marketing可讓內容建立者使用&#x200B;_範本_&#
 
 ## 管理範本
 
-_[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
+_[!DNL Templates]_&#x200B;相簿會顯示您為在GenStudio for Performance Marketing中產生體驗而自訂的範本詳細目錄。
 
 ### 搜尋範本
 
@@ -113,7 +113,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
 **若要新增範本**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取頂端列中的&#x200B;**[!UICONTROL HTML範本]**區段。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取頂端列中的&#x200B;**[!UICONTROL HTML範本]**&#x200B;區段。
 
 1. 按一下&#x200B;**[!UICONTROL +新增範本]**。
 
@@ -125,7 +125,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
    >[!TIP]
    >
-   >如果範本中的詳細資料不正確，請按一下[上一步] ****&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/templates/code-editor.md)進行簡單的更正。
+   >如果範本中的詳細資料不正確，請按一下[上一步] **&#x200B;**&#x200B;並返回上一步。 上傳修正的範本檔案。 或使用[範本程式碼編輯器](/help/user-guide/templates/code-editor.md)進行簡單的更正。
 
 1. 檢閱自動偵測的欄位。 在雙面板「預覽/程式碼」檢視中，左側面板會顯示範本的即時預覽，其中會包含反白顯示的偵測區域。右側邊欄顯示所有偵測欄位的欄位清單及其目前的位置狀態。 欄位標示為Code索引標籤中可見的Handlebars標籤法（例如`{{headline}}`、`{{body}}`、`{{image}}`）。
 
@@ -148,7 +148,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
    > | **其他（可編輯）** | AI會在執行階段產生此欄位的內容，或允許手動編輯自訂欄位。 | 標題、正文和CTA — 任何需要AI變化的地方。 或是手動編輯或內容片段交換的自訂欄位。 |
    > | **已修正** | AI或使用者無法修改欄位。 | 法律宣告、法規註腳、取消訂閱連結。 |
 
-1. 或者，您可以在[程式碼]索引標籤中手動編輯HTML，然後按一下[自動偵測欄位]按鈕&#x200B;]**以重新執行偵測並更新欄位清單。**[!UICONTROL 
+1. 或者，您可以在[程式碼]索引標籤中手動編輯HTML，然後按一下[自動偵測欄位]按鈕&#x200B;**以重新執行偵測並更新欄位清單。**
 
 1. 當您對範本預覽感到滿意時，請按一下&#x200B;**[!UICONTROL [下一步]]**。
 
@@ -169,7 +169,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
 **若要重新整理範本**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
 
 2. 按一下範本以取得完整檢視和詳細資訊清單。
 
@@ -181,7 +181,7 @@ _[!DNL Templates]_相簿會顯示您為在GenStudio for Performance Marketing中
 
 **若要使用範本建立體驗**：
 
-1. 在&#x200B;_[!DNL Content]_中，選取&#x200B;**[!UICONTROL 範本]**區段。
+1. 在&#x200B;_[!DNL Content]_&#x200B;中，選取&#x200B;**[!UICONTROL 範本]**&#x200B;區段。
 
 2. 按一下範本以取得完整檢視和詳細資訊清單。
 
