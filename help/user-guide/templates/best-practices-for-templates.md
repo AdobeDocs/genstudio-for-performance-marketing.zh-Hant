@@ -54,7 +54,7 @@ ht-degree: 0%
 1. 使用[協助工具標準](accessibility-for-templates.md)進行設計，以獲得最佳體驗
 1. 遵循[特定管道的範本准則](#follow-channel-specific-template-guidelines)
 1. 使用[Express範本](/help/user-guide/templates/express-templates.md)時，請考慮[Express to GenStudio範本最佳實務](#express-to-genstudio-template-best-practices)下的特定提示。
-&#x200B;>>
+>>
 瞭解[使用範本](use-templates.md)中範本元素和程式的基本知識。 深入探討[自訂範本](customize-template.md)，以取得下次行銷活動使用的特定指示。
 
 ## 使用正確的範本元素

@@ -29,7 +29,7 @@ Adobe GenStudio for Performance Marketing可協助組織進行AI驅動的行銷�
 
 GenStudio for Performance Marketing是一款Adobe CX Enterprise產品，使用該產品生態系統的擴充性架構。 可擴充的應用程式開發人員使用[Adobe App Builder](https://developer.adobe.com/app-builder/)和[Adobe GenStudio UI可擴充性SDK](https://github.com/adobe/genstudio-uix-sdk)來開發和發佈支援特定使用案例的自訂應用程式。
 
-使用Adobe Journey Optimizer的組織可以從Adobe Exchange安裝適用於GenStudio[&#128279;](journey-optimizer-for-genstudio.md)應用程式的Journey Optimizer，以便在GenStudio中建立電子郵件體驗時使用AJO範本。
+使用Adobe Journey Optimizer的組織可以從Adobe Exchange安裝適用於GenStudio](journey-optimizer-for-genstudio.md)應用程式的[Journey Optimizer，以便在GenStudio中建立電子郵件體驗時使用AJO範本。
 
 使用[!DNL Marketo Engage]的組織可以從Adobe Exchange安裝[適用於GenStudio的Marketo](marketo-for-genstudio.md)，以便在GenStudio中建立電子郵件體驗時使用Marketo範本。
 
