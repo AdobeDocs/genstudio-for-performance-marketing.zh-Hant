@@ -3,24 +3,33 @@ title: 部署您的App Builder應用程式
 description: 部署適用於GenStudio for Performance Marketing的App Builder應用程式或附加元件。
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-TQID: https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s
+TQID: 'https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+    internal-label: Compliance
   - id: bfaa655b-e017-428d-80d0-09de2183b296
+    internal-label: Extensions
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
+    internal-label: Digital asset management
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '622'
 ht-degree: 0%
-
 ---
-
 # 部署您的應用程式
 
 執行應用程式可提供附加元件在部署前的初步行為快照。 這有助於偵錯。

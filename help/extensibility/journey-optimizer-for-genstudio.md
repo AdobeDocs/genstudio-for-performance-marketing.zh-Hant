@@ -2,13 +2,23 @@
 title: 適用於GenStudio的Journey Optimizer
 description: 安裝和設定適用於GenStudio Adobe Exchange應用程式的Journey Optimizer ，讓您的組織可以在GenStudio for Performance Marketing中使用Adobe Journey Optimizer範本。
 feature: Extensibility
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
+    internal-label: Integrations
+subfeature_v2:
+  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
+    internal-label: Extensibility
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
-
 ---
-
 # 適用於GenStudio的Journey Optimizer
 
 在同一[!DNL IMS]組織中使用[!DNL Adobe Journey Optimizer] (AJO)和[!DNL GenStudio for Performance Marketing]的組織可以從[!DNL Adobe Exchange]安裝適用於GenStudio **應用程式的** Journey Optimizer。 系統管理員核准應用程式並完成部署後，作者可以在GenStudio中建立電子郵件體驗時，於直接上傳至[!DNL Content]的範本旁選擇AJO內容範本。

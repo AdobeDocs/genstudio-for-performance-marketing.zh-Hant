@@ -1,16 +1,29 @@
 ---
-title: 在 [!DNL Create]中使用標誌交換
-description: 瞭解如何在 [!DNL Create] 工作流程期間交換範本中的品牌圖志。
+title: 在[!DNL Create]中使用標誌交換
+description: 瞭解如何在[!DNL Create]工作流程期間交換範本中的品牌圖志。
 feature: Create Canvas
 role: User
 level: Beginner
-source-git-commit: 380825c8dc046f826458f3dc75044ab2d000df92
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+feature_v2:
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+subfeature_v2:
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+    internal-label: Create canvas
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Create]中使用標誌交換
 
 在[!DNL GenStudio for Performance Marketing]中建立內容時，使用「圖志交換」取代範本中的品牌圖志。

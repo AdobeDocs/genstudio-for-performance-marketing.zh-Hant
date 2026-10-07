@@ -2,7 +2,13 @@
 title: AI助理工具參考
 description: 瞭解AI助理可以搭配[!DNL GenStudio for Performance Marketing]使用的深入分析、建立、啟用和意見回饋工具。
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 15%

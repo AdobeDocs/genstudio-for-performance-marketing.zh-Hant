@@ -2,7 +2,13 @@
 title: 建立Meta廣告體驗 — 輪播廣告
 description: 瞭解如何在[!DNL GenStudio for Performance Marketing]中建立多卡片Meta輪播廣告體驗、管理卡片，以及產生品牌內概念。
 role: User
-source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%

@@ -2,7 +2,13 @@
 title: 連線AI助理
 description: 瞭解如何將支援的AI助理連線到[!DNL GenStudio for Performance Marketing]並驗證對可用工具的存取權。
 role: User
-source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%

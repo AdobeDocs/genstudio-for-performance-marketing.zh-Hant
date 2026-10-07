@@ -3,30 +3,43 @@ title: Adobe GenStudio for Performance Marketing中的品牌驗證
 description: 瞭解GenStudio for Performance Marketing中的內建品牌驗證系統。
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-TQID: https://experienceleague.adobe.com/0avyL5lvm9hWdlxGE0RwPhP0dX2bA91GNnlKLG1oqEY
+TQID: 'https://experienceleague.adobe.com/0avyL5lvm9hWdlxGE0RwPhP0dX2bA91GNnlKLG1oqEY'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+    internal-label: Compliance
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
 subfeature_v2:
   - id: be495d08-ecd1-455f-951e-c22de504e667
+    internal-label: Content generation
   - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+    internal-label: Variant generation
   - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+    internal-label: Brand personalization
+  - id: dae8b49d-2853-4f33-a27d-a2bad09cbeb6
+    internal-label: Content review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Personalization
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 787
+source-wordcount: '787'
 ht-degree: 0%
-
 ---
-
 # 品牌驗證
 
 在GenStudio for Performance Marketing中，品牌驗證是與產生AI功能和指導方針 — [[!DNL Brands]](/help/user-guide/guidelines/brands.md)、[[!DNL Products]](/help/user-guide/guidelines/products.md)和[[!DNL Personas]](/help/user-guide/guidelines/personas.md) — 共同運作的基本元件。 這可確保所有內容符合您的品牌識別、ADA標準和個別通路平台指引。
@@ -91,7 +104,7 @@ _內容檢查_&#x200B;面板會顯示影像和變體區段的驗證和[相容性
 
    >[!NOTE]
    >
-   >_內容檢查_&#x200B;面板中註記的&#x200B;_品牌聲音_&#x200B;指引適用於整個變體，而非個別區段。 系統會強調顯示整個內容變體，以利提出改善建議。
+   > _內容檢查_&#x200B;面板中註記的&#x200B;_品牌聲音_&#x200B;指引適用於整個變體，而非個別區段。 系統會強調顯示整個內容變體，以利提出改善建議。
 
 1. 按一下以修正目前不相容的准則。
 1. 按一下以展開並檢查每個需要在可用區段（例如&#x200B;_標題_、_色彩_&#x200B;和&#x200B;_品牌語音_）中檢閱的檢查。
