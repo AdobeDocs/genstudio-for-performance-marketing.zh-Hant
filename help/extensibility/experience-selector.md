@@ -205,7 +205,7 @@ Experience Selector會透過SUSI自動處理驗證：
         },
         "destination_url": {
             "fieldName": "destination_url",
-            "fieldValue": "https://www.adobe.com"
+            "fieldValue": "https://www.adobe.com/tw"
         },
         "description": {
             "fieldName": "description",
