@@ -68,18 +68,34 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 5d651c7ec00aff866ce1f3698521b5baf48b3385
+source-git-commit: 87749b66644ae6b322ccf872a9b21696d87b4b99
 workflow-type: tm+mt
-source-wordcount: '5824'
+source-wordcount: '5942'
 ht-degree: 0%
 ---
 # GenStudio for Performance Marketing發行說明
 
 此版本資訊提供GenStudio for Performance Marketing應用程式的最新更新。
 
-## 2026.09.15 {#latest}
+## 2026.10.15 {#latest}
 
 **新功能：**
+
+### 具有語音列印和視覺提示的有狀態產生
+
+產生狀態可讓您在對話中輪流調整內容，而不是每次都以新的提示重新開始。 層代會記住您之前的指示和您保留的變體，然後僅套用您要求的變更。
+
+聲紋功能可讓您在具有[!DNL Insights]的頻道（例如LinkedIn和Meta）上，以品牌聲音的復本。 在您選取的影像或視訊中，以視覺提示作為背景複製，您可以在提示中新增網頁URL作為參考內容。
+
+深入瞭解[產生並調整具有狀態產生](/help/user-guide/create/stateful-generation.md)的內容。
+
+### 修正和增強功能
+
+* 大量啟動中的追蹤ID現在會自動填入體驗名稱。
+
+## 舊版發行說明
+
++++2026.09.15版注意事項
 
 ### 大量啟用
 
@@ -87,7 +103,7 @@ ht-degree: 0%
 
 深入瞭解[啟動工作流程](/help/user-guide/activation/create-activation.md)。
 
-## 舊版發行說明
++++
 
 +++2026.07.16版注意事項
 
@@ -283,7 +299,7 @@ GenStudio for Performance Marketing現在支援Content Credentials，可讓團�
 
 ### Firefly Image Model 4上的自訂模型
 
-* GenStudio for Performance Marketing現在支援以Adobe Firefly Image Model 4[&#128279;](/help/user-guide/create/generate-assets.md)訓練的自訂模型，提供更優異的品牌上影像產生功能，以及更出色的真實感和細節。
+* GenStudio for Performance Marketing現在支援以Adobe Firefly Image Model 4](/help/user-guide/create/generate-assets.md)訓練的[自訂模型，提供更優異的品牌上影像產生功能，以及更出色的真實感和細節。
 
 ### Meta單一視訊廣告啟用
 
@@ -292,7 +308,7 @@ GenStudio for Performance Marketing現在支援Content Credentials，可讓團�
 
 ### Meta行銷活動各動作型別的CPA
 
-* 針對Meta廣告行銷活動，使用彈性的轉換追蹤[&#128279;](/help/user-guide/insights/published-experiences.md)分析每次動作成本(CPA)。
+* 針對Meta廣告行銷活動，使用彈性的轉換追蹤](/help/user-guide/insights/published-experiences.md)分析[每次動作成本(CPA)。
 * 若要在[!DNL Insights]中計算並檢視跨行銷活動、廣告、資產和屬性的CPA，請從多種動作型別（例如購買、加入購物車事件、銷售機會、視訊檢視或自訂轉換）中選取，而不是單一固定量度。
 
 ### 修正和增強功能
@@ -548,8 +564,8 @@ Meta廣告的多外觀比例影像啟用可讓廣告商在單一廣告創意下�
 * 已新增在變體中[新增連結至影像](/help/user-guide/create/manage-variants.md#add-image-link)的功能。
 * 將[內容檢查](/help/user-guide/guidelines/brand-validation.md)和檢閱及核准功能移至新的右方動作列，以最大化畫布空間並改善使用者體驗。
 * 簡化[上傳或手動新增品牌](/help/user-guide/guidelines/add-guidelines.md#add-brands)的流程。
-* 引進在畫布上的變體[&#128279;](/help/user-guide/create/manage-variants.md#swap-image)中新增或交換影像資產的功能。
-* 改善使用者體驗和建立首頁[&#128279;](/help/user-guide/create/overview.md)上頻道類別的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
+* 引進在畫布上的變體](/help/user-guide/create/manage-variants.md#swap-image)中[新增或交換影像資產的功能。
+* 改善使用者體驗和建立首頁](/help/user-guide/create/overview.md)上頻道類別[的可見度，方法是將其分割為擁有的媒體、付費媒體和內容區段。
 * 已改善[!DNL Insights]表格和相簿檢視中的篩選。
 
 +++
@@ -796,6 +812,6 @@ Beta計畫可協助您打造產品開發，並決定一般可用性整備程度�
 
 **[!DNL Insights]**&#x200B;提供內容績效的即時評估，協助行銷人員最佳化其策略並做出資料導向式決策。
 
-GenStudio for Performance Marketing與其他Adobe CX Enterprise產品整合，包括Adobe Express和Adobe AEM Assets。
+GenStudio for Performance Marketing已與其他Adobe CX Enterprise產品整合，包括Adobe Express和Adobe AEM Assets。
 
 +++
