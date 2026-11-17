@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
+source-git-commit: 7863995df08681a8a427277121a5fbeca131c6a9
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '326'
+ht-degree: 0%
 ---
 # 管理啟用
 
@@ -43,6 +43,10 @@ ht-degree: 1%
 您可以按一下右上角的&#x200B;**[!UICONTROL 再試一次]**，以自動重試失敗的啟用。
 
 已發佈的列會因重新提交而遭到鎖定，且在目的地平台的原生廣告管理員中，包含該廣告的深層連結，因此您可以直接跳至目的地平台以進行檢閱或啟動。
+
+## 產生廣告名稱
+
+使用您組織的命名慣例，從體驗資訊產生一致的廣告名稱。 在將廣告傳送至平台之前，您可以檢閱、編輯或覆寫名稱。 請參閱[產生廣告名稱](generate-ad-names.md)。
 
 ## 詳細資料檢視
 
